@@ -1,0 +1,47 @@
+/**
+ * Navigation Top 
+ */
+
+.deco-bar {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 0;
+    margin-bottom: 0;
+    border: 0;
+    z-index: 1;
+    position: relative;
+    height: 80px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.deco-bar-title {
+    font-size: 24pt;
+    color: #fff !important;
+    margin: 16px;
+    /* text-transform: uppercase; */
+    font-family: Magneto, sans-serif;
+    flex-grow: 1;
+}
+
+.deco-bar-icon img {
+    margin: 1em;
+    box-sizing: border-box;
+    height: 50px;
+    display: inline-block;
+}
+
+/* 
+ * Join Game Button
+ */
+.secret {
+    display: inherit;
+}
+
+.join-icon img {
+    margin: 1em;
+    box-sizing: border-box;
+    height: 50px;
+    display: inline-block;
+}

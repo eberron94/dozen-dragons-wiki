@@ -1,0 +1,154 @@
+var fs = require('fs');
+var path = require('path');
+var Handlebars = require('handlebars');
+
+const { registerEntryTypes, markup, entryMarkup } = require('./helper/entry');
+const { kaiser } = require('./kaiser');
+
+exports.buildSite = () => {
+    registerHandlebars();
+
+    /** CREATE COMMON PAGE BODY
+     * html template shared by all pages, only process it once.
+     */
+
+    const renderPageBody = compileHandlebarTemplate(
+        'templates/common/body.hbs'
+    );
+
+    const renderNavigation = compileHandlebarTemplate(
+        'templates/common/navigation.hbs'
+    );
+
+    const navHTML = renderNavigation(kaiser.navigationTree);
+
+    /**
+     * Build non-mdx pages
+     */
+    kaiser.buildTooltips(compileHandlebarTemplate);
+    kaiser.buildBlocks(compileHandlebarTemplate);
+    kaiser.buildPages(compileHandlebarTemplate);
+
+    /**
+     * Fill MDX pages with content blocks
+     */
+    kaiser.fillMDX(Handlebars.compile);
+
+    /**
+     * Write pages to build folder
+     */
+
+    kaiser.pageList.forEach((pageData) => {
+        const { node } = pageData;
+        pageData.html = entryMarkup(pageData.html);
+        pageData.sidebar = entryMarkup(pageData.sidebar);
+        const { prev, next } = kaiser.pagingMap[node.slug] || {};
+        const completeHTML =
+            '<!DOCTYPE html>' +
+            renderPageBody({
+                ...pageData,
+                navigation: navHTML,
+                prev,
+                next,
+            });
+        ensureDirectoryExistence('./build/' + node.slug);
+        fs.writeFile('./build/' + node.slug + '.html', completeHTML, (err) => {
+            if (err) console.error(err, pageData.html);
+            else console.log(node.slug, 'file written successfully');
+        });
+    });
+
+    /**
+     * DEBUG: write kaiser to file
+     */
+
+    const kaiserString = JSON.stringify(kaiser, null, 4);
+    ensureDirectoryExistence('./build/DEBUG/kaiser.json');
+    fs.writeFile('./build/DEBUG/kaiser.json', kaiserString, (err) => {
+        if (err) console.error(err);
+        else console.log('DEBUG: KAISER file written successfully');
+    });
+};
+
+const registerHandlebars = () => {
+    // REGISTER HELPERS AND PARTIALS
+
+    Handlebars.registerHelper(
+        'navChild',
+        compileHandlebarTemplate('templates/common/navigation-child.hbs')
+    );
+
+    Handlebars.registerHelper(
+        'one_action',
+        compileHandlebarTemplate('templates/game/one-action.hbs')
+    );
+
+    Handlebars.registerHelper(
+        'two_action',
+        compileHandlebarTemplate('templates/game/two-action.hbs')
+    );
+
+    Handlebars.registerHelper(
+        'three_action',
+        compileHandlebarTemplate('templates/game/three-action.hbs')
+    );
+
+    Handlebars.registerHelper(
+        'free_action',
+        compileHandlebarTemplate('templates/game/free-action.hbs')
+    );
+
+    Handlebars.registerHelper(
+        'reaction',
+        compileHandlebarTemplate('templates/game/reaction.hbs')
+    );
+
+    Handlebars.registerHelper(
+        'traits',
+        compileHandlebarTemplate('templates/game/traits.hbs')
+    );
+
+    Handlebars.registerHelper('deck', (context, options) => {
+        const buildDeck = compileHandlebarTemplate('templates/page/deck.hbs');
+
+        if (options.hash.levelHeading && Array.isArray(context)) {
+            const hl = Number(options.hash.levelHeading) || 2;
+            const levelBuckets = bucketArray(
+                context.filter((e) => e),
+                'level'
+            );
+            return Object.keys(levelBuckets)
+                .sort((a, b) => a - b)
+                .map((lvl) => {
+                    const nth = nthNumber(lvl);
+                    return (
+                        `<div class='level-head'><h${hl} id="level-${nth}">${nth} Level</h${hl}></div>` +
+                        buildDeck(levelBuckets[lvl], options)
+                    );
+                })
+                .join('\n');
+        }
+
+        return compileHandlebarTemplate('templates/page/deck.hbs')(
+            context,
+            options
+        );
+    });
+
+    registerEntryTypes();
+};
+
+const compileHandlebarTemplate = (templatePath) => {
+    return Handlebars.compile(
+        fs.readFileSync(path.resolve(templatePath), 'utf-8')
+    );
+};
+
+function ensureDirectoryExistence(filePath) {
+    var dirname = path.dirname(filePath);
+    if (fs.existsSync(dirname)) {
+        return true;
+    }
+    ensureDirectoryExistence(dirname);
+    fs.mkdirSync(dirname);
+}

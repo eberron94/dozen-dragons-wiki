@@ -1,0 +1,65 @@
+/**
+ * NAVIGATION POPUP
+ */
+
+@media only screen and (max-width: 850px) {
+    /* For mobile phones: */
+
+    .hidden-mobile,
+    .join-game,
+    .page-toc {
+        display: none !important;
+    }
+
+    .content {
+        overflow-y: auto;
+    }
+
+    .nav {
+        width: 100vw;
+        max-width: 100vw;
+    }
+
+    .nav-side-toggle input[type='checkbox']:checked + label + ul {
+        /* reset the width when checkbox is checked */
+        right: 0;
+    }
+
+    .pager-wrapper {
+        display: block;
+        padding: 0 15px;
+    }
+
+    .previousBtn,
+    .nextBtn {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 1199px) {
+    /* MEDIUM VIEW */
+
+    .page-toc {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 851px) {
+    /* NOT SMALL VIEW */
+    .toggle-nav-menu {
+        display: none;
+    }
+
+    .nav-sidebar {
+        height: calc(100vh - 80px);
+        width: 300px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        -ms-overflow-style: none; /* Internet Explorer 10+ */
+        scrollbar-width: none; /* Firefox */
+    }
+
+    .nav-sidebar::-webkit-scrollbar {
+        display: none; /* Safari and Chrome */
+    }
+}

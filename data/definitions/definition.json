@@ -1,0 +1,17 @@
+[
+    {
+        "id": "devCost",
+        "name": "Development Cost",
+        "formatted": {
+            
+            "abbreviation": "DC",
+            "plural": "Development Costs",
+            "abbreviation+plural": "DCs"
+        },
+        "type": "definition",
+        "slug": "/glossary",
+        "tip": [
+            "The rate of exchanging {@skill xp} to increase the base value of a skill or ability."
+        ]
+    }
+]

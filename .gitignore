@@ -1,0 +1,14 @@
+public
+.cache
+node_modules
+*DS_Store
+*.env
+
+_*
+
+.idea/
+
+# data-stage
+data-stage/core/parse
+# data-stage/core1/**
+# data-stage/core2/**

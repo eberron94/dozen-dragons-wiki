@@ -1,0 +1,3190 @@
+[
+    {
+        "id": "equipment.weapon.martial.adze",
+        "color": "",
+        "title": "Adze",
+        "icon_front": "sharp-axe",
+        "code": "equipment",
+        "contents": [
+            "pftrait | forceful | grippli | sweep",
+            "property | Hands | 2 | Bulk | 2 | Price | 1 gp",
+            "property | Category | Martial Weapon | Group | Axe",
+            "rule",
+            "text | A common cutting tool, an adze resembles an axe—but the cutting edge is horizontal, rather than vertical. The adze's shape makes it popular among wood workers, and grippli builders often use them to construct their treetop homes. The tool also serves as an effective weapon, due in part to the immense strength required to swing it."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.air-repeater",
+        "color": "",
+        "title": "Air Repeater",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | repeating",
+            "property | Hands | 1 | Bulk | L | Price | 5 gp",
+            "property | Category | Simple Weapon | Group | Firearm",
+            "rule",
+            "text | A thin-barreled firearm that uses a container of pressurized air instead of black powder to propel small metal bullets from an attached cartridge, the air repeater has fallen out of common use in Arcadia due to its poor stopping power, though it's still used occasionally for casual hunting and sport shooting. The air repeater and its longer-ranged, two-handed variant are still valued by some for their ability to allow a shooter to fire multiple rounds without needing to stop to reload or crank to a new chamber. A typical air repeater magazine holds 6 pellets."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.aklys",
+        "color": "",
+        "title": "Aklys",
+        "icon_front": "wood-club",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | ranged trip | tethered | thrown 20 ft. | trip",
+            "property | Hands | 1 | Bulk | 1 | Price | 5 gp",
+            "property | Category | Advanced Weapon | Group | Club",
+            "rule",
+            "text | The aklys is a throwing club with a hook on one end and a lengthy cord attached to the other. It is an uncommon advanced melee weapon in the club group. It deals 1d6 bludgeoning damage and has 1 Bulk. It requires one hand to use and has the ranged trip, tethered, thrown 20 feet, and trip weapon traits; the new traits are described below. Though aklyses aren't available in most shops, one might be purchased for 5 gp from a vendor that specializes in strange weapons."
+        ]
+    },
+    {
+        "id": "item.weapon.simple.alchemical-crossbow",
+        "color": "",
+        "title": "Alchemical Crossbow",
+        "icon_front": "crossbow",
+        "code": "item 0",
+        "contents": [
+            "pftrait | uncommon | alchemical",
+            "property | Hands | 2 | Bulk | 1 | Price | 25 gp",
+            "property | Category | Simple Weapon | Group | Bow",
+            "rule",
+            "text | This crossbow can deliver alchemically infused bolts. The strange weapon has a metal bracket mounted on the side of the stock near the lath. As an action, you can load a single lesser alchemical bomb into the bracket; this bomb must be one that deals energy damage (such as an acid flask, alchemist's fire, bottled lightning, frost vial, or thunderstone). The next three attacks made with the crossbow deal 1d6 damage of the bomb's damage type in addition to the crossbow's normal damage. If the second and third attacks are not all made within 1 minute of the first attack, the bomb's energy is wasted. These attacks never deal splash damage or other special effects of the bomb and are not modified by any abilities that add to or modify a bomb's effect. The addition of the bracket serves to unbalance the weapon, reducing its range to 30 feet.",
+            "text | It otherwise functions as a crossbow (when determining damage, reload, and so on). Creatures use their crossbow proficiency when using the alchemical crossbow. The alchemical crossbow costs 25 gp."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.aldori-dueling-sword",
+        "color": "",
+        "title": "Aldori Dueling Sword",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | finesse | versatile p",
+            "property | Hands | 1 | Bulk | 1 | Price | 2 gp",
+            "property | Category | Advanced Weapon | Group | Sword",
+            "rule",
+            "text | An Aldori dueling sword is a slim, single-bladed dueling sword with a slight curve and a sharp, reinforced point. It deals 1d8 slashing damage. An aldori dueling sword is an advanced one-handed melee weapon in the sword weapon group."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.arquebus",
+        "color": "",
+        "title": "Arquebus",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | concussive | fatal d12 | kickback",
+            "property | Hands | 2 | Bulk | 2 | Price | 10 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | This is a long rifle that offers more range than the average firearm, though the long barrel and ferocious kickback make the weapon particularly unsteady unless a tripod or other stand is used to stabilize it. The arquebus is one of the most commonly used long guns among the soldiers of Dongun Hold and Alkenstar."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.asp-coil",
+        "color": "",
+        "title": "Asp Coil",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | reach | versatile p",
+            "property | Hands | 1 | Bulk | 1 | Price | 10 gp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | The asp coil, named both for its slithering striking style and its usage among Aspis Consortium agents, has two forms. In sword form, it resembles an elegant, oddly balanced sword. However, with a twist of the pommel, the blade splits into a series of segments connected by elaborate metal cables. Agents of the Aspis Consortium have access to this weapon."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.axe-musket",
+        "color": "",
+        "title": "Axe Musket",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon",
+            "property | Hands | 2 | Bulk | 2 | Price | 10 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | This item, favored by firearms-using dwarves and barbarians, takes the form of a sturdy musket with an axeblade attached near the muzzle."
+        ]
+    },
+    {
+        "id": "item.weapon.martial.backpack-ballista",
+        "color": "",
+        "title": "Backpack Ballista",
+        "icon_front": "crossbow",
+        "code": "item 1",
+        "contents": [
+            "pftrait | uncommon",
+            "property | Hands | 1+ | Bulk | 2 | Price | 18 gp",
+            "property | Category | Martial Weapon | Group | Bow",
+            "rule",
+            "text | This complex wooden device, worn on the back, contains a miniature ballista on a retractable arm. As an Interact action, you can pull a lever to deploy or retract the ballista. As long as it remains deployed, you must hold the ballista using that hand or some of the components spill out onto the ground, just like dropping any other weapon. While deployed, the device opens and raises the ballista up over your shoulder. While retracted, the ballista and its mount slide down and are concealed within the device. Although a backpack ballista packs a punch, the device is a challenge to operate. Reloading it takes 1 minute and can't be done while worn. As normal, you can't wear a backpack ballista with another backpack."
+        ]
+    },
+    {
+        "id": "item.weapon.advanced.backpack-catapult",
+        "color": "",
+        "title": "Backpack Catapult",
+        "icon_front": "sling",
+        "code": "item 1",
+        "contents": [
+            "pftrait | uncommon | volley 50 ft.",
+            "property | Hands | 1+ | Bulk | 3 | Price | 20 gp",
+            "property | Category | Advanced Weapon | Group | Sling",
+            "rule",
+            "text | This wooden device is worn on the back and contains a miniature catapult mounted on a retractable frame. As an Interact action, you can pull a lever to deploy or retract the catapult. As long as it remains deployed, you must hold the catapult using that hand or some of the components spill out onto the ground, just like dropping any other weapon. While deployed, the device opens and raises the catapult up over your shoulder. While retracted, the catapult and its mount slide down and are concealed within the device. A backpack catapult fires specialized stone spheres that are loaded into the bucket while unworn and retracted, through a sliding hatch; the reloading process takes 1 minute. To prevent misfires and accidental injury, the bucket fully encloses the stone while deployed, only opening when fired. As normal, you can't wear a backpack catapult with another backpack."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.bastard-sword",
+        "color": "",
+        "title": "Bastard Sword",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | two-hand d12",
+            "property | Hands | 1 | Bulk | 1 | Price | 4 gp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | This broad-bladed sword, sometimes called the hand-and-a-half sword, has a longer grip so it can be held in one hand or used with two hands to provide extra piercing or slashing power."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.battle-axe",
+        "color": "",
+        "title": "Battle Axe",
+        "icon_front": "sharp-axe",
+        "code": "equipment",
+        "contents": [
+            "pftrait | sweep",
+            "property | Hands | 1 | Bulk | 1 | Price | 1 gp",
+            "property | Category | Martial Weapon | Group | Axe",
+            "rule",
+            "text | These axes are designed explicitly as weapons, rather than tools. They typically weigh less, with a shaft reinforced with metal bands or bolts, and have a sharper blade, making them ideal for chopping limbs rather than wood."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.battle-lute",
+        "color": "",
+        "title": "Battle Lute",
+        "icon_front": "wood-club",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | shove | two-hand d8",
+            "property | Hands | 1 | Bulk | 1 | Price | 15 gp",
+            "property | Category | Simple Weapon | Group | Club",
+            "rule",
+            "text | This reinforced lute is suitable both for use as a handheld musical instrument and for bashing heads should a crowd turn sour. Its strings are finely braided wires that run along its sturdy metal neck."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.bayonet",
+        "color": "",
+        "title": "Bayonet",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | attached to crossbow or firearm | finesse",
+            "property | Hands | 1 or 2* | Bulk | L | Price | 2 sp",
+            "property | Category | Martial Weapon | Group | Knife",
+            "rule",
+            "text | This blade or spike can be attached to a crossbow or firearm but, unlike other attached weapons, can be wielded in one hand as its own weapon. When used as a separate weapon, it can't benefit from any runes or abilities that function only for attached weapons.",
+            "text | *An attached bayonet or reinforced stock requires the same number of hands as the weapon it's attached to. A detached bayonet requires one hand."
+        ]
+    },
+    {
+        "id": "item.weapon.martial.big-boom-gun",
+        "color": "",
+        "title": "Big Boom Gun",
+        "icon_front": "blunderbuss",
+        "code": "item 1",
+        "contents": [
+            "pftrait | uncommon | cobbled | fatal d12 | modular b, p, or s",
+            "property | Hands | 1 | Bulk | 2 | Price | 10 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | Developed by a goblin weaponsmith who missed the 'hand' part of 'hand cannon', this comically-oversized gun has a heavily reinforced barrel and is loaded with a worrisome quantity of gunpowder.",
+            "text | This hand cannon is a martial weapon, instead of a simple weapon. It has the fatal d12 trait and a range of 20 feet. It also has the following modified critical failure condition:",
+            "fill",
+            "property | Critical Failure | The attack misses, the weapon misfires, and you take {@damage 1d12} fire damage as it explodes in your face.",
+            "fill"
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.black-powder-knuckle-dusters",
+        "color": "",
+        "title": "Black Powder Knuckle Dusters",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon",
+            "property | Hands | 1 | Bulk | L | Price | 8 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | This pair of knuckle dusters is fitted with an explosive charge of black powder within the hollowed spikes of the weapon and a firing mechanism you hold in your hand while in use."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.bladed-diabolo",
+        "color": "",
+        "title": "Bladed Diabolo",
+        "icon_front": "flail",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | backswing | disarm | finesse | thrown 40 feet | trip",
+            "property | Hands | 2 | Bulk | L | Price | 20 sp",
+            "property | Category | Advanced Weapon | Group | Flail",
+            "rule",
+            "text | This weapon consists of two bladed discs joined by a central axel, and is spun on a rope whose ends are attached to wand-like sticks. The wielder can hurl the diabolo from the rope like a stone from a sling, or swing it on the rope in melee."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.bladed-hoop",
+        "color": "",
+        "title": "Bladed Hoop",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | finesse | sweep | two-hand d8",
+            "property | Hands | 0+ | Bulk | 1 | Price | 25 sp",
+            "property | Category | Advanced Weapon | Group | Knife",
+            "rule",
+            "text | This circular hoop has blades along its outer edge. You can wield it in two hands (using the two-hand damage) or by spinning it around an arm. While you spin the hoop, it gains the free-hand trait. Setting the hoop spinning takes 1 Interact action. In addition to the normal restrictions of the free-hand trait, extended use of the arm for locomotion (such as to Climb) interferes with the hoop's spinning and forces you to Release the hoop. You can't spin a hoop underwater. Keeping the hoop spinning requires a free action each round, which has the concentrate and manipulate traits. You can keep a hoop spinning as an exploration activity, but doing so for more than 10 minutes makes you fatigued, similarly to Hustling."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.bladed-scarf",
+        "color": "",
+        "title": "Bladed Scarf",
+        "icon_front": "flail",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | disarm | finesse | reach | sweep | trip",
+            "property | Hands | 2 | Bulk | 1 | Price | 3 gp",
+            "property | Category | Martial Weapon | Group | Flail",
+            "rule",
+            "text | The thin metal plates interwoven throughout this long scarf turn a fashion accessory into a deadly weapon."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.blowgun",
+        "color": "",
+        "title": "Blowgun",
+        "icon_front": "dart",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | nonlethal",
+            "property | Hands | 1 | Bulk | L | Price | 1 sp",
+            "property | Category | Simple Weapon | Group | Dart",
+            "rule",
+            "text | This long, narrow tube is used for shooting blowgun darts, using only the power of a forcefully exhaled breath."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.blunderbuss",
+        "color": "",
+        "title": "Blunderbuss",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | concussive | scatter 10 ft.",
+            "property | Hands | 2 | Bulk | 2 | Price | 8 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | This weapon fires pellets from a trumpet-shaped barrel, making it an excellent choice for hunting brush fowl or dealing damage within a short, broad area. Adventuring gunslingers often carry a blunderbuss to deal with swarms of vermin and similar threats."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.bo-staff",
+        "color": "",
+        "title": "Bo Staff",
+        "icon_front": "wood-club",
+        "code": "equipment",
+        "contents": [
+            "pftrait | monk | parry | reach | trip",
+            "property | Hands | 2 | Bulk | 2 | Price | 2 sp",
+            "property | Category | Martial Weapon | Group | Club",
+            "rule",
+            "text | This strong but slender staff is tapered at the ends and well balanced. It's designed to be an offensive and defensive weapon."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.boarding-axe",
+        "color": "",
+        "title": "Boarding Axe",
+        "icon_front": "sharp-axe",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | azarketi | climbing | versatile p",
+            "property | Hands | 1 | Bulk | L | Price | 1 gp",
+            "property | Category | Martial Weapon | Group | Axe",
+            "rule",
+            "text | This small axe sports a spike opposite the blade that aids in climbing and is useful in clearing obstacles, such as fallen rigging. This weapon is common in the High Seas region, on the Isle of Kortos and within azarketi settlements."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.boarding-pike",
+        "color": "",
+        "title": "Boarding Pike",
+        "icon_front": "bo",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | reach | shove",
+            "property | Hands | 2 | Bulk | 2 | Price | 8 sp",
+            "property | Category | Martial Weapon | Group | Polearm",
+            "rule",
+            "text | Taking the form of a longspear fitted with crossbars or hooks, a boarding pike provides its wielder a sharp implement that's as adept at shoving enemies off a ship's railings as facilitating the boarding of other vessels. This is a martial melee weapon."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.bola",
+        "color": "",
+        "title": "Bola",
+        "icon_front": "sling",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | nonlethal | ranged trip | thrown",
+            "property | Hands | 1 | Bulk | L | Price | 5 sp",
+            "property | Category | Martial Weapon | Group | Sling",
+            "rule",
+            "text | This throwing weapon consists of weights tied to the end of long cords, which can be used to bludgeon foes or entangle their legs."
+        ]
+    },
+    {
+        "id": "equipment.armor.medium.breastplate",
+        "color": "",
+        "title": "Breastplate",
+        "icon_front": "abdominal-armor",
+        "code": "equipment",
+        "contents": [
+            "property | Bulk | 2 | Price | 8 gp",
+            "property | AC Bonus | +4 | Dex Cap | +1",
+            "property | Str Req. | 16 | Check Penalty | --2 | Speed Penalty | --5 ft.",
+            "property | Category | Medium Armor | Group | Plate",
+            "rule",
+            "text | Though referred to as a breastplate, this type of armor consists of several pieces of plate or half plate armor that protect the torso, chest, neck, and sometimes the hips and lower legs. It strategically grants some of the protection of plate while allowing greater flexibility and speed."
+        ]
+    },
+    {
+        "id": "equipment.shield.buckler",
+        "color": "",
+        "title": "Buckler",
+        "icon_front": "shield",
+        "code": "equipment",
+        "contents": [
+            "property | Bulk | L | Price | 1 gp",
+            "rule",
+            "text | This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.butchering-axe",
+        "color": "",
+        "title": "Butchering Axe",
+        "icon_front": "sharp-axe",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | orc | shove | sweep",
+            "property | Hands | 2 | Bulk | 2 | Price | 8 gp",
+            "property | Category | Advanced Weapon | Group | Axe",
+            "rule",
+            "text | Invented by Belkzen's zealous Steel-Eaters, the butchering axe has an oversized head and a long, thick haft counterbalanced with steel or stone. The weapon's sweeping strokes inflict immense damage, particularly against groups of foes, and can push dangerous opponents away to a safe distance. All of these qualities are particularly useful against the lumbering zombie hordes of the Whispering Tyrant. Correspondingly, butchering axes are often wielded by orc and half-orc Crimson Reclaimers of Lastwall."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.butterfly-sword",
+        "color": "",
+        "title": "Butterfly Sword",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | disarm | finesse | monk | parry | twin",
+            "property | Hands | 1 | Bulk | L | Price | 2 gp",
+            "property | Category | Advanced Weapon | Group | Sword",
+            "rule",
+            "text | This short, single-edged sword typically features a cross guard that helps catch oncoming attacks. It is the preferred weapon of Butterfly Blades—highly skilled Gokan assassins."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.buugeng",
+        "color": "",
+        "title": "Buugeng",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | conrasu | sweep | twin",
+            "property | Hands | 1 | Bulk | 1 | Price | 4 gp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | A blade of conrasu design, a buugeng has a unique, curved shape that allows it to rotate smoothly in the hand of a trained warrior. This spinning motion makes it easier to attack multiple foes at once with the weapon."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.cane-pistol",
+        "color": "",
+        "title": "Cane Pistol",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon",
+            "property | Hands | 1 | Bulk | 1 | Price | 8 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | This fashionable cane's handle hides a dueling pistol fired through the thin, painted cap at the bottom of the cane."
+        ]
+    },
+    {
+        "id": "equipment.armor.medium.chain-mail",
+        "color": "",
+        "title": "Chain Mail",
+        "icon_front": "abdominal-armor",
+        "code": "equipment",
+        "contents": [
+            "pftrait | flexible | noisy",
+            "property | Bulk | 2 | Price | 6 gp",
+            "property | AC Bonus | +4 | Dex Cap | +1",
+            "property | Str Req. | 16 | Check Penalty | --2 | Speed Penalty | --5 ft.",
+            "property | Category | Medium Armor | Group | Chain",
+            "rule",
+            "text | A suit of chain mail consists of several pieces of armor composed of small metal rings linked together in a protective mesh. It typically includes a chain shirt, leggings, a pair of arms, and a coif, collectively protecting most of the body."
+        ]
+    },
+    {
+        "id": "equipment.armor.light.chain-shirt",
+        "color": "",
+        "title": "Chain Shirt",
+        "icon_front": "leather-armor",
+        "code": "equipment",
+        "contents": [
+            "pftrait | flexible | noisy",
+            "property | Bulk | 1 | Price | 5 gp",
+            "property | AC Bonus | +2 | Dex Cap | +3",
+            "property | Str Req. | 12 | Check Penalty | --1",
+            "property | Category | Light Armor | Group | Chain",
+            "rule",
+            "text | Sometimes called a hauberk, this is a long shirt constructed of the same metal rings as chainmail. However, it is much lighter than chainmail and protects only the torso, upper arms, and upper legs of its wearer."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.chakram",
+        "color": "",
+        "title": "Chakram",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | thrown",
+            "property | Hands | 1 | Bulk | L | Price | 5 sp",
+            "property | Category | Martial Weapon | Group | Knife",
+            "rule",
+            "text | Simple, elegant, and portable, the chakram is an open-centered metal discus with a sharpened edge, as well as a grip running along the center so the wielder can hold it safely."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.clan-dagger",
+        "color": "",
+        "title": "Clan Dagger",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | dwarf | parry | versatile b",
+            "property | Hands | 1 | Bulk | L | Price | 2 gp",
+            "property | Category | Simple Weapon | Group | Knife",
+            "rule",
+            "text | This broad dagger is carried by dwarves as a weapon, tool, and designation of clan. Losing or having to surrender a clan dagger is considered a mark of embarrassment to most dwarves."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.clan-pistol",
+        "color": "",
+        "title": "Clan Pistol",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | concussive | dwarf | fatal d10",
+            "property | Hands | 1 | Bulk | L | Price | 5 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | The tradition of dwarves displaying their clan affiliations with special clan daggers goes back millennia, but many of the dwarf clans of Dongun Hold have their own take on the tradition, with promising young gunsmiths claiming their adulthood by crafting a specialized personal firearm using the clan's unique smithing traditions. Losing or being forced to surrender their clan pistol is a terrible embarrassment for the dwarves that carry them."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.claw-blade",
+        "color": "",
+        "title": "Claw Blade",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | catfolk | deadly d8 | disarm | finesse | versatile p",
+            "property | Hands | 1 | Bulk | L | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Knife",
+            "rule",
+            "text | The three parallel blades of this handheld weapon extend between the fingers to resemble the natural claws of the amurruns who created them, providing a way for those catfolk without suitable natural claws to share the fighting customs of their kin."
+        ]
+    },
+    {
+        "id": "item.armor.light.clockwork-disguise",
+        "color": "",
+        "title": "Clockwork Disguise",
+        "icon_front": "leather-armor",
+        "code": "item 6",
+        "contents": [
+            "pftrait | uncommon | clockwork",
+            "property | Bulk | 2 | Price | 200 gp",
+            "property | AC Bonus | +2 | Dex Cap | +3",
+            "property | Str Req. | 12 | Check Penalty | --1",
+            "property | Category | Light Armor | Group | Plate",
+            "rule",
+            "text | Sometimes, just disguising one's face just isn't convincing enough. Clockwork disguises were invented to supplement regular disguise kits, which are used all across Golarion. For example, if a spy wants to infiltrate a military camp, they must be wearing the same type of armor as the soldiers stationed there—or else have a very good explanation for their commander as to why they're out of proper uniform! The clockwork disguise is intended to help avoid such awkward, potentially fatal confrontations.",
+            "text | The clockwork disguise looks like a harness connected to hundreds of small metal plates that cover the user's torso and arms. Each of these plates is equipped with several hinges, allowing them to be shaped into a wide variety of patterns. When these shaped plates are arranged and connected, they can be made to look like almost any basic suit of light or medium metal armor, though armor embellishments such as those worn by highranking officers are beyond this device. The arrangement process takes some time, but once it's completed, the user need only perform a few simple adjustments to a clockwork mechanism in the disguise to make the plate arrangement into a new preset configuration. Afterwards, when the user flips a switch on the harness's belt to one of three positions, the plates shift, overlap, and connect as necessary to transform the disguise into the desired preset configuration. The clockwork disguise can have up to three preset configurations at a time, and most users use a minimum of two: the one required for their current task, and a suitably inconspicuous configuration for when the first configuration is unnecessary.",
+            "text | Giving a clockwork disguise a new preset configuration requires 20 minutes of work. The clockwork disguise can have a maximum of three preset configurations at a time, and it can only mimic light and medium armor suits made of metal.",
+            "text | The clockwork disguise is light armor and has the stats listed above, regardless of which type of armor it mimics.",
+            "fill",
+            "section | **Activate** [[one-action]] Interact",
+            "text | Transform the clockwork disguise into any one current preset configuration of the user's choice.",
+            "rule",
+            "fill"
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.clockwork-macuahuitl",
+        "color": "",
+        "title": "Clockwork Macuahuitl",
+        "icon_front": "wood-club",
+        "code": "equipment",
+        "contents": [
+            "pftrait | rare | backswing | clockwork | forceful | versatile b",
+            "property | Hands | 2 | Bulk | 1 | Price | 550 gp",
+            "property | Category | Advanced Weapon | Group | Club",
+            "rule",
+            "text | This finely-made wooden club has a beautiful, lacquered finish that gleams in the sunlight. A heavy ring of gears lined with sharpened pieces of obsidian automatically and constantly spin around the bulk of the wooden club lengthwise. Striking a foe digs the obsidian gears into the enemy's flesh and tears it with its blades. The ever-turning gears also help to dislodge an enemy's defensive position against the weapon.",
+            "text | The clockwork macuahuitl deals 1d10 slashing damage and has the backswing, forceful, and versatile B traits. The clockwork macuahuitl is a two-handed advanced weapon in the club weapon group."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.club",
+        "color": "",
+        "title": "Club",
+        "icon_front": "wood-club",
+        "code": "equipment",
+        "contents": [
+            "pftrait | thrown 10 ft.",
+            "property | Hands | 1 | Bulk | 1 | Price | 0 gp",
+            "property | Category | Simple Weapon | Group | Club",
+            "rule",
+            "text | This is a piece of stout wood shaped or repurposed to bludgeon an enemy. Clubs can be intricately carved pieces of martial art or as simple as a tree branch or piece of wood."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.coat-pistol",
+        "color": "",
+        "title": "Coat Pistol",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | concealable | concussive | fatal d8",
+            "property | Hands | 1 | Bulk | L | Price | 6 gp",
+            "property | Category | Simple Weapon | Group | Firearm",
+            "rule",
+            "text | This small pistol is easily concealed inside a jacket or some other article of clothing. Rarely kept as a primary weapon, coat pistols are equally favored by clever assassins and traveling Alkenstar aristocrats."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.combat-grapnel",
+        "color": "",
+        "title": "Combat Grapnel",
+        "icon_front": "flail",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | finesse | grapple | tethered | thrown 20 feet",
+            "property | Hands | 2 | Bulk | 1 | Price | 9 sp",
+            "property | Category | Martial Weapon | Group | Flail",
+            "rule",
+            "text | Although grappling hooks typically serve as a climbing tool, this specially reinforced grapnel attached to a rope up to 10 feet long can be swung as a weapon. This is a martial melee weapon."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.composite-longbow",
+        "color": "",
+        "title": "Composite Longbow",
+        "icon_front": "crossbow",
+        "code": "equipment",
+        "contents": [
+            "pftrait | deadly d10 | propulsive | volley 30 ft.",
+            "property | Hands | 1+ | Bulk | 2 | Price | 20 gp",
+            "property | Category | Martial Weapon | Group | Bow",
+            "rule",
+            "text | This projectile weapon is made from horn, wood, and sinew laminated together to increase the power of its pull and the force of its projectile. Like all longbows, its great size also increases the bow's range and power. You must use two hands to fire it, and it cannot be used while mounted. Any time an ability is specifically restricted to a longbow, such as Erastil's favored weapon, it also applies to composite longbows unless otherwise stated."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.composite-shortbow",
+        "color": "",
+        "title": "Composite Shortbow",
+        "icon_front": "crossbow",
+        "code": "equipment",
+        "contents": [
+            "pftrait | deadly d10 | propulsive",
+            "property | Hands | 1+ | Bulk | 1 | Price | 14 gp",
+            "property | Category | Martial Weapon | Group | Bow",
+            "rule",
+            "text | This shortbow is made from horn, wood, and sinew laminated together to increase the power of its pull and the force of its projectile. Its compact size and power make it a favorite of mounted archers. Any time an ability is specifically restricted to a shortbow, it also applies to composite shortbows unless otherwise stated."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.crossbow",
+        "color": "",
+        "title": "Crossbow",
+        "icon_front": "crossbow",
+        "code": "equipment",
+        "contents": [
+            "property | Hands | 2 | Bulk | 1 | Price | 3 gp",
+            "property | Category | Simple Weapon | Group | Bow",
+            "rule",
+            "text | This ranged weapon has a bow-like assembly mounted on a handled frame called a tiller. The tiller has a mechanism to lock the bowstring in place, attached to a trigger mechanism that releases the tension and launches a bolt."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.dagger",
+        "color": "",
+        "title": "Dagger",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | finesse | thrown 10 ft. | versatile s",
+            "property | Hands | 1 | Bulk | L | Price | 2 sp",
+            "property | Category | Simple Weapon | Group | Knife",
+            "rule",
+            "text | This small, bladed weapon is held in one hand and used to stab a creature in close combat. It can also be thrown."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.dagger-pistol",
+        "color": "",
+        "title": "Dagger Pistol",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon",
+            "property | Hands | 1 | Bulk | L | Price | 8 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | This weapon, favored by rangers and other wilderness wanderers, takes the form of a stoutly built pistol with a dagger blade attached beneath the barrel and extending out past the muzzle."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.dart",
+        "color": "",
+        "title": "Dart",
+        "icon_front": "dart",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | thrown",
+            "property | Hands | 1 | Bulk | L | Price | 1 cp",
+            "property | Category | Simple Weapon | Group | Dart",
+            "rule",
+            "text | This thrown weapon is larger than an arrow but shorter than a javelin. It typically has a short shaft of wood ending in a metal tip and is sometimes stabilized by feathers or fur."
+        ]
+    },
+    {
+        "id": "item.weapon.martial.dart-umbrella",
+        "color": "",
+        "title": "Dart Umbrella",
+        "icon_front": "dart",
+        "code": "item 0",
+        "contents": [
+            "pftrait | uncommon | agile | concealable | nonlethal",
+            "property | Hands | 1 | Bulk | 1 | Price | 1 gp",
+            "property | Category | Martial Weapon | Group | Dart",
+            "rule",
+            "text | This umbrella fires tiny blowgun darts from its ferrule with a twist of the handle. The darts are loaded into the shaft, and though the damage they deal is minimal, the dart umbrella is an inconspicuous weapon easy to slip past inspections."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.dogslicer",
+        "color": "",
+        "title": "Dogslicer",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | backstabber | finesse | goblin",
+            "property | Hands | 1 | Bulk | L | Price | 1 sp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | This short, curved, and crude makeshift blade often has holes drilled into it to reduce its weight. It's a favored weapon of goblins."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.double-barreled-musket",
+        "color": "",
+        "title": "Double-barreled Musket",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | concussive | double barrel | fatal d10",
+            "property | Hands | 2 | Bulk | 1 | Price | 11 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | This flintlock breech-loader has two side-by-side barrels. Though less accurate than a standard musket, a double-barreled musket offers versatility in firing options. Many of Alkenstar's famous shield marshals save their earnings to buy a double-barreled musket as their first personal firearm."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.double-barreled-pistol",
+        "color": "",
+        "title": "Double-barreled Pistol",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | concussive | double barrel | fatal d8",
+            "property | Hands | 1 | Bulk | 1 | Price | 7 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | This flintlock pistol has two side-by-side barrels. Though less accurate than a standard pistol, a double-barreled pistol is a useful and versatile weapon. It's generally banned in areas where duels with pistols are relatively common, in much the same way that arriving at an aristocratic duel with a scattergun would be considered crass, at best."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.dragon-mouth-pistol",
+        "color": "",
+        "title": "Dragon Mouth Pistol",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | concussive | scatter 5 ft.",
+            "property | Hands | 1 | Bulk | 1 | Price | 9 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | Similar to the blunderbuss, a dragon-mouth pistol fires pellets from a flared barrel. Though less powerful than a blunderbuss, the dragon-mouth pistol is appreciated for its portability and one-handed design. Though the name was coined because of the destructive belch of this handheld scatter weapon, many gunsmiths craft dragon-mouth pistols with elaborate embellishments that resemble a stylized dragon's maw framing the barrel."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.dueling-pistol",
+        "color": "",
+        "title": "Dueling Pistol",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | concealable | concussive | fatal d10",
+            "property | Hands | 1 | Bulk | L | Price | 12 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | Made for settling disputes when diplomacy fails, dueling pistols are finely crafted and made to fit easily into a holster or pocket. Noble and wealthy merchants in both Alkenstar and Dongun Hold often own matching pairs of dueling pistols in case they're called upon to address a challenge—though this practice has become increasingly rare in the modern age."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.dueling-spear",
+        "color": "",
+        "title": "Dueling Spear",
+        "icon_front": "trident",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | disarm | finesse | versatile s",
+            "property | Hands | 2 | Bulk | 2 | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Spear",
+            "rule",
+            "text | This spear has a spade-like blade at one end and a forked blade at the other, making it resemble a large arrow. It's well balanced for spinning and twisting maneuvers. The spade-like end can be used for slashing and stabbing, while the forked end is effective at wrenching a weapon from an enemy's grasp."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.dwarven-scattergun",
+        "color": "",
+        "title": "Dwarven Scattergun",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | concussive | dwarf | kickback | scatter 10 ft.",
+            "property | Hands | 2 | Bulk | 2 | Price | 10 gp",
+            "property | Category | Advanced Weapon | Group | Firearm",
+            "rule",
+            "text | A favored weapon of dwarf scouts from Dongun Hold, the dwarven scattergun is a powerful weapon designed to take advantage of a dwarf's sturdy frame. A dwarven scattergun fires a large paper cartridge stuffed with black powder and knuckle-sized lumps of metal, creating a devastating burst so destructive that a foolish dwarf might find themself catching painful ricochets when firing at a too-close target. Some scatterguns are crafted with a clockwork firing tray that can quickly sort and load black powder and shot without needing a prepackaged cartridge, though this is largely an aesthetic feature with no real mechanical benefit."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.dwarven-war-axe",
+        "color": "",
+        "title": "Dwarven War Axe",
+        "icon_front": "sharp-axe",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | dwarf | sweep | two-hand d12",
+            "property | Hands | 1 | Bulk | 2 | Price | 3 gp",
+            "property | Category | Advanced Weapon | Group | Axe",
+            "rule",
+            "text | This favored weapon of the dwarves has a large, ornate head mounted on a thick handle. This powerful axe can be wielded with one hand or two."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.elven-branched-spear",
+        "color": "",
+        "title": "Elven Branched Spear",
+        "icon_front": "trident",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | deadly d8 | elf | finesse | reach",
+            "property | Hands | 2 | Bulk | 1 | Price | 3 gp",
+            "property | Category | Martial Weapon | Group | Spear",
+            "rule",
+            "text | Several short branches project from this delicate spear's shaft, each angled forward and tipped with a leaflike blade."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.elven-curve-blade",
+        "color": "",
+        "title": "Elven Curve Blade",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | elf | finesse | forceful",
+            "property | Hands | 2 | Bulk | 2 | Price | 4 gp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | Essentially a longer version of the scimitar, this traditional elven weapon has a thinner blade than its cousin."
+        ]
+    },
+    {
+        "id": "equipment.armor.unarmored.explorers-clothing",
+        "color": "",
+        "title": "Explorer's Clothing",
+        "icon_front": "ninja-armor",
+        "code": "equipment",
+        "contents": [
+            "pftrait | comfort",
+            "property | Bulk | L | Price | 1 sp",
+            "property | Dex Cap | +5",
+            "property | Group | Cloth",
+            "rule",
+            "text | Adventurers who don't wear armor travel in durable clothing. Though it's not armor and uses your unarmored defense proficiency, it still has a Dex Cap and can grant an item bonus to AC if etched with potency runes."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.explosive-dogslicer",
+        "color": "",
+        "title": "Explosive Dogslicer",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon",
+            "property | Hands | 2 | Bulk | 2 | Price | 10 gp",
+            "property | Category | Advanced Weapon | Group | Firearm",
+            "rule",
+            "text | An explosive dogslicer is a sneaky, explosive weapon that often brings perverse joy to the goblins who use them. At first glance, it appears to be a triple-bladed dogslicer with an oversized guard."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.falchion",
+        "color": "",
+        "title": "Falchion",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | forceful | sweep",
+            "property | Hands | 2 | Bulk | 2 | Price | 3 gp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | This weapon is a heavier, two-handed version of the curved-bladed scimitar. It is weighted toward the blade's end, making it a powerful slashing weapon."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.fangwire",
+        "color": "",
+        "title": "Fangwire",
+        "icon_front": "brass-knuckles",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | backstabber | deadly 1d8 | finesse | grapple | kobold",
+            "property | Hands | 1 | Bulk | L | Price | 4 gp",
+            "property | Category | Martial Weapon | Group | Brawling",
+            "rule",
+            "text | This kobold wire is thin and hard to see, making it perfect for an ambush. The wielder wraps the wire around a vulnerable spot, such as the neck, and twists it to inflict potentially fatal lacerations. The name derives from the use of a similar wire in traps, or slow fangs, with the word \"slow\" removed, as a fangwire gets quick results."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.fauchard",
+        "color": "",
+        "title": "Fauchard",
+        "icon_front": "bo",
+        "code": "equipment",
+        "contents": [
+            "pftrait | deadly d8 | reach | sweep | trip",
+            "property | Hands | 2 | Bulk | 2 | Price | 14 sp",
+            "property | Category | Martial Weapon | Group | Polearm",
+            "rule",
+            "text | A fauchard is similar to a glaive, save that its cutting edge is along the concave side. Fauchards are favored by Crimson Reclaimers for hacking through waves of zombies. The fauchard is a martial melee weapon."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.fighting-fan",
+        "color": "",
+        "title": "Fighting Fan",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | backstabber | deadly d6 | finesse | monk",
+            "property | Hands | 1 | Bulk | L | Price | 11 sp",
+            "property | Category | Martial Weapon | Group | Knife",
+            "rule",
+            "text | This fan is useful for elegant dances as well as for slicing unsuspecting foes with the blades along its outer edge. If used in performances, it might be disguised as a frilly accessory, or it might be an obvious, though elegant, weapon."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.filchers-fork",
+        "color": "",
+        "title": "Filcher's Fork",
+        "icon_front": "trident",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | backstabber | deadly d6 | finesse | halfling | thrown 20 ft.",
+            "property | Hands | 1 | Bulk | L | Price | 1 gp",
+            "property | Category | Martial Weapon | Group | Spear",
+            "rule",
+            "text | This halfling weapon looks like a long, two-pronged fork and is used as both a weapon and a cooking implement."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.fire-lance",
+        "color": "",
+        "title": "Fire Lance",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | fatal d10",
+            "property | Hands | 2 | Bulk | 2 | Price | 5 gp",
+            "property | Category | Simple Weapon | Group | Firearm",
+            "rule",
+            "text | This amazingly simple projectile weapon is nothing more than a metal tube packed with black powder and a stopper, attached to the sharpened head of a javelin. A loaded fire lance can be wielded as a normal spear, though it requires an Interact action to regrip the weapon and hold it properly when switching from one use to another. Fire lances are most commonly found in Tian Xia, though occasionally one makes its way all the way to Avistan, typically in the hands of a Tien mercenary or caravan guard."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.fire-poi",
+        "color": "",
+        "title": "Fire Poi",
+        "icon_front": "flail",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | backswing | finesse | twin",
+            "property | Hands | 1 | Bulk | L | Price | 50 sp",
+            "property | Category | Advanced Weapon | Group | Flail",
+            "rule",
+            "text | These special poi are made from a rare, light metal or from fire-retardant fibers and can be ignited before being wielded. Igniting a pair of fire poi is an Interact action and requires 1 pint of oil for every 10 minutes the poi remain ignited. While lit, fire poi cast dim light in a 10-foot radius; in combat, they deal 1d4 bludgeoning plus 1d4 fire damage. On a critical hit with a lit fire poi, the target takes 1 persistent fire damage. The fire can be extinguished using the Interact action. When unlit, the poi deal only the listed bludgeoning damage. Regardless of whether it is lit, the poi's 1d4 bludgeoning damage is the weapon damage dice, so striking runes and other effects don't affect the fire damage."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.flail",
+        "color": "",
+        "title": "Flail",
+        "icon_front": "flail",
+        "code": "equipment",
+        "contents": [
+            "pftrait | disarm | sweep | trip",
+            "property | Hands | 1 | Bulk | 1 | Price | 8 sp",
+            "property | Category | Martial Weapon | Group | Flail",
+            "rule",
+            "text | This weapon consists of a wooden handle attached to a spiked ball or cylinder by a chain, rope, or strap of leather."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.flingflenser",
+        "color": "",
+        "title": "Flingflenser",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | backstabber | fatal d10 | goblin | scatter 5 ft.",
+            "property | Hands | 2 | Bulk | 1 | Price | 6 gp",
+            "property | Category | Advanced Weapon | Group | Firearm",
+            "rule",
+            "text | A flingflenser is a goblin-designed weapon ending in an ovoid tube with a hatch and handle on the narrow end. A cluster of circular blades held together and attached to a black powder packet with a thin leather strap serves as ammunition and is loaded through the hatch before being fired with a flintlock or other external ignition mechanism. The flingflenser's sturdy design also places it among the more reliable goblin weapons."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.flintlock-musket",
+        "color": "",
+        "title": "Flintlock Musket",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | concussive | fatal d10",
+            "property | Hands | 2 | Bulk | 1 | Price | 7 gp",
+            "property | Category | Simple Weapon | Group | Firearm",
+            "rule",
+            "text | The most commonly available of firearms in Alkenstar, the flintlock musket includes an external firing mechanism and an efficient and relatively compact frame. Though lacking the range and firing power of the arquebus preferred by Alkenstar and Dongun Hold's military members, the flintlock musket is popular among civilians for its ease of use."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.flintlock-pistol",
+        "color": "",
+        "title": "Flintlock Pistol",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | concussive | fatal d8",
+            "property | Hands | 1 | Bulk | 1 | Price | 6 gp",
+            "property | Category | Simple Weapon | Group | Firearm",
+            "rule",
+            "text | Though less accurate and powerful than a flintlock musket, the flintlock pistol is a preferred weapon of privateers thanks to its more compact size and affordability. Pirate captains often wear a brace of such pistols in a bandolier so they can draw and fire without stopping to reload."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.forked-bipod",
+        "color": "",
+        "title": "Forked Bipod",
+        "icon_front": "trident",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | deadly d6 | finesse",
+            "property | Hands | 1 | Bulk | L | Price | 3 sp",
+            "property | Category | Simple Weapon | Group | Spear",
+            "rule",
+            "text | Developed by Alkenstar scouts who often don't have time to break down a tripod when beset by the chaotic mutant monsters of the Mana Wastes, this two-pronged stabbing weapon can be used as a bipod to stabilize a gun with potent kickback. A forked bipod can be deployed or retrieved for use as a melee weapon as an Interact action."
+        ]
+    },
+    {
+        "id": "equipment.armor.heavy.full-plate",
+        "color": "",
+        "title": "Full Plate",
+        "icon_front": "lamellar",
+        "code": "equipment",
+        "contents": [
+            "pftrait | bulwark",
+            "property | Bulk | 4 | Price | 30 gp",
+            "property | AC Bonus | +6",
+            "property | Str Req. | 18 | Check Penalty | --3 | Speed Penalty | --10 ft.",
+            "property | Category | Heavy Armor | Group | Plate",
+            "rule",
+            "text | Plate mail consists of interlocking plates that encase nearly the entire body in a carapace of steel. It is costly and heavy, and the wearer often requires help to don it correctly, but it provides some of the best defense armor can supply. A suit of this armor comes with an undercoat of padded armor and a pair of gauntlets."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.gaff",
+        "color": "",
+        "title": "Gaff",
+        "icon_front": "war-pick",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | deadly d10 | trip",
+            "property | Hands | 2 | Bulk | 1 | Price | 1 gp",
+            "property | Category | Martial Weapon | Group | Pick",
+            "rule",
+            "text | Ogres are known for using immense, curved picks called ogre hooks."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.gaff",
+        "color": "",
+        "title": "Gaff",
+        "icon_front": "wood-club",
+        "code": "equipment",
+        "contents": [
+            "pftrait | trip | versatile",
+            "property | Hands | 1 | Bulk | 1 | Price | 1 gp",
+            "property | Category | Martial Weapon | Group | Club",
+            "rule",
+            "text | These hooked staffs are popular among Senghor fishers and warriors alike. A gaff sized for a Medium creature is a common martial weapon in the club group. It deals 1d6 bludgeoning damage and has 1 Bulk. It requires one hand to use and has the trip and versatile P weapon traits. Gaffs are readily available in Senghor and nearby settlements for 1 gp."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.gauntlet",
+        "color": "",
+        "title": "Gauntlet",
+        "icon_front": "brass-knuckles",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | free-hand",
+            "property | Hands | 1 | Bulk | L | Price | 2 sp",
+            "property | Category | Simple Weapon | Group | Brawling",
+            "rule",
+            "text | A pair of these metal gloves comes with full plate, half plate, and splint armor; they can also be purchased separately and worn with other types of armor. They not only protect your hands but also transform your hands into lethal weapons."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.gill-hook",
+        "color": "",
+        "title": "Gill Hook",
+        "icon_front": "trident",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | azarketi | grapple | reach",
+            "property | Hands | 2 | Bulk | 2 | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Spear",
+            "rule",
+            "text | This spear has a specialized hook just before the tip that can catch on the gills of large fish. Azarketis primarily use this to hunt sharks, but it can also be used to hook flesh or armor. This weapon is common on the Isle of Kortos and within azarketi settlements."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.glaive",
+        "color": "",
+        "title": "Glaive",
+        "icon_front": "bo",
+        "code": "equipment",
+        "contents": [
+            "pftrait | deadly d8 | forceful | reach",
+            "property | Hands | 2 | Bulk | 2 | Price | 1 gp",
+            "property | Category | Martial Weapon | Group | Polearm",
+            "rule",
+            "text | This polearm consists of a long, single-edged blade on the end of a 7-foot pole. It is extremely effective at delivering lethal cuts at a distance."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.gnome-amalgam-musket",
+        "color": "",
+        "title": "Gnome Amalgam Musket",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon",
+            "property | Hands | 2 | Bulk | 2 | Price | 10 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | Rumored to be the result of a gnomish dare to make a variant of a hooked hammer that's even more intricate and complex, this weapon adds a musket to the mix of an already overcomplicated device."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.gnome-flickmace",
+        "color": "",
+        "title": "Gnome Flickmace",
+        "icon_front": "flail",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | gnome | reach",
+            "property | Hands | 1 | Bulk | 2 | Price | 3 gp",
+            "property | Category | Advanced Weapon | Group | Flail",
+            "rule",
+            "text | More a flail than a mace, this weapon has a short handle attached to a length of chain with a ball at the end. The ball is propelled to its reach with the flick of the wrist, the momentum of which brings the ball back to the wielder after the strike."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.gnome-hooked-hammer",
+        "color": "",
+        "title": "Gnome Hooked Hammer",
+        "icon_front": "warhammer",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | gnome | trip | two-hand d10 | versatile p",
+            "property | Hands | 1 | Bulk | 1 | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Hammer",
+            "rule",
+            "text | This gnome tool and weapon features a hammer at one end and a curved pick on the other. It's such a strange and awkward weapon that others think the gnomes are slightly erratic for using it."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.greataxe",
+        "color": "",
+        "title": "Greataxe",
+        "icon_front": "sharp-axe",
+        "code": "equipment",
+        "contents": [
+            "pftrait | sweep",
+            "property | Hands | 2 | Bulk | 2 | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Axe",
+            "rule",
+            "text | This large battle axe is too heavy to wield with only one hand. Many greataxes incorporate two blades, and they are often \"bearded,\" having a hook at the bottom to increase the strength of their chopping power."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.greatclub",
+        "color": "",
+        "title": "Greatclub",
+        "icon_front": "wood-club",
+        "code": "equipment",
+        "contents": [
+            "pftrait | backswing | shove",
+            "property | Hands | 2 | Bulk | 2 | Price | 1 gp",
+            "property | Category | Martial Weapon | Group | Club",
+            "rule",
+            "text | While many greatclubs are intricately carved, others are little more than a sturdy tree branch. These massive clubs are too heavy to wield with only one hand."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.greatpick",
+        "color": "",
+        "title": "Greatpick",
+        "icon_front": "war-pick",
+        "code": "equipment",
+        "contents": [
+            "pftrait | fatal d12",
+            "property | Hands | 2 | Bulk | 2 | Price | 1 gp",
+            "property | Category | Martial Weapon | Group | Pick",
+            "rule",
+            "text | This pick has a longer handle and broader head than a regular pick. It is too heavy to wield in one hand."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.greatsword",
+        "color": "",
+        "title": "Greatsword",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | versatile p",
+            "property | Hands | 2 | Bulk | 2 | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | This immense two-handed sword is nearly as tall as its wielder. Its lower blade is often somewhat dulled to allow it to be gripped for extra leverage in close-quarter fights."
+        ]
+    },
+    {
+        "id": "item.weapon.martial.griffon-cane",
+        "color": "",
+        "title": "Griffon Cane",
+        "icon_front": "wood-club",
+        "code": "item 0",
+        "contents": [
+            "pftrait | backswing | two-hand d10",
+            "property | Hands | 1 | Bulk | L | Price | 1 gp",
+            "property | Category | Martial Weapon | Group | Club",
+            "rule",
+            "text | A griffon cane is named for the shape of its base, which features four small pronged supports splayed out in a manner similar to a griffon's talons. A griffon cane's splayed foot enables it to stand upright by itself. A griffon cane deals 1d6 bludgeoning damage, has the backswing and two-hand d10 traits, and is a martial melee weapon in the club weapon group."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.guisarme",
+        "color": "",
+        "title": "Guisarme",
+        "icon_front": "bo",
+        "code": "equipment",
+        "contents": [
+            "pftrait | reach | trip",
+            "property | Hands | 2 | Bulk | 2 | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Polearm",
+            "rule",
+            "text | This polearm bears a long, often one-sided, curved blade with a hook protruding from the blunt side of the blade, which can allow its wielder to trip opponents at a distance. Its shaft is usually 8 feet long."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.gun-sword",
+        "color": "",
+        "title": "Gun Sword",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon",
+            "property | Hands | 2 | Bulk | 2 | Price | 13 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | This weapon consists of a large sword with a powerful gun based on a harmona gun down the center. Vanguards and other characters who rely on Strength and Dexterity enjoy the power and flexibility of a gun sword."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.halberd",
+        "color": "",
+        "title": "Halberd",
+        "icon_front": "bo",
+        "code": "equipment",
+        "contents": [
+            "pftrait | reach | versatile s",
+            "property | Hands | 2 | Bulk | 2 | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Polearm",
+            "rule",
+            "text | This polearm has a relatively short, 5-foot shaft. The business end is a long spike with an axe blade attached."
+        ]
+    },
+    {
+        "id": "equipment.armor.heavy.half-plate",
+        "color": "",
+        "title": "Half Plate",
+        "icon_front": "lamellar",
+        "code": "equipment",
+        "contents": [
+            "property | Bulk | 3 | Price | 18 gp",
+            "property | AC Bonus | +5 | Dex Cap | +1",
+            "property | Str Req. | 16 | Check Penalty | --3 | Speed Penalty | --10 ft.",
+            "property | Category | Heavy Armor | Group | Plate",
+            "rule",
+            "text | Half plate consists of most of the upper body plates used in full plate, with lighter or sparser steel plate protection for the arms and legs. This provides some of the protection of full plate with greater flexibility and speed. A suit of this armor comes with an undercoat of padded armor and a pair of gauntlets."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.halfling-sling-staff",
+        "color": "",
+        "title": "Halfling Sling Staff",
+        "icon_front": "sling",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | halfling | propulsive",
+            "property | Hands | 2 | Bulk | 1 | Price | 5 gp",
+            "property | Category | Martial Weapon | Group | Sling",
+            "rule",
+            "text | This staff ends in a Y-shaped split that cradles a sling. The length of the staff provides excellent leverage when used two-handed to fling rocks or bullets from the sling."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.hammer-gun",
+        "color": "",
+        "title": "Hammer Gun",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon",
+            "property | Hands | 2 | Bulk | 2 | Price | 13 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | This weapon, favored by dwarves and those who like smashing and shooting, takes the form of a stoutly built gun designed similarly to an arquebus with a hammer head built into the muzzle, decreasing kickback but limiting range."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.hand-adze",
+        "color": "",
+        "title": "Hand Adze",
+        "icon_front": "sharp-axe",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | forceful | grippli | sweep | thrown 10 ft.",
+            "property | Hands | 1 | Bulk | L | Price | 5 sp",
+            "property | Category | Martial Weapon | Group | Axe",
+            "rule",
+            "text | This is a smaller version of an adze, useful for more delicate woodworking or projects in cramped spaces. Gripplis use the hand adze for crafting and as close quarters weapons."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.hand-cannon",
+        "color": "",
+        "title": "Hand Cannon",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | modular b, p, or s",
+            "property | Hands | 1 | Bulk | 1 | Price | 5 gp",
+            "property | Category | Simple Weapon | Group | Firearm",
+            "rule",
+            "text | Popular among privateers and mercenaries in Goka, hand cannons are little more than a hardened tube with a handle and external ignition attached. A hand cannon can be used to fire almost anything that can be packed into its barrel. The wielder of a hand cannon can change the damage type granted by its modular trait as part of the same Interact action used to reload."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.hand-crossbow",
+        "color": "",
+        "title": "Hand Crossbow",
+        "icon_front": "crossbow",
+        "code": "equipment",
+        "contents": [
+            "property | Hands | 1 | Bulk | L | Price | 3 gp",
+            "property | Category | Simple Weapon | Group | Bow",
+            "rule",
+            "text | Sometimes referred to as an alley bow by rogues or ruffians, this small crossbow fires small bolts that are sometimes used to deliver poison to the target. It's small enough to be shot one-handed, but it still requires two hands to load."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.harmona-gun",
+        "color": "",
+        "title": "Harmona Gun",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | kickback",
+            "property | Hands | 2 | Bulk | 2 | Price | 10 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | A favored weapon of monster hunters in Arcadia, the harmona gun is a large-bore long gun that fires a heavy, slow-moving round. The gun got its name due to the eerie similarity between the buzzing sound its oversized projectiles make flying through the air and the flight of a fey bird called a harmona."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.hatchet",
+        "color": "",
+        "title": "Hatchet",
+        "icon_front": "sharp-axe",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | sweep | thrown 10 ft.",
+            "property | Hands | 1 | Bulk | L | Price | 4 sp",
+            "property | Category | Martial Weapon | Group | Axe",
+            "rule",
+            "text | This small axe can be used in close combat or thrown."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.heavy-crossbow",
+        "color": "",
+        "title": "Heavy Crossbow",
+        "icon_front": "crossbow",
+        "code": "equipment",
+        "contents": [
+            "property | Hands | 2 | Bulk | 2 | Price | 4 gp",
+            "property | Category | Simple Weapon | Group | Bow",
+            "rule",
+            "text | This large crossbow is harder to load and more substantial than a regular crossbow, but it packs a greater punch."
+        ]
+    },
+    {
+        "id": "equipment.armor.heavy.heavy-power-suit",
+        "color": "",
+        "title": "Heavy Power Suit",
+        "icon_front": "lamellar",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | bulwark",
+            "property | Bulk | 3",
+            "property | AC Bonus | +5 | Dex Cap | +1",
+            "property | Str Req. | 16 | Check Penalty | --2 | Speed Penalty | --10 ft.",
+            "property | Category | Heavy Armor | Group | Composite",
+            "rule",
+            "text | If your Strength score is at least 16, you remove the Speed penalty entirely instead of reducing it to –5 feet.",
+            "text | This armor is exclusive to the Inventor class with the Armor innovation and the Heavy Construction breakthrough armor modification. While you may be able to wear this armor as a different class, everyone but the creator of the armor is untrained in it, even if they would normally be trained (or better) in heavy armor."
+        ]
+    },
+    {
+        "id": "equipment.armor.heavy.hellknight-plate",
+        "color": "",
+        "title": "Hellknight Plate",
+        "icon_front": "lamellar",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | bulwark",
+            "property | Bulk | 4 | Price | 35 gp",
+            "property | AC Bonus | +6",
+            "property | Str Req. | 18 | Check Penalty | --3 | Speed Penalty | --10 ft.",
+            "property | Category | Heavy Armor | Group | Plate",
+            "rule",
+            "text | Few armors in the Inner Sea region are as memorable as the iconic Hellknight plate. While each order has its own flourishes, Hellknight plate is instantly recognizable to any who know of the Hellknights.",
+            "text | Hellknights go to extreme measures to punish non-Hellknights who get their hands on Hellknight plate, and the reward is not usually worth the risk, since for non-Hellknights, the armor is functionally similar to full plate."
+        ]
+    },
+    {
+        "id": "equipment.armor.medium.hide",
+        "color": "",
+        "title": "Hide",
+        "icon_front": "abdominal-armor",
+        "code": "equipment",
+        "contents": [
+            "property | Bulk | 2 | Price | 2 gp",
+            "property | AC Bonus | +3 | Dex Cap | +2",
+            "property | Str Req. | 14 | Check Penalty | --2 | Speed Penalty | --5 ft.",
+            "property | Category | Medium Armor | Group | Leather",
+            "rule",
+            "text | A mix of furs, sturdy hide, and sometimes molded boiled leather, this armor provides protection due to its layers of leather, though its bulkiness slows the wearer down and decreases mobility."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.hongali-hornbow",
+        "color": "",
+        "title": "Hongali Hornbow",
+        "icon_front": "crossbow",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | deadly d6 | propulsive",
+            "property | Hands | 1+ | Bulk | 2 | Price | 11 gp",
+            "property | Category | Advanced Weapon | Group | Bow",
+            "rule",
+            "text | These immense bows are traditionally made from the horns of great beasts, though modern residents of Hongal, the northernmost nation in Tian Xia, often use composite materials or even small trees as the weapon's base. While Hongali hornbows have a shorter range than other bows, they make up for it by focusing the power of the longbow at a short distance and can be used from horseback—perfect for the skirmishing fighting style of mounted Hongali troops. While it's difficult for those in Avistan to get their hands on these Hongali weapons, a small warband of beast-riding orcs from the Hold of Belkzen managed to arm themselves with Hongali hornbows and cut a bloody swathe through adventurers and neighboring militaries alike for several years before they were finally defeated via a desperate ambush. The stories of that warband spread, causing Avistani adventurers with little knowledge of Tian Xia to associate the bows with orcs. Hongali characters have access to the Hongali hornbow."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.hook-sword",
+        "color": "",
+        "title": "Hook Sword",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | disarm | monk | parry | trip | twin",
+            "property | Hands | 1 | Bulk | 1 | Price | 3 gp",
+            "property | Category | Advanced Weapon | Group | Sword",
+            "rule",
+            "text | This long sword has a hook near the tip which makes it easy to snag an opponent or their weapons."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.horsechopper",
+        "color": "",
+        "title": "Horsechopper",
+        "icon_front": "bo",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | goblin | reach | trip | versatile p",
+            "property | Hands | 2 | Bulk | 2 | Price | 9 sp",
+            "property | Category | Martial Weapon | Group | Polearm",
+            "rule",
+            "text | Created by goblins to battle horses, this weapon is essentially a long shaft ending in a blade with a large hook."
+        ]
+    },
+    {
+        "id": "item.weapon.martial.injection-spear",
+        "color": "",
+        "title": "Injection Spear",
+        "icon_front": "trident",
+        "code": "item 0",
+        "contents": [
+            "pftrait | uncommon | injection | reach",
+            "property | Hands | 2 | Bulk | 1 | Price | 3 gp",
+            "property | Category | Martial Weapon | Group | Spear",
+            "rule",
+            "text | A hollow receptacle inside this spear's head can store a single dose of poison. A sliding trigger along the spear's shaft can inject the loaded poison into a damaged target."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.javelin",
+        "color": "",
+        "title": "Javelin",
+        "icon_front": "dart",
+        "code": "equipment",
+        "contents": [
+            "pftrait | thrown",
+            "property | Hands | 1 | Bulk | L | Price | 1 sp",
+            "property | Category | Simple Weapon | Group | Dart",
+            "rule",
+            "text | This thin spear is well balanced for throwing but is not designed for melee use."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.jezail",
+        "color": "",
+        "title": "Jezail",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | concussive | fatal aim d12",
+            "property | Hands | 1 | Bulk | 1 | Price | 11 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | Jezails are simple, efficient long guns developed in Casmaron that typically feature a custom stock and a flintlock firing mechanism. Though lacking the range and stopping power of an arquebus or the raw force of a harmona gun, the jezail is an elegant, well-balanced weapon suitable for a variety of combat situations. It's even possible to tuck it under one arm to fire a less accurate attack that uses only one hand."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.juggling-club",
+        "color": "",
+        "title": "Juggling Club",
+        "icon_front": "wood-club",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | nonlethal | thrown 20 feet",
+            "property | Hands | 1 | Bulk | L | Price | 1 sp",
+            "property | Category | Simple Weapon | Group | Club",
+            "rule",
+            "text | A juggling club is lighter than a typical club and balanced to be easily caught and thrown again by a juggler. While a juggling club deals less damage, the extra throwing distance its light weight allows is important for Juggling."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.kama",
+        "color": "",
+        "title": "Kama",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | monk | trip",
+            "property | Hands | 1 | Bulk | L | Price | 1 gp",
+            "property | Category | Martial Weapon | Group | Knife",
+            "rule",
+            "text | Similar to a sickle and used in some regions to reap grain, a kama has a short, slightly curved blade and a wooden handle."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.karambit",
+        "color": "",
+        "title": "Karambit",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | fatal d8 | finesse | versatile s",
+            "property | Hands | 1 | Bulk | L | Price | 2 gp",
+            "property | Category | Advanced Weapon | Group | Knife",
+            "rule",
+            "text | This small curved blade resembles a tiger's claw and is capable of delivering deep wounds."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.katana",
+        "color": "",
+        "title": "Katana",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | deadly d8 | two-hand d10 | versatile p",
+            "property | Hands | 1 | Bulk | 1 | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | A katana is a curved, single-edged sword known for its wickedly sharped blade."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.katar",
+        "color": "",
+        "title": "Katar",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | deadly d6 | monk",
+            "property | Hands | 1 | Bulk | L | Price | 3 sp",
+            "property | Category | Simple Weapon | Group | Knife",
+            "rule",
+            "text | Also known as punching daggers, katars are characterized by their H-shaped hand grip that allows the blade to jut out from the knuckles."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.khakkara",
+        "color": "",
+        "title": "Khakkara",
+        "icon_front": "wood-club",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | shove | two-hand 1d10 | versatile p",
+            "property | Hands | 1 | Bulk | 1 | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Club",
+            "rule",
+            "text | This staff is topped by a pointed metal circle from which hang several smaller rings that jingle and clang noisily as the staff is moved, allowing you to announce your presence and scare off wild animals as you walk."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.khopesh",
+        "color": "",
+        "title": "Khopesh",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | trip",
+            "property | Hands | 1 | Bulk | 1 | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | This curved sickle sword has a pointed tip, allowing it to be swung like a handaxe or thrust like a short sword. The tip of a khopesh is usually hooked so that it can be used to disarm an opponent's shield or weapon."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.knuckle-duster",
+        "color": "",
+        "title": "Knuckle Duster",
+        "icon_front": "brass-knuckles",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | free-hand | monk",
+            "property | Hands | 1 | Bulk | L | Price | 3 sp",
+            "property | Category | Simple Weapon | Group | Brawling",
+            "rule",
+            "text | This bit of hardened metal, favored by street toughs, is typically made of brass and features four finger holes so that it can sit atop the knuckles, adding extra power to a punch."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.kukri",
+        "color": "",
+        "title": "Kukri",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | finesse | trip",
+            "property | Hands | 1 | Bulk | L | Price | 6 sp",
+            "property | Category | Martial Weapon | Group | Knife",
+            "rule",
+            "text | The blade of this foot-long knife curves inward and lacks a cross guard at the hilt."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.kusarigama",
+        "color": "",
+        "title": "Kusarigama",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | disarm | monk | reach | trip | versatile b",
+            "property | Hands | 2 | Bulk | 1 | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Knife",
+            "rule",
+            "text | This impressive weapon consists of a weight attached to a kama via a length of chain, which aids with disarming an opponent or attacking from a distance."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.lance",
+        "color": "",
+        "title": "Lance",
+        "icon_front": "trident",
+        "code": "equipment",
+        "contents": [
+            "pftrait | deadly d8 | jousting d6 | reach",
+            "property | Hands | 2 | Bulk | 2 | Price | 1 gp",
+            "property | Category | Martial Weapon | Group | Spear",
+            "rule",
+            "text | This spear-like weapon is used by a mounted creature to deal a great deal of damage."
+        ]
+    },
+    {
+        "id": "equipment.armor.light.leather",
+        "color": "",
+        "title": "Leather",
+        "icon_front": "leather-armor",
+        "code": "equipment",
+        "contents": [
+            "property | Bulk | 1 | Price | 2 gp",
+            "property | AC Bonus | +1 | Dex Cap | +4",
+            "property | Str Req. | 10 | Check Penalty | --1",
+            "property | Category | Light Armor | Group | Leather",
+            "rule",
+            "text | A mix of flexible and molded boiled leather, a suit of this type of armor provides some protection with maximum flexibility."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.leiomano",
+        "color": "",
+        "title": "Leiomano",
+        "icon_front": "wood-club",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | deadly d10 | versatile s",
+            "property | Hands | 1 | Bulk | 1 | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Club",
+            "rule",
+            "text | This thick club is inset with sharp teeth, typically from a shark, that easily tear flesh. It is the preferred weapon of many Minatan warriors."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.light-hammer",
+        "color": "",
+        "title": "Light Hammer",
+        "icon_front": "warhammer",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | thrown 20 ft.",
+            "property | Hands | 1 | Bulk | L | Price | 3 sp",
+            "property | Category | Martial Weapon | Group | Hammer",
+            "rule",
+            "text | This smaller version of the warhammer has a wooden or metal shaft ending in a metal head. Unlike its heavier cousin, it is light enough to throw."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.light-mace",
+        "color": "",
+        "title": "Light Mace",
+        "icon_front": "wood-club",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | finesse | shove",
+            "property | Hands | 1 | Bulk | L | Price | 4 sp",
+            "property | Category | Simple Weapon | Group | Club",
+            "rule",
+            "text | A light mace has a short wooden or metal shaft ending with a dense metal head. Used much like a club, it delivers heavy bludgeoning blows, but with extra power derived from the head's metal ridges or spikes."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.light-pick",
+        "color": "",
+        "title": "Light Pick",
+        "icon_front": "war-pick",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | fatal d8",
+            "property | Hands | 1 | Bulk | L | Price | 4 sp",
+            "property | Category | Martial Weapon | Group | Pick",
+            "rule",
+            "text | A light pick is a modified mining implement with a wooden shaft ending in a pick head crafted more to pierce armor and flesh than chip rocks."
+        ]
+    },
+    {
+        "id": "item.weapon.martial.lion-scythe",
+        "color": "",
+        "title": "Lion Scythe",
+        "icon_front": "daggers",
+        "code": "item 0",
+        "contents": [
+            "pftrait | uncommon | agile | finesse | trip",
+            "property | Hands | 1 | Bulk | L | Price | 1 gp",
+            "property | Category | Martial Weapon | Group | Knife",
+            "rule",
+            "text | A lion scythe resembles a common sickle but is specially weighted to allow for greater power when attacking. This is a martial melee weapon."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.long-air-repeater",
+        "color": "",
+        "title": "Long Air Repeater",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | repeating",
+            "property | Hands | 2 | Bulk | 1 | Price | 9 gp",
+            "property | Category | Simple Weapon | Group | Firearm",
+            "rule",
+            "text | Like the one-handed air repeater, this thin-barreled firearm uses a container of pressurized air instead of black powder to propel small metal pellets from an attached cartridge. The long air repeater has better range and ammo capacity than the one-handed variant, though it still lacks significant stopping power. A typical long air repeater magazine holds 8 pellets."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.longbow",
+        "color": "",
+        "title": "Longbow",
+        "icon_front": "crossbow",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | propulsive",
+            "property | Hands | 1+ | Bulk | 2 | Price | 8 gp",
+            "property | Category | Advanced Weapon | Group | Bow",
+            "rule",
+            "text | This asymmetrical bow, made of laminated bamboo, wood, and leather, stands 6 feet or more in height. Using a daikyu while mounted limits its firing range to your left side."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.longbow",
+        "color": "",
+        "title": "Longbow",
+        "icon_front": "crossbow",
+        "code": "equipment",
+        "contents": [
+            "pftrait | deadly d10 | volley 30 ft.",
+            "property | Hands | 1+ | Bulk | 2 | Price | 6 gp",
+            "property | Category | Martial Weapon | Group | Bow",
+            "rule",
+            "text | This 5-foot-tall bow, usually made of a single piece of elm, hickory, or yew, has a powerful draw and is excellent at propelling arrows with great force and at an extreme distance. You must use two hands to fire a longbow, and it can't be used while mounted."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.longspear",
+        "color": "",
+        "title": "Longspear",
+        "icon_front": "trident",
+        "code": "equipment",
+        "contents": [
+            "pftrait | reach",
+            "property | Hands | 2 | Bulk | 2 | Price | 5 sp",
+            "property | Category | Simple Weapon | Group | Spear",
+            "rule",
+            "text | This very long spear, sometimes called a pike, is purely for thrusting rather than throwing. Used by many soldiers and city watch for crowd control and defense against charging enemies, it must be wielded with two hands."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.longsword",
+        "color": "",
+        "title": "Longsword",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | versatile p",
+            "property | Hands | 1 | Bulk | 1 | Price | 1 gp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | Longswords can be one-edged or two-edged swords. Their blades are heavy and they're between 3 and 4 feet in length."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.mace",
+        "color": "",
+        "title": "Mace",
+        "icon_front": "wood-club",
+        "code": "equipment",
+        "contents": [
+            "pftrait | shove",
+            "property | Hands | 1 | Bulk | 1 | Price | 1 gp",
+            "property | Category | Simple Weapon | Group | Club",
+            "rule",
+            "text | With a stout haft and a heavy metal head, a mace is sturdy and allows its wielder to deliver powerful blows and dent armor."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.mace-multipistol",
+        "color": "",
+        "title": "Mace Multipistol",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon",
+            "property | Hands | 1 | Bulk | 1 | Price | 13 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | At first glance this weapon looks like nothing more than an iron-bound club. But the top of the weapon features a latch that opens to reveal three rotating pistol muzzles concealed in the mace's head that can be fired and rotated using triggers built into the weapon's haft."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.machete",
+        "color": "",
+        "title": "Machete",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | deadly d8 | sweep",
+            "property | Hands | 1 | Bulk | L | Price | 7 sp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | This medium-length sword has a wide blade and long grip. Though it is typically used to hack through heavy foliage, the machete can also be used as a deadly weapon."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.main-gauche",
+        "color": "",
+        "title": "Main-gauche",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | disarm | finesse | parry | versatile s",
+            "property | Hands | 1 | Bulk | L | Price | 5 sp",
+            "property | Category | Martial Weapon | Group | Knife",
+            "rule",
+            "text | This parrying dagger features a robust guard to protect the wielder's hand."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.mambele",
+        "color": "",
+        "title": "Mambele",
+        "icon_front": "sharp-axe",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | deadly d8 | disarm | thrown 20 feet",
+            "property | Hands | 1 | Bulk | 1 | Price | 6 sp",
+            "property | Category | Martial Weapon | Group | Axe",
+            "rule",
+            "text | Also known as a hunga munga or danisco, this hybrid knife-axe consists of a hilt and a blade that curves backward toward the wielder. The curve of the blade is such that after a victim has been struck by a mambele, more damage is dealt as the weapon is extracted from the victim's body."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.maul",
+        "color": "",
+        "title": "Maul",
+        "icon_front": "warhammer",
+        "code": "equipment",
+        "contents": [
+            "pftrait | shove",
+            "property | Hands | 2 | Bulk | 2 | Price | 3 gp",
+            "property | Category | Martial Weapon | Group | Hammer",
+            "rule",
+            "text | Mauls are massive warhammers that must be swung with two hands."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.meteor-hammer",
+        "color": "",
+        "title": "Meteor Hammer",
+        "icon_front": "flail",
+        "code": "equipment",
+        "contents": [
+            "pftrait | backswing | disarm | reach | trip",
+            "property | Hands | 2 | Bulk | 2 | Price | 3 gp",
+            "property | Category | Martial Weapon | Group | Flail",
+            "rule",
+            "text | This weapon consists of a long chain connected to a heavy weight at one end. When a wielder swings the weight by the chain, it builds momentum and can serve as a deadly bludgeon with incredible reach."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.mithral-tree",
+        "color": "",
+        "title": "Mithral Tree",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | concussive | elf | fatal d10 | parry",
+            "property | Hands | 2 | Bulk | 1 | Price | 9 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | Neither mithral nor a tree, this long gun takes its name from the legends of the elves of Jinin and is most commonly found within the nation. An elegant weapon, a mithral tree does somewhat resemble a tree; its fanned stock and long, sweeping barrel reinforced with metal rings enable a wielder to parry melee attacks while moving back into safe firing range."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.monkeys-fist",
+        "color": "",
+        "title": "Monkey's Fist",
+        "icon_front": "flail",
+        "code": "equipment",
+        "contents": [
+            "pftrait | finesse | monk | nonlethal",
+            "property | Hands | 1 | Price | 1 sp",
+            "property | Category | Martial Weapon | Group | Flail",
+            "rule",
+            "text | Also called a \"slungshot,\" the monkey's fist is a short length of rope ending in a thick knot wrapped around a metal weight. You can tie the loose end of a monkey's fist to your wrist; if you are disarmed, the weapon remains secured to your wrist rather than falling to the ground, though you must use an Interact action to grip it before using it again. A monkey's fist is a martial melee weapon."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.morningstar",
+        "color": "",
+        "title": "Morningstar",
+        "icon_front": "wood-club",
+        "code": "equipment",
+        "contents": [
+            "pftrait | versatile p",
+            "property | Hands | 1 | Bulk | 1 | Price | 1 gp",
+            "property | Category | Simple Weapon | Group | Club",
+            "rule",
+            "text | This weapon has a short shaft ending in a metal ball studded with spikes."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.naginata",
+        "color": "",
+        "title": "Naginata",
+        "icon_front": "bo",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | deadly d8 | reach | versatile p",
+            "property | Hands | 2 | Bulk | 2 | Price | 3 gp",
+            "property | Category | Martial Weapon | Group | Polearm",
+            "rule",
+            "text | This 6-foot staff has a 2-foot-long, slightly curved, swordlike blade attached at one end. The long pole helps keep the wielder out of reach of swords and shorter weapons."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.nightstick",
+        "color": "",
+        "title": "Nightstick",
+        "icon_front": "wood-club",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | finesse | nonlethal | parry",
+            "property | Hands | 1 | Bulk | L | Price | 1 gp",
+            "property | Category | Simple Weapon | Group | Club",
+            "rule",
+            "text | This collapsible baton consists of several nested, telescoping metal shafts that can be extended as a free action by flicking the wrist. Once extended to its full length (usually around 2 feet), the baton locks into shape until the wielder uses an Interact action to collapse it—a collapsed nightstick is 8 inches long, making it easily concealed.",
+            "text | Lighter and more maneuverable than an ordinary club or truncheon, nightsticks are designed to subdue foes without causing permanent injury. A nightstick is an uncommon simple melee weapon."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.nine-ring-sword",
+        "color": "",
+        "title": "Nine-Ring Sword",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | disarm",
+            "property | Hands | 1 | Bulk | 1 | Price | 9 sp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | This sword has a broad blade, along which are threaded nine heavy metal rings. The rings add weight to the weapon for downward swings, as well as clashing together to make noise."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.nunchaku",
+        "color": "",
+        "title": "Nunchaku",
+        "icon_front": "wood-club",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | backswing | disarm | finesse | monk",
+            "property | Hands | 1 | Bulk | L | Price | 2 sp",
+            "property | Category | Martial Weapon | Group | Club",
+            "rule",
+            "text | The nunchaku is constructed of two wooden or metal bars connected by a short length of rope or chain."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.orc-knuckle-dagger",
+        "color": "",
+        "title": "Orc Knuckle Dagger",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | disarm | orc",
+            "property | Hands | 1 | Bulk | L | Price | 7 sp",
+            "property | Category | Martial Weapon | Group | Knife",
+            "rule",
+            "text | This stout, metal blade of orc design has a horizontal basket hilt with blades jutting from each end, or sometimes one blade like that of a katar."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.orc-necksplitter",
+        "color": "",
+        "title": "Orc Necksplitter",
+        "icon_front": "sharp-axe",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | forceful | orc | sweep",
+            "property | Hands | 1 | Bulk | 1 | Price | 2 gp",
+            "property | Category | Advanced Weapon | Group | Axe",
+            "rule",
+            "text | This single-bladed bearded axe has a jagged blade that's perfect for separating bone from tendon and cartilage."
+        ]
+    },
+    {
+        "id": "equipment.armor.light.padded-armor",
+        "color": "",
+        "title": "Padded Armor",
+        "icon_front": "leather-armor",
+        "code": "equipment",
+        "contents": [
+            "pftrait | comfort",
+            "property | Bulk | L | Price | 2 sp",
+            "property | AC Bonus | +1 | Dex Cap | +3",
+            "property | Str Req. | 10",
+            "property | Category | Light Armor | Group | Cloth",
+            "rule",
+            "text | This armor is simply a layer of heavy, quilted cloth, but it is sometimes used because it's so inexpensive. Padded armor is easier to damage and destroy than other types of armor. Heavy armor comes with a padded armor undercoat included in its Price, though it loses the comfort trait when worn under heavy armor. You can wear just that padded armor undercoat to sleep in, if your heavy armor is destroyed, or when otherwise not wearing the full heavy armor. This allows you to keep the armor invested and benefit from the power of any runes on the associated heavy armor, but no one else can wear your heavy armor without the padded undercoat."
+        ]
+    },
+    {
+        "id": "item.weapon.martial.pantograph-gauntlet",
+        "color": "",
+        "title": "Pantograph Gauntlet",
+        "icon_front": "brass-knuckles",
+        "code": "item 0",
+        "contents": [
+            "pftrait | uncommon | deadly d6 | monk | reach | shove",
+            "property | Hands | 1 | Bulk | L | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Brawling",
+            "rule",
+            "text | A pantograph gauntlet is a heavy, fist-like weight, mounted on an extendable frame and attached to your outer arm with a series of leather straps. The frame's set of mechanical linkages connected at various hinges allow movements to propagate across the frame based on reshaping parallelograms, further controlled by a crossbar grasped in your hand. A pantograph gauntlet is driven by your own motion and mirrors your arm's movements—a punch thrown with your fist moves the pantograph, extending the weight out at a rapid speed to land blows up to 10 feet away. In some regions, such as Alkenstar and Ustalav, pantograph gauntlets are occasionally constructed entirely of metal and fashioned in the likeness of oversized arms, incorporating a complex system of gears or a miniature steam engine in place of the simpler pantograph mechanism."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.pepperbox",
+        "color": "",
+        "title": "Pepperbox",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | capacity 3 | concussive | fatal d8",
+            "property | Hands | 1 | Bulk | 1 | Price | 12 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | This weapon is a specialty of the smiths of Alkenstar. The pepperbox has three barrels that each hold a single shot, and the shooter can manually rotate the whole barrel assembly to align a loaded barrel with the firing mechanism."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.pick",
+        "color": "",
+        "title": "Pick",
+        "icon_front": "war-pick",
+        "code": "equipment",
+        "contents": [
+            "pftrait | fatal d10",
+            "property | Hands | 1 | Bulk | 1 | Price | 7 sp",
+            "property | Category | Martial Weapon | Group | Pick",
+            "rule",
+            "text | A pick designed solely for combat has a sturdy wooden shaft and a heavy, pointed head to deliver devastating blows."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.piercing-wind",
+        "color": "",
+        "title": "Piercing Wind",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon",
+            "property | Hands | 1 | Bulk | 1 | Price | 15 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | Favored by caravan guards who traverse the Mana Wastes, a piercing wind is similar to a jezail, in that you can carry it in one hand as long as the other hand's free, by holding it under one arm. Additionally, it's fitted with an underslung curved blade."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.piranha-kiss",
+        "color": "",
+        "title": "Piranha Kiss",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | disarm | finesse",
+            "property | Hands | 1 | Bulk | L | Price | 4 sp",
+            "property | Category | Martial Weapon | Group | Knife",
+            "rule",
+            "text | Made of a jagged blade with teeth pointing toward a leather-wrapped hilt, these weapons are particularly effective at disarming opponents. Piranha kisses were occasionally used during the Vidric Revolution, and some Firebrands carry them today. Members of the Firebrands have access to this weapon."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.poi",
+        "color": "",
+        "title": "Poi",
+        "icon_front": "flail",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | backswing | finesse | nonlethal",
+            "property | Hands | 1 | Bulk | L | Price | 2 sp",
+            "property | Category | Simple Weapon | Group | Flail",
+            "rule",
+            "text | Poi are light weights tethered to ropes or chains. Performers swing the weights, usually one in each hand, in rhythmic patterns."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.polytool",
+        "color": "",
+        "title": "Polytool",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | modular b, p, or s",
+            "property | Hands | 1 | Bulk | 1 | Price | 10 gp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | The polytool is a small metal rod with a number of simple tools folded inside. The user can extend a long ceramic blade, as well as an awl, a chisel, a file, flint and steel, a hook, an inkpen, a magnifying glass, pliers, scissors, and a small saw. The flint and steel can be used up to 10 times before needing to be replaced. Though inspired by advanced Numerian technology, the polytool is a simple enough feat of metalworking that any blacksmith could produce it—perfect for the goddess Casandalee to spread innovation farther than actual Numerian tech could reach."
+        ]
+    },
+    {
+        "id": "equipment.armor.medium.power-suit",
+        "color": "",
+        "title": "Power Suit",
+        "icon_front": "abdominal-armor",
+        "code": "equipment",
+        "contents": [
+            "property | Bulk | 2",
+            "property | AC Bonus | +4 | Dex Cap | +1",
+            "property | Str Req. | 16 | Check Penalty | --2 | Speed Penalty | --5 ft.",
+            "property | Category | Medium Armor | Group | Composite",
+            "rule",
+            "text | This armor is exclusive to the Inventor class with the Armor innovation. While you may be able to wear this armor as a different class, everyone but the creator of the armor is untrained in it, even if they would normally be trained (or better) in medium armor."
+        ]
+    },
+    {
+        "id": "item.weapon.martial.probing-cane",
+        "color": "",
+        "title": "Probing Cane",
+        "icon_front": "wood-club",
+        "code": "item 0",
+        "contents": [
+            "pftrait | finesse | sweep",
+            "property | Hands | 1 | Bulk | L | Price | 5 sp",
+            "property | Category | Martial Weapon | Group | Club",
+            "rule",
+            "text | Your cane indicates that you have low vision or are blind. By holding this cane in front of you, you indicate to those around that you're partially sighted, which is particularly useful in urban or busy places to let others know to give you enough space.",
+            "text | The cane is typically several feet long, generally reaching the user's chin, but can be lengthened or shortened as needed.",
+            "text | Probing canes are made from reinforced wood with the same strengthening process and treatment as a longbow, creating a cane that is both high quality and durable enough for an adventuring owner to use as a weapon. A probing cane deals 1d6 bludgeoning damage, has the finesse and sweep traits, and is a martial melee weapon in the club weapon group."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.ranseur",
+        "color": "",
+        "title": "Ranseur",
+        "icon_front": "bo",
+        "code": "equipment",
+        "contents": [
+            "pftrait | disarm | reach",
+            "property | Hands | 2 | Bulk | 2 | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Polearm",
+            "rule",
+            "text | This polearm is a long trident with a central prong that's longer than the other two."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.rapier",
+        "color": "",
+        "title": "Rapier",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | deadly d8 | disarm | finesse",
+            "property | Hands | 1 | Bulk | 1 | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | The rapier is a long and thin piercing blade with a basket hilt. It is prized among many as a dueling weapon."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.rapier-pistol",
+        "color": "",
+        "title": "Rapier Pistol",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon",
+            "property | Hands | 1 | Bulk | 1 | Price | 10 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | This elegant weapon is shaped similarly to a rapier with a pistol down the length of the blade."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.reinforced-stock",
+        "color": "",
+        "title": "Reinforced Stock",
+        "icon_front": "wood-club",
+        "code": "equipment",
+        "contents": [
+            "pftrait | attached to crossbow or firearm | finesse | two-hand d6",
+            "property | Hands | 1 or 2* | Bulk | L | Price | 2 sp",
+            "property | Category | Martial Weapon | Group | Club",
+            "rule",
+            "text | A reinforced stock is a weighted crossbow, firearm haft, or grip customized for striking in melee.",
+            "text | *An attached bayonet or reinforced stock requires the same number of hands as the weapon it's attached to. A detached bayonet requires one hand."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.repeating-crossbow",
+        "color": "",
+        "title": "Repeating Crossbow",
+        "icon_front": "crossbow",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | repeating",
+            "property | Hands | 2 | Bulk | 1 | Price | 10 gp",
+            "property | Category | Advanced Weapon | Group | Bow",
+            "rule",
+            "text | This crossbow has an internal chamber that can be loaded with up to five bolts. An automated catch mechanism at the top of the flight groove, just in front of the latch, locks the bowstring and launches bolts with the pull of a trigger."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.repeating-hand-crossbow",
+        "color": "",
+        "title": "Repeating Hand Crossbow",
+        "icon_front": "crossbow",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | repeating",
+            "property | Hands | 1 | Bulk | L | Price | 10 gp",
+            "property | Category | Advanced Weapon | Group | Bow",
+            "rule",
+            "text | This handheld crossbow features an ingeniously designed catch mechanism at the top of the flight groove, just in front of the latch, which automatically loads a bolt from a magazine and resets the string each time the weapon is fired. A typical repeating hand crossbow magazine holds five bolts."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.repeating-heavy-crossbow",
+        "color": "",
+        "title": "Repeating Heavy Crossbow",
+        "icon_front": "crossbow",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | repeating",
+            "property | Hands | 2 | Bulk | 2 | Price | 20 gp",
+            "property | Category | Martial Weapon | Group | Bow",
+            "rule",
+            "text | This large crossbow has an internal chamber that can be loaded with up to five bolts. While it uses the same automated catch mechanism as other repeating crossbows, a repeating heavy crossbow's design has significant trade-offs. It has increased range and damage and is easier to learn how to use, but requires a small amount of effort to reload."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.rhoka-sword",
+        "color": "",
+        "title": "Rhoka Sword",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | deadly d8 | two-hand d10",
+            "property | Hands | 1 | Bulk | 2 | Price | 4 gp",
+            "property | Category | Advanced Weapon | Group | Sword",
+            "rule",
+            "text | These dual-bladed swords are commonly used by urdefhan warriors."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.rungu",
+        "color": "",
+        "title": "Rungu",
+        "icon_front": "wood-club",
+        "code": "equipment",
+        "contents": [
+            "pftrait | grippli | shove | thrown 30 ft.",
+            "property | Hands | 1 | Bulk | L | Price | 4 sp",
+            "property | Category | Martial Weapon | Group | Club",
+            "rule",
+            "text | This specialized club is designed for throwing and is useful for both combat and hunting. Rungus were invented by Zenj humans of the Mwangi Expanse and are most common among their tribes, though gripplis have also adopted rungus for hunting creatures that hide high in treetops."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.sai",
+        "color": "",
+        "title": "Sai",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | disarm | finesse | monk | versatile b",
+            "property | Hands | 1 | Bulk | L | Price | 6 sp",
+            "property | Category | Martial Weapon | Group | Knife",
+            "rule",
+            "text | This piercing dagger is a metal spike flanked by a pair of prongs that can be used to trap an enemy's weapon."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.sap",
+        "color": "",
+        "title": "Sap",
+        "icon_front": "wood-club",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | nonlethal",
+            "property | Hands | 1 | Bulk | L | Price | 1 sp",
+            "property | Category | Martial Weapon | Group | Club",
+            "rule",
+            "text | A sap has a soft wrapping around a dense core, typically a leather sheath around a lead rod. Its head is wider than its grip to disperse the force of a blow, as the weapon's purpose is to knock out its victim rather than to draw blood."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.sawtooth-saber",
+        "color": "",
+        "title": "Sawtooth Saber",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | finesse | twin",
+            "property | Hands | 1 | Bulk | L | Price | 5 gp",
+            "property | Category | Advanced Weapon | Group | Sword",
+            "rule",
+            "text | The signature weapon of the Red Mantis assassins, this curved blade is serrated like a saw, hence the name."
+        ]
+    },
+    {
+        "id": "equipment.armor.medium.scale-mail",
+        "color": "",
+        "title": "Scale Mail",
+        "icon_front": "abdominal-armor",
+        "code": "equipment",
+        "contents": [
+            "property | Bulk | 2 | Price | 4 gp",
+            "property | AC Bonus | +3 | Dex Cap | +2",
+            "property | Str Req. | 14 | Check Penalty | --2 | Speed Penalty | --5 ft.",
+            "property | Category | Medium Armor | Group | Composite",
+            "rule",
+            "text | Scale mail consists of many metal scales sewn onto a reinforced leather backing, often in the form of a long shirt that protects the torso, arms, and legs."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.scimitar",
+        "color": "",
+        "title": "Scimitar",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | forceful | sweep",
+            "property | Hands | 1 | Bulk | 1 | Price | 1 gp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | This one-handed curved blade is sharp on one side."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.scorpion-whip",
+        "color": "",
+        "title": "Scorpion Whip",
+        "icon_front": "flail",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | disarm | finesse | reach | trip",
+            "property | Hands | 1 | Bulk | L | Price | 5 sp",
+            "property | Category | Martial Weapon | Group | Flail",
+            "rule",
+            "text | A scorpion whip has a series of razor-sharp blades set along its tip. Unlike ordinary whips, a scorpion whip doesn't have the nonlethal trait, making it deadlier in combat but less effective when the wielder seeks to bring in foes alive."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.scourge",
+        "color": "",
+        "title": "Scourge",
+        "icon_front": "flail",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | disarm | finesse | nonlethal | sweep",
+            "property | Hands | 1 | Bulk | 1 | Price | 1 sp",
+            "property | Category | Martial Weapon | Group | Flail",
+            "rule",
+            "text | A scourge—also known as a cat-o'-nine-tails—is a set of several knotted cords made from cotton or leather and attached to a handle. While most scourges are more suitable for torture than combat, the weapons used by the Order of the Scourge have metal barbs woven in to pierce clothing and armor. The scourge is a martial melee weapon."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.scythe",
+        "color": "",
+        "title": "Scythe",
+        "icon_front": "bo",
+        "code": "equipment",
+        "contents": [
+            "pftrait | deadly d10 | trip",
+            "property | Hands | 2 | Bulk | 2 | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Polearm",
+            "rule",
+            "text | Derived from a farming tool used to mow down long grains and cereals, this weapon has a long wooden shaft with protruding handles, capped with a curved blade set at a right angle."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.shauth-blade",
+        "color": "",
+        "title": "Shauth Blade",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | deadly d8 | finesse | versatile p",
+            "property | Hands | 1 | Bulk | L | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Knife",
+            "rule",
+            "text | These strange curved blades are jagged and deadly weapons made from the alchemically strengthened teeth of dead urdefhans. Each weapon is typically named for the urdefhan whose teeth were forged into the weapon, which are often carried (and revered) by that urdefhan's descendants. Magical shauth blades allow an urdefhan wielder to channel their Wicked Bite ability through shauth blade Strikes. "
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.shauth-lash",
+        "color": "",
+        "title": "Shauth Lash",
+        "icon_front": "flail",
+        "code": "equipment",
+        "contents": [
+            "pftrait | deadly d10 | finesse | trip",
+            "property | Hands | 2 | Bulk | 1 | Price | 8 gp",
+            "property | Category | Advanced Weapon | Group | Flail",
+            "rule",
+            "text | This metal chain bears hook-like barbs made of alchemically strengthened urdefhan teeth. Magical shauth lashes have the same ability to channel an urdefhan wielder's Wicked Bite as magical shauth blades, and urdefhans hold these weapons with the same reverence as they do shauth blades."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.shears",
+        "color": "",
+        "title": "Shears",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | deadly d8 | finesse | versatile p",
+            "property | Hands | 1 | Bulk | L | Price | 5 sp",
+            "property | Category | Simple Weapon | Group | Knife",
+            "rule",
+            "text | No entries found."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.shield-boss",
+        "color": "",
+        "title": "Shield Boss",
+        "icon_front": "bordered-shield",
+        "code": "equipment",
+        "contents": [
+            "pftrait | attached to shield",
+            "property | Hands | 1 | Price | 5 sp",
+            "property | Category | Martial Weapon | Group | Shield",
+            "rule",
+            "text | Typically a round, convex, or conical piece of thick metal attached to the center of a shield, a shield boss increases the bludgeoning damage of a shield bash."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.shield-spikes",
+        "color": "",
+        "title": "Shield Spikes",
+        "icon_front": "bordered-shield",
+        "code": "equipment",
+        "contents": [
+            "pftrait | attached to shield",
+            "property | Hands | 1 | Price | 5 sp",
+            "property | Category | Martial Weapon | Group | Shield",
+            "rule",
+            "text | These metal spikes are strategically placed on the defensive side of the shield to deal piercing damage with a shield bash."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.shortbow",
+        "color": "",
+        "title": "Shortbow",
+        "icon_front": "crossbow",
+        "code": "equipment",
+        "contents": [
+            "pftrait | deadly d10",
+            "property | Hands | 1+ | Bulk | 1 | Price | 3 gp",
+            "property | Category | Martial Weapon | Group | Bow",
+            "rule",
+            "text | This smaller bow is made of a single piece of wood and favored by skirmishers and cavalry."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.shortsword",
+        "color": "",
+        "title": "Shortsword",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | finesse | versatile s",
+            "property | Hands | 1 | Bulk | L | Price | 9 sp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | These blades come in a variety of shapes and styles, but they are typically 2 feet long."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.shuriken",
+        "color": "",
+        "title": "Shuriken",
+        "icon_front": "dart",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | monk | thrown",
+            "property | Hands | 1 | Price | 1 cp",
+            "property | Category | Martial Weapon | Group | Dart",
+            "rule",
+            "text | This \"throwing star\" is a small piece of flat metal with sharp edges, designed to be flung with a flick of the wrist."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.sickle",
+        "color": "",
+        "title": "Sickle",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | finesse | trip",
+            "property | Hands | 1 | Bulk | L | Price | 2 sp",
+            "property | Category | Simple Weapon | Group | Knife",
+            "rule",
+            "text | Originally a farming tool used for reaping grain, this one-handed weapon has a short wooden handle ending in a curved blade, sometimes sharpened on both sides."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.sickle-saber",
+        "color": "",
+        "title": "Sickle-Saber",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | backswing | forceful",
+            "property | Hands | 1 | Bulk | 1 | Price | 5 gp",
+            "property | Category | Advanced Weapon | Group | Sword",
+            "rule",
+            "text | A classical weapon of Irrisenis who lacked magical talent, the sickle-saber has seen a resurgence since the coronation of Queen Anastasia. The queen was fascinated with the sickle-sabers in the palace treasury, and now the unusual blades are carried by her honor guard and Irriseni diplomats alike. The sickle-saber's blade curves multiple times along its 4-foot length, and its hilt is similarly curved. A small, secondary grip on the blade lets the wielder rapidly and unpredictably twist the cutting edges. Characters from Irrisen have access to the sickle-saber."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.slide-pistol",
+        "color": "",
+        "title": "Slide Pistol",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | capacity 5 | concussive | fatal d10",
+            "property | Hands | 1 | Bulk | 2 | Price | 16 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | Also known as a harmonica gun, this weapon is essentially a stock, trigger, and firing mechanism attached to a sliding brace of barrels that can each hold a round of ammunition."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.sling",
+        "color": "",
+        "title": "Sling",
+        "icon_front": "sling",
+        "code": "equipment",
+        "contents": [
+            "pftrait | propulsive",
+            "property | Hands | 1 | Bulk | L | Price | 0 gp",
+            "property | Category | Simple Weapon | Group | Sling",
+            "rule",
+            "text | Little more than a leather cup attached to a pair of straps, a sling can be used to fling smooth stones or sling bullets at a range."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.spear",
+        "color": "",
+        "title": "Spear",
+        "icon_front": "trident",
+        "code": "equipment",
+        "contents": [
+            "pftrait | thrown 20 ft.",
+            "property | Hands | 1 | Bulk | 1 | Price | 1 sp",
+            "property | Category | Simple Weapon | Group | Spear",
+            "rule",
+            "text | A long metal shaft ending with a metal spike, a spear can be used one-handed as a melee weapon and can be thrown."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.spiked-chain",
+        "color": "",
+        "title": "Spiked Chain",
+        "icon_front": "flail",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | disarm | finesse | trip",
+            "property | Hands | 2 | Bulk | 1 | Price | 3 gp",
+            "property | Category | Martial Weapon | Group | Flail",
+            "rule",
+            "text | This 4-foot-long length of chain is covered with barbs and has spikes on one or both ends. Some feature metal hoops used as handgrips."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.spiked-gauntlet",
+        "color": "",
+        "title": "Spiked Gauntlet",
+        "icon_front": "brass-knuckles",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | free-hand",
+            "property | Hands | 1 | Bulk | L | Price | 3 sp",
+            "property | Category | Simple Weapon | Group | Brawling",
+            "rule",
+            "text | Providing the same defensive function as a standard gauntlet, this version has a group of spikes protruding from the knuckles to deliver piercing damage with a punch."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.spiral-rapier",
+        "color": "",
+        "title": "Spiral Rapier",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | disarm | finesse | parry",
+            "property | Hands | 1 | Bulk | 1 | Price | 5 gp",
+            "property | Category | Advanced Weapon | Group | Sword",
+            "rule",
+            "text | An old Taldan dueling weapon from the empire's height, this rapier has a thicker blade than normal, which is shaped into a corkscrew-like spiral well suited to catching enemy weapons. Characters from Taldor have access to the spiral rapier."
+        ]
+    },
+    {
+        "id": "equipment.armor.heavy.splint-mail",
+        "color": "",
+        "title": "Splint Mail",
+        "icon_front": "lamellar",
+        "code": "equipment",
+        "contents": [
+            "property | Bulk | 3 | Price | 13 gp",
+            "property | AC Bonus | +5 | Dex Cap | +1",
+            "property | Str Req. | 16 | Check Penalty | --3 | Speed Penalty | --10 ft.",
+            "property | Category | Heavy Armor | Group | Composite",
+            "rule",
+            "text | This type of armor is chain mail reinforced with flexible, interlocking metal plates, typically located on the wearer's torso, upper arms, and legs. A suit of this armor comes with an undercoat of padded armor and a pair of gauntlets."
+        ]
+    },
+    {
+        "id": "item.weapon.martial.spoon-gun",
+        "color": "",
+        "title": "Spoon Gun",
+        "icon_front": "blunderbuss",
+        "code": "item 1",
+        "contents": [
+            "pftrait | uncommon | cobbled | goblin | modular b, p, or s | scatter 5 ft.",
+            "property | Hands | 1 | Bulk | 1 | Price | 10 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | No one's entirely certain who developed the spoon gun, but all authorities agree that it was probably a goblin. Essentially a terrible idea in firearm form, the spoon gun is a spring-powered hand cannon with a modified grip that uses miscellaneous knives, forks, chopsticks, and spoons as ammunition. Users typically upend the entire contents of their cutlery drawer into the gun, aim it in the general direction of the foe, and hope it hits something.",
+            "text | This hand cannon is a martial weapon, instead of a simple weapon. It has the scatter (5 feet) trait and uses cutlery or similar-sized objects as ammunition instead of bullets (enough cheap cutlery to fire ten shots costs 1 sp)."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.staff",
+        "color": "",
+        "title": "Staff",
+        "icon_front": "wood-club",
+        "code": "equipment",
+        "contents": [
+            "pftrait | two-hand d8",
+            "property | Hands | 1 | Bulk | 1 | Price | 0 gp",
+            "property | Category | Simple Weapon | Group | Club",
+            "rule",
+            "text | This long piece of wood can aid in walking and deliver a mighty blow."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.starknife",
+        "color": "",
+        "title": "Starknife",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | deadly d6 | finesse | thrown 20 ft. | versatile s",
+            "property | Hands | 1 | Bulk | L | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Knife",
+            "rule",
+            "text | From a central metal ring, four tapering metal blades extend like points on a compass rose. When gripping a starknife from the center, the wielder can use it as a melee weapon. It can also be thrown short distances."
+        ]
+    },
+    {
+        "id": "equipment.shield.steel-shield",
+        "color": "",
+        "title": "Steel Shield",
+        "icon_front": "shield",
+        "code": "equipment",
+        "contents": [
+            "property | Bulk | 1 | Price | 2 gp",
+            "rule",
+            "text | Like wooden shields, steel shields come in a variety of shapes and sizes. Though more expensive than wooden shields, they are much more durable."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.stiletto-pen",
+        "color": "",
+        "title": "Stiletto Pen",
+        "icon_front": "dart",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | concealable | finesse | thrown 10 feet",
+            "property | Hands | 1 | Bulk | L | Price | 8 gp",
+            "property | Category | Martial Weapon | Group | Dart",
+            "rule",
+            "text | This weapon is a fully functional, lavish ink pen with a clip that can be attached to a pocket or bandoleer and easily retrieved as a free action. Using an action to Interact with the pen allows its wielder to disengage a stiletto blade that slides free of the upper body or reattach the previously removed blade."
+        ]
+    },
+    {
+        "id": "equipment.armor.light.studded-leather",
+        "color": "",
+        "title": "Studded Leather",
+        "icon_front": "leather-armor",
+        "code": "equipment",
+        "contents": [
+            "property | Bulk | 1 | Price | 3 gp",
+            "property | AC Bonus | +2 | Dex Cap | +3",
+            "property | Str Req. | 12 | Check Penalty | --1",
+            "property | Category | Light Armor | Group | Leather",
+            "rule",
+            "text | This leather armor is reinforced with metal studs and sometimes small metal plates, providing most of the flexibility of leather armor with more robust protection."
+        ]
+    },
+    {
+        "id": "equipment.armor.medium.subterfuge-suit",
+        "color": "",
+        "title": "Subterfuge Suit",
+        "icon_front": "abdominal-armor",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon",
+            "property | Bulk | 1",
+            "property | AC Bonus | +1 | Dex Cap | +4",
+            "property | Str Req. | 10 | Check Penalty | --1",
+            "property | Category | Medium Armor | Group | Composite",
+            "rule",
+            "text | This armor is exclusive to the Inventor class with the Armor innovation. While you may be able to wear this armor as a different class, everyone but the creator of the armor is untrained in it, even if they would normally be trained (or better) in medium armor."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.switchscythe",
+        "color": "",
+        "title": "Switchscythe",
+        "icon_front": "war-pick",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | fatal d10 | gnome | modular (p and grapple, or s and sweep)",
+            "property | Hands | 1 | Bulk | 2 | Price | 12 gp",
+            "property | Category | Advanced Weapon | Group | Pick",
+            "rule",
+            "text | Another complex gnome invention, the switchscythe is designed for versatility. The curved blade is partly hollow, containing a long rod of wood or metal; the rod can be pulled perpendicular to the blade, turning the switchscythe from a sweeping, axe-like blade into a hooked pick capable of grappling a foe."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.sword-cane",
+        "color": "",
+        "title": "Sword Cane",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | concealable | finesse",
+            "property | Hands | 1 | Bulk | 1 | Price | 5 gp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | This slender, rapier-like sword is concealed within a wooden or metal cane that serves as a sheath, making it an inconspicuous weapon easy to slip past inspections or into high-society events. A sword cane is typically 4 feet long when sheathed, and its hilt is usually capped with a wooden or metal decoration."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.tamchal-chakram",
+        "color": "",
+        "title": "Tamchal Chakram",
+        "icon_front": "dart",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | deadly d6 | finesse | thrown 20 feet",
+            "property | Hands | 1 | Bulk | L | Price | 5 gp",
+            "property | Category | Advanced Weapon | Group | Dart",
+            "rule",
+            "text | These circular weapons are among the many strange weapons used by urdefhans. The sharp metal circle contains numerous protruding blades, while an angled central handle provides a decent grip that spins the weapon as it's thrown."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.taw-launcher",
+        "color": "",
+        "title": "Taw Launcher",
+        "icon_front": "crossbow",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | conrasu | deadly 1d10 | modular b, p, or s",
+            "property | Hands | 2 | Bulk | 1 | Price | 10 gp",
+            "property | Category | Advanced Weapon | Group | Bow",
+            "rule",
+            "text | Designed by conrasu warriors, this complex device is a crossbow and fires small wooden bullets known as taws. A system of blades within the launcher can rapidly reshape a taw as it's loaded, allowing the launcher to fire taws of different shapes, such as fléchettes."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.tekko-kagi",
+        "color": "",
+        "title": "Tekko-Kagi",
+        "icon_front": "brass-knuckles",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | disarm | finesse | parry | trip",
+            "property | Hands | 1 | Bulk | L | Price | 2 sp",
+            "property | Category | Martial Weapon | Group | Brawling",
+            "rule",
+            "text | Four curved blades attached to a sturdy handlebar give the wielder of this close-combat weapon the illusion of having claws that extend from their fist. Adherents of Bastet favor the tekko-kagi for catching their foes off guard."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.temple-sword",
+        "color": "",
+        "title": "Temple Sword",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | monk | trip",
+            "property | Hands | 1 | Bulk | 1 | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | This heavy blade is favored by guardians of religious sites. It has a distinctive, crescent-shaped blade that seems to be a mix of a sickle and sword. It often has holes drilled into the blade or the pommel so that bells or other holy trinkets can be affixed to the weapon as an aid for prayer or mediation."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.tengu-gale-blade",
+        "color": "",
+        "title": "Tengu Gale Blade",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | disarm | finesse | tengu",
+            "property | Hands | 1 | Bulk | L | Price | 4 gp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | This fan-shaped sword, designed by members of the tengu ancestry, has five broad blades that join at its hilt. Tengu sailors also use gale blades as makeshift weather vanes, as the sword spins to show the wind's direction when loosely held aloft."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.three-peaked-tree",
+        "color": "",
+        "title": "Three Peaked Tree",
+        "icon_front": "blunderbuss",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon",
+            "property | Hands | 2 | Bulk | 2 | Price | 12 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | A recently developed weapon created for an elven champion from Jinin, the three-peaked tree can be used as both a trident and a mithral tree. A three-peaked tree has a length of silken rope attached to the butt of its haft, allowing it to be quickly retrieved after thrown."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.throwing-knife",
+        "color": "",
+        "title": "Throwing Knife",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | finesse | thrown 20 feet",
+            "property | Hands | 1 | Bulk | L | Price | 3 sp",
+            "property | Category | Simple Weapon | Group | Knife",
+            "rule",
+            "text | This light knife is optimally balanced to be thrown accurately at a greater distance than a common dagger. While this comes at the cost of a significant cutting edge, the difference is worth it for characters focused on thrown weapons."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.thunder-sling",
+        "color": "",
+        "title": "Thunder Sling",
+        "icon_front": "sling",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | propulsive | tengu",
+            "property | Hands | 1 | Bulk | L | Price | 5 gp",
+            "property | Category | Martial Weapon | Group | Sling",
+            "rule",
+            "text | Tengu use these specialized slings to fire darts further and with greater force than when thrown by hand, which is particularly effective when attacking from great heights. A thunder sling uses darts as ammunition. It can also hurl blowgun darts as ammunition but deals 1d4 piercing damage instead of 1d6 when used this way."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.thundermace",
+        "color": "",
+        "title": "Thundermace",
+        "icon_front": "wood-club",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | backswing",
+            "property | Hands | 2 | Bulk | 2 | Price | 2 sp",
+            "property | Category | Simple Weapon | Group | Club",
+            "rule",
+            "text | This deceptively dangerous weapon is essentially a mace with a longer haft and larger, often flanged head."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.tonfa",
+        "color": "",
+        "title": "Tonfa",
+        "icon_front": "brass-knuckles",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | finesse | monk | parry | twin",
+            "property | Hands | 1 | Bulk | L | Price | 1 sp",
+            "property | Category | Martial Weapon | Group | Brawling",
+            "rule",
+            "text | These L-shaped fighting batons are good for striking and blocking. The wielder holds the handle and either spins the stick or strikes with the stick covering the forearm."
+        ]
+    },
+    {
+        "id": "equipment.shield.tower-shield",
+        "color": "",
+        "title": "Tower Shield",
+        "icon_front": "shield",
+        "code": "equipment",
+        "contents": [
+            "property | Bulk | 4 | Price | 10 gp",
+            "rule",
+            "text | These massive shields can be used to provide cover to nearly the entire body. Due to their size, they are typically made of wood reinforced with metal.",
+            "text | When you have a tower shield raised, you can use the Take Cover action to increase the circumstance bonus to AC to +4. This lasts until the shield is no longer raised. If you would normally provide lesser cover against an attack, having your tower shield raised provides standard cover against it (and other creatures can Take Cover as normal using the cover from your shield)."
+        ]
+    },
+    {
+        "id": "equipment.weapon.simple.tri-bladed-katar",
+        "color": "",
+        "title": "Tri-bladed Katar",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | disarm | fatal d8 | monk",
+            "property | Hands | 1 | Bulk | L | Price | 8 sp",
+            "property | Category | Simple Weapon | Group | Knife",
+            "rule",
+            "text | This punching dagger resembles the standard katar, save that a pair of blades can be folded out from the center blade, transforming the weapon into a starburst shape well suited to catching foes' weapons."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.tricky-pick",
+        "color": "",
+        "title": "Tricky Pick",
+        "icon_front": "war-pick",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | backstabber | fatal d10 | kobold | modular b, p, or s",
+            "property | Hands | 1 | Bulk | 1 | Price | 10 gp",
+            "property | Category | Advanced Weapon | Group | Pick",
+            "rule",
+            "text | This ingenious kobold pick conceals several hidden traps, which the wielder can activate to trick and befuddle foes with a variety of damaging blades and bludgeoning surfaces."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.trident",
+        "color": "",
+        "title": "Trident",
+        "icon_front": "trident",
+        "code": "equipment",
+        "contents": [
+            "pftrait | thrown 20 ft.",
+            "property | Hands | 1 | Bulk | 1 | Price | 1 gp",
+            "property | Category | Martial Weapon | Group | Spear",
+            "rule",
+            "text | This three-pronged, spear-like weapon typically has a 4-foot shaft. Like a spear, it can be wielded with one hand or thrown."
+        ]
+    },
+    {
+        "id": "item.weapon.martial.umbrella-injector",
+        "color": "",
+        "title": "Umbrella Injector",
+        "icon_front": "broadsword",
+        "code": "item 0",
+        "contents": [
+            "pftrait | uncommon | concealable | finesse | injection | parry",
+            "property | Hands | 1 | Bulk | 1 | Price | 4 gp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | This umbrella's ferrule is a hollow-tipped blade three to four inches in length and often overlooked as decorative.",
+            "text | A receptacle inside the umbrella's shaft can be loaded with a single dose of injury poison and injected into a damaged target with the pull of a sliding trigger. Reinforced ribs enable you to parry and deflect blows with the umbrella's tear-resistant canopy."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.urumi",
+        "color": "",
+        "title": "Urumi",
+        "icon_front": "flail",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | deadly d10 | sweep",
+            "property | Hands | 1 | Bulk | 2 | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Flail",
+            "rule",
+            "text | A bouquet of whiplike blades extends from the hilt of this sword."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.wakizashi",
+        "color": "",
+        "title": "Wakizashi",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | deadly d8 | finesse | versatile p",
+            "property | Hands | 1 | Bulk | L | Price | 1 gp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | This short-bladed, single-edged sword is typically carried as part of a pair alongside a katana."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.war-flail",
+        "color": "",
+        "title": "War Flail",
+        "icon_front": "flail",
+        "code": "equipment",
+        "contents": [
+            "pftrait | disarm | sweep | trip",
+            "property | Hands | 2 | Bulk | 2 | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Flail",
+            "rule",
+            "text | This large flail has a long shaft connected to a shorter piece of stout wood or metal that's sometimes inlaid with spikes."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.war-razor",
+        "color": "",
+        "title": "War Razor",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | agile | backstabber | deadly d8 | finesse",
+            "property | Hands | 1 | Bulk | L | Price | 3 sp",
+            "property | Category | Martial Weapon | Group | Knife",
+            "rule",
+            "text | A war razor is an exaggerated version of the barbers' tool. It is a brittle but extremely sharp weapon that is very easy to slip into a pocket or sleeve."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.warhammer",
+        "color": "",
+        "title": "Warhammer",
+        "icon_front": "warhammer",
+        "code": "equipment",
+        "contents": [
+            "pftrait | shove",
+            "property | Hands | 1 | Bulk | 1 | Price | 1 gp",
+            "property | Category | Martial Weapon | Group | Hammer",
+            "rule",
+            "text | This weapon has a wooden shaft ending in a large, heavy metal head. The head of the hammer might be single-sided or double-sided, but it's always capable of delivering powerful bludgeoning blows."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.whip",
+        "color": "",
+        "title": "Whip",
+        "icon_front": "flail",
+        "code": "equipment",
+        "contents": [
+            "pftrait | disarm | finesse | nonlethal | reach | trip",
+            "property | Hands | 1 | Bulk | 1 | Price | 1 sp",
+            "property | Category | Martial Weapon | Group | Flail",
+            "rule",
+            "text | This long strand of thick leather, often braided, delivers a painful but nonlethal slash at a distance, usually accompanied by a distinctive cracking sound."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.whip-claw",
+        "color": "",
+        "title": "Whip Claw",
+        "icon_front": "flail",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | catfolk | finesse | hampering | reach",
+            "property | Hands | 2 | Bulk | 1 | Price | 5 gp",
+            "property | Category | Advanced Weapon | Group | Flail",
+            "rule",
+            "text | The whip claw is a long tether affixed to clawlike daggers, allowing the wielder to fling and retract them with deadly precision. Catfolk developed this weapon to provide extended reach when hunting dangerous animals and wield them with unmatched expertise."
+        ]
+    },
+    {
+        "id": "equipment.weapon.advanced.wind-and-fire-wheel",
+        "color": "",
+        "title": "Wind and Fire Wheel",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | disarm | finesse | monk | parry | twin | versatile p",
+            "property | Hands | 1 | Bulk | L | Price | 2 gp",
+            "property | Category | Advanced Weapon | Group | Knife",
+            "rule",
+            "text | This large, flat steel ring features several protruding blades typically stylized to resemble flames."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.wish-blade",
+        "color": "",
+        "title": "Wish Blade",
+        "icon_front": "broadsword",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | disarm | geniekin | resonant | two-hand d10",
+            "property | Hands | 1 | Bulk | 1 | Price | 5 gp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "rule",
+            "text | Specialized grooves lined with unique, alchemically treated metals capable of retaining energy score the length of this sword. The first wish blades originated from genie smiths, and the knowledge of these weapons has been passed on to generations of geniekin, earning them the name wish blades."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.wish-knife",
+        "color": "",
+        "title": "Wish Knife",
+        "icon_front": "daggers",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | disarm | finesse | geniekin | resonant | versatile s",
+            "property | Hands | 1 | Bulk | L | Price | 2 gp",
+            "property | Category | Martial Weapon | Group | Knife",
+            "rule",
+            "text | Much like a wish blade, the length of this knife is scored with intricate grooves capable of retaining energy. Wish knives are lighter than their counterparts, making them the weapon of choice for agile combatants."
+        ]
+    },
+    {
+        "id": "equipment.shield.wooden-shield",
+        "color": "",
+        "title": "Wooden Shield",
+        "icon_front": "shield",
+        "code": "equipment",
+        "contents": [
+            "property | Bulk | 1 | Price | 1 gp",
+            "rule",
+            "text | Though they come in a variety of shapes and sizes, the protection offered by wooden shields comes from the stoutness of their materials. While wooden shields are less expensive than steel shields, they break more easily."
+        ]
+    }
+]

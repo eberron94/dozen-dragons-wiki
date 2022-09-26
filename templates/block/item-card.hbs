@@ -1,0 +1,18 @@
+<div class='item-card'>
+    <div class='item-card-title'>
+        <img src='{{card.icon}}' />
+        <h4 id='{{id}}'>
+            {{{card.title}}}
+        </h4>
+        <span class='item-label'>
+            {{#if card.code}}<span
+                    class='item-label-text'
+                >{{card.code}}</span>{{/if}}
+        </span>
+    </div>
+    <div class='item-card-body'>
+        {{#each card.contents}}
+            {{{this}}}
+        {{/each}}
+    </div>
+</div>

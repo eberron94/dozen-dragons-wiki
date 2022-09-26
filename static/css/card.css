@@ -1,0 +1,139 @@
+/* TEXT LINE */
+
+.card-text-line {
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+}
+
+.card-text-text.text-align-center {
+    text-align: center;
+}
+
+.card-text-text.text-align-justify {
+    text-align: justify;
+    hyphens: auto;
+}
+
+.card-text-text.text-align-right {
+    text-align: right;
+}
+
+/* DESCRIPTION LINE */
+/* PROPERTY LINE */
+
+.card-property-line,
+.card-description-line {
+    display: flex;
+    gap: 3px;
+}
+
+.card-property-flex,
+.card-description-flex {
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+.card-property-name,
+.card-description-name,
+.card-list-name {
+    display: inline;
+    font-weight: 600;
+}
+
+.card-list-name::after,
+.card-property-name::after {
+    content: ' ';
+}
+
+.card-description-name {
+    font-style: italic;
+}
+
+.card-description-name::after {
+    content: '. ';
+}
+
+/* LIST LINE */
+
+.card-list-line {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: inherit;
+    line-height: normal;
+    position: relative;
+}
+
+/* RULER LINE */
+
+.card-ruler-line {
+    width: 100%;
+}
+
+/* SECTION LINE */
+
+.card-section-line {
+    border-bottom: 1px solid;
+    font-variant: small-caps;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 4px;
+
+    font-size: 18px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* SUBTITLE LINE */
+
+.card-subtitle-line {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* PF TRAIT LINE */
+
+/* .card-pftrait-line {
+    margin-bottom: 2px;
+}
+
+.card-pftrait-trait {
+    border-color: #d8c483;
+    border-style: double;
+    border-width: 2px;
+    color: white;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    text-align: left;
+    text-indent: 0em;
+    display: inline-block;
+    margin: 0;
+    background-color: #522e2c;
+    line-height: 10px;
+}
+
+.card-pftrait-uncommon {
+    background-color: #c45500;
+}
+
+.card-pftrait-rare {
+    background-color: #0c1466;
+}
+
+.card-pftrait-unique {
+    background-color: #800080;
+} */
+
+/* *********************** */
+.card-text-text,
+.card-property-text,
+.card-description-text,
+.card-list-text,
+.card-section-text {
+    display: inline;
+}

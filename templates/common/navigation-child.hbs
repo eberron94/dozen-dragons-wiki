@@ -1,0 +1,24 @@
+<li {{#unless slug}}class="group-list-seperator"{{/unless}}>
+    {{#if children}}
+        <input class='nav-group-toggle' id='{{id}}' type='checkbox' hidden />
+        <label for='{{id}}'>
+            {{#if children}}
+                <span class='fa fa-angle-right'></span>
+            {{/if}}
+            <a href='{{slug}}.html'>{{name}}</a>
+        </label>
+        <ul class='group-list-t{{depth}}'>
+            {{#each children}}
+                {{{navChild this}}}
+            {{/each}}
+        </ul>
+    {{else}}
+        <label>
+            {{#if slug}}
+            <a href='{{slug}}.html'>{{name}}</a>
+            {{else}}
+                {{name}}
+            {{/if}}
+            </label>
+    {{/if}}
+</li>

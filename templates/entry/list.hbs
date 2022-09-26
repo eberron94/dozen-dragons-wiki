@@ -1,0 +1,12 @@
+
+{{#if name}}
+<span class="list-title">
+  {{{name}}}
+</span>
+{{/if}}
+
+<ul class="list-body">
+  {{#each items}}
+    <li>{{{entry this}}}</li>
+  {{/each}}
+</ul>

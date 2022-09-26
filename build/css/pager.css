@@ -1,0 +1,105 @@
+.pager-wrapper {
+    display: grid;
+    column-gap: 24px;
+    -webkit-column-gap: 24px;
+    grid-template-columns: calc(50% - 8px) calc(50% - 8px);
+    margin-bottom: 8px;
+}
+
+.rightArrow {
+    flex: 0 0 auto;
+    font-size: 24px;
+    transition: color 0.2s ease 0s;
+    color: #9daab6;
+}
+
+.leftArrow {
+    color: #9daab6;
+    flex: 0 0 auto;
+    font-size: 24px;
+    transition: color 0.2s ease 0s;
+}
+
+.nextBtn {
+    cursor: pointer;
+    -moz-box-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    place-self: stretch;
+    color: #242a31;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #e6ecf1;
+    transition: border 0.2s ease 0s;
+    box-shadow: 0 3px 8px 0 rgb(116 129 141 / 10%);
+    text-decoration: none;
+}
+
+.previousBtn {
+    cursor: pointer;
+    -moz-box-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    place-self: stretch;
+    color: #242a31;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #e6ecf1;
+    transition: border 0.2s ease 0s;
+    box-shadow: 0 3px 8px 0 rgb(116 129 141 / 10%);
+    text-decoration: none;
+}
+
+.nextBtn:hover,
+.previousBtn:hover {
+    color: #744cbc;
+    text-decoration: none;
+    border: 1px solid #744cbc;
+}
+
+.nextRightWrapper {
+    flex: 1 1;
+}
+
+.nextRightWrapper,
+.rightArrow {
+    padding: 16px;
+    display: block;
+    margin: 0;
+}
+
+.preRightWrapper {
+    flex: 1 1;
+    text-align: right;
+}
+
+.leftArrow,
+.preRightWrapper {
+    display: block;
+    margin: 0;
+    padding: 16px;
+}
+
+.smallContent {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: #6e6e6e;
+    font-size: 0.8rem;
+}
+
+.nextPreviousTitle {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    font-weight: 800;
+}

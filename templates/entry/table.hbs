@@ -1,0 +1,27 @@
+{{#if name}}
+  <span class="table-title">
+    {{{name}}}
+  </span>
+{{/if}}
+<table>
+  <thead>
+    <tr>
+      {{#each colLabels}}
+        <th>
+          {{this}}
+        </th>
+      {{/each}}
+    </tr>
+  </thead>
+  <tbody>
+    {{#each rows}}
+      <tr>
+        {{#each this}}
+          <td>
+            {{{entry this}}}
+          </td>
+        {{/each}}
+      </tr>
+    {{/each}}
+  </tbody>
+</table>

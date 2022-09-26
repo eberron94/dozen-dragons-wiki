@@ -1,0 +1,48 @@
+
+.page-toc h2 {
+    font-size: 0.8em;
+    text-align: center;
+    border-bottom: rgb(59, 69, 78) solid 2px;
+}
+
+.page-toc li {
+    list-style: none;
+    font-size: 0.7em;
+    padding: 3px 0 3px 5px;
+}
+
+.page-toc li a {
+    color: rgb(59, 69, 78);
+    text-decoration: none;
+}
+
+.page-toc li.toc-heading-1 {
+    /* margin-top: 12px; */
+    /* border-bottom: 1px rgb(59, 69, 78) solid; */
+}
+
+.page-toc li.toc-heading-1:not(:first-of-type) {
+    margin-top: 4px;
+    border-top: 1px rgb(59, 69, 78) dashed;
+}
+
+.page-toc li.toc-heading-2 {
+    margin-left: 12px;
+}
+
+.page-toc li.toc-heading-3 {
+    margin-left: 18px;
+}
+
+.page-toc li.toc-heading-4 {
+    margin-left: 24px;
+}
+
+/* CONNECT TITLE AND TOC WITH UNDERLINE */
+
+.page-toc ul {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    min-height: 100px;
+    border-left: solid rgb(59, 69, 78) 2px;
+}

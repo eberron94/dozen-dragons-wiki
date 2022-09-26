@@ -1,0 +1,284 @@
+/* PALETTE */
+/* 6DAEDB 2892D7 1D70A2 9A031E 001834 */
+
+@font-face {
+    font-family: PF2E;
+    src: url('../font/Pathfinder2eActions.ttf');
+}
+
+.content {
+    /* FLEX PARTS */
+    display: flex;
+    flex-flow: row nowrap;
+    /* gap: 24px; */
+
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    max-height: calc(100vh - 80px);
+
+    overflow-y: hidden;
+}
+
+/* 
+ * Change content text styles
+ */
+
+.content .heart a {
+    text-decoration: underline dashed rgba(0, 0, 0, 0.25) 1px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.content .heart a:hover {
+    text-decoration: underline rgba(0, 0, 0, 0.87) 1px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.content strong {
+    font-weight: bold;
+}
+
+.content em {
+    font-style: italic;
+}
+
+.content blockquote {
+    margin: 0 3em 0.5em 3em;
+    padding: 0 4px 0 4px;
+    font-style: italic;
+    border-right: rgb(59, 69, 78) solid 4px;
+    border-left: rgb(59, 69, 78) solid 4px;
+}
+
+.content p {
+    margin: 8pt 0 8pt 0;
+}
+
+/* 
+ * Modify main Media
+ */
+
+#page-media {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.cred,
+.credits {
+    font-style: italic;
+    font-size: 0.8rem;
+    padding: 4px 16px 4px 16px;
+    border-top: rgb(59, 69, 78) solid 1px;
+}
+
+.page-body {
+    min-width: 300px;
+    width: 100%;
+}
+
+.page-body .heart {
+    max-width: 750px;
+    padding: 24px;
+    min-height: calc(100vh - 320px);
+}
+
+.page-sidecontent {
+    min-width: 300px;
+    max-width: 300px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.page-toc {
+    min-width: 200px;
+    max-width: 200px;
+    width: 200px;
+}
+
+.content .page-body ul {
+    list-style: inside;
+    list-style-position: outside;
+    margin: 10px;
+    margin-left: 32px;
+}
+
+.content ul li p {
+    display: inline;
+}
+
+.page-sidecontent > div {
+    border-left: solid #1d70a2 8px;
+    padding: 0 8px 0 4px;
+}
+
+.content table {
+    border: 3px solid #9a031e;
+    border-spacing: 0;
+    border-collapse: collapse;
+    box-sizing: border-box;
+
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.content th {
+    color: #fff;
+    background: #9a031e;
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    font-weight: 700;
+    text-align: center;
+}
+
+.content td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.content .castle-body ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    gap: 4px;
+
+    list-style: none;
+}
+
+.content .castle-body li {
+    border: rgb(59, 69, 78) 1px solid;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+/* PATHFINDER STYLES */
+
+.pf2e-action {
+    font-family: PF2E;
+    font-size: 19px;
+    user-select: none;
+    /* font-weight: 800; */
+}
+
+.item-card-title .pf2e-action {
+    font-size: 24px;
+}
+
+.item-deck {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    max-width: 750px;
+    position: relative;
+    gap: 8px;
+}
+
+.item-card {
+    display: inline-block;
+    position: relative;
+    border: solid 3px #4e392ffc;
+    box-shadow: 5px 5px #4e392ffc;
+    width: 100%;
+    background-color: white;
+    /* padding: 4px; */
+    margin: 0px 5px 5px 0px;
+}
+
+.item-card .item-card-title {
+    position: relative;
+    background-color: #c9c290;
+    font-weight: bold;
+    padding: 3px 3px 3px 6px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 33px;
+    gap:4px;
+}
+
+.item-card .item-card-title img {
+    position: relative;
+    height: 24px;
+    filter: invert(0.8);
+}
+
+.item-card .item-card-title h4 {
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+
+    flex-grow: 1;
+}
+
+.item-card .item-card-title .item-label {
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.item-card .item-card-body {
+    padding: 6px;
+}
+
+.item-card .item-card-body p {
+    margin: 4pt 0 4pt 0;
+}
+
+.item-card .item-card-body p:first-of-type {
+    margin-top: 0;
+}
+
+.item-type hr {
+    margin: 0;
+}
+
+.trait-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 0;
+}
+
+.trait {
+    border-color: #d8c483;
+    background-color: #522e2c;
+    border-style: double;
+    border-width: 2px;
+    color: white;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: left;
+    text-indent: 0em;
+    font-size: 14px;
+    line-height: 1.4em;
+    text-transform: capitalize;
+}
+
+.trait.uncommon {
+    background-color: #c45500;
+}
+
+.trait.rare {
+    background-color: #0c1466;
+}
+
+.trait.unique {
+    background-color: #800080;
+}

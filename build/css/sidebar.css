@@ -1,0 +1,203 @@
+/**
+* Styling top level items
+*/
+
+.nav,
+.nav-sidebar {
+    background-color: #001834;
+}
+
+.nav__list {
+    padding-bottom: 120px;
+}
+
+ul.nav-sidebar > li:nth-child(1) {
+    display: none;
+}
+
+.nav li > label > a {
+    color: inherit;
+}
+
+.nav li > label {
+    color: #fff;
+    display: block;
+    padding: 0.85rem;
+    background-color: #001834;
+    -webkit-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+}
+
+.nav label:focus,
+.nav label:hover {
+    color: rgba(255, 255, 255, 0.5);
+    background: #4f1c00;
+}
+
+.nav label {
+    cursor: pointer;
+}
+
+/**
+* Styling first level lists items
+*/
+
+.group-list-t0 a {
+    padding-left: 2rem;
+}
+
+.group-list-t0 label {
+    background: #002854;
+}
+
+.group-list-t0 label:focus,
+.group-list-t0 label:hover {
+    background: #812d00;
+}
+
+/**
+* Styling second level list items
+*/
+
+.group-list-t1 a {
+    padding-left: 4rem;
+}
+
+.group-list-t1 label {
+    background: #003570;
+}
+
+.group-list-t1 label:focus,
+.group-list-t1 label:hover {
+    background: #ac3c00;
+}
+
+/**
+* Styling third level list items
+*/
+
+.group-list-t2 a {
+    padding-left: 6rem;
+}
+
+.group-list-t2 label {
+    background: #00438e;
+}
+
+.group-list-t2 label:focus,
+.group-list-t2 label:hover {
+    background: #d94c00;
+}
+
+/**
+* Styling fourth level list items
+*/
+
+.group-list-t3 a {
+    padding-left: 8rem;
+}
+
+.group-list-t3 label {
+    background: #00438e;
+}
+
+.group-list-t3 label:focus,
+.group-list-t3 label:hover {
+    background: #d94c00;
+}
+
+/**
+* Styling fifth level list items
+*/
+
+.group-list-t4 a {
+    padding-left: 10rem;
+}
+
+.group-list-t4 label {
+    background: #00438e;
+}
+
+.group-list-t4 label:focus,
+.group-list-t4 label:hover {
+    background: #d94c00;
+}
+
+/**
+* Styling sixth level list items
+*/
+
+.group-list-t5 a {
+    padding-left: 12rem;
+}
+
+.group-list-t5 label {
+    background: #00438e;
+}
+
+.group-list-t5 label:focus,
+.group-list-t5 label:hover {
+    background: #d94c00;
+}
+
+/**
+* Hide nested lists
+*/
+
+.group-list-t0,
+.group-list-t1,
+.group-list-t2,
+.group-list-t3,
+.group-list-t4,
+.group-list-t5 {
+    height: 100%;
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height 0.5s ease-in-out;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.nav__list input[type='checkbox']:checked + label + ul {
+    /* reset the height when checkbox is checked */
+    max-height: 1000px;
+}
+
+/**
+ * Rotating chevron icon
+*/
+
+.nav__list label > span {
+    float: right;
+    -webkit-transition: -webkit-transform 0.65s ease;
+    transition: transform 0.65s ease;
+}
+
+.nav__list input[type='checkbox']:checked + label > span {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/* 
+ * GROUP SEPERATOR w/ NAME
+ */
+
+.nav .group-list-seperator label {
+    background-color: #9a031e !important;
+    font-weight: 700;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.group-list-seperator label:hover,
+.group-list-seperator label:focus {
+    background-color: inherit;
+    background: inherit;
+    color: inherit;
+}
+
+/* MENU BUTTON */
+#toggle-nav {
+    height: 30px;
+    width: 30px;
+}

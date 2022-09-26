@@ -1,0 +1,41 @@
+const { bucketArray } = require('../util/arrays');
+const { toCamelCase, escapeStr } = require('../util/stringHelper');
+const { readMarkdownFilesSync, readJsonFilesSync } = require('./importData');
+const md = require('markdown-it')().use(require('markdown-it-anchor'), {});
+
+exports.colatePages = () => {
+    const mdxFiles = readMarkdownFilesSync('pages');
+    const mdxPages = Object.entries(mdxFiles).map(
+        ([filePath, { content, metadata }]) => {
+            const [contentPrime, sidebarContent] = extractSidebar(content);
+            // console.log(typeof contentPrime, typeof sidebarContent);
+            var resultPrime = md.render(contentPrime);
+            var resultSidebar = md.render(sidebarContent);
+            const index = filePath.indexOf('/pages/');
+
+            return {
+                id: 'mdx' + toCamelCase(metadata.name),
+                frontMatter: metadata,
+                slug: filePath.substring(index + 6),
+
+                html: resultPrime,
+                sidebar: resultSidebar,
+            };
+        }
+    );
+
+    const jsonFiles = readJsonFilesSync('data');
+
+    // console.log(mdxPages);
+
+    return { ...bucketArray(jsonFiles, 'type'), mdx: mdxPages };
+};
+
+const extractSidebar = (content) => {
+    const index = content.indexOf('+++');
+    if (index < 0) return [content, ''];
+    const top = content.substring(0, index) || '';
+    const footer = content.substring(index+3) || '';
+
+    return [top, footer];
+};
