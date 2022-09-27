@@ -1,5 +1,5 @@
 ---
-title: 'Cleric'
+title: 'Warpriest'
 metaTitle: ''
 weight: 1050
 tocLevel: 3
@@ -10,11 +10,11 @@ content:
 
 _Deities work their will upon the world in infinite ways, and you serve as one of their most stalwart mortal servants. Blessed with divine magic, you live the ideals of your faith, adorn yourself with the symbols of your church, and train diligently to wield your deity's favored weapon. Your spells might protect and heal your allies, or they might punish foes and enemies of your faith, as your deity wills. Yours is a life of devotion, spreading the teachings of your faith through both word and deed._
 
-> **GM Note** The cloistered cleric and warpriest, by rules as written, are sub-classes of cleric with the major difference is the proficiency increases. But due to the formatting of this wiki, I have separated the cleric sub-classes. This page contains the cloistered cleric.
+> **GM Note** The cloistered cleric and warpriest, by rules as written, are sub-classes of cleric with the major difference is the proficiency increases. But due to the formatting of this wiki, I have separated the cleric sub-classes. This page contains the warpriest. Any reference to cleric is referring to your class.
 
 # Mechanics
 
-**Key Ability** Wisdom
+**Key Ability** Strength or Wisdom
 
 **Hit Points** 8 + Constitution modifier. You increase your maximum number of HP by this number at 1st level and every level thereafter.
 
@@ -26,7 +26,7 @@ You'll see the following term in many cleric class features.
 
 ## In Combat
 
-You primarily cast spells. Most of your spells can boost, protect, or heal your allies. Depending on your deity, you get extra spells to heal your allies or harm your enemies.
+you balance between casting spells and attacking with weapons— typically the favored weapon of your deity.
 
 # Proficiencies
 
@@ -34,29 +34,35 @@ You are trained in Religion, a skill determined by your deity, and a number of a
 
 ## Class DC & Attacks
 
-| Proficiencies          | Trained     | Expert     | Master     | Legendary  |
-| ---------------------- | ----------- | ---------- | ---------- | ---------- |
-| Divine Spell Tradition | _1st level_ | 7th level  | 15th level | 19th level |
-| Simple Weapons         | _1st level_ | ---        | ---        | ---        |
-| Deity's Weapon         | _1st level_ | 11th level | ---        | ---        |
-| Unarmed Attacks        | _1st level_ | 11th level | ---        | ---        |
+| Proficiencies          | Trained     | Expert     | Master     | Legendary |
+| ---------------------- | ----------- | ---------- | ---------- | --------- |
+| Divine Spell Tradition | _1st level_ | 11th level | 19th level | ---       |
+| Simple Weapons         | _1st level_ | 7th level  | ---        | ---       |
+| Martial Weapons        | _1st level_ | 7th level  | ---        | ---       |
+| Deity's Weapon         | _1st level_ | 7th level  | ---        | ---       |
+| Unarmed Attacks        | _1st level_ | 7th level  | ---        | ---       |
 
 **Deity's Weapon** Your deity's preferred weapon. If your deity's favored weapon is uncommon, you also gain access to that weapon.
 
 ## Armor Class
 
-| Proficiencies | Trained     | Expert     | Master | Legendary |
-| ------------- | ----------- | ---------- | ------ | --------- |
-| Unarmored     | _1st level_ | 13th level | ---    | ---       |
+| Proficiencies  | Trained     | Expert     | Master | Legendary |
+| -------------- | ----------- | ---------- | ------ | --------- |
+| Unarmored      | _1st level_ | 13th level | ---    | ---       |
+| Light Armor    | _1st level_ | 13th level | ---    | ---       |
+| Medium Armor   | _1st level_ | 13th level | ---    | ---       |
+| Heavy Armor^†^ | _1st level_ | 13th level | ---    | ---       |
 
 ## Perception & Saving Throws
 
-| Proficiencies | Trained     | Expert      | Master    | Legendary |
-| ------------- | ----------- | ----------- | --------- | --------- |
-| Perception    | _1st level_ | 5th level   | ---       | ---       |
-| Fortitude     | _1st level_ | 3rd level   | ---       | ---       |
-| Reflex        | _1st level_ | 11th level  | ---       | ---       |
-| Will          | ---         | _1st level_ | 9th level | ---       |
+| Proficiencies  | Trained     | Expert      | Master     | Legendary |
+| -------------- | ----------- | ----------- | ---------- | --------- |
+| Perception^†^ | _1st level_ | 3rd level   | ---        | ---       |
+| Fortitude      | ---         | _1st level_ | 15th level | ---       |
+| Reflex         | _1st level_ | 11th level  | ---        | ---       |
+| Will           | ---         | _1st level_ | 9th level  | ---       |
+
+**†** Homebrewing has modified proficiency. As such, it does not match the Core Rule Book.
 
 # Class Features
 
@@ -64,7 +70,7 @@ As a cleric, you gain the following class features at the listed level. Addition
 
 {{{featureClass "Deity" level=1 altered=true}}}
 
-As a cleric, you are a mortal servitor of a deity you revere above all others. The most common deities in Eberron are found here, along with their alignments, areas of concern, and the benefits you get for being a cleric of that deity. Your deity grants you the trained proficiency rank in one skill and with the deity's favored weapon. If the favored weapon is uncommon, you also get access to that weapon.
+As a cleric, you are a mortal servitor of a deity you revere above all others. The most common deities in Eberron are found here, along with their alignments, areas of concern, and the benefits you get for being a cleric of that deity. Your deity grants you the trained proficiency rank in one skill and with the deity's favored weapon. If the favored weapon is uncommon, you also get access to that weapon. If it's an unarmed attack with a d4 damage die or a simple weapon, increase the damage die by one step (d4 to d6, d6 to d8, d8 to d10, d10 to d12).
 
 Your deity also adds spells to your spell list. You can prepare these just like you can any spell on the divine spell list, once you can prepare spells of their level as a cleric. Some of these spells aren't normally on the divine list, but they're divine spells if you prepare them this way.
 
@@ -133,17 +139,25 @@ Through your deity's blessing, you gain additional spells that channel either th
 
 **Harmful Font** You gain additional spell slots each day at your highest level of cleric spell slots. You can prepare only harm spells in these slots, and the number of slots is equal to 1 plus your Charisma modifier.
 
+{{{featureClass "Shield Block" level=1}}}
+
+You gain the Shield Block general feat, a reaction that lets you reduce damage with your shield.
+
+{{{featureClass "Critical Doctrine" level=7}}}
+
+Your faith drives you forward and your weapon to strike. When you critically succeed at an attack roll using your deity's favored weapon, you apply the weapon's critical specialization effect; use your divine spell DC if necessary.
+
 {{{featureClass "Resolve" level=9}}}
 
 You've steeled your mind with resolve. When you roll a success at a Will save, you get a critical success instead.
 
-{{{featureClass "Critical Doctrine" level=13}}}
-
-Your faith drives you forward and your weapon to strike. When you critically succeed at an attack roll using your deity's favored weapon, you apply the weapon's critical specialization effect; use your divine spell DC if necessary.
-
 {{{featureClass "Weapon Specialization" level=13}}}
 
 You've learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and to 4 if you're legendary.
+
+{{{featureClass "Juggernaut" level=15}}}
+
+Your body is accustomed to physical hardship and resistant to ailments. When you roll a success on a Fortitude save, you get a critical success instead.
 
 {{{featureClass "Miraculous Spell" level=19}}}
 
