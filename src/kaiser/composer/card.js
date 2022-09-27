@@ -32,6 +32,9 @@ const parse = (item) => {
         icon_front = '',
         icon_back = '',
         color = '',
+        code = '',
+        extra = [],
+        level,
     } = item;
 
     const id = item.id || toCamelCase(title);
@@ -40,6 +43,7 @@ const parse = (item) => {
     // console.log('************', contents);
 
     const contentLines = contents
+        .concat(extra)
         .map((cl) => cl.split('|').map((e) => e.trim()))
         .map(([type, ...args]) => ({ type, params: args || [] }))
         .map(matchLines);
@@ -49,6 +53,7 @@ const parse = (item) => {
     return {
         id,
         type: 'item-card',
+        level,
         data: {
             title,
             contents,
@@ -60,7 +65,7 @@ const parse = (item) => {
             title: markup(title),
             contents: contentLines,
             icon: iconMap[icon_front || 'ace'].path,
-            code: 'level 1',
+            code: code,
         },
     };
 };
@@ -107,7 +112,7 @@ const matchLines = (arg) => {
         case 'tr':
             return tablerow(arg);
         case 'pftrait':
-    // console.log(arg);
+            // console.log(arg);
 
             return pftrait(arg);
         default:

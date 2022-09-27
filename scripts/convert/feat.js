@@ -1,6 +1,11 @@
 const { kebabCase } = require('lodash');
 const { toDashCase } = require('../../src/util/stringHelper');
-const { initCard, getTextEntries, classList } = require('../util/crobiUtil');
+const {
+    initCard,
+    getTextEntries,
+    classList,
+    parseActivity,
+} = require('../util/crobiUtil');
 const { DataUtil, SortUtil, Renderer } = require('../util/toolUtil');
 
 exports.convertFeats2Save = async (items, saveFn) => {
@@ -27,6 +32,8 @@ const convertFeat = (item) => {
     card.title = item.name;
     if (item.add_hash) card.title += ` (${item.add_hash})`;
 
+    if (item.activity) card.title += ` ${parseActivity(item.activity)}`;
+
     // SET CODE
     card.code = 'feat ' + (item.level || '1');
 
@@ -39,7 +46,26 @@ const convertFeat = (item) => {
     // SET CONTENT
     card.contents = getContent(item);
 
+    // SET EXTRA
+    card.level = item.level;
+    if (item.special || item.leadsTo) card.extra = getExtra(item);
+
     return card;
+};
+
+const getExtra = ({ special, leadsTo }) => {
+    const lineArr = [];
+
+    if (special) {
+        lineArr.push(getTextEntries({ entries: special }));
+    }
+
+    if (leadsTo) {
+        lineArr.push('section | Leads to');
+        lineArr.push(leadsTo.map((e) => `bullet | ${e}`));
+    }
+
+    return lineArr.flat();
 };
 
 const getContent = ({
@@ -55,7 +81,11 @@ const getContent = ({
 
     if (traits?.length)
         lineArr.push(
-            'pftrait | ' + traits.sort(SortUtil.sortTraits).join(' | ')
+            'pftrait | ' +
+                traits
+                    .map((t) => (t === 'half-elf' ? 'khoravar' : t))
+                    .sort(SortUtil.sortTraits)
+                    .join(' | ')
         );
 
     if (requirements) {
@@ -76,7 +106,7 @@ const getContent = ({
 
     lineArr.push('rule');
 
-    return lineArr.concat(getTextEntries(item)).concat();
+    return lineArr.concat(getTextEntries(item));
 };
 
 const getIcon = ({ traits }) => {
@@ -121,7 +151,7 @@ const getIcon = ({ traits }) => {
     }
 };
 
-const getId = ({ name, traits, featType:fta }) => {
+const getId = ({ name, traits, featType: fta }) => {
     const idArr = ['feat'];
     let featType = 'ancestry';
     let className;

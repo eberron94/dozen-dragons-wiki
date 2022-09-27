@@ -6,7 +6,6 @@ const { PageNode } = require('./classes');
 const { composeCard } = require('./composer/card');
 const { composeDefinition } = require('./composer/definition');
 const { composeMDX } = require('./composer/mdx');
-const { composeSpell } = require('./composer/spell');
 
 class Kaiser {
     constructor() {

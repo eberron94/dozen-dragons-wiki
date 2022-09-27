@@ -47,7 +47,7 @@ const packer = () => {
         saveFile(dest + fileName + '.json', file);
         saveFile(
             yaml + fileName + '.yaml',
-            file.map((e) => '        - ' + e.id).join('\n')
+            file.map(e=>e.id).sort().map((e) => '        - ' + e).join('\n')
         );
     };
 

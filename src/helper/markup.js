@@ -1,4 +1,3 @@
-var Handlebars = require('handlebars');
 const markup = (str) => {
     switch (typeof str) {
         case 'object':
@@ -16,15 +15,6 @@ const markup = (str) => {
     str = str.replace(/(\<li>.+?\<\/li>\n*)+,?/gs, (match) => {
         return `<ul class="list-body">\n${match.trim()}\n</ul>\n\n`;
     });
-
-    // Handle Headers
-    str = str.replace(/^ *(#+) +([^\n]+)/gm, (string, pound, match) =>
-        handleHeader({
-            entries: [match],
-            toc: true,
-            level: String(pound).length,
-        })
-    );
 
     //Handle Link
     str = str.replace(/(\[[^\[]+\]\(.*\))/g, (string, match) => {
@@ -48,6 +38,11 @@ const markup = (str) => {
     str = str.replace(
         /\*([^\*]+)\*/g,
         (string, match) => `<em class='text-italics'>${match}</em>`
+    );
+
+    str = str.replace(
+        /\^\^([^^]+)\^\^/g,
+        (string, match) => `<sup class='text-superscript'>${match}</sup>`
     );
 
     str = str.replace(/-----/g, '<hr />');

@@ -57,6 +57,15 @@ const handleEntry = (entry) => {
 const entryMarkup = (str) => {
     str = markup(str);
 
+    // Handle Headers
+    str = str.replace(/^ *(#+) +([^\n]+)/gm, (string, pound, match) =>
+        handleHeader({
+            entries: [match],
+            toc: true,
+            level: String(pound).length,
+        })
+    );
+
     str = str.replace(/\{@([^\}]+)\}/g, (_, match) => {
         // console.log('tag found', match);
 

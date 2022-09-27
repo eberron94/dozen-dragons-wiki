@@ -1,3 +1,4 @@
+const { unescape } = require('lodash');
 const { filterUniqueByObjectKey } = require('../../util/arrays');
 const { toCamelCase } = require('../../util/stringHelper');
 const { PageNode } = require('../classes');
@@ -57,8 +58,10 @@ exports.composeMDX = (original) => {
 
                     // console.log(contentFill);
 
-                    page.html = compileFn(page.html)(contentFill);
-                    page.sidebar = compileFn(page.sidebar)(contentFill);
+                    page.html = compileFn(unescape(page.html))(contentFill);
+                    page.sidebar = compileFn(unescape(page.sidebar))(
+                        contentFill
+                    );
                 }
 
                 const headers = [
@@ -109,8 +112,8 @@ const parse = (item) => {
 
 const sortItems = (a, b) => {
     if (
-        typeof a.node.weight === 'number' &&
-        typeof b.node.weight === 'number'
+        typeof a?.node?.weight === 'number' &&
+        typeof b?.node?.weight === 'number'
     ) {
         if (a.node.weight < b.node.weight) return -1;
         if (a.node.weight > b.node.weight) return 1;

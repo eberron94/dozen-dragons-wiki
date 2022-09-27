@@ -9,7 +9,30 @@ const initCard = () => ({
     contents: [],
 });
 
-const classList = ["alchemist", "barbarian", "bard", "champion", "cleric", "druid", "fighter", "gunslinger", "inventor", "investigator", "magus", "monk", "oracle", "psychic", "ranger", "rogue", "sorcerer", "summoner", "swashbuckler", "thaumaturge", "witch", "wizard"]
+const classList = [
+    'alchemist',
+    'barbarian',
+    'bard',
+    'champion',
+    'cleric',
+    'druid',
+    'fighter',
+    'gunslinger',
+    'inventor',
+    'investigator',
+    'magus',
+    'monk',
+    'oracle',
+    'psychic',
+    'ranger',
+    'rogue',
+    'sorcerer',
+    'summoner',
+    'swashbuckler',
+    'thaumaturge',
+    'witch',
+    'wizard',
+];
 
 const getTextEntries = ({ entries = [] }) => {
     const lineArr = [];
@@ -79,6 +102,8 @@ const getTextEntries = ({ entries = [] }) => {
                         lineArr.push('rule');
                         lineArr.push('fill');
                         break;
+                    case 'table':
+                        lineArr.push('text | See book for table');
                 }
         });
 
@@ -106,5 +131,6 @@ const parseActivity = ({ number, unit, entry }) => {
 module.exports = {
     initCard,
     getTextEntries,
-    classList
+    classList,
+    parseActivity,
 };

@@ -1,134 +1,123 @@
-        - equipment.weapon.martial.adze
-        - equipment.weapon.simple.air-repeater
+        - equipment.armor.heavy.full-plate
+        - equipment.armor.heavy.half-plate
+        - equipment.armor.heavy.heavy-power-suit
+        - equipment.armor.heavy.hellknight-plate
+        - equipment.armor.heavy.splint-mail
+        - equipment.armor.light.chain-shirt
+        - equipment.armor.light.leather
+        - equipment.armor.light.padded-armor
+        - equipment.armor.light.studded-leather
+        - equipment.armor.medium.breastplate
+        - equipment.armor.medium.chain-mail
+        - equipment.armor.medium.hide
+        - equipment.armor.medium.power-suit
+        - equipment.armor.medium.scale-mail
+        - equipment.armor.medium.subterfuge-suit
+        - equipment.armor.unarmored.explorers-clothing
+        - equipment.shield.buckler
+        - equipment.shield.steel-shield
+        - equipment.shield.tower-shield
+        - equipment.shield.wooden-shield
         - equipment.weapon.advanced.aklys
-        - item.weapon.simple.alchemical-crossbow
         - equipment.weapon.advanced.aldori-dueling-sword
+        - equipment.weapon.advanced.bladed-diabolo
+        - equipment.weapon.advanced.bladed-hoop
+        - equipment.weapon.advanced.butchering-axe
+        - equipment.weapon.advanced.butterfly-sword
+        - equipment.weapon.advanced.clockwork-macuahuitl
+        - equipment.weapon.advanced.dwarven-scattergun
+        - equipment.weapon.advanced.dwarven-war-axe
+        - equipment.weapon.advanced.explosive-dogslicer
+        - equipment.weapon.advanced.fire-poi
+        - equipment.weapon.advanced.flingflenser
+        - equipment.weapon.advanced.gnome-flickmace
+        - equipment.weapon.advanced.hongali-hornbow
+        - equipment.weapon.advanced.hook-sword
+        - equipment.weapon.advanced.karambit
+        - equipment.weapon.advanced.longbow
+        - equipment.weapon.advanced.orc-necksplitter
+        - equipment.weapon.advanced.repeating-crossbow
+        - equipment.weapon.advanced.repeating-hand-crossbow
+        - equipment.weapon.advanced.rhoka-sword
+        - equipment.weapon.advanced.sawtooth-saber
+        - equipment.weapon.advanced.shauth-lash
+        - equipment.weapon.advanced.sickle-saber
+        - equipment.weapon.advanced.spiral-rapier
+        - equipment.weapon.advanced.switchscythe
+        - equipment.weapon.advanced.tamchal-chakram
+        - equipment.weapon.advanced.taw-launcher
+        - equipment.weapon.advanced.tricky-pick
+        - equipment.weapon.advanced.whip-claw
+        - equipment.weapon.advanced.wind-and-fire-wheel
+        - equipment.weapon.martial.adze
         - equipment.weapon.martial.arquebus
         - equipment.weapon.martial.asp-coil
         - equipment.weapon.martial.axe-musket
-        - item.weapon.martial.backpack-ballista
-        - item.weapon.advanced.backpack-catapult
         - equipment.weapon.martial.bastard-sword
         - equipment.weapon.martial.battle-axe
-        - equipment.weapon.simple.battle-lute
         - equipment.weapon.martial.bayonet
-        - item.weapon.martial.big-boom-gun
         - equipment.weapon.martial.black-powder-knuckle-dusters
-        - equipment.weapon.advanced.bladed-diabolo
-        - equipment.weapon.advanced.bladed-hoop
         - equipment.weapon.martial.bladed-scarf
-        - equipment.weapon.simple.blowgun
         - equipment.weapon.martial.blunderbuss
         - equipment.weapon.martial.bo-staff
         - equipment.weapon.martial.boarding-axe
         - equipment.weapon.martial.boarding-pike
         - equipment.weapon.martial.bola
-        - equipment.armor.medium.breastplate
-        - equipment.shield.buckler
-        - equipment.weapon.advanced.butchering-axe
-        - equipment.weapon.advanced.butterfly-sword
         - equipment.weapon.martial.buugeng
         - equipment.weapon.martial.cane-pistol
-        - equipment.armor.medium.chain-mail
-        - equipment.armor.light.chain-shirt
         - equipment.weapon.martial.chakram
-        - equipment.weapon.simple.clan-dagger
         - equipment.weapon.martial.clan-pistol
         - equipment.weapon.martial.claw-blade
-        - item.armor.light.clockwork-disguise
-        - equipment.weapon.advanced.clockwork-macuahuitl
-        - equipment.weapon.simple.club
-        - equipment.weapon.simple.coat-pistol
         - equipment.weapon.martial.combat-grapnel
         - equipment.weapon.martial.composite-longbow
         - equipment.weapon.martial.composite-shortbow
-        - equipment.weapon.simple.crossbow
-        - equipment.weapon.simple.dagger
         - equipment.weapon.martial.dagger-pistol
-        - equipment.weapon.simple.dart
-        - item.weapon.martial.dart-umbrella
         - equipment.weapon.martial.dogslicer
         - equipment.weapon.martial.double-barreled-musket
         - equipment.weapon.martial.double-barreled-pistol
         - equipment.weapon.martial.dragon-mouth-pistol
         - equipment.weapon.martial.dueling-pistol
         - equipment.weapon.martial.dueling-spear
-        - equipment.weapon.advanced.dwarven-scattergun
-        - equipment.weapon.advanced.dwarven-war-axe
         - equipment.weapon.martial.elven-branched-spear
         - equipment.weapon.martial.elven-curve-blade
-        - equipment.armor.unarmored.explorers-clothing
-        - equipment.weapon.advanced.explosive-dogslicer
         - equipment.weapon.martial.falchion
         - equipment.weapon.martial.fangwire
         - equipment.weapon.martial.fauchard
         - equipment.weapon.martial.fighting-fan
         - equipment.weapon.martial.filchers-fork
-        - equipment.weapon.simple.fire-lance
-        - equipment.weapon.advanced.fire-poi
         - equipment.weapon.martial.flail
-        - equipment.weapon.advanced.flingflenser
-        - equipment.weapon.simple.flintlock-musket
-        - equipment.weapon.simple.flintlock-pistol
-        - equipment.weapon.simple.forked-bipod
-        - equipment.armor.heavy.full-plate
         - equipment.weapon.martial.gaff
         - equipment.weapon.martial.gaff
-        - equipment.weapon.simple.gauntlet
         - equipment.weapon.martial.gill-hook
         - equipment.weapon.martial.glaive
         - equipment.weapon.martial.gnome-amalgam-musket
-        - equipment.weapon.advanced.gnome-flickmace
         - equipment.weapon.martial.gnome-hooked-hammer
         - equipment.weapon.martial.greataxe
         - equipment.weapon.martial.greatclub
         - equipment.weapon.martial.greatpick
         - equipment.weapon.martial.greatsword
-        - item.weapon.martial.griffon-cane
         - equipment.weapon.martial.guisarme
         - equipment.weapon.martial.gun-sword
         - equipment.weapon.martial.halberd
-        - equipment.armor.heavy.half-plate
         - equipment.weapon.martial.halfling-sling-staff
         - equipment.weapon.martial.hammer-gun
         - equipment.weapon.martial.hand-adze
-        - equipment.weapon.simple.hand-cannon
-        - equipment.weapon.simple.hand-crossbow
         - equipment.weapon.martial.harmona-gun
         - equipment.weapon.martial.hatchet
-        - equipment.weapon.simple.heavy-crossbow
-        - equipment.armor.heavy.heavy-power-suit
-        - equipment.armor.heavy.hellknight-plate
-        - equipment.armor.medium.hide
-        - equipment.weapon.advanced.hongali-hornbow
-        - equipment.weapon.advanced.hook-sword
         - equipment.weapon.martial.horsechopper
-        - item.weapon.martial.injection-spear
-        - equipment.weapon.simple.javelin
         - equipment.weapon.martial.jezail
-        - equipment.weapon.simple.juggling-club
         - equipment.weapon.martial.kama
-        - equipment.weapon.advanced.karambit
         - equipment.weapon.martial.katana
-        - equipment.weapon.simple.katar
         - equipment.weapon.martial.khakkara
         - equipment.weapon.martial.khopesh
-        - equipment.weapon.simple.knuckle-duster
         - equipment.weapon.martial.kukri
         - equipment.weapon.martial.kusarigama
         - equipment.weapon.martial.lance
-        - equipment.armor.light.leather
         - equipment.weapon.martial.leiomano
         - equipment.weapon.martial.light-hammer
-        - equipment.weapon.simple.light-mace
         - equipment.weapon.martial.light-pick
-        - item.weapon.martial.lion-scythe
-        - equipment.weapon.simple.long-air-repeater
-        - equipment.weapon.advanced.longbow
         - equipment.weapon.martial.longbow
-        - equipment.weapon.simple.longspear
         - equipment.weapon.martial.longsword
-        - equipment.weapon.simple.mace
         - equipment.weapon.martial.mace-multipistol
         - equipment.weapon.martial.machete
         - equipment.weapon.martial.main-gauche
@@ -137,89 +126,100 @@
         - equipment.weapon.martial.meteor-hammer
         - equipment.weapon.martial.mithral-tree
         - equipment.weapon.martial.monkeys-fist
-        - equipment.weapon.simple.morningstar
         - equipment.weapon.martial.naginata
-        - equipment.weapon.simple.nightstick
         - equipment.weapon.martial.nine-ring-sword
         - equipment.weapon.martial.nunchaku
         - equipment.weapon.martial.orc-knuckle-dagger
-        - equipment.weapon.advanced.orc-necksplitter
-        - equipment.armor.light.padded-armor
-        - item.weapon.martial.pantograph-gauntlet
         - equipment.weapon.martial.pepperbox
         - equipment.weapon.martial.pick
         - equipment.weapon.martial.piercing-wind
         - equipment.weapon.martial.piranha-kiss
-        - equipment.weapon.simple.poi
         - equipment.weapon.martial.polytool
-        - equipment.armor.medium.power-suit
-        - item.weapon.martial.probing-cane
         - equipment.weapon.martial.ranseur
         - equipment.weapon.martial.rapier
         - equipment.weapon.martial.rapier-pistol
         - equipment.weapon.martial.reinforced-stock
-        - equipment.weapon.advanced.repeating-crossbow
-        - equipment.weapon.advanced.repeating-hand-crossbow
         - equipment.weapon.martial.repeating-heavy-crossbow
-        - equipment.weapon.advanced.rhoka-sword
         - equipment.weapon.martial.rungu
         - equipment.weapon.martial.sai
         - equipment.weapon.martial.sap
-        - equipment.weapon.advanced.sawtooth-saber
-        - equipment.armor.medium.scale-mail
         - equipment.weapon.martial.scimitar
         - equipment.weapon.martial.scorpion-whip
         - equipment.weapon.martial.scourge
         - equipment.weapon.martial.scythe
         - equipment.weapon.martial.shauth-blade
-        - equipment.weapon.advanced.shauth-lash
-        - equipment.weapon.simple.shears
         - equipment.weapon.martial.shield-boss
         - equipment.weapon.martial.shield-spikes
         - equipment.weapon.martial.shortbow
         - equipment.weapon.martial.shortsword
         - equipment.weapon.martial.shuriken
-        - equipment.weapon.simple.sickle
-        - equipment.weapon.advanced.sickle-saber
         - equipment.weapon.martial.slide-pistol
-        - equipment.weapon.simple.sling
-        - equipment.weapon.simple.spear
         - equipment.weapon.martial.spiked-chain
-        - equipment.weapon.simple.spiked-gauntlet
-        - equipment.weapon.advanced.spiral-rapier
-        - equipment.armor.heavy.splint-mail
-        - item.weapon.martial.spoon-gun
-        - equipment.weapon.simple.staff
         - equipment.weapon.martial.starknife
-        - equipment.shield.steel-shield
         - equipment.weapon.martial.stiletto-pen
-        - equipment.armor.light.studded-leather
-        - equipment.armor.medium.subterfuge-suit
-        - equipment.weapon.advanced.switchscythe
         - equipment.weapon.martial.sword-cane
-        - equipment.weapon.advanced.tamchal-chakram
-        - equipment.weapon.advanced.taw-launcher
         - equipment.weapon.martial.tekko-kagi
         - equipment.weapon.martial.temple-sword
         - equipment.weapon.martial.tengu-gale-blade
         - equipment.weapon.martial.three-peaked-tree
-        - equipment.weapon.simple.throwing-knife
         - equipment.weapon.martial.thunder-sling
-        - equipment.weapon.simple.thundermace
         - equipment.weapon.martial.tonfa
-        - equipment.shield.tower-shield
-        - equipment.weapon.simple.tri-bladed-katar
-        - equipment.weapon.advanced.tricky-pick
         - equipment.weapon.martial.trident
-        - item.weapon.martial.umbrella-injector
         - equipment.weapon.martial.urumi
         - equipment.weapon.martial.wakizashi
         - equipment.weapon.martial.war-flail
         - equipment.weapon.martial.war-razor
         - equipment.weapon.martial.warhammer
         - equipment.weapon.martial.whip
-        - equipment.weapon.advanced.whip-claw
-        - equipment.weapon.advanced.wind-and-fire-wheel
         - equipment.weapon.martial.wish-blade
         - equipment.weapon.martial.wish-knife
-        - equipment.shield.wooden-shield
+        - equipment.weapon.simple.air-repeater
+        - equipment.weapon.simple.battle-lute
+        - equipment.weapon.simple.blowgun
+        - equipment.weapon.simple.clan-dagger
+        - equipment.weapon.simple.club
+        - equipment.weapon.simple.coat-pistol
+        - equipment.weapon.simple.crossbow
+        - equipment.weapon.simple.dagger
+        - equipment.weapon.simple.dart
+        - equipment.weapon.simple.fire-lance
+        - equipment.weapon.simple.flintlock-musket
+        - equipment.weapon.simple.flintlock-pistol
+        - equipment.weapon.simple.forked-bipod
+        - equipment.weapon.simple.gauntlet
+        - equipment.weapon.simple.hand-cannon
+        - equipment.weapon.simple.hand-crossbow
+        - equipment.weapon.simple.heavy-crossbow
+        - equipment.weapon.simple.javelin
+        - equipment.weapon.simple.juggling-club
+        - equipment.weapon.simple.katar
+        - equipment.weapon.simple.knuckle-duster
+        - equipment.weapon.simple.light-mace
+        - equipment.weapon.simple.long-air-repeater
+        - equipment.weapon.simple.longspear
+        - equipment.weapon.simple.mace
+        - equipment.weapon.simple.morningstar
+        - equipment.weapon.simple.nightstick
+        - equipment.weapon.simple.poi
+        - equipment.weapon.simple.shears
+        - equipment.weapon.simple.sickle
+        - equipment.weapon.simple.sling
+        - equipment.weapon.simple.spear
+        - equipment.weapon.simple.spiked-gauntlet
+        - equipment.weapon.simple.staff
+        - equipment.weapon.simple.throwing-knife
+        - equipment.weapon.simple.thundermace
+        - equipment.weapon.simple.tri-bladed-katar
+        - item.armor.light.clockwork-disguise
+        - item.weapon.advanced.backpack-catapult
+        - item.weapon.martial.backpack-ballista
+        - item.weapon.martial.big-boom-gun
+        - item.weapon.martial.dart-umbrella
+        - item.weapon.martial.griffon-cane
+        - item.weapon.martial.injection-spear
+        - item.weapon.martial.lion-scythe
+        - item.weapon.martial.pantograph-gauntlet
+        - item.weapon.martial.probing-cane
+        - item.weapon.martial.spoon-gun
+        - item.weapon.martial.umbrella-injector
+        - item.weapon.simple.alchemical-crossbow

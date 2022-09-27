@@ -21,22 +21,22 @@ const rmDir = (dirPath) => {
     // fs.rmdirSync(dirPath);
 };
 
-// fs.emptyDir('build', (err) => {
-//     if (err) return console.error(err);
-
-//     // COPY STATIC FILES INTO BUILD
-//     fs.copy('static', 'build', (err) => {
-//         if (err) return console.error(err);
-//         console.log('static files copied into build folder');
-//     });
-
-//     buildSite();
-// });
-
-rmDir('build');
-// COPY STATIC FILES INTO BUILD
-fs.copy('static', 'build', (err) => {
+fs.emptyDir('build', (err) => {
     if (err) return console.error(err);
-    console.log('static files copied into build folder');
+
+    // COPY STATIC FILES INTO BUILD
+    fs.copy('static', 'build', (err) => {
+        if (err) return console.error(err);
+        console.log('static files copied into build folder');
+    });
+
     buildSite();
 });
+
+// rmDir('build');
+// // COPY STATIC FILES INTO BUILD
+// fs.copy('static', 'build', (err) => {
+//     if (err) return console.error(err);
+//     console.log('static files copied into build folder');
+//     buildSite();
+// });

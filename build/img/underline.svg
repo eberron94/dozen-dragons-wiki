@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   viewBox="0 0 936.51071 24.93498"
+   version="1.1"
+   sodipodi:docname="underline.svg"
+   width="936.51074"
+   height="24.93498"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)">
+  <defs
+     id="defs35" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="3840"
+     inkscape:window-height="2066"
+     id="namedview33"
+     showgrid="false"
+     inkscape:zoom="2.7090978"
+     inkscape:cx="548.51929"
+     inkscape:cy="49.887083"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g4257"
+     inkscape:document-rotation="0"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="456.64661,32.31751"
+       orientation="1,0"
+       id="guide853" />
+    <sodipodi:guide
+       position="480.363,30.656441"
+       orientation="1,0"
+       id="guide855" />
+  </sodipodi:namedview>
+  <g
+     id="g4257"
+     transform="matrix(2.7705,0,0,2.9079,-564.56485,-611.42596)">
+    <path
+       id="path4259"
+       d="m 361.68031,218.22085 c 6.59655,-0.63392 5.43553,-6.61 0,-7.3393 -51.56,3.3914 -104.50326,2.3193 -157.90307,3.7983 53.14432,1.5334 104.76177,-0.57635 157.90307,3.541 z"
+       style="stroke-width:1.22954" />
+    <path
+       id="path4261"
+       d="m 377.07769,214.55126 c 0,2.36787 -1.9188,4.2874 -4.2857,4.2874 -2.3669,0 -4.2857,-1.91953 -4.2857,-4.2874 0,-2.36788 1.9188,-4.28751 4.2857,-4.28751 2.3669,0 4.2857,1.91952 4.2857,4.28751 z"
+       style="stroke-width:1.02171" />
+    <path
+       id="path4259-4"
+       d="m 383.90368,218.22085 c -6.59655,-0.63392 -5.43553,-6.61 0,-7.3393 51.56,3.3914 104.50326,2.3193 157.90307,3.7983 -53.14432,1.5334 -104.76177,-0.57635 -157.90307,3.541 z"
+       style="stroke-width:1.22954" />
+  </g>
+  <metadata
+     id="metadata30">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>3 Underline Flourishes</dc:title>
+        <dc:date>2013-08-28T10:08:57</dc:date>
+        <dc:description>3 Stages of a flourish that can be used as a decorative underline to victorian labels, celtic themes posters or a nice card or letter.</dc:description>
+        <dc:source>https://openclipart.org/detail/182345/3-underline-flourishes-by-jart-182345</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>JArt</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>black</rdf:li>
+            <rdf:li>card</rdf:li>
+            <rdf:li>celtic</rdf:li>
+            <rdf:li>decorate</rdf:li>
+            <rdf:li>decorative</rdf:li>
+            <rdf:li>flourish</rdf:li>
+            <rdf:li>footer</rdf:li>
+            <rdf:li>header</rdf:li>
+            <rdf:li>letter</rdf:li>
+            <rdf:li>patter</rdf:li>
+            <rdf:li>underline</rdf:li>
+            <rdf:li>victorian</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
