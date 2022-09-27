@@ -64,12 +64,12 @@ exports.buildSite = () => {
      * DEBUG: write kaiser to file
      */
 
-    const kaiserString = JSON.stringify(kaiser, null, 4);
-    ensureDirectoryExistence('./build/DEBUG/kaiser.json');
-    fs.writeFile('./build/DEBUG/kaiser.json', kaiserString, (err) => {
-        if (err) console.error(err);
-        else console.log('DEBUG: KAISER file written successfully');
-    });
+    // const kaiserString = JSON.stringify(kaiser, null, 4);
+    // ensureDirectoryExistence('./build/DEBUG/kaiser.json');
+    // fs.writeFile('./build/DEBUG/kaiser.json', kaiserString, (err) => {
+    //     if (err) console.error(err);
+    //     else console.log('DEBUG: KAISER file written successfully');
+    // });
 };
 
 const registerHandlebars = () => {
