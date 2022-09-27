@@ -53,14 +53,16 @@ You are trained in Athletics and a number of additional skills equal to 3 plus y
 
 ## Perception & Saving Throws
 
-| Proficiencies   | Trained     | Expert      | Master     | Legendary  |
-| --------------- | ----------- | ----------- | ---------- | ---------- |
-| Perception^^†^^ | ---         | _1st level_ | 17th level | ---        |
-| Fortitude       | ---         | _1st level_ | 7th level  | 13th level |
-| Reflex          | _1st level_ | 9th level   | ---        | ---        |
-| Will            | ---         | _1st level_ | 15th level | ---        |
+| Proficiencies | Trained     | Expert      | Master     | Legendary  |
+| ------------- | ----------- | ----------- | ---------- | ---------- |
+| Perception    | ---         | _1st level_ | 17th level | ---        |
+| Fortitude     | ---         | _1st level_ | 7th level  | 13th level |
+| Reflex        | _1st level_ | 9th level   | ---        | ---        |
+| Will          | ---         | _1st level_ | 15th level | ---        |
 
 # Class Features
+
+At 1st level and every even-numbered level thereafter, you gain a barbarian class feat.
 
 {{{featureClass "Rage" level=1}}}
 
@@ -92,7 +94,7 @@ Your rage helps you hit harder. You deal 2 additional damage with weapons and un
 
 Your rage intensifies and lets you burst into action. You gain the Mighty Rage free action.
 
-{{{featureClass "Juggernaut" level=13}}}
+{{{featureClass "Greater Juggernaut" level=13}}}
 
 You have a stalwart physiology. When you roll a critical failure on a Fortitude save, you get a failure instead. When you roll a failure on a Fortitude save against an effect that deals damage, you halve the damage you take.
 
@@ -120,64 +122,37 @@ Each instinct lists acts that are anathema to it. Whenever you perform such acts
 
 ## Animal Instinct
 
-The fury of a wild predator fills you when you Rage, granting you ferocious unarmed attacks. Cultures that revere vicious animals (such as apes or bears) give rise to barbarians with this instinct. You might also be at war with an uncontrollable, animalistic side of your personality, or you might be a descendant of a werewolf or another werecreature. Select an Animal Instincts that best matches your chosen animal: ape, bear, bull, cat, deer, frog, shark, snake, wolf.
+The fury of a wild predator fills you when you Rage, granting you ferocious unarmed attacks. Cultures that revere vicious animals (such as apes or bears) give rise to barbarians with this instinct. You might also be at war with an uncontrollable, animalistic side of your personality, or you might be a descendant of a werewolf or another werecreature. Select an Animal Instincts that best matches your chosen animal from the table below.
 
-{{{featureClass "Anathema" level=1}}}
+| Animal | Attack      | Damage                                   |
+| ------ | ----------- | ---------------------------------------- |
+| Ape    | Fist        | 1d10 B (grapple, unarmed)                |
+| Bear   | Jaw^^Claw   | 1d10 P (unarmed)^^1d6 S (agile, unarmed) |
+| Bull   | Horn        | 1d10 P (shove, unarmed)                  |
+| Cat    | Jaw^^Claw   | 1d10 P (unarmed)^^1d6 S (agile, unarmed) |
+| Deer   | Antler      | 1d10 P (grapple, unarmed)                |
+| Frog   | Jaw^^Tongue | 1d10 B (unarmed)^^1d4 B (agile, unarmed) |
+| Shark  | Jaw         | 1d10 P (grapple, unarmed)                |
+| Snake  | Fangs       | 1d10 P (grapple, unarmed)                |
+| Wolf   | Jaw         | 1d10 P (trip, unarmed)                   |
+
+{{{featureClass "Anathema" level=1 id='animal'}}}
 
 Flagrantly disrespecting an animal of your chosen kind is anathema to your instinct, as is using weapons while raging.
 
-{{{featureClass "Bestial Rage" level=1}}}
+{{{featureClass "Bestial Rage" level=1 id='animal'}}}
 
 When you Rage, you gain your chosen animal's unarmed attack (or attacks). The specific attack gained, the damage it deals, and its traits are listed below. These attacks are in the brawling group. Your Rage action gains the morph, primal, and transmutation traits.
 
-**Ape**
-
--   **Fist** 1d10 B (grapple, unarmed)
-
-**Bear**
-
--   **Jaw** 1d10 P (unarmed)
--   **Claw** 1d6 S (agile, unarmed)
-
-**Bull**
-
--   **Horn** 1d10 P (shove, unarmed)
-
-**Cat**
-
--   **Jaw** 1d10 P (unarmed)
--   **Claw** 1d6 S (agile, unarmed)
-
-**Deer**
-
--   **Antler** 1d10 P (grapple, unarmed)
-
-**Frog**
-
--   **Jaw** 1d10 B (unarmed)
--   **Tongue** 1d4 B (agile, unarmed)
-
-**Shark**
-
--   **Jaw** 1d10 P (grapple, unarmed)
-
-**Snake**
-
--   **Fist** 1d10 P (grapple, unarmed)
-
-**Wolf**
-
--   **Jaw** 1d10 P (trip, unarmed)
-
-{{{featureClass "Instinct Specialization" level=7}}}
+{{{featureClass "Instinct Specialization" level=7 id='animal'}}}
 
 Increase the damage die size for the unarmed attacks granted by your chosen animal by one step, and increase the additional damage from Rage from 2 to 5 for your chosen animal's unarmed attacks. The frog's tongue attack and deer's antler attack gain reach 10 feet.
 
-{{{featureClass "Raging Resistance" level=9}}}
+{{{featureClass "Raging Resistance" level=9 id='animal'}}}
 
 Repeated exposure and toughened skin allow you to fend off harm. While raging, you gain resistance equal to 3 + your Constitution modifier to piercing and slashing damage.
 
-{{{featureClass "Greater Instinct Specialization" level=15}}}
+{{{featureClass "Greater Instinct Specialization" level=15 id='animal'}}}
 
 Increase the damage from Rage from 5 to 12 for your chosen animal's unarmed attacks.
 
@@ -198,24 +173,24 @@ You summon the fury of a mighty dragon and manifest incredible abilities. Perhap
 | Gold        | Fire        | Cone          |
 | Silver      | Cold        | Cone          |
 
-{{{featureClass "Anathema" level=1}}}
+{{{featureClass "Anathema" level=1 id='dragon'}}}
 Letting a personal insult against you slide is anathema to your instinct. Choose whether your character respects or abhors your dragon type. If you respect it, defying such a dragon is anathema, and if you abhor it, failing to defeat such a dragon you come across is anathema.
 
-{{{featureClass "Draconic Rage" level=1}}}
+{{{featureClass "Draconic Rage" level=1 id='dragon'}}}
 
 While raging, you can increase the additional damage from Rage from 2 to 4 and change its damage type to match that of your dragon's breath weapon instead of the damage type for your weapon or unarmed attack. If you do this, your Rage action gains the arcane and evocation traits, as well as the trait matching the damage type.
 
-{{{featureClass "Instinct Specialization" level=7}}}
+{{{featureClass "Instinct Specialization" level=7 id='dragon'}}}
 
-When you use draconic rage, you increase the additional damage from Rage from 4 to 8.
+When you use Draconic Rage, you increase the additional damage from Rage from 4 to 8.
 
-{{{featureClass "Raging Resistance" level=9}}}
+{{{featureClass "Raging Resistance" level=9 id='dragon'}}}
 
 Repeated exposure and toughened skin allow you to fend off harm. While raging, you gain resistance equal to 3 + your Constitution modifier to piercing damage and the damage type of your dragon's breath weapon.
 
-{{{featureClass "Greater Instinct Specialization" level=15}}}
+{{{featureClass "Greater Instinct Specialization" level=15 id='dragon'}}}
 
-Increase the damage from Rage when using draconic rage from 8 to 16.
+Increase the additional damage from Rage when using Draconic Rage from 8 to 16.
 
 ## Fury Instinct
 
@@ -223,42 +198,91 @@ Your rage comes from a deep and purely personal well within you. You use your ra
 
 You don't have an anathema or an instinct ability. Instead, you gain an additional 1st-level barbarian feat.
 
-{{{featureClass "Instinct Specialization" level=7}}}
+{{{featureClass "Instinct Specialization" level=7 id='fury'}}}
 
 Increase the additional damage from Rage from 2 to 6
 
-{{{featureClass "Raging Resistance" level=9}}}
+{{{featureClass "Raging Resistance" level=9 id='fury'}}}
 
 Repeated exposure and toughened skin allow you to fend off harm. While raging, you gain resistance equal to 3 + your Constitution modifier to physical weapon damage, but not physical damage from other sources (such as unarmed attacks).
 
-{{{featureClass "Greater Instinct Specialization" level=15}}}
+{{{featureClass "Greater Instinct Specialization" level=15 id='fury'}}}
 
-Increase the additional damage from Rage to 12.
+Increase the additional damage from Rage from 6 to 12.
 
 ## Giant Instinct
 
 Your rage gives you the raw power and size of a giant. This doesn't necessarily mean you revere giants—you might scoff at them or even aspire to slay them! You could instead seem like a giant to other people due to your exceptional strength or larger-than-life emotions and ego.
 
-{{{featureClass "Anathema" level=1}}}
+{{{featureClass "Anathema" level=1 id='giant'}}}
+
 Failing to face a personal challenge of strength is anathema.
 
-{{{featureClass "Titan Mauler" level=1}}}
+{{{featureClass "Titan Mauler" level=1 id='giant'}}}
 
 You can use a weapon built for a Large creature if you are Small or Medium (both normally and when raging). If you're not Small or Medium, you can use a weapon built for a creature one size larger than you. You gain access to this larger weapon, which can be of any weapon type otherwise available at character creation. It has the normal Price and Bulk for a weapon of its size. When wielding such a weapon in combat, increase your additional damage from Rage from 2 to 6, but you have the clumsy 1 condition because of the weapon's unwieldy size. You can't remove this clumsy condition or ignore its penalties by any means while wielding the weapon.
 
-{{{featureClass "Instinct Specialization" level=7}}}
+{{{featureClass "Instinct Specialization" level=7 id='giant'}}}
 
-Increase the damage from Rage when using a larger weapon from 6 to 10; if you have greater weapon specialization, increase it from 10 to 18.
+Increase the damage from Rage when using a larger weapon from 6 to 10.
 
-{{{featureClass "Raging Resistance" level=9}}}
+{{{featureClass "Raging Resistance" level=9 id='giant'}}}
 
 Choose cold, electricity, or fire.
 
 Repeated exposure and toughened skin allow you to fend off harm. While raging, you gain resistance equal to 3 + your Constitution modifier to bludgeoning damage and the chosen damage type.
 
-{{{featureClass "Greater Instinct Specialization" level=15}}}
+{{{featureClass "Greater Instinct Specialization" level=15 id='giant'}}}
 
-Increase the damage from Rage when using draconic rage from 10 to 18.
+Increase the additional damage from Rage when using a larger weapon from 10 to 18.
+
+## Spirit Instinct
+
+Whether you are emotionally sensitive to the spirits around you; worship ancestors or apparitions; or are haunted by the specter of an ancestor, relative, friend, or foe, your rage takes the form of a spiritual possession.
+
+{{{featureClass "Anathema" level=1 id='spirit'}}}
+
+Disrespecting corpses or spirits is anathema to your instinct; defending yourself against undead creatures is not.
+
+{{{featureClass "Spirit Rage" level=1 id='spirit'}}}
+
+While raging, you can increase the additional damage from Rage from 2 to 3 and change its damage type to negative or positive, instead of the damage type for your weapon or unarmed attack (choose each time you Rage). If you choose to deal negative or positive damage, your weapon or unarmed attack gains the effects of the ghost touch property rune, which makes it more effective against incorporeal creatures, and your Rage action gains the divine and necromancy traits, plus negative or positive, as appropriate.
+
+{{{featureClass "Instinct Specialization" level=7 id='spirit'}}}
+
+When using spirit rage, increase the damage from Rage from 3 to 7.
+
+{{{featureClass "Raging Resistance" level=9 id='spirit'}}}
+
+Repeated exposure and toughened skin allow you to fend off harm. While raging, you gain resistance equal to 3 + your Constitution modifier to piercing and negative damage, as well as damage dealt by the attacks and abilities of undead creatures, regardless of damage type.
+
+{{{featureClass "Greater Instinct Specialization" level=15 id='spirit'}}}
+
+When using spirit rage, increase the damage from Rage from 7 to 13.
+
+## Superstition Instinct
+
+A deep distrust of magic drives you to forgo and counter the metaphysical nonsense of spellcasters. Whether you're a member of a superstitious family or culture that distrusts magic, a warrior in constant battle against wizards and witches, a survivor of a magical accident that instilled an intense aversion in your mind and body, or a scion of a bloodline known for its magic resistance, your rage is inimical to magic. This makes you an excellent mage hunter but slow to trust practitioners of magical arts. Your extremely restrictive anathema grants you powers beyond those of other instincts.
+
+{{{featureClass "Anathema" level=1 id='superstition' altered=true}}}
+
+Willingly accepting the effects of arcane or divine spells (including from scrolls, wands, and the like), even from your allies, is anathema to your instinct. You can still drink potions and invest and activate most magic items you find, though items that cast spells are subject to the same restrictions as all other spells. If an ally insists on using magic on you despite your unwillingness, and you have no reason to believe they will stop, continuing to travel with that ally of your own free will counts as willingly accepting their spells (as do similar circumstances) and thus is also anathema to your instinct.
+
+{{{featureClass "Superstitious Resilience" level=1 id='superstition'}}}
+
+While raging, you gain a +2 status bonus to all saves against magic. Increase your damage from Rage from 2 to 4 against creatures that can cast spells. Once every 10 minutes, when you Rage, you regain Hit Points equal to the temporary Hit Points you gain from that Rage action.
+
+{{{featureClass "Instinct Specialization" level=7 id='superstition'}}}
+
+Increase the damage from Rage from 4 to 8 against creatures that can cast spells
+
+{{{featureClass "Raging Resistance" level=9 id='superstition' altered=true}}}
+
+Repeated exposure and toughened skin allow you to fend off harm. While raging, you gain resistance equal to 3 + your Constitution modifier against all arcane and divine spells and effects.
+
+{{{featureClass "Greater Instinct Specialization" level=15 id='superstition'}}}
+
+Increase the damage from Rage from 8 to 12 against creatures with spells and from 2 to 8 against all other creatures.
 
 # Feats
 

@@ -5,7 +5,7 @@ var Handlebars = require('handlebars');
 const { registerEntryTypes, markup, entryMarkup } = require('./helper/entry');
 const { kaiser } = require('./kaiser');
 const { bucketArray } = require('./util/arrays');
-const { nthNumber } = require('./util/stringHelper');
+const { nthNumber, toDashCase } = require('./util/stringHelper');
 
 exports.buildSite = () => {
     registerHandlebars();
@@ -111,10 +111,13 @@ const registerHandlebars = () => {
     );
 
     Handlebars.registerHelper('featureClass', (context, options) => {
-        console.log(context, options);
-
         return compileHandlebarTemplate('templates/game/feature.hbs')(
-            { name: context, level: options.hash.level },
+            {
+                name: context,
+                level: options.hash.level,
+                id: toDashCase((context + ' ' + options.hash.id).trim()),
+                dagger: options.hash.altered,
+            },
             {}
         );
     });

@@ -40,12 +40,14 @@ const markup = (str) => {
         (string, match) => `<em class='text-italics'>${match}</em>`
     );
 
+    str = str.replace(/\^\^/g, '<br />');
+
     str = str.replace(
-        /\^\^([^^]+)\^\^/g,
+        /\^([^^]+)\^/g,
         (string, match) => `<sup class='text-superscript'>${match}</sup>`
     );
 
-    str = str.replace(/-----/g, '<hr />');
+    str = str.replace(/-----\n/g, '<hr />');
 
     str = str.replace(/ *--- */g, '&mdash;');
 
