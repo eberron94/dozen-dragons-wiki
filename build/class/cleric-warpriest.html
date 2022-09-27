@@ -1,0 +1,991 @@
+<!DOCTYPE html><html lang='en' class='dark'>
+
+    <head>
+        <meta charset='utf-8' />
+        <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+
+        <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+
+        <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+
+        <title>WIKI | Warpriest</title>
+
+        <link
+            rel='stylesheet'
+            href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'
+        />
+        <link rel='preconnect' href='https://fonts.googleapis.com' />
+        <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+        <link
+            href='https://fonts.googleapis.com/css2?family=Roboto&display=swap'
+            rel='stylesheet'
+        />
+        <link rel='icon' href='/img/badge.png' />
+        <link rel='stylesheet' type='text/css' href='/css/default.css' />
+        <link rel='stylesheet' type='text/css' href='/css/deco.css' />
+        <link rel='stylesheet' type='text/css' href='/css/sidebar.css' />
+        <link rel='stylesheet' type='text/css' href='/css/heading.css' />
+        <link rel='stylesheet' type='text/css' href='/css/toc.css' />
+        <link rel='stylesheet' type='text/css' href='/css/body.css' />
+        <link rel='stylesheet' type='text/css' href='/css/card.css' />
+
+        <link rel='stylesheet' type='text/css' href='/css/pager.css' />
+
+        <link rel='stylesheet' type='text/css' href='/css/mobile.css' />
+        <link rel='stylesheet' type='text/css' href='/css/tooltip.css' />
+
+    </head>
+
+    <body>
+
+        <nav class='nav deco-bar'>
+            <div class='deco-bar-header'>
+                <a class='deco-bar-icon' href='/'>
+                    <img src='/img/badge.png' alt='logo' />
+                </a>
+            </div>
+            <div class='deco-bar-title'>Dozen Dragons</div>
+
+            <div class='toggle-nav-menu'><input
+                    id='toggle-nav'
+                    type='image'
+                    src='/img/hamburger-menu.png'
+                /></div>
+        </nav>
+
+        <div class='content'>
+            <div
+                id='nav-sidebar'
+                class='nav hidden-mobile'
+            ><ul class='nav__list nav-sidebar'>
+        <li >
+        <label>
+            <a href='/index.html'>Dozen Dragons Wiki</a>
+            </label>
+</li>
+        <li >
+        <input class='nav-group-toggle' id='/character' type='checkbox' hidden />
+        <label for='/character'>
+                <span class='fa fa-angle-right'></span>
+            <a href='/character.html'>Character Creation</a>
+        </label>
+        <ul class='group-list-t0'>
+                <li >
+        <label>
+            <a href='/character/ancestry.html'>Step 1: Ancestry</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/character/background.html'>Step 2: Background</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/character/culture.html'>Step 3: Culture</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/character/devotion.html'>Step 4: Devotion</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/character/extraneous.html'>Step 5: Extraneous</a>
+            </label>
+</li>
+        </ul>
+</li>
+        <li >
+        <input class='nav-group-toggle' id='/ancestry' type='checkbox' hidden />
+        <label for='/ancestry'>
+                <span class='fa fa-angle-right'></span>
+            <a href='/ancestry.html'>Ancestry</a>
+        </label>
+        <ul class='group-list-t0'>
+                <li >
+        <label>
+            <a href='/ancestry/dwarf.html'>Dwarf</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/elf.html'>Elf</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/gnome.html'>Gnome</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/goblin.html'>Goblin</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/half-orc.html'>Half-Orc</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/halfling.html'>Halfling</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/human.html'>Human</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/khoravar.html'>Khoravar</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/bugbear.html'>Bugbear</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/changeling.html'>Changeling</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/hobgoblin.html'>Hobgoblin</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/kobold.html'>Kobold</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/orc.html'>Orc</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/shifter.html'>Shifter</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/warforged.html'>Warforged</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/catfolk.html'>Catfolk</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/dragonborn.html'>Dragonborn</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/gnoll.html'>Gnoll</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/lizardfolk.html'>Lizardfolk</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/automaton.html'>Automaton</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/fleshwarp.html'>Fleshwarp</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/sprite.html'>Sprite</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/aasimar.html'>Aasimar</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/ancestry/kalashtar.html'>Kalashtar</a>
+            </label>
+</li>
+        </ul>
+</li>
+        <li >
+        <input class='nav-group-toggle' id='/class' type='checkbox' hidden />
+        <label for='/class'>
+                <span class='fa fa-angle-right'></span>
+            <a href='/class.html'>Class</a>
+        </label>
+        <ul class='group-list-t0'>
+                <li >
+        <label>
+            <a href='/class/alchemist.html'>Alchemist</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/class/barbarian.html'>Barbarian</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/class/bard.html'>Bard</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/class/champion.html'>Champion</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/class/cleric.html'>Cleric</a>
+            </label>
+</li>
+                <li >
+        <label>
+            <a href='/class/cleric-warpriest.html'>Warpriest</a>
+            </label>
+</li>
+        </ul>
+</li>
+        <li class="group-list-seperator">
+        <label>
+                PF2e Rules
+            </label>
+</li>
+        <li class="group-list-seperator">
+        <label>
+                Homebrew
+            </label>
+</li>
+        <li >
+        <label>
+            <a href='/level.html'>Leveling Up</a>
+            </label>
+</li>
+        <li class="group-list-seperator">
+        <label>
+                Flame Rondo
+            </label>
+</li>
+</ul></div>
+            <main id='page-media' class=''>
+
+                <div class='inner inner-left page-body'>
+                    <span class='title'>Warpriest</span>
+
+                    <div class='cred'></div>
+                    <div class='heart'>
+                        <p><em>Deities work their will upon the world in infinite ways, and you serve as one of their most stalwart mortal servants. Blessed with divine magic, you live the ideals of your faith, adorn yourself with the symbols of your church, and train diligently to wield your deity's favored weapon. Your spells might protect and heal your allies, or they might punish foes and enemies of your faith, as your deity wills. Yours is a life of devotion, spreading the teachings of your faith through both word and deed.</em></p>
+<blockquote>
+<p><strong>GM Note</strong> The cloistered cleric and warpriest, by rules as written, are sub-classes of cleric. But due to the formatting of this wiki, I have separated the cleric sub-classes. This page contains the warpriest. Any reference to cleric is referring to your class.</p>
+</blockquote>
+<h1 id="mechanics" tabindex="-1">Mechanics</h1>
+<p><strong>Key Ability</strong> Strength or Wisdom</p>
+<p><strong>Hit Points</strong> 8 + Constitution modifier. You increase your maximum number of HP by this number at 1st level and every level thereafter.</p>
+<h2 id="key-terms" tabindex="-1">Key Terms</h2>
+<p>You'll see the following term in many cleric class features.</p>
+<p><strong>Metamagic</strong> These actions tweak your spells. You must use a metamagic action directly before Casting the Spell you want to alter. If you use any action (including free actions and reactions) other than Cast a Spell directly after, you waste the benefits of the metamagic action. Effects added by a metamagic action are part of the spell's effect, not of the metamagic action.</p>
+<h2 id="in-combat" tabindex="-1">In Combat</h2>
+<p>you balance between casting spells and attacking with weapons— typically the favored weapon of your deity.</p>
+<h1 id="proficiencies" tabindex="-1">Proficiencies</h1>
+<p>You are trained in Religion, a skill determined by your deity, and a number of additional skills equal to 2 plus your intelligence modifier.</p>
+<h2 id="class-dc-%26-attacks" tabindex="-1">Class DC & Attacks</h2>
+<table>
+<thead>
+<tr>
+<th>Proficiencies</th>
+<th>Trained</th>
+<th>Expert</th>
+<th>Master</th>
+<th>Legendary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Divine Spell Tradition</td>
+<td><em>1st level</em></td>
+<td>11th level</td>
+<td>19th level</td>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td>Simple Weapons</td>
+<td><em>1st level</em></td>
+<td>7th level</td>
+<td>&mdash;</td>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td>Martial Weapons</td>
+<td><em>1st level</em></td>
+<td>7th level</td>
+<td>&mdash;</td>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td>Deity's Weapon</td>
+<td><em>1st level</em></td>
+<td>7th level</td>
+<td>&mdash;</td>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td>Unarmed Attacks</td>
+<td><em>1st level</em></td>
+<td>7th level</td>
+<td>&mdash;</td>
+<td>&mdash;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Deity's Weapon</strong> Your deity's preferred weapon. If your deity's favored weapon is uncommon, you also gain access to that weapon.</p>
+<h2 id="armor-class" tabindex="-1">Armor Class</h2>
+<table>
+<thead>
+<tr>
+<th>Proficiencies</th>
+<th>Trained</th>
+<th>Expert</th>
+<th>Master</th>
+<th>Legendary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unarmored</td>
+<td><em>1st level</em></td>
+<td>13th level</td>
+<td>&mdash;</td>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td>Light Armor</td>
+<td><em>1st level</em></td>
+<td>13th level</td>
+<td>&mdash;</td>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td>Medium Armor</td>
+<td><em>1st level</em></td>
+<td>13th level</td>
+<td>&mdash;</td>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td>Heavy Armor<sup class='text-superscript'>†</sup></td>
+<td><em>1st level</em></td>
+<td>13th level</td>
+<td>&mdash;</td>
+<td>&mdash;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="perception-%26-saving-throws" tabindex="-1">Perception & Saving Throws</h2>
+<table>
+<thead>
+<tr>
+<th>Proficiencies</th>
+<th>Trained</th>
+<th>Expert</th>
+<th>Master</th>
+<th>Legendary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Perception<sup class='text-superscript'>†</sup></td>
+<td><em>1st level</em></td>
+<td>3rd level</td>
+<td>&mdash;</td>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td>Fortitude</td>
+<td>&mdash;</td>
+<td><em>1st level</em></td>
+<td>15th level</td>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td>Reflex</td>
+<td><em>1st level</em></td>
+<td>11th level</td>
+<td>&mdash;</td>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td>Will</td>
+<td>&mdash;</td>
+<td><em>1st level</em></td>
+<td>9th level</td>
+<td>&mdash;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>†</strong> Homebrewing has modified proficiency. As such, it does not match the Core Rule Book.</p>
+<h1 id="class-features" tabindex="-1">Class Features</h1>
+<p>As a cleric, you gain the following class features at the listed level. Additionally, at 2nd level and every 2 levels thereafter, you gain a cleric class feat.</p>
+<p><div class='feature'><h3 id="deity-undefined">Deity</h3><sup>†</sup><span>level 1</span></div></p>
+<p>As a cleric, you are a mortal servitor of a deity you revere above all others. The most common deities in Eberron are found here, along with their alignments, areas of concern, and the benefits you get for being a cleric of that deity. Your deity grants you the trained proficiency rank in one skill and with the deity's favored weapon. If the favored weapon is uncommon, you also get access to that weapon. If it's an unarmed attack with a d4 damage die or a simple weapon, increase the damage die by one step (d4 to d6, d6 to d8, d8 to d10, d10 to d12).</p>
+<p>Your deity also adds spells to your spell list. You can prepare these just like you can any spell on the divine spell list, once you can prepare spells of their level as a cleric. Some of these spells aren't normally on the divine list, but they're divine spells if you prepare them this way.</p>
+<p>A list of all deities can be found here.</p>
+<h4 id="anathema" tabindex="-1">Anathema</h4>
+<p>Acts fundamentally opposed to your deity's ideals are anathema to your faith. Learning or casting spells, committing acts, and using items that are anathema to your deity shake your conviction.</p>
+<p>If you perform enough acts that are anathema to your faith, you lose the magical abilities that come from your connection to your deity. The class features that you lose are determined by the GM, but they likely include your divine font and all divine spellcasting. These abilities can be regained only if you demonstrate your repentance by conducting an atone ritual.</p>
+<h4 id="abhorrent" tabindex="-1">Abhorrent</h4>
+<p>Acts fundamentally opposed by your church's alignment or ideals are abhorrent to them. Learning or casting spells, committing acts, and using items that are abhorrent to them can remove you from their good graces, if they find out. But, if a cleric loses faith in their deity or a champion breaks their code, they can be subject to the original Anathema rules for losing abilities as the source of power is disrupted.</p>
+<p>Violating the ideals and goals of the church might risk punishment, but a corrupt faction within it will hide the abhorrent actions. In the case of being caught, churches like the Silver Flame and the Sovereign Host will have a cleric perform a ceremonial version of the Atone ritual as a way to determine if the individual is penitent or not. Instead of losing or gaining divine abilities, the result is interpreted by a superior and only effects the political standing of the atoning individual.</p>
+<p><div class='feature'><h3 id="divine-prepared-spellcasting-undefined">Divine Prepared Spellcasting</h3><span>level 1</span></div></p>
+<p>Your faith bestows on you the power to cast divine spells. You can cast divine spells using the Cast a Spell activity, and you can supply material, somatic, and verbal components when casting spells (see Casting Spells). Because you're a cleric, you can usually hold a divine focus (such as a religious symbol) for spells requiring material components instead of needing to use a material component pouch.</p>
+<p>Each day, you can prepare a number of spells and cantrips each morning from the common spells on the divine spell list or from other divine spells to which you gain access. Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare is called your spell slots.</p>
+<p>Some of your spells require you to attempt a spell attack roll to see how effective they are, or your enemies to roll against your spell DC (typically by attempting a saving throw). Since your key ability is Wisdom, your spell attack rolls and spell DCs use your Wisdom modifier. Details on calculating these statistics appear in Spell Attack Rolls.</p>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Cantrips</th>
+<th>1st</th>
+<th>2nd</th>
+<th>3rd</th>
+<th>4th</th>
+<th>5th</th>
+<th>6th</th>
+<th>7th</th>
+<th>8th</th>
+<th>9th</th>
+<th>10th</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>5</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>2</td>
+<td>5</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>3</td>
+<td>5</td>
+<td>3</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5</td>
+<td>3</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>6</td>
+<td>5</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>7</td>
+<td>5</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>8</td>
+<td>5</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>9</td>
+<td>5</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>10</td>
+<td>5</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>11</td>
+<td>5</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>12</td>
+<td>5</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>13</td>
+<td>5</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>14</td>
+<td>5</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>15</td>
+<td>5</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>16</td>
+<td>5</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>17</td>
+<td>5</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>—</td>
+</tr>
+<tr>
+<td>18</td>
+<td>5</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>—</td>
+</tr>
+<tr>
+<td>19</td>
+<td>5</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>1<sup class='text-superscript'>†</sup></td>
+</tr>
+<tr>
+<td>20</td>
+<td>5</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>1<sup class='text-superscript'>†</sup></td>
+</tr>
+</tbody>
+</table>
+<p><strong>†</strong> The miraculous spell class feature gives you a 10th-level spell slot that works a bit differently from other spell slots.</p>
+<p>Your divine font gives you additional heal or harm spells of your highest level spell slot. The number is equal to 1 + your Charisma modifier.</p>
+<h4 id="heightening-spells" tabindex="-1">Heightening Spells</h4>
+<p>When you get spell slots of 2nd level and higher, you can fill those slots with stronger versions of lower-level spells. This increases the spell's level, heightening it to match the spell slot. Many spells have specific improvements when they are heightened to certain levels.</p>
+<h4 id="cantrips" tabindex="-1">Cantrips</h4>
+<p>A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up&mdash;this is usually equal to the highest level of cleric spell slot you have. For example, as a 1st-level cleric, your cantrips are 1st-level spells, and as a 5th-level cleric, your cantrips are 3rd-level spells.</p>
+<p><div class='feature'><h3 id="divine-font-undefined">Divine Font</h3><span>level 1</span></div></p>
+<p>Through your deity's blessing, you gain additional spells that channel either the life force called positive energy or its counterforce, negative energy. When you prepare your spells each day, you can prepare additional heal or harm spells, depending on your deity. The divine font spell your deity provides is listed in the Divine Font entry for your deity; if both are listed, you can choose between heal or harm. Once you choose, you can't change your choice short of an ethical shift or divine intervention.</p>
+<p><strong>Healing Font</strong> You gain additional spell slots each day at your highest level of cleric spell slots. You can prepare only heal spells in these slots, and the number of slots is equal to 1 plus your Charisma modifier.</p>
+<p><strong>Harmful Font</strong> You gain additional spell slots each day at your highest level of cleric spell slots. You can prepare only harm spells in these slots, and the number of slots is equal to 1 plus your Charisma modifier.</p>
+<p><div class='feature'><h3 id="shield-block-undefined">Shield Block</h3><span>level 1</span></div></p>
+<p>You gain the Shield Block general feat, a reaction that lets you reduce damage with your shield.</p>
+<p><div class='feature'><h3 id="critical-doctrine-undefined">Critical Doctrine</h3><span>level 7</span></div></p>
+<p>Your faith drives you forward and your weapon to strike. When you critically succeed at an attack roll using your deity's favored weapon, you apply the weapon's critical specialization effect; use your divine spell DC if necessary.</p>
+<p><div class='feature'><h3 id="resolve-undefined">Resolve</h3><span>level 9</span></div></p>
+<p>You've steeled your mind with resolve. When you roll a success at a Will save, you get a critical success instead.</p>
+<p><div class='feature'><h3 id="weapon-specialization-undefined">Weapon Specialization</h3><span>level 13</span></div></p>
+<p>You've learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and to 4 if you're legendary.</p>
+<p><div class='feature'><h3 id="juggernaut-undefined">Juggernaut</h3><span>level 15</span></div></p>
+<p>Your body is accustomed to physical hardship and resistant to ailments. When you roll a success on a Fortitude save, you get a critical success instead.</p>
+<p><div class='feature'><h3 id="miraculous-spell-undefined">Miraculous Spell</h3><span>level 19</span></div></p>
+<p>You're exalted by your deity and gain truly incredible spells. You gain a single 10th-level spell slot and can prepare a spell in that slot using divine spellcasting. You can't use this spell slot for abilities that let you cast spells without expending spell slots or that give you more spell slots. You don't gain more 10th-level spells as you level up, though you can take the Maker of Miracles feat to gain a second slot.</p>
+<h1 id="feats" tabindex="-1">Feats</h1>
+<p><div class='level-head'><h2 id="level-6th">6th Level</h2></div><div class='item-deck'>
+ <div class='item-card'>
+ <div class='item-card-title'>
+ <img src='/icons/ffffff/transparent/1x1/skoll/rank-2.svg' />
+ <h4 id='feat.class.fighter.advanced-weapon-training'>
+ Advanced Weapon Training
+ </h4>
+ <span class='item-label'>
+ <span
+ class='item-label-text'
+ >feat 6</span>
+ </span>
+ </div>
+ <div class='item-card-body'>
+ <div class='card-element card-pftrait-line trait-line'><span class='card-pftrait-trait trait'>fighter</span></div>
+ <svg
+ class='card-element card-ruler-line'
+ height='1'
+ width='100'
+ viewBox='0 0 100 1'
+ preserveAspectRatio='none'
+ xmlns='http://www.w3.org/2000/svg'
+ >
+ <polyline points='0,0 100,0.5 0,1' fill={color} />
+ </svg>
+ <div class='card-element card-text-line'><p class='card-text-text'>You've studied the art of wielding an advanced weapon.</p></div>
+ <div class='card-element card-text-line'><p class='card-text-text'>Choose a weapon group. You gain proficiency with all advanced weapons in that group as if they were martial weapons of their weapon group.</p></div>
+ </div>
+</div>
+</div></p>
+
+                        
+                    </div>
+                    <div class='pager-wrapper'>
+                        <a class='previousBtn' href='/class/cleric.html'><div
+                                class='leftArrow'
+                            ><svg
+                                    preserveAspectRatio='xMidYMid meet'
+                                    height='1em'
+                                    width='1em'
+                                    fill='none'
+                                    xmlns='http://www.w3.org/2000/svg'
+                                    viewBox='0 0 24 24'
+                                    stroke-width='2'
+                                    stroke-linecap='round'
+                                    stroke-linejoin='round'
+                                    stroke='currentColor'
+                                    class='_13gjrqj'
+                                ><g><line
+                                            x1='19'
+                                            y1='12'
+                                            x2='5'
+                                            y2='12'
+                                        ></line><polyline
+                                            points='12 19 5 12 12 5'
+                                        ></polyline></g></svg></div><div
+                                class='preRightWrapper'
+                            ><div class='smallContent'><span
+                                    >Previous</span></div><div
+                                    class='nextPreviousTitle'
+                                ><span>Cleric</span></div></div></a>
+
+                        <a class='nextBtn' href='/level.html'>
+                            <div class='nextRightWrapper'>
+                                <div class='smallContent'>
+                                    <span>Next</span>
+                                </div>
+                                <div class='nextPreviousTitle'><span
+                                    >Leveling Up</span></div></div><div
+                                class='rightArrow'
+                            ><svg
+                                    preserveAspectRatio='xMidYMid meet'
+                                    height='1em'
+                                    width='1em'
+                                    fill='none'
+                                    xmlns='http://www.w3.org/2000/svg'
+                                    viewBox='0 0 24 24'
+                                    stroke-width='2'
+                                    stroke-linecap='round'
+                                    stroke-linejoin='round'
+                                    stroke='currentColor'
+                                    class='_13gjrqj'
+                                ><g><line
+                                            x1='5'
+                                            y1='12'
+                                            x2='19'
+                                            y2='12'
+                                        ></line><polyline
+                                            points='12 5 19 12 12 19'
+                                        ></polyline></g></svg></div></a>
+
+                    </div>
+                    <div class='credits'><p>Dozen Dragons Wiki, an Eberron &amp; PF2e campaign.</p></div>
+                </div>
+
+                <div class='inner inner-right page-toc'>
+                    <h2>Table of Contents</h2>
+                    <ul>
+                            <li class='toc-heading-1'>
+                                <a href='#mechanics'>
+                                    Mechanics
+                                </a>
+                            </li>
+                            <li class='toc-heading-2'>
+                                <a href='#key-terms'>
+                                    Key Terms
+                                </a>
+                            </li>
+                            <li class='toc-heading-2'>
+                                <a href='#in-combat'>
+                                    In Combat
+                                </a>
+                            </li>
+                            <li class='toc-heading-1'>
+                                <a href='#proficiencies'>
+                                    Proficiencies
+                                </a>
+                            </li>
+                            <li class='toc-heading-2'>
+                                <a href='#class-dc-%26-attacks'>
+                                    Class DC &amp; Attacks
+                                </a>
+                            </li>
+                            <li class='toc-heading-2'>
+                                <a href='#armor-class'>
+                                    Armor Class
+                                </a>
+                            </li>
+                            <li class='toc-heading-2'>
+                                <a href='#perception-%26-saving-throws'>
+                                    Perception &amp; Saving Throws
+                                </a>
+                            </li>
+                            <li class='toc-heading-1'>
+                                <a href='#class-features'>
+                                    Class Features
+                                </a>
+                            </li>
+                            <li class='toc-heading-3'>
+                                <a href='#deity-undefined'>
+                                    Deity
+                                </a>
+                            </li>
+                            <li class='toc-heading-3'>
+                                <a href='#divine-prepared-spellcasting-undefined'>
+                                    Divine Prepared Spellcasting
+                                </a>
+                            </li>
+                            <li class='toc-heading-3'>
+                                <a href='#divine-font-undefined'>
+                                    Divine Font
+                                </a>
+                            </li>
+                            <li class='toc-heading-3'>
+                                <a href='#shield-block-undefined'>
+                                    Shield Block
+                                </a>
+                            </li>
+                            <li class='toc-heading-3'>
+                                <a href='#critical-doctrine-undefined'>
+                                    Critical Doctrine
+                                </a>
+                            </li>
+                            <li class='toc-heading-3'>
+                                <a href='#resolve-undefined'>
+                                    Resolve
+                                </a>
+                            </li>
+                            <li class='toc-heading-3'>
+                                <a href='#weapon-specialization-undefined'>
+                                    Weapon Specialization
+                                </a>
+                            </li>
+                            <li class='toc-heading-3'>
+                                <a href='#juggernaut-undefined'>
+                                    Juggernaut
+                                </a>
+                            </li>
+                            <li class='toc-heading-3'>
+                                <a href='#miraculous-spell-undefined'>
+                                    Miraculous Spell
+                                </a>
+                            </li>
+                            <li class='toc-heading-1'>
+                                <a href='#feats'>
+                                    Feats
+                                </a>
+                            </li>
+                            <li class='toc-heading-2'>
+                                <a href='#level-6th'>
+                                    6th Level
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </main>
+
+        </div>
+
+        <script type='text/javascript'>
+            const nextSlug = "/level.html"; const prevSlug = "/class/cleric.html";
+        </script>
+        <script type='text/javascript' src='/js/toggleNav.js'></script>
+
+    </body>
+
+</html>
