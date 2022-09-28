@@ -12,3 +12,5 @@ _*
 data-stage/core/parse
 # data-stage/core1/**
 # data-stage/core2/**
+
+build/
