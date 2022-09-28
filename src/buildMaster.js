@@ -6,6 +6,7 @@ const { registerEntryTypes, markup, entryMarkup } = require('./helper/entry');
 const { kaiser } = require('./kaiser');
 const { bucketArray } = require('./util/arrays');
 const { nthNumber, toDashCase } = require('./util/stringHelper');
+const { unescape } = require('lodash');
 
 exports.buildSite = () => {
     registerHandlebars();
@@ -115,7 +116,13 @@ const registerHandlebars = () => {
             {
                 name: context,
                 level: options.hash.level,
-                id: toDashCase((context + ' ' + options.hash.id).trim()),
+                id: toDashCase(
+                    (
+                        context.replace(/[^a-zA-Z]/g, '') +
+                        ' ' +
+                        (options.hash.id || '')
+                    ).trim()
+                ),
                 dagger: options.hash.altered,
             },
             {}

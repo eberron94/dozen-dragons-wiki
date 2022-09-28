@@ -71,16 +71,16 @@ exports.composeMDX = (original) => {
                 ].map(([match, headingLevel, id, str]) => {
                     return {
                         h: Number(headingLevel),
-                        id,
-                        str,
+                        id: unescape(unescape(id)),
+                        str: unescape(unescape(str)),
                     };
                 });
-
-                // console.log(page.metadata.frontMatter.tocLevel, headers);
 
                 page.toc = headers.filter(
                     (e) => e.h <= page.data.frontMatter.tocLevel
                 );
+
+                console.log(page.toc);
             });
             return list;
         },
