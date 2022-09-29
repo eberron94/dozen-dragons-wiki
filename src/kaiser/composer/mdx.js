@@ -80,7 +80,6 @@ exports.composeMDX = (original) => {
                     (e) => e.h <= page.data.frontMatter.tocLevel
                 );
 
-                console.log(page.toc);
             });
             return list;
         },

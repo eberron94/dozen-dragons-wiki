@@ -116,6 +116,7 @@ const registerHandlebars = () => {
             {
                 name: context,
                 level: options.hash.level,
+                code: options.hash.code,
                 id: toDashCase(
                     (
                         context.replace(/[^a-zA-Z]/g, '') +

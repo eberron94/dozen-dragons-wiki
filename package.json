@@ -1,35 +1,36 @@
 {
-  "name": "kaiser",
-  "version": "1.0.0",
-  "description": "Static Quiz generator with json questions",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node index.js",
-    "prep": "node ./scripts/convertPF.js",
-    "prep-build": "npm run prep && npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/z00md/quiz.git"
-  },
-  "keywords": [
-    "StaticQuiz"
-  ],
-  "author": "z00md",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/z00md/quiz/issues"
-  },
-  "homepage": "https://github.com/z00md/quiz#readme",
-  "dependencies": {
-    "fs-extra": "^10.0.0",
-    "handlebars": "^4.7.7",
-    "json-stable-stringify": "^1.0.1",
-    "lodash": "^4.17.21",
-    "markdown-it": "^12.2.0",
-    "markdown-it-anchor": "^8.3.1",
-    "markdown-yaml-metadata-parser": "^3.0.0",
-    "unescape": "^1.0.1"
-  }
+    "name": "kaiser",
+    "version": "1.0.0",
+    "description": "Static Quiz generator with json questions",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "node index.js",
+        "fastbuild": "node fast-build.js",
+        "prep": "node ./scripts/convertPF.js",
+        "prep-build": "npm run prep && npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/z00md/quiz.git"
+    },
+    "keywords": [
+        "StaticQuiz"
+    ],
+    "author": "z00md",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/z00md/quiz/issues"
+    },
+    "homepage": "https://github.com/z00md/quiz#readme",
+    "dependencies": {
+        "fs-extra": "^10.0.0",
+        "handlebars": "^4.7.7",
+        "json-stable-stringify": "^1.0.1",
+        "lodash": "^4.17.21",
+        "markdown-it": "^12.2.0",
+        "markdown-it-anchor": "^8.3.1",
+        "markdown-yaml-metadata-parser": "^3.0.0",
+        "unescape": "^1.0.1"
+    }
 }
