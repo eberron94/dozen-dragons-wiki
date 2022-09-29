@@ -1,6 +1,6 @@
 const { kebabCase } = require('lodash');
 const { toDashCase } = require('../../src/util/stringHelper');
-const { initCard, getTextEntries } = require('../util/crobiUtil');
+const { initCard, getTextEntries, unpackText } = require('../util/crobiUtil');
 const { DataUtil, SortUtil, Renderer } = require('../util/toolUtil');
 
 const convertItems2Save = async (items, saveFn) => {
@@ -111,7 +111,7 @@ const getId = ({
     variantType,
     category,
     subCategory,
-    type,
+    type, source,
     ...item
 }) => {
     const idArr = [type?.toLowerCase() || 'item', category.toLowerCase()];
@@ -123,9 +123,13 @@ const getId = ({
     if (subCategory) idArr.push(subCategory.toLowerCase());
 
     // Add name
+    idArr.push(source.toLowerCase());
     idArr.push(item.name);
 
-    return idArr.map((e) => kebabCase(e)).join('.');
+    return idArr
+        .flat()
+        .map((e) => kebabCase(unpackText(e)))
+        .join('.');
 };
 
 const getIcon = ({ category, subCategory, usage, weaponData, ...item }) => {

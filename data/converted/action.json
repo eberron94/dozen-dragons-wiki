@@ -1,0 +1,2819 @@
+[
+    {
+        "id": "action.g-g.accidental-shot",
+        "color": "",
+        "title": "Accidental Shot [[two-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | fortune",
+            "rule",
+            "text | You make a Strike with a ranged weapon, rolling the attack and damage twice and using the better results for each. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being concealed or hidden."
+        ]
+    },
+    {
+        "id": "action.class.summoner.som.act-together",
+        "color": "",
+        "title": "Act Together",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | summoner | tandem",
+            "rule",
+            "text | You and your eidolon act as one. Either you or your eidolon takes an action or activity using the same number of actions as Act Together, and the other takes a single action.",
+            "text | For example, if you spent 2 actions to Act Together, you could cast burning hands (2 actions) and your eidolon could Strike (1 action), or your eidolon could use its Breath Weapon (2 actions) and you could Stride (1 action).",
+            "text | This lets you each use separate exploration activities like Avoid Notice as you travel (Core Rulebook 496)."
+        ]
+    },
+    {
+        "id": "action.basic.crb.activate-an-item",
+        "color": "",
+        "title": "Activate an Item",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "property | Requirements | You can Activate an Item with the invested trait only if it's invested by you. If the item requires you to Interact with it, you must be wielding it (if it's a held item) or touching it with a free hand (if it's another type of item).",
+            "rule",
+            "text | You call forth the effect of an item by properly activating it. This is a special activity that takes a variable number of actions, as listed in the item's stat block.",
+            "text | Some items can be activated as a reaction or free action. In this case, you Activate the Item as a reaction or free action (as appropriate) instead of as an activity. Such cases are noted in the item's Activate entry in its stat block—for example, \"**Activate** R command.\"",
+            "text | **Long Activation Times** Some items take minutes or hours to activate. The Activate an Item activity for these items includes a mix of the listed activation components, but it's not necessary to break down which one you're providing at a given time. You can't use other actions or reactions while activating such an item, though at the GM's discretion, you might be able to speak a few sentences. As with other activities that take a long time, these activations have the exploration trait, and you can't activate them in an encounter. If combat breaks out while you're activating one, your activation is disrupted (see the Disrupting Activations sidebar).",
+            "text | **Activation Components** Each activation entry lists any components involved in the activation after the action icons or text, such as \"1 command.\" The activation components, described below, add traits (listed in parentheses) and requirements to the activation. If you can't provide the components, you fail to Activate the Item.",
+            "bullet | Command (auditory, concentrate)",
+            "bullet | Envision (concentrate)",
+            "bullet | Interact (manipulate)",
+            "bullet | Cast a Spell"
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.administer-first-aid",
+        "color": "",
+        "title": "Administer First Aid [[two-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | manipulate",
+            "property | Requirements | You are holding healer's tools, or you are wearing them and have a hand free.",
+            "rule",
+            "text | You perform first aid on an adjacent creature that is dying or bleeding. If a creature is both dying and bleeding, choose which ailment you're trying to treat before you roll. You can Administer First Aid again to attempt to remedy the other effect.",
+            "bullet | **Stabilize** Attempt a Medicine check on a creature that has 0 Hit Points and the dying condition. The DC is equal to 5 + that creature's recovery roll DC (typically 15 + its dying value).",
+            "bullet | **Stop Bleeding** Attempt a Medicine check on a creature that is taking persistent bleed damage, giving them a chance to make another flat check to remove the persistent damage. The DC is usually the DC of the effect that caused the bleed.",
+            "fill",
+            "property | Success | If you're trying to stabilize, the creature loses the {@condition dying|CRB} condition (but remains {@condition unconscious|CRB}). If you're trying to stop bleeding, the creature attempts a flat check to end the bleeding.",
+            "property | Critical Failure | If you were trying to stabilize, the creature's {@condition dying|CRB} value increases by 1. If you were trying to stop bleeding, it immediately takes an amount of damage equal to its {@condition persistent damage|CRB|persistent bleed damage}.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.som.affix-a-fulu",
+        "color": "",
+        "title": "Affix a Fulu [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | manipulate",
+            "rule",
+            "text | You affix a fulu to an armor, weapon, shield, creature, or structure that's beside or in the same square as you. A creature can remove a fulu from itself or an unattended object in its reach with a single action."
+        ]
+    },
+    {
+        "id": "action.basic.crb.affix-a-talisman",
+        "color": "",
+        "title": "Affix a Talisman",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | exploration | manipulate",
+            "property | Requirements | You must use a repair kit.",
+            "rule",
+            "text | You spend 10 minutes affixing a talisman to an item, placing the item on a stable surface and using the repair kit with both hands. You can also use this activity to remove a talisman. Attaching more than one talisman to an item deactivates all the talismans. They must be removed and re-affixed before they can be used again."
+        ]
+    },
+    {
+        "id": "action.basic.crb.aid",
+        "color": "",
+        "title": "Aid [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "property | Requirements | The ally is willing to accept your aid, and you have prepared to help (see below).",
+            "property | Trigger | An ally is about to use an action that requires a skill check or attack roll.",
+            "rule",
+            "text | You try to help your ally with a task. To use this reaction, you must first prepare to help, usually by using an action during your turn. You must explain to the GM exactly how you're trying to help, and they determine whether you can Aid your ally.",
+            "text | When you use your Aid reaction, attempt a skill check or attack roll of a type decided by the GM. The typical DC is 20, but the GM might adjust this DC for particularly hard or easy tasks. The GM can add any relevant traits to your preparatory action or to your Aid reaction depending on the situation, or even allow you to Aid checks other than skill checks and attack rolls.",
+            "fill",
+            "property | Critical Success | You grant your ally a +2 circumstance bonus to the triggering check. If you're a master with the check you attempted, the bonus is +3, and if you're legendary, it's +4.",
+            "property | Success | You grant your ally a +1 circumstance bonus to the triggering check.",
+            "property | Critical Failure | Your ally takes a –1 circumstance penalty to the triggering check.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.ancestry.anadi.lome.anadi-venom",
+        "color": "",
+        "title": "Anadi Venom [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "rule",
+            "text | You envenom your fangs. If the next fangs Strike you make before the end of your turn hits and deals damage, the Strike deals an additional 1d6 poison damage. On a critical failure, the poison is wasted as normal. At 12th level, this poison damage increases to 2d6."
+        ]
+    },
+    {
+        "id": "action.class.magus.som.arcane-cascade",
+        "color": "",
+        "title": "Arcane Cascade [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | magus | stance",
+            "property | Requirements | You used your most recent action to Cast a Spell or make a Spellstrike.",
+            "rule",
+            "text | You divert a portion of the spell's magical power and keep it cycling through your body and weapon using specialized forms, breathing, or footwork. While you're in the stance, your melee Strikes deal 1 extra damage. This damage increases to 2 if you have weapon specialization and 3 if you have greater weapon specialization. Any Strike that benefits from this damage gains the arcane trait, making it magical.",
+            "text | If your most recent spell before entering the stance was one that can deal damage, the damage from the stance is the same type that spell could deal (or one type of your choice if the spell could deal multiple types of damage). If the spell couldn't deal damage, this stance's bonus damage depends on the spell's school.",
+            "bullet | **Abjuration or Evocation** force",
+            "bullet | **Conjuration or Transmutation** same type as your weapon or unarmed attack",
+            "bullet | **Divination, Enchantment, or Illusion** mental",
+            "bullet | **Necromancy** negative"
+        ]
+    },
+    {
+        "id": "action.basic.crb.arrest-a-fall",
+        "color": "",
+        "title": "Arrest a Fall [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "property | Requirements | You have a fly Speed.",
+            "property | Trigger | You fall.",
+            "rule",
+            "text | You attempt an Acrobatics check to slow your fall. The DC is typically 15, but it might be higher due to air turbulence or other circumstances.",
+            "fill",
+            "property | Success | You fall gently, taking no damage from the fall.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.class.fighter.crb.attack-of-opportunity",
+        "color": "",
+        "title": "Attack of Opportunity [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "property | Trigger | A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.",
+            "rule",
+            "text | You lash out at a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike."
+        ]
+    },
+    {
+        "id": "action.ancestry.automaton.g-g.automaton-aim",
+        "color": "",
+        "title": "Automaton Aim [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "rule",
+            "text | You steady your body and observe the events of the battlefield to maximize the range of your next shot. You reduce the penalty for firing into your weapon's second range increment from –2 to 0 for the next ranged attack you make this turn. You can use this action a second time in the same turn to reduce the penalty from firing into your weapon's third range increment from –4 to 0 for the next ranged attack you make this turn."
+        ]
+    },
+    {
+        "id": "action.basic.crb.avert-gaze",
+        "color": "",
+        "title": "Avert Gaze [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "rule",
+            "text | You avert your gaze from danger. You gain a +2 circumstance bonus to saves against visual abilities that require you to look at a creature or object, such as a medusa's petrifying gaze. Your gaze remains averted until the start of your next turn."
+        ]
+    },
+    {
+        "id": "action.basic.crb.avoid-notice",
+        "color": "",
+        "title": "Avoid Notice",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | exploration",
+            "rule",
+            "text | You attempt a Stealth check to avoid notice while traveling at half speed. If you have the Swift Sneak feat, you can move at full Speed rather than half, but you still can't use another exploration activity while you do so. If you have the Legendary Sneak feat, you can move at full Speed and use a second exploration activity. If you're Avoiding Notice at the start of an encounter, you usually roll a Stealth check instead of a Perception check both to determine your initiative and to see if the enemies notice you (based on their Perception DCs, as normal for Sneak, regardless of their initiative check results)."
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.balance",
+        "color": "",
+        "title": "Balance [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | move",
+            "property | Requirements | You are in a square that contains a narrow surface, uneven ground, or another similar feature.",
+            "rule",
+            "text | You move across a narrow surface or uneven ground, attempting an Acrobatics check against its Balance DC. You are flat-footed while on a narrow surface or uneven ground.",
+            "fill",
+            "property | Critical Success | You move up to your Speed.",
+            "property | Success | You move up to your Speed, treating it as {@quickref difficult terrain||3|terrain} (every 5 feet costs 10 feet of movement).",
+            "property | Failure | You must remain stationary to keep your balance (wasting the action) or you fall. If you fall, your turn ends.",
+            "property | Critical Failure | You fall and your turn ends.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.ancestry.shisk.lome.barbed-quills",
+        "color": "",
+        "title": "Barbed Quills [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "property | Trigger | You are hit with an unarmed strike or a strike with a non-reach melee weapon.",
+            "rule",
+            "text | You break off quills in your attacker's flesh. You deal 1d8 piercing damage to the triggering creature (basic Reflex save using your class DC or spell DC, whichever is higher.) On a critical failure, the creature also takes 1d4 persistent bleed damage as your quills hook into its flesh. At 3rd level, and every 2 levels thereafter, this damage increases by 1d8 and the persistent piercing damage increases by 1."
+        ]
+    },
+    {
+        "id": "action.gmg.board",
+        "color": "",
+        "title": "Board [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | move",
+            "property | Requirements | You are adjacent to a point of entry on the vehicle you are attempting to board.",
+            "rule",
+            "text | You board a vehicle through an open top, a door, a portal, or a hatch; if you're already on board, you can instead use this action to disembark into an empty space adjacent to the vehicle's point of entry. Using this action while the vehicle is in motion is challenging, requiring a successful Acrobatics or Athletics check with a DC equal to the vehicle's AC."
+        ]
+    },
+    {
+        "id": "action.basic.skill.trained.crb.borrow-an-arcane-spell",
+        "color": "",
+        "title": "Borrow an Arcane Spell",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | exploration",
+            "rule",
+            "text | If you're an arcane spellcaster who prepares from a spellbook, you can attempt to prepare a spell from someone else's spellbook. The GM sets the DC for the check based on the spell's level and rarity; it's typically a bit easier than Learning the Spell.",
+            "fill",
+            "property | Success | You prepare the borrowed spell as part of your normal spell preparation.",
+            "property | Failure | You fail to prepare the spell, but the spell slot remains available for you to prepare a different spell. You can't try to prepare this spell until the next time you prepare spells.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.gmg.bribe-contact",
+        "color": "",
+        "title": "Bribe Contact",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | downtime | secret",
+            "property | Requirements | You've successfully Gained a Contact",
+            "rule",
+            "text | You offer a bribe to your contact to help the heist in some way. Attempt a hard or very hard Deception or Diplomacy check.",
+            "fill",
+            "property | Success | The contact accepts the bribe and you gain 1 EP.",
+            "property | Failure | You believe you successfully Bribed your Contact and gained 1 EP, but in fact the contact informs the opposition of the attempted bribery, adding 1 AP to the infiltration. The GM can reveal that this Edge Point grants no benefit at any point during the infiltration, as befits the story.",
+            "property | Critical Failure | As failure, but adding 2 AP to the infiltration.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.gmg.bullying-press",
+        "color": "",
+        "title": "Bullying Press [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | flourish",
+            "property | Requirements | You're in a duel, you're trained in Intimidation, and you rolled an Intimidation check for initiative this round.",
+            "property | Trigger | You attempt a melee Strike against your opponent, but haven't rolled yet.",
+            "rule",
+            "text | If you hit, your opponent becomes frightened 1. If your opponent is using Perception for initiative when this ability is used, they become frightened 2 instead."
+        ]
+    },
+    {
+        "id": "action.basic.crb.burrow",
+        "color": "",
+        "title": "Burrow [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | move",
+            "property | Requirements | You have a burrow Speed",
+            "rule",
+            "text | You dig your way through dirt, sand, or a similar loose material at a rate up to your burrow Speed. You can't burrow through rock or other substances denser than dirt unless you have an ability that allows you to do so."
+        ]
+    },
+    {
+        "id": "action.ancestry.dwarf.crb.call-on-ancient-blood",
+        "color": "",
+        "title": "Call on Ancient Blood [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "property | Trigger | You attempt a saving throw against a magical effect, but you haven't rolled yet.",
+            "rule",
+            "text | Your ancestors' innate resistance to magic surges, before slowly ebbing down. You gain a +1 circumstance bonus until the end of this turn. This bonus also applies to the triggering save."
+        ]
+    },
+    {
+        "id": "action.ancestry.conrasu.lome.call-to-axis",
+        "color": "",
+        "title": "Call to Axis [[free-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | fortune",
+            "property | Trigger | You are about to attempt a check to Recall Knowledge.",
+            "rule",
+            "text | You call upon the knowledge of Axis to ensure the accuracy of your information. You roll a second time and use the higher result. If you roll a critical failure, you get a failure instead. If you roll a success, you get a critical success instead."
+        ]
+    },
+    {
+        "id": "action.basic.crb.cast-a-spell",
+        "color": "",
+        "title": "Cast a Spell",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "rule",
+            "text | You Cast a Spell you have prepared or in your repertoire. Casting a Spell is a special activity that takes a variable number of actions depending on the spell, as listed in each spell's stat block. As soon as the spellcasting actions are complete, the spell effect occurs.",
+            "text | Some spells are cast as a reaction or free action. In those cases, you Cast the Spell as a reaction or free action (as appropriate) instead of as an activity. Such cases will be noted in the spell's stat block—for example, \"R verbal.\"",
+            "text | **Long Casting Times** Some spells take minutes or hours to cast. The Cast a Spell activity for these spells includes a mix of the listed spell components, but it's not necessary to break down which one you're providing at a given time. You can't use other actions or reactions while casting such a spell, though at the GM's discretion, you might be able to speak a few sentences. As with other activities that take a long time, these spells have the exploration trait, and you can't cast them in an encounter. If combat breaks out while you're casting one, your spell is disrupted (see Disrupted and Lost Spells below).",
+            "text | **Activation Components** Each spell lists the spell components required to cast it after the action icons or text, such as \"3 material, somatic, verbal.\" The spell components, described in detail below, add traits and requirements to the Cast a Spell activity. If you can't provide the components, you fail to Cast the Spell.",
+            "bullet | Material (manipulate)",
+            "bullet | Somatic (manipulate)",
+            "bullet | Verbal (concentrate)",
+            "bullet | Focus (manipulate)",
+            "text | **Disrupted and Lost Spells** Some abilities and spells can disrupt a spell, causing it to have no effect and be lost. When you lose a spell, you've already expended the spell slot, spent the spell's costs and actions, and used the Cast a Spell activity. If a spell is disrupted during a Sustain a Spell action, the spell immediately ends. The full rules for disrupting actions appear here."
+        ]
+    },
+    {
+        "id": "action.ancestry.kitsune.loag.change-shape",
+        "color": "",
+        "title": "Change Shape [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | divine | kitsune | polymorph | transmutation",
+            "rule",
+            "text | You transform into a specific alternate form determined by your heritage. If your heritage doesn't list a form, your alternate form is a tailless form, which is a common Medium humanoid ancestry prevalent where you grew up (typically human). This form is the same age and body type as your true form and has roughly analogous physical traits, such as hair color. Using Change Shape counts as creating a disguise for the Impersonate use of Deception. You lose any unarmed Strikes you gained from a kitsune heritage or ancestry feat in this form. You can remain in your alternate form indefinitely, and you can shift back to your true kitsune form by using this action again."
+        ]
+    },
+    {
+        "id": "action.loag.change-shape",
+        "color": "",
+        "title": "Change Shape [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | polymorph | primal | transmutation",
+            "rule",
+            "text | You change into your humanoid or hybrid shape. Each shape has a specific, persistent appearance, and most beastkin remain in their hybrid shapes by default. In hybrid shape, you appear as a mix between your ancestry and your inherent animal. While in hybrid shape, you gain a jaws unarmed Strike resembling the features of your inherent animal (fangs for bats, beaks for eagles, mandibles for wasps, and so on). Your jaws deal 1d4 piercing damage, have the agile, finesse, and unarmed traits, and are in the brawling weapon group. In your humanoid shape, you retain the appearance of your original ancestry."
+        ]
+    },
+    {
+        "id": "action.gmg.change-tradition-focus",
+        "color": "",
+        "title": "Change Tradition Focus [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | magical",
+            "property | Requirements | You are in a duel and are trained in the skill for the tradition you're changing your focus to (Arcana for arcane, Occultism for occult, Nature for primal, or Religion for divine).",
+            "rule",
+            "text | You change your tradition focus to another magical tradition."
+        ]
+    },
+    {
+        "id": "action.som.cleanse-soul-path",
+        "color": "",
+        "title": "Cleanse Soul Path",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | exploration",
+            "rule",
+            "text | You meditate, pray, or otherwise try to reinforce your soul's connection to your soulforged armament. This takes 10 minutes. Attempt a counteract check against your soulforged corruption. The counteract level is half your level rounded up, and the counteract check modifier is your Religion modifier. If successful, reduce the stage of your soulforged corruption by 1 (to a minimum of Stage 1)."
+        ]
+    },
+    {
+        "id": "action.class.gunslinger.subclass.vanguard.g-g.clear-a-path",
+        "color": "",
+        "title": "Clear a Path [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | gunslinger",
+            "property | Requirements | You're wielding a two-handed firearm or two-handed crossbow.",
+            "rule",
+            "text | You push outward with your weapon to clear some space before quickly reloading a fresh round. You make an Athletics check to Shove an opponent within your reach using your weapon, then Interact to reload. For this Shove, you don't need a free hand, and you add the weapon's item bonus on attack rolls (if any) to the Athletics check. If your last action was a ranged Strike with the weapon, use the same multiple attack penalty as that Strike for the Shove; the Shove still counts toward your multiple attack penalty on further attacks as normal."
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.climb",
+        "color": "",
+        "title": "Climb [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | move",
+            "property | Requirements | You have both hands free.",
+            "rule",
+            "text | You move up, down, or across an incline. Unless it's particularly easy, you must attempt an Athletics check. The GM determines the DC based on the nature of the incline and environmental circumstances. You're flat-footed unless you have a climb Speed.",
+            "fill",
+            "property | Critical Success | You move up, across, or safely down the incline for 5 feet plus 5 feet per 20 feet of your land Speed (a total of 10 feet for most PCs).",
+            "property | Success | You move up, across, or safely down the incline for 5 feet per 20 feet of your land Speed (a total of 5 feet for most PCs, minimum 5 feet if your Speed is below 20 feet).",
+            "property | Critical Failure | You fall. If you began the climb on stable ground, you fall and land {@condition prone|CRB}.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.class.investigator.apg.clue-in",
+        "color": "",
+        "title": "Clue In [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | investigator",
+            "property | Trigger | Another creature attempts a check to investigate a lead you're pursuing.",
+            "rule",
+            "text | You share information with the triggering creature. They gain a circumstance bonus to their check equal to your circumstance bonus to checks investigating your subject from Pursue a Lead. The GM can add any relevant traits to this reaction depending on the situation, such as auditory and linguistic if you're conveying information verbally."
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.coerce",
+        "color": "",
+        "title": "Coerce [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | auditory | concentrate | emotion | exploration | linguistic | mental",
+            "rule",
+            "text | With threats either veiled or overt, you attempt to bully a creature into doing what you want. You must spend at least 1 minute of conversation with a creature you can see and that can either see or sense you. At the end of the conversation, attempt an Intimidation check against the target's Will DC, modified by any circumstances the GM determines. The attitudes referenced in the effects below are summarized in the Changing Attitudes sidebar on page 246 and described in full in the Conditions Appendix, starting on page 618.",
+            "fill",
+            "property | Critical Success | The target gives you the information you seek or agrees to follow your directives so long as they aren't likely to harm the target in any way. The target continues to comply for an amount of time determined by the GM but not exceeding 1 day, at which point the target becomes {@condition unfriendly|CRB} (if they weren't already {@condition unfriendly|CRB} or {@condition hostile|CRB}). However, the target is too scared of you to retaliate—at least in the short term.",
+            "property | Success | As critical success, but once the target becomes {@condition unfriendly|CRB}, they might decide to act against you—for example, by reporting you to the authorities or assisting your enemies.",
+            "property | Failure | The target doesn't do what you say, and if they were not already {@condition unfriendly|CRB} or {@condition hostile|CRB}, they become {@condition unfriendly|CRB}",
+            "property | Critical Failure | The target refuses to comply, becomes {@condition hostile|CRB} if they weren't already, and can't be Coerced by you for at least 1 week.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.command-an-animal",
+        "color": "",
+        "title": "Command an Animal [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | auditory | concentrate",
+            "rule",
+            "text | You issue an order to an animal. Attempt a Nature check against the animal's Will DC. The GM might adjust the DC if the animal has a good attitude toward you, you suggest a course of action it was predisposed toward, or you offer it a treat.",
+            "text | You automatically fail if the animal is hostile or unfriendly to you. If the animal is helpful to you, increase your degree of success by one step. You might be able to Command an Animal more easily with a feat like Ride.",
+            "text | Most animals know the Leap, Seek, Drop Prone, Stand, Stride, and Strike basic actions. If an animal knows an activity, such as a horse's Gallop, you can Command the Animal to perform the activity, but you must spend as many actions on Command an Animal as the activity's number of actions. You can also spend multiple actions to Command the Animal to perform that number of basic actions on its next turn; for instance, you could spend 3 actions to Command an Animal to Stride three times or to Stride twice and then Strike.",
+            "fill",
+            "property | Success | The animal does as you command on its next turn.",
+            "property | Failure | The animal is hesitant or resistant, and it does nothing.",
+            "property | Critical Failure | The animal misbehaves or misunderstands, and it takes some other action determined by the GM.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.conceal-an-object",
+        "color": "",
+        "title": "Conceal an Object [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | manipulate | secret",
+            "rule",
+            "text | You hide a small object on your person (such as a weapon of light Bulk). When you try to sneak a concealed object past someone who might notice it, the GM rolls your Stealth check and compares it to this passive observer's Perception DC. Once the GM rolls your check for a concealed object, that same result is used no matter how many passive observers you try to sneak it past. If a creature is specifically searching you for an item, it can attempt a Perception check against your Stealth DC (finding the object on success).",
+            "text | You can also conceal an object somewhere other than your person, such as among undergrowth or in a secret compartment within a piece of furniture. In this case, characters Seeking in an area compare their Perception check results to your Stealth DC to determine whether they find the object.",
+            "fill",
+            "property | Success | The object remains {@condition undetected|CRB}.",
+            "property | Failure | The searcher finds the object.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.loag.conduct-energy",
+        "color": "",
+        "title": "Conduct Energy [[free-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | energy",
+            "property | Requirements | Your last action or spell this turn had the acid, cold, electricity, fire, or sonic trait.",
+            "rule",
+            "text | You channel energy into your weapon. The weapon deals 1 additional damage per weapon damage die until the start of your next turn. This damage type matches the trait of the triggering action or spell. If your triggering action or spell had multiple eligible traits, you select one of those traits."
+        ]
+    },
+    {
+        "id": "action.class.swashbuckler.apg.confident-finisher",
+        "color": "",
+        "title": "Confident Finisher [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | finisher | swashbuckler",
+            "rule",
+            "text | You make an incredibly graceful attack, piercing your foe's defenses. Make a Strike with a weapon or unarmed attack that would apply your precise strike damage, with the following failure effect.",
+            "fill",
+            "property | Failure | You deal half your precise strike damage to the target. This damage type is that of the weapon or unarmed attack you used for the {@action Strike}.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.skill.trained.crb.cover-tracks",
+        "color": "",
+        "title": "Cover Tracks",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | exploration | move",
+            "rule",
+            "text | You cover your tracks, moving up to half your travel Speed. You don't need to attempt a Survival check to cover your tracks, but anyone tracking you must succeed at a Survival check against your Survival DC if it is higher than the normal DC to Track.",
+            "text | In some cases, you might Cover Tracks in an encounter. In this case, Cover Tracks is a single action and doesn't have the exploration trait."
+        ]
+    },
+    {
+        "id": "action.class.gunslinger.subclass.sniper.g-g.covered-reload",
+        "color": "",
+        "title": "Covered Reload [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | gunslinger",
+            "rule",
+            "text | You duck into a safe position or minimize your profile while reloading to make your next attack. Either Take Cover or attempt to Hide, then Interact to reload. As normal, you must meet the requirements to Take Cover or Hide; you must be prone, benefiting from cover, or near a feature that allows you to Take Cover, and you need to be benefiting from cover or concealed to a creature to Hide from that creature."
+        ]
+    },
+    {
+        "id": "action.basic.skill.trained.crb.craft",
+        "color": "",
+        "title": "Craft",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | downtime | manipulate",
+            "rule",
+            "text | You can make an item from raw materials. You need the Alchemical Crafting skill feat to create alchemical items, the Magical Crafting skill feat to create magic items, and the Snare Crafting feat to create snares.",
+            "text | To Craft an item, you must meet the following requirements:",
+            "bullet | The item is your level or lower. An item that doesn't list a level is level 0. If the item is 9th level or higher, you must be a master in Crafting, and if it's 16th or higher, you must be legendary.",
+            "bullet | You have the formula for the item; see Getting Formulas below for more information.",
+            "bullet | You have an appropriate set of tools and, in many cases, a workshop. For example, you need access to a smithy to forge a metal shield.",
+            "bullet | You must supply raw materials worth at least half the item's Price. You always expend at least that amount of raw materials when you Craft successfully. If you're in a settlement, you can usually spend currency to get the amount of raw materials you need, except in the case of rarer precious materials.",
+            "text | You must spend 4 days at work, at which point you attempt a Crafting check. The GM determines the DC to Craft the item based on its level, rarity, and other circumstances.",
+            "text | If your attempt to create the item is successful, you expend the raw materials you supplied. You can pay the remaining portion of the item's Price in materials to complete the item immediately, or you can spend additional downtime days working on it. For each additional day you spend, reduce the value of the materials you need to expend to complete the item. This amount is determined using Table 4–2: Income Earned, based on your proficiency rank in Crafting and using your own level instead of a task level. After any of these downtime days, you can complete the item by spending the remaining portion of its Price in materials. If the downtime days you spend are interrupted, you can return to finish the item later, continuing where you left off. An example of Crafting appears in the sidebar.",
+            "fill",
+            "property | Critical Success | Your attempt is successful. Each additional day spent {@skill Crafting} reduces the materials needed to complete the item by an amount based on your level + 1 and your proficiency rank in {@skill Crafting}.",
+            "property | Success | Your attempt is successful. Each additional day spent {@skill Crafting} reduces the materials needed to complete the item by an amount based on your level and your proficiency rank.",
+            "property | Failure | You fail to complete the item. You can salvage the raw materials you supplied for their full value. If you want to try again, you must start over.",
+            "property | Critical Failure | You fail to complete the item. You ruin 10% of the raw materials you supplied, but you can salvage the rest. If you want to try again, you must start over.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.sot-1.cram",
+        "color": "",
+        "title": "Cram",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | downtime",
+            "property | Requirements | You are an initiate, attendant, or conversant, and your branch level for either your primary or secondary branch is 2 or more levels below the limit.",
+            "rule",
+            "text | Realizing that you're falling behind in your studies, you cram more than you probably should. You Study twice, each in a branch that satisfies the activity requirements. However, the extra studying comes at a price. Until the next time you take the Study downtime activity, you're particularly tired from all the extra hours cramming; at the start of each day of adventuring, you must succeed at a DC 8 flat check or be fatigued for that day."
+        ]
+    },
+    {
+        "id": "action.basic.crb.crawl",
+        "color": "",
+        "title": "Crawl [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | move",
+            "property | Requirements | You are prone and your Speed is at least 10 feet.",
+            "rule",
+            "text | You move 5 feet by crawling and continue to stay prone."
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.create-a-diversion",
+        "color": "",
+        "title": "Create a Diversion [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | mental",
+            "rule",
+            "text | With a gesture, a trick, or some distracting words, you can create a diversion that draws creatures' attention elsewhere. If you use a gesture or trick, this action gains the manipulate trait. If you use distracting words, it gains the auditory and linguistic traits.",
+            "text | Attempt a single Deception check and compare it to the Perception DCs of the creatures whose attention you're trying to divert. Whether or not you succeed, creatures you attempt to divert gain a +4 circumstance bonus to their Perception DCs against your attempts to Create a Diversion for 1 minute.",
+            "fill",
+            "property | Success | You become hidden to each creature whose {@skill Perception} DC is less than or equal to your result. (The {@condition hidden|CRB} condition allows you to {@action Sneak|CRB} away, as described on page 252.) This lasts until the end of your turn or until you do anything except {@action Step|CRB} or use the {@action Hide|CRB} or the {@action Sneak|CRB} action of the {@skill Stealth} skill. If you {@action Strike|CRB} a creature, the creature remains {@condition flat-footed|CRB} against that attack, and you then become {@condition observed|CRB}. If you do anything else, you become {@condition observed|CRB} just before you act unless the GM determines otherwise.",
+            "property | Failure | You don't divert the attention of any creatures whose {@skill Perception} DC exceeds your result, and those creatures are aware you were trying to trick them.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.skill.trained.crb.create-forgery",
+        "color": "",
+        "title": "Create Forgery",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | downtime | secret",
+            "rule",
+            "text | You create a forged document, usually over the course of a day or a week. You must have the proper writing material to create a forgery. When you Create a Forgery, the GM rolls a secret DC 20 Society check. If you succeed, the forgery is of good enough quality that passive observers can't notice the fake. Only those who carefully examine the document and attempt a Perception or Society check against your Society DC can do so.",
+            "text | If the document's handwriting doesn't need to be specific to a person, you need only to have seen a similar document before, and you gain up to a +4 circumstance bonus to your check, as well as to your DC (the GM determines the bonus). To forge a specific person's handwriting, you need a sample of that person's handwriting.",
+            "text | If your check result was below 20, the forgery has some obvious signs of being a fake, so the GM compares your result to each passive observer's Perception DC or Society DC, whichever is higher, using the success or failure results below. Once the GM rolls your check for a document, that same result is used against all passive observers' DCs no matter how many creatures passively observe that document.",
+            "text | An observer who was fooled on a passive glance can still choose to closely scrutinize the documents on the lookout for a forgery, using different techniques and analysis methods beyond the surface elements you successfully forged with your original check. In that case, the observer can attempt a Perception or Society check against your Society DC (if they succeed, they know your document is a forgery).",
+            "fill",
+            "property | Success | The observer does not detect the forgery.",
+            "property | Failure | The observer knows your document is a forgery.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.class.rogue.crb.debilitating-strike",
+        "color": "",
+        "title": "Debilitating Strike [[free-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | rogue",
+            "property | Trigger | Your Strike hits a flat-footed creature and deals damage.",
+            "rule",
+            "text | You apply one of the following debilitations, which lasts until the end of your next turn.",
+            "bullet | **Debilitation** the target takes a –10-foot status penalty to its Speeds.",
+            "bullet | **Debilitation** The target becomes enfeebled 1."
+        ]
+    },
+    {
+        "id": "action.gmg.deceptive-sidestep",
+        "color": "",
+        "title": "Deceptive Sidestep [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | misfortune",
+            "property | Requirements | You're in a duel, you're trained in Deception, and you rolled a Deception check for initiative this round.",
+            "property | Trigger | An opponent hits, but does not critically hit you, with a melee Strike.",
+            "rule",
+            "text | You draw your enemy in and pull away at the last moment. The triggering opponent must roll again and take the second result. If your opponent is using Intimidation for initiative when this ability is used, they also take a –2 circumstance penalty to the second attack roll."
+        ]
+    },
+    {
+        "id": "action.basic.crb.decipher-writing",
+        "color": "",
+        "title": "Decipher Writing",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | exploration | secret",
+            "rule",
+            "text | You attempt to decipher complicated writing or literature on an obscure topic. This usually takes 1 minute per page of text, but might take longer (typically an hour per page for decrypting ciphers or the like). The text must be in a language you can read, though the GM might allow you to attempt to decipher text written in an unfamiliar language using Society instead.",
+            "text | The DC is determined by the GM based on the state or complexity of the document. The GM might have you roll one check for a short text or a check for each section of a larger text.",
+            "fill",
+            "property | Critical Success | You understand the true meaning of the text.",
+            "property | Success | You understand the true meaning of the text. If it was a coded document, you know the general meaning but might not have a word-for-word translation.",
+            "property | Failure | You can't understand the text and take a –2 circumstance penalty to further checks to decipher it.",
+            "property | Critical Failure | You believe you understand the text on that page, but you have in fact misconstrued its message.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.crb.defend",
+        "color": "",
+        "title": "Defend",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | exploration",
+            "rule",
+            "text | You move at half your travel speed with your shield raised. If combat breaks out, you gain the benefits of Raising a Shield before your first turn begins."
+        ]
+    },
+    {
+        "id": "action.basic.crb.delay",
+        "color": "",
+        "title": "Delay [[free-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "property | Trigger | Your turn begins.",
+            "rule",
+            "text | You wait for the right moment to act. The rest of your turn doesn't happen yet. Instead, you're removed from the initiative order. You can return to the initiative order as a free action triggered by the end of any other creature's turn. This permanently changes your initiative to the new position. You can't use reactions until you return to the initiative order. If you Delay an entire round without returning to the initiative order, the actions from the Delayed turn are lost, your initiative doesn't change, and your next turn occurs at your original position in the initiative order.",
+            "text | When you Delay, any persistent damage or other negative effects that normally occur at the start or end of your turn occur immediately when you use the Delay action. Any beneficial effects that would end at any point during your turn also end. The GM might determine that other effects end when you Delay as well. Essentially, you can't Delay to avoid negative consequences that would happen on your turn or to extend beneficial effects that would end on your turn."
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.demoralize",
+        "color": "",
+        "title": "Demoralize [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | auditory | concentrate | emotion | fear | mental",
+            "rule",
+            "text | With a sudden shout, a well-timed taunt, or a cutting putdown, you can shake an enemy's resolve. Choose a creature within 30 feet of you who you're aware of. Attempt an Intimidation check against that target's Will DC. If the target does not understand the language you are speaking, you're not speaking a language, or they can't hear you, you take a –4 circumstance penalty to the check. Regardless of your result, the target is temporarily immune to your attempts to Demoralize it for 10 minutes.",
+            "fill",
+            "property | Critical Success | The target becomes {@condition frightened|CRB} 2.",
+            "property | Success | The target becomes {@condition frightened|CRB} 1.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.class.champion.subclass.antipaladin.apg.destructive-vengeance",
+        "color": "",
+        "title": "Destructive Vengeance [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | uncommon | champion",
+            "property | Trigger | An enemy within 15 feet damages you.",
+            "rule",
+            "text | Bloodshed begets bloodshed as you drag your enemy toward oblivion. You increase the amount of damage you take by 1d6, and you deal 1d6 damage to the triggering enemy, choosing evil or negative damage to deal to the enemy each time you use this reaction. In addition, until the end of your next turn, your Strikes against the triggering creature deal 2 extra damage of the type you chose.",
+            "text | The damage you take and deal when you use this reaction increases to 2d6 at 5th level, 3d6 at 9th level, 4d6 at 12th level, 5d6 at 16th level, and 6d6 at 19th level. The extra damage on your Strikes increases to 4 at 9th level and 6 at 16th level."
+        ]
+    },
+    {
+        "id": "action.basic.crb.detect-magic",
+        "color": "",
+        "title": "Detect Magic",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | exploration",
+            "rule",
+            "text | You cast detect magic at regular intervals. You move at half your travel speed or slower. You have no chance of accidentally overlooking a magic aura at a travel speed up to 300 feet per minute, but must be traveling no more than 150 feet per minute to detect magic auras before the party moves into them."
+        ]
+    },
+    {
+        "id": "action.class.investigator.apg.devise-a-stratagem",
+        "color": "",
+        "title": "Devise a Stratagem [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | fortune | investigator",
+            "rule",
+            "text | You assess a foe's weaknesses in combat and use them to formulate a plan of attack against your enemy. Choose a creature you can see and roll a d20. If you Strike the chosen creature later this round, you must use the result of the roll you made to Devise a Stratagem for your Strike's attack roll instead of rolling. You make this substitution only for the first Strike you make against the creature this round, not any subsequent attacks.",
+            "text | When you make this substitution, you can also add your Intelligence modifier to your attack roll instead of your Strength or Dexterity modifier, provided your Strike uses an agile or finesse melee weapon, an agile or finesse unarmed attack, a ranged weapon (which must be agile or finesse if it's a melee weapon with the thrown trait), or a sap.",
+            "text | If you're aware that the creature you choose is the subject of a lead you're pursuing, you can use this ability as a free action."
+        ]
+    },
+    {
+        "id": "action.basic.skill.trained.crb.disable-a-device",
+        "color": "",
+        "title": "Disable a Device [[two-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | manipulate",
+            "property | Requirements | Some devices require you to use thieves' tools when disabling them.",
+            "rule",
+            "text | This action allows you to disarm a trap or another complex device. Often, a device requires numerous successes before becoming disabled, depending on its construction and complexity. Thieves' tools are helpful and sometimes even required to Disable a Device, as determined by the GM, and sometimes a device requires a higher proficiency rank in Thievery to disable it.",
+            "text | Your Thievery check result determines how much progress you make.",
+            "fill",
+            "property | Critical Success | You disable the device, or you achieve two successes toward disabling a complex device. You leave no trace of your tampering, and you can rearm the device later, if that type of device can be rearmed.",
+            "property | Success | You disable the device, or you achieve one success toward disabling a complex device.",
+            "property | Critical Failure | You trigger the device.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.skill.trained.crb.disarm",
+        "color": "",
+        "title": "Disarm [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | attack",
+            "property | Requirements | You have at least one hand free. The target can't be more than one size larger than you.",
+            "rule",
+            "text | You try to knock something out of an opponent's grasp. Attempt an Athletics check against the opponent's Reflex DC.",
+            "fill",
+            "property | Critical Success | You knock the item out of the opponent's grasp. It falls to the ground in the opponent's space.",
+            "property | Success | You weaken your opponent's grasp on the item. Until the start of that creature's turn, attempts to Disarm the opponent of that item gain a +2 circumstance bonus, and the target takes a –2 circumstance penalty to attacks with the item or other checks requiring a firm grasp on the item.",
+            "property | Critical Failure | You lose your balance and become {@condition flat-footed|CRB} until the start of your next turn.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.gmg.discover",
+        "color": "",
+        "title": "Discover",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | secret",
+            "rule",
+            "text | You watch or study an NPC to learn more about that NPC's preferences. Choose an NPC and attempt a Perception check or an appropriate skill check determined by the GM. The DC is typically found in the NPC's influence stat block.",
+            "fill",
+            "property | Critical Success | Choose two of the options detailed in Success below; you can choose the same option twice to learn two pieces of information from the same category.",
+            "property | Success | Choose one of the following: You learn which skill that can Influence the NPC has the lowest DC (skipping any skills that you already know), one of the NPC's personal biases, one of the NPC's resistances, or one of the NPC's weaknesses.",
+            "property | Failure | You learn no information.",
+            "property | Critical Failure | Choose a piece of information to learn about, as success, but the information is incorrect. For instance, you might think the NPC is susceptible to flattery when actually the NPC is resistant to flattery.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.crb.dismiss",
+        "color": "",
+        "title": "Dismiss [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate",
+            "rule",
+            "text | You end one spell effect or magic item effect. This must be an effect you are allowed to dismiss, as defined by the spell or item. Dismissal might end the effect entirely or might end it just for a certain target or targets, depending on the spell or item."
+        ]
+    },
+    {
+        "id": "action.class.gunslinger.g-g.dispelling-bullet",
+        "color": "",
+        "title": "Dispelling Bullet [[two-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | abjuration | magical | spellshot",
+            "rule",
+            "text | You imprint a bullet with a field of abjuration built upon your magical signature, disrupting the magic of whatever it hits. Make a firearm or crossbow Strike against a foe you can see. If you hit, you attempt to counteract a spell effect active on the target (your choice, or the highest-level effect if you don't choose). Your counteract level is equal to half your level (rounded up), and your counteract check modifier is equal to your class DC – 10."
+        ]
+    },
+    {
+        "id": "action.class.wizard.crb.drain-bonded-item",
+        "color": "",
+        "title": "Drain Bonded Item [[free-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | arcane | wizard",
+            "rule",
+            "text | You expend the power stored in your bonded item, as long as the item is on your person. During your turn, you gain the ability to cast one spell you prepared today and already cast, without spending a spell slot. You must still Cast the Spell and meet the spell's other requirements."
+        ]
+    },
+    {
+        "id": "action.class.gunslinger.subclass.drifter.g-g.drifters-wake",
+        "color": "",
+        "title": "Drifter's Wake [[three-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | gunslinger",
+            "rule",
+            "text | You drift across the battlefield, striking down foes as you go. You Stride, and you can Strike up to three times at any points during your movement. Each attack must target a different enemy and must be made with a one-handed firearm, crossbow, melee weapon, or unarmed attack. Each attack counts toward your multiple attack penalty, but your multiple attack penalty doesn't increase until you've made all your attacks. Your movement doesn't trigger reactions."
+        ]
+    },
+    {
+        "id": "action.gmg.drive",
+        "color": "",
+        "title": "Drive",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | move",
+            "property | Requirements | You are piloting a vehicle.",
+            "rule",
+            "text | You pilot your vehicle to move. Decide how many actions you intend to spend before you begin Driving. The effects depend on the number of actions you spend. You can't Drive through spaces occupied by creatures, even if they are allies.",
+            "text | 1 Attempt a piloting check. On a success, the vehicle moves up to its Speed and can turn normally. On a failure, the vehicle moves its Speed in a straight line. On a critical failure, the vehicle moves its Speed in a straight line and becomes uncontrolled.",
+            "text | 2 (reckless) The vehicle moves up to twice its Speed in a straight line at the vehicle's current heading.",
+            "text | 3 (reckless) You take a –5 penalty on your piloting check to maintain control of the vehicle. The vehicle moves up to three times its Speed in a straight line at the vehicle's current heading."
+        ]
+    },
+    {
+        "id": "action.basic.crb.drop-prone",
+        "color": "",
+        "title": "Drop Prone [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | move",
+            "rule",
+            "text | You fall prone."
+        ]
+    },
+    {
+        "id": "action.gmg.dueling-counter",
+        "color": "",
+        "title": "Dueling Counter [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | magical",
+            "property | Requirements | You are in a duel and have a tradition focus.",
+            "property | Trigger | Your opponent Casts a Spell from the same tradition as your tradition focus.",
+            "rule",
+            "text | Expend a prepared spell or spell slot. You then attempt to counteract the triggering spell with the expended spell."
+        ]
+    },
+    {
+        "id": "action.basic.crb.earn-income",
+        "color": "",
+        "title": "Earn Income",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | downtime",
+            "rule",
+            "text | You use one of your skills to make money during downtime. The GM assigns a task level representing the most lucrative job available. You can search for lower-level tasks, with the GM determining whether you find any. Sometimes you can attempt to find better work than the initial offerings, though this takes time and requires using the Diplomacy skill to Gather Information, doing some research, or socializing.",
+            "text | When you take on a job, the GM secretly sets the DC of your skill check. After your first day of work, you roll to determine your earnings. You gain an amount of income based on your result, the task's level, and your proficiency rank (as listed on Table 4–2: Income Earned).",
+            "text | You can continue working at the task on subsequent days without needing to roll again. For each day you spend after the first, you earn the same amount as the first day, up until the task's completion. The GM determines how long you can work at the task. Most tasks last a week or two, though some can take months or even years.",
+            "fill",
+            "property | Critical Success | You do outstanding work. Gain the amount of currency listed for the task level + 1 and your proficiency rank.",
+            "property | Success | You do competent work. Gain the amount of currency listed for the task level and your proficiency rank.",
+            "property | Failure | You do shoddy work and get paid the bare minimum for your time. Gain the amount of currency listed in the failure column for the task level. The GM will likely reduce how long you can continue at the task.",
+            "property | Critical Failure | You earn nothing for your work and are fired immediately. You can't continue at the task. Your reputation suffers, potentially making it difficult for you to find rewarding jobs in that community in the future.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.ancestry.dwarf.locg.energy-emanation",
+        "color": "",
+        "title": "Energy Emanation [[two-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "rule",
+            "text | Energy bursts forth from your body. You deal 1d6 damage of your chosen type to all adjacent creatures (basic Reflex save using your class DC or spell DC, whichever is higher). At 3rd level, and every 2 levels thereafter, this damage increases by 1d6."
+        ]
+    },
+    {
+        "id": "action.class.gunslinger.g-g.energy-shot",
+        "color": "",
+        "title": "Energy Shot [[free-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | evocation | magical | spellshot",
+            "property | Trigger | You roll initiative.",
+            "rule",
+            "text | You unleash a small surge of magical energy into your weapon, shrouding the bullet with potential energy and granting it the ability to deal energy damage to your foes to exploit their weaknesses. You can Interact to draw a ranged weapon. On your first three Strikes of this encounter with a firearm or crossbow, you deal an additional 1 acid, cold, fire or electricity damage. You choose which damage type to deal as part of making each Strike."
+        ]
+    },
+    {
+        "id": "action.basic.crb.escape",
+        "color": "",
+        "title": "Escape [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | attack",
+            "rule",
+            "text | You attempt to escape from being grabbed, immobilized, or restrained. Choose one creature, object, spell effect, hazard, or other impediment imposing any of those conditions on you. Attempt a check using your unarmed attack modifier against the DC of the effect. This is typically the Athletics DC of a creature grabbing you, the Thievery DC of a creature who tied you up, the spell DC for a spell effect, or the listed Escape DC of an object, hazard, or other impediment. You can attempt an Acrobatics or Athletics check instead of using your attack modifier if you choose (but this action still has the attack trait).",
+            "fill",
+            "property | Critical Success | You get free and remove the {@condition grabbed|CRB}, {@condition immobilized|CRB}, and {@condition restrained|CRB} conditions imposed by your chosen target. You can then {@action Stride|CRB} up to 5 feet.",
+            "property | Success | You get free and remove the {@condition grabbed|CRB}, {@condition immobilized|CRB}, and {@condition restrained|CRB} conditions imposed by your chosen target.",
+            "property | Critical Failure | You don't get free, and you can't attempt to {@action Escape} again until your next turn.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.class.investigator.subclass.empiricism.apg.expeditious-inspection",
+        "color": "",
+        "title": "Expeditious Inspection [[free-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | investigator | manipulate",
+            "rule",
+            "text | You observe and assess your surroundings with great speed. You Recall Knowledge, Seek, or Sense Motive."
+        ]
+    },
+    {
+        "id": "action.class.inventor.g-g.explode",
+        "color": "",
+        "title": "Explode [[two-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | fire | inventor | manipulate | unstable",
+            "rule",
+            "text | You intentionally take your innovation beyond normal safety limits, making it explode and damage nearby creatures without damaging the innovation... hopefully. The explosion deals 2d6 fire damage with a basic Reflex save to all creatures in a 5-foot emanation around you (if you're wearing or holding the innovation) or around your innovation (if your innovation is a minion).",
+            "text | At 3rd level, and every level thereafter, increase your explosion's damage by 1d6.",
+            "text | If you have the breakthrough innovation class feature, you can choose either a 5-foot or 10-foot emanation for the area when you use Explode; if you have the revolutionary innovation class feature, you can choose a 5-foot, 10-foot, or 15-foot emanation."
+        ]
+    },
+    {
+        "id": "action.basic.skill.trained.crb.feint",
+        "color": "",
+        "title": "Feint [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | mental",
+            "property | Requirements | You are within melee reach of the opponent you attempt to Feint.",
+            "rule",
+            "text | With a misleading flourish, you leave an opponent unprepared for your real attack. Attempt a Deception check against that opponent's Perception DC.",
+            "fill",
+            "property | Critical Success | You throw your enemy's defenses against you entirely off. The target is {@condition flat-footed|CRB} against melee attacks that you attempt against it until the end of your next turn.",
+            "property | Success | Your foe is fooled, but only momentarily. The target is {@condition flat-footed|CRB} against the next melee attack that you attempt against it before the end of your current turn.",
+            "property | Critical Failure | Your feint backfires. You are {@condition flat-footed|CRB} against melee attacks the target attempts against you until the end of your next turn.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.class.gunslinger.subclass.drifter.g-g.finish-the-job",
+        "color": "",
+        "title": "Finish the Job [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | gunslinger",
+            "property | Requirements | On your last action, you failed (but didn't critically fail) a Strike with a firearm or crossbow you're holding in one hand, and your other hand is either wielding a melee weapon or empty.",
+            "rule",
+            "text | Your last attack failed, but it set you up for another. Make a Strike with your other hand, using a one-handed melee weapon or unarmed attack. This Strike uses the same multiple attack penalty as the Strike that failed on the last action. Afterward, increase your multiple attack penalty normally."
+        ]
+    },
+    {
+        "id": "action.class.monk.crb.flurry-of-blows",
+        "color": "",
+        "title": "Flurry of Blows [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | flourish | monk",
+            "rule",
+            "text | Make two unarmed Strikes. If both hit the same creature, combine their damage for the purpose of resistances and weaknesses. Apply your multiple attack penalty to the Strikes normally. As it has the flourish trait, you can use Flurry of Blows only once per turn."
+        ]
+    },
+    {
+        "id": "action.basic.crb.fly",
+        "color": "",
+        "title": "Fly [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | move",
+            "property | Requirements | You have a fly Speed.",
+            "rule",
+            "text | You move through the air up to your fly Speed. Moving upward (straight up or diagonally) uses the rules for moving through difficult terrain. You can move straight down 10 feet for every 5 feet of movement you spend. If you Fly to the ground, you don't take falling damage. You can use an action to Fly 0 feet to hover in place. If you're airborne at the end of your turn and didn't use a Fly action this round, you fall."
+        ]
+    },
+    {
+        "id": "action.basic.crb.follow-the-expert",
+        "color": "",
+        "title": "Follow the Expert",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | auditory | concentrate | exploration | visual",
+            "rule",
+            "text | Choose an ally attempting a recurring skill check while exploring, such as climbing, or performing a different exploration tactic that requires a skill check (like Avoiding Notice). The ally must be at least an expert in that skill and must be willing to provide assistance. While Following the Expert, you match their tactic or attempt similar skill checks. Thanks to your ally's assistance, you can add your level as a proficiency bonus to the associated skill check, even if you're untrained. Additionally, you gain a circumstance bonus to your skill check based on your ally's proficiency (+2 for expert, +3 for master, and +4 for legendary)."
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.force-open",
+        "color": "",
+        "title": "Force Open [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | attack",
+            "rule",
+            "text | Using your body, a lever, or some other tool, you attempt to forcefully open a door, window, container or heavy gate. With a high enough result, you can even smash through walls. Without a crowbar, prying something open takes a –2 item penalty to the Athletics check to Force Open.",
+            "fill",
+            "property | Critical Success | You open the door, window, container, or gate and can avoid damaging it in the process.",
+            "property | Success | You break the door, window, container, or gate open, and the door, window, container, or gate gains the {@condition broken|CRB} condition. If it's especially sturdy, the GM might have it take damage but not be broken.",
+            "property | Critical Failure | Your attempt jams the door, window, container, or gate shut, imposing a –2 circumstance penalty on future attempts to Force it Open.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.gmg.forge-documents",
+        "color": "",
+        "title": "Forge Documents",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | downtime | secret",
+            "rule",
+            "text | You prepare forgeries that might serve as convincing props. Attempt a hard or very hard Society check.",
+            "fill",
+            "property | Success | You create convincing forgeries and gain 1 EP you can use only when presenting some form of paperwork.",
+            "property | Failure | You create unconvincing documents. You gain 1 EP that (unknown to you) grants no benefit when used.",
+            "property | Critical Failure | As a failure, but a PC who tries to use the Edge Point gets a critical failure, even if they use the Edge Point after rolling a failure.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.gmg.fortify-camp",
+        "color": "",
+        "title": "Fortify Camp",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "rule",
+            "text | You can spend time fortifying your camp for defense with a successful Crafting check (typically at a trained or expert DC). Anyone keeping watch or defending the camp gains a +2 circumstance bonus to initiative rolls and Perception checks to Seek creatures attempting to sneak up on the camp."
+        ]
+    },
+    {
+        "id": "action.gmg.gain-contact",
+        "color": "",
+        "title": "Gain Contact",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | downtime",
+            "rule",
+            "text | You try to make contact with an individual who can aid you in the infiltration. Attempt a normal, hard, or very hard DC Diplomacy or Society check, or a check using a Lore skill appropriate to your prospective contact.",
+            "fill",
+            "property | Success | You make contact and gain 1 EP.",
+            "property | Failure | You fail to make contact.",
+            "property | Critical Failure | You insult or spook the contact in some way. Future attempts take a –2 circumstance penalty.",
+            "property | Special | Multiple critical failures might cause the contact to work against the PCs in some way, likely increasing the party's Awareness Points.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.gather-information",
+        "color": "",
+        "title": "Gather Information",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | exploration | secret",
+            "rule",
+            "text | You canvass local markets, taverns, and gathering places in an attempt to learn about a specific individual or topic. The GM determines the DC of the check and the amount of time it takes (typically 2 hours, but sometimes more), along with any benefit you might be able to gain by spending coin on bribes, drinks, or gifts.",
+            "fill",
+            "property | Success | You collect information about the individual or topic. The GM determines the specifics.",
+            "property | Critical Failure | You collect incorrect information about the individual or topic.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.class.gunslinger.subclass.sniper.g-g.ghost-shot",
+        "color": "",
+        "title": "Ghost Shot [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | flourish | gunslinger",
+            "rule",
+            "text | Make a firearm or crossbow Strike. If you're hidden from or undetected by the target, the Strike adds the additional precision damage from One Shot, One Kill; if you would already receive that additional damage on the Strike, the effects aren't cumulative. If you were undetected or unnoticed by any creatures, you're now hidden from them instead, as the origin of the attack is clear."
+        ]
+    },
+    {
+        "id": "action.class.champion.subclass.redeemer.crb.glimpse-of-redemption",
+        "color": "",
+        "title": "Glimpse of Redemption [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | champion",
+            "property | Trigger | An enemy damages your ally, and both are within 15 feet of you.",
+            "rule",
+            "text | Your foe hesitates under the weight of sin as visions of redemption play in their mind's eye. The foe must choose one of the following options",
+            "bullet | The ally is unharmed by the triggering damage.",
+            "bullet | The ally gains resistance to all damage against the triggering damage equal to 2 + your level. After the damaging effect is applied, the enemy becomes enfeebled 2 until the end of its next turn."
+        ]
+    },
+    {
+        "id": "action.gmg.gossip",
+        "color": "",
+        "title": "Gossip",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | downtime | secret",
+            "rule",
+            "text | You seek out rumors about the infiltration's target. Attempt a normal, hard, or very hard Diplomacy check.",
+            "fill",
+            "property | Critical Success | You gain inside information about the location or group you're trying to infiltrate. This grants you a +2 circumstance bonus to future checks you attempt for preparation activities for this infiltration. If you share this information, those you share it with also gain this bonus.",
+            "property | Success | You gain inside information about the place or group you're attempting to infiltrate that aids your planning.",
+            "property | Failure | You learn nothing.",
+            "property | Critical Failure | You hear a few mistaken rumors and take a –2 circumstance penalty to your next check for a preparation activity. Word spreads around that you're asking after that group or individual, increasing your Awareness Points by 1.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.crb.grab-an-edge",
+        "color": "",
+        "title": "Grab an Edge [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "property | Requirements | Your hands are not tied behind your back or otherwise restrained.",
+            "property | Trigger | You fall from or past an edge or handhold.",
+            "rule",
+            "text | When you fall off or past an edge or other handhold, you can try to grab it, potentially stopping your fall. You must succeed at a Reflex save, usually at the Climb DC. If you grab the edge or handhold, you can then Climb up using Athletics.",
+            "fill",
+            "property | Critical Success | You grab the edge or handhold, whether or not you have a hand free, typically by using a suitable held item to catch yourself (catching a battle axe on a ledge, for example). You still take damage from the distance fallen so far, but you treat the fall as though it were 30 feet shorter.",
+            "property | Success | If you have at least one hand free, you grab the edge or handhold, stopping your fall. You still take damage from the distance fallen so far, but you treat the fall as though it were 20 feet shorter. If you have no hands free, you continue to fall as if you had failed the check.",
+            "property | Critical Failure | You continue to fall, and if you've fallen 20 feet or more before you use this reaction, you take 10 bludgeoning damage from the impact for every 20 feet fallen.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.grapple",
+        "color": "",
+        "title": "Grapple [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | attack",
+            "property | Requirements | You have at least one free hand or have your target grappled or restrained. Your target cannot be more than one size larger than you.",
+            "rule",
+            "text | You attempt to grab an opponent with your free hand. Attempt an Athletics check against their Fortitude DC. You can also Grapple to keep your hold on a creature you already grabbed or restrained.",
+            "fill",
+            "property | Critical Success | Your opponent is {@condition restrained|CRB} until the end of your next turn unless you move or your opponent {@action Escape|CRB|Escapes}.",
+            "property | Success | Your opponent is {@condition grabbed|CRB} until the end of your next turn unless you move or your opponent {@action Escape|CRB|Escapes}.",
+            "property | Failure | You fail to grab your opponent. If you already had the opponent {@condition grabbed|CRB} or {@condition restrained|CRB} using a Grapple, those conditions on that creature end.",
+            "property | Critical Failure | If you already had the opponent {@condition grabbed|CRB} or {@condition restrained|CRB}, it breaks free. Your target can either grab you, as if it succeeded at using the Grapple action against you, or force you to fall and land {@condition prone|CRB}.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.class.gunslinger.subclass.pistolero.g-g.grim-swagger",
+        "color": "",
+        "title": "Grim Swagger [[three-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | auditory | emotion | fear | gunslinger | linguistic | mental",
+            "property | Requirements | You have a one-handed firearm or one-handed crossbow visibly worn or wielded.",
+            "rule",
+            "text | You attempt to clear the room by promising a grim fate to anyone who doesn't do what you say, and quickly. Attempt a Deception or Intimidation check against the Will DCs of each creature within 30 feet, except for your allies. Regardless of whether you succeed or fail, each subject is temporarily immune to your Grim Swagger for 10 minutes.",
+            "text | For example, if you attempt a Deception check, you lie and boast about your prowess or the large group of friends on their way to back you up. If you attempt an Intimidation check, you promise everyone in the room that you're going to be the last thing they see.",
+            "fill",
+            "property | Critical Success | The creature becomes {@condition frightened 3}. If it's lower level than you, it's also {@condition fleeing} for 1 round.",
+            "property | Success | The creature becomes {@condition frightened 2}.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.hide",
+        "color": "",
+        "title": "Hide [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | secret",
+            "rule",
+            "text | You huddle behind cover or greater cover or deeper into concealment to become hidden, rather than observed. The GM rolls your Stealth check in secret and compares the result to the Perception DC of each creature you're observed by but that you have cover or greater cover against or are concealed from. You gain the circumstance bonus from cover or greater cover to your check.",
+            "fill",
+            "property | Success | If the creature could see you, you're now {@condition hidden} from it instead of {@condition observed}. If you were {@condition hidden} from or {@condition undetected} by the creature, you retain that condition.,If you successfully become hidden to a creature but then cease to have cover or greater cover against it or be concealed from it, you become observed again. You cease being hidden if you do anything except {@action Hide|CRB}, {@action Sneak|CRB}, or {@action Step|CRB}. If you attempt to {@action Strike|CRB} a creature, the creature remains {@condition flat-footed|CRB} against that attack, and you then become {@condition observed|CRB}. If you do anything else, you become {@condition observed|CRB} just before you act unless the GM determines otherwise. The GM might allow you to perform a particularly unobtrusive action without being noticed, possibly requiring another {@skill Stealth} check.,If a creature uses Seek to make you observed by it, you must successfully Hide to become hidden from it again.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.high-jump",
+        "color": "",
+        "title": "High Jump [[two-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "rule",
+            "text | You Stride, then make a vertical Leap and attempt a DC 30 Athletics check to increase the height of your jump. If you didn't Stride at least 10 feet, you automatically fail your check. This DC might be increased or decreased due to the situation, as determined by the GM.",
+            "fill",
+            "property | Critical Success | Increase the maximum vertical distance to 8 feet, or increase the maximum vertical distance to 5 feet and maximum horizontal distance to 10 feet.",
+            "property | Success | Increase the maximum vertical distance to 5 feet.",
+            "property | Failure | You {@action Leap|CRB} normally.",
+            "property | Critical Failure | You don't {@action Leap|CRB} at all, and instead you fall {@condition prone|CRB} in your space.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.class.ranger.crb.hunt-prey",
+        "color": "",
+        "title": "Hunt Prey [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | ranger",
+            "rule",
+            "text | You designate a single creature as your prey and focus your attacks against that creature. You must be able to see or hear the prey, or you must be tracking the prey during exploration.",
+            "text | You gain a +2 circumstance bonus to Perception checks when you Seek your prey and a +2 circumstance bonus to Survival checks when you Track your prey. You also ignore the penalty for making ranged attacks within your second range increment against the prey you're hunting.",
+            "text | You can have only one creature designated as your prey at a time. If you use Hunt Prey against a creature when you already have a creature designated, the prior creature loses the designation and the new prey gains the designation. Your designation lasts until your next daily preparations."
+        ]
+    },
+    {
+        "id": "action.basic.crb.hustle",
+        "color": "",
+        "title": "Hustle",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | exploration | move",
+            "rule",
+            "text | You strain yourself to move at double your travel speed. You can Hustle only for a number of minutes equal to your Constitution modifier × 10 (minimum 10 minutes). If you are in a group that is Hustling, use the lowest Constitution modifier among everyone to determine how fast the group can Hustle together."
+        ]
+    },
+    {
+        "id": "action.basic.skill.trained.crb.identify-alchemy",
+        "color": "",
+        "title": "Identify Alchemy",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | exploration | secret",
+            "property | Requirements | You have a alchemist's tools.",
+            "rule",
+            "text | You can identify the nature of an alchemical item with 10 minutes of testing using alchemist's tools. If your attempt is interrupted in any way, you must start over.",
+            "fill",
+            "property | Success | You identify the item and the means of activating it.",
+            "property | Failure | You fail to identify the item but can try again.",
+            "property | Critical Failure | You misidentify the item as another item of the GM's choice.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.crb.identify-magic",
+        "color": "",
+        "title": "Identify Magic",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | exploration | secret",
+            "rule",
+            "text | Once you discover that an item, location, or ongoing effect is magical, you can spend 10 minutes to try to identify the particulars of its magic. If your attempt is interrupted, you must start over. The GM sets the DC for your check. Cursed or esoteric subjects usually have higher DCs or might even be impossible to identify using this activity alone. Heightening a spell doesn't increase the DC to identify it.",
+            "fill",
+            "property | Critical Success | You learn all the attributes of the magic, including its name (for an effect), what it does, any means of activating it (for an item or location), and whether it is cursed.",
+            "property | Success | For an item or location, you get a sense of what it does and learn any means of activating it. For an ongoing effect (such as a spell with a duration), you learn the effect's name and what it does. You can't try again in hopes of getting a critical success.",
+            "property | Failure | You fail to identify the magic and can't try again for 1 day.",
+            "property | Critical Failure | You misidentify the magic as something else of the GM's choice.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.impersonate",
+        "color": "",
+        "title": "Impersonate",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | exploration | manipulate | secret",
+            "rule",
+            "text | You create a disguise to pass yourself off as someone or something you are not. Assembling a convincing disguise takes 10 minutes and requires a disguise kit, but a simpler, quicker disguise might do the job if you're not trying to imitate a specific individual, at the GM's discretion.",
+            "text | In most cases, creatures have a chance to detect your deception only if they use the Seek action to attempt Perception checks against your Deception DC. If you attempt to directly interact with someone while disguised, the GM rolls a secret Deception check for you against that creature's Perception DC instead. If you're disguised as a specific individual, the GM might give creatures you interact with a circumstance bonus based on how well they know the person you're imitating, or the GM might roll a secret Deception check even if you aren't directly interacting with others.",
+            "fill",
+            "property | Success | You trick the creature into thinking you're the person you're disguised as. You might have to attempt a new check if your behavior changes.",
+            "property | Failure | The creature can tell you're not who you claim to be.",
+            "property | Critical Failure | The creature can tell you're not who you claim to be, and it recognizes you if it would know you without a disguise.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.gmg.influence",
+        "color": "",
+        "title": "Influence",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | linguistic",
+            "rule",
+            "text | You attempt to make a favorable impression on an NPC to convince the NPC to support your cause. Choose an NPC, and attempt a skill check to impress that NPC. The DC, and whether success is possible, depend on the NPC's preferences (typically found in the NPC's influence stat block).",
+            "fill",
+            "property | Critical Success | You gain 2 Influence Points with the chosen NPC.",
+            "property | Success | You gain 1 Influence Point with the chosen NPC.",
+            "property | Failure | You gain no Influence Points with the chosen NPC.",
+            "property | Critical Failure | You lose 1 Influence Point with the chosen NPC.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.crb.interact",
+        "color": "",
+        "title": "Interact [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | manipulate",
+            "rule",
+            "text | You use your hand or hands to manipulate an object or the terrain. You can grab an unattended or stored object, open a door, or produce some similar effect. You might have to attempt a skill check to determine if your Interact action was successful."
+        ]
+    },
+    {
+        "id": "action.class.gunslinger.subclass.drifter.g-g.into-the-fray",
+        "color": "",
+        "title": "Into the Fray [[free-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | gunslinger",
+            "property | Trigger | You roll Initiative.",
+            "rule",
+            "text | You know trouble can lurk around every corner, and your hands never stray far from your holsters. You can Interact to draw a one-handed ranged weapon and can then Interact to draw a one-handed melee weapon. As your first action on your first turn, you can Stride as a free action toward an enemy you can perceive. If you can't perceive any enemies or can't end your movement closer to one, you can't use this Stride."
+        ]
+    },
+    {
+        "id": "action.basic.crb.invest-an-item",
+        "color": "",
+        "title": "Invest an Item",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "rule",
+            "text | You invest your energy in an item with the invested trait as you don it. This process requires 1 or more Interact actions, usually taking the same amount of time it takes to don the item. Once you've Invested the Item, you benefit from its constant magical abilities as long as you meet its other requirements (for most invested items, the only other requirement is that you must be wearing the item). This investiture lasts until you remove the item.",
+            "text | You can invest no more than 10 items per day. If you remove an invested item, it loses its investiture. The item still counts against your daily limit after it loses its investiture. You reset the limit during your daily preparations, at which point you Invest your Items anew. If you're still wearing items you had invested the previous day, you can typically keep them invested on the new day, but they still count against your limit."
+        ]
+    },
+    {
+        "id": "action.basic.crb.investigate",
+        "color": "",
+        "title": "Investigate",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | exploration",
+            "rule",
+            "text | You seek out information about your surroundings while traveling at half speed. You use Recall Knowledge as a secret check to discover clues among the various things you can see and engage with as you journey along. You can use any skill that has a Recall Knowledge action while Investigating, but the GM determines whether the skill is relevant to the clues you could find."
+        ]
+    },
+    {
+        "id": "action.ancestry.kitsune.loag.invigorating-fear",
+        "color": "",
+        "title": "Invigorating Fear [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "property | Trigger | A creature within 60 feet gains the frightened condition.",
+            "rule",
+            "text | You are invigorated by the shock of a prank or the thrum of terror. You gain temporary Hit Points equal to the creature's level or 3, whichever is higher."
+        ]
+    },
+    {
+        "id": "action.ancestry.kitsune.crb.invoke-celestial-privilege",
+        "color": "",
+        "title": "Invoke Celestial Privilege [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "property | Trigger | You attempt a saving throw against a divine effect, but you haven't rolled yet.",
+            "rule",
+            "text | You rise above the triggering effect, refusing to be harmed by it. You gain a +1 circumstance bonus to the triggering saving throw and to any other saving throws you attempt against divine effects until the start of your next turn."
+        ]
+    },
+    {
+        "id": "action.class.champion.subclass.tyrant.apg.iron-command",
+        "color": "",
+        "title": "Iron Command [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | uncommon | champion | divine | emotion | enchantment | mental",
+            "property | Trigger | An enemy within 15 feet damages you.",
+            "rule",
+            "text | You put an impertinent foe who dared harm you in their proper place. You command your enemy to kneel before you in obedience. If they dare to refuse, they must pay the price in pain and anguish. The foe must choose one of the following options.",
+            "bullet | The enemy kneels, dropping prone as a free action.",
+            "bullet | The enemy refuses, and you deal 1d6 mental damage to it. This damage increases to 2d6 at 5th level, 3d6 at 9th level, 4d6 at 12th level, 5d6 at 16th level, and 6d6 at 19th level.",
+            "text | In addition, your Strikes against the triggering creature deal 1 extra damage until the end of your next turn. You choose whether the damage type is evil or negative each time you use this reaction. This extra damage increases to 2 at 9th level and 3 at 16th level."
+        ]
+    },
+    {
+        "id": "action.basic.crb.leap",
+        "color": "",
+        "title": "Leap [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "rule",
+            "text | You take a careful, short jump. You can Leap up to 10 feet horizontally if your Speed is at least 15 feet, or up to 15 feet horizontally if your Speed is at least 30 feet. You land in the space where your Leap ends (meaning you can typically clear a 5-foot gap, or a 10-foot gap if your Speed is 30 feet or more).",
+            "text | If you Leap vertically, you can move up to 3 feet vertically and 5 feet horizontally onto an elevated surface.",
+            "text | Jumping a greater distance requires using the Athletics skill."
+        ]
+    },
+    {
+        "id": "action.basic.crb.learn-a-spell",
+        "color": "",
+        "title": "Learn a Spell",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | exploration",
+            "property | Requirements | You have a spellcasting class feature, and the spell you want to learn is on your magical tradition's spell list.",
+            "rule",
+            "text | You can gain access to a new spell of your tradition from someone who knows that spell or from magical writing like a spellbook or scroll. If you can cast spells of multiple traditions, you can Learn a Spell of any of those traditions, but you must use the corresponding skill to do so. For example, if you were a cleric with the bard multiclass archetype, you couldn't use Religion to add an occult spell to your bardic spell repertoire.",
+            "text | To learn the spell, you must do the following:",
+            "bullet | Spend 1 hour per level of the spell, during which you must remain in conversation with a person who knows the spell or have the magical writing in your possession.",
+            "bullet | Have materials with the Price indicated in Table 4-3: Learning a Spell.",
+            "bullet | Attempt a skill check for the skill corresponding to your tradition (DC determined by the GM, often close to the DC on Table 4-3: Learning a Spell). Uncommon or rare spells have higher DCs; full guidelines for the GM appear on page 503.",
+            "text | If you have a spellbook, Learning a Spell lets you add the spell to your spellbook; if you prepare spells from a list, it's added to your list; if you have a spell repertoire, you can select it when you add or swap spells.",
+            "fill",
+            "property | Critical Success | You expend half the materials and learn the spell.",
+            "property | Success | You expend the materials and learn the spell.",
+            "property | Failure | You fail to learn the spell but can try again after you gain a level. The materials aren't expended.",
+            "property | Critical Failure | As failure, plus you expend half the materials.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.som.learn-name",
+        "color": "",
+        "title": "Learn Name",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | rare | downtime | secret",
+            "rule",
+            "text | You spend a week trying to discover and learn a creature's name. The exact form of your effort varies depending on the skill you use, the resources you have available, and other circumstances. Decide if you are searching for the name of a specific individual or for names in general. If you're looking for the name of an individual, you must be able to clearly identify that individual; for example, \"the general leading the invasion\" is enough, but \"the person who killed the duchess\" isn't, if you don't know who killed the duchess. If you're searching for names more generally, name one creature type.",
+            "text | The GM chooses a DC, typically based on the level of the creature in question. If you're seeking names more generally, the DC is typically based on the level of the creature whose name the GM decides to provide, usually a creature from the chosen type of your level or lower. The GM might modify the DC of the task based on the resources you have available, or on using an unusually appropriate or inappropriate skill, or on other circumstances. Attempt a check with a skill that could be used to Recall Knowledge about the creature's type. After attempting to Learn a Name, you typically can't try to learn the name of the same individual again unless you gain access to a substantial new source of information, as determined by the GM.",
+            "fill",
+            "property | Critical Success | You find one or more private names of the specific individual you chose, or the private name of a creature with the type you chose and a level equal to the task level. You also find hidden fragments of their true name and, at the GM's discretion, you might find a clue leading to an adventure where you can learn the rest of the true name.",
+            "property | Success | As critical success, except you find only one private name and don't find hidden fragments of their true name.",
+            "property | Critical Failure | If you were searching for the name of a specific individual, you find no new information and that individual becomes aware of your efforts. If you were searching for a general name of a specific type, you find a creature's name or names likely to get you in trouble, possibly the names of a different type of creature entirely",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.class.champion.subclass.liberator.crb.liberating-step",
+        "color": "",
+        "title": "Liberating Step [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | champion",
+            "property | Trigger | An enemy damages, Grabs, or Grapples your ally, and both are within 15 feet of you.",
+            "rule",
+            "text | You free an ally from restraint. If the trigger was an ally taking damage, the ally gains resistance to all damage against the triggering damage equal to 2 + your level. The ally can attempt to break free of effects grabbing, restraining, immobilizing, or paralyzing them. They either attempt a new save against one such effect that allows a save, or attempt to Escape from one effect as a free action. If they can move, the ally can Step as a free action, even if they didn't need to escape."
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.lie",
+        "color": "",
+        "title": "Lie",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | auditory | concentrate | linguistic | mental | secret",
+            "rule",
+            "text | You try to fool someone with an untruth. Doing so takes at least 1 round, or longer if the lie is elaborate. You roll a single Deception check and compare it against the Perception DC of every creature you are trying to fool. The GM might give them a circumstance bonus based on the situation and the nature of the lie you are trying to tell. Elaborate or highly unbelievable lies are much harder to get a creature to believe than simpler and more believable lies, and some lies are so big that it's impossible to get anyone to believe them.",
+            "text | At the GM's discretion, if a creature initially believes your lie, it might attempt a Perception check later to Sense Motive against your Deception DC to realize it's a lie. This usually happens if the creature discovers enough evidence to counter your statements.",
+            "fill",
+            "property | Success | The target believes your lie.",
+            "property | Failure | The target doesn't believe your lie and gains a +4 circumstance bonus against your attempts to Lie for the duration of your conversation. The target is also more likely to be suspicious of you in the future.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.class.gunslinger.subclass.vanguard.g-g.living-fortification",
+        "color": "",
+        "title": "Living Fortification [[free-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | gunslinger",
+            "property | Trigger | You roll Initiative.",
+            "rule",
+            "text | You can posture defensively with firearms or crossbows, acting like a walking tower. Interact to draw a firearm or crossbow. You then position that weapon defensively, gaining a +1 circumstance bonus to AC until the start of your first turn, or a +2 circumstance bonus if the chosen weapon has the parry trait."
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.long-jump",
+        "color": "",
+        "title": "Long Jump [[two-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "rule",
+            "text | You Stride, then make a horizontal Leap and attempt an Athletics check to increase the length of your jump. The DC of the Athletics check is equal to the total distance in feet you're attempting to move during your Leap (so you'd need to succeed at a DC 20 check to Leap 20 feet). You can't Leap farther than your Speed.",
+            "text | If you didn't Stride at least 10 feet, or if you attempt to jump in a different direction than your Stride, you automatically fail your check. This DC might be increased or decreased due to the situation, as determined by the GM.",
+            "fill",
+            "property | Success | Increase the maximum horizontal distance you {@action Leap|CRB} to the desired distance.",
+            "property | Failure | You {@action Leap|CRB} normally.",
+            "property | Critical Failure | You {@action Leap|CRB} normally, but then fall and land {@condition prone|CRB}.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.crb.long-term-rest",
+        "color": "",
+        "title": "Long-Term Rest",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | downtime",
+            "rule",
+            "text | You can spend an entire day and night resting during downtime to recover Hit Points equal to your Constitution modifier (minimum 1) multiplied by twice your level."
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.make-an-impression",
+        "color": "",
+        "title": "Make an Impression",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | auditory | concentrate | exploration | linguistic | mental",
+            "rule",
+            "text | With at least 1 minute of conversation, during which you engage in charismatic overtures, flattery, and other acts of goodwill, you seek to make a good impression on someone to make them temporarily agreeable. At the end of the conversation, attempt a Diplomacy check against the Will DC of one target, modified by any circumstances the GM sees fit. Good impressions (or bad impressions, on a critical failure) last for only the current social interaction unless the GM decides otherwise.",
+            "fill",
+            "property | Critical Success | The target's attitude toward you improves by two steps.",
+            "property | Success | The target's attitude toward you improves by one step.",
+            "property | Critical Failure | The target's attitude toward you decreases by one step.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.skill.trained.crb.maneuver-in-flight",
+        "color": "",
+        "title": "Maneuver in Flight [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | move",
+            "property | Requirements | You have a fly Speed.",
+            "rule",
+            "text | You try a difficult maneuver while Flying. Attempt an Acrobatics check. The GM determines what maneuvers are possible, but they rarely allow you to move farther than your fly Speed.",
+            "fill",
+            "property | Success | You succeed at the maneuver.",
+            "property | Failure | Your maneuver fails. The GM chooses if you simply can't move or if some other detrimental effect happens. The outcome should be appropriate for the maneuver you attempted (for instance, being blown off course if you were trying to fly against a strong wind).",
+            "property | Critical Failure | As failure, but the consequence is more dire.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.class.summoner.som.manifest-eidolon",
+        "color": "",
+        "title": "Manifest Eidolon [[three-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | conjuration | manipulate | summoner | teleportation",
+            "rule",
+            "text | Your eidolon appears in an open space adjacent to you, and can then take a single action. If your eidolon was already manifested, you unmanifest it instead.",
+            "text | The conduit that allows your eidolon to manifest is also a tether between you. Your eidolon must remain within 100 feet of you at all times and can't willingly go beyond that limit. If forced beyond this distance, or if you are reduced to 0 Hit Points, your eidolon's physical form dissolves: your eidolon unmanifests, and you need to use Manifest Eidolon to manifest it again."
+        ]
+    },
+    {
+        "id": "action.gmg.map-the-area",
+        "color": "",
+        "title": "Map the Area",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate",
+            "rule",
+            "text | As long as your group has successfully Reconnoitered the hex, you can use this activity to create an accurate map of the hex with a successful Survival check (typically at a trained or expert DC). When you have an accurate map of the hex, the DC of any check to navigate that hex is reduced by 2."
+        ]
+    },
+    {
+        "id": "action.class.rogue.crb.master-strike",
+        "color": "",
+        "title": "Master Strike [[free-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | incapacitation | rogue",
+            "property | Trigger | Your Strike hits a flat-footed creature and deals damage.",
+            "rule",
+            "text | The target attempts a Fortitude save at your class DC. It then becomes temporarily immune to your Master Strike for 1 day.",
+            "fill",
+            "property | Critical Success | The target is unaffected.",
+            "property | Success | The target is {@condition enfeebled} 2 until the end of your next turn.",
+            "property | Failure | The target is {@condition paralyzed} for 4 rounds.",
+            "property | Critical Failure | The target is {@condition paralyzed} for 4 rounds, knocked {@condition unconscious} for 2 hours, or killed (your choice).",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.class.barbarian.crb.mighty-rage",
+        "color": "",
+        "title": "Mighty Rage [[free-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | barbarian",
+            "property | Trigger | You use the Rage action on your turn.",
+            "rule",
+            "text | Use an action that has the rage trait. Alternatively, you can increase the actions of the triggering Rage to 2 to instead use a 2-action activity with the rage trait."
+        ]
+    },
+    {
+        "id": "action.basic.crb.mount",
+        "color": "",
+        "title": "Mount [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | move",
+            "rule",
+            "text | You move onto the creature and ride it. If you're already mounted, you can instead use this action to dismount, moving off the mount into a space adjacent to it."
+        ]
+    },
+    {
+        "id": "action.class.alchemist.subclass.mutagenist.crb.mutagenic-flashback",
+        "color": "",
+        "title": "Mutagenic Flashback [[free-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | alchemist",
+            "rule",
+            "text | You experience a brief resurgence of a mutagen. Choose one mutagen you've consumed since your last daily preparations. You gain the effects of that mutagen for 1 minute."
+        ]
+    },
+    {
+        "id": "action.class.gunslinger.subclass.sniper.g-g.one-shot-one-kill",
+        "color": "",
+        "title": "One Shot, One Kill [[free-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | gunslinger",
+            "property | Trigger | You roll Initiative.",
+            "rule",
+            "text | Your first shot is the deadliest. Interact to draw a firearm or crossbow. On your first turn, your first Strike with that weapon deals an additional 1d6 precision damage. This precision damage increases to 2d6 at 9th level and 3d6 at 15th level."
+        ]
+    },
+    {
+        "id": "action.class.swashbuckler.apg.opportune-riposte",
+        "color": "",
+        "title": "Opportune Riposte [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | swashbuckler",
+            "property | Trigger | A foe within your reach critically fails a Strike against you.",
+            "rule",
+            "text | You take advantage of an opening from your enemy's fumbled attack. You either make a melee Strike against the triggering foe or attempt to Disarm it of the weapon it used for the Strike."
+        ]
+    },
+    {
+        "id": "action.class.inventor.g-g.overdrive",
+        "color": "",
+        "title": "Overdrive [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | inventor | manipulate",
+            "rule",
+            "text | Temporarily cranking the gizmos on your body into overdrive, you try to add greater power to your attacks. Attempt a Crafting check that has a standard DC for your level.",
+            "fill",
+            "property | Critical Success | Your gizmos go into a state of incredible efficiency called critical overdrive, adding great power to your attacks. Your Strikes deal additional damage equal to your Intelligence modifier for 1 minute. After the Overdrive ends, your gizmos become unusable as they cool down or reset, and you can't use Overdrive for 1 minute.",
+            "property | Success | Your gizmos go into overdrive, adding power to your attacks. As critical success, except the additional damage is equal to half your Intelligence modifier.",
+            "property | Failure | You make a miscalculation and nothing happens.",
+            "property | Critical Failure | Whoops! Something explodes. You take fire damage equal to your level, and you can't use Overdrive again for 1 minute as your gizmos cool down and reset.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.palm-an-object",
+        "color": "",
+        "title": "Palm an Object [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | manipulate",
+            "rule",
+            "text | Palming a small, unattended object without being noticed requires you to roll a single Thievery check against the Perception DCs of all creatures who are currently observing you. You take the object whether or not you successfully conceal that you did so. You can typically only Palm Objects of negligible Bulk, though the GM might determine otherwise depending on the situation.",
+            "fill",
+            "property | Success | The creature does not notice you Palming the Object.",
+            "property | Failure | The creature notices you Palming the Object, and the GM determines the creature's response.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.perform",
+        "color": "",
+        "title": "Perform [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate",
+            "rule",
+            "text | When making a brief performance—one song, a quick dance, or a few jokes—you use the Perform action. This action is most useful when you want to prove your capability or impress someone quickly. Performing rarely has an impact on its own, but it might influence the DCs of subsequent Diplomacy checks against the observers—or even change their attitudes—if the GM sees fit.",
+            "fill",
+            "property | Critical Success | Your performance impresses the observers, and they're likely to share stories of your ability.",
+            "property | Success | You prove yourself, and observers appreciate the quality of your performance.",
+            "property | Failure | Your performance falls flat.",
+            "property | Critical Failure | You demonstrate only incompetence.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.skill.trained.crb.pick-a-lock",
+        "color": "",
+        "title": "Pick a Lock [[two-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | manipulate",
+            "property | Requirements | You have thieves' tools.",
+            "rule",
+            "text | Opening a lock without a key is very similar to Disabling a Device, but the DC of the check is determined by the complexity and construction of the lock you are attempting to pick (locks and their DCs are found on page 290). Locks of higher qualities might require multiple successes to unlock, since otherwise even an unskilled burglar could easily crack the lock by attempting the check until they rolled a natural 20. If you lack the proper tools, the GM might let you used improvised picks, which are treated as shoddy tools, depending on the specifics of the lock.",
+            "fill",
+            "property | Critical Success | You unlock the lock, or you achieve two successes toward opening a complex lock. You leave no trace of your tampering.",
+            "property | Success | You open the lock, or you achieve one success toward opening a complex lock.",
+            "property | Critical Failure | You break your tools. Fixing them requires using {@skill Crafting} to {@action Repair|CRB} them or else swapping in replacement picks (costing 3 sp, or 3 gp for {@item infiltrator thieves' tools|CRB}).",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.class.gunslinger.subclass.pistolero.g-g.pistoleros-retort",
+        "color": "",
+        "title": "Pistolero's Retort [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | gunslinger",
+            "property | Requirements | You're wielding a one-handed firearm or one-handed crossbow.",
+            "property | Trigger | A foe within the first range increment of the onehanded firearm or one-handed crossbow you're wielding critically fails an attack roll against you.",
+            "rule",
+            "text | You punish your foe's failure with a shot. Make a Strike against the triggering foe with a one-handed firearm or one-handed crossbow."
+        ]
+    },
+    {
+        "id": "action.basic.crb.point-out",
+        "color": "",
+        "title": "Point Out [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | auditory | manipulate | visual",
+            "property | Requirements | A creature is undetected by one or more of your allies but isn't undetected by you.",
+            "rule",
+            "text | You indicate a creature that you can see to one or more allies, gesturing in a direction and describing the distance verbally. That creature is hidden to your allies, rather than undetected. This works only for allies who can see you and are in a position where they could potentially detect the target. If your allies can't hear or understand you, they must succeed at a Perception check against the creature's Stealth DC or they misunderstand and believe the target is in a different location."
+        ]
+    },
+    {
+        "id": "action.class.investigator.subclass.interrogation.apg.pointed-question",
+        "color": "",
+        "title": "Pointed Question [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | auditory | concentrate | investigator | linguistic | mental",
+            "rule",
+            "text | You ask a question that charms or needles someone in just the right way. Ask a question of a non-allied creature that you can see and have been conversing with. Attempt a Diplomacy check against the creature's Will DC. The creature is then temporarily immune for 1 hour.",
+            "fill",
+            "property | Critical Success | The target must directly answer your question. It doesn't have to answer truthfully, but you gain a +4 circumstance bonus to your {@skill Perception} DC if the creature attempts to {@action Lie} to you.",
+            "property | Success | As critical success, but the circumstance bonus is +2.",
+            "property | Failure | The target can refuse to answer you as normal.",
+            "property | Critical Failure | The target can refuse to answer you as normal, and its attitude toward you decreases by one step due to your aggravating attention.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.sot-1.practical-research",
+        "color": "",
+        "title": "Practical Research",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | downtime",
+            "property | Requirements | You are a conversant or lore-speaker.",
+            "rule",
+            "text | You identify something interesting in the field and perform special research on it. This requires an appropriate check, which the GM will describe when the opportunity arises. The results of the check vary. While they typically include all the benefits of the Study activity, some opportunities for Practical Research also offer unique benefits, such as access to new character options."
+        ]
+    },
+    {
+        "id": "action.class.investigator.apg.pursue-a-lead",
+        "color": "",
+        "title": "Pursue a Lead",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | exploration | investigator",
+            "rule",
+            "text | You spend 1 minute examining the details of one potential clue, designating the subject related to that clue as the target of your active investigation. This subject is typically a single creature, item, or small location (such as a room or corridor), but the GM might allow a different scope for your investigation. You don't need to know the identity, purpose, or nature of the subject, but you do need to be aware of its existence. For instance, finding a footprint is enough to investigate the creature that left it, and seeing a hasty sketch of an item or location can be enough to start your investigation of that subject.",
+            "text | Whenever you attempt a Perception or skill check to investigate a designated subject, you gain a +1 circumstance bonus to the check. The exact checks this applies to depend on the actions you use to investigate and are determined by the GM, but checks to investigate are typically Perception checks or skill checks that use Intelligence, Wisdom, or Charisma.",
+            "text | You can maintain two active investigations at a time. If you Pursue another Lead after that, the subject must be different from any of your current investigations (or rather, they must be different as far as you know), and you give up on a current subject of your choice. Once you've given up pursuit of a subject, you can't Pursue that Lead again until after the next time you make your daily preparations."
+        ]
+    },
+    {
+        "id": "action.class.alchemist.crb.quick-alchemy",
+        "color": "",
+        "title": "Quick Alchemy [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | alchemist | manipulate",
+            "property | Requirements | You have the formula for the alchemical item you're creating, and you're either holding or wearing alchemist's tools.",
+            "rule",
+            "text | You swiftly mix up a short-lived alchemical item to use at a moment's notice. You create a single alchemical item of your advanced alchemy level or lower that's in your formula book without having to spend the normal monetary cost in alchemical reagents or needing to attempt a Crafting check. This item has the infused trait, but it remains potent only until the start of your next turn."
+        ]
+    },
+    {
+        "id": "action.class.investigator.subclass.alchemical-sciences.apg.quick-tincture",
+        "color": "",
+        "title": "Quick Tincture [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | investigator | manipulate",
+            "property | Requirements | You know the formula for the alchemical item you're creating, you are holding or wearing alchemist's tools, and you have a free hand.",
+            "rule",
+            "text | You quickly brew up a short-lived tincture. You create a single alchemical elixir or tool of your level or lower without having to spend the normal monetary cost in alchemical reagents or needing to attempt a Crafting check. This item has the infused trait, but it remains potent only until the end of the current turn."
+        ]
+    },
+    {
+        "id": "action.class.gunslinger.subclass.pistolero.g-g.raconteurs-reload",
+        "color": "",
+        "title": "Raconteur's Reload [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | gunslinger",
+            "rule",
+            "text | Your rapid or forceful words draw the enemy's attention away from your hands long enough to chamber another bullet. Interact to reload and then attempt a Deception check to Create a Diversion or an Intimidation check to Demoralize."
+        ]
+    },
+    {
+        "id": "action.class.barbarian.crb.rage",
+        "color": "",
+        "title": "Rage [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | barbarian | concentrate | emotion | mental",
+            "property | Requirements | You aren't fatigued or raging.",
+            "rule",
+            "text | You tap into your inner fury and begin raging. You gain a number of temporary Hit Points equal to your level plus your Constitution modifier. This frenzy lasts for 1 minute, until there are no enemies you can perceive, or until you fall unconscious, whichever comes first. You can't voluntarily stop raging. While you are raging:",
+            "bullet | You deal 2 additional damage with melee weapons and unarmed attacks. This additional damage is halved if your weapon or unarmed attack is agile.",
+            "bullet | You take a –1 penalty to AC.",
+            "bullet | You can't use actions with the concentrate trait unless they also have the rage trait. You can Seek while raging.",
+            "text | After you stop raging, you lose any remaining temporary Hit Points from Rage, and you can't Rage again for 1 minute."
+        ]
+    },
+    {
+        "id": "action.basic.crb.raise-a-shield",
+        "color": "",
+        "title": "Raise a Shield [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "property | Requirements | You are wielding a shield.",
+            "rule",
+            "text | You position your shield to protect yourself. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised until the start of your next turn."
+        ]
+    },
+    {
+        "id": "action.gmg.rally",
+        "color": "",
+        "title": "Rally",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | auditory | emotion | exploration | linguistic | mental",
+            "property | Prerequisites | trained in Diplomacy, Intimidation, Performance",
+            "rule",
+            "text | You spend 1 minute encouraging your ally. Though this action typically has the auditory and linguistic traits, if you're using the Performance skill, the GM might adjust the traits for this action to match the traits for your type of performance.",
+            "text | Attempt a DC 15 skill check. The GM might adjust this DC based on the circumstances, such as attempting to Rally an ally who just suffered a humiliating defeat."
+        ]
+    },
+    {
+        "id": "action.basic.crb.ready",
+        "color": "",
+        "title": "Ready [[two-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate",
+            "rule",
+            "text | You prepare to use an action that will occur outside your turn. Choose a single action or free action you can use, and designate a trigger. Your turn then ends. If the trigger you designated occurs before the start of your next turn, you can use the chosen action as a reaction (provided you still meet the requirements to use it). You can't Ready a free action that already has a trigger.",
+            "text | If you have a multiple attack penalty and your readied action is an attack action, your readied attack takes the multiple attack penalty you had at the time you used Ready. This is one of the few times the multiple attack penalty applies when it's not your turn."
+        ]
+    },
+    {
+        "id": "action.class.gunslinger.g-g.recall-ammunition",
+        "color": "",
+        "title": "Recall Ammunition [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | conjuration | magical | spellshot | teleportation",
+            "property | Trigger | You miss with a firearm or crossbow Strike while using an ordinary level-0 bolt or bullet",
+            "rule",
+            "text | You amplify the connection between bullet and firearm, calling your missed shot back into your gun. The ammunition you just fired is reloaded back into your gun and immediately ready to fire again."
+        ]
+    },
+    {
+        "id": "action.basic.crb.recall-knowledge",
+        "color": "",
+        "title": "Recall Knowledge [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | secret",
+            "rule",
+            "text | You attempt a skill check to try to remember a bit of knowledge regarding a topic related to that skill. The GM determines the DCs for such checks and which skills apply.",
+            "fill",
+            "property | Critical Success | You recall the knowledge accurately and gain additional information or context.",
+            "property | Success | You recall the knowledge accurately or gain a useful clue about your current situation.",
+            "property | Critical Failure | You recall incorrect information or gain an erroneous or misleading clue.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.gmg.reconnoiter",
+        "color": "",
+        "title": "Reconnoiter",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate",
+            "rule",
+            "text | You spend time surveying and exploring a specific area, getting the lay of the land and looking for unusual features and specific sites. Reconnoitering a single hex takes a number of hexploration activities equal to the number of Travel activities necessary to traverse the hex—1 for open terrain, 2 for difficult terrain, and 3 for greater difficult terrain. Traveling on roads doesn't lessen the time required to Reconnoiter. Once the hex has been Reconnoitered, you can Map the Area to reduce your chance of getting lost in that hex. You automatically find any special feature that doesn't require a check to find, and you attempt the appropriate checks to find hidden special features.",
+            "text | For instance, if you were looking for an obvious rock formation among some hills, you would spend 2 hexploration activities to Reconnoiter the hex, and you'd find the rock formation. But if you were looking for a hidden tengu monastery somewhere in some deep forests, after spending 2 activities to Reconnoiter the forest hex, you would have to succeed at a Perception check as part of your Reconnoiter activity to find the monastery."
+        ]
+    },
+    {
+        "id": "action.basic.crb.refocus",
+        "color": "",
+        "title": "Refocus",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | exploration",
+            "property | Requirements | You have a focus pool, and you have spent at least 1 Focus Point since you last regained any Focus Points.",
+            "rule",
+            "text | You spend 10 minutes performing deeds to restore your magical connection. This restores 1 Focus Point to your focus pool. The deeds you need to perform are specified in the class or ability that gives you your focus spells. These deeds can usually overlap with other tasks that relate to the source of your focus spells. For instance, a cleric with focus spells from a good deity can usually Refocus while tending the wounds of their allies, and a wizard of the illusionist school might be able to Refocus while attempting to Identify Magic of the illusion school."
+        ]
+    },
+    {
+        "id": "action.basic.crb.release",
+        "color": "",
+        "title": "Release [[free-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | manipulate",
+            "rule",
+            "text | You release something you're holding in your hand or hands. This might mean dropping an item, removing one hand from your weapon while continuing to hold it in another hand, releasing a rope suspending a chandelier, or performing a similar action. Unlike most manipulate actions, Release does not trigger reactions that can be triggered by actions with the manipulate trait (such as Attack of Opportunity).",
+            "text | If you want to prepare to Release something outside of your turn, use the Ready activity."
+        ]
+    },
+    {
+        "id": "action.class.gunslinger.subclass.drifter.g-g.reloading-strike",
+        "color": "",
+        "title": "Reloading Strike [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | gunslinger",
+            "property | Requirements | You're wielding a firearm or crossbow in one hand, and your other hand either wields a one-handed melee weapon or is empty.",
+            "rule",
+            "text | You make a melee attack and then reload your gun in one fluid movement. Strike an opponent within reach with your one-handed melee weapon (or, if your other hand is empty, with an unarmed attack), and then Interact to reload. You don't need a free hand to reload in this way."
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.repair",
+        "color": "",
+        "title": "Repair",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | exploration | manipulate",
+            "property | Requirements | You have a repair kit.",
+            "rule",
+            "text | You spend 10 minutes attempting to fix a damaged item, placing the item on a stable surface and using the repair kit with both hands. The GM sets the DC, but it's usually about the same DC to Repair a given item as it is to Craft it in the first place. You can't Repair a destroyed item.",
+            "fill",
+            "property | Critical Success | You restore 10 Hit Points to the item, plus an additional 10 Hit Points per proficiency rank you have in {@skill Crafting} (a total of 20 HP if you're trained, 30 HP if you're an expert, 40 HP if you're a master, or 50 HP if you're legendary).",
+            "property | Success | You restore 5 Hit Points to the item, plus an additional 5 per proficiency rank you have in {@skill Crafting} (for a total of 10 HP if you are trained, 15 HP if you're an expert, 20 HP if you're a master, or 25 HP if you're legendary).",
+            "property | Critical Failure | You deal {@dice 2d6} damage to the item. Apply the item's Hardness to this damage.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.crb.repeat-a-spell",
+        "color": "",
+        "title": "Repeat a Spell",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | exploration",
+            "rule",
+            "text | You repeatedly cast the same spell while moving at half speed. Typically, this spell is a cantrip that you want to have in effect in the event a combat breaks out, and it must be one you can cast in 2 actions or fewer. In order to prevent fatigue due to repeated casting, you'll likely use this activity only when something out of the ordinary occurs.",
+            "text | You can instead use this activity to continue Sustaining a Spell or Activation with a sustained duration. Most such spells or item effects can be sustained for 10 minutes, though some specify they can be sustained for a different duration."
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.request",
+        "color": "",
+        "title": "Request [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | auditory | concentrate | linguistic | mental",
+            "rule",
+            "text | You can make a request of a creature that's friendly or helpful to you. You must couch the request in terms that the target would accept given their current attitude toward you. The GM sets the DC based on the difficulty of the request. Some requests are unsavory or impossible, and even a helpful NPC would never agree to them.",
+            "fill",
+            "property | Critical Success | The target agrees to your request without qualifications.",
+            "property | Success | The target agrees to your request, but they might demand added provisions or alterations to the request.",
+            "property | Failure | The target refuses the request, though they might propose an alternative that is less extreme.",
+            "property | Critical Failure | Not only does the target refuse the request, but their attitude toward you decreases by one step due to the temerity of the request.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.gmg.research",
+        "color": "",
+        "title": "Research",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | exploration | linguistic",
+            "rule",
+            "text | You comb through information to learn more about the topic at hand. Choose your research topic, section of the library, or other division depending on the form of research, and attempt a skill check. The skills to use and the DC for the check depend on the choice you made.",
+            "fill",
+            "property | Critical Success | You gain 2 RP.",
+            "property | Success | You gain 1 RP.",
+            "property | Critical Failure | You make a false discovery and lose 1 RP.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.crb.retraining",
+        "color": "",
+        "title": "Retraining",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | downtime",
+            "rule",
+            "text | Retraining offers a way to alter some of your character choices, which is helpful when you want to take your character in a new direction or change decisions that didn't meet your expectations. You can retrain feats, skills, and some selectable class features. You can't retrain your ancestry, heritage, background, class, or ability scores. You can't perform other downtime activities while retraining.",
+            "text | Retraining usually requires you to spend time learning from a teacher, whether that entails physical training, studying at a library, or falling into shared magical trances. Your GM determines whether you can get proper training or whether something can be retrained at all. In some cases, you'll have to pay your instructor.",
+            "text | Some abilities can be difficult or impossible to retrain (for instance, a sorcerer can retrain their bloodline only in extraordinary circumstances).",
+            "text | When retraining, you generally can't make choices you couldn't make when you selected the original option. For instance, you can't exchange a 2nd-level skill feat for a 4th-level one, or for one that requires prerequisites you didn't meet at the time you took the original feat. If you don't remember whether you met the prerequisites at the time, ask your GM to make the call. If you cease to meet the prerequisites for an ability due to retraining, you can't use that ability. You might need to retrain several abilities in sequence in order to get all the abilities you want."
+        ]
+    },
+    {
+        "id": "action.class.champion.subclass.paladin.crb.retributive-strike",
+        "color": "",
+        "title": "Retributive Strike [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | champion",
+            "property | Trigger | An enemy damages your ally, and both are within 15 feet of you.",
+            "rule",
+            "text | You protect your ally and strike your foe. The ally gains resistance to all damage against the triggering damage equal to 2 + your level. If the foe is within reach, make a melee Strike against it."
+        ]
+    },
+    {
+        "id": "action.gmg.run-over",
+        "color": "",
+        "title": "Run Over [[three-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | move | reckless",
+            "property | Requirements | You are piloting a vehicle.",
+            "rule",
+            "text | You try to run over creatures with your vehicle, possibly also ramming one larger creature or object. If you maintain control of your vehicle, the vehicle moves up to twice its Speed in a straight line at the vehicle's current heading. You attempt to run over any creatures in your path two sizes smaller than the vehicle or smaller, and you can attempt to ram one target creature or object in your path one size smaller than the vehicle or larger.",
+            "text | Each creature in your path, including a rammed target, takes the vehicle's collision damage (basic Reflex save at vehicle's collision DC). If the rammed target is a vehicle, its pilot can attempt a piloting check in place of this Reflex save, with the same results. If the target of your ram takes damage, you and your vehicle each take collision damage (no save) and your movement ends."
+        ]
+    },
+    {
+        "id": "action.basic.crb.scout",
+        "color": "",
+        "title": "Scout",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | exploration",
+            "rule",
+            "text | You scout ahead and behind the group to watch danger, moving at half speed. At the start of the next encounter, every creature in your party gains a +1 circumstance bonus to their initiative rolls."
+        ]
+    },
+    {
+        "id": "action.gmg.scout-location",
+        "color": "",
+        "title": "Scout Location",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | downtime | secret",
+            "rule",
+            "text | You spend time observing the place or group you wish to infiltrate. Attempt a normal, hard, or very hard DC Perception, Society or Stealth check.",
+            "fill",
+            "property | Success | You make observations that provide 1 EP.",
+            "property | Failure | You learn nothing particularly noteworthy.",
+            "property | Critical Failure | You misjudge some aspect of what you observed, gaining 1 EP that results in a critical failure instead of a success when used, even if a PC uses the Edge Point after rolling a failure.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.crb.search",
+        "color": "",
+        "title": "Search",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | exploration",
+            "rule",
+            "text | You Seek meticulously for hidden doors, concealed hazards, and so on. You can usually make an educated guess as to which locations are best to check and move at half speed, but if you want to be thorough and guarantee you checked everything, you need to travel at a Speed of no more than 300 feet per minute, or 150 feet per minute to ensure you check everything before you walk into it. You can always move more slowly while Searching to cover the area more thoroughly, and the Expeditious Search feat increases these maximum Speeds. If you come across a secret door, item, or hazard while Searching, the GM will attempt a free secret check to Seek to see if you notice the hidden object or hazard. In locations with many objects to search, you have to stop and spend significantly longer to search thoroughly."
+        ]
+    },
+    {
+        "id": "action.gmg.secure-disguises",
+        "color": "",
+        "title": "Secure Disguises",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | downtime",
+            "rule",
+            "text | You seek to procure or create disguises. Attempt a normal, hard, or very hard Crafting, Deception, Performance, or Society check.",
+            "fill",
+            "property | Success | You procure or creates disguises, gaining 1 EP that can be used only to maintain a cover identity.",
+            "property | Failure | Your efforts result in an unusable disguise.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.crb.seek",
+        "color": "",
+        "title": "Seek [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | secret",
+            "rule",
+            "text | You scan an area for signs of creatures or objects. If you're looking for creatures, choose an area you're scanning. If precision is necessary, the GM can have you select a 30-foot cone or a 15-foot burst within line of sight. You might take a penalty if you choose an area that's far away.",
+            "text | If you're using Seek to search for objects (including secret doors and hazards), you search up to a 10-foot square adjacent to you. The GM might determine you need to Seek as an activity, taking more actions or even minutes or hours if you're searching a particularly cluttered area.",
+            "text | The GM attempts a single secret Perception check for you and compares the result to the Stealth DCs of any undetected or hidden creatures in the area or the DC to detect each object in the area (as determined by the GM or by someone Concealing the Object). A creature you detect might remain hidden, rather than becoming observed, if you're using an imprecise sense or if an effect (such as invisibility) prevents the subject from being observed.",
+            "fill",
+            "property | Critical Success | If you were searching for creatures, any {@condition undetected} or {@condition hidden} creature you critically succeeded against becomes {@condition observed|CRB} by you. If you were searching for an object, you learn its location.",
+            "property | Success | If you were searching for creatures, any {@condition undetected} creature you succeeded against becomes {@condition hidden} from you instead of {@condition undetected}, and any {@condition hidden} creature you succeeded against becomes {@condition observed|CRB} by you. If you were searching for an object, you learn its location or get a clue to its whereabouts, as determined by the GM.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.class.champion.subclass.desecrator.apg.selfish-shield",
+        "color": "",
+        "title": "Selfish Shield [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | uncommon | champion",
+            "property | Trigger | An enemy within 15 feet damages you.",
+            "rule",
+            "text | Your self-interest keeps you safe. You gain resistance against the triggering damage equal to 2 + half your level, regardless of damage type.",
+            "text | In addition, your Strikes against the triggering creature deal 1 extra damage until the end of your next turn. You choose whether this extra damage is evil or negative each time you use this reaction. This extra damage increases to 2 at 9th level and 3 at 16th level."
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.sense-direction",
+        "color": "",
+        "title": "Sense Direction",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | exploration | secret",
+            "rule",
+            "text | Using the stars, the position of the sun, traits of the geography or flora, or the behavior of fauna, you can stay oriented in the wild. Typically, you attempt a Survival check only once per day, but some environments or changes might necessitate rolling more often. The GM determines the DC and how long this activity takes (usually just a minute or so). More unusual locales or those you're unfamiliar with might require you to have a minimum proficiency rank to Sense Direction. Without a compass, you take a –2 item penalty to checks to Sense Direction.",
+            "fill",
+            "property | Critical Success | You get an excellent sense of where you are. If you are in an environment with cardinal directions, you know them exactly",
+            "property | Success | You gain enough orientation to avoid becoming hopelessly lost. If you are in an environment with cardinal directions, you have a sense of those directions.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.crb.sense-motive",
+        "color": "",
+        "title": "Sense Motive [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | secret",
+            "rule",
+            "text | You try to tell whether a creature's behavior is abnormal. Choose one creature, and assess it for odd body language, signs of nervousness, and other indicators that it might be trying to deceive someone. The GM attempts a single secret Perception check for you and compares the result to the Deception DC of the creature, the DC of a spell affecting the creature's mental state, or another appropriate DC determined by the GM. You typically can't try to Sense the Motive of the same creature again until the situation changes significantly.",
+            "fill",
+            "property | Critical Success | You determine the creature's true intentions and get a solid idea of any mental magic affecting it.",
+            "property | Success | You can tell whether the creature is behaving normally, but you don't know its exact intentions or what magic might be affecting it.",
+            "property | Failure | You detect what a deceptive creature wants you to believe. If they're not being deceptive, you believe they're behaving normally.",
+            "property | Critical Failure | You get a false sense of the creature's intentions.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.gmg.sense-weakness",
+        "color": "",
+        "title": "Sense Weakness [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "property | Requirements | You're in a duel, you're trained in Perception, and you rolled a Perception check for initiative this round.",
+            "property | Trigger | You attempt a melee Strike against your opponent, but haven't rolled yet.",
+            "rule",
+            "text | You pick a precise moment to attack, giving you an edge. Your opponent is flat-footed against the attack. If your opponent is using Deception for initiative when this ability is used, they are instead flat-footed until the start of their next turn."
+        ]
+    },
+    {
+        "id": "action.class.summoner.som.share-senses",
+        "color": "",
+        "title": "Share Senses [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | divination | scrying | summoner",
+            "property | Requirements | Your eidolon is manifested.",
+            "rule",
+            "text | You project your senses into your eidolon, allowing you to perceive through it. When you do, you lose all sensory information from your own body, but can sense through your eidolon's body for up to 1 minute. You can Dismiss this effect."
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.shove",
+        "color": "",
+        "title": "Shove [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | attack",
+            "property | Requirements | You have at least one hand free. The target can't be more than one size larger than you.",
+            "rule",
+            "text | You push an opponent away from you. Attempt an Athletics check against your opponent's Fortitude DC.",
+            "fill",
+            "property | Critical Success | You push your opponent up to 10 feet away from you. You can {@action Stride|CRB} after it, but you must move the same distance and in the same direction.",
+            "property | Success | You push your opponent back 5 feet. You can {@action Stride|CRB} after it, but you must move the same distance and in the same direction.",
+            "property | Critical Failure | You lose your balance, fall, and land {@condition prone|CRB}.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.class.gunslinger.subclass.vanguard.g-g.siegebreaker",
+        "color": "",
+        "title": "Siegebreaker [[three-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | flourish | gunslinger",
+            "property | Requirements | You're wielding a firearm that has the kickback or scatter trait, or a two-handed crossbow.",
+            "rule",
+            "text | With unbelievable force, you charge and smash your weapon into a target before digging in your heels and pulling the trigger. Leap or Stride, then make a Strike with the required firearm or crossbow against an adjacent target. This Strike deals an additional 3d8 bludgeoning damage and ignores 10 points of the target's Hardness (if any), or of their shield's Hardness if the target uses Shield Block.",
+            "text | After the Strike, you become immobilized and position the required weapon defensively, gaining a +1 circumstance bonus to AC, or a +2 circumstance bonus if the chosen weapon has the parry trait. Both effects last until the start of your next turn. If a force would move you while you're immobilized in this way, it must succeed at an appropriate check against your class DC."
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.sneak",
+        "color": "",
+        "title": "Sneak [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | move | secret",
+            "rule",
+            "text | You can attempt to move to another place while becoming or staying undetected. Stride up to half your Speed. (You can use Sneak while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type; you must move at half that Speed.)",
+            "text | If you're undetected by a creature and it's impossible for that creature to observe you (for a typical creature, this includes when you're invisible, the observer is blinded, or you're in darkness and the creature can't see in darkness), for any critical failure you roll on a check to Sneak, you get a failure instead. You also continue to be undetected if you lose cover or greater cover against or are no longer concealed from such a creature. At the end of your movement, the GM rolls your Stealth check in secret and compares the result to the Perception DC of each creature you were hidden from or undetected by at the start of your movement. If you have cover or greater cover from the creature throughout your Stride, you gain the +2 circumstance bonus from cover (or +4 from greater cover) to your Stealth check. Because you're moving, the bonus increase from Taking Cover doesn't apply. You don't get to roll against a creature if, at the end of your movement, you neither are concealed from it nor have cover or greater cover against it. You automatically become observed by such a creature.",
+            "fill",
+            "property | Success | You're {@condition undetected|CRB} by the creature during your movement and remain {@condition undetected|CRB} by the creature at the end of it.,If you successfully become {@condition hidden|CRB} to a creature but then cease to have cover or greater cover against it or be concealed from it, you become {@condition observed|CRB} again. You cease being {@condition hidden|CRB} if you do anything except {@action Hide|CRB}, Sneak, or {@action Step|CRB}. If you attempt to Strike a creature, the creature remains {@condition flat-footed|CRB} against that attack, and you then become observed. If you do anything else, you become {@condition observed|CRB} just before you act unless the GM determines otherwise. The GM might allow you to perform a particularly unobtrusive action without being noticed, possibly requiring another {@skill Stealth} check.,If a creature uses {@action Seek|CRB} to make you {@condition observed|CRB} by it, you must successfully {@action Hide|CRB} to become {@condition hidden|CRB} from it again.",
+            "property | Failure | A telltale sound or other sign gives your position away, though you still remain unseen. You're {@condition hidden|CRB} from the creature throughout your movement and remain so.",
+            "property | Critical Failure | You're spotted! You're observed by the creature throughout your movement and remain so. If you're {@condition invisible|CRB} and were {@condition hidden|CRB} from the creature, instead of being {@condition observed|CRB} you're {@condition hidden|CRB} throughout your movement and remain so.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.class.magus.som.spellstrike",
+        "color": "",
+        "title": "Spellstrike [[two-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | magus",
+            "rule",
+            "text | You channel a spell into a punch or sword thrust to deliver a combined attack. You Cast a Spell that takes 1 or 2 actions to cast and requires a spell attack roll. The effects of the spell don't occur immediately but are imbued into your attack instead. Make a melee Strike with a weapon or unarmed attack. Your spell is coupled with your attack, using your attack roll result to determine the effects of both the Strike and the spell. This counts as two attacks for your multiple attack penalty, but you don't apply the penalty until after you've completed the Spellstrike. The infusion of spell energy grants your Strike the arcane trait, making it magical.",
+            "text | After you use Spellstrike, you can't do so again until you recharge your Spellstrike as a single action, which has the concentrate trait. You also recharge your Spellstrike when you cast a conflux spell that takes at least 1 action to cast; casting a focus spell of another type doesn't recharge your Spellstrike."
+        ]
+    },
+    {
+        "id": "action.class.gunslinger.subclass.vanguard.g-g.spinning-crush",
+        "color": "",
+        "title": "Spinning Crush [[three-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | gunslinger",
+            "property | Requirements | You're wielding a loaded firearm or loaded crossbow.",
+            "rule",
+            "text | You go into a vicious spin, smashing your weapon into those nearby and increasing your momentum by firing. All creatures adjacent to you take 1d6 bludgeoning damage plus your Strength modifier; this increases to 2d6 if your firearm has a striking rune, 3d6 if it has a greater striking rune, and 4d6 if it has a major striking rune. This ability does not apply other effects that increase damage with your firearm Strikes such as weapon specialization. Creatures affected by this attack must attempt a basic Reflex save. A creature that fails its save is also pushed 5 feet directly away from you."
+        ]
+    },
+    {
+        "id": "action.basic.skill.trained.crb.squeeze",
+        "color": "",
+        "title": "Squeeze",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | exploration | move",
+            "rule",
+            "text | You contort yourself to squeeze through a space so small you can barely fit through. This action is for exceptionally small spaces; many tight spaces are difficult terrain that you can move through more quickly and without a check.",
+            "fill",
+            "property | Critical Success | You squeeze through the tight space in 1 minute per 10 feet of squeezing.",
+            "property | Success | You squeeze through in 1 minute per 5 feet.",
+            "property | Critical Failure | You become stuck in the tight space. While you're stuck, you can spend 1 minute attempting another {@skill Acrobatics} check at the same DC. Any result on that check other than a critical failure causes you to become unstuck.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.crb.stand",
+        "color": "",
+        "title": "Stand [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | move",
+            "rule",
+            "text | You stand up from prone."
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.steal",
+        "color": "",
+        "title": "Steal [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | manipulate",
+            "rule",
+            "text | You try to take a small object from another creature without being noticed. Typically, you can Steal only an object of negligible Bulk, and you automatically fail if the creature who has the object is in combat or on guard.",
+            "text | Attempt a Thievery check to determine if you successfully Steal the object. The DC to Steal is usually the Perception DC of the creature wearing the object. This assumes the object is worn but not closely guarded (like a loosely carried pouch filled with coins, or an object within such a pouch). If the object is in a pocket or similarly protected, you take a –5 penalty to your Thievery check. The GM might increase the DC of your check if the nature of the object makes it harder to steal (such as a very small item in a large pack, or a sheet of parchment mixed in with other documents).",
+            "text | You might also need to compare your Thievery check result against the Perception DCs of observers other than the person wearing the object. The GM may increase the Perception DCs of these observers if they're distracted.",
+            "fill",
+            "property | Success | You steal the item without the bearer noticing, or an observer doesn't see you take or attempt to take the item.",
+            "property | Failure | The item's bearer notices your attempt before you can take the object, or an observer sees you take or attempt to take the item. The GM determines the response of any creature that notices your theft.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.crb.step",
+        "color": "",
+        "title": "Step [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | move",
+            "property | Requirements | Your Speed is at least 10 feet.",
+            "rule",
+            "text | You carefully move 5 feet. Unlike most types of movement, Stepping doesn't trigger reactions, such as Attacks of Opportunity, that can be triggered by move actions or upon leaving or entering a square.",
+            "text | You can't Step into difficult terrain, and you can't Step using a Speed other than your land Speed."
+        ]
+    },
+    {
+        "id": "action.gmg.stop",
+        "color": "",
+        "title": "Stop [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | manipulate",
+            "property | Requirements | You are piloting a vehicle in motion.",
+            "rule",
+            "text | You bring the vehicle to a stop."
+        ]
+    },
+    {
+        "id": "action.basic.crb.stride",
+        "color": "",
+        "title": "Stride [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | move",
+            "rule",
+            "text | You move up to your Speed."
+        ]
+    },
+    {
+        "id": "action.basic.crb.strike",
+        "color": "",
+        "title": "Strike [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | attack",
+            "rule",
+            "text | You attack with a weapon you're wielding or with an unarmed attack, targeting one creature within your reach (for a melee attack) or within range (for a ranged attack). Roll the attack roll for the weapon or unarmed attack you are using, and compare the result to the target creature's AC to determine the effect. See Attack Rolls and Damage for details on calculating your attack and damage rolls.",
+            "fill",
+            "property | Critical Success | As success, but you deal double damage.",
+            "property | Success | You deal damage according to the weapon or unarmed attack, including any modifiers, bonuses, and penalties you have to damage.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.sot-1.study",
+        "color": "",
+        "title": "Study",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | downtime",
+            "property | Requirements | You are an initiate, attendant, or conversant.",
+            "rule",
+            "text | You give everything you have to your studies, in keeping with your branch. Choose either your primary or secondary branch and attempt a skill check with one of the branch's associated skills against a standard DC of the branch's level.",
+            "fill",
+            "property | Critical Success | Incredible results! You ace every exam and cause a stir that all the instructors notice. Increase the level of the branch you chose by 2.",
+            "property | Success | You succeed in your studies admirably. Increase the level of the branch you chose by 1.",
+            "property | Failure | You need to work harder and try again. Your branch level remains the same.",
+            "property | Critical Failure | You make a major mistake that requires you to perform remedial studies. The next time you would get an opportunity to attempt this activity, you must skip that opportunity to catch up.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.crb.subsist",
+        "color": "",
+        "title": "Subsist",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | downtime",
+            "rule",
+            "text | You try to provide food and shelter for yourself, and possibly others as well, with a standard of living as described here. The GM determines the DC based on the nature of the place where you're trying to Subsist. You might need a minimum proficiency rank to Subsist in particularly strange environments. Unlike most downtime activities, you can Subsist after 8 hours or less of exploration, but if you do, you take a –5 penalty",
+            "fill",
+            "property | Critical Success | You either provide a subsistence living for yourself and one additional creature, or you improve your own food and shelter, granting yourself a comfortable living.",
+            "property | Success | You find enough food and shelter with basic protection from the elements to provide you a subsistence living.",
+            "property | Failure | You're exposed to the elements and don't get enough food, becoming fatigued until you attain sufficient food and shelter.",
+            "property | Critical Failure | You attract trouble, eat something you shouldn't, or otherwise worsen your situation. You take a –2 circumstance penalty to checks to Subsist for 1 week. You don't find any food at all; if you don't have any stored up, you're in danger of starving or dying of thirst if you continue failing.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.crb.sustain-a-spell",
+        "color": "",
+        "title": "Sustain a Spell [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate",
+            "property | Requirements | You have at least one spell active with a sustained duration, and you are not fatigued.",
+            "rule",
+            "text | Choose one spell with a sustained duration you have in effect. The duration of that spell continues until the end of your next turn. Some spells might have slightly different or expanded effects if you sustain them. Sustaining a Spell for more than 10 minutes (100 rounds) ends the spell and makes you fatigued unless the spell lists a different maximum duration (such as \"sustained up to 1 minute\" or \"sustained up to 1 hour\").",
+            "text | If your Sustain a Spell action is disrupted, the spell immediately ends."
+        ]
+    },
+    {
+        "id": "action.basic.crb.sustain-an-activation",
+        "color": "",
+        "title": "Sustain an Activation [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "property | Requirements | You have at least one magic item activation that you can sustain and you are not fatigued.",
+            "rule",
+            "text | Choose one magic item activation with a sustained duration you have in effect. The duration of that activation continues until the end of your next turn. Some activations may have slightly different or expanded effects if you sustain them. Sustaining an Activation for more than 10 minutes (100 rounds) ends the activation and makes you fatigued unless the item's description states a different maximum duration (such as \"up to 1 minute\" or \"up to 1 hour\").",
+            "text | If your Sustain an Activation action is disrupted, the item's effect immediately ends."
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.swim",
+        "color": "",
+        "title": "Swim [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | move",
+            "rule",
+            "text | You propel yourself through water. In most calm water, you succeed at the action without needing to attempt a check. If you must breathe air and you're submerged in water, you must hold your breath each round. If you fail to hold your breath, you begin to drown (as described on page 478). If the water you are swimming in is turbulent or otherwise dangerous, you might have to attempt an Athletics check to Swim.",
+            "text | If you end your turn in water and haven't succeeded at a Swim action that turn, you sink 10 feet or get moved by the current, as determined by the GM. However, if your last action on your turn was to enter the water, you don't sink or move with the current that turn.",
+            "fill",
+            "property | Critical Success | You move through the water 10 feet, plus 5 feet per 20 feet of your land Speed (a total of 15 feet for most PCs).",
+            "property | Success | You move through the water 5 feet, plus 5 feet per 20 feet of your land Speed (a total of 10 feet for most PCs).",
+            "property | Critical Failure | You make no progress, and if you're holding your breath, you lose 1 round of air.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.ancestry.kobold.apg.tail-toxin",
+        "color": "",
+        "title": "Tail Toxin [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | kobold | poison",
+            "property | Requirements | You are wielding a piercing or slashing weapon.",
+            "rule",
+            "text | You apply your tail's venom to a piercing or slashing weapon. If your next Strike with that weapon before the end of your next turn hits and deals damage, you deal persistent poison damage equal to your level to the target."
+        ]
+    },
+    {
+        "id": "action.gmg.take-a-breather",
+        "color": "",
+        "title": "Take a Breather",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | exploration",
+            "rule",
+            "text | You rest for 10 minutes and recover your stamina. After you complete this activity, you regain all your Stamina Points."
+        ]
+    },
+    {
+        "id": "action.gmg.take-control",
+        "color": "",
+        "title": "Take Control [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | manipulate",
+            "property | Requirements | You are aboard the vehicle and adjacent to its controls.",
+            "rule",
+            "text | You grab the reins, the wheel, or some other mechanism to control the vehicle. Attempt a piloting check; on a success, you become the vehicle's pilot, or regain control of the vehicle if it was uncontrolled. Some vehicles have complicated controls that cause this action to become a multi-action activity."
+        ]
+    },
+    {
+        "id": "action.basic.crb.take-cover",
+        "color": "",
+        "title": "Take Cover [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "property | Requirements | You are benefiting from cover, are near a feature that allows you to take cover, or are prone.",
+            "rule",
+            "text | You press yourself against a wall or duck behind an obstacle to take better advantage of cover. If you would have standard cover, you instead gain greater cover, which provides a +4 circumstance bonus to AC; to Reflex saves against area effects; and to Stealth checks to Hide, Sneak, or otherwise avoid detection. Otherwise, you gain the benefits of standard cover (a +2 circumstance bonus instead). This lasts until you move from your current space, use an attack action, become unconscious, or end this effect as a free action."
+        ]
+    },
+    {
+        "id": "action.basic.skill.trained.som.tap-ley-line",
+        "color": "",
+        "title": "Tap Ley Line [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate",
+            "rule",
+            "text | You attempt to manipulate the magical essence of a ley line that you're aware of within 30 feet. The GM determines the DC based on the hard DC for the ley line's level.",
+            "fill",
+            "property | Critical Success | You gain the ley line's benefits until the end of your next turn.",
+            "property | Success | You gain the ley line's benefits until the end of your turn.",
+            "property | Failure | You take mental damage equal to {@dice 1d6*#$prompt_number:min=1,title=Ley Line Level,default=1$#|1d6 × the ley line's level}. You can't Tap the Ley Line again for 1 hour.",
+            "property | Critical Failure | As failure, and you're subject to the ley line's backlash effect. You can't Tap the Ley Line again for 24 hours.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.class.gunslinger.subclass.pistolero.g-g.ten-paces",
+        "color": "",
+        "title": "Ten Paces [[free-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | gunslinger",
+            "property | Trigger | You roll Initiative.",
+            "rule",
+            "text | You react to trouble with lightning speed, positioning yourself just right. You gain a +2 circumstance bonus to your initiative roll, and you can Interact to draw a one-handed firearm or one-handed crossbow. As your first action on your first turn, you can Step up to 10 feet as a free action."
+        ]
+    },
+    {
+        "id": "action.g-g.thoughtful-reload",
+        "color": "",
+        "title": "Thoughtful Reload [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | gunslinger",
+            "rule",
+            "text | As you sink deep into a state of analytical calm and focus on the foe before you, your hands reload a bullet instinctively. Attempt a Recall Knowledge check against an opponent you can see and then Interact to reload."
+        ]
+    },
+    {
+        "id": "action.ancestry.lizardfolk.locg.threatening-approach",
+        "color": "",
+        "title": "Threatening Approach [[two-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "rule",
+            "text | You Stride to be adjacent to a foe and Demoralize that foe. If you succeed, the foe is frightened 2 instead of frightened 1."
+        ]
+    },
+    {
+        "id": "action.ancestry.grippli.lome.toxic-skin",
+        "color": "",
+        "title": "Toxic Skin [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | grippli | poison",
+            "property | Trigger | A creature touches you, such as by Grappling you, successfully hitting you with an unarmed attack, or using a touch-range spell against you.",
+            "rule",
+            "text | You exude a deadly toxin. The triggering creature takes 1d4 poison damage (basic Fortitude save using your class DC or spell DC, whichever is higher). At 3rd level and every 2 levels thereafter, the damage increases by 1d4."
+        ]
+    },
+    {
+        "id": "action.basic.skill.trained.crb.track",
+        "color": "",
+        "title": "Track",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | exploration | move",
+            "rule",
+            "text | You follow tracks, moving at up to half your travel Speed.. After a successful check to Track, you can continue following the tracks at half your Speed without attempting additional checks for up to 1 hour. In some cases, you might Track in an encounter. In this case, Track is a single action and doesn't have the exploration trait, but you might need to roll more often because you're in a tense situation. The GM determines how often you must attempt this check.",
+            "text | You attempt your Survival check when you start Tracking, once every hour you continue tracking, and any time something significant changes in the trail. The GM determines the DCs for such checks, depending on the freshness of the trail, the weather, and the type of ground.",
+            "fill",
+            "property | Success | You find the trail or continue to follow the one you're already following.",
+            "property | Failure | You lose the trail but can try again after a 1-hour delay.",
+            "property | Critical Failure | You lose the trail and can't try again for 24 hours.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.gmg.travel",
+        "color": "",
+        "title": "Travel",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | move",
+            "rule",
+            "text | You progress toward moving into an adjacent hex. In open terrain, like a plain, using 1 Travel activity allows you to move from one hex to an adjacent hex. Traversing a hex with difficult terrain (such as a typical forest or desert) requires 2 Travel activities, and hexes of greater difficult terrain (such as a steep mountain or typical swamp) require 3 Travel activities to traverse. Traveling along a road uses a terrain type one step better than the surrounding terrain. For example, if you are traveling on a road over a mountain pass, the terrain is difficult terrain instead of greater difficult terrain.",
+            "text | The Travel activity assumes you are walking overland. If you are flying or traveling on water, most hexes are open terrain, though there are exceptions. Flying into storms or high winds count as difficult or greater difficult terrain. Traveling down a river is open terrain, but traveling upriver is difficult or greater difficult terrain."
+        ]
+    },
+    {
+        "id": "action.basic.skill.trained.crb.treat-disease",
+        "color": "",
+        "title": "Treat Disease",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | downtime | manipulate",
+            "property | Requirements | You are holding healer's tools, or you are wearing them and have a hand free.",
+            "rule",
+            "text | You spend at least 8 hours caring for a diseased creature. Attempt a Medicine check against the disease's DC. After you attempt to Treat a Disease for a creature, you can't try again until after that creature's next save against the disease.",
+            "fill",
+            "property | Critical Success | You grant the creature a +4 circumstance bonus to its next saving throw against the disease.",
+            "property | Success | You grant the creature a +2 circumstance bonus to its next saving throw against the disease.",
+            "property | Critical Failure | Your efforts cause the creature to take a –2 circumstance penalty to its next save against the disease.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.skill.trained.crb.treat-poison",
+        "color": "",
+        "title": "Treat Poison [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | manipulate",
+            "property | Requirements | You are holding healer's tools, or you are wearing them and have a hand free.",
+            "rule",
+            "text | You treat a patient to prevent the spread of poison. Attempt a Medicine check against the poison's DC. After you attempt to Treat a Poison for a creature, you can't try again until after the next time that creature attempts a save against the poison.",
+            "fill",
+            "property | Critical Success | You grant the creature a +4 circumstance bonus to its next saving throw against the poison.",
+            "property | Success | You grant the creature a +2 circumstance bonus to its next saving throw against the poison.",
+            "property | Critical Failure | Your efforts cause the creature to take a –2 circumstance penalty to its next save against the poison.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.skill.trained.crb.treat-wounds",
+        "color": "",
+        "title": "Treat Wounds",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | exploration | healing | manipulate",
+            "property | Requirements | You are holding healer's tools, or you are wearing them and have a hand free.",
+            "rule",
+            "text | You spend 10 minutes treating one injured living creature (targeting yourself, if you so choose). The target is then temporarily immune to Treat Wounds actions for 1 hour, but this interval overlaps with the time you spent treating (so a patient can be treated once per hour, not once per 70 minutes).",
+            "text | The Medicine check DC is usually 15, though the GM might adjust it based on the circumstances, such as treating a patient outside in a storm, or treating magically cursed wounds. If you're an expert in Medicine, you can instead attempt a DC 20 check to increase the Hit Points regained by 10; if you're a master of Medicine, you can instead attempt a DC 30 check to increase the Hit Points regained by 30; and if you're legendary, you can instead attempt a DC 40 check to increase the Hit Points regained by 50. The damage dealt on a critical failure remains the same.",
+            "text | If you succeed at your check, you can continue treating the target to grant additional healing. If you treat them for a total of 1 hour, double the Hit Points they regain from Treat Wounds.",
+            "text | The result of your Medicine check determines how many Hit Points the target regains.",
+            "fill",
+            "property | Critical Success | The target regains {@dice 4d8} Hit Points, and its wounded condition is removed.",
+            "property | Success | The target regains {@dice 2d8} Hit Points, and its wounded condition is removed.",
+            "property | Critical Failure | The target takes {@dice 1d8} damage",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.trip",
+        "color": "",
+        "title": "Trip [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | attack",
+            "property | Requirements | You have at least one hand free. Your target can't be more than one size larger than you.",
+            "rule",
+            "text | You try to knock an opponent to the ground. Attempt an Athletics check against the target's Reflex DC.",
+            "fill",
+            "property | Critical Success | The target falls and lands {@condition prone|CRB} and takes {@dice 1d6} bludgeoning damage.",
+            "property | Success | The target falls and lands {@condition prone|CRB}.",
+            "property | Critical Failure | You lose your balance and fall and land {@condition prone|CRB}.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.basic.skill.untrained.crb.tumble-through",
+        "color": "",
+        "title": "Tumble Through [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | move",
+            "rule",
+            "text | You Stride up to your Speed. During this movement, you can try to move through the space of one enemy. Attempt an Acrobatics check against the enemy's Reflex DC as soon as you try to enter its space. You can Tumble Through using Climb, Fly, Swim, or another action instead of Stride in the appropriate environment.",
+            "fill",
+            "property | Success | You move through the enemy's space, treating the squares in its space as {@quickref difficult terrain||3|terrain} (every 5 feet costs 10 feet of movement). If you don't have enough Speed to move all the way through its space, you get the same effect as a failure.",
+            "property | Failure | Your movement ends, and you trigger reactions as if you had moved out of the square you started in.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.class.gunslinger.subclass.sniper.g-g.vital-shot",
+        "color": "",
+        "title": "Vital Shot [[two-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | gunslinger",
+            "rule",
+            "text | Your careful shot against an unsuspecting opponent pierces a vital artery or organ. Make a ranged Strike. If the target is flat-footed, the Strike deals an extra die of weapon damage, and the foe takes persistent bleed damage equal to the amount of precision damage from your One Shot, One Kill."
+        ]
+    }
+]

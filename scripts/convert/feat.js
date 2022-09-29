@@ -5,6 +5,8 @@ const {
     getTextEntries,
     classList,
     parseActivity,
+    getMatchedAncestry,
+    unpackText,
 } = require('../util/crobiUtil');
 const { DataUtil, SortUtil, Renderer } = require('../util/toolUtil');
 
@@ -88,15 +90,15 @@ const getContent = ({
                     .join(' | ')
         );
 
-    if (requirements) {
-        lineArr.push(
-            'property | Requirements | ' + Renderer.stripTags(requirements)
-        );
-    }
-
     if (prerequisites) {
         lineArr.push(
             'property | Prerequisites | ' + Renderer.stripTags(prerequisites)
+        );
+    }
+
+    if (requirements) {
+        lineArr.push(
+            'property | Requirements | ' + Renderer.stripTags(requirements)
         );
     }
 
@@ -151,7 +153,7 @@ const getIcon = ({ traits }) => {
     }
 };
 
-const getId = ({ name, traits, featType: fta }) => {
+const getId = ({ name, traits, featType: fta, source }) => {
     const idArr = ['feat'];
     let featType = 'ancestry';
     let className;
@@ -185,9 +187,17 @@ const getId = ({ name, traits, featType: fta }) => {
 
     idArr.push(featType);
 
+    const ancestryMatch = getMatchedAncestry(traits);
+    if (ancestryMatch && ancestryMatch.length) idArr.push(ancestryMatch[0]);
+
     if (className) idArr.push(className);
+
+    idArr.push(source.toLowerCase());
 
     idArr.push(name);
 
-    return idArr.map((e) => kebabCase(e)).join('.');
+    return idArr
+        .flat()
+        .map((e) => kebabCase(unpackText(e)))
+        .join('.');
 };

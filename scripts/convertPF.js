@@ -1,4 +1,5 @@
 const fs = require('fs');
+const { convertActions2Save } = require('./convert/action');
 const { convertFeats2Save } = require('./convert/feat');
 const { convertItem, convertItems2Save } = require('./convert/item');
 const { readFilesSync } = require('./util/readFiles');
@@ -47,7 +48,11 @@ const packer = () => {
         saveFile(dest + fileName + '.json', file);
         saveFile(
             yaml + fileName + '.yaml',
-            file.map(e=>e.id).sort().map((e) => '        - ' + e).join('\n')
+            file
+                .map((e) => e.id)
+                .sort()
+                .map((e) => '        - ' + e)
+                .join('\n')
         );
     };
 
@@ -56,6 +61,8 @@ const packer = () => {
     convertItems2Save(content.baseitem, saveFn('base-item'));
 
     convertFeats2Save(content.feat, saveFn('feat'));
+
+    convertActions2Save(content.action, saveFn('action'));
 
     // console.log(`found ${content.length} unique items`);
 

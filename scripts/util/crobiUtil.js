@@ -34,6 +34,41 @@ const classList = [
     'wizard',
 ];
 
+getMatchedClass = (traits) => {
+    return classList.filter((e) => traits.includes(e));
+};
+
+const ancestryList = [
+    'dwarf',
+    'elf',
+    'gnome',
+    'goblin',
+    'half-orc',
+    'halfling',
+    'human',
+    'half-elf',
+    'bugbear',
+    'changeling',
+    'hobgoblin',
+    'kobold',
+    'orc',
+    'shifter',
+    'warforged',
+    'catfolk',
+    'dragonborn',
+    'gnoll',
+    'lizardfolk',
+    'automaton',
+    'fleshwarp',
+    'sprite',
+    'aasimar',
+    'kalashtar',
+    'tiefling',
+];
+
+getMatchedAncestry = (traits) => {
+    return ancestryList.filter((e) => traits.includes(e));
+};
 const getTextEntries = ({ entries = [] }) => {
     const lineArr = [];
 
@@ -132,5 +167,7 @@ module.exports = {
     initCard,
     getTextEntries,
     classList,
+    getMatchedAncestry,
     parseActivity,
+    unpackText: (str) => str.split('|')[0].trim(),
 };
