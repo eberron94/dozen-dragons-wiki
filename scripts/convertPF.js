@@ -2,6 +2,7 @@ const fs = require('fs');
 const { convertActions2Save } = require('./convert/action');
 const { convertFeats2Save } = require('./convert/feat');
 const { convertItem, convertItems2Save } = require('./convert/item');
+const { convertSpell2Save } = require('./convert/spell');
 const { readFilesSync } = require('./util/readFiles');
 
 const saveFile = (name, data) => {
@@ -63,6 +64,7 @@ const packer = () => {
     convertFeats2Save(content.feat, saveFn('feat'));
 
     convertActions2Save(content.action, saveFn('action'));
+    convertSpell2Save(content.spell, saveFn('spell'));
 
     // console.log(`found ${content.length} unique items`);
 

@@ -14,7 +14,7 @@
     {
         "id": "action.class.summoner.som.act-together",
         "color": "",
-        "title": "Act Together",
+        "title": "Act Together [[one-action]] to [[three-action]]",
         "icon_front": "ace",
         "code": "action",
         "contents": [

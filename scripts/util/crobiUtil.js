@@ -1,3 +1,4 @@
+const { toInteger } = require('lodash');
 const { Renderer } = require('./toolUtil');
 
 const initCard = () => ({
@@ -159,8 +160,56 @@ const parseActivity = ({ number, unit, entry }) => {
             return '[[reaction]]';
     }
 
-    if (entry) return entry;
+    if (entry) return parseUp(entry);
     return number + ' ' + unit;
+};
+
+const parseSavingThrow = ({ type, basic }) => {
+    return (
+        (basic ? 'basic ' : '') +
+        type
+            .map((t) => {
+                switch (t.toLowerCase()) {
+                    case 'f':
+                    case 'fortitude':
+                        return 'Fortitude';
+                    case 'r':
+                    case 'reflex':
+                        return 'Reflex';
+                    case 'w':
+                    case 'will':
+                        return 'Will';
+                }
+            })
+            .join(' or ')
+    );
+};
+
+const parseUp = (str) => {
+    str = str.replace(/{@as 1}/g, '[[one-action]]');
+    str = str.replace(/{@as 2}/g, '[[two-action]]');
+    str = str.replace(/{@as 3}/g, '[[three-action]]');
+
+    return str;
+};
+
+const nthStr = (num) => {
+    switch (parseInt(num)) {
+        case 1:
+            return '1st';
+        case 2:
+            return '2nd';
+        case 3:
+            return '3rd';
+        case NaN:
+            return '?th';
+        default:
+            return num + 'th';
+    }
+};
+
+const cleanContent = (arr) => {
+    return arr.map((e) => Renderer.stripTags(e));
 };
 
 module.exports = {
@@ -170,4 +219,8 @@ module.exports = {
     getMatchedAncestry,
     parseActivity,
     unpackText: (str) => str.split('|')[0].trim(),
+    parseUp,
+    parseSavingThrow,
+    nthStr,
+    cleanContent,
 };
