@@ -167,7 +167,9 @@ const getId = ({ name, traits, featType: fta, source }) => {
     // Check for Archetype
     if (traits.includes('archetype')) {
         featType = 'archetype';
-        if (fta?.archetype) className = fta.archetype.join('-');
+        // console.log(fta?.archetype);
+        if (fta?.archetype && Array.isArray(fta.archetype))
+            className = fta.archetype?.join('-') || String(fta.archetype);
     }
 
     // Check for General

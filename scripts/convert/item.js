@@ -111,10 +111,11 @@ const getId = ({
     variantType,
     category,
     subCategory,
-    type, source,
+    type,
+    source,
     ...item
 }) => {
-    const idArr = [type?.toLowerCase() || 'item', category.toLowerCase()];
+    const idArr = [type?.toLowerCase() || 'item', String(category).toLowerCase()];
 
     if (idArr[0] === idArr[1]) {
         idArr[0] = 'item';
@@ -133,7 +134,8 @@ const getId = ({
 };
 
 const getIcon = ({ category, subCategory, usage, weaponData, ...item }) => {
-    switch (category.toLowerCase()) {
+    // if (typeof category !== 'string') return 'ERROR';
+    switch (String(category).toLowerCase()) {
         case 'bomb':
             return 'unlit-bomb';
         case 'material':
