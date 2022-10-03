@@ -8,7 +8,8 @@
         "build": "node index.js",
         "fastbuild": "node fast-build.js",
         "prep": "node ./scripts/convertPF.js",
-        "prep-build": "npm run prep && npm run build"
+        "prep-build": "npm run prep && npm run build",
+        "static": "node copy-static.js"
     },
     "repository": {
         "type": "git",

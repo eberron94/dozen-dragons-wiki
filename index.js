@@ -28,9 +28,8 @@ fs.emptyDir('build', (err) => {
     fs.copy('static', 'build', (err) => {
         if (err) return console.error(err);
         console.log('static files copied into build folder');
+        buildSite();
     });
-
-    buildSite();
 });
 
 // rmDir('build');
