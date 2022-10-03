@@ -145,6 +145,7 @@
         - action.class.magus.som.arcane-cascade
         - action.class.magus.som.spellstrike
         - action.class.monk.crb.flurry-of-blows
+        - action.class.psychic.da.unleash-psyche
         - action.class.ranger.crb.hunt-prey
         - action.class.rogue.crb.debilitating-strike
         - action.class.rogue.crb.master-strike
@@ -154,6 +155,20 @@
         - action.class.swashbuckler.apg.confident-finisher
         - action.class.swashbuckler.apg.opportune-riposte
         - action.class.wizard.crb.drain-bonded-item
+        - action.da.amulets-abeyance
+        - action.da.calculate-threats
+        - action.da.drink-from-the-chalice
+        - action.da.exploit-vulnerability
+        - action.da.fade-into-daydreams
+        - action.da.fling-magic
+        - action.da.implements-interruption
+        - action.da.intensify-vulnerability
+        - action.da.mirrors-reflection
+        - action.da.psychic-defense
+        - action.da.recall-the-teachings
+        - action.da.recenter
+        - action.da.restore-the-mind
+        - action.da.ring-bell
         - action.g-g.accidental-shot
         - action.g-g.thoughtful-reload
         - action.gmg.board

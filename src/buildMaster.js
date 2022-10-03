@@ -61,6 +61,16 @@ exports.buildSite = () => {
         });
     });
 
+    ensureDirectoryExistence('./build/js');
+    fs.writeFile(
+        './build/js/kaiser.js',
+        kaiser.data.itemCard.print(),
+        (err) => {
+            if (err) console.error(err);
+            else console.log('/js/kaiser.js', 'file written successfully');
+        }
+    );
+
     /**
      * DEBUG: write kaiser to file
      */
@@ -110,6 +120,15 @@ const registerHandlebars = () => {
         'traits',
         compileHandlebarTemplate('templates/game/traits.hbs')
     );
+
+    Handlebars.registerHelper('card', (context, options) => {
+        const cardFind = kaiser.data.itemCard.find(context.trim());
+
+        if (cardFind && cardFind?.block?.index) return cardFind.block.index;
+
+        console.log('MISSING ID', context);
+        return 'ERROR: INVALID ID';
+    });
 
     Handlebars.registerHelper('featureClass', (context, options) => {
         return compileHandlebarTemplate('templates/game/feature.hbs')(

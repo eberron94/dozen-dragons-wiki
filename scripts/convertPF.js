@@ -5,6 +5,8 @@ const { convertItem, convertItems2Save } = require('./convert/item');
 const { convertSpell2Save } = require('./convert/spell');
 const { readFilesSync } = require('./util/readFiles');
 
+const workingKeys = ['spell', 'baseitem', 'item', 'action', 'feat'];
+
 const saveFile = (name, data) => {
     try {
         if (typeof data === 'object')
@@ -31,7 +33,9 @@ const packer = () => {
     const content = {};
 
     for (const fileData of rawContent) {
-        for (const key of Object.keys(fileData)) {
+        for (const key of Object.keys(fileData).filter((k) =>
+            workingKeys.includes(k)
+        )) {
             console.log(
                 `working on "${key}" with ${fileData[key].length} values`
             );

@@ -7,6 +7,7 @@
         - equipment.armor.light.crb.leather
         - equipment.armor.light.crb.padded-armor
         - equipment.armor.light.crb.studded-leather
+        - equipment.armor.light.lokl.armored-coat
         - equipment.armor.medium.crb.breastplate
         - equipment.armor.medium.crb.chain-mail
         - equipment.armor.medium.crb.hide
@@ -18,7 +19,7 @@
         - equipment.shield.crb.steel-shield
         - equipment.shield.crb.tower-shield
         - equipment.shield.crb.wooden-shield
-        - equipment.weapon.advanced.apg.longbow
+        - equipment.weapon.advanced.apg.daikyu
         - equipment.weapon.advanced.av-2.tamchal-chakram
         - equipment.weapon.advanced.av-3.rhoka-sword
         - equipment.weapon.advanced.av-3.shauth-lash
@@ -59,6 +60,7 @@
         - equipment.weapon.martial.apg.tengu-gale-blade
         - equipment.weapon.martial.apg.wakizashi
         - equipment.weapon.martial.av-3.shauth-blade
+        - equipment.weapon.martial.b-1.ogre-hook
         - equipment.weapon.martial.b-2.gaff
         - equipment.weapon.martial.bst.gaff
         - equipment.weapon.martial.crb.bastard-sword
@@ -164,6 +166,8 @@
         - equipment.weapon.martial.logm.tekko-kagi
         - equipment.weapon.martial.logm.urumi
         - equipment.weapon.martial.logm.war-razor
+        - equipment.weapon.martial.lokl.bladed-gauntlet
+        - equipment.weapon.martial.lokl.war-lance
         - equipment.weapon.martial.lopsg.boarding-pike
         - equipment.weapon.martial.lopsg.combat-grapnel
         - equipment.weapon.martial.lopsg.stiletto-pen
@@ -222,4 +226,5 @@
         - item.weapon.martial.lotgb.griffon-cane
         - item.weapon.martial.lotgb.probing-cane
         - item.weapon.martial.sot-4.lion-scythe
+        - item.weapon.martial.sot-5.shobhad-longrifle
         - item.weapon.simple.fop.alchemical-crossbow

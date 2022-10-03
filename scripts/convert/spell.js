@@ -123,8 +123,6 @@ const getContent = ({
         line = '';
     }
 
-    if (duration) lineArr.push(`property | Duration | ${duration.entry}`);
-
     if (savingThrow)
         lineArr.push(
             'property | Saving Throw | ' + parseSavingThrow(savingThrow)
@@ -149,7 +147,7 @@ const getContent = ({
         lineArr.push(line);
     }
 
-    
+    if (duration) lineArr.push(`property | Duration | ${duration.entry}`);
 
     lineArr.push('rule');
 
@@ -191,7 +189,7 @@ const handleHeightened = ({ plusX, X: x }) => {
     return [];
 };
 
-const getId = ({ traits, source, focus, ...item }) => {
+const getId = ({ traits, source, focus, level, ...item }) => {
     const idArr = ['spell'];
 
     if (traits.includes('cantrip') && focus === true) {
@@ -203,6 +201,8 @@ const getId = ({ traits, source, focus, ...item }) => {
     } else {
         idArr.push('slot');
     }
+
+    idArr.push(nthStr(level));
 
     // Add name
     idArr.push(source.toLowerCase());

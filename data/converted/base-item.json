@@ -1,5 +1,47 @@
 [
     {
+        "id": "equipment.weapon.martial.lokl.war-lance",
+        "color": "",
+        "title": "War Lance",
+        "icon_front": "trident",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | deadly d8 | jousting d6 | parry | shove",
+            "property | Hands | 2 | Bulk | 2 | Price | 4 gp",
+            "property | Category | Martial Weapon | Group | Spear",
+            "rule",
+            "text | This lance appears shorter and stockier in comparison to other weapons of its type. The war lance most notably features shielding integrated into its vamplate, exchanging its reach for a sturdier base when defending against attacks or attempting to overpower an opponent."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.lokl.bladed-gauntlet",
+        "color": "",
+        "title": "Bladed Gauntlet",
+        "icon_front": "brass-knuckles",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | agile | finesse | free-hand | modular B, P, or S",
+            "property | Hands | 1 | Bulk | L | Price | 5 gp",
+            "property | Category | Martial Weapon | Group | Brawling",
+            "rule",
+            "text | A dagger attached to a retractable mechanism is integrated in this gauntlet's dorsum, so a combatant can quickly arm themself with a blade to exploit the weak points in an enemy's armor. Switching configurations on the gauntlet reveals or retracts the contained dagger as appropriate. The dagger isn't removable, and thus can't be wielded or etched with runes separately from the gauntlet."
+        ]
+    },
+    {
+        "id": "equipment.weapon.martial.b-1.ogre-hook",
+        "color": "",
+        "title": "Ogre Hook",
+        "icon_front": "war-pick",
+        "code": "equipment",
+        "contents": [
+            "pftrait | uncommon | deadly d10 | trip",
+            "property | Hands | 2 | Bulk | 2 | Price | 1 gp",
+            "property | Category | Martial Weapon | Group | Pick",
+            "rule",
+            "text | Ogres are known for using immense, curved picks called ogre hooks. These uncommon weapons cost 1 gp, deal 1d10 piercing damage, have 2 Bulk, and require two hands to use. Ogre hooks are in the pick weapon group. Ogre hooks have the deadly 1d10 and trip weapon traits."
+        ]
+    },
+    {
         "id": "equipment.weapon.martial.loag.adze",
         "color": "",
         "title": "Adze",
@@ -204,14 +246,14 @@
         "icon_front": "blunderbuss",
         "code": "item 1",
         "contents": [
-            "pftrait | uncommon | cobbled | fatal d12 | modular b, p, or s",
+            "pftrait | uncommon | cobbled | fatal d12 | goblin | modular b, p, or s",
             "property | Hands | 1 | Bulk | 2 | Price | 10 gp",
             "property | Category | Martial Weapon | Group | Firearm",
             "rule",
             "text | Developed by a goblin weaponsmith who missed the 'hand' part of 'hand cannon', this comically-oversized gun has a heavily reinforced barrel and is loaded with a worrisome quantity of gunpowder.",
             "text | This hand cannon is a martial weapon, instead of a simple weapon. It has the fatal d12 trait and a range of 20 feet. It also has the following modified critical failure condition:",
             "fill",
-            "property | Critical Failure | The attack misses, the weapon misfires, and you take {@damage 1d12} fire damage as it explodes in your face.",
+            "property | Critical Failure | The attack misses, the weapon misfires, and you take 1d12 fire damage as it explodes in your face.",
             "fill"
         ]
     },
@@ -353,6 +395,22 @@
             "property | Category | Martial Weapon | Group | Sling",
             "rule",
             "text | This throwing weapon consists of weights tied to the end of long cords, which can be used to bludgeon foes or entangle their legs."
+        ]
+    },
+    {
+        "id": "equipment.armor.light.lokl.armored-coat",
+        "color": "",
+        "title": "Armored Coat",
+        "icon_front": "leather-armor",
+        "code": "equipment",
+        "contents": [
+            "pftrait | comfort | flexible",
+            "property | Bulk | 2 | Price | 20 gp",
+            "property | AC Bonus | +2 | Dex Cap | +2",
+            "property | Str Req. | 14 | Check Penalty | --1",
+            "property | Category | Light Armor | Group | Leather",
+            "rule",
+            "text | A custom, lightweight mail is fitted within the lining of a coat or similar apparel, physically hiding the armor while maintaining the wearer's fashion. While not nearly as protective as heavier armors, the armored coat allows the wearer to blend in more aesthetically during civilian functions. Like other suits of armor, the armored coat is custom-fitted to an individual's body type, ensuring comfort without sacrificing its defensive capabilities."
         ]
     },
     {
@@ -1793,9 +1851,9 @@
         ]
     },
     {
-        "id": "equipment.weapon.advanced.apg.longbow",
+        "id": "equipment.weapon.advanced.apg.daikyu",
         "color": "",
-        "title": "Longbow",
+        "title": "Daikyu",
         "icon_front": "crossbow",
         "code": "equipment",
         "contents": [
@@ -1846,6 +1904,21 @@
             "property | Category | Martial Weapon | Group | Sword",
             "rule",
             "text | Longswords can be one-edged or two-edged swords. Their blades are heavy and they're between 3 and 4 feet in length."
+        ]
+    },
+    {
+        "id": "item.weapon.martial.sot-5.shobhad-longrifle",
+        "color": "",
+        "title": "Shobhad Longrifle",
+        "icon_front": "blunderbuss",
+        "code": "item 1",
+        "contents": [
+            "pftrait | rare | backstabber | concussive | fatal d12 | kickback | volley",
+            "property | Bulk | 1 | Price | 20 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "rule",
+            "text | The shobhad longrifle is a firearm with a long, rifled barrel. Often mounted with a multi-lensed scope for targeting at an array of ranges and a chambering mechanism that can adjust the speed and penetrating power of each shot, it's the preferred weapon of many shobhad warriors. Shobhad longrifles are equipped with a built-in silencer so they make no more noise than a crossbow when fired.",
+            "text | For more information on firearms, see Pathfinder Guns & Gears. If you don't wish to include firearms in your Strength of Thousands campaign, simply substitute the longrifles wielded by shobhads in this adventure with composite longbows."
         ]
     },
     {
@@ -2283,7 +2356,7 @@
         "code": "equipment",
         "contents": [
             "pftrait | uncommon | repeating",
-            "property | Hands | 2 | Bulk | 1 | Price | 10 gp",
+            "property | Hands | 2 | Bulk | 1 | Price | 15 gp",
             "property | Category | Advanced Weapon | Group | Bow",
             "rule",
             "text | This crossbow has an internal chamber that can be loaded with up to five bolts. An automated catch mechanism at the top of the flight groove, just in front of the latch, locks the bowstring and launches bolts with the pull of a trigger."

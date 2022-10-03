@@ -20,8 +20,21 @@ exports.composeCard = (original) => {
     return {
         list,
         find: (id) => list.find((item) => item.id === id),
+        findPartials: (id) => {
+            const pid = id.replace('P::', '');
+            const foundList = list.filter((item) => item.id.startsWith(pid));
+
+            return foundList;
+        },
         buildBlocks: (buildFn) => buildFn(list, 'item-card.hbs'),
         // buildTooltips: (buildFn) => buildFn(list, 'item-card.hbs'),
+        print: () => {
+            const kMap = {};
+
+            list.forEach(({ id, data }) => (kMap[id] = { id, ...data }));
+
+            return `const kaiser = ${JSON.stringify(kMap, null, 4)};`;
+        },
     };
 };
 
@@ -60,6 +73,7 @@ const parse = (item) => {
             icon_front,
             icon_back,
             color,
+            code,
         },
         card: {
             title: markup(title),

@@ -2,43 +2,19 @@
     display: grid;
     column-gap: 24px;
     -webkit-column-gap: 24px;
-    grid-template-columns: calc(50% - 8px) calc(50% - 8px);
+    grid-template-columns: calc(50% - 16px) calc(50% - 16px);
     margin-bottom: 8px;
 }
 
-.rightArrow {
-    flex: 0 0 auto;
-    font-size: 24px;
-    transition: color 0.2s ease 0s;
-    color: #9daab6;
-}
-
+.rightArrow,
 .leftArrow {
-    color: #9daab6;
     flex: 0 0 auto;
     font-size: 24px;
     transition: color 0.2s ease 0s;
+    color: #9daab6;
 }
 
-.nextBtn {
-    cursor: pointer;
-    -moz-box-align: center;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    place-self: stretch;
-    color: #242a31;
-    background-color: #fff;
-    border-radius: 3px;
-    border: 1px solid #e6ecf1;
-    transition: border 0.2s ease 0s;
-    box-shadow: 0 3px 8px 0 rgb(116 129 141 / 10%);
-    text-decoration: none;
-}
-
+.nextBtn,
 .previousBtn {
     cursor: pointer;
     -moz-box-align: center;

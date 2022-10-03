@@ -5,7 +5,7 @@
 
 .tooltip .tool-tip-content {
     visibility: hidden;
-    width: 120px;
+    width: 160px;
     height: 40px;
     background-color: black;
     color: #fff;
@@ -16,9 +16,15 @@
     z-index: 1;
     top: calc(50% - 20px);
     right: 105%;
-    
+
+    font-size: small;
 }
 
+#id-tool .tooltip .tool-tip-content {
+    top: unset;
+    bottom: calc(50% + 20px);
+    right: 0%;
+}
 
 .tooltip:hover .tool-tip-content {
     visibility: visible;

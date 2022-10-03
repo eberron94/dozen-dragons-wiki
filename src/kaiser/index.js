@@ -1,4 +1,5 @@
 const { template } = require('handlebars');
+const { list } = require('../card/parts/list');
 const { colatePages } = require('../pageManager/colatePages');
 const { arrayToObject, bucketArray } = require('../util/arrays');
 const { cape } = require('../util/cape');
@@ -230,6 +231,8 @@ class Kaiser {
 
         return matchedBlock.index;
     }
+
+    
 }
 
 const makeChildNode = (n) => ({

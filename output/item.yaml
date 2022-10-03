@@ -22,6 +22,8 @@
         - item.adjustment.armor.lotgb.twining-chains
         - item.adjustment.clothing.lotgb.pickpockets-tailoring
         - item.adjustment.clothing.lotgb.tear-away-clothing
+        - item.adjustment.lokl.parade-armor
+        - item.adjustment.lokl.throwing-shield
         - item.adjustment.shield.lotgb.dragons-crest
         - item.adjustment.shield.lotgb.shield-augmentation
         - item.adventuring-gear.apg.brass-ear
@@ -146,6 +148,13 @@
         - item.adventuring-gear.g-g.timepiece-desktop-clock
         - item.adventuring-gear.g-g.timepiece-grand-clock
         - item.adventuring-gear.locg.armored-skirt
+        - item.adventuring-gear.lokl.hollowed-hilt
+        - item.adventuring-gear.lokl.knights-maintenance-kit
+        - item.adventuring-gear.lokl.knights-standard
+        - item.adventuring-gear.lokl.knights-tabard
+        - item.adventuring-gear.lokl.portable-altar
+        - item.adventuring-gear.lokl.travelers-cloak
+        - item.adventuring-gear.lokl.war-saddle
         - item.adventuring-gear.lopsg.buoyancy-vest
         - item.adventuring-gear.lopsg.cartographers-kit
         - item.adventuring-gear.lopsg.clockwork-dial
@@ -256,6 +265,7 @@
         - item.armor.ec-2.spangled-riders-suit
         - item.armor.ec-6.jerkin-of-liberation
         - item.armor.gmg.medusa-armor
+        - item.armor.lokl.armor-of-the-holy-warrior
         - item.armor.lol.sovereign-steel-armor-high-grade
         - item.armor.lol.sovereign-steel-armor-standard-grade
         - item.armor.lotgb.abysium-armor-high-grade
@@ -361,10 +371,10 @@
         - item.bomb.av-3.necrotic-bomb-lesser
         - item.bomb.av-3.necrotic-bomb-major
         - item.bomb.av-3.necrotic-bomb-moderate
-        - item.bomb.botd.greater
-        - item.bomb.botd.lesser
-        - item.bomb.botd.major
-        - item.bomb.botd.moderate
+        - item.bomb.botd.bottled-sunlight-greater
+        - item.bomb.botd.bottled-sunlight-lesser
+        - item.bomb.botd.bottled-sunlight-major
+        - item.bomb.botd.bottled-sunlight-moderate
         - item.bomb.crb.acid-flask-greater
         - item.bomb.crb.acid-flask-lesser
         - item.bomb.crb.acid-flask-major
@@ -401,12 +411,23 @@
         - item.bomb.lotgb.vexing-vapor-lesser
         - item.bomb.lotgb.vexing-vapor-major
         - item.bomb.lotgb.vexing-vapor-moderate
+        - item.bomb.pfum.junk-bomb-greater
+        - item.bomb.pfum.junk-bomb-lesser
+        - item.bomb.pfum.junk-bomb-major
+        - item.bomb.pfum.junk-bomb-moderate
+        - item.bomb.pfum.pressure-bomb-greater
+        - item.bomb.pfum.pressure-bomb-lesser
+        - item.bomb.pfum.pressure-bomb-major
+        - item.bomb.pfum.pressure-bomb-moderate
         - item.companion.crb.barding-of-the-zephyr
         - item.companion.crb.collar-of-empathy
         - item.companion.crb.collar-of-inconspicuousness
         - item.companion.crb.horseshoes-of-speed
         - item.companion.crb.horseshoes-of-speed-greater
+        - item.companion.da.chaos-collar
         - item.companion.ec-5.bombers-saddle
+        - item.companion.lokl.barding-saddle
+        - item.companion.lokl.swiftmount-saddle
         - item.companion.lotgb.horned-hand-rests
         - item.companion.lotgb.hosteling-statuette
         - item.companion.lotgb.swarmform-collar
@@ -461,6 +482,14 @@
         - item.consumable.crb.javelin-of-lightning
         - item.consumable.crb.runestone
         - item.consumable.crb.unholy-water
+        - item.consumable.da.chimera-thread
+        - item.consumable.da.gift-of-the-poisoned-heart
+        - item.consumable.da.moonlit-ink
+        - item.consumable.da.parchment-of-secrets
+        - item.consumable.da.rose-of-loves-lost
+        - item.consumable.da.sampling-ammunition
+        - item.consumable.da.self-immolating-note
+        - item.consumable.da.swirling-sand
         - item.consumable.ec-2.invisible-net
         - item.consumable.ec-5.cave-worm-repellent-azure-worm-repellent
         - item.consumable.ec-5.cave-worm-repellent-crimson-worm-repellent
@@ -555,6 +584,11 @@
         - item.consumable.logm.deteriorating-dust
         - item.consumable.logm.deteriorating-dust-caustic
         - item.consumable.logm.deteriorating-dust-extended
+        - item.consumable.lokl.greater
+        - item.consumable.lokl.lesser
+        - item.consumable.lokl.major
+        - item.consumable.lokl.minor
+        - item.consumable.lokl.moderate
         - item.consumable.lol.celestial-peach-life
         - item.consumable.lol.celestial-peach-rejuvenation
         - item.consumable.lol.lovers-ink
@@ -615,6 +649,9 @@
         - item.consumable.lotgb.thrice-fried-mudwings
         - item.consumable.lotgb.transposition-ammunition
         - item.consumable.lotgb.transposition-ammunition-greater
+        - item.consumable.pfum.feather-token-balloon
+        - item.consumable.pfum.feather-token-puddle
+        - item.consumable.pfum.overloaded-brain-grenade
         - item.consumable.som.apotropaic-fulu
         - item.consumable.som.dazzling-rosary
         - item.consumable.som.dazzling-rosary-greater
@@ -662,6 +699,14 @@
         - item.contract.av-2.icy-disposition
         - item.contract.av-2.pact-of-blood-taking
         - item.contract.av-2.right-of-retribution
+        - item.contract.da.bottomless-purse
+        - item.contract.da.cryolite-eye
+        - item.contract.da.hand-hewed-face
+        - item.contract.da.key-to-the-stomach
+        - item.contract.da.lost-ember
+        - item.contract.da.self-emptying-pocket
+        - item.contract.da.stone-of-unrivaled-skill
+        - item.contract.da.vial-of-the-immortal-wellspring
         - item.contract.lol.fiendish-teleportation
         - item.contract.lol.infernal-health
         - item.contract.lol.unending-youth
@@ -794,6 +839,7 @@
         - item.elixir.crb.winter-wolf-elixir-greater
         - item.elixir.crb.winter-wolf-elixir-lesser
         - item.elixir.crb.winter-wolf-elixir-moderate
+        - item.elixir.da.baleblood-draft
         - item.elixir.ec-6.ambrosia-of-undying-hope
         - item.elixir.fop.energy-mutagen-greater
         - item.elixir.fop.energy-mutagen-lesser
@@ -818,6 +864,9 @@
         - item.elixir.lotgb.malleable-mixture-greater
         - item.elixir.lotgb.malleable-mixture-lesser
         - item.elixir.lowg.sun-orchid-elixir
+        - item.elixir.pfum.spiderfoot-brew-greater
+        - item.elixir.pfum.spiderfoot-brew-lesser
+        - item.elixir.pfum.spiderfoot-brew-major
         - item.elixir.sli.sixfingers-elixir-greater
         - item.elixir.sli.sixfingers-elixir-lesser
         - item.elixir.sli.sixfingers-elixir-moderate
@@ -879,6 +928,8 @@
         - item.held.b-1.lich-phylactery
         - item.held.botd.celestial-peachwood-sword
         - item.held.botd.dawnlight
+        - item.held.botd.dawnlight-greater
+        - item.held.botd.dawnlight-major
         - item.held.botd.final-rest
         - item.held.botd.ladys-chalice
         - item.held.botd.ladys-spiral
@@ -924,6 +975,17 @@
         - item.held.crb.wondrous-figurine-marble-elephant
         - item.held.crb.wondrous-figurine-obsidian-steed
         - item.held.crb.wondrous-figurine-onyx-dog
+        - item.held.da.book-of-lost-days
+        - item.held.da.calamity-glass
+        - item.held.da.compass-of-transpositional-awareness
+        - item.held.da.dog-bone-knife
+        - item.held.da.false-bottomed-mug
+        - item.held.da.golden-goose
+        - item.held.da.hoax-hunters-kit
+        - item.held.da.horn-of-the-aoyin
+        - item.held.da.siblings-coin
+        - item.held.da.silent-bell
+        - item.held.da.tablet-of-chained-souls
         - item.held.ec-2.acrobats-staff
         - item.held.ec-2.bullhook-greater
         - item.held.ec-2.bullhook-standard
@@ -994,6 +1056,14 @@
         - item.held.logm.rat-catcher-trident
         - item.held.logm.singing-bowl-of-the-versatile-stance
         - item.held.logm.torags-silver-anvil
+        - item.held.lokl.banner-of-the-restful
+        - item.held.lokl.busine-of-divine-reinforcements
+        - item.held.lokl.guardian-shield
+        - item.held.lokl.knight-captains-lance
+        - item.held.lokl.shining-shield
+        - item.held.lokl.undead-compendium
+        - item.held.lokl.undead-scourge
+        - item.held.lokl.whistle-of-calling
         - item.held.lol.alchemical-atomizer
         - item.held.lol.blade-of-the-black-sovereign
         - item.held.lol.clockwork-recorder
@@ -1067,6 +1137,7 @@
         - item.held.lowg.archaic-wayfinder
         - item.held.lowg.jellyfish-lamp
         - item.held.ngd.nosoi-charm
+        - item.held.pfum.librarians-baton
         - item.held.sli.flaying-knife
         - item.held.sli.gluttonous-spear
         - item.held.sli.slime-whip
@@ -1218,6 +1289,9 @@
         - item.oil.crb.salve-of-antiparalysis-greater
         - item.oil.crb.salve-of-slipperiness
         - item.oil.ec-2.saints-balm
+        - item.oil.lokl.anointing-oil
+        - item.oil.lokl.ghost-oil
+        - item.oil.lokl.greater-anointing-oil
         - item.oil.som.ghostly-portal-paint
         - item.oil.som.topology-protoplasm
         - item.other.aoa-3.bountiful-cauldron
@@ -1226,6 +1300,14 @@
         - item.other.av-3.ebon-fulcrum-lens
         - item.other.av-3.emerald-fulcrum-lens
         - item.other.av-3.ochre-fulcrum-lens
+        - item.other.da.old-tillimaquin
+        - item.other.da.society-portrait
+        - item.plant.lotg.artevil-suspension
+        - item.plant.lotg.curled-cure-gel
+        - item.plant.lotg.drowsy-sun-eye-drops
+        - item.plant.lotg.ladys-blessing-oil
+        - item.plant.lotg.toothwort-extract
+        - item.plant.lotg.yarrow-root-bandage
         - item.poison.aoa-3.addlebrain
         - item.poison.aoa-5.false-death
         - item.poison.aoa-5.frenzy-oil
@@ -1285,6 +1367,7 @@
         - item.poison.crb.tears-of-death
         - item.poison.crb.wolfsbane
         - item.poison.crb.wyvern-poison
+        - item.poison.da.forgetful-drops
         - item.poison.ec-5.greengut
         - item.poison.g-g.hyldarfs-fang
         - item.poison.gmg.alcohol
@@ -1349,6 +1432,8 @@
         - item.potion.crb.shrinking-potion-standard
         - item.potion.crb.truesight-potion
         - item.potion.crb.truth-potion
+        - item.potion.da.mistranslators-draft
+        - item.potion.da.wine-of-the-blood
         - item.potion.lotgb.dragonfly-potion
         - item.potion.som.fu-water
         - item.potion.som.phoenix-flask
@@ -1428,6 +1513,7 @@
         - item.rune.loag.soaring
         - item.rune.locg.serrating
         - item.rune.locg.sinister-knight
+        - item.rune.lokl.called
         - item.rune.lopsg.cunning
         - item.rune.lotgb.anchoring
         - item.rune.lotgb.anchoring-greater
@@ -1471,6 +1557,7 @@
         - item.rune.lotgb.stanching-true
         - item.rune.lotgb.wind-catcher
         - item.rune.lotgb.wind-catcher-greater
+        - item.rune.pfum.demolishing
         - item.rune.som.bane
         - item.rune.som.brilliant
         - item.rune.som.brilliant-greater
@@ -1632,6 +1719,9 @@
         - item.snare.lotgb.static-snare
         - item.snare.lotgb.tar-rocket-snare
         - item.snare.lotgb.wet-shock-snare
+        - item.snare.pfum.boom-snare
+        - item.snare.pfum.clinging-ooze-snare
+        - item.snare.pfum.ice-slick-snare
         - item.spellheart.som.five-feather-wreath
         - item.spellheart.som.five-feather-wreath-greater
         - item.spellheart.som.five-feather-wreath-major
@@ -1728,6 +1818,7 @@
         - item.structure.crb.instant-fortress
         - item.structure.crb.pocket-stage
         - item.structure.ec-2.marvelous-calliope
+        - item.structure.lokl.campaign-stable
         - item.structure.lol.mountain-to-the-sky
         - item.structure.lotgb.memory-palace
         - item.structure.lotgb.pocket-gala
@@ -1784,6 +1875,8 @@
         - item.talisman.crb.vanishing-coin
         - item.talisman.crb.vipers-fang
         - item.talisman.crb.wolf-fang
+        - item.talisman.da.arbiter
+        - item.talisman.da.bythos
         - item.talisman.ec-2.beckoning-cat-amulet
         - item.talisman.ec-6.celestial-hair
         - item.talisman.frp-2.tusk-and-fang-chain
@@ -1905,6 +1998,7 @@
         - item.wand.lotgb.wand-of-thundering-echoes-6th-level-spell
         - item.wand.lotgb.wand-of-thundering-echoes-7th-level-spell
         - item.wand.lotgb.wand-of-thundering-echoes-8th-level-spell
+        - item.wand.pfum.wand-of-caustic-effluence
         - item.wand.sli.wand-of-noisome-acid-2nd-level-spell
         - item.wand.sli.wand-of-noisome-acid-4th-level-spell
         - item.wand.sli.wand-of-noisome-acid-6th-level-spell
@@ -1977,7 +2071,6 @@
         - item.weapon.lotgb.siccatite-weapon-standard-grade
         - item.weapon.martial.som.conflagration-club
         - item.weapon.martial.sot-4.sun-sling
-        - item.weapon.martial.sot-5.shobhad-longrifle
         - item.weapon.simple.locg.scrollstaff
         - item.weapon.simple.ltiba.grannys-hedge-trimmer
         - item.weapon.tio.sparkblade
@@ -2132,6 +2225,12 @@
         - item.worn.crb.wayfinder
         - item.worn.crb.whisper-of-the-first-lie
         - item.worn.crb.winged-boots
+        - item.worn.da.cloak-of-the-false-foe
+        - item.worn.da.glittering-scarab
+        - item.worn.da.membership-cords
+        - item.worn.da.ring-of-sneering-charity
+        - item.worn.da.taletellers-ring
+        - item.worn.da.traitors-ring
         - item.worn.ec-2.moonstone-diadem
         - item.worn.ec-2.stole-of-civility
         - item.worn.ec-3.ring-of-stoneshifting
@@ -2171,6 +2270,7 @@
         - item.worn.logm.manacles-of-persuasion
         - item.worn.logm.miter-of-communion
         - item.worn.logm.necklace-of-knives
+        - item.worn.lokl.detector-stone
         - item.worn.lol.palm-crossbow
         - item.worn.lol.vestige-lenses
         - item.worn.lome.genealogy-mask
@@ -2237,6 +2337,10 @@
         - item.worn.lowg.black-pearl-aeon-stone
         - item.worn.lowg.golden-legion-epaulet
         - item.worn.lowg.swim-fins
+        - item.worn.pfum.communication-pendants
+        - item.worn.pfum.conundrum-spectacles
+        - item.worn.pfum.conundrum-spectacles-greater
+        - item.worn.pfum.empathic-cords
         - item.worn.som.backfire-mantle
         - item.worn.som.backfire-mantle-greater
         - item.worn.som.cloak-of-feline-rest

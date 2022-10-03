@@ -31,6 +31,7 @@
         <link rel='stylesheet' type='text/css' href='/css/card.css' />
 
         <link rel='stylesheet' type='text/css' href='/css/pager.css' />
+        <link rel='stylesheet' type='text/css' href='/css/manager.css' />
 
         <link rel='stylesheet' type='text/css' href='/css/mobile.css' />
         <link rel='stylesheet' type='text/css' href='/css/tooltip.css' />
@@ -128,11 +129,13 @@
                                         ></polyline></g></svg></div></a>
 
                     </div>
-                    <div class='credits'><p>Dozen Dragons Wiki, an Eberron &amp; PF2e campaign.</p></div>
+                    <div class='credits'><p>Dozen Dragons Wiki, an Eberron &amp;
+                            PF2e campaign.</p></div>
                 </div>
 
                 <div class='inner inner-right page-toc'>
                     <h2>Table of Contents</h2>
+
                     <ul>
                         {{#each toc}}
                             <li class='toc-heading-{{h}}'>
@@ -143,14 +146,76 @@
                         {{/each}}
                     </ul>
                 </div>
+
             </main>
 
         </div>
+
+        <svg id='top-scroll-btn' width='32' height='32' viewBox='0 0 100 100'>
+            <path
+                fill='#001834'
+                d='m50 0c-13.262 0-25.98 5.2695-35.355 14.645s-14.645 22.094-14.645 35.355 5.2695 25.98 14.645 35.355 22.094 14.645 35.355 14.645 25.98-5.2695 35.355-14.645 14.645-22.094 14.645-35.355-5.2695-25.98-14.645-35.355-22.094-14.645-35.355-14.645zm20.832 62.5-20.832-22.457-20.625 22.457c-1.207 0.74219-2.7656 0.57812-3.7891-0.39844-1.0273-0.98047-1.2695-2.5273-0.58594-3.7695l22.918-25c0.60156-0.61328 1.4297-0.96094 2.2891-0.96094 0.86328 0 1.6914 0.34766 2.293 0.96094l22.918 25c0.88672 1.2891 0.6875 3.0352-0.47266 4.0898-1.1562 1.0508-2.9141 1.0859-4.1133 0.078125z'
+            ></path>
+        </svg>
+
+        <div id='id-tool'>
+            <div id='id-tool-menu-bar'>
+                <i class='fa fa-caret-square-o-down'></i>
+                <div>card manager</div>
+            </div>
+            <div class='id-tool-min'><p>You have
+                    <span id='id-count'>0</span>
+                    cards selected.</p>
+                <ul id='id-tool-menu-selected-list'></ul>
+            </div>
+            <div id='id-tool-actions'>
+                <button id='id-tool-actions-copy-id' class='tooltip'>
+                    <i class='fa fa-copy'></i>
+                    <span class='tool-tip-content'>
+                        Copy the id of all selected cards
+                    </span>
+                </button>
+                <button id='id-tool-actions-copy-name' class='tooltip'>
+                    <i class='fa fa-list'></i>
+                    <span class='tool-tip-content'>
+                        Copy the names of all selected cards
+                    </span>
+                </button>
+                <button id='id-tool-actions-download-data' class='tooltip'>
+                    <i class='fa fa-download'></i>
+                    <span class='tool-tip-content'>
+                        Download the card data of all selected cards
+                    </span>
+                </button>
+                <button id='id-tool-actions-copy-data' class='tooltip'>
+                    <i class='fa fa-paste'></i>
+                    <span class='tool-tip-content'>
+                        Copy the card data of all selected cards
+                    </span>
+                </button>
+                <button id='id-tool-actions-delete' class='tooltip'>
+                    <i class='fa fa-trash'></i>
+                    <span class='tool-tip-content'>
+                        Clear the selected cards
+                    </span>
+                </button>
+            </div>
+
+        </div>
+
+        <div id='id-tool-min'>
+            <i class='fa fa-caret-square-o-up'></i>
+            <div>card manager</div>
+        </div>
+
+        <pre id='snackbar'>Snackbar message</pre>
 
         <script type='text/javascript'>
             const nextSlug = "{{{next.slug}}}.html"; const prevSlug = "{{{prev.slug}}}.html";
         </script>
         <script type='text/javascript' src='/js/toggleNav.js'></script>
+        <script type='text/javascript' src='/js/kaiser.js'></script>
+        <script type='text/javascript' src='/js/idManager.js'></script>
 
     </body>
 

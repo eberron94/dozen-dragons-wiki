@@ -1,5 +1,217 @@
 [
     {
+        "id": "action.da.recenter",
+        "color": "",
+        "title": "Recenter [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate",
+            "property | Requirements | You're in a psychic duel and are trained in the skill matching the psychic center you are changing to.",
+            "rule",
+            "text | You adopt the psychic center matching the emotion of your choice. If you were already psychically centered, you lose your old psychic center when you adopt the new one."
+        ]
+    },
+    {
+        "id": "action.da.psychic-defense",
+        "color": "",
+        "title": "Psychic Defense [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | magical",
+            "property | Requirements | You're in a psychic duel and are psychically centered.",
+            "property | Trigger | Your opponent uses a psychic manifestation against you.",
+            "rule",
+            "text | You gain the benefit matching your psychic center against thet riggering manifestation. Then your psychic center is expended."
+        ]
+    },
+    {
+        "id": "action.da.exploit-vulnerability",
+        "color": "",
+        "title": "Exploit Vulnerability [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | esoterica | manipulate | thaumaturge",
+            "property | Requirements | You are holding your implement.",
+            "rule",
+            "text | You scour your experiences and learning to identify something that might repel your foe. You retrieve an object from your esoterica with the appropriate supernatural qualities, then use your implement to stoke the remnants of its power into a blaze. Select a creature you can see and attempt an Esoteric Lore check against a standard DC for its level, as you retrieve the right object from your esoterica and use your implement to empower it. You gain the following effects until you Exploit Vulnerabilities again.",
+            "fill",
+            "property | Critical Success | You remember the creature's weaknesses, and Archive as you empower your esoterica, you have a flash of insight that grants even more knowledge about the creature. You learn all of the creature's resistances, weaknesses, and immunities, including the amounts of the resistances and weaknesses and any unusual weaknesses or vulnerabilities, such as what spells will pass through a golem's antimagic. You can exploit either the creature's mortal weakness or personal antithesis. Your unarmed and weapon Strikes against the creature also become magical if they weren't already.",
+            "property | Success | You recall an important fact about the creature, learning its highest weakness (or one of its highest weaknesses, if it has multiple with the same value) but not its other weaknesses, resistances, or immunities. You can exploit either the creature's mortal weakness or personal antithesis. Your unarmed and weapon Strikes against the creature also become magical if they weren't already.",
+            "property | Failure | Failing to recall a salient weakness about the creature, you instead attempt to exploit a more personal vulnerability. You can exploit only the creature's personal antithesis. Your unarmed and weapon Strikes against the creature also become magical if they weren't already.",
+            "property | Critical Failure | You couldn't remember the right object to use and become distracted while you rummage through your esoterica. You become flat-footed until the beginning of your next turn.",
+            "fill"
+        ]
+    },
+    {
+        "id": "action.da.intensify-vulnerability",
+        "color": "",
+        "title": "Intensify Vulnerability [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | divination | esoterica | magical | thaumaturge",
+            "property | Prerequisites | Exploit Vulnerability",
+            "property | Requirements | You're benefiting from Exploit Vulnerability, you can see the subject, and you haven't used Exploit Vulnerability this round.",
+            "rule",
+            "text | You present your implement and esoterica again, intensifying their effects on the target in a way unique to your implement. You gain the intensified vulnerability benefit from one of the implements you're holding, which lasts until the beginning of your next turn."
+        ]
+    },
+    {
+        "id": "action.da.amulets-abeyance",
+        "color": "",
+        "title": "Amulet's Abeyance [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | abjuration | magical | manipulate | thaumaturge",
+            "property | Requirements | You're holding your amulet implement and are benefiting from Exploit Vulnerability.",
+            "property | Trigger | The target of your Exploit Vulnerability would damage you or an ally within 15 feet of you.",
+            "rule",
+            "text | You forcefully present your amulet to turn away harm. You or a target ally within 15 feet gain resistance to all damage against the triggering damage. The resistance is equal to 2 + your level."
+        ]
+    },
+    {
+        "id": "action.da.ring-bell",
+        "color": "",
+        "title": "Ring Bell [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | auditory | emotion | enchantment | magical | manipulate | mental | thaumaturge",
+            "property | Requirements | You are holding your bell implement, and the triggering creature is within 30 feet of you.",
+            "property | Trigger | The target of your Exploit Vulnerability makes a Strike or Casts a Spell that would affect you or one of your allies.",
+            "rule",
+            "text | Your implement sings out abruptly, disrupting your foe. The piece played depends on whether the trigger was a Strike or Spell, and it applies to the triggering Strike or Spell, except where noted otherwise."
+        ]
+    },
+    {
+        "id": "action.da.drink-from-the-chalice",
+        "color": "",
+        "title": "Drink from the Chalice [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | magical | manipulate | necromancy | thaumaturge",
+            "property | Requirements | You are holding your chalice implement.",
+            "rule",
+            "text | You drink from the liquid that slowly collects in your chalice or administer it to an adjacent ally. The drinker chooses whether to take a small sip or to drain the contents."
+        ]
+    },
+    {
+        "id": "action.da.mirrors-reflection",
+        "color": "",
+        "title": "Mirror's Reflection [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | illusion | magical | manipulate | thaumaturge",
+            "property | Requirements | You're holding your mirror implement.",
+            "rule",
+            "text | You reflect an illusory image of yourself into another unoccupied space within 15 feet that you can see. You are treated as being in both spaces until the start of your next turn. For example, you can attack, Seek, and provide flanking—even with yourself. You occupy both spaces.",
+            "text | Your mirror self mimics your actions exactly, but any effects you generate come from only one of your positions; you decide which each time you act. For example, if you made a melee Strike against a creature within reach of the reflection, you'd mime the actions of the Strike, but only the reflection would actually make the Strike. Anything that targets or would affect your reflection affects you and uses your statistics. Something that would target or affect both of you affects you only once. For example, a fireball that included both of you in its area would require only one save from you and damage you no more than once. When you move, you choose which square to move from, but the mirror effect ends (see below).",
+            "text | Some events force you to determine which image is the real you, and then end the effect and cause your mirror self to disappear; this happens automatically at the start of your next turn. It also happens if you choose to move out of your space. Other benefits of this implement add more events that can end the reflection. The effect also ends when you fall unconscious, at which point you decide which version is truly you."
+        ]
+    },
+    {
+        "id": "action.da.fling-magic",
+        "color": "",
+        "title": "Fling Magic [[two-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | evocation | magical | manipulate | thaumaturge",
+            "property | Requirements | You are holding your wand implement.",
+            "rule",
+            "text | You fling magical energy at a target within 60 feet, dealing damage equal to 1d4 + your Charisma modifier to the target, with a basic Reflex save against your class DC. The damage is of the type you selected when you gained your wand implement. At 3rd level and every 2 levels thereafter, the damage increases by 1d4.",
+            "text | You can expend more energy than usual to boost the effect of Fling Magic, dealing 1d6s of damage instead of d4s. After you do so, the wand takes 1d4 rounds to recharge, during which you can't boost the wand's damage but can continue to Fling Magic normally. If you critically hit with a Strike, your wand recharges immediately as it draws in power from the clash."
+        ]
+    },
+    {
+        "id": "action.da.implements-interruption",
+        "color": "",
+        "title": "Implement's Interruption [[reaction]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | evocation | magical | thaumaturge",
+            "property | Requirements | You're holding your weapon implement and are benefiting from Exploit Vulnerability against a creature. The creature must be within your reach if you're wielding a melee weapon, or within 10 feet if you're wielding a ranged weapon.",
+            "property | Trigger | The target of your Exploit Vulnerability uses a concentrate, manipulate, or move action, or leaves a square during a move action it's using.",
+            "rule",
+            "text | Your weapon senses a moment of weakness and guides your hand to strike down a foe. Make a Strike against the triggering creature with your weapon implement. If your attack is a critical hit, you disrupt the triggering action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike."
+        ]
+    },
+    {
+        "id": "action.da.fade-into-daydreams",
+        "color": "",
+        "title": "Fade Into Daydreams [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | illusion | psyche | psychic",
+            "rule",
+            "text | Your flights of imagination spill into the real world, causing you to become indistinct, hazy, or cloaked in figments. You become concealed until the start of your next turn. This concealment can't be used to Hide, as normal for concealing effects that leave your location obvious."
+        ]
+    },
+    {
+        "id": "action.da.calculate-threats",
+        "color": "",
+        "title": "Calculate Threats [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | mental | psyche | psychic",
+            "rule",
+            "text | Your subconscious automatically calculates vectors and forces when your mind is unleashed, showing you the likely path of incoming attacks to avoid. You gain a +2 circumstance bonus to AC and Reflex saves until the beginning of your next turn."
+        ]
+    },
+    {
+        "id": "action.da.recall-the-teachings",
+        "color": "",
+        "title": "Recall The Teachings [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | divination | occult | psyche | psychic",
+            "rule",
+            "text | The heightened power of your psyche lets you recall every lesson you've ever learned. You search your mind for the right teaching, which at first seems cryptic but comes into clarity when it's most relevant. Until the start of your next turn, you count as having prepared to Aid all allies within 30 feet of you. If you use the Aid reaction to help one of them during that time, you roll an Occultism check for Aid as you recall a lesson to help them. Most lessons take the form of short axioms, parables, or sayings, meaning that conveying them to your ally usually grants your Aid reaction the auditory and linguistic traits."
+        ]
+    },
+    {
+        "id": "action.da.restore-the-mind",
+        "color": "",
+        "title": "Restore The Mind [[one-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | emotion | enchantment | healing | mental | psyche | psychic",
+            "rule",
+            "text | Your unleashed psyche gives you closer connections to the emotions of your allies, letting you project reassurance and strength that replenishes their mind and body. Choose one of the two benefits to grant one ally within 30 feet that you can see. That ally is then temporarily immune for 10 minutes.",
+            "bullet | The ally gains a +1 status bonus to saving throws against mental effects until your psyche ends.",
+            "bullet | The ally regains Hit Points equal to 2 + double your level."
+        ]
+    },
+    {
+        "id": "action.class.psychic.da.unleash-psyche",
+        "color": "",
+        "title": "Unleash Psyche [[free-action]]",
+        "icon_front": "ace",
+        "code": "action",
+        "contents": [
+            "pftrait | psychic",
+            "property | Requirements | You're in an encounter, you Cast a Spell on your previous turn, and you aren't stupefied.",
+            "property | Trigger | Your turn begins.",
+            "rule",
+            "text | You call on the depths of your mind and let psychic power flood through. Your Psyche remains Unleashed for 2 rounds or until your fall unconscious, whichever comes first. You can't voluntarily quell your unleashed psyche. While your Psyche is Unleashed, the following effects occur.",
+            "bullet | You're constantly surrounded by the visual manifestation of your psychic magic.",
+            "bullet | When you cast a damaging spell, you gain a status bonus to its damage equal to double the spell's level. This applies only to spells that don't have a duration and that you cast using psychic spellcasting.",
+            "bullet | You can use actions that have the psyche trait.",
+            "text | After your unleashed psyche subsides, your mind must recover from the strain of channeling its full power. You can't use Unleash Psyche again for 2 rounds, and you're stupefied 1 for 2 rounds."
+        ]
+    },
+    {
         "id": "action.g-g.accidental-shot",
         "color": "",
         "title": "Accidental Shot [[two-action]]",
@@ -58,8 +270,8 @@
             "bullet | **Stabilize** Attempt a Medicine check on a creature that has 0 Hit Points and the dying condition. The DC is equal to 5 + that creature's recovery roll DC (typically 15 + its dying value).",
             "bullet | **Stop Bleeding** Attempt a Medicine check on a creature that is taking persistent bleed damage, giving them a chance to make another flat check to remove the persistent damage. The DC is usually the DC of the effect that caused the bleed.",
             "fill",
-            "property | Success | If you're trying to stabilize, the creature loses the {@condition dying|CRB} condition (but remains {@condition unconscious|CRB}). If you're trying to stop bleeding, the creature attempts a flat check to end the bleeding.",
-            "property | Critical Failure | If you were trying to stabilize, the creature's {@condition dying|CRB} value increases by 1. If you were trying to stop bleeding, it immediately takes an amount of damage equal to its {@condition persistent damage|CRB|persistent bleed damage}.",
+            "property | Success | If you're trying to stabilize, the creature loses the dying condition (but remains unconscious). If you're trying to stop bleeding, the creature attempts a flat check to end the bleeding.",
+            "property | Critical Failure | If you were trying to stabilize, the creature's dying value increases by 1. If you were trying to stop bleeding, it immediately takes an amount of damage equal to its persistent bleed damage.",
             "fill"
         ]
     },
@@ -211,7 +423,7 @@
             "text | You move across a narrow surface or uneven ground, attempting an Acrobatics check against its Balance DC. You are flat-footed while on a narrow surface or uneven ground.",
             "fill",
             "property | Critical Success | You move up to your Speed.",
-            "property | Success | You move up to your Speed, treating it as {@quickref difficult terrain||3|terrain} (every 5 feet costs 10 feet of movement).",
+            "property | Success | You move up to your Speed, treating it as difficult terrain (every 5 feet costs 10 feet of movement).",
             "property | Failure | You must remain stationary to keep your balance (wasting the action) or you fall. If you fall, your turn ends.",
             "property | Critical Failure | You fall and your turn ends.",
             "fill"
@@ -423,7 +635,7 @@
             "fill",
             "property | Critical Success | You move up, across, or safely down the incline for 5 feet plus 5 feet per 20 feet of your land Speed (a total of 10 feet for most PCs).",
             "property | Success | You move up, across, or safely down the incline for 5 feet per 20 feet of your land Speed (a total of 5 feet for most PCs, minimum 5 feet if your Speed is below 20 feet).",
-            "property | Critical Failure | You fall. If you began the climb on stable ground, you fall and land {@condition prone|CRB}.",
+            "property | Critical Failure | You fall. If you began the climb on stable ground, you fall and land prone.",
             "fill"
         ]
     },
@@ -451,10 +663,10 @@
             "rule",
             "text | With threats either veiled or overt, you attempt to bully a creature into doing what you want. You must spend at least 1 minute of conversation with a creature you can see and that can either see or sense you. At the end of the conversation, attempt an Intimidation check against the target's Will DC, modified by any circumstances the GM determines. The attitudes referenced in the effects below are summarized in the Changing Attitudes sidebar on page 246 and described in full in the Conditions Appendix, starting on page 618.",
             "fill",
-            "property | Critical Success | The target gives you the information you seek or agrees to follow your directives so long as they aren't likely to harm the target in any way. The target continues to comply for an amount of time determined by the GM but not exceeding 1 day, at which point the target becomes {@condition unfriendly|CRB} (if they weren't already {@condition unfriendly|CRB} or {@condition hostile|CRB}). However, the target is too scared of you to retaliate—at least in the short term.",
-            "property | Success | As critical success, but once the target becomes {@condition unfriendly|CRB}, they might decide to act against you—for example, by reporting you to the authorities or assisting your enemies.",
-            "property | Failure | The target doesn't do what you say, and if they were not already {@condition unfriendly|CRB} or {@condition hostile|CRB}, they become {@condition unfriendly|CRB}",
-            "property | Critical Failure | The target refuses to comply, becomes {@condition hostile|CRB} if they weren't already, and can't be Coerced by you for at least 1 week.",
+            "property | Critical Success | The target gives you the information you seek or agrees to follow your directives so long as they aren't likely to harm the target in any way. The target continues to comply for an amount of time determined by the GM but not exceeding 1 day, at which point the target becomes unfriendly (if they weren't already unfriendly or hostile). However, the target is too scared of you to retaliate—at least in the short term.",
+            "property | Success | As critical success, but once the target becomes unfriendly, they might decide to act against you—for example, by reporting you to the authorities or assisting your enemies.",
+            "property | Failure | The target doesn't do what you say, and if they were not already unfriendly or hostile, they become unfriendly",
+            "property | Critical Failure | The target refuses to comply, becomes hostile if they weren't already, and can't be Coerced by you for at least 1 week.",
             "fill"
         ]
     },
@@ -489,7 +701,7 @@
             "text | You hide a small object on your person (such as a weapon of light Bulk). When you try to sneak a concealed object past someone who might notice it, the GM rolls your Stealth check and compares it to this passive observer's Perception DC. Once the GM rolls your check for a concealed object, that same result is used no matter how many passive observers you try to sneak it past. If a creature is specifically searching you for an item, it can attempt a Perception check against your Stealth DC (finding the object on success).",
             "text | You can also conceal an object somewhere other than your person, such as among undergrowth or in a secret compartment within a piece of furniture. In this case, characters Seeking in an area compare their Perception check results to your Stealth DC to determine whether they find the object.",
             "fill",
-            "property | Success | The object remains {@condition undetected|CRB}.",
+            "property | Success | The object remains undetected.",
             "property | Failure | The searcher finds the object.",
             "fill"
         ]
@@ -518,7 +730,7 @@
             "rule",
             "text | You make an incredibly graceful attack, piercing your foe's defenses. Make a Strike with a weapon or unarmed attack that would apply your precise strike damage, with the following failure effect.",
             "fill",
-            "property | Failure | You deal half your precise strike damage to the target. This damage type is that of the weapon or unarmed attack you used for the {@action Strike}.",
+            "property | Failure | You deal half your precise strike damage to the target. This damage type is that of the weapon or unarmed attack you used for the Strike.",
             "fill"
         ]
     },
@@ -565,8 +777,8 @@
             "text | You must spend 4 days at work, at which point you attempt a Crafting check. The GM determines the DC to Craft the item based on its level, rarity, and other circumstances.",
             "text | If your attempt to create the item is successful, you expend the raw materials you supplied. You can pay the remaining portion of the item's Price in materials to complete the item immediately, or you can spend additional downtime days working on it. For each additional day you spend, reduce the value of the materials you need to expend to complete the item. This amount is determined using Table 4–2: Income Earned, based on your proficiency rank in Crafting and using your own level instead of a task level. After any of these downtime days, you can complete the item by spending the remaining portion of its Price in materials. If the downtime days you spend are interrupted, you can return to finish the item later, continuing where you left off. An example of Crafting appears in the sidebar.",
             "fill",
-            "property | Critical Success | Your attempt is successful. Each additional day spent {@skill Crafting} reduces the materials needed to complete the item by an amount based on your level + 1 and your proficiency rank in {@skill Crafting}.",
-            "property | Success | Your attempt is successful. Each additional day spent {@skill Crafting} reduces the materials needed to complete the item by an amount based on your level and your proficiency rank.",
+            "property | Critical Success | Your attempt is successful. Each additional day spent Crafting reduces the materials needed to complete the item by an amount based on your level + 1 and your proficiency rank in Crafting.",
+            "property | Success | Your attempt is successful. Each additional day spent Crafting reduces the materials needed to complete the item by an amount based on your level and your proficiency rank.",
             "property | Failure | You fail to complete the item. You can salvage the raw materials you supplied for their full value. If you want to try again, you must start over.",
             "property | Critical Failure | You fail to complete the item. You ruin 10% of the raw materials you supplied, but you can salvage the rest. If you want to try again, you must start over.",
             "fill"
@@ -610,8 +822,8 @@
             "text | With a gesture, a trick, or some distracting words, you can create a diversion that draws creatures' attention elsewhere. If you use a gesture or trick, this action gains the manipulate trait. If you use distracting words, it gains the auditory and linguistic traits.",
             "text | Attempt a single Deception check and compare it to the Perception DCs of the creatures whose attention you're trying to divert. Whether or not you succeed, creatures you attempt to divert gain a +4 circumstance bonus to their Perception DCs against your attempts to Create a Diversion for 1 minute.",
             "fill",
-            "property | Success | You become hidden to each creature whose {@skill Perception} DC is less than or equal to your result. (The {@condition hidden|CRB} condition allows you to {@action Sneak|CRB} away, as described on page 252.) This lasts until the end of your turn or until you do anything except {@action Step|CRB} or use the {@action Hide|CRB} or the {@action Sneak|CRB} action of the {@skill Stealth} skill. If you {@action Strike|CRB} a creature, the creature remains {@condition flat-footed|CRB} against that attack, and you then become {@condition observed|CRB}. If you do anything else, you become {@condition observed|CRB} just before you act unless the GM determines otherwise.",
-            "property | Failure | You don't divert the attention of any creatures whose {@skill Perception} DC exceeds your result, and those creatures are aware you were trying to trick them.",
+            "property | Success | You become hidden to each creature whose Perception DC is less than or equal to your result. (The hidden condition allows you to Sneak away, as described on page 252.) This lasts until the end of your turn or until you do anything except Step or use the Hide or the Sneak action of the Stealth skill. If you Strike a creature, the creature remains flat-footed against that attack, and you then become observed. If you do anything else, you become observed just before you act unless the GM determines otherwise.",
+            "property | Failure | You don't divert the attention of any creatures whose Perception DC exceeds your result, and those creatures are aware you were trying to trick them.",
             "fill"
         ]
     },
@@ -718,8 +930,8 @@
             "rule",
             "text | With a sudden shout, a well-timed taunt, or a cutting putdown, you can shake an enemy's resolve. Choose a creature within 30 feet of you who you're aware of. Attempt an Intimidation check against that target's Will DC. If the target does not understand the language you are speaking, you're not speaking a language, or they can't hear you, you take a –4 circumstance penalty to the check. Regardless of your result, the target is temporarily immune to your attempts to Demoralize it for 10 minutes.",
             "fill",
-            "property | Critical Success | The target becomes {@condition frightened|CRB} 2.",
-            "property | Success | The target becomes {@condition frightened|CRB} 1.",
+            "property | Critical Success | The target becomes frightened 2.",
+            "property | Success | The target becomes frightened 1.",
             "fill"
         ]
     },
@@ -796,7 +1008,7 @@
             "fill",
             "property | Critical Success | You knock the item out of the opponent's grasp. It falls to the ground in the opponent's space.",
             "property | Success | You weaken your opponent's grasp on the item. Until the start of that creature's turn, attempts to Disarm the opponent of that item gain a +2 circumstance bonus, and the target takes a –2 circumstance penalty to attacks with the item or other checks requiring a firm grasp on the item.",
-            "property | Critical Failure | You lose your balance and become {@condition flat-footed|CRB} until the start of your next turn.",
+            "property | Critical Failure | You lose your balance and become flat-footed until the start of your next turn.",
             "fill"
         ]
     },
@@ -963,9 +1175,9 @@
             "rule",
             "text | You attempt to escape from being grabbed, immobilized, or restrained. Choose one creature, object, spell effect, hazard, or other impediment imposing any of those conditions on you. Attempt a check using your unarmed attack modifier against the DC of the effect. This is typically the Athletics DC of a creature grabbing you, the Thievery DC of a creature who tied you up, the spell DC for a spell effect, or the listed Escape DC of an object, hazard, or other impediment. You can attempt an Acrobatics or Athletics check instead of using your attack modifier if you choose (but this action still has the attack trait).",
             "fill",
-            "property | Critical Success | You get free and remove the {@condition grabbed|CRB}, {@condition immobilized|CRB}, and {@condition restrained|CRB} conditions imposed by your chosen target. You can then {@action Stride|CRB} up to 5 feet.",
-            "property | Success | You get free and remove the {@condition grabbed|CRB}, {@condition immobilized|CRB}, and {@condition restrained|CRB} conditions imposed by your chosen target.",
-            "property | Critical Failure | You don't get free, and you can't attempt to {@action Escape} again until your next turn.",
+            "property | Critical Success | You get free and remove the grabbed, immobilized, and restrained conditions imposed by your chosen target. You can then Stride up to 5 feet.",
+            "property | Success | You get free and remove the grabbed, immobilized, and restrained conditions imposed by your chosen target.",
+            "property | Critical Failure | You don't get free, and you can't attempt to Escape again until your next turn.",
             "fill"
         ]
     },
@@ -976,7 +1188,7 @@
         "icon_front": "ace",
         "code": "action",
         "contents": [
-            "pftrait | investigator | manipulate",
+            "pftrait | investigator",
             "rule",
             "text | You observe and assess your surroundings with great speed. You Recall Knowledge, Seek, or Sense Motive."
         ]
@@ -1007,9 +1219,9 @@
             "rule",
             "text | With a misleading flourish, you leave an opponent unprepared for your real attack. Attempt a Deception check against that opponent's Perception DC.",
             "fill",
-            "property | Critical Success | You throw your enemy's defenses against you entirely off. The target is {@condition flat-footed|CRB} against melee attacks that you attempt against it until the end of your next turn.",
-            "property | Success | Your foe is fooled, but only momentarily. The target is {@condition flat-footed|CRB} against the next melee attack that you attempt against it before the end of your current turn.",
-            "property | Critical Failure | Your feint backfires. You are {@condition flat-footed|CRB} against melee attacks the target attempts against you until the end of your next turn.",
+            "property | Critical Success | You throw your enemy's defenses against you entirely off. The target is flat-footed against melee attacks that you attempt against it until the end of your next turn.",
+            "property | Success | Your foe is fooled, but only momentarily. The target is flat-footed against the next melee attack that you attempt against it before the end of your current turn.",
+            "property | Critical Failure | Your feint backfires. You are flat-footed against melee attacks the target attempts against you until the end of your next turn.",
             "fill"
         ]
     },
@@ -1075,7 +1287,7 @@
             "text | Using your body, a lever, or some other tool, you attempt to forcefully open a door, window, container or heavy gate. With a high enough result, you can even smash through walls. Without a crowbar, prying something open takes a –2 item penalty to the Athletics check to Force Open.",
             "fill",
             "property | Critical Success | You open the door, window, container, or gate and can avoid damaging it in the process.",
-            "property | Success | You break the door, window, container, or gate open, and the door, window, container, or gate gains the {@condition broken|CRB} condition. If it's especially sturdy, the GM might have it take damage but not be broken.",
+            "property | Success | You break the door, window, container, or gate open, and the door, window, container, or gate gains the broken condition. If it's especially sturdy, the GM might have it take damage but not be broken.",
             "property | Critical Failure | Your attempt jams the door, window, container, or gate shut, imposing a –2 circumstance penalty on future attempts to Force it Open.",
             "fill"
         ]
@@ -1217,10 +1429,10 @@
             "rule",
             "text | You attempt to grab an opponent with your free hand. Attempt an Athletics check against their Fortitude DC. You can also Grapple to keep your hold on a creature you already grabbed or restrained.",
             "fill",
-            "property | Critical Success | Your opponent is {@condition restrained|CRB} until the end of your next turn unless you move or your opponent {@action Escape|CRB|Escapes}.",
-            "property | Success | Your opponent is {@condition grabbed|CRB} until the end of your next turn unless you move or your opponent {@action Escape|CRB|Escapes}.",
-            "property | Failure | You fail to grab your opponent. If you already had the opponent {@condition grabbed|CRB} or {@condition restrained|CRB} using a Grapple, those conditions on that creature end.",
-            "property | Critical Failure | If you already had the opponent {@condition grabbed|CRB} or {@condition restrained|CRB}, it breaks free. Your target can either grab you, as if it succeeded at using the Grapple action against you, or force you to fall and land {@condition prone|CRB}.",
+            "property | Critical Success | Your opponent is restrained until the end of your next turn unless you move or your opponent Escapes.",
+            "property | Success | Your opponent is grabbed until the end of your next turn unless you move or your opponent Escapes.",
+            "property | Failure | You fail to grab your opponent. If you already had the opponent grabbed or restrained using a Grapple, those conditions on that creature end.",
+            "property | Critical Failure | If you already had the opponent grabbed or restrained, it breaks free. Your target can either grab you, as if it succeeded at using the Grapple action against you, or force you to fall and land prone.",
             "fill"
         ]
     },
@@ -1237,8 +1449,8 @@
             "text | You attempt to clear the room by promising a grim fate to anyone who doesn't do what you say, and quickly. Attempt a Deception or Intimidation check against the Will DCs of each creature within 30 feet, except for your allies. Regardless of whether you succeed or fail, each subject is temporarily immune to your Grim Swagger for 10 minutes.",
             "text | For example, if you attempt a Deception check, you lie and boast about your prowess or the large group of friends on their way to back you up. If you attempt an Intimidation check, you promise everyone in the room that you're going to be the last thing they see.",
             "fill",
-            "property | Critical Success | The creature becomes {@condition frightened 3}. If it's lower level than you, it's also {@condition fleeing} for 1 round.",
-            "property | Success | The creature becomes {@condition frightened 2}.",
+            "property | Critical Success | The creature becomes frightened 3. If it's lower level than you, it's also fleeing for 1 round.",
+            "property | Success | The creature becomes frightened 2.",
             "fill"
         ]
     },
@@ -1269,8 +1481,8 @@
             "fill",
             "property | Critical Success | Increase the maximum vertical distance to 8 feet, or increase the maximum vertical distance to 5 feet and maximum horizontal distance to 10 feet.",
             "property | Success | Increase the maximum vertical distance to 5 feet.",
-            "property | Failure | You {@action Leap|CRB} normally.",
-            "property | Critical Failure | You don't {@action Leap|CRB} at all, and instead you fall {@condition prone|CRB} in your space.",
+            "property | Failure | You Leap normally.",
+            "property | Critical Failure | You don't Leap at all, and instead you fall prone in your space.",
             "fill"
         ]
     },
@@ -1570,9 +1782,9 @@
             "text | You Stride, then make a horizontal Leap and attempt an Athletics check to increase the length of your jump. The DC of the Athletics check is equal to the total distance in feet you're attempting to move during your Leap (so you'd need to succeed at a DC 20 check to Leap 20 feet). You can't Leap farther than your Speed.",
             "text | If you didn't Stride at least 10 feet, or if you attempt to jump in a different direction than your Stride, you automatically fail your check. This DC might be increased or decreased due to the situation, as determined by the GM.",
             "fill",
-            "property | Success | Increase the maximum horizontal distance you {@action Leap|CRB} to the desired distance.",
-            "property | Failure | You {@action Leap|CRB} normally.",
-            "property | Critical Failure | You {@action Leap|CRB} normally, but then fall and land {@condition prone|CRB}.",
+            "property | Success | Increase the maximum horizontal distance you Leap to the desired distance.",
+            "property | Failure | You Leap normally.",
+            "property | Critical Failure | You Leap normally, but then fall and land prone.",
             "fill"
         ]
     },
@@ -1661,9 +1873,9 @@
             "text | The target attempts a Fortitude save at your class DC. It then becomes temporarily immune to your Master Strike for 1 day.",
             "fill",
             "property | Critical Success | The target is unaffected.",
-            "property | Success | The target is {@condition enfeebled} 2 until the end of your next turn.",
-            "property | Failure | The target is {@condition paralyzed} for 4 rounds.",
-            "property | Critical Failure | The target is {@condition paralyzed} for 4 rounds, knocked {@condition unconscious} for 2 hours, or killed (your choice).",
+            "property | Success | The target is enfeebled 2 until the end of your next turn.",
+            "property | Failure | The target is paralyzed for 4 rounds.",
+            "property | Critical Failure | The target is paralyzed for 4 rounds, knocked unconscious for 2 hours, or killed (your choice).",
             "fill"
         ]
     },
@@ -1712,7 +1924,7 @@
         "code": "action",
         "contents": [
             "pftrait | gunslinger",
-            "property | Trigger | You roll Initiative.",
+            "property | Trigger | You roll Stealth for Initiative.",
             "rule",
             "text | Your first shot is the deadliest. Interact to draw a firearm or crossbow. On your first turn, your first Strike with that weapon deals an additional 1d6 precision damage. This precision damage increases to 2d6 at 9th level and 3d6 at 15th level."
         ]
@@ -1796,7 +2008,7 @@
             "fill",
             "property | Critical Success | You unlock the lock, or you achieve two successes toward opening a complex lock. You leave no trace of your tampering.",
             "property | Success | You open the lock, or you achieve one success toward opening a complex lock.",
-            "property | Critical Failure | You break your tools. Fixing them requires using {@skill Crafting} to {@action Repair|CRB} them or else swapping in replacement picks (costing 3 sp, or 3 gp for {@item infiltrator thieves' tools|CRB}).",
+            "property | Critical Failure | You break your tools. Fixing them requires using Crafting to Repair them or else swapping in replacement picks (costing 3 sp, or 3 gp for infiltrator thieves' tools).",
             "fill"
         ]
     },
@@ -1838,7 +2050,7 @@
             "rule",
             "text | You ask a question that charms or needles someone in just the right way. Ask a question of a non-allied creature that you can see and have been conversing with. Attempt a Diplomacy check against the creature's Will DC. The creature is then temporarily immune for 1 hour.",
             "fill",
-            "property | Critical Success | The target must directly answer your question. It doesn't have to answer truthfully, but you gain a +4 circumstance bonus to your {@skill Perception} DC if the creature attempts to {@action Lie} to you.",
+            "property | Critical Success | The target must directly answer your question. It doesn't have to answer truthfully, but you gain a +4 circumstance bonus to your Perception DC if the creature attempts to Lie to you.",
             "property | Success | As critical success, but the circumstance bonus is +2.",
             "property | Failure | The target can refuse to answer you as normal.",
             "property | Critical Failure | The target can refuse to answer you as normal, and its attitude toward you decreases by one step due to your aggravating attention.",
@@ -2060,9 +2272,9 @@
             "rule",
             "text | You spend 10 minutes attempting to fix a damaged item, placing the item on a stable surface and using the repair kit with both hands. The GM sets the DC, but it's usually about the same DC to Repair a given item as it is to Craft it in the first place. You can't Repair a destroyed item.",
             "fill",
-            "property | Critical Success | You restore 10 Hit Points to the item, plus an additional 10 Hit Points per proficiency rank you have in {@skill Crafting} (a total of 20 HP if you're trained, 30 HP if you're an expert, 40 HP if you're a master, or 50 HP if you're legendary).",
-            "property | Success | You restore 5 Hit Points to the item, plus an additional 5 per proficiency rank you have in {@skill Crafting} (for a total of 10 HP if you are trained, 15 HP if you're an expert, 20 HP if you're a master, or 25 HP if you're legendary).",
-            "property | Critical Failure | You deal {@dice 2d6} damage to the item. Apply the item's Hardness to this damage.",
+            "property | Critical Success | You restore 10 Hit Points to the item, plus an additional 10 Hit Points per proficiency rank you have in Crafting (a total of 20 HP if you're trained, 30 HP if you're an expert, 40 HP if you're a master, or 50 HP if you're legendary).",
+            "property | Success | You restore 5 Hit Points to the item, plus an additional 5 per proficiency rank you have in Crafting (for a total of 10 HP if you are trained, 15 HP if you're an expert, 20 HP if you're a master, or 25 HP if you're legendary).",
+            "property | Critical Failure | You deal 2d6 damage to the item. Apply the item's Hardness to this damage.",
             "fill"
         ]
     },
@@ -2226,8 +2438,8 @@
             "text | If you're using Seek to search for objects (including secret doors and hazards), you search up to a 10-foot square adjacent to you. The GM might determine you need to Seek as an activity, taking more actions or even minutes or hours if you're searching a particularly cluttered area.",
             "text | The GM attempts a single secret Perception check for you and compares the result to the Stealth DCs of any undetected or hidden creatures in the area or the DC to detect each object in the area (as determined by the GM or by someone Concealing the Object). A creature you detect might remain hidden, rather than becoming observed, if you're using an imprecise sense or if an effect (such as invisibility) prevents the subject from being observed.",
             "fill",
-            "property | Critical Success | If you were searching for creatures, any {@condition undetected} or {@condition hidden} creature you critically succeeded against becomes {@condition observed|CRB} by you. If you were searching for an object, you learn its location.",
-            "property | Success | If you were searching for creatures, any {@condition undetected} creature you succeeded against becomes {@condition hidden} from you instead of {@condition undetected}, and any {@condition hidden} creature you succeeded against becomes {@condition observed|CRB} by you. If you were searching for an object, you learn its location or get a clue to its whereabouts, as determined by the GM.",
+            "property | Critical Success | If you were searching for creatures, any undetected or hidden creature you critically succeeded against becomes observed by you. If you were searching for an object, you learn its location.",
+            "property | Success | If you were searching for creatures, any undetected creature you succeeded against becomes hidden from you instead of undetected, and any hidden creature you succeeded against becomes observed by you. If you were searching for an object, you learn its location or get a clue to its whereabouts, as determined by the GM.",
             "fill"
         ]
     },
@@ -2317,9 +2529,9 @@
             "rule",
             "text | You push an opponent away from you. Attempt an Athletics check against your opponent's Fortitude DC.",
             "fill",
-            "property | Critical Success | You push your opponent up to 10 feet away from you. You can {@action Stride|CRB} after it, but you must move the same distance and in the same direction.",
-            "property | Success | You push your opponent back 5 feet. You can {@action Stride|CRB} after it, but you must move the same distance and in the same direction.",
-            "property | Critical Failure | You lose your balance, fall, and land {@condition prone|CRB}.",
+            "property | Critical Success | You push your opponent up to 10 feet away from you. You can Stride after it, but you must move the same distance and in the same direction.",
+            "property | Success | You push your opponent back 5 feet. You can Stride after it, but you must move the same distance and in the same direction.",
+            "property | Critical Failure | You lose your balance, fall, and land prone.",
             "fill"
         ]
     },
@@ -2350,8 +2562,8 @@
             "text | If you're undetected by a creature and it's impossible for that creature to observe you (for a typical creature, this includes when you're invisible, the observer is blinded, or you're in darkness and the creature can't see in darkness), for any critical failure you roll on a check to Sneak, you get a failure instead. You also continue to be undetected if you lose cover or greater cover against or are no longer concealed from such a creature. At the end of your movement, the GM rolls your Stealth check in secret and compares the result to the Perception DC of each creature you were hidden from or undetected by at the start of your movement. If you have cover or greater cover from the creature throughout your Stride, you gain the +2 circumstance bonus from cover (or +4 from greater cover) to your Stealth check. Because you're moving, the bonus increase from Taking Cover doesn't apply. You don't get to roll against a creature if, at the end of your movement, you neither are concealed from it nor have cover or greater cover against it. You automatically become observed by such a creature.",
             "fill",
             "property | Success | You're {@condition undetected|CRB} by the creature during your movement and remain {@condition undetected|CRB} by the creature at the end of it.,If you successfully become {@condition hidden|CRB} to a creature but then cease to have cover or greater cover against it or be concealed from it, you become {@condition observed|CRB} again. You cease being {@condition hidden|CRB} if you do anything except {@action Hide|CRB}, Sneak, or {@action Step|CRB}. If you attempt to Strike a creature, the creature remains {@condition flat-footed|CRB} against that attack, and you then become observed. If you do anything else, you become {@condition observed|CRB} just before you act unless the GM determines otherwise. The GM might allow you to perform a particularly unobtrusive action without being noticed, possibly requiring another {@skill Stealth} check.,If a creature uses {@action Seek|CRB} to make you {@condition observed|CRB} by it, you must successfully {@action Hide|CRB} to become {@condition hidden|CRB} from it again.",
-            "property | Failure | A telltale sound or other sign gives your position away, though you still remain unseen. You're {@condition hidden|CRB} from the creature throughout your movement and remain so.",
-            "property | Critical Failure | You're spotted! You're observed by the creature throughout your movement and remain so. If you're {@condition invisible|CRB} and were {@condition hidden|CRB} from the creature, instead of being {@condition observed|CRB} you're {@condition hidden|CRB} throughout your movement and remain so.",
+            "property | Failure | A telltale sound or other sign gives your position away, though you still remain unseen. You're hidden from the creature throughout your movement and remain so.",
+            "property | Critical Failure | You're spotted! You're observed by the creature throughout your movement and remain so. If you're invisible and were hidden from the creature, instead of being observed you're hidden throughout your movement and remain so.",
             "fill"
         ]
     },
@@ -2394,7 +2606,7 @@
             "fill",
             "property | Critical Success | You squeeze through the tight space in 1 minute per 10 feet of squeezing.",
             "property | Success | You squeeze through in 1 minute per 5 feet.",
-            "property | Critical Failure | You become stuck in the tight space. While you're stuck, you can spend 1 minute attempting another {@skill Acrobatics} check at the same DC. Any result on that check other than a critical failure causes you to become unstuck.",
+            "property | Critical Failure | You become stuck in the tight space. While you're stuck, you can spend 1 minute attempting another Acrobatics check at the same DC. Any result on that check other than a critical failure causes you to become unstuck.",
             "fill"
         ]
     },
@@ -2628,7 +2840,7 @@
             "fill",
             "property | Critical Success | You gain the ley line's benefits until the end of your next turn.",
             "property | Success | You gain the ley line's benefits until the end of your turn.",
-            "property | Failure | You take mental damage equal to {@dice 1d6*#$prompt_number:min=1,title=Ley Line Level,default=1$#|1d6 × the ley line's level}. You can't Tap the Ley Line again for 1 hour.",
+            "property | Failure | You take mental damage equal to 1d6 × the ley line's level. You can't Tap the Ley Line again for 1 hour.",
             "property | Critical Failure | As failure, and you're subject to the ley line's backlash effect. You can't Tap the Ley Line again for 24 hours.",
             "fill"
         ]
@@ -2764,9 +2976,9 @@
             "text | If you succeed at your check, you can continue treating the target to grant additional healing. If you treat them for a total of 1 hour, double the Hit Points they regain from Treat Wounds.",
             "text | The result of your Medicine check determines how many Hit Points the target regains.",
             "fill",
-            "property | Critical Success | The target regains {@dice 4d8} Hit Points, and its wounded condition is removed.",
-            "property | Success | The target regains {@dice 2d8} Hit Points, and its wounded condition is removed.",
-            "property | Critical Failure | The target takes {@dice 1d8} damage",
+            "property | Critical Success | The target regains 4d8 Hit Points, and its wounded condition is removed.",
+            "property | Success | The target regains 2d8 Hit Points, and its wounded condition is removed.",
+            "property | Critical Failure | The target takes 1d8 damage",
             "fill"
         ]
     },
@@ -2782,9 +2994,9 @@
             "rule",
             "text | You try to knock an opponent to the ground. Attempt an Athletics check against the target's Reflex DC.",
             "fill",
-            "property | Critical Success | The target falls and lands {@condition prone|CRB} and takes {@dice 1d6} bludgeoning damage.",
-            "property | Success | The target falls and lands {@condition prone|CRB}.",
-            "property | Critical Failure | You lose your balance and fall and land {@condition prone|CRB}.",
+            "property | Critical Success | The target falls and lands prone and takes 1d6 bludgeoning damage.",
+            "property | Success | The target falls and lands prone.",
+            "property | Critical Failure | You lose your balance and fall and land prone.",
             "fill"
         ]
     },
@@ -2799,7 +3011,7 @@
             "rule",
             "text | You Stride up to your Speed. During this movement, you can try to move through the space of one enemy. Attempt an Acrobatics check against the enemy's Reflex DC as soon as you try to enter its space. You can Tumble Through using Climb, Fly, Swim, or another action instead of Stride in the appropriate environment.",
             "fill",
-            "property | Success | You move through the enemy's space, treating the squares in its space as {@quickref difficult terrain||3|terrain} (every 5 feet costs 10 feet of movement). If you don't have enough Speed to move all the way through its space, you get the same effect as a failure.",
+            "property | Success | You move through the enemy's space, treating the squares in its space as difficult terrain (every 5 feet costs 10 feet of movement). If you don't have enough Speed to move all the way through its space, you get the same effect as a failure.",
             "property | Failure | Your movement ends, and you trigger reactions as if you had moved out of the square you started in.",
             "fill"
         ]

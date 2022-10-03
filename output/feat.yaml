@@ -32,6 +32,18 @@
         - feat.ancestry.aasimar.loag.radiate-glory
         - feat.ancestry.aasimar.loag.tranquil-sanctuary
         - feat.ancestry.aasimar.loag.truespeech
+        - feat.ancestry.aaws.aboleth-transmutation
+        - feat.ancestry.aaws.alghollthu-bound
+        - feat.ancestry.aaws.azarketi-lore
+        - feat.ancestry.aaws.azarketi-weapon-aptitude
+        - feat.ancestry.aaws.azarketi-weapon-expertise
+        - feat.ancestry.aaws.azarketi-weapon-familiarity
+        - feat.ancestry.aaws.cynical
+        - feat.ancestry.aaws.drag-down
+        - feat.ancestry.aaws.perfect-dive
+        - feat.ancestry.aaws.replenishing-hydration
+        - feat.ancestry.aaws.riptide
+        - feat.ancestry.aaws.surface-skimmer
         - feat.ancestry.apg.big-mouth
         - feat.ancestry.apg.bloodletting-fangs
         - feat.ancestry.apg.boneyards-call
@@ -175,6 +187,47 @@
         - feat.ancestry.changeling.loag.stormy-heart
         - feat.ancestry.changeling.loag.veil-may
         - feat.ancestry.changeling.loag.virga-may
+        - feat.ancestry.da.awakened-power
+        - feat.ancestry.da.blasting-beams
+        - feat.ancestry.da.bone-spikes
+        - feat.ancestry.da.clone-risen
+        - feat.ancestry.da.consume-energy
+        - feat.ancestry.da.devils-eye
+        - feat.ancestry.da.distant-wandering
+        - feat.ancestry.da.dormant-eruption
+        - feat.ancestry.da.echo-of-the-fallen
+        - feat.ancestry.da.eerie-flicker
+        - feat.ancestry.da.elysiums-cadence
+        - feat.ancestry.da.enervating-wail
+        - feat.ancestry.da.fey-life
+        - feat.ancestry.da.ghostly-grasp
+        - feat.ancestry.da.gift-of-the-hoard
+        - feat.ancestry.da.greater-awakened-power
+        - feat.ancestry.da.high-speed-regeneration
+        - feat.ancestry.da.jelly-body
+        - feat.ancestry.da.lingering-chill
+        - feat.ancestry.da.malleable-form
+        - feat.ancestry.da.mirror-refuge
+        - feat.ancestry.da.mirror-risen
+        - feat.ancestry.da.mistaken-identity
+        - feat.ancestry.da.morph-risen
+        - feat.ancestry.da.petrified-skin
+        - feat.ancestry.da.progenitor-lore
+        - feat.ancestry.da.propulsive-leap
+        - feat.ancestry.da.redirect-attention
+        - feat.ancestry.da.reflect-foe
+        - feat.ancestry.da.reflective-pocket
+        - feat.ancestry.da.replicate
+        - feat.ancestry.da.sink-and-swim
+        - feat.ancestry.da.siphon-life
+        - feat.ancestry.da.storming-breath
+        - feat.ancestry.da.tectonic-stomp
+        - feat.ancestry.da.titan-swing
+        - feat.ancestry.da.two-truths
+        - feat.ancestry.da.unyielding-disguise
+        - feat.ancestry.da.walk-on-the-wind
+        - feat.ancestry.da.warp-likeness
+        - feat.ancestry.da.warped-reflection
         - feat.ancestry.dwarf.apg.defy-the-darkness
         - feat.ancestry.dwarf.apg.dwarven-doughtiness
         - feat.ancestry.dwarf.apg.dwarven-reinforcement
@@ -973,6 +1026,11 @@
         - feat.archetype.aldori-duelist.lowg.duelists-edge
         - feat.archetype.aldori-duelist.lowg.saving-slash
         - feat.archetype.aldori-duelist.lowg.unnerving-prowess
+        - feat.archetype.alter-ego.da.alter-ego-dedication
+        - feat.archetype.alter-ego.da.borrow-memories
+        - feat.archetype.alter-ego.da.fake-it-till-you-make-it
+        - feat.archetype.alter-ego.da.sound-mirror
+        - feat.archetype.alter-ego.da.swap-reflections
         - feat.archetype.animal-trainer.ec-2.animal-trainer-dedication
         - feat.archetype.animal-trainer.ec-2.beast-speaker
         - feat.archetype.animal-trainer.ec-2.mature-trained-companion
@@ -987,6 +1045,7 @@
         - feat.archetype.archer.apg.archers-aim
         - feat.archetype.archer.apg.crossbow-terror
         - feat.archetype.archer.apg.quick-shot
+        - feat.archetype.archer.lokl.staggering-fire
         - feat.archetype.artillerist.g-g.artillerist-dedication
         - feat.archetype.artillerist.g-g.cannon-corner-shot
         - feat.archetype.artillerist.g-g.field-artillery
@@ -998,6 +1057,7 @@
         - feat.archetype.assassin.apg.assassinate
         - feat.archetype.assassin.apg.expert-backstabber
         - feat.archetype.assassin.apg.surprise-attack
+        - feat.archetype.assassin.lokl.angel-of-vindication
         - feat.archetype.av-3.drow-shootist-dedication
         - feat.archetype.av-3.lethargy-poisoner
         - feat.archetype.av-3.reloading-trick
@@ -1022,6 +1082,7 @@
         - feat.archetype.bastion.apg.disarming-block
         - feat.archetype.bastion.apg.nimble-shield-hand
         - feat.archetype.bastion.apg.shield-salvation
+        - feat.archetype.bastion.lokl.drive-back
         - feat.archetype.beast-gunner.g-g.basic-beast-gunner-spellcasting
         - feat.archetype.beast-gunner.g-g.beast-gunner-dedication
         - feat.archetype.beast-gunner.g-g.controlled-bullet
@@ -1097,6 +1158,8 @@
         - feat.archetype.cavalier.apg.specialized-mount
         - feat.archetype.cavalier.apg.trampling-charge
         - feat.archetype.cavalier.apg.unseat
+        - feat.archetype.cavalier.lokl.stalwart-standard
+        - feat.archetype.cavalier.lokl.wave-the-flag
         - feat.archetype.celebrity.apg.celebrity-dedication
         - feat.archetype.celebrity.apg.command-attention
         - feat.archetype.celebrity.apg.mesmerizing-gaze
@@ -1109,6 +1172,17 @@
         - feat.archetype.champion.crb.diverse-armor-expert
         - feat.archetype.champion.crb.divine-ally
         - feat.archetype.champion.crb.healing-touch
+        - feat.archetype.chronoskimmer.da.borrow-time
+        - feat.archetype.chronoskimmer.da.chronoskimmer-dedication
+        - feat.archetype.chronoskimmer.da.combat-premonition
+        - feat.archetype.chronoskimmer.da.escape-timeline
+        - feat.archetype.chronoskimmer.da.guide-the-timeline
+        - feat.archetype.chronoskimmer.da.reset-the-past
+        - feat.archetype.chronoskimmer.da.reversing-charge
+        - feat.archetype.chronoskimmer.da.space-time-shift
+        - feat.archetype.chronoskimmer.da.steal-time
+        - feat.archetype.chronoskimmer.da.superimpose-time-duplicates
+        - feat.archetype.chronoskimmer.da.turn-back-the-clock
         - feat.archetype.cleric.crb.advanced-dogma
         - feat.archetype.cleric.crb.basic-cleric-spellcasting
         - feat.archetype.cleric.crb.basic-dogma
@@ -1121,6 +1195,13 @@
         - feat.archetype.crystal-keeper.aoa-4.crystal-ward-spells
         - feat.archetype.crystal-keeper.aoa-4.simple-crystal-magic
         - feat.archetype.crystal-keeper.aoa-4.weapon-rune-shifter
+        - feat.archetype.curse-maelstrom.da.accursed-magic
+        - feat.archetype.curse-maelstrom.da.counter-curse
+        - feat.archetype.curse-maelstrom.da.curse-maelstrom-dedication
+        - feat.archetype.curse-maelstrom.da.reverse-curse
+        - feat.archetype.curse-maelstrom.da.share-burden
+        - feat.archetype.curse-maelstrom.da.torrential-backlash
+        - feat.archetype.curse-maelstrom.da.unnerving-expansion
         - feat.archetype.dandy.apg.dandy-dedication
         - feat.archetype.dandy.apg.gossip-lore
         - feat.archetype.demolitionist.g-g.collapse-wall
@@ -1346,6 +1427,7 @@
         - feat.archetype.herbalist.apg.expert-herbalism
         - feat.archetype.herbalist.apg.herbalist-dedication
         - feat.archetype.herbalist.apg.poultice-preparation
+        - feat.archetype.herbalist.lokl.gravelands-herbalist
         - feat.archetype.horizon-walker.apg.acclimatization
         - feat.archetype.horizon-walker.apg.horizon-walker-dedication
         - feat.archetype.horizon-walker.apg.magical-adaptation
@@ -1382,13 +1464,42 @@
         - feat.archetype.knight-reclaimant.locg.knight-reclaimant-dedication
         - feat.archetype.knight-reclaimant.locg.reaper-of-repose
         - feat.archetype.knight-reclaimant.locg.survivor-of-desolation
+        - feat.archetype.knight-reclaimant.lokl.crimson-oath-devotion
+        - feat.archetype.knight-reclaimant.lokl.for-love-for-lightning
+        - feat.archetype.knight-reclaimant.lokl.hilt-hammer
+        - feat.archetype.knight-reclaimant.lokl.reclaimant-plea
+        - feat.archetype.knight-reclaimant.lokl.shepherd-of-desolation
+        - feat.archetype.knight-reclaimant.lokl.the-tyrant-falls
         - feat.archetype.knight-reclaimant.lol.shall-not-falter-shall-not-rout
         - feat.archetype.knight-vigilant.locg.aegis-of-arnisant
         - feat.archetype.knight-vigilant.locg.endure-deaths-touch
         - feat.archetype.knight-vigilant.locg.knight-in-shining-armor
-        - feat.archetype.knight-vigilant.locg.knight-vigilant
+        - feat.archetype.knight-vigilant.locg.knight-vigilant-dedication
         - feat.archetype.knight-vigilant.locg.unshakable-idealism
+        - feat.archetype.knight-vigilant.lokl.divine-healing
+        - feat.archetype.knight-vigilant.lokl.guarded-advance
+        - feat.archetype.knight-vigilant.lokl.instant-armor
+        - feat.archetype.knight-vigilant.lokl.instinctual-interception
+        - feat.archetype.knight-vigilant.lokl.interrupt-charge
+        - feat.archetype.knight-vigilant.lokl.keep-up-the-good-fight
+        - feat.archetype.knight-vigilant.lokl.lead-the-way
+        - feat.archetype.knight-vigilant.lokl.phalanx-formation
+        - feat.archetype.knight-vigilant.lokl.tower-shield-mastery
+        - feat.archetype.knight-vigilant.lokl.vigilant-benediction
         - feat.archetype.knight-vigilant.lol.vigils-walls-rise-anew
+        - feat.archetype.lastwall-sentry.lokl.always-ready
+        - feat.archetype.lastwall-sentry.lokl.bless-shield
+        - feat.archetype.lastwall-sentry.lokl.flashing-shield
+        - feat.archetype.lastwall-sentry.lokl.grave-sight
+        - feat.archetype.lastwall-sentry.lokl.necromantic-bulwark
+        - feat.archetype.lastwall-sentry.lokl.no-stranger-to-death
+        - feat.archetype.lastwall-sentry.lokl.nonlethal-takedown
+        - feat.archetype.lastwall-sentry.lokl.practiced-opposition
+        - feat.archetype.lastwall-sentry.lokl.repulse-the-wicked
+        - feat.archetype.lastwall-sentry.lokl.resolute-defender
+        - feat.archetype.lastwall-sentry.lokl.sacred-armaments
+        - feat.archetype.lastwall-sentry.lokl.thwart-evil
+        - feat.archetype.lastwall-sentry.lokl.withstand-death
         - feat.archetype.lastwall-sentry.lol.rescuers-press
         - feat.archetype.lastwall-sentry.lowg.eye-of-ozem
         - feat.archetype.lastwall-sentry.lowg.grave-sense
@@ -1419,6 +1530,14 @@
         - feat.archetype.living-monolith.lowg.living-monolith-dedication
         - feat.archetype.living-monolith.lowg.stone-blood
         - feat.archetype.living-monolith.lowg.stone-communion
+        - feat.archetype.living-vessel.da.entitys-strike
+        - feat.archetype.living-vessel.da.exude-abyssal-corruption
+        - feat.archetype.living-vessel.da.feys-trickery
+        - feat.archetype.living-vessel.da.living-vessel-dedication
+        - feat.archetype.living-vessel.da.tap-vitality
+        - feat.archetype.living-vessel.da.vessels-form
+        - feat.archetype.living-vessel.da.warped-constriction
+        - feat.archetype.lokl.empyreal-aura
         - feat.archetype.loremaster.apg.greater-magical-edification
         - feat.archetype.loremaster.apg.loremaster-dedication
         - feat.archetype.loremaster.apg.magical-edification
@@ -1461,6 +1580,7 @@
         - feat.archetype.marshal.apg.target-of-opportunity
         - feat.archetype.marshal.apg.to-battle
         - feat.archetype.marshal.apg.topple-foe
+        - feat.archetype.marshal.lokl.push-back-the-dead
         - feat.archetype.martial-artist.apg.follow-up-strike
         - feat.archetype.martial-artist.apg.grievous-blow
         - feat.archetype.martial-artist.apg.martial-artist-dedication
@@ -1473,6 +1593,17 @@
         - feat.archetype.medic.apg.doctors-visitation
         - feat.archetype.medic.apg.medic-dedication
         - feat.archetype.medic.apg.resuscitate
+        - feat.archetype.medic.lokl.preventative-treatment
+        - feat.archetype.mind-smith.da.advanced-runic-mind-smithing
+        - feat.archetype.mind-smith.da.ghost-blade
+        - feat.archetype.mind-smith.da.just-the-tool
+        - feat.archetype.mind-smith.da.malleable-mental-forge
+        - feat.archetype.mind-smith.da.mental-forge
+        - feat.archetype.mind-smith.da.metallic-envisionment
+        - feat.archetype.mind-smith.da.mind-projectiles
+        - feat.archetype.mind-smith.da.mind-shards
+        - feat.archetype.mind-smith.da.mind-smith-dedication
+        - feat.archetype.mind-smith.da.runic-mind-smithing
         - feat.archetype.monk.crb.advanced-kata
         - feat.archetype.monk.crb.basic-kata
         - feat.archetype.monk.crb.monk-dedication
@@ -1521,6 +1652,12 @@
         - feat.archetype.overwatch.g-g.swift-intervention
         - feat.archetype.overwatch.g-g.topple-giants
         - feat.archetype.overwatch.g-g.wide-overwatch
+        - feat.archetype.pactbinder.da.pact-of-draconic-fury
+        - feat.archetype.pactbinder.da.pact-of-eldritch-eyes
+        - feat.archetype.pactbinder.da.pact-of-fey-glamour
+        - feat.archetype.pactbinder.da.pact-of-infernal-prowess
+        - feat.archetype.pactbinder.da.pact-of-the-final-breath
+        - feat.archetype.pactbinder.da.pactbinder-dedication
         - feat.archetype.pathfinder-agent.locg.educated-assessment
         - feat.archetype.pathfinder-agent.locg.everyone-duck
         - feat.archetype.pathfinder-agent.lopsg.archaeologists-warning
@@ -1559,6 +1696,17 @@
         - feat.archetype.provocator.aoe-3.performance-weapon-expert
         - feat.archetype.provocator.aoe-3.pin-to-the-spot
         - feat.archetype.provocator.aoe-3.provocator-dedication
+        - feat.archetype.psychic-duelist.da.duel-spell-advantage
+        - feat.archetype.psychic-duelist.da.instigate-psychic-duel
+        - feat.archetype.psychic-duelist.da.psychic-duelist-dedication
+        - feat.archetype.psychic-duelist.da.supreme-psychic-center
+        - feat.archetype.psychic.da.advanced-thoughtform
+        - feat.archetype.psychic.da.basic-psychic-spellcasting
+        - feat.archetype.psychic.da.basic-thoughtform
+        - feat.archetype.psychic.da.expert-psychic-spellcasting
+        - feat.archetype.psychic.da.master-psychic-spellcasting
+        - feat.archetype.psychic.da.psi-development
+        - feat.archetype.psychic.da.psychic-dedication
         - feat.archetype.ranger.crb.advanced-hunters-trick
         - feat.archetype.ranger.crb.basic-hunters-trick
         - feat.archetype.ranger.crb.master-spotter
@@ -1650,6 +1798,16 @@
         - feat.archetype.sixth-pillar.frp-2.sixth-pillar-dedication
         - feat.archetype.sixth-pillar.frp-2.sixth-pillar-mastery
         - feat.archetype.sixth-pillar.frp-2.touch-focus
+        - feat.archetype.sleepwalker.da.dream-logic
+        - feat.archetype.sleepwalker.da.dream-magic
+        - feat.archetype.sleepwalker.da.ever-dreaming
+        - feat.archetype.sleepwalker.da.infiltrate-dream
+        - feat.archetype.sleepwalker.da.oneiric-influence
+        - feat.archetype.sleepwalker.da.shared-dream
+        - feat.archetype.sleepwalker.da.sleepwalker-dedication
+        - feat.archetype.sleepwalker.da.vision-of-foresight
+        - feat.archetype.sleepwalker.da.waking-dream
+        - feat.archetype.sleepwalker.da.ward-slumber
         - feat.archetype.snarecrafter.apg.giant-snare
         - feat.archetype.snarecrafter.apg.plentiful-snares
         - feat.archetype.snarecrafter.apg.remote-trigger
@@ -1786,6 +1944,19 @@
         - feat.archetype.talisman-dabbler.apg.quick-fix
         - feat.archetype.talisman-dabbler.apg.talisman-dabbler-dedication
         - feat.archetype.talisman-dabbler.apg.talismanic-sage
+        - feat.archetype.thaumaturge.da.advanced-thaumaturgy
+        - feat.archetype.thaumaturge.da.basic-thaumaturgy
+        - feat.archetype.thaumaturge.da.implement-initiate
+        - feat.archetype.thaumaturge.da.magical-knowledge
+        - feat.archetype.thaumaturge.da.resolute
+        - feat.archetype.thaumaturge.da.thaumaturge-dedication
+        - feat.archetype.time-mage.da.chronomancers-secrets
+        - feat.archetype.time-mage.da.future-spell-learning
+        - feat.archetype.time-mage.da.into-the-future
+        - feat.archetype.time-mage.da.purge-of-moments
+        - feat.archetype.time-mage.da.time-mage-dedication
+        - feat.archetype.time-mage.da.timeline-splitting-spell
+        - feat.archetype.time-mage.da.what-could-have-been
         - feat.archetype.trapsmith-snarecrafter.g-g.trapsmith-dedication
         - feat.archetype.trapsmith.g-g.finessed-features
         - feat.archetype.trapsmith.g-g.recycled-cogwheels
@@ -1847,6 +2018,7 @@
         - feat.archetype.viking.apg.viking-dedication
         - feat.archetype.viking.apg.viking-weapon-familiarity
         - feat.archetype.viking.apg.viking-weapon-specialist
+        - feat.archetype.viking.lokl.viking-vindicator
         - feat.archetype.weapon-improviser.apg.improvised-critical
         - feat.archetype.weapon-improviser.apg.improvised-pummel
         - feat.archetype.weapon-improviser.apg.makeshift-strike
@@ -1950,6 +2122,8 @@
         - feat.class.alchemist.crb.uncanny-bombs
         - feat.class.alchemist.ec-6.astonishing-explosion
         - feat.class.alchemist.frp-3.plum-deluge
+        - feat.class.alchemist.lokl.chemical-purification
+        - feat.class.alchemist.lokl.retaliatory-cleansing
         - feat.class.alchemist.lol.artokuss-fire
         - feat.class.alchemist.lol.wish-alchemy
         - feat.class.barbarian.aoa-6.invulnerable-juggernaut
@@ -2034,6 +2208,8 @@
         - feat.class.barbarian.crb.wounded-rage
         - feat.class.barbarian.ec-6.annihilating-swing
         - feat.class.barbarian.frp-3.whirlwind-toss
+        - feat.class.barbarian.lokl.corpse-killers-defiance
+        - feat.class.barbarian.lokl.ghost-wrangler
         - feat.class.barbarian.lopsg.farabellus-flip
         - feat.class.bard.aoa-3.silvers-refrain
         - feat.class.bard.aoa-6.song-of-the-fallen
@@ -2106,6 +2282,9 @@
         - feat.class.bard.crb.versatile-signature
         - feat.class.bard.ec-6.ringmasters-introduction
         - feat.class.bard.frp-3.head-of-the-night-parade
+        - feat.class.bard.lokl.inspiring-resilience
+        - feat.class.bard.lokl.reliable-squire
+        - feat.class.bard.lokl.shared-sight
         - feat.class.champion.aoa-6.aura-of-unbreakable-virtue
         - feat.class.champion.apg.accelerating-touch
         - feat.class.champion.apg.amplifying-touch
@@ -2189,6 +2368,8 @@
         - feat.class.champion.crb.vengeful-oath
         - feat.class.champion.crb.weight-of-guilt
         - feat.class.champion.crb.wyrmbane-aura
+        - feat.class.champion.da.sacral-lord
+        - feat.class.champion.da.sacral-monarch
         - feat.class.champion.ec-6.banishing-blow
         - feat.class.champion.frp-3.everdistant-defense
         - feat.class.champion.locg.everstand-stance
@@ -2196,6 +2377,14 @@
         - feat.class.champion.locg.light-of-revelation
         - feat.class.champion.locg.sun-blade
         - feat.class.champion.logm.splinter-faith
+        - feat.class.champion.lokl.agile-shield-grip
+        - feat.class.champion.lokl.devoted-guardian
+        - feat.class.champion.lokl.holy-light
+        - feat.class.champion.lokl.knock-sense
+        - feat.class.champion.lokl.miraculous-intervention
+        - feat.class.champion.lokl.necromantic-deflection
+        - feat.class.champion.lokl.resilient-mind
+        - feat.class.champion.lokl.shield-wall
         - feat.class.cleric.aoa-4.false-faith
         - feat.class.cleric.aoa-6.emblazon-divinity
         - feat.class.cleric.apg.ebb-and-flow
@@ -2267,6 +2456,10 @@
         - feat.class.cleric.frp-3.dance-of-intercession
         - feat.class.cleric.logm.expanded-domain-initiate
         - feat.class.cleric.logm.syncretism
+        - feat.class.cleric.lokl.consecrate-spell
+        - feat.class.cleric.lokl.detonating-spell
+        - feat.class.cleric.lokl.prayer-touched-weapon
+        - feat.class.cleric.lokl.purifying-breeze
         - feat.class.druid.aoa-5.pesh-skin
         - feat.class.druid.aoa-6.apex-companion
         - feat.class.druid.apg.current-spell
@@ -2324,6 +2517,13 @@
         - feat.class.druid.crb.wild-shape
         - feat.class.druid.crb.wind-caller
         - feat.class.druid.crb.woodland-stride
+        - feat.class.druid.da.bizarre-transformation
+        - feat.class.druid.da.cant-you-see
+        - feat.class.druid.da.cryptic-spell
+        - feat.class.druid.da.eerie-environs
+        - feat.class.druid.da.eerie-proclamation
+        - feat.class.druid.da.eerie-traces
+        - feat.class.druid.da.forgotten-presence
         - feat.class.druid.ec-6.verdant-presence
         - feat.class.druid.frp-3.heart-of-the-kaiju
         - feat.class.druid.som.advanced-elemental-spell
@@ -2428,6 +2628,8 @@
         - feat.class.fighter.ec-6.reflecting-riposte
         - feat.class.fighter.frp-3.sever-space
         - feat.class.fighter.locg.impassable-wall-stance
+        - feat.class.fighter.lokl.knights-retaliation
+        - feat.class.fighter.lokl.united-assault
         - feat.class.gunslinger.g-g.advanced-shooter
         - feat.class.gunslinger.g-g.alchemical-shot
         - feat.class.gunslinger.g-g.black-powder-boost
@@ -2760,6 +2962,51 @@
         - feat.class.oracle.apg.vision-of-weakness
         - feat.class.oracle.apg.widen-spell
         - feat.class.oracle.frp-3.scapegoat-parallel-self
+        - feat.class.psychic.da.all-in-your-head
+        - feat.class.psychic.da.ancestral-mind
+        - feat.class.psychic.da.astral-tether
+        - feat.class.psychic.da.become-thought
+        - feat.class.psychic.da.brain-drain
+        - feat.class.psychic.da.cantrip-expansion
+        - feat.class.psychic.da.conscious-spell-specialization
+        - feat.class.psychic.da.constant-levitation
+        - feat.class.psychic.da.counter-thought
+        - feat.class.psychic.da.cranial-detonation
+        - feat.class.psychic.da.dark-personas-presence
+        - feat.class.psychic.da.deep-roots
+        - feat.class.psychic.da.deepest-wellspring
+        - feat.class.psychic.da.dream-guise
+        - feat.class.psychic.da.emotional-surge
+        - feat.class.psychic.da.foreseen-failure
+        - feat.class.psychic.da.homing-beacon
+        - feat.class.psychic.da.impose-order
+        - feat.class.psychic.da.inertial-barrier
+        - feat.class.psychic.da.mental-balm
+        - feat.class.psychic.da.mental-buffer
+        - feat.class.psychic.da.mental-static
+        - feat.class.psychic.da.mind-over-matter
+        - feat.class.psychic.da.no
+        - feat.class.psychic.da.parallel-breakthrough
+        - feat.class.psychic.da.psi-burst
+        - feat.class.psychic.da.psi-catastrophe
+        - feat.class.psychic.da.psi-strikes
+        - feat.class.psychic.da.psychic-rapport
+        - feat.class.psychic.da.remove-presence
+        - feat.class.psychic.da.scour-the-library
+        - feat.class.psychic.da.shatter-space
+        - feat.class.psychic.da.signature-spell-expansion
+        - feat.class.psychic.da.sixth-sense
+        - feat.class.psychic.da.steady-spellcasting
+        - feat.class.psychic.da.strain-mind
+        - feat.class.psychic.da.target-of-psychic-ire
+        - feat.class.psychic.da.thoughtform-summoning
+        - feat.class.psychic.da.thoughtsense
+        - feat.class.psychic.da.twin-psyche
+        - feat.class.psychic.da.unlimited-potential
+        - feat.class.psychic.da.violent-unleash
+        - feat.class.psychic.da.wandering-thoughts
+        - feat.class.psychic.da.warp-space
+        - feat.class.psychic.da.whispering-steps
         - feat.class.ranger.aoa-6.superior-sight
         - feat.class.ranger.apg.accurate-flurry
         - feat.class.ranger.apg.additional-recollection
@@ -2838,6 +3085,8 @@
         - feat.class.ranger.crb.wardens-guidance
         - feat.class.ranger.crb.wardens-step
         - feat.class.ranger.crb.wild-empathy
+        - feat.class.ranger.da.obscured-emergence
+        - feat.class.ranger.da.wolf-in-sheeps-clothing
         - feat.class.ranger.ec-6.mimic-protections
         - feat.class.ranger.fop.relentless-stalker
         - feat.class.ranger.frp-3.time-dilation-cascade
@@ -2994,6 +3243,7 @@
         - feat.class.sorcerer.ec-6.tenacious-blood-magic
         - feat.class.sorcerer.frp-3.ruby-resurrection
         - feat.class.sorcerer.logm.blessed-blood
+        - feat.class.sorcerer.lokl.divine-emissary
         - feat.class.summoner.som.advanced-weaponry
         - feat.class.summoner.som.airborne-form
         - feat.class.summoner.som.alacritous-action
@@ -3105,6 +3355,48 @@
         - feat.class.swashbuckler.apg.youre-next
         - feat.class.swashbuckler.frp-3.vivacious-afterimage
         - feat.class.swashbuckler.lol.flamboyant-cruelty
+        - feat.class.thaumaturge.da.ammunition-thaumaturgy
+        - feat.class.thaumaturge.da.breached-defenses
+        - feat.class.thaumaturge.da.call-implement
+        - feat.class.thaumaturge.da.cursed-effigy
+        - feat.class.thaumaturge.da.diverse-lore
+        - feat.class.thaumaturge.da.divine-disharmony
+        - feat.class.thaumaturge.da.elaborate-scroll-esoterica
+        - feat.class.thaumaturge.da.elaborate-talisman-esoterica
+        - feat.class.thaumaturge.da.enhanced-familiar
+        - feat.class.thaumaturge.da.esoteric-reflexes
+        - feat.class.thaumaturge.da.esoteric-warden
+        - feat.class.thaumaturge.da.familiar
+        - feat.class.thaumaturge.da.grand-scroll-esoterica
+        - feat.class.thaumaturge.da.grand-talisman-esoterica
+        - feat.class.thaumaturge.da.haunt-ingenuity
+        - feat.class.thaumaturge.da.implements-assault
+        - feat.class.thaumaturge.da.implements-flight
+        - feat.class.thaumaturge.da.incredible-familiar
+        - feat.class.thaumaturge.da.instructive-strike
+        - feat.class.thaumaturge.da.intense-implement
+        - feat.class.thaumaturge.da.intensify-investiture
+        - feat.class.thaumaturge.da.know-it-all
+        - feat.class.thaumaturge.da.one-more-activation
+        - feat.class.thaumaturge.da.paired-link
+        - feat.class.thaumaturge.da.root-to-life
+        - feat.class.thaumaturge.da.scroll-esoterica
+        - feat.class.thaumaturge.da.scroll-thaumaturgy
+        - feat.class.thaumaturge.da.seven-part-link
+        - feat.class.thaumaturge.da.sever-magic
+        - feat.class.thaumaturge.da.share-weakness
+        - feat.class.thaumaturge.da.shared-warding
+        - feat.class.thaumaturge.da.sympathetic-vulnerabilities
+        - feat.class.thaumaturge.da.talisman-esoterica
+        - feat.class.thaumaturge.da.thaumaturges-demesne
+        - feat.class.thaumaturge.da.thaumaturges-investiture
+        - feat.class.thaumaturge.da.thaumaturgic-ritualist
+        - feat.class.thaumaturge.da.trespass-teleportation
+        - feat.class.thaumaturge.da.turn-away-misfortune
+        - feat.class.thaumaturge.da.twin-weakness
+        - feat.class.thaumaturge.da.ubiquitous-weakness
+        - feat.class.thaumaturge.da.unlimited-demesne
+        - feat.class.thaumaturge.da.wonder-worker
         - feat.class.witch.apg.basic-lesson
         - feat.class.witch.apg.cackle
         - feat.class.witch.apg.cantrip-expansion
@@ -3226,6 +3518,9 @@
         - feat.general.gmg.steel-your-resolve
         - feat.general.logm.numb-to-death
         - feat.skill.acrobat.apg.graceful-leaper
+        - feat.skill.alter-ego.da.change-of-face
+        - feat.skill.alter-ego.da.in-plain-sight
+        - feat.skill.alter-ego.da.muscle-mimicry
         - feat.skill.animal-trainer.ec-2.insistent-command
         - feat.skill.aoa-3.reveal-machinations
         - feat.skill.aoa-3.secret-speech
@@ -3273,6 +3568,7 @@
         - feat.skill.archaeologist.apg.scholastic-identification
         - feat.skill.archaeologist.apg.settlement-scholastics
         - feat.skill.artillerist.g-g.named-artillery
+        - feat.skill.assassin.lokl.eclipsed-vitality
         - feat.skill.botd.stitch-flesh
         - feat.skill.cavalier.apg.quick-mount
         - feat.skill.crb.additional-lore
@@ -3375,6 +3671,15 @@
         - feat.skill.crb.wall-jump
         - feat.skill.crb.ward-medic
         - feat.skill.crb.wary-disarmament
+        - feat.skill.curse-maelstrom.da.familiar-oddities
+        - feat.skill.da.aura-sight
+        - feat.skill.da.automatic-writing
+        - feat.skill.da.chromotherapy
+        - feat.skill.da.crystal-healing
+        - feat.skill.da.folk-dowsing
+        - feat.skill.da.morphic-manipulation
+        - feat.skill.da.read-psychometric-resonance
+        - feat.skill.da.skeptics-defense
         - feat.skill.dandy.apg.distracting-flattery
         - feat.skill.dandy.apg.fabricated-connections
         - feat.skill.dandy.apg.party-crasher
@@ -3386,6 +3691,11 @@
         - feat.skill.hellknight-armiger.lowg.diabolic-certitude
         - feat.skill.herbalist.apg.fresh-ingredients
         - feat.skill.horizon-walker.apg.sure-foot
+        - feat.skill.knight-reclaimant.lokl.ashen-veil
+        - feat.skill.knight-reclaimant.lokl.voice-cold-as-death
+        - feat.skill.knight-vigilant.lokl.emissary-of-peace
+        - feat.skill.lastwall-sentry.lokl.familiar-foe
+        - feat.skill.lastwall-sentry.lokl.final-rest
         - feat.skill.linguist.apg.analyze-idiolect
         - feat.skill.linguist.apg.multilingual-cipher
         - feat.skill.linguist.apg.phonetic-training
@@ -3414,7 +3724,9 @@
         - feat.skill.magaambyan-attendant.locg.uzunjati-storytelling
         - feat.skill.medic.apg.holistic-care
         - feat.skill.medic.apg.treat-condition
+        - feat.skill.mind-smith.da.malleable-movement
         - feat.skill.oozemorph.sli.hideous-ululation
+        - feat.skill.pactbinder.da.sociable-vow
         - feat.skill.pathfinder-agent.locg.forced-entry
         - feat.skill.pathfinder-agent.locg.recognize-threat
         - feat.skill.pathfinder-agent.lopsg.craft-facsimile
@@ -3436,6 +3748,7 @@
         - feat.skill.swordmaster.lopsg.improvised-crafting
         - feat.skill.swordmaster.lopsg.recollect-studies
         - feat.skill.swordmaster.lopsg.rugged-survivalist
+        - feat.skill.time-mage.da.chronocognizance
         - feat.skill.trapsmith.g-g.gear-gnash
         - feat.skill.trapsmith.g-g.propeller-attachment
         - feat.skill.trick-driver.g-g.express-driver

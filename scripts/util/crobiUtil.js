@@ -92,7 +92,7 @@ const getTextEntries = ({ entries = [] }) => {
                         case 'successDegree':
                             lineArr.push('fill');
                             Object.entries(e.entries).forEach(([key, value]) =>
-                                lineArr.push(`property | ${key} | ${value}`)
+                                lineArr.push(`property | ${key} | ${Renderer.stripTags(value)}`)
                             );
                             lineArr.push('fill');
                             break;

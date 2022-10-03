@@ -30,11 +30,12 @@ exports.composeMDX = (original) => {
         },
         fillPages: (compileFn, contentList) => {
             list.forEach((page) => {
+                const contentFill = {};
+
                 //Check if page has Content array
                 if (typeof page?.data?.frontMatter?.content === 'object') {
                     const contentOfPage = page.data.frontMatter.content;
                     // Handle each entry in object
-                    const contentFill = {};
 
                     //Handle Root level content
                     if (Array.isArray(contentOfPage)) {
@@ -43,26 +44,34 @@ exports.composeMDX = (original) => {
                         // Else, content of page is an object
                         Object.entries(contentOfPage).forEach(([key, ids]) => {
                             contentFill[key] = ids
-                                .map((id) => {
-                                    console.log(
-                                        'searching for item',
-                                        id,
-                                        'for',
-                                        page.id + ':' + key
-                                    );
-                                    return contentList.find(id);
+                                .flatMap((id) => {
+                                    if (id.startsWith('P::')) {
+                                        console.log(
+                                            'searching for partials w/',
+                                            id,
+                                            'for',
+                                            page.id + ':' + key
+                                        );
+                                        return contentList.findPartials(id)
+                                    } else {
+                                        console.log(
+                                            'searching for item',
+                                            id,
+                                            'for',
+                                            page.id + ':' + key
+                                        );
+                                        return contentList.find(id);
+                                    }
                                 })
                                 .sort(sortItems);
                         });
                     }
 
                     // console.log(contentFill);
-
-                    page.html = compileFn(unescape(page.html))(contentFill);
-                    page.sidebar = compileFn(unescape(page.sidebar))(
-                        contentFill
-                    );
                 }
+
+                page.html = compileFn(unescape(page.html))(contentFill);
+                page.sidebar = compileFn(unescape(page.sidebar))(contentFill);
 
                 const headers = [
                     ...page.html.matchAll(
@@ -79,7 +88,6 @@ exports.composeMDX = (original) => {
                 page.toc = headers.filter(
                     (e) => e.h <= page.data.frontMatter.tocLevel
                 );
-
             });
             return list;
         },

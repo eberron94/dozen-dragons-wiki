@@ -7,12 +7,25 @@
 
     .hidden-mobile,
     .join-game,
-    .page-toc {
+    .page-toc,
+    #id-tool,
+    #id-tool-min {
         display: none !important;
+    }
+
+    #top-scroll-btn {
+        right: 12px;
+        opacity: 0.8;
+        width: 28px;
+        height: 28px;
     }
 
     .content {
         overflow-y: auto;
+    }
+
+    .content table {
+        font-size: small;
     }
 
     .nav {
@@ -39,8 +52,14 @@
 @media only screen and (min-width: 850px) and (max-width: 1199px) {
     /* MEDIUM VIEW */
 
-    .page-toc {
+    .page-toc,
+    #id-tool,
+    #id-tool-min {
         display: none;
+    }
+
+    #top-scroll-btn {
+        right: 24px;
     }
 }
 
