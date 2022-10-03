@@ -1,4 +1,5 @@
 const { kebabCase } = require('lodash');
+const { markup } = require('../../src/helper/markup');
 const { toDashCase } = require('../../src/util/stringHelper');
 const {
     initCard,
@@ -7,6 +8,7 @@ const {
     parseActivity,
     getMatchedAncestry,
     unpackText,
+    cleanContent,
 } = require('../util/crobiUtil');
 const { DataUtil, SortUtil, Renderer } = require('../util/toolUtil');
 
@@ -59,12 +61,12 @@ const getExtra = ({ special, leadsTo }) => {
     const lineArr = [];
 
     if (special) {
-        lineArr.push(getTextEntries({ entries: special }));
+        lineArr.push(getTextEntries({ entries: (special) }));
     }
 
     if (leadsTo) {
         lineArr.push('section | Leads to');
-        lineArr.push(leadsTo.map((e) => `bullet | ${e}`));
+        lineArr.push(leadsTo.map((e) => `bullet | ${cleanContent([unpackText(e)]).join('')}`));
     }
 
     return lineArr.flat();

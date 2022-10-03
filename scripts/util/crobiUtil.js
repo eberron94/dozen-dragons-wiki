@@ -92,7 +92,11 @@ const getTextEntries = ({ entries = [] }) => {
                         case 'successDegree':
                             lineArr.push('fill');
                             Object.entries(e.entries).forEach(([key, value]) =>
-                                lineArr.push(`property | ${key} | ${Renderer.stripTags(value)}`)
+                                lineArr.push(
+                                    `property | ${key} | ${Renderer.stripTags(
+                                        value
+                                    )}`
+                                )
                             );
                             lineArr.push('fill');
                             break;
@@ -222,7 +226,8 @@ module.exports = {
     classList,
     getMatchedAncestry,
     parseActivity,
-    unpackText: (str) => str.split('|')[0].trim(),
+    unpackText: (str) =>
+        typeof str === 'string' ? str.split('|')[0].trim() : str,
     parseUp,
     parseSavingThrow,
     nthStr,

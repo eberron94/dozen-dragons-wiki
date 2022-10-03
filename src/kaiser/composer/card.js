@@ -35,6 +35,19 @@ exports.composeCard = (original) => {
 
             return `const kaiser = ${JSON.stringify(kMap, null, 4)};`;
         },
+        sort:(a,b)=> {
+
+            if(a?.level < b?.level) return -1;
+            if(a?.level > b?.level) return 1;
+
+            if(a?.data?.title < b?.data?.title) return -1;
+            if(a?.data?.title > b?.data?.title) return 1;
+
+            if(a?.id < b?.id) return -1;
+            if(a?.id > b?.id) return 1;
+
+            return 0;
+        }
     };
 };
 
