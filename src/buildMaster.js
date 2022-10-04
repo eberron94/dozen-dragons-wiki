@@ -125,7 +125,7 @@ const registerHandlebars = () => {
         const compileBread = compileHandlebarTemplate(
             'templates/common/breadcrumb.hbs'
         );
-        if (context.slug === '/index') return '';
+        // if (context.slug === '/index') return '';
 
         return compileBread(
             { ...context, isYoungest: Boolean(options.hash.isYoungest) },
@@ -134,7 +134,7 @@ const registerHandlebars = () => {
     });
 
     Handlebars.registerHelper('card', (context, options) => {
-        const cardFind = kaiser.data.itemCard.find(context.trim());
+        const cardFind = kaiser.data.itemCard.findPartials(context.trim())[0];
 
         if (cardFind && cardFind?.block?.index) return cardFind.block.index;
 

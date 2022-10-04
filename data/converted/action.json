@@ -35,6 +35,7 @@
         "contents": [
             "pftrait | esoterica | manipulate | thaumaturge",
             "property | Requirements | You are holding your implement.",
+            "property | Frequency | once per round",
             "rule",
             "text | You scour your experiences and learning to identify something that might repel your foe. You retrieve an object from your esoterica with the appropriate supernatural qualities, then use your implement to stoke the remnants of its power into a blaze. Select a creature you can see and attempt an Esoteric Lore check against a standard DC for its level, as you retrieve the right object from your esoterica and use your implement to empower it. You gain the following effects until you Exploit Vulnerabilities again.",
             "fill",
@@ -55,6 +56,7 @@
             "pftrait | concentrate | divination | esoterica | magical | thaumaturge",
             "property | Prerequisites | Exploit Vulnerability",
             "property | Requirements | You're benefiting from Exploit Vulnerability, you can see the subject, and you haven't used Exploit Vulnerability this round.",
+            "property | Frequency | once per round",
             "rule",
             "text | You present your implement and esoterica again, intensifying their effects on the target in a way unique to your implement. You gain the intensified vulnerability benefit from one of the implements you're holding, which lasts until the beginning of your next turn."
         ]
@@ -96,6 +98,7 @@
         "contents": [
             "pftrait | magical | manipulate | necromancy | thaumaturge",
             "property | Requirements | You are holding your chalice implement.",
+            "property | Frequency | once per round",
             "rule",
             "text | You drink from the liquid that slowly collects in your chalice or administer it to an adjacent ally. The drinker chooses whether to take a small sip or to drain the contents."
         ]
@@ -219,6 +222,7 @@
         "code": "action",
         "contents": [
             "pftrait | fortune",
+            "property | Frequency | once per day",
             "rule",
             "text | You make a Strike with a ranged weapon, rolling the attack and damage twice and using the better results for each. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being concealed or hidden."
         ]
@@ -231,6 +235,7 @@
         "code": "action",
         "contents": [
             "pftrait | summoner | tandem",
+            "property | Frequency | once per round",
             "rule",
             "text | You and your eidolon act as one. Either you or your eidolon takes an action or activity using the same number of actions as Act Together, and the other takes a single action.",
             "text | For example, if you spent 2 actions to Act Together, you could cast burning hands (2 actions) and your eidolon could Strike (1 action), or your eidolon could use its Breath Weapon (2 actions) and you could Stride (1 action).",
@@ -437,6 +442,7 @@
         "code": "action",
         "contents": [
             "property | Trigger | You are hit with an unarmed strike or a strike with a non-reach melee weapon.",
+            "property | Frequency | once per day",
             "rule",
             "text | You break off quills in your attacker's flesh. You deal 1d8 piercing damage to the triggering creature (basic Reflex save using your class DC or spell DC, whichever is higher.) On a critical failure, the creature also takes 1d4 persistent bleed damage as your quills hook into its flesh. At 3rd level, and every 2 levels thereafter, this damage increases by 1d8 and the persistent piercing damage increases by 1."
         ]
@@ -536,6 +542,7 @@
         "contents": [
             "pftrait | fortune",
             "property | Trigger | You are about to attempt a check to Recall Knowledge.",
+            "property | Frequency | once per day",
             "rule",
             "text | You call upon the knowledge of Axis to ensure the accuracy of your information. You roll a second time and use the higher result. If you roll a critical failure, you get a failure instead. If you roll a success, you get a critical success instead."
         ]
@@ -648,6 +655,7 @@
         "contents": [
             "pftrait | concentrate | investigator",
             "property | Trigger | Another creature attempts a check to investigate a lead you're pursuing.",
+            "property | Frequency | once per minute",
             "rule",
             "text | You share information with the triggering creature. They gain a circumstance bonus to their check equal to your circumstance bonus to checks investigating your subject from Pursue a Lead. The GM can add any relevant traits to this reaction depending on the situation, such as auditory and linguistic if you're conveying information verbally."
         ]
@@ -969,6 +977,7 @@
         "code": "action",
         "contents": [
             "pftrait | concentrate | fortune | investigator",
+            "property | Frequency | once per round",
             "rule",
             "text | You assess a foe's weaknesses in combat and use them to formulate a plan of attack against your enemy. Choose a creature you can see and roll a d20. If you Strike the chosen creature later this round, you must use the result of the roll you made to Devise a Stratagem for your Strike's attack roll instead of rolling. You make this substitution only for the first Strike you make against the creature this round, not any subsequent attacks.",
             "text | When you make this substitution, you can also add your Intelligence modifier to your attack roll instead of your Strength or Dexterity modifier, provided your Strike uses an agile or finesse melee weapon, an agile or finesse unarmed attack, a ranged weapon (which must be agile or finesse if it's a melee weapon with the thrown trait), or a sap.",
@@ -1062,6 +1071,7 @@
         "code": "action",
         "contents": [
             "pftrait | arcane | wizard",
+            "property | Frequency | once per day",
             "rule",
             "text | You expend the power stored in your bonded item, as long as the item is on your person. During your turn, you gain the ability to cast one spell you prepared today and already cast, without spending a spell slot. You must still Cast the Spell and meet the spell's other requirements."
         ]
@@ -1147,6 +1157,7 @@
         "icon_front": "ace",
         "code": "action",
         "contents": [
+            "property | Frequency | once per day",
             "rule",
             "text | Energy bursts forth from your body. You deal 1d6 damage of your chosen type to all adjacent creatures (basic Reflex save using your class DC or spell DC, whichever is higher). At 3rd level, and every 2 levels thereafter, this damage increases by 1d6."
         ]
@@ -1189,6 +1200,7 @@
         "code": "action",
         "contents": [
             "pftrait | investigator",
+            "property | Frequency | once per minute",
             "rule",
             "text | You observe and assess your surroundings with great speed. You Recall Knowledge, Seek, or Sense Motive."
         ]
@@ -1641,6 +1653,7 @@
         "code": "action",
         "contents": [
             "property | Trigger | A creature within 60 feet gains the frightened condition.",
+            "property | Frequency | once per hour",
             "rule",
             "text | You are invigorated by the shock of a prank or the thrum of terror. You gain temporary Hit Points equal to the creature's level or 3, whichever is higher."
         ]
@@ -1869,6 +1882,7 @@
         "contents": [
             "pftrait | incapacitation | rogue",
             "property | Trigger | Your Strike hits a flat-footed creature and deals damage.",
+            "property | Frequency | once per round",
             "rule",
             "text | The target attempts a Fortitude save at your class DC. It then becomes temporarily immune to your Master Strike for 1 day.",
             "fill",
@@ -1912,6 +1926,7 @@
         "code": "action",
         "contents": [
             "pftrait | alchemist",
+            "property | Frequency | once per day",
             "rule",
             "text | You experience a brief resurgence of a mutagen. Choose one mutagen you've consumed since your last daily preparations. You gain the effects of that mutagen for 1 minute."
         ]
@@ -1950,6 +1965,7 @@
         "code": "action",
         "contents": [
             "pftrait | inventor | manipulate",
+            "property | Frequency | once per round",
             "rule",
             "text | Temporarily cranking the gizmos on your body into overdrive, you try to add greater power to your attacks. Attempt a Crafting check that has a standard DC for your level.",
             "fill",
@@ -2047,6 +2063,7 @@
         "code": "action",
         "contents": [
             "pftrait | auditory | concentrate | investigator | linguistic | mental",
+            "property | Frequency | once per minute",
             "rule",
             "text | You ask a question that charms or needles someone in just the right way. Ask a question of a non-allied creature that you can see and have been conversing with. Attempt a Diplomacy check against the creature's Will DC. The creature is then temporarily immune for 1 hour.",
             "fill",
@@ -2078,6 +2095,7 @@
         "code": "action",
         "contents": [
             "pftrait | concentrate | exploration | investigator",
+            "property | Frequency | once per minute",
             "rule",
             "text | You spend 1 minute examining the details of one potential clue, designating the subject related to that clue as the target of your active investigation. This subject is typically a single creature, item, or small location (such as a room or corridor), but the GM might allow a different scope for your investigation. You don't need to know the identity, purpose, or nature of the subject, but you do need to be aware of its existence. For instance, finding a footprint is enough to investigate the creature that left it, and seeing a hasty sketch of an item or location can be enough to start your investigation of that subject.",
             "text | Whenever you attempt a Perception or skill check to investigate a designated subject, you gain a +1 circumstance bonus to the check. The exact checks this applies to depend on the actions you use to investigate and are determined by the GM, but checks to investigate are typically Perception checks or skill checks that use Intelligence, Wisdom, or Charisma.",
@@ -2786,6 +2804,7 @@
         "contents": [
             "pftrait | kobold | poison",
             "property | Requirements | You are wielding a piercing or slashing weapon.",
+            "property | Frequency | once per day",
             "rule",
             "text | You apply your tail's venom to a piercing or slashing weapon. If your next Strike with that weapon before the end of your next turn hits and deals damage, you deal persistent poison damage equal to your level to the target."
         ]
@@ -2890,6 +2909,7 @@
         "contents": [
             "pftrait | grippli | poison",
             "property | Trigger | A creature touches you, such as by Grappling you, successfully hitting you with an unarmed attack, or using a touch-range spell against you.",
+            "property | Frequency | once per hour",
             "rule",
             "text | You exude a deadly toxin. The triggering creature takes 1d4 poison damage (basic Fortitude save using your class DC or spell DC, whichever is higher). At 3rd level and every 2 levels thereafter, the damage increases by 1d4."
         ]

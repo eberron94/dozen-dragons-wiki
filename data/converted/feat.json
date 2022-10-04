@@ -660,6 +660,7 @@
             "pftrait | uncommon | rogue",
             "property | Prerequisites | Debilitating Strike",
             "property | Trigger | You apply a debilitation to a creature.",
+            "property | Frequency | once per minute",
             "rule",
             "text | You can make your debilitation last an exceptionally long time. The triggering debilitation lasts for 1 minute instead of until the end of your next turn."
         ],
@@ -771,6 +772,7 @@
         "contents": [
             "pftrait | archetype",
             "property | Prerequisites | Edgewatch Detective Dedication",
+            "property | Frequency | once per day",
             "rule",
             "text | You focus your attention on a single creature within 30 feet. That creature must attempt a Will save against your Perception DC. On a failure, the creature finds itself unable to speak any deliberate and intentional lies and takes a –2 penalty to Deception checks. On a critical failure, the penalty to Deception checks is –4. This effect lasts for 10 minutes as long as you are within 30 feet of the target and the target is aware that you are using the ability against it.",
             "text | If you begin a new interrogation, this effect ends for any previous target. After your interrogation ends, the target is immune to this ability for 24 hours."
@@ -1524,6 +1526,7 @@
             "pftrait | monk",
             "property | Prerequisites | ki spells",
             "property | Trigger | You Cast a Spell that has the monk trait.",
+            "property | Frequency | once per hour",
             "rule",
             "text | The power of your ki soothes your wounds and energizes you for battle. You regain Hit Points equal to your level plus your Wisdom modifier."
         ],
@@ -1552,6 +1555,7 @@
         "contents": [
             "pftrait | fortune | kobold",
             "property | Trigger | You attempt a saving throw while adjacent to one or more allies, but you haven't rolled yet.",
+            "property | Frequency | once per day",
             "rule",
             "text | In stressful circumstances, you find strength in your allies' example. Roll the save using an adjacent ally's modifier for that type of saving throw instead of your own."
         ],
@@ -1825,6 +1829,7 @@
             "pftrait | archetype | fortune",
             "property | Prerequisites | Archaeologist Dedication",
             "property | Trigger | You fail a check against a trap, such as a Thievery check to Disable the trap or a Reflex save to avoid its effects.",
+            "property | Frequency | once per hour",
             "rule",
             "text | You are more than just skillful; your drive to find the secrets of the past manifests as a strange kind of luck. Reroll the failed check and use the new result."
         ],
@@ -1949,6 +1954,7 @@
         "contents": [
             "pftrait | archetype | magical | necromancy",
             "property | Prerequisites | Eldritch Archer Dedication",
+            "property | Frequency | once per day",
             "rule",
             "text | You modify an arrow or bolt to bring death to your target in a single potent hit. Make a bow Strike. On a hit, you deal an additional 10d10 precision damage. On a critical hit, the target must also succeed at a Fortitude saving throw against your class DC or spell DC, whichever is higher, or be immediately slain; this save has the death and incapacitation traits."
         ],
@@ -2142,6 +2148,7 @@
         "contents": [
             "pftrait | elf | fortune",
             "property | Requirements | You are adjacent to an ally with the dying condition.",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | Though you know that you will eventually outlive your companions, seeing them at death's door brings clarity to your attacks. Make a Strike. Roll twice on the attack roll and use the higher result."
         ],
@@ -2494,6 +2501,7 @@
         "contents": [
             "pftrait | archetype | auditory | concentrate | conjuration | primal",
             "property | Prerequisites | Beastmaster Dedication, Call Companion",
+            "property | Frequency | once per turn",
             "rule",
             "text | You quickly call in a primal projection of a non-active companion to provide the companion's support benefit. The projection arrives in an unoccupied square of your choice within 30 feet of you, grants you its support benefit, and then disappears on your next turn. The projection has the same AC and saving throw modifiers as the real companion, and if it would take any damage before your next turn, it disappears and the support benefit ends immediately."
         ],
@@ -2524,6 +2532,7 @@
         "contents": [
             "pftrait | oracle",
             "property | Requirements | Your most recent action was to cast a noncantrip spell.",
+            "property | Frequency | once per turn",
             "rule",
             "text | You siphon the residual energy from the last spell you cast into one weapon you're wielding. Until the end of your turn, the weapon deals an extra 1d6 damage of a type depending on the school of the spell you just cast.",
             "bullet | **Abjuration** force damage",
@@ -2591,6 +2600,7 @@
         "contents": [
             "pftrait | catfolk | divination | misfortune | occult",
             "property | Trigger | A creature within 30 feet you can see would succeed at a save.",
+            "property | Frequency | once per day",
             "rule",
             "text | You hiss a spiteful curse at the creature. The target must reroll the triggering saving throw and use the worse result."
         ],
@@ -2702,6 +2712,7 @@
         "contents": [
             "pftrait | archetype | concentrate | metamagic",
             "property | Prerequisites | Blessed One Dedication, ability to cast spells from spell slots, Mercy",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | When you focus your magic on an ally, you can remove harmful conditions. If your next action is to Cast a Spell from a spell slot, and that spell targets only a single ally, you can also attempt to remove a harmful condition from that ally. The condition must be one that could be removed by your Mercy feat, including those granted by later feats such as Greater Mercy. Attempt a counteract check based on the spell's DC and level. This effect is in addition to the normal effects of your spell."
         ],
@@ -2835,6 +2846,7 @@
         "contents": [
             "pftrait | human",
             "property | Trigger | You lose the dying condition.",
+            "property | Frequency | once per day",
             "rule",
             "text | You recover from near-death experiences with astounding resilience. Don't increase the value of your wounded condition due to losing the dying condition."
         ],
@@ -2953,6 +2965,7 @@
         "contents": [
             "pftrait | archetype | auditory | flourish",
             "property | Prerequisites | Marshal Dedication",
+            "property | Frequency | once per minute",
             "rule",
             "text | You call out a quick cadence, guiding your allies into a more efficient rhythm. Each willing ally within your marshal's aura is quickened until the end of their next turn, and they can use the extra action only to Stride. At the end of each ally's turn, if they used the extra action, they then become slowed 1 until the end of their following turn."
         ],
@@ -3080,6 +3093,7 @@
         "contents": [
             "pftrait | catfolk | fortune",
             "property | Trigger | You fail a Reflex saving throw.",
+            "property | Frequency | once per day",
             "rule",
             "text | You instinctively twist away from danger. You can reroll the triggering saving throw and use the better result."
         ],
@@ -3102,6 +3116,7 @@
         "contents": [
             "pftrait | auditory | catfolk | concentrate | emotion | mental",
             "property | Trigger | An ally within 30 feet would be reduced to 0 HP but not immediately killed.",
+            "property | Frequency | once per day",
             "rule",
             "text | You give a daring yowl in the face of adversity, calling your companion back from the brink of unconsciousness. Your ally isn't knocked out and remains at 1 Hit Point. Your ally's wounded condition still increases by 1 as though they had been dying and recovered."
         ],
@@ -3362,6 +3377,7 @@
         "code": "feat 9",
         "contents": [
             "pftrait | aasimar | divine | morph | transmutation",
+            "property | Frequency | once per day",
             "rule",
             "text | With effort, you can call forth magical wings from your back, similar in appearance to those of your celestial forebears.",
             "text | These wings remain for 10 minutes. You gain a fly Speed equal to your Speed while you've manifested your wings."
@@ -3583,6 +3599,7 @@
             "pftrait | monk | poison",
             "property | Prerequisites | Cobra Stance, expert in unarmed attacks",
             "property | Requirements | You are in Cobra Stance.",
+            "property | Frequency | once per minute",
             "rule",
             "text | You lash out with devious intent and the power to envenom your foe. Make a cobra fang Strike. Your reach with this Strike is 5 feet greater than normal. If this Strike hits, the target takes 1d4 persistent poison damage per weapon damage die."
         ],
@@ -3742,6 +3759,7 @@
         "contents": [
             "pftrait | general | secret | skill",
             "property | Prerequisites | master in Nature, Occultism, or Religion",
+            "property | Frequency | once per day",
             "rule",
             "text | You have learned rites or meditations that enable you to perceive minor, invisible spirits within a place. Choose Nature, Occultism, or Religion when you select this feat.",
             "text | Nature allows you to contact the spirits of nature that form leshies, who are born of pure life essence rather than spiritual energy and can answer questions about natural features like the location of nearby water or plant life.",
@@ -4309,6 +4327,7 @@
         "contents": [
             "pftrait | champion",
             "property | Trigger | You begin your turn and have no Focus Points in your pool.",
+            "property | Frequency | once per day",
             "rule",
             "text | You call out to your deity in a plea for their aid. You instantly recover 1 Focus Point."
         ],
@@ -5182,6 +5201,7 @@
         "contents": [
             "pftrait | concentrate | divination | divine | tengu",
             "property | Trigger | A creature within 60 feet uses a fortune or misfortune effect.",
+            "property | Frequency | once per day",
             "rule",
             "text | As someone tries to twist fate, you consume the interference.",
             "text | The triggering effect is disrupted. If it's a misfortune effect, Eat Fortune gains the fortune trait; if it's a fortune effect, Eat Fortune gains the misfortune trait. This fortune or misfortune applies to the same roll the triggering effect would have, so you couldn't negate a fortune effect with Eat Fortune and then apply a misfortune effect to the same roll."
@@ -5567,6 +5587,7 @@
         "contents": [
             "pftrait | abjuration | sorcerer",
             "property | Requirements | Your most recent action was to cast a non-cantrip spell that dealt energy damage.",
+            "property | Frequency | once per turn",
             "rule",
             "text | You trap energy from the last spell you cast within your body, coating your flesh in a protective ward. Until the start of your next turn, you gain resistance 5 to one type of energy damage dealt by the spell you just cast."
         ],
@@ -5581,6 +5602,7 @@
         "contents": [
             "pftrait | champion",
             "property | Prerequisites | You've sworn to an oath against a specific type of creature.",
+            "property | Frequency | once per hour",
             "rule",
             "text | You call on your oath to embolden you in combat. When you Enforce your Oath, select one creature you can see that you've sworn to defeat as part of your oath. You gain a +1 status bonus to AC and saves against attacks and effects by the chosen creature. You also gain a +1 status bonus to attack rolls against the chosen creature. However, your dedication to Enforcing your Oath draws your focus away from all other foes. While you are Enforcing your Oath, you take a –1 status penalty to AC, attack rolls, and saves against all other creatures until you stop Enforcing your Oath.",
             "text | You stop Enforcing your Oath once the chosen creature is reduced to 0 Hit Points or offers a legitimate surrender to you or your allies. You immediately stop Enforcing your Oath if you are unconscious or if the chosen creature goes unnoticed by you for more than 1 minute. You can also stop Enforcing your Oath at any time during your turn as a free action."
@@ -6262,6 +6284,7 @@
         "code": "feat 9",
         "contents": [
             "pftrait | divine | morph | tiefling | transmutation",
+            "property | Frequency | once per day",
             "rule",
             "text | You can strain to call forth bat-like or otherwise fiendish wings from your back, similar in appearance to those of your fiendish ancestors. Once manifested, these wings remain for 10 minutes. You gain a fly Speed equal to your land Speed while you've manifested your wings."
         ],
@@ -6576,6 +6599,7 @@
         "code": "feat 14",
         "contents": [
             "pftrait | concentrate | metamagic | oracle",
+            "property | Frequency | once per day",
             "rule",
             "text | You've learned to forestall the effects of your curse somewhat.",
             "text | If the next action you use is to cast a revelation spell, the severity of your curse doesn't increase."
@@ -6604,6 +6628,7 @@
         "code": "feat 13",
         "contents": [
             "pftrait | concentrate | dhampir | divine | polymorph | transmutation",
+            "property | Frequency | once per hour",
             "rule",
             "text | You can transform into a harmless bat. You gain the effects of a 4th-level pest form, except you always transform into a bat."
         ],
@@ -7264,6 +7289,7 @@
         "contents": [
             "pftrait | additive 2 | alchemist",
             "property | Trigger | You craft an elixir of life using Quick Alchemy, and that elixir is at least 2 levels lower than your advanced alchemy level.",
+            "property | Frequency | once per round",
             "rule",
             "text | By adding a special catalyst, you transform a healing elixir into a topical projectile. You grant the elixir the bomb trait.",
             "text | If you throw an elixir of life bomb at a willing target, you hit even on a failure, though not on a critical failure. If your Strike with this elixir bomb hits a living target, the target regains Hit Points as if it had consumed the elixir. On a critical success, the target also gains the elixir's item bonus to saving throws against diseases and poisons for 1 minute."
@@ -7320,6 +7346,7 @@
         "code": "feat 17",
         "contents": [
             "pftrait | emotion | human | mental",
+            "property | Frequency | once per day",
             "rule",
             "text | The blood of heroes courses through your veins, and you inspire your allies to dig deep and find a new level of resolve. You grant up to 10 willing creatures within 30 feet the effects of a 6th-level zealous conviction, though the effect automatically ends on a target if you give that target a command they would normally find repugnant. This action has the auditory trait or visual trait, depending on how you inspire your allies."
         ],
@@ -7452,6 +7479,7 @@
         "code": "feat 17",
         "contents": [
             "pftrait | uncommon | gnome",
+            "property | Frequency | once per week",
             "rule",
             "text | The connection between you and the First World resonates within your body stronger than it does for most gnomes, allowing you to cross the threshold between the Material Plane and the First World. You gain plane shift as a primal innate spell. You can cast it twice per week. This can be used only to travel back and forth between the First World and the Material Plane. Due to your body's natural resonance, you can act as the spell focus, and you don't require a tuning fork."
         ],
@@ -7939,6 +7967,7 @@
             "pftrait | gnome | illusion | visual",
             "property | Prerequisites | at least one arcane or occult innate spell gained from a gnome heritage or gnome ancestry feat",
             "property | Trigger | You are attacked by a foe.",
+            "property | Frequency | once per day",
             "rule",
             "text | The magic within you manifests as a natural reaction to threats. You gain the effects of mirror image but with two images instead of three. The tradition of this action matches the tradition of your gnome ancestry options."
         ],
@@ -8133,6 +8162,7 @@
         "contents": [
             "pftrait | monk",
             "property | Prerequisites | ki spells, Master of Many Styles",
+            "property | Frequency | once per minute",
             "rule",
             "text | You center yourself with the universe and draw upon its vast power. You cast a single action ki spell with the stance trait, without spending a Focus Point."
         ],
@@ -8640,6 +8670,7 @@
         "contents": [
             "pftrait | archetype | magical | transmutation",
             "property | Prerequisites | Eldritch Archer Dedication",
+            "property | Frequency | once per round",
             "rule",
             "text | You imbue your ammunition with eldritch power. When you select this feat, choose three types of common magical ammunition of 4th level or lower from the Core Rulebook or this book. Your GM might allow you to choose from other types of magical ammunition, such as uncommon ammunition, or ammunition from other books.",
             "text | When using Magic Arrow, you transform a non-magical arrow or bolt into a piece of ammunition of one type you chose. You must shoot the ammunition before the end of your turn or the magic dissipates. If the ammunition has an Activate entry, you still need to spend the required actions to activate the ammunition before shooting it. When you use Magic Arrow, you can choose a type of magical ammunition that is typically not available to the type of ammunition you're using—for example, you can use climbing bolt on an arrow, even though that magical ammunition is normally only found on bolts."
@@ -9930,6 +9961,7 @@
         "contents": [
             "pftrait | archetype | flourish",
             "property | Prerequisites | Martial Artist Dedication",
+            "property | Frequency | once per minute",
             "rule",
             "text | With a burst of effort, you weave a path through your enemies, striking each in turn as you move past them. You Stride; this movement doesn't trigger reactions. You can Strike up to three times at any point during your movement, each against a different enemy. Each attack counts toward your multiple attack penalty, but your multiple attack penalty doesn't increase until you have made all your attacks."
         ],
@@ -10077,6 +10109,7 @@
         "contents": [
             "pftrait | archetype | conjuration | magical",
             "property | Prerequisites | Eldritch Archer Dedication",
+            "property | Frequency | once per day",
             "rule",
             "text | You can concentrate an immense amount of magic to create a piece of ammunition that phases through everything but your target. Make a bow Strike against a foe who is observed or hidden to you (but not undetected). The ammunition travels to your target in a straight line, passing through any non-magical barriers or walls in its way, though magical barriers stop the arrow. The shot ignores all cover, the concealed condition, the hidden condition, and circumstance bonuses to AC from shields. It has a +4 status bonus to hit creatures wearing any type of armor. The Strike's damage can't be reduced with a Shield Block reaction using a non-magical shield."
         ],
@@ -10518,6 +10551,7 @@
         "contents": [
             "pftrait | cleric | fortune",
             "property | Trigger | You fail a saving throw against a mental effect.",
+            "property | Frequency | once per hour",
             "rule",
             "text | Your deity sends you a vision of faith to steel you against mental attacks. Reroll the triggering saving throw with a +2 circumstance bonus. You must use the second result, even if it's worse."
         ],
@@ -10710,6 +10744,7 @@
         "contents": [
             "pftrait | ratfolk",
             "property | Prerequisites | Cheek Pouches",
+            "property | Frequency | once per round",
             "rule",
             "text | You are adept at quickly moving items into your cheek pouches. You Interact to store one held item in your cheek pouches (provided it fits)."
         ],
@@ -10737,6 +10772,7 @@
         "code": "feat 10",
         "contents": [
             "pftrait | concentrate | metamagic | oracle",
+            "property | Frequency | once per day",
             "rule",
             "text | If your next action is to cast an oracle cantrip or an oracle spell that is at least 2 levels lower than the highest-level oracle spell slot you can cast, reduce the number of actions to cast it by 1 (minimum 1 action)."
         ],
@@ -10750,6 +10786,7 @@
         "code": "feat 10",
         "contents": [
             "pftrait | concentrate | metamagic | witch",
+            "property | Frequency | once per day",
             "rule",
             "text | If your next action is to cast a witch cantrip or a witch spell that is at least 2 levels lower than the highest-level witch spell slot you can cast, reduce the number of actions to cast it by 1 (minimum 1 action)."
         ],
@@ -10917,6 +10954,7 @@
         "contents": [
             "pftrait | gnome",
             "property | Trigger | You blind or dazzle a creature.",
+            "property | Frequency | once per hour",
             "rule",
             "text | You've spent considerable time practicing the manipulation of light, weaponizing your blade's reflection or bolstering the luminosity of magical displays to unconventional heights.",
             "text | Extend the duration of the blinded or dazzled condition you give the target by 1 round."
@@ -11032,6 +11070,7 @@
         "code": "feat 17",
         "contents": [
             "pftrait | fortune | goblin",
+            "property | Frequency | once per day",
             "rule",
             "text | Despite a lifetime filled with questionable decisions, you've managed to survive, as though you have uncanny luck that lets you avoid the consequences of your own actions. For the remainder of your turn, if you roll a failure or critical failure on a saving throw against a harmful effect, you get a success instead. Further, enemies and hazards that would damage you this turn roll the minimum possible damage.",
             "text | These benefits apply only to harmful effects incurred entirely during your turn in which you activate Reckless Abandon, such as running through a prismatic wall. Persistent damage and conditions that were applied prior to your turn proceed normally, and as soon as your turn ends you are subject to the full consequences of any dangers still threatening you."
@@ -11157,6 +11196,7 @@
         "contents": [
             "pftrait | cleric | concentrate | metamagic",
             "property | Prerequisites | harmful font or healing font",
+            "property | Frequency | once per hour",
             "rule",
             "text | If your next action is to use your divine font to cast a 3-action heal or harm spell to damage creatures, you can harness the residual energy to counterbalance opposing forces. You use your heal or harm spell to attempt to counteract one effect in the spell's area with the chaotic, evil, good, or lawful trait. The chosen trait must oppose one component of your deity's alignment; if your deity is neutral, you can choose any one trait."
         ],
@@ -12009,6 +12049,7 @@
             "pftrait | halfling",
             "property | Prerequisites | legendary Stealth",
             "property | Trigger | You successfully use Stealth to Hide and become hidden from all your current foes, or use Stealth to Sneak and become undetected to all your current foes.",
+            "property | Frequency | once per hour",
             "rule",
             "text | With a powerful talent for misdirection, you slip from your adversaries' notice so thoroughly you appear to be somewhere else. You become invisible for 1 minute or until you take a hostile action, whichever comes first. Choose a location within 10 feet of you. Until your invisibility ends, you appear to be hidden in that location to anyone trying to find you. If the searcher gets clear evidence that you're not there, they no longer think you're hidden there, but they don't discover your actual location."
         ],
@@ -12321,6 +12362,7 @@
         "contents": [
             "pftrait | witch",
             "property | Requirements | You haven't acted yet on your turn.",
+            "property | Frequency | once per day",
             "rule",
             "text | You draw upon the reservoir of your patron's magic that resides within your familiar. During your turn, you can cast one spell your familiar knows that was granted by your patron's theme or lessons without spending a spell slot to do so (or even having it prepared). The spell must be at least 1 level lower than the highest-level spell slot you can cast."
         ],
@@ -12527,6 +12569,7 @@
         "contents": [
             "pftrait | morph | primal | tengu | transmutation",
             "property | Prerequisites | skyborn tengu heritage",
+            "property | Frequency | once per day",
             "rule",
             "text | To be a tengu is to be unburdened by the concerns of the world below. You grow a pair of magical wings or expand your existing ones. For 5 minutes, you gain a fly Speed equal to your land Speed or 20 feet, whichever is greater."
         ],
@@ -12805,6 +12848,7 @@
             "pftrait | barbarian | concentrate | fortune",
             "property | Prerequisites | spirit instinct",
             "property | Trigger | You fail, but don't critically fail, a Perception check or a skill check.",
+            "property | Frequency | once per day",
             "rule",
             "text | Though no one sees them and only you can hear them, the spirits around you constantly chatter, save when you are raging. Sometimes they're even helpful. You can heed the spirits' guidance to reroll the triggering check, using the second result even if it's worse."
         ],
@@ -13392,6 +13436,7 @@
         "contents": [
             "pftrait | cleric",
             "property | Trigger | An ally you can see falls to 0 Hit Points.",
+            "property | Frequency | once per day",
             "rule",
             "text | When an ally you can see falls in battle, your fight or flight response triggers a surge in your deity's might within you. You instantly regain 1 Focus Point."
         ],
@@ -13461,6 +13506,7 @@
         "contents": [
             "pftrait | investigator",
             "property | Trigger | A foe takes a hostile action against you in combat.",
+            "property | Frequency | once per hour",
             "rule",
             "text | Sometimes something intrudes upon your case unexpectedly, such as an ambush sent to bring your investigation to a close. You've learned how to compartmentalize your main lead and pursue a new one for your current predicament.",
             "text | You Pursue a Lead against the triggering foe, setting aside but not ending one of your currently active leads, if you have two leads. At the end of the combat encounter, you stop Pursuing the Lead against the triggering foe and return to the original lead, if you have one."
@@ -14187,6 +14233,7 @@
             "pftrait | archetype | attack",
             "property | Prerequisites | Acrobat Dedication",
             "property | Requirements | Your most recent action was to Tumble Through or Tumbling Strike, and you successfully moved through an enemy's space.",
+            "property | Frequency | once per minute",
             "rule",
             "text | You use a burst of stamina to perform a breathtaking feat of Acrobatics as you speed through a foe's space, leaving your foe lying flat on their back. You attempt to Trip the enemy whose space you moved through. You can use Acrobatics instead of Athletics for this check."
         ],
@@ -14962,6 +15009,7 @@
         "code": "feat 8",
         "contents": [
             "pftrait | uncommon | investigator",
+            "property | Frequency | once per day",
             "rule",
             "text | You carefully consider your case and narrow down some of the details. When you Pursue a Lead, you can spend 10 minutes instead of 1 minute to ask two questions of the GM as you complete the activity. The GM must answer truthfully with \"yes\" or \"no,\" though if the answer would be misleading or have no practical application to your investigation the GM can answer \"immaterial.\" You can't use Whodunnit? more than once for the same lead, even across different days.",
             "text | Your questions must come from the following list, applying to either the creature or the clue you found:",
@@ -15475,6 +15523,7 @@
             "pftrait | archetype | manipulate",
             "property | Prerequisites | Drow Shootist Dedication",
             "property | Requirements | You're holding an unloaded hand crossbow.",
+            "property | Frequency | once per round",
             "rule",
             "text | You can fire off a single shot even when unprepared. You Interact to reload your hand crossbow and Strike with it."
         ],
@@ -15562,6 +15611,7 @@
             "pftrait | archetype | divine | necromancy",
             "property | Prerequisites | Undead Master Dedication",
             "property | Trigger | You would take damage from a Strike while one of your undead companions is adjacent to you.",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You magically divert some of the harm from an incoming attack away from yourself, forcing your undead companion to take it in your stead. Reduce the damage you take from the triggering Strike by 2 + your level. Your adjacent undead companion loses a number of Hit Points equal to the amount of damage reduced. If you have more than one adjacent undead companion, you choose which one loses Hit Points. You can't divert the damage to a temporary fragment from Their Master's Call."
         ],
@@ -15576,6 +15626,7 @@
         "contents": [
             "pftrait | archetype | auditory | divine | emotion | enchantment | fear | mental",
             "property | Prerequisites | Ghost Dedication",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You lament your fate, forcing each living creature in a 30-foot emanation to attempt a Will save against your class DC or spell DC, whichever is higher.",
             "fill",
@@ -15624,6 +15675,7 @@
         "contents": [
             "pftrait | archetype",
             "property | Prerequisites | Ghost Dedication",
+            "property | Frequency | once per day",
             "rule",
             "text | You can suppress your tether to the ground, overcoming your resistance to fly free. For 10 minutes, your fly Speed doesn't restrict you to only a few inches off the ground, allowing you to travel to any height you choose."
         ],
@@ -15642,6 +15694,7 @@
         "contents": [
             "pftrait | archetype",
             "property | Prerequisites | master in Acrobatics, Ghost Dedication",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | Filtering your form through the substance of an object, you can pass through walls, doors, and more. You Fly up to your Speed. During this movement, you can try to move through one object. Attempt an Acrobatics check as you try to enter its space. The DC is typically 30 to move through a wall of up to 5 feet, 15 for an ordinary door, and 10 for thinner structures like windows; the GM might set the DC higher for especially dense materials like adamantine or lead, or for barriers that are magically reinforced. You can't Pass Through an obstacle made of magical force, such as a wall of force.",
             "fill",
@@ -15833,6 +15886,7 @@
         "contents": [
             "pftrait | archetype | aura | divine | emotion | enchantment | fear | mental",
             "property | Prerequisites | Mummy Dedication",
+            "property | Frequency | once per hour",
             "rule",
             "text | You force your mental anguish outward, projecting it upon those around you. You gain an aura of despair in a 30-foot emanation lasting 5 rounds. A creature that enters or begins its turn in the aura must succeed at a Will save against the higher of your class DC or spell DC or be frightened 1 (frightened 2 on a critical failure). A creature that succeeds at the save is temporarily immune to Mummy's Despair for 10 minutes."
         ],
@@ -15862,6 +15916,7 @@
         "contents": [
             "pftrait | archetype | concentrate | conjuration | divine",
             "property | Prerequisites | Mummy Dedication",
+            "property | Frequency | once per hour",
             "rule",
             "text | You become surrounded by a swirling storm of rain, sand, snow, or clouds, whichever of those suits your bound terrain. This activity has traits appropriate to the storm you create— typically earth for sand and water for rain, snow, or clouds.",
             "text | You become concealed for 1 minute. You can't use this concealment to Hide or Sneak, as normal for concealment that makes your position obvious."
@@ -15906,6 +15961,7 @@
         "contents": [
             "pftrait | archetype | concentrate | divine | transmutation",
             "property | Prerequisites | Mummy Dedication",
+            "property | Frequency | once per day",
             "rule",
             "text | You crumble to pieces, becoming composed of the very terrain to which you're bound, with the effects of the gaseous form spell, or you reconstitute into your normal form. The substance you're formed of depends upon your bound terrain, and the action gains the corresponding trait or traits. Arctic Snow (water) Desert Sand (earth) Mountain Cloud (water) Swamp Mud (earth, water)"
         ],
@@ -15934,6 +15990,7 @@
         "contents": [
             "pftrait | skeleton",
             "property | Trigger | An enemy's Strike against you is a critical hit.",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You collapse into a pile of bones, mitigating the worst of the damage you would have taken, and the triggering attack deals only the amount it would deal on a hit (typically full damage instead of double damage). Any other effects caused by a critical hit still occur. While collapsed, you're flat-footed and can't act except to Stand, which re-forms you into a skeleton in a standing position."
         ],
@@ -16241,6 +16298,7 @@
             "pftrait | archetype",
             "property | Prerequisites | Zombie Dedication",
             "property | Trigger | You would be reduced to 0 HP.",
+            "property | Frequency | once per hour",
             "rule",
             "text | You're relentless and nigh unkillable, shrugging off blows that should destroy you, though they might make your body start to fall apart. You are reduced to 1 HP instead of 0 HP. You must succeed at a DC 6 flat check or your body deteriorates."
         ],
@@ -16373,6 +16431,7 @@
         "contents": [
             "pftrait | archetype | concentrate | divine | polymorph | transmutation",
             "property | Prerequisites | Vampire Dedication",
+            "property | Frequency | once per hour",
             "rule",
             "text | You can transform into a bat. You gain the effects of a 4th-level pest form spell. At 14th level, you can choose to spend two actions instead of one to gain the effects of a 4th- or 5th-level aerial form spell instead (bat form only)."
         ],
@@ -16387,6 +16446,7 @@
         "contents": [
             "pftrait | archetype | concentrate | divine | transmutation",
             "property | Prerequisites | Vampire Dedication",
+            "property | Frequency | once per day",
             "rule",
             "text | You turn into vapor, gaining the effects of gaseous form."
         ],
@@ -16447,6 +16507,7 @@
         "code": "feat 17",
         "contents": [
             "pftrait | concentrate | polymorph | skeleton | transmutation",
+            "property | Frequency | once per day",
             "rule",
             "text | You scatter your body and transform into a whirling storm of bones for up to 1 minute or until you spend a single action to return to your normal shape. You become Huge, gain the swarm trait, and gain a fly Speed of 40 feet. As a swarm, you have the following characteristics.",
             "bullet | You are immune to the grappled, prone, and restrained conditions.",
@@ -16480,6 +16541,7 @@
         "contents": [
             "pftrait | archetype | divine | evocation",
             "property | Prerequisites | Mummy Dedication",
+            "property | Frequency | once per hour",
             "rule",
             "text | You draw in the moisture from nearby creatures, draining them dry to heal your wounds. Creatures in a 30-foot cone take 6d8 negative damage, with a basic Reflex save against your class DC. A creature that critically fails this saving throw is also drained 1. As long as at least one creature was damaged by your Desiccating Inhalation, you regain HP equal to your level.",
             "text | At 14th level and every 2 levels thereafter, the damage increases by 1d8."
@@ -17044,6 +17106,7 @@
             "pftrait | archetype | concentrate | divine | necromancy",
             "property | Prerequisites | Soul Warden Dedication",
             "property | Requirements | Your spiral is glowing.",
+            "property | Frequency | once per hour",
             "rule",
             "text | The light flows from your sigil of Pharasma to shatter the bonds imprisoning a soul. You attempt to counteract a possession effect, or an effect, object, or spell that is imprisoning a soul (such as bind soul, a soul gem, or a devourer's devoured souls). You must be within 60 feet of the possessed creature or object, or of the receptacle imprisoning the soul. Your counteract level is half your level rounded up, and your counteract modifier is your divine spell DC – 10. If the attempt fails, you can't use Liberate Soul against that particular effect again unless circumstances have changed drastically, as determined by the GM."
         ],
@@ -17058,6 +17121,7 @@
         "contents": [
             "pftrait | archetype | concentrate | divine | evocation",
             "property | Prerequisites | Soul Warden Dedication",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You trace a spiral in the air while intoning prayers to Pharasma, gaining her blessing for a time. For 3 rounds, your Strikes and spells deal additional damage against undead, creatures in possession of an imprisoned soul, or creatures you have witnessed create or command undead. You gain a status bonus to damage with your Strikes against these creatures equal to the number of weapon damage dice. Spells you cast from spell slots gain a status bonus to damage against these creatures equal to the level of the spell; this bonus applies only to spells that deal damage and don't have a duration.",
             "text | If your spiral is glowing, you can target a willing creature in its light. If you do, that creature gains the bonuses instead of you."
@@ -17367,6 +17431,7 @@
             "pftrait | archetype",
             "property | Prerequisites | Reanimator Dedication",
             "property | Requirements | You have cast animate dead this turn.",
+            "property | Frequency | once per day",
             "rule",
             "text | You sway with the motions of your spells that animate the dead, channeling your power to sustain two at the same time. You Sustain your previous casting of animate dead, binding the necromantic energy of the two spells together with metaphysical twine. On subsequent rounds, you can Sustain both animate dead spells with a single action to Sustain the Spell. This benefit lasts until either of the spells ends."
         ],
@@ -17961,6 +18026,7 @@
         "contents": [
             "pftrait | cleric | divine | evocation",
             "property | Prerequisites | chaotic, evil, good, or lawful deity",
+            "property | Frequency | once per round",
             "rule",
             "text | You bring a weapon into metaphysical concordance with your deity's beliefs. When you select this feat, choose chaotic, evil, good, or lawful. Your choice must match one of your deity's alignment components. This action has the trait corresponding to the chosen alignment component.",
             "text | When you use this action, you touch a weapon. For 1 round, that weapon deals an additional 1d6 damage of the chosen type to creatures of the opposed alignment. For example, if you chose good, the weapon would deal an extra 1d6 good damage to evil creatures. If you Align an Armament again, any previously aligned armament loses its additional damage."
@@ -18931,6 +18997,7 @@
         "contents": [
             "pftrait | sorcerer",
             "property | Requirements | Your most recent action was to cast a non-cantrip spell.",
+            "property | Frequency | once per turn",
             "rule",
             "text | You siphon the residual energy from the last spell you cast into one weapon you're wielding. Until the end of your turn, the weapon deals an extra 1d6 damage of a type depending on the school of the spell you just cast.",
             "bullet | **Abjuration** force damage",
@@ -18950,6 +19017,7 @@
         "contents": [
             "pftrait | wizard",
             "property | Requirements | Your most recent action was to cast a non-cantrip spell.",
+            "property | Frequency | once per turn",
             "rule",
             "text | You siphon spell energy into one weapon you're wielding. Until the end of your turn, the weapon deals an extra 1d6 damage of a type depending on the school of the spell you just cast.",
             "bullet | **Abjuration** force damage",
@@ -19069,6 +19137,7 @@
         "code": "feat 20",
         "contents": [
             "pftrait | metamagic | sorcerer",
+            "property | Frequency | once per minute",
             "rule",
             "text | Your inborn magical nature lets you redirect ambient energies to fuel your spells. If your next action is to Cast a Spell of 5th level or lower that has no duration, you don't expend the spell's slot when you cast it."
         ],
@@ -19892,6 +19961,7 @@
         "contents": [
             "pftrait | additive 2 | alchemist",
             "property | Trigger | You use Quick Alchemy to craft an alchemical item that has the elixir trait and is at least 2 levels lower than your advanced alchemy level.",
+            "property | Frequency | once per round",
             "rule",
             "text | You've discovered how to mix two elixirs into a single hybrid concoction. You can spend 2 additional batches of infused reagents to add a second elixir to the one you're crafting.",
             "text | The second elixir must also be at least 2 levels lower than your advanced alchemy level, and the combination elixir is an alchemical item two levels higher than the higher of the two elixirs' levels. When this combination elixir is consumed, both the constituent elixirs take effect. For example, you can combine two elixirs of life to create a combined elixir that heals twice the normal amount, or you can combine a lesser darkvision elixir with a lesser eagle-eye elixir to both gain darkvision and find secret doors."
@@ -20369,6 +20439,7 @@
         "contents": [
             "pftrait | additive 2 | alchemist",
             "property | Trigger | You use Quick Alchemy to craft an alchemical bomb that is at least 2 levels lower than your advanced alchemy level.",
+            "property | Frequency | once per round",
             "rule",
             "text | Your bombs impose additional effects on your enemies.",
             "text | You mix a substance into the bomb that causes one of the following: dazzled, deafened, flat-footed, or a –5-foot status penalty to Speeds. If the attack with that bomb hits, the target must succeed at a Fortitude saving throw or suffer that effect until the start of your next turn. Use your class DC for this saving throw (even if someone else throws the bomb)."
@@ -20432,6 +20503,7 @@
         "contents": [
             "pftrait | rogue",
             "property | Trigger | A physical attack would reduce you to 0 Hit Points.",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | Dropping into a roll to disperse the force of the blow, you can partially evade a lethal attack and stay conscious. You take half damage from the triggering attack."
         ],
@@ -20525,6 +20597,7 @@
         "code": "feat 14",
         "contents": [
             "pftrait | concentrate | fighter",
+            "property | Frequency | once per day",
             "rule",
             "text | Your training allows you to shrug off your foes' spells and conditions when the need is dire. Choose a single nonpermanent spell or condition that is affecting you. If you chose a condition, its effect on you ends. If you chose a spell, attempt to counteract the spell (your counteract level is equal to half your level, rounded up, and you attempt a Will save as your counteract check)",
             "text | This doesn't remove any Hit Point damage normally dealt by the spell or condition, and it doesn't prevent the spell or debilitating effect from affecting other allies or the environment around you. It can't remove an ongoing affliction or prevent such an affliction from inflicting conditions on you later. It can't remove conditions from the situation (such as prone or flanked). If the effect comes from a creature, hazard, or item of 20th level or higher, Determination can't remove its effect on you."
@@ -20920,6 +20993,7 @@
         "contents": [
             "pftrait | cleric",
             "property | Trigger | You finish Casting a Spell using one of your divine spell slots on your turn.",
+            "property | Frequency | once per turn",
             "rule",
             "text | You siphon residual spell energy into a weapon you're wielding. Until the end of your turn, the weapon deals an additional 1d4 force damage. You can instead deal an additional 1d6 damage of an alignment type that matches one of your deity's alignment components. As usual for aligned damage, this can damage only creatures of the opposite alignment."
         ],
@@ -21696,6 +21770,7 @@
         "contents": [
             "pftrait | gnome",
             "property | Prerequisites | focus pool, at least one innate spell from a gnome heritage or ancestry feat that shares a tradition with at least one of your focus spells",
+            "property | Frequency | once per day",
             "rule",
             "text | The magic within you provides increased energy you can use to focus. You regain 1 Focus Point, up to your usual maximum."
         ],
@@ -22097,6 +22172,7 @@
         "contents": [
             "pftrait | additive 2 | alchemist",
             "property | Trigger | You craft an alchemical bomb using Quick Alchemy that's at least 2 levels lower than your advanced alchemy level.",
+            "property | Frequency | once per round",
             "rule",
             "text | You mix a substance into the bomb to foil resistances. The bomb reduces any resistance the enemy has to its damage type by an amount equal to your level, but only for that attack."
         ],
@@ -23304,6 +23380,7 @@
         "contents": [
             "pftrait | fortune | halfling",
             "property | Trigger | You fail a skill check or saving throw.",
+            "property | Frequency | once per day",
             "rule",
             "text | Your happy-go-lucky nature makes it seem like misfortune avoids you, and to an extent, that might even be true. You can reroll the triggering check, but you must use the new result, even if it's worse than your first roll."
         ],
@@ -23537,6 +23614,7 @@
             "pftrait | rogue",
             "property | Prerequisites | legendary in Stealth",
             "property | Trigger | You successfully use Stealth to Hide and become hidden from all of your current foes, or use Stealth to Sneak and become undetected to all your current foes.",
+            "property | Frequency | once per hour",
             "rule",
             "text | When you put your mind to slipping out of sight, you disappear completely. You become invisible for 1 minute, even if you use a hostile action. Not even glitterdust, see invisibility, or similar effects can reveal you, though creatures can still use the Seek action to locate you as normal."
         ],
@@ -23614,6 +23692,7 @@
         "contents": [
             "pftrait | flourish | ranger",
             "property | Requirements | You are wielding a ranged weapon with reload 0.",
+            "property | Frequency | once per round",
             "rule",
             "text | You take two quick shots against the one you hunt. Make two Strikes against your prey with the required weapon. If both hit the same creature, combine their damage for the purpose of resistances and weaknesses. Apply your multiple attack penalty to each Strike normally."
         ],
@@ -24065,6 +24144,7 @@
             "pftrait | human",
             "property | Prerequisites | Clever Improviser",
             "property | Trigger | You attempt a check using a skill you're untrained in.",
+            "property | Frequency | once per day",
             "rule",
             "text | A stroke of brilliance gives you a major advantage with a skill despite your inexperience. Gain a +4 circumstance bonus to the triggering skill check."
         ],
@@ -24800,6 +24880,7 @@
         "code": "feat 20",
         "contents": [
             "pftrait | concentrate | druid | manipulate | metamagic",
+            "property | Frequency | once per minute",
             "rule",
             "text | You can cast your spells effortlessly by tapping into the leylines of the world. If your next action is to Cast a Spell of 5th level or lower that has no duration, you don't expend the prepared spell as you cast it."
         ],
@@ -24885,6 +24966,7 @@
         "contents": [
             "pftrait | wizard",
             "property | Prerequisites | arcane bond, arcane school",
+            "property | Frequency | once per day",
             "rule",
             "text | You have linked your bonded item to the well of energy that powers your school spells. When you Drain your Bonded Item to cast a spell of your arcane school, you also regain 1 Focus Point."
         ],
@@ -25364,6 +25446,7 @@
         "contents": [
             "pftrait | additive 2 | alchemist",
             "property | Trigger | You craft an elixir of life using Quick Alchemy, and that elixir is at least 2 levels lower than your advanced alchemy level.",
+            "property | Frequency | once per round",
             "rule",
             "text | You mix a special additive into your elixir that calms the drinker's body and mind. The elixir of life attempts to counteract one fear effect or one effect imposing the paralyzed condition on the drinker using the item's level and a counteract modifier equal to your class DC – 10."
         ],
@@ -25469,6 +25552,7 @@
         "code": "feat 18",
         "contents": [
             "pftrait | alchemist",
+            "property | Frequency | once per minute",
             "rule",
             "text | Your alchemical mastery can resuscitate the recently slain.",
             "text | You can administer a true elixir of life to a creature who has been dead for no more than 2 rounds. When you do, that creature is immediately returned to life with 1 Hit Point and becomes wounded 1."
@@ -26061,6 +26145,7 @@
         "contents": [
             "pftrait | orc",
             "property | Trigger | You would be reduced to 0 Hit Points but not immediately killed.",
+            "property | Frequency | once per day",
             "rule",
             "text | Fierceness in battle runs through your blood, and you refuse to fall from your injuries. You avoid being knocked out and remain at 1 Hit Point, and your wounded condition increases by 1."
         ],
@@ -26787,6 +26872,7 @@
         "code": "feat 20",
         "contents": [
             "pftrait | barbarian | manipulate | rage",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You stomp the ground with such force that it creates a minor earthquake, with the effects of the earthquake spell."
         ],
@@ -27058,6 +27144,7 @@
         "code": "feat 10",
         "contents": [
             "pftrait | bard | concentrate | metamagic",
+            "property | Frequency | once per day",
             "rule",
             "text | If your next action is to cast a bard cantrip or a bard spell that is at least 2 levels lower than the highest level bard spell you can cast, reduce the number of actions to cast it by 1 (minimum 1 action)."
         ],
@@ -27071,6 +27158,7 @@
         "code": "feat 10",
         "contents": [
             "pftrait | concentrate | metamagic | sorcerer",
+            "property | Frequency | once per day",
             "rule",
             "text | In a mentally strenuous process, you modify your casting of a spell to take less time. If your next action is to cast a sorcerer cantrip or a sorcerer spell that is at least 2 levels lower than the highest level sorcerer spell you can cast, reduce the number of actions to cast it by 1 (minimum 1 action)."
         ],
@@ -27084,6 +27172,7 @@
         "code": "feat 10",
         "contents": [
             "pftrait | concentrate | metamagic | wizard",
+            "property | Frequency | once per day",
             "rule",
             "text | In a mentally strenuous process, you modify your casting of a spell to take less time. If your next action is to cast a wizard cantrip or a wizard spell that is at least 2 levels lower than the highest level wizard spell you can cast, reduce the number of actions to cast it by 1 (minimum 1 action)."
         ],
@@ -28367,6 +28456,7 @@
         "contents": [
             "pftrait | additive 1 | alchemist",
             "property | Trigger | You use Quick Alchemy to craft an alchemical bomb with a level at least 1 lower than your advanced alchemy level.",
+            "property | Frequency | once per round",
             "rule",
             "text | You cause the bomb to create a cloud of thick smoke, in addition to its normal effects. When thrown, the bomb creates a cloud of smoke in a 10-foot-radius burst. You choose which corner of the target's space (or the space in which the bomb lands) the cloud is centered on. Creatures within that area have the concealed condition, and all other creatures are concealed to them. The smoke lasts for 1 minute or until dissipated by a strong wind."
         ],
@@ -28853,6 +28943,7 @@
         "contents": [
             "pftrait | additive 2 | alchemist",
             "property | Trigger | You use Quick Alchemy to craft an alchemical bomb, and that bomb's level is at least 2 levels lower than your advanced alchemy level.",
+            "property | Frequency | once per round",
             "rule",
             "text | You mix in an additive to make your bomb's contents adhere to the target and continue to deal damage. A creature that takes a direct hit from one of your sticky bombs also takes persistent damage equal to and of the same type as the bomb's splash damage. If the bomb already deals persistent damage, combine the two amounts."
         ],
@@ -29799,6 +29890,7 @@
         "contents": [
             "pftrait | flourish | ranger",
             "property | Requirements | You are wielding two melee weapons, each in a different hand.",
+            "property | Frequency | once per round",
             "rule",
             "text | You swiftly attack your hunted prey with both weapons. Make two Strikes against your hunted prey, one with each of the required weapons. If both hit the same hunted prey, combine their damage for the purpose of its resistances and weaknesses. Apply your multiple attack penalty to each Strike normally."
         ],
@@ -30049,6 +30141,7 @@
         "contents": [
             "pftrait | elf",
             "property | Prerequisites | Expert Longevity",
+            "property | Frequency | once per day",
             "rule",
             "text | You've perfected your ability to keep up with all the skills you've learned over your long life, so you're almost never truly untrained at a skill. You reflect on your life experiences, changing the skills you selected with Ancestral Longevity and Expert Longevity."
         ],
@@ -30745,6 +30838,7 @@
         "code": "feat 10",
         "contents": [
             "pftrait | monk",
+            "property | Frequency | once per round",
             "rule",
             "text | Any journey consists of more than simply reaching your destination. You use two of the following actions in any order: Stand, Step, and Stride. You can't use the same action twice."
         ],
@@ -31147,6 +31241,7 @@
             "pftrait | uncommon | auditory | concentrate | curse | druid | linguistic | manipulate | necromancy | primal | ranger",
             "property | Prerequisites | expert in Occultism, expert in Survival",
             "property | Requirements | You must be in either natural terrain or in abandoned or relatively unused artificial terrain (such as a darkened alley or haunted house).",
+            "property | Frequency | once per hour",
             "rule",
             "text | You know there are places in the world that are just wrong— places where the birds don't sing and where you always feel like you're being watched. You can spot these places, and you can awaken them. To do so, you must gesture toward a 10-foot by 10- foot square you can see and make an ominous proclamation of some manner (i.e. \"This is cursed ground,\" \"That is an ill-omened place.\"). The next creature that enters the marked territory must attempt a Will save against your spell DC (if you're a druid) or class DC (if you're a ranger).",
             "fill",
@@ -31197,6 +31292,7 @@
         "contents": [
             "pftrait | uncommon | concentrate | exploration | general | secret | skill",
             "property | Prerequisites | expert in Occultism",
+            "property | Frequency | once per hour",
             "rule",
             "text | You've learned how to read the natural auras of other living creatures. To do this, you must focus on a single living target without blinking for 1 minute. You can do this while performing some other minor task—such as making conversation to distract from your intentions—but you can't blink or otherwise lose your concentration. You can then perceive any or all of the following information.",
             "bullet | The target's current apparent attitude toward you (friendly, indifferent, and so on).",
@@ -31214,6 +31310,7 @@
         "contents": [
             "pftrait | uncommon | concentrate | exploration | general | manipulate | skill",
             "property | Prerequisites | expert in Occultism",
+            "property | Frequency | once per day",
             "rule",
             "text | When confronted with the unknown, you can receive knowledge beyond your own experience via written messages delivered by your hand. You spend 10 minutes seated while holding a writing utensil, using it to make small circular motions as you open your mind to the forces around you. You receive information as your hand writes on its own, guided by spirits. At the end of these 10 minutes, Recall Knowledge with any Lore skill in which you are not trained, using your Occultism modifier instead of your modifier with that skill. The strain of this spirit channeling leaves you stupefied 1 for the next 10 minutes."
         ],
@@ -31313,6 +31410,7 @@
             "pftrait | uncommon | general | skill",
             "property | Prerequisites | master in Intimidation",
             "property | Trigger | You are targeted by or are in the area of a mental spell or effect.",
+            "property | Frequency | once per day",
             "rule",
             "text | You don't believe in any mental twaddle, and you're certainly not afraid of it. You scoff and verbally refute the triggering effect, attempting a counteract check using your Intimidation modifier with a counteract level of half your level rounded up. If you succeed, you ignore the triggering effect, though any other creatures that were also targeted or in the area are still affected.",
             "text | If the source of the effect you successfully counteracted understands your language and has an Intelligence modifier of –3 or higher, that creature becomes stupefied for 1 round."
@@ -31603,6 +31701,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | concentrate | emotion | fear | mental | reflection | visual",
+            "property | Frequency | once per minute",
             "rule",
             "text | Due to your origins, your form is more flexible than most. You shift your appearance to resemble a creature within 30 feet but with an unsettling, horrifying twist. Though this transformation is momentary, witnessing it gives the target deep existential dread. It must succeed at a Will save against the higher of your class DC or spell DC or become frightened 1 (frightened 2 on a critical failure) and be stupefied 1 as long as the frightened condition lasts. Once you've used Warped Reflection against a creature, it's temporarily immune for 24 hours."
         ],
@@ -31617,6 +31716,7 @@
         "contents": [
             "pftrait | concentrate | fortune | mental | reflection",
             "property | Trigger | You're about to attempt a saving throw against a mental effect.",
+            "property | Frequency | once per minute",
             "rule",
             "text | You feel a strong connection with your progenitor and can convince yourself an effect targeting your mind was meant for theirs instead, allowing you to shrug off harmful effects. Roll the saving throw twice, and take the higher result. However, subsuming your identity is disturbing, and you're frightened 1."
         ],
@@ -31660,6 +31760,7 @@
             "pftrait | morph | occult | reflection | transmutation",
             "property | Prerequisites | Morph-Risen",
             "property | Requirements | You hit a creature with a melee Strike on your last action.",
+            "property | Frequency | once per minute",
             "rule",
             "text | You channel some of your own nature through your blow, temporarily warping your target's form to resemble your own. The creature you hit must attempt a Fortitude save against the higher of your class DC or spell DC.",
             "fill",
@@ -31681,6 +31782,7 @@
             "pftrait | conjuration | extradimensional | occult | reflection",
             "property | Prerequisites | Mirror-Risen",
             "property | Requirements | You're within 5 feet of a mirrored surface.",
+            "property | Frequency | once per day",
             "rule",
             "text | Your origin in the space behind mirrors enables you to use a mirror as a hideaway, like the spell meld into stone. You meld into an adjacent mirror. You can hear but not see outside this space, and creatures outside can't see or hear you. You can cast spells while within the mirror, but no effects can cross the mirror. Your Mirror Refuge lasts for 10 minutes unless the mirror is broken, which expels you and deals 10d6 damage to you. You can Dismiss the effect. You appear in a space adjacent to the mirror when the effect ends."
         ],
@@ -32013,6 +32115,7 @@
         "contents": [
             "pftrait | archetype | concentrate | transmutation",
             "property | Prerequisites | Time Mage Dedication",
+            "property | Frequency | once per hour",
             "rule",
             "text | All things eventually end, a truth that you can put into practice by accelerating your passage through time to shake off harmful effects. Five rounds of apparent time occur for you. No one, including you, can act during this time, but effects on you run their course, including beneficial effects, negative effects, afflictions, conditions, and persistent damage. Roll saving throws, flat checks, damage, and any other rolls for those effects normally as if the time had passed. Excessive use of this technique is responsible for more than a few premature gray hairs among time mages."
         ],
@@ -32056,6 +32159,7 @@
             "pftrait | archetype | concentrate | fortune",
             "property | Prerequisites | Chronoskimmer Dedication",
             "property | Trigger | You fail a skill check or saving throw.",
+            "property | Frequency | once per day",
             "rule",
             "text | After failing a test of skill, you hop back in your personal timeline so you can try again. You reroll the triggering check with a +1 circumstance bonus as you apply your experience from your last attempt. You must use the new result, even if it's worse than your first roll."
         ],
@@ -32070,6 +32174,7 @@
         "contents": [
             "pftrait | archetype | concentrate",
             "property | Prerequisites | Chronoskimmer Dedication",
+            "property | Frequency | once per day",
             "rule",
             "text | You know the result you want and subtly nudge the timeline to your intended destination. Choose an ally or a foe. If you choose an ally, the next time within the next round that ally makes an attack roll or skill check, they roll it twice and take the higher result; this is a fortune effect. If you choose a foe, the next time within the next round that foe makes an attack roll or skill check, they must roll twice and take the lower result unless they succeed at a Will save against your chronoskimmer DC; this is a misfortune effect. Regardless of your choice, the target becomes temporarily immune for 24 hours."
         ],
@@ -32098,6 +32203,7 @@
         "contents": [
             "pftrait | archetype",
             "property | Prerequisites | Chronoskimmer Dedication",
+            "property | Frequency | once per hour",
             "rule",
             "text | You call alternate versions of yourself, either from a different timeline or perhaps yourself from a different point in your current timeline, to aid you in combat. Until the start of your next turn, these alternate selves flicker in and out in your vicinity, providing flanking for you against all enemies within your reach. Flanking with your time duplicates is the same as flanking with an ally and so is subject to effects like all-around vision or the deny advantage class feature."
         ],
@@ -32113,6 +32219,7 @@
             "pftrait | archetype",
             "property | Prerequisites | Chronoskimmer Dedication",
             "property | Trigger | Your turn begins.",
+            "property | Frequency | once per minute",
             "rule",
             "text | You reach ahead and make use of time that's yet to be. You become quickened and can use the extra action to Step, Stride, or Strike. You gain this extra action immediately and can use it this turn. At the end of your turn, you become stunned 1."
         ],
@@ -32127,6 +32234,7 @@
         "contents": [
             "pftrait | archetype",
             "property | Prerequisites | Chronoskimmer Dedication",
+            "property | Frequency | once per hour",
             "rule",
             "text | You reach into another creature's timeline and attempt to alter their flow of time. Select a creature within 30 feet. That creature attempts a Fortitude saving throw against your chronoskimmer Archive DC. The creature takes the effects of slow based on the result of its saving throw."
         ],
@@ -32156,6 +32264,7 @@
             "pftrait | archetype",
             "property | Prerequisites | Chronoskimmer Dedication",
             "property | Trigger | Your turn begins.",
+            "property | Frequency | once per day",
             "rule",
             "text | You step outside of the flow of time momentarily, allowing you to avoid dangers. Your physical form stops existing momentarily, and you can't be targeted or affected until the start of your next turn— you simply don't exist at that moment in time. Your turn ends immediately, advancing 1 round for all timed durations and effects, such as conditions and afflictions. You still attempt saving throws, flat checks, or any other checks at the end of your turn as normal, but you don't take any damage due to these checks (though you take any non-damaging effects as normal). At the start of your next turn, you reenter the flow of time and reappear in the same space where you left time last round. If the space isn't clear, you arrive in the nearest open space."
         ],
@@ -32171,6 +32280,7 @@
             "pftrait | archetype",
             "property | Prerequisites | Chronoskimmer Dedication",
             "property | Trigger | Your turn begins.",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You travel just a few moments into the future to immediately arrive at your destination. Your Strides are augmented until the end of your turn, allowing you to instantly teleport to any point you could reach with your Stride instead of traversing normally to the location. Your augmented Strides have the teleport trait and don't trigger reactions that can be triggered by move actions or upon leaving or entering a square. You also augment your Burrow, Climb, Fly, or Swim actions in this way if you have the corresponding movement type."
         ],
@@ -32238,6 +32348,7 @@
         "contents": [
             "pftrait | archetype | illusion | incapacitation | mental | occult",
             "property | Prerequisites | Psychic Duelist Dedication",
+            "property | Frequency | once per day",
             "rule",
             "text | You attempt to enter a psychic duel with a creature within 100 feet. The target can attempt a Will save against the higher of your spell DC or class DC. If it enters the duel willingly, use the result for a critical failure.",
             "fill",
@@ -32304,6 +32415,7 @@
         "contents": [
             "pftrait | archetype | concentrate",
             "property | Prerequisites | Mind Smith Dedication",
+            "property | Frequency | once per hour",
             "rule",
             "text | You alter your weapon's phase so it can more easily strike incorporeal creatures. Your mind weapon gains the effects of a ghost touch property rune for 1 minute."
         ],
@@ -32614,6 +32726,7 @@
         "code": "feat 14",
         "contents": [
             "pftrait | archetype",
+            "property | Frequency | once per day",
             "rule",
             "text | You manipulate time to recharge one of your temporal techniques—by revising your past so you never used it in the first place. Select one of your chronoskimmer feats that has a frequency of once per day (or more frequent) that you've already used. You can use the feat again, as if you hadn't used it already."
         ],
@@ -32628,6 +32741,7 @@
         "contents": [
             "pftrait | archetype | concentrate | divination | manipulate | metamagic",
             "property | Prerequisites | Time Mage Dedication",
+            "property | Frequency | once per day",
             "rule",
             "text | You invest in two futures, then choose the one to make a reality. You Cast two Spells that each take 1 or 2 actions to cast. These can't be the same spell heightened to two different levels. You expend the resources for both spells, such as spell slots, Focus Points, and material components. Determine the immediate results for both spells, including attack rolls, saving throws, damage, and any other dice rolls.",
             "text | Then, choose which of the two spells takes effect, using the previously made rolls. The other spell's resources are still expended, but the spell has no effect as the magic disappears the other timeline."
@@ -33077,6 +33191,7 @@
         "contents": [
             "pftrait | archetype | conjuration | extradimensional | incapacitation | occult | teleportation",
             "property | Prerequisites | Alter Ego Dedication",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You've learned how to use even your reflection to your advantage. You send your own reflection to forcibly swap places with the reflection of an enemy, pulling each of you through opposite ends and switching places. The enemy must be within 120 feet, you must both be adjacent to reflective surfaces (such as glass, mirrors, or calm water), and you must be able to see the target's reflection and have line of effect to it. The target attempts a Will save against your spell DC or class DC, whichever is higher.",
             "fill",
@@ -33145,6 +33260,7 @@
         "contents": [
             "pftrait | archetype | concentrate | healing | necromancy | positive",
             "property | Prerequisites | Living Vessel Dedication",
+            "property | Frequency | once per hour",
             "rule",
             "text | You tap into the entity's life force to heal your wounds, though at the cost of the entity's personality bleeding into your own. You recover a number of Hit Points equal to four times your level. Each time you use Tap Vitality, you begin to bleed more and more of the entity's personality and instincts into your own until the next time you spend an hour or more assuaging the entity, bringing your mind back under your own control."
         ],
@@ -33177,6 +33293,7 @@
         "contents": [
             "pftrait | archetype | illusion | primal | visual",
             "property | Prerequisites | Living Vessel Dedication, your entity is a fey",
+            "property | Frequency | once per hour",
             "rule",
             "text | You connect with the fey trickster within yourself to create whimsical illusory duplicates that distract your foes. This has the effects of mirror image."
         ],
@@ -33206,6 +33323,7 @@
         "contents": [
             "pftrait | archetype | concentrate | polymorph | transmutation",
             "property | Prerequisites | Living Vessel Dedication",
+            "property | Frequency | once per day",
             "rule",
             "text | You symbiotically combine your form with that of the entity within you, taking a powerful hybrid form to temporarily boost your abilities in combat while maintaining control. For 1 minute, you gain the following effects.",
             "bullet | If you were Medium or smaller, you become Large, and your reach increases to 10 feet.",
@@ -33734,6 +33852,7 @@
         "code": "feat 12",
         "contents": [
             "pftrait | thaumaturge",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | Your bond to your invested items enables you to put more of yourself into them. If you next action is to activate an invested item that has a saving throw DC, you can use your thaumaturge class DC instead of the item's DC if it is higher."
         ],
@@ -34024,6 +34143,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | concentrate | evocation | mindshift | occult | psyche | psychic",
+            "property | Frequency | once per round",
             "rule",
             "text | With a passing thought, you direct violent psychic energies at a nearby creature. Target one creature within 30 feet. It takes 1d4 bludgeoning damage with a basic Reflex save. At 3rd level and every 2 levels thereafter, the damage increases by 1d4."
         ],
@@ -34078,6 +34198,7 @@
         "contents": [
             "pftrait | mindshift | psychic",
             "property | Requirements | Your most recent action was to Cast a Spell or to Unleash your Psyche.",
+            "property | Frequency | once per turn",
             "rule",
             "text | You siphon residual psychic energies from your spell into one weapon you're wielding or one of your unarmed attacks and when you unleash your mind, the energies flare to match. The attack deals an extra 1d6 force damage until the end of the current turn. If your Psyche is Unleashed, this benefit instead lasts until your psyche subsides."
         ],
@@ -34176,6 +34297,7 @@
             "pftrait | psychic",
             "property | Requirements | You have 0 Focus Points.",
             "property | Trigger | You cast a psi cantrip.",
+            "property | Frequency | once per hour",
             "rule",
             "text | You strain your body beyond its limits to use an amp even when your mental power is depleted. You add an amp that costs 1 Focus Point to the spell. Instead of paying the normal Focus Point cost, you lose Hit Points equal to four times the spell level of the amped psi cantrip as you bleed from your nose or suffer some other visible sign of strain."
         ],
@@ -34354,6 +34476,7 @@
         "contents": [
             "pftrait | divination | fortune | occult | psychic",
             "property | Trigger | A spell you cast has no effect because you critically failed all your spell attack rolls or because all targets critically succeeded at their saving throws.",
+            "property | Frequency | once per day",
             "rule",
             "text | You see your spell fail to take hold to disastrous end, then snap back to reality—it was all a precognition, and you know to try a different spell. Your spell is expended, but you can Cast a Spell that requires the same number of actions as the triggering spell or fewer to cast. The second spell must be a different spell than the first."
         ],
@@ -34462,6 +34585,7 @@
         "contents": [
             "pftrait | concentrate | occult | psyche | psychic | teleportation",
             "property | Requirements | You used your most recent action to Cast a Spell.",
+            "property | Frequency | once per round",
             "rule",
             "text | When your Psyche is Unleashed, each burst of magic you cast also folds space around you, and you travel through one of those folds. You teleport 15 feet to a square you can see."
         ],
@@ -34490,6 +34614,7 @@
         "contents": [
             "pftrait | death | mindshift | psyche | psychic",
             "property | Trigger | You successfully reduce one or more non-mindless enemies to 0 Hit Points with a spell.",
+            "property | Frequency | once per round",
             "rule",
             "text | As your overwhelming psyche fells a creature, you use its flickering consciousness to detonate psychic energy from the creature's head. Each enemy you reduced to 0 Hit Points dies and its head explodes. Each exploding head generates a shockwave in a 15-foot emanation around that enemy. Each creature in any of the emanations takes 10d6 bludgeoning damage with a basic Reflex save. If this damage reduces an enemy to 0 Hit Points, its head also explodes, potentially damaging more creatures and potentially causing more detonations. A given creature can take damage only once from a single use of Cranial Detonation."
         ],
@@ -34558,6 +34683,7 @@
         "code": "feat 20",
         "contents": [
             "pftrait | concentrate | manipulate | metamagic | psychic",
+            "property | Frequency | once per minute",
             "rule",
             "text | The laws of magic can limit your mind only if you think you need them, and you've grown past the need for such limits. If your next action is to Cast a Spell of 5th level or lower that has no duration, you don't expend the prepared spell as you cast it."
         ],
@@ -35105,6 +35231,7 @@
         "contents": [
             "pftrait | archetype",
             "property | Prerequisites | Golem Grafter Dedication",
+            "property | Frequency | once per turn",
             "rule",
             "text | You've replaced your heart with one made of animated quicksilver and living adamantine. You reduce your slowed condition by 1. Alternatively, if you are not slowed, you are quickened 1 during your next turn, and can use your extra action to Stride or Strike."
         ],
@@ -35264,6 +35391,7 @@
         "contents": [
             "pftrait | uncommon | additive 2 | alchemist",
             "property | Trigger | You use Quick Alchemy to craft an alchemical bomb that deals splash damage and is at least 2 levels lower than your advanced alchemy level.",
+            "property | Frequency | once per minute",
             "rule",
             "text | Your bomb incorporates an explosive spark of wonder that leaves witnesses dumbfounded. Any target hit by your Strike with the bomb is fascinated by you for 1 round. On a critical success, the target is also stunned 1."
         ],
@@ -35400,6 +35528,7 @@
         "contents": [
             "pftrait | uncommon | sorcerer",
             "property | Trigger | You apply an effect from your blood magic that lasts for 1 round.",
+            "property | Frequency | once per minute",
             "rule",
             "text | You have learned how to invest magic more deeply by witnessing Aroden's works. The triggering blood magic effect lasts for 1 minute instead of 1 round."
         ],
@@ -35414,6 +35543,7 @@
         "contents": [
             "pftrait | uncommon | druid",
             "property | Trigger | You take damage or cast a primal spell.",
+            "property | Frequency | once per hour",
             "rule",
             "text | The life-giving properties of the aeon orbs flourish within you. Small plants or fungi magically appear on all surfaces in a 60-foot emanation around you. This life withers after 1 day unless the environment can support it. You can choose one of the following options each time you use this feat.",
             "bullet | You can cause any number of 5-foot squares in the area to be light undergrowth, which is difficult terrain and provides lesser cover.",
@@ -35931,6 +36061,7 @@
         "code": "feat 20",
         "contents": [
             "pftrait | uncommon | investigator",
+            "property | Frequency | once per hour",
             "rule",
             "text | Your firsthand experience of the subjective nature of time and space has given you new observational insights. Your mind processes information so quickly that time appears to stop for all creatures but you. You can take up to 9 actions in 3 sets of up to 3 actions each. During this time, you can use purely mental and observational abilities such as Recall Knowledge, Seek, and Devise a Stratagem, and you can use an action to move a mental projection of yourself to a location within a 60- foot radius to observe objects more closely and from different angles, though you can't affect your surroundings in any way (for instance, you could move your mental projection more closely to a distant door to read a minute inscription on its handle, but you could not open it to observe the other side)",
             "text | When the duration elapses, time resumes its normal flow."
@@ -35946,6 +36077,7 @@
         "contents": [
             "pftrait | uncommon | cleric",
             "property | Prerequisites | expert in Performance",
+            "property | Frequency | once per day",
             "rule",
             "text | You either performed in or stood witness to the dance used to invoke the Celestial Dragon and can harness a sliver of their power. You Stride in a dance up to half your Speed, attempting a DC 35 Performance check. You can perform this dance up to three times per day. The second time you do so in the same day, use the degree of success one worse than your actual roll on the Performance check. The third time in a day, use the degree of success two lower than your actual roll.",
             "fill",
@@ -36058,6 +36190,7 @@
         "contents": [
             "pftrait | uncommon | healing | necromancy | sorcerer",
             "property | Trigger | You would be reduced to 0 Hit Points.",
+            "property | Frequency | once per day",
             "rule",
             "text | In a burst of flame, you return to health like a phoenix rising from the ashes. Change your current Hit Points to 30 and cast a 6th-level fireball centered on yourself. This fireball doesn't affect you. Your hair turns brilliant red for 1 hour.",
             "text | If you haven't used Ruby Resurrection and you die, you stay in initiative order and Ruby Resurrection triggers automatically at the start of your next turn, bringing you back to life at 0 HP before having its normal effects. This happens only if there are some remains to resurrect; for instance, if you were killed by disintegrate you wouldn't return."
@@ -36076,6 +36209,7 @@
         "contents": [
             "pftrait | uncommon | divine | necromancy | oracle",
             "property | Trigger | Your turn starts or your oracular curse would advance.",
+            "property | Frequency | once per day",
             "rule",
             "text | Seeing Syndara superimpose creatures with similar metaphysical properties, you've realized a way to manipulate the effects of your oracular curse.",
             "text | You immediately change your curse to its minor, moderate, or major stage, or back to its mild form, exchanging the curse effect with that of a parallel version of yourself in another reality."
@@ -36172,6 +36306,7 @@
         "code": "feat 20",
         "contents": [
             "pftrait | uncommon | metamagic | wizard",
+            "property | Frequency | once per hour",
             "rule",
             "text | Though creating demiplanes usually requires lengthy rituals, you know how to establish minor planar effects in imitation of Syndara's masterpieces. If your next action is to Cast a Spell of at least 5th level from your spell slots that affects an area, you can apply one of the following planar effects to a 20-foot burst centered within the spell's area.",
             "text | The effect persists for 1 minute.",
@@ -36340,6 +36475,7 @@
         "code": "feat 9",
         "contents": [
             "pftrait | arcane | automaton | transmutation",
+            "property | Frequency | once per day",
             "rule",
             "text | You redirect energy from your core to ports on your back or feet, allowing you to fly for a short time. You can maintain this redirected energy for 5 minutes. You gain a fly Speed equal to your Speed while redirecting the energy.",
             "text | **Enhancement** You can maintain your flight for longer. You can redirect your energy at all times, allowing you to fly whenever you want, rather than just once per day for 5 minutes."
@@ -36886,6 +37022,7 @@
         "contents": [
             "pftrait | archetype",
             "property | Prerequisites | Unexpected Sharpshooter Dedication",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You fire your gun once, creating a devastating and unpredictable chain of events; perhaps your bullet strikes exactly the right spot on a water tower, causing it to flood and incite a stampede of horses which knock over a lantern that sets a city on fire. Whatever the exact chain reaction, and no matter how improbable, the indiscriminate catastrophe creates significant challenges for your enemies across a wide area while leaving everyone else alone.",
             "text | Make a Strike with a ranged weapon, and if you hit, you can make another Strike at a target within 30 feet of the first target. If you hit the second target, attempt to Strike a third target within 30 feet of the second target, and so on, continuing until you miss a target. You can cease the chain at any point; otherwise, it ends when you first miss an attack.",
@@ -37067,6 +37204,7 @@
         "contents": [
             "pftrait | archetype | evocation | magical",
             "property | Prerequisites | Beast Gunner Dedication",
+            "property | Frequency | once per day",
             "rule",
             "text | You create a direct magical connection with your beast gun, allowing you to guide the beast gun's next shot by taking control of the projectile directly, steering it through the air, and swerving and veering it to continue to hit target after target. Make a beast gun Strike against a creature within the first range increment. On a hit, the shot tears through the target and continues toward another target you can see. You make a Strike against this new target. The new target must be no farther from the previous target than a distance equal to the beast gun's range increment. For example, the new target must be within 150 feet of the previous target when attacking with a drake rifle. On a hit, you can direct the bullet toward a new target.",
             "text | You can continue to make Strikes against new targets in this same way until your attack misses, at which point your shot dissipates. You can't make a Strike against a target you already attacked during this use of Controlled Bullet, but you can otherwise continue to make attacks against valid targets until you miss. Each attack counts toward your multiple attack penalty, but don't increase your penalty until you've made all your attacks."
@@ -37112,6 +37250,7 @@
         "code": "feat 17",
         "contents": [
             "pftrait | arcane | automaton | concentrate | polymorph | transmutation",
+            "property | Frequency | once per day",
             "rule",
             "text | Your body transforms into a powerful magical cannon.",
             "text | While immobile as a cannon, you can fire blasts of energy directly from your core, devastating your foes. You become immobilized until you use an Interact action to revert back to your standard form. While in your cannon form, the only actions you can use are to Strike with an energy blast unarmed attack or to Interact to revert back to your standard form. You can remain in your cannon form for up to 1 minute or until you take the action to revert back to your standard form, whichever comes first.",
@@ -37130,6 +37269,7 @@
         "contents": [
             "pftrait | automaton",
             "property | Trigger | You have the dying condition and are about to attempt a recovery check.",
+            "property | Frequency | once per day",
             "rule",
             "text | Your soul taps into your core's power to push against the grasp of death and allow you to recover consciousness.",
             "text | You're restored to 1 Hit Point, lose the dying and unconscious conditions, and can act normally on this turn. You gain or increase the wounded condition as normal when losing the dying condition in this way.",
@@ -37165,6 +37305,7 @@
         "contents": [
             "pftrait | gunslinger",
             "property | Requirements | You're wielding a loaded firearm or crossbow.",
+            "property | Frequency | once per round",
             "rule",
             "text | You lay down suppressive fire to protect allies by forcing foes to take cover from your wild attacks. Make a firearm or crossbow Strike; the target must decide before you roll your attack whether it will duck out of the way. If the target ducks, it gains a +2 circumstance bonus to AC against your attack, or a +4 circumstance bonus to AC if it has cover. It also takes a –2 circumstance penalty to ranged attack rolls until the end of its next turn. If the target chooses not to duck, you gain a +1 circumstance bonus to your attack roll for that Strike."
         ],
@@ -37180,6 +37321,7 @@
             "pftrait | uncommon | dwarf | fortune",
             "property | Prerequisites | master in Crafting",
             "property | Trigger | You misfire with a firearm or you roll a failure on a Strike with a ranged weapon",
+            "property | Frequency | once per day",
             "rule",
             "text | You sense a minor flaw in the weapon as you fire it, and quickly adjust your aim on the fly to avoid the flaw. If the triggering Strike was a misfire, you get a normal failure instead. If the triggering Strike was a failure, it becomes a glancing blow that deals minimum damage for the Strike (adding any bonuses as normal but getting a result of 1 for all damage dice that would be rolled on a success). The glancing blow does not apply other effects that would normally happen only on a hit."
         ],
@@ -37207,6 +37349,7 @@
         "contents": [
             "pftrait | concentrate | gunslinger",
             "property | Requirements | You're wielding a loaded firearm or crossbow and are not fatigued.",
+            "property | Frequency | once per minute",
             "rule",
             "text | Your steps echo with the thunderous retort of exploding black powder as you dance a dance of death. Take any of the following actions you choose in any order: Step, Strike against a target within your firearm's first range increment, and Interact to reload. If you attempted a Strike and it succeeded, you can repeat these three actions again in any order. If you attempted a Strike in the second set and succeeded, you can repeat the actions one last time.",
             "text | After using Dance of Thunder, you become fatigued for 1 minute."
@@ -37412,6 +37555,7 @@
             "pftrait | archetype | magical | necromancy",
             "property | Prerequisites | Beast Gunner Dedication",
             "property | Requirements | You're wielding your bonded beast gun.",
+            "property | Frequency | once per minute",
             "rule",
             "text | You draw out the bestial magic energy within your bonded beast gun to fortify yourself, purge ongoing harm, and bolster your life force with a sheath of swirling life essence. You gain temporary Hit Points equal to your level and attempt a flat check against any ongoing persistent damage, using the DC appropriate for particularly effective assistance. Using this ability depletes the magic within your bonded beast gun, preventing you from using any of its activated abilities until the end of your next turn."
         ],
@@ -37924,6 +38068,7 @@
             "pftrait | archetype",
             "property | Prerequisites | Overwatch Dedication, master in Perception",
             "property | Trigger | An enemy within your overwatch field attempts an attack against an ally who is also within your overwatch field.",
+            "property | Frequency | once per minute",
             "rule",
             "text | Your foresight and planning are more valuable than armor as you direct your ally away from danger, but there's a limit to how often you can guide your allies away from a foe's relentless assaults. The triggering attack roll targets your Perception DC instead of your ally's AC. Though this allows your ally to avoid taking penalties to their AC, it doesn't remove any conditions or other effects causing such penalties. For example, an enemy with sneak attack would still deal extra damage to your ally if they are flat-footed, even though they wouldn't take the –2 circumstance penalty when defending against the attack."
         ],
@@ -37939,6 +38084,7 @@
             "pftrait | uncommon | divine | dwarf",
             "property | Prerequisites | worshipper of Torag or Angradd",
             "property | Trigger | You attempt a ranged Strike.",
+            "property | Frequency | once per day",
             "rule",
             "text | You intone a prayer to the dwarven deities Torag or Angradd, willing a higher power to guide your aim in the heat of battle. On your next Strike with a ranged weapon before the end of your turn, you gain a +2 circumstance bonus to your attack roll and ignore your target's concealed condition, as well as your target's lesser, standard, and greater cover."
         ],
@@ -37970,6 +38116,7 @@
         "contents": [
             "pftrait | archetype | evocation | magical",
             "property | Prerequisites | Spellshot Dedication",
+            "property | Frequency | once per round",
             "rule",
             "text | You channel potent magic into your next shot, empowering it with a blast of crackling energy. Choose acid, cold, electricity, or fire. If you hit with your next attack roll using a firearm or crossbow before the end of your turn, you deal 1d6 additional damage of this type. At 12th level, this increases to 2d6 additional damage, and at 18th level, it increases to 3d6 additional damage."
         ],
@@ -38109,6 +38256,7 @@
         "contents": [
             "pftrait | fortune | gunslinger",
             "property | Trigger | You fail a Fortitude or Will save.",
+            "property | Frequency | once per hour",
             "rule",
             "text | You call upon deep reserves of toughness and mental fortitude to power through an otherwise debilitating effect. Reroll the triggering save with a +2 circumstance bonus; you must use the second result."
         ],
@@ -38217,6 +38365,7 @@
         "contents": [
             "pftrait | inventor | manipulate",
             "property | Prerequisites | offensive boost",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You don't just tinker with your own innovation, you fiddle with your allies' weapons as well (for their benefit, of course). Choose an ally in your reach and one of their weapons. Attempt a Crafting check against a high DC for your level.",
             "fill",
@@ -38273,6 +38422,7 @@
             "pftrait | archetype",
             "property | Prerequisites | trained in Deception, Unexpected Sharpshooter Dedication",
             "property | Requirements | Your previous action was a ranged weapon Strike that missed a foe within 60 feet.",
+            "property | Frequency | once per hour",
             "rule",
             "text | Somehow your stray bullet causes an unintended reaction that creates a problem for your enemy: perhaps a ricochet knocks your foe's weapon away or they stumble over stray debris in an attempt to dodge your bullets. Roll a Deception check to attempt to Shove, Trip, or Disarm the foe you missed."
         ],
@@ -38402,6 +38552,7 @@
         "code": "feat 16",
         "contents": [
             "pftrait | inventor",
+            "property | Frequency | once per hour",
             "rule",
             "text | Need to balance on a razor's edge, force open an iron door, or persuade a dragon to negotiate? Never fear! No matter the situation, you always have just the thing. You attempt a skill action that takes 1 minute or less to complete, using the same number of actions or amount of time as normal. However, as you take the action, describe a device you pull out and use to accomplish the skill. The specifics of how you accomplish this are up to you, but they should fit the challenge at hand.",
             "text | For instance, you might use gravitic stabilizers to balance on the razor's edge, a force battering ram gizmo to open the iron door, or a device that produces an aroma with the ability to pacify wyrms to persuade the dragon. Using an invention in this way lets you alter how you calculate the skill check used in the action. Instead of the normal skill modifier associated with that skill action, you use your Crafting modifier."
@@ -38474,6 +38625,7 @@
             "pftrait | archetype | misfortune",
             "property | Prerequisites | Unexpected Sharpshooter Dedication",
             "property | Trigger | A creature targets you with an attack, even if you aren't aware of it.",
+            "property | Frequency | once per day",
             "rule",
             "text | Your enemy lies in wait, lines up the perfect shot, and pulls the trigger... then at just the right moment you duck down to notice something scrawled on the cobblestone in chalk, a shiny coin, or some other coincidental distraction, creating an opportunity for the attack to miss. The attacker must roll the attack twice and use the worse result."
         ],
@@ -38718,6 +38870,7 @@
             "pftrait | auditory | concentrate | inventor",
             "property | Prerequisites | construct companion",
             "property | Trigger | Your construct companion would become confused or controlled.",
+            "property | Frequency | once per minute",
             "rule",
             "text | You appeal to your construct companion's bond with its creator to have it break free of a controlling effect. Attempt to counteract the effect that confused or controlled your construct companion, using your Crafting modifier for the counteract check and half your level rounded up for the counteract level."
         ],
@@ -38874,6 +39027,7 @@
         "contents": [
             "pftrait | archetype | conjuration | magical",
             "property | Prerequisites | Spellshot Dedication",
+            "property | Frequency | once per day",
             "rule",
             "text | You can aim your bullets not just in three normal dimensions, but in additional dimensions as well, allowing you to fire a magical shot that phases through everything but your target. Make a crossbow or firearm Strike against a foe who's observed or hidden to you (but not undetected). The ammunition travels to your target in a straight line, passing through any non-magical barriers or walls in its way, though magical barriers and force effects stop the bullet. The shot ignores all cover, the concealed condition, the hidden condition, and circumstance bonuses to AC from shields. It has a +4 status bonus to hit creatures wearing any type of armor. The Strike's damage can't be reduced with a Shield Block reaction using a non-magical shield."
         ],
@@ -39099,6 +39253,7 @@
         "contents": [
             "pftrait | automaton",
             "property | Prerequisites | sharpshooter automaton",
+            "property | Frequency | once per day",
             "rule",
             "text | Throughout the day, your body produces powerful projectiles within your chassis. You fire them all at once in either a 30-foot cone or a 10-foot emanation. Foes in the area take 6d6 piercing damage. This increases to 7d6 at 12th level, 8d6 at 15th level, and 9d6 at 18th level.",
             "text | **Enhancement** The projectiles regenerate quicker, they are much more powerful, and you can refine the metallic content to harm certain creatures. You can use Rain of Bolts once per hour instead of once per day. The damage increases to 12d6 and each time you use the action, you can choose adamantine, cold iron, or silver. The damage from Rain of Bolts is treated as the metal you chose. At 20th level, the damage increases to 13d6."
@@ -39610,6 +39765,7 @@
         "contents": [
             "pftrait | uncommon | dwarf | fire | manipulate",
             "property | Prerequisites | expert in Crafting",
+            "property | Frequency | once per minute",
             "rule",
             "text | You dust explosive black powder on your fist or glove before attacking, which combusts as you hit an opponent.",
             "text | The resulting pops of flame harm both you and your enemy.",
@@ -39845,6 +40001,7 @@
             "pftrait | archetype | skill",
             "property | Prerequisites | master in Deception, Unexpected Sharpshooter Dedication",
             "property | Requirements | Either you used Accidental Shot and hit your opponent with the Strike this turn, or you used Lucky Escape since your last turn and the triggering attack missed you.",
+            "property | Frequency | once per round",
             "rule",
             "text | You laugh innocently about the inexplicable luck of your last shot hitting its mark or how close the attack that just missed you came to taking your head off, causing your foes to second guess whether it's a good idea to oppose you in battle.",
             "text | Attempt to Demoralize either the foe you hit with Accidental Shot or the foe that missed you due to Lucky Escape. You use Deception instead of Intimidation to attempt the check to Demoralize."
@@ -40055,6 +40212,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | archetype | dedication",
+            "property | Frequency | once per day",
             "rule",
             "text | Who needs skill when you've got dumb luck? Sometimes your shots hit miraculously, regardless of the fact that you seemed to slip when you pulled the trigger or that you weren't aiming at your foe when you fired. You gain the Accidental Shot activity.",
             "fill",
@@ -40351,6 +40509,7 @@
         "contents": [
             "pftrait | sylph",
             "property | Trigger | A creature targets you with an attack or other targeted effect, and you can see the attacker.",
+            "property | Frequency | once per day",
             "rule",
             "text | You create a blanket of fog in a 5–foot burst centered on one corner of your space. All creatures within that area are concealed, and all others are concealed to them. This concealment applies to the triggering effect, and the fog lasts for 1 minute or until dispersed by a strong wind. After resolving the triggering effect, you Step. If an effect prevents you from Stepping, you attempt to Escape the effect and Step if you succeed."
         ],
@@ -40365,6 +40524,7 @@
         "contents": [
             "pftrait | ganzi",
             "property | Trigger | You take acid, electricity, or sonic damage.",
+            "property | Frequency | once per hour",
             "rule",
             "text | You focus on your protean forebears to change your energy resistance. The energy resistance you gain from your ganzi heritage changes to match the triggering damage. This change occurs after the damage is dealt."
         ],
@@ -40578,6 +40738,7 @@
         "code": "feat 13",
         "contents": [
             "pftrait | azarketi | concentrate | primal | transmutation | water",
+            "property | Frequency | once per day",
             "rule",
             "text | If you and up to four other creatures are in contact with a body of water deep enough for you to fully submerge, you can spend 10 minutes adapting the creatures to that specific body of water. This allows them to breathe normally while within that body of water and protects them from deep ocean pressure. These effects last until the creatures are no longer in contact with that body of water or until you use this ability again, whichever comes first for each creature."
         ],
@@ -40704,6 +40865,7 @@
         "contents": [
             "pftrait | concentrate | evocation | fire | ifrit | primal",
             "property | Trigger | Your turn begins.",
+            "property | Frequency | once per day",
             "rule",
             "text | You explode in flame. Enemies in a 20-foot emanation take 7d6 fire damage (basic Reflex save using your class DC or spell DC, whichever is higher). Allies in the area are quickened for 1 round and can use the additional action to Strike or Stride."
         ],
@@ -40802,6 +40964,7 @@
         "contents": [
             "pftrait | auditory | divine | duskwalker | enchantment | incapacitation",
             "property | Prerequisites | expert in Performance",
+            "property | Frequency | once per day",
             "rule",
             "text | You've spent many an evening learning songs and tales featuring calacas, death's wandering minstrels. You dramatically unleash a stunning blast of sound by smashing an instrument you hold or belting out a discordant note. This has the effects of synaptic pulse, but the effect is auditory rather than mental. The DC is either your class DC or spell DC, whichever is higher."
         ],
@@ -40843,6 +41006,7 @@
         "contents": [
             "pftrait | auditory | hobgoblin | manipulate",
             "property | Trigger | An adjacent and willing ally would be reduced to 0 HP but not killed.",
+            "property | Frequency | once per day",
             "rule",
             "text | You physically help an ally remain standing and encourage them to push through their pain against dire odds. Your ally doesn't fall unconscious and remains at 1 Hit Point. The ally also gains a number of temporary Hit Points equal to your level that last for 1 minute. Fighting onward with such an injury isn't without consequence; your ally's wounded condition increases by 1."
         ],
@@ -40869,6 +41033,7 @@
         "code": "feat 9",
         "contents": [
             "pftrait | healing | hobgoblin | necromancy | positive",
+            "property | Frequency | once per day",
             "rule",
             "text | The life-giving energy that flows in your blood revitalizes you. You recover 4d6 Hit Points and gain 10 temporary Hit Points for 1 minute.",
             "text | When you reach 15th level, you instead recover 6d6 HP and gain 15 temporary HP."
@@ -40884,6 +41049,7 @@
         "contents": [
             "pftrait | healing | hobgoblin | necromancy | positive",
             "property | Trigger | A living creature within 60 feet would die.",
+            "property | Frequency | once per day",
             "rule",
             "text | The energy that flows in your blood can save a life in the direst of times.",
             "text | The triggering creature receives the effects of breath of life, except they recover a number of Hit Points equal to 6d8 plus your Constitution modifier."
@@ -40996,6 +41162,7 @@
         "contents": [
             "pftrait | duskwalker | fortune",
             "property | Trigger | You would die as a result of a failed saving throw or recovery check.",
+            "property | Frequency | once per day",
             "rule",
             "text | Your previous life ended due to sheer poor luck, struck by lightning or choking on a fish bone. You can reroll the triggering recovery check or saving throw, but you must use the new result, even if it's worse than the first roll."
         ],
@@ -41012,6 +41179,7 @@
         "code": "feat 17",
         "contents": [
             "pftrait | aphorite",
+            "property | Frequency | once per day",
             "rule",
             "text | You tap into the Godmind's collective cognitive well, rapidly parsing near-infinite variables to read your surroundings. For 1 minute, you gain precise motion sense out to 60 feet, you can see invisible creatures and objects, and you gain the effects of a 9th-level true seeing."
         ],
@@ -41025,6 +41193,7 @@
         "code": "feat 9",
         "contents": [
             "pftrait | fire | ifrit | metamagic",
+            "property | Frequency | once per day",
             "rule",
             "text | Your next fire spell leaves embers in its wake. If your next action is to Cast a Spell with an area and the fire trait, for 1 minute, your spell's area becomes difficult terrain as well as hazardous terrain, dealing 1 fire damage for each square a creature moves through."
         ],
@@ -41081,6 +41250,7 @@
         "code": "feat 13",
         "contents": [
             "pftrait | leshy | poison",
+            "property | Frequency | once per day",
             "rule",
             "text | You secrete a cloak of concentrated poison that harms any who dare attack you. For 1 minute, any creature that touches you or damages you with an unarmed attack or melee weapon without the reach trait takes 3d6 poison damage."
         ],
@@ -41254,6 +41424,7 @@
         "code": "feat 5",
         "contents": [
             "pftrait | aphorite",
+            "property | Frequency | once per day",
             "rule",
             "text | You've learned to disperse the crystalline motes coating your body as a haze. You become concealed, though you can't use this concealment to Hide or Sneak, as normal for concealment where your position is still obvious. The motes stay within an inch of your skin, move with you, and last for a number of rounds equal to half your level."
         ],
@@ -41341,6 +41512,7 @@
         "contents": [
             "pftrait | duskwalker",
             "property | Trigger | You are about to gain the dying condition as a result of another creature's attack or ability, and that creature is within your melee reach.",
+            "property | Frequency | once per day",
             "rule",
             "text | Once, you died because someone—murderer or monster, soldier or executioner— chose to strike you down. Just before losing consciousness, make a melee Strike against the triggering creature."
         ],
@@ -41560,6 +41732,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | arcane | concentrate | evocation | suli",
+            "property | Frequency | once per day",
             "rule",
             "text | You shroud your arms and held weapons in elemental magic. Choose one element.",
             "text | Until the end of your next turn, your Strikes deal an additional 1d6 damage of the indicated type and have the trait corresponding to the element: electricity for air, bludgeoning for earth, fire for fire, or cold for water."
@@ -41717,6 +41890,7 @@
         "contents": [
             "pftrait | concentrate | morph | primal | sprite | transmutation",
             "property | Prerequisites | Evanescent Wings",
+            "property | Frequency | once per hour",
             "rule",
             "text | You stoke your magic to energize your wings, temporarily transforming them into glowing, majestic forms. For 1 minute, you gain a fly Speed of 30 feet."
         ],
@@ -41797,6 +41971,7 @@
         "code": "feat 5",
         "contents": [
             "pftrait | darkness | evocation | fetchling | occult",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You wrap shadow around a single unattended light source within 120 feet that's no larger than a torch. Any non-magical light source you target is automatically extinguished. For magical light sources, attempt a counteract check using your Fortitude or Thievery modifier against the target's DC. Your counteract level is equal to half your level rounded up. Successfully counteracting the light source suppresses its ability to produce light for 1 minute, but not any other effects. If you're in dim light or darkness when you Extinguish Light, its range is 240 feet."
         ],
@@ -41853,6 +42028,7 @@
             "pftrait | dhampir",
             "property | Prerequisites | Adhyabhau",
             "property | Trigger | You deal mental damage.",
+            "property | Frequency | once per hour",
             "rule",
             "text | The psychic feedback of another creature's pain fills you with false life. You gain temporary Hit Points equal to half the mental damage you dealt from the triggering effect. If the triggering action dealt mental damage to multiple creatures, calculate these temporary Hit Points using the creature that took the most damage. You lose any remaining temporary Hit Points after 1 minute."
         ],
@@ -41880,6 +42056,7 @@
         "code": "feat 9",
         "contents": [
             "pftrait | air | concentrate | manipulate | strix",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | With heavy wing beats, you whip up a furious gust and direct it at your opponents. This air blast has the effects of gust of wind with a DC equal to your class DC or spell DC, whichever is higher."
         ],
@@ -41958,6 +42135,7 @@
         "code": "feat 17",
         "contents": [
             "pftrait | concentrate | divine | evocation | morph | tiefling | transmutation",
+            "property | Frequency | once per day",
             "rule",
             "text | You embrace your monstrous blood and make it your own, screaming out to the heavens and hells alike in rage, pain, and defiance. Reality buckles and twists under your sudden power—each tiefling has a unique transformation, but it might include sulfurous flames, choruses of shrieks, or twisting, serpentine lightning. Every creature within 10 feet of you is deafened and dazzled for 1 round unless they succeed at a Fortitude save using your class DC or spell DC, whichever is higher. Your final form has the effects of divine vessel for a deity that shares an alignment with your fiendish lineage. Your final form resembles a creature from your fiendish lineage, and you remain in that form for 1 minute. While in your final form, you can cast chilling darkness, fireball, and lightning bolt as 6th-level divine innate spells, once each per use of this feat.",
             "text | When you emerge from your final form, you become drained 3. In addition, if you have this feat, you gain weakness 10 to good even when not in your final form, and you take good damage even if you aren't evil."
@@ -42017,6 +42195,7 @@
         "contents": [
             "pftrait | aasimar | concentrate | divine | exploration | fire | manipulate | teleportation",
             "property | Prerequisites | Emberkin",
+            "property | Frequency | once per day",
             "rule",
             "text | Your peri lineage has opened your mind to fire's raw, purging essence. You can spend 1 minute in focused preparation, then enter a fire your size or larger to instantly teleport to any fire that is your size or larger up to 5 miles away. You take no damage from entering or exiting fires when using this ability. Once you enter the fire, you instantly know the rough locations of other large fires within range and can exit from the original fire, if you prefer. You can't carry extradimensional spaces with you when you teleport; if you attempt to do so, the activity fails."
         ],
@@ -42030,6 +42209,7 @@
         "code": "feat 5",
         "contents": [
             "pftrait | strix",
+            "property | Frequency | once per round",
             "rule",
             "text | You can fly through the air in short bursts at half your land Speed. If you don't end your movement on solid ground, you fall at the end of your turn."
         ],
@@ -42102,6 +42282,7 @@
         "contents": [
             "pftrait | oread",
             "property | Prerequisites | Shield Block",
+            "property | Frequency | once per day",
             "rule",
             "text | You reinforce your shield with a rocky outgrowth of metal and stone. You Raise your Shield. If you use the Shield Block reaction before your next turn, add your character level to your shield's Hardness when determining how much damage is blocked."
         ],
@@ -42115,6 +42296,7 @@
         "code": "feat 9",
         "contents": [
             "pftrait | kitsune",
+            "property | Frequency | once per hour",
             "rule",
             "text | You always have time for a joke or prank. You Create a Diversion, Conceal an Object, or Hide. All creatures who witnessed your Fox Trick then wise up to it, becoming temporarily immune to your Fox Trick for 24 hours."
         ],
@@ -42188,6 +42370,7 @@
         "contents": [
             "pftrait | fleshwarp",
             "property | Trigger | A creature you are aware of damages you with a melee Strike.",
+            "property | Frequency | once per day",
             "rule",
             "text | Your wound yawns open, appalling your attacker. The attacker must succeed at a Fortitude saving throw against your class DC or spell DC, whichever is higher, or become sickened 1 (sickened 2 on a critical failure). It can't recover from the sickened condition while it's adjacent to you."
         ],
@@ -42302,6 +42485,7 @@
         "code": "feat 9",
         "contents": [
             "pftrait | auditory | ganzi | healing | necromancy | primal",
+            "property | Frequency | once per day",
             "rule",
             "text | You are descended from the einherji, the worthy warriors of chaos. You call upon your ascendant blood with a mighty cry that fills you with a revitalizing energy for 1 minute or until you critically fail a Strike, whichever comes first. For the duration, the first time each round you successfully Strike a creature of your level or higher, you regain Hit Points equal to half your level."
         ],
@@ -42372,6 +42556,7 @@
         "contents": [
             "pftrait | fortune | lizardfolk",
             "property | Trigger | You are about to attempt a skill check or saving throw.",
+            "property | Frequency | once per day",
             "rule",
             "text | The stars grant you insights that guide your actions. You roll twice and take the better result. If it's night and you can see the stars, you gain a +1 circumstance bonus to the triggering roll."
         ],
@@ -42386,6 +42571,7 @@
         "contents": [
             "pftrait | auditory | misfortune | tengu",
             "property | Trigger | A creature within 60 feet is about to attempt an attack roll or skill check.",
+            "property | Frequency | once per day",
             "rule",
             "text | You caw ominously, cursing the creature with misfortune. The target creature must roll the triggering check twice and take the lower result."
         ],
@@ -42413,6 +42599,7 @@
         "contents": [
             "pftrait | kobold",
             "property | Prerequisites | Winglets",
+            "property | Frequency | once per round",
             "rule",
             "text | You can fly a little! You Fly up to half your Speed. If you don't end your movement on solid ground, you fall at the end of your turn."
         ],
@@ -42446,6 +42633,7 @@
         "contents": [
             "pftrait | ifrit",
             "property | Trigger | An effect would deal fire damage to you, even if you resist all the damage.",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You harness the oncoming flames and twist them into a screen of heat and smoke, granting you concealment until the beginning of your next turn."
         ],
@@ -42503,6 +42691,7 @@
             "pftrait | tengu",
             "property | Prerequisites | Storm's Lash",
             "property | Trigger | You critically hit a foe with a Strike with a slashing weapon.",
+            "property | Frequency | once per day",
             "rule",
             "text | Choose either lightning bolt or gust of wind. You Cast the chosen Spell as a 6th-level primal innate spell in the direction of the target of the triggering action."
         ],
@@ -42574,6 +42763,7 @@
         "contents": [
             "pftrait | aphorite | fortune",
             "property | Trigger | You would critically fail a skill check or suffer an effect with the misfortune trait.",
+            "property | Frequency | once per day",
             "rule",
             "text | You shift the underlying fabric of reality to impose a baseline of order.",
             "text | If the trigger was a skill check, you instead receive a result of 10 + your proficiency bonus (don't apply any other bonuses, penalties, or modifiers). If the trigger was an effect with the misfortune trait, the misfortune and fortune effects cancel each other out as normal, negating the triggering misfortune effect."
@@ -42643,6 +42833,7 @@
             "pftrait | catfolk | concentrate | occult | transmutation",
             "property | Requirements | The hazard isn't broken.",
             "property | Trigger | You Disable a hazard.",
+            "property | Frequency | once per day",
             "rule",
             "text | You awaken a spirit of creation within the hazard. You learn the hazard's effects. Once in the next 10 minutes, when you observe a creature take an action that would trigger one of the hazard's reactions or free actions if you hadn't Disabled it, you can use a reaction to rearm the hazard, causing the observed creature to trigger it immediately."
         ],
@@ -42657,6 +42848,7 @@
         "contents": [
             "pftrait | aphorite",
             "property | Requirements | You're afflicted by a disease or poison, or are taking persistent damage.",
+            "property | Frequency | once per day",
             "rule",
             "text | Your ordered physiology rejects unwelcome elements. Choose one.",
             "text | **Disease or Poison** Attempt a saving throw against the affliction at its current stage. On a failure, the affliction's stage doesn't increase, but you suffer the effects of the stage you were already on. On a critical failure, the stage only increases by 1.",
@@ -42738,6 +42930,7 @@
         "contents": [
             "pftrait | changeling | evocation | primal",
             "property | Prerequisites | Brine May, Snow May, Veil May, or Virga May",
+            "property | Frequency | once per day",
             "rule",
             "text | You summon an aura of shimmering heat, flurrying snow, crashing waves, or swirling wind and lightning. For 1 minute, you gain concealment against creatures more than 5 feet away, and any creature that ends its turn within 5 feet of you suffers 1d12 damage (basic Reflex save using your class DC or spell DC, whichever is higher). At 13th and 17th level, this damage increases by 1d12. A veil may changeling deals fire damage, a snow may changeling deals cold damage, a brine may changeling deals bludgeoning damage and the effect gains the water trait, and a virga may changeling deals electricity damage."
         ],
@@ -42835,6 +43028,7 @@
         "code": "feat 9",
         "contents": [
             "pftrait | strix",
+            "property | Frequency | once per day",
             "rule",
             "text | You unfold your wings for travel and can keep them unfolded for 10 minutes. You gain a fly Speed equal to your land Speed while your wings are unfurled. If you have Fledgling Flight, you gain a +10-foot status bonus to your fly Speed with Juvenile Flight. As normal, since your fly Speed is derived from your land Speed, this status bonus isn't cumulative with a status bonus to your land Speed, if you have one."
         ],
@@ -43101,6 +43295,7 @@
         "contents": [
             "pftrait | changeling",
             "property | Trigger | You cast a non-cantrip occult spell or an innate spell from a changeling ancestry feat.",
+            "property | Frequency | once per minute",
             "rule",
             "text | You can tap into some of the magic that flows through your blood to give you new life. You gain a number of temporary Hit Points equal to half your level (minimum 1) that last until the end of your next turn."
         ],
@@ -43207,6 +43402,7 @@
             "property | Prerequisites | Orc Warmask",
             "property | Requirements | You're wearing your warmask.",
             "property | Trigger | You fail a saving throw against an effect from your warmask's magical tradition.",
+            "property | Frequency | once per day",
             "rule",
             "text | Your warmask projects a white-hot fury that attempts to vaporize the offending magic. You reroll the triggering check with a +2 circumstance bonus, but you must use the new result, even if it's worse than your first roll."
         ],
@@ -43320,6 +43516,7 @@
         "contents": [
             "pftrait | changeling",
             "property | Trigger | An adjacent ally is hit by an attack.",
+            "property | Frequency | once per minute",
             "rule",
             "text | You have the protective instinct your own mother lacks and will gladly suffer in another's place. You interpose yourself in the attack's path. You become the target of the triggering attack and are automatically hit by the attack (or critically hit if the ally was critically hit), suffering the full effects in your ally's place."
         ],
@@ -43360,6 +43557,7 @@
         "code": "feat 5",
         "contents": [
             "pftrait | android | concentrate",
+            "property | Frequency | once per day",
             "rule",
             "text | Your nanites fly out of your body, swarming around you in a cloud. You become concealed for a number of rounds equal to half your level. You can't use this concealment to Hide or Sneak, as normal for concealment that makes your position obvious. While Nanite Shroud is active, you can't use other abilities that require the use of your nanites."
         ],
@@ -43374,6 +43572,7 @@
         "contents": [
             "pftrait | android | concentrate",
             "property | Trigger | You attempt a skill check requiring three actions or fewer.",
+            "property | Frequency | once per hour",
             "rule",
             "text | You stimulate your nanites, forcing your body to temporarily increase its efficiency.",
             "text | You gain a +2 status bonus to the triggering skill check. In addition, your circuitry glows, lighting a 10-foot emanation with dim light for 1 round."
@@ -43502,6 +43701,7 @@
         "code": "feat 17",
         "contents": [
             "pftrait | death | divine | duskwalker | necromancy",
+            "property | Frequency | once per day",
             "rule",
             "text | You have a connection to olethroses, the enigmatic psychopomps who successfully swayed the yamaraj to permit the creation of the first duskwalkers. You place a finger on fate's scales by wrapping silk around your bow. The first time this turn that you hit a creature with a Strike using a weapon in the bow group you've modified in this way, that creature takes an additional 60 damage (basic Fortitude save using your class DC or spell DC, whichever is higher) as the arrow works to cut short their very destiny. This additional damage is of the same type as the initial attack dealt. If you hit more than one creature at the same time, choose one to suffer the effect of your decree."
         ],
@@ -43669,6 +43869,7 @@
         "contents": [
             "pftrait | aphorite",
             "property | Trigger | You would take bludgeoning, piercing, or slashing damage.",
+            "property | Frequency | once per day",
             "rule",
             "text | Your body anticipates the blow. The impact area briefly reorganizes into a strengthened tissue lattice that blunts the attack. You gain resistance equal to your level to the triggering damage type, which applies against the triggering damage.",
             "text | If you have the Crystalline Dust feat, you can use Preemptive Reconfiguration without expending a usage of the reaction for the purpose of the feat's Frequency limit. Instead, the usage counts toward your number of Crystalline Dust uses per day, as if you had used that feat instead."
@@ -43723,6 +43924,7 @@
         "code": "feat 13",
         "contents": [
             "pftrait | aasimar | healing",
+            "property | Frequency | once per day",
             "rule",
             "text | You call on your celestial forebears to rid your body of all toxins and impurities. For each disease or poison currently affecting you, attempt a Religion check to counteract that disease or poison. As normal, your counteract level is equal to half your level, rounded up."
         ],
@@ -43765,6 +43967,7 @@
         "code": "feat 13",
         "contents": [
             "pftrait | fire | ifrit | incapacitation | light | visual",
+            "property | Frequency | once per day",
             "rule",
             "text | Your skin glows with intensity. Creatures within 10 feet who can see you must succeed at a Fortitude save against your class DC or spell DC, whichever is higher.",
             "fill",
@@ -43831,6 +44034,7 @@
         "code": "feat 17",
         "contents": [
             "pftrait | auditory | hobgoblin",
+            "property | Frequency | once per day",
             "rule",
             "text | You call out to your allies and push them to give their all in combat. All allies within 30 feet that can hear you gain a number of temporary Hit Points equal to your level. In addition, these allies become quickened for 1 minute but can only use the extra action to Step, Stride, or Strike."
         ],
@@ -43929,6 +44133,7 @@
         "code": "feat 13",
         "contents": [
             "pftrait | azarketi | primal | transmutation | water",
+            "property | Frequency | once per day",
             "rule",
             "text | You surround your body with a thin layer of water drawn from the moisture in the air. You can spend one hour resting to rehydrate your gills and skin, which counts as submerging your body in water. At the GM's discretion, incredibly dry areas, such as deserts, might not have enough moisture in the air for your Rehydration to work."
         ],
@@ -43942,6 +44147,7 @@
         "code": "feat 9",
         "contents": [
             "pftrait | android | concentrate",
+            "property | Frequency | once per day",
             "rule",
             "text | You trigger your body's repair programming, causing your body's nanites to heal your wounds. You gain fast healing equal to half your level for 1 minute. While Repair Module is active, you can't use other abilities that require the use of your nanites."
         ],
@@ -43983,6 +44189,7 @@
         "contents": [
             "pftrait | android",
             "property | Trigger | You have the dying condition and are about to attempt a recovery check.",
+            "property | Frequency | once per day",
             "rule",
             "text | Your nanites are programmed to automatically revive you. You're restored to 1 Hit Point, lose the dying and unconscious conditions, and can act normally on this turn. You gain or increase the wounded condition as normal when losing the dying condition in this way."
         ],
@@ -44122,6 +44329,7 @@
         "code": "feat 9",
         "contents": [
             "pftrait | fire | ifrit",
+            "property | Frequency | once per day",
             "rule",
             "text | You make a weapon unbearable to hold. Attempt an Athletics check to Disarm a target creature. You don't need to have a hand free to make this Disarm attempt. If the Disarm attempt succeeds, the target takes 4d6 fire damage unless it drops the weapon, and on a critical success, it takes 4d6 fire damage and drops the weapon. If you're legendary in Athletics, this increases to 8d6 fire damage."
         ],
@@ -44194,6 +44402,7 @@
         "code": "feat 9",
         "contents": [
             "pftrait | fetchling | occult | transmutation",
+            "property | Frequency | once per hour",
             "rule",
             "text | You draw on your connection with the Shadow Plane to see through all but the deepest darkness. You gain greater darkvision for 1 minute."
         ],
@@ -44273,6 +44482,7 @@
         "contents": [
             "pftrait | kitsune",
             "property | Prerequisites | tailless alternate form",
+            "property | Frequency | once per day",
             "rule",
             "text | You wear many faces, even those that don't belong to you. When you Change Shape into your tailless form, you gain the effects of 3rd-level illusory disguise for 1 hour or until you shift back, except it's a transmutation effect rather than an illusion."
         ],
@@ -44641,6 +44851,7 @@
         "code": "feat 9",
         "contents": [
             "pftrait | leshy",
+            "property | Frequency | once per hour",
             "rule",
             "text | You unleash a cloud of pollen or similar spores. All creatures in a 10-foot emanation around you must attempt a Fortitude save using your class DC or spell DC (whichever is higher) with the following results. Plants and fungi are immune to this effect.",
             "fill",
@@ -44868,6 +45079,7 @@
         "contents": [
             "pftrait | emotion | mental | strix",
             "property | Trigger | You, or a strix ally you can see, are damaged by an enemy's critical hit.",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You dedicate yourself to destroying those who harm your kin. Until the end of your next turn, you deal an additional+1d6 damage on Strikes against the triggering enemy. The bonus increases to+2d6 if you use a striking weapon or unarmed attack and+3d6 if you use a major striking weapon or unarmed attack."
         ],
@@ -45101,6 +45313,7 @@
         "code": "feat 17",
         "contents": [
             "pftrait | abjuration | concentrate | primal | undine | water",
+            "property | Frequency | once per day",
             "rule",
             "text | You conjure the force of the tides to gain a +4 circumstance bonus to AC until the end of your next turn. Any allies adjacent to you during the duration gain a +2 circumstance bonus to AC as long as they remain adjacent to you. You can Sustain the effect to a maximum duration of 5 rounds. When a creature receiving a circumstance bonus to AC from Tidal Shield would take damage from an attack, as a reaction, you can reduce the damage to that creature by 40; after you do so, Tidal Shield ends."
         ],
@@ -45168,6 +45381,7 @@
         "code": "feat 5",
         "contents": [
             "pftrait | oread",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You have the power to shatter the earth into a shape of your devising. You crack the ground beneath you, creating difficult terrain in a 5-foot burst centered on one corner of your space."
         ],
@@ -45514,6 +45728,7 @@
         "contents": [
             "pftrait | duskwalker",
             "property | Trigger | An ally within 30 feet takes damage that would otherwise reduce them to 0 Hit Points and give them the dying condition.",
+            "property | Frequency | once per day",
             "rule",
             "text | Once, you died because you valued someone else's life above your own; just as then, you protect an ally by suffering in their stead. Reduce the damage the triggering ally would take by 1 + your level. You redirect this damage to yourself, but your immunities, weaknesses, resistances, and so on don't apply. You aren't subject to any conditions or other effects from whatever damaged your ally (such as poison from a venomous bite)—your ally is still subject to those effects even if you redirect all of the triggering damage to yourself. If the redirected damage prevents the ally from being reduced to 0 Hit Points, they remain conscious and don't gain the dying condition."
         ],
@@ -45595,6 +45810,7 @@
         "code": "feat 9",
         "contents": [
             "pftrait | morph | primal | sylph | transmutation",
+            "property | Frequency | once per day",
             "rule",
             "text | You can strain to call forth feathered or cloudy wings from your back. Once manifested, these wings remain for 10 minutes. You gain a fly Speed equal to your land Speed while you've manifested your wings."
         ],
@@ -45640,6 +45856,7 @@
         "code": "feat 17",
         "contents": [
             "pftrait | duskwalker",
+            "property | Frequency | once per day",
             "rule",
             "text | You have been granted a sliver of the power of the yamaraj, the magistrates of the dead who agreed to allow duskwalkers to exist at all. You exhale a blast of icy wind and ravenous insects. This is a 30-foot cone that deals 14d6 slashing damage and 4d6 persistent slashing damage (basic Reflex save using your class DC or spell DC, whichever is higher). On a critical failure, targets also become sickened 2."
         ],
@@ -45655,6 +45872,7 @@
             "pftrait | archetype",
             "property | Prerequisites | Spellmaster Dedication, spell repertoire or ability to prepare spells",
             "property | Trigger | You critically succeed at a saving throw against a foe's spell, and that spell is of a level you can normally cast.",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You absorb a spell and store it in your body. If you are a spontaneous spellcaster, you can cast the triggering spell once during the next 10 minutes, even if it's not on your spell list as if it were in your repertoire. If you are a prepared spellcaster, you can replace one of your prepared spells of the same level with the absorbed spell, but you must cast the absorbed spell within 10 minutes or you lose that spell slot for the day. You cast the spell at the same spell level as the spell you absorbed, but the spell is of your magical tradition and uses your spell DC, spell attack roll, and other statistics to determine its effects."
         ],
@@ -45798,6 +46016,7 @@
         "contents": [
             "pftrait | uncommon | dwarf",
             "property | Trigger | An ally within 30 feet gains the dying condition.",
+            "property | Frequency | once per day",
             "rule",
             "text | You honor your ally's life, gaining temporary Hit Points equal to your level for 1 minute. As long as you have these temporary Hit Points, you gain a +1 circumstance bonus to attack and damage rolls."
         ],
@@ -45956,6 +46175,7 @@
             "pftrait | archetype | metamagic",
             "property | Prerequisites | Magaambyan Attendant Dedication, Cascade Bearers affiliation",
             "property | Requirements | You haven't yet acted on your turn.",
+            "property | Frequency | once per day",
             "rule",
             "text | You call upon your Cascade Bearer training to help you adjust a spell for the current situation. Until the end of your turn, you gain a single metamagic feat from the druid class or the wizard class that has a level requirement of no more than half your level."
         ],
@@ -46148,6 +46368,7 @@
             "pftrait | archetype",
             "property | Prerequisites | Swordmaster Dedication",
             "property | Trigger | You take damage that would reduce you to 0 Hit Points.",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You continue to fight when others would fall. Just before taking the triggering damage, you gain temporary Hit Points equal to twice your level. If you have Hit Points remaining after gaining these temporary Hit Points, you aren't knocked unconscious, nor do you suffer the other effects of being reduced to 0 Hit Points. Any temporary Hit Points that remain after applying the damage last for up to 4 rounds."
         ],
@@ -46275,6 +46496,7 @@
         "contents": [
             "pftrait | gnome",
             "property | Prerequisites | Gnome Obsession",
+            "property | Frequency | once per day",
             "rule",
             "text | Your desire for stimulation has led you from one pursuit to another and granted you a smattering of expertise with myriad crafts and professions. You reflect on snippets you've learned to temporarily become trained in one Lore skill of your choice. This proficiency lasts for 10 minutes or until you critically fail a check with that skill. Since this training is temporary, you can't use it as a prerequisite for a permanent character option like a feat or a skill increase."
         ],
@@ -47207,6 +47429,7 @@
             "pftrait | gnome",
             "property | Prerequisites | Illusion Sense",
             "property | Trigger | Your turn begins.",
+            "property | Frequency | once per day",
             "rule",
             "text | Illusion magic comes to you so naturally that you can effortlessly sustain your magical ruses. You immediately gain the effects of a Sustain a Spell action to extend the duration of one of your active illusion spells."
         ],
@@ -47385,6 +47608,7 @@
         "contents": [
             "pftrait | uncommon | fortune | human",
             "property | Trigger | You roll a critical failure on a saving throw against an emotion effect.",
+            "property | Frequency | once per day",
             "rule",
             "text | You center yourself and call to mind the Vudrani monastic ideals of mindfulness and self-knowledge. You fail the save against the emotion effect instead of critically failing."
         ],
@@ -47457,6 +47681,7 @@
         "contents": [
             "pftrait | gnome",
             "property | Trigger | You cast an innate spell from a gnome heritage or ancestry feat.",
+            "property | Frequency | once per minute",
             "rule",
             "text | The upwelling of innate magic refreshes your body. You gain a number of temporary Hit Points equal to half your level (minimum 1) that last until the end of your next turn."
         ],
@@ -47927,6 +48152,7 @@
         "contents": [
             "pftrait | uncommon | concentrate | human",
             "property | Requirements | You must spend 10 minutes just after your daily preparations examining the sky or consulting a star chart or you can't use this action that day.",
+            "property | Frequency | once per day",
             "rule",
             "text | The ancient Saoc Brethren were the masters of astrology, and while your knowledge may be but a pale shadow of their wisdom, it still comes in handy. You recall the stars' predictions about your current situation. If your next action requires you to attempt one or more skill checks, roll 1d8. On a result of 6, 7, or 8, you gain a +2 circumstance bonus to the first such skill check you attempt. On a 3, 4, or 5, you gain a +1 circumstance bonus. On a 2, you gain nothing. On a 1, you take a –1 circumstance penalty to the skill check."
         ],
@@ -48532,6 +48758,7 @@
         "contents": [
             "pftrait | gnome",
             "property | Trigger | You succeed at a skill check to Recall Knowledge to identify a creature.",
+            "property | Frequency | once per day",
             "rule",
             "text | You study a creature's form and behavior to hypothesize likely means of overcoming its strengths. Once before the end of your next turn, you can use the skill modifier from the triggering check in place of your saving throw modifier against one of the creature's abilities, in place of your Perception modifier to Seek the creature, in place of your Deception modifier to Feint against the creature, or in place of your Intimidation modifier to Demoralize the creature. Alternatively, against one of the creature's attacks, you can use your DC for the skill used in the triggering check in place of your AC."
         ],
@@ -48749,6 +48976,7 @@
         "contents": [
             "pftrait | gnome",
             "property | Prerequisites | chameleon gnome heritage",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | Whereas most gnomes' coloration is static or changes slowly, you can cause your hair, eye, and skin color to scintillate in brief and disorienting bursts. Once every 10 minutes, when you use the Feint action, you can compare your Deception check result to the Perception DCs of all adjacent creatures rather than just one creature within melee reach. It's possible to get a different degree of success for each target.",
             "text | These changes are imprecise and usually short-lived, so while they allow you to periodically change your appearance in unpredictable ways, they are of little use in providing camouflage or aiding a disguise."
@@ -49049,6 +49277,7 @@
         "contents": [
             "pftrait | general",
             "property | Prerequisites | Diehard, you have died at least once",
+            "property | Frequency | once per day",
             "rule",
             "text | Your past has left you numb to death's call. The first time each day that you regain Hit Points while you are dying, you regain additional Hit Points equal to your level, and you neither gain the wounded condition nor increase the value of this condition."
         ],
@@ -49063,6 +49292,7 @@
         "contents": [
             "pftrait | divine | general | skill",
             "property | Prerequisites | master in Religion, you follow a deity",
+            "property | Frequency | once per hour",
             "rule",
             "text | You call upon your deity to grant you their protective blessing. Attempt a DC 30 Religion check. If you have legendary proficiency in Religion, you can instead attempt a DC 40 Religion check to increase the temporary Hit Points you gain on a successful check to 15 (25 on a critical success).",
             "fill",
@@ -49289,6 +49519,7 @@
             "property | Prerequisites | Knight Vigilant Dedication",
             "property | Requirements | You had more than 1 Hit Point before the triggering Strike, and the Strike wouldn't kill you.",
             "property | Trigger | A foe's Strike reduces you to 0 Hit Points.",
+            "property | Frequency | once per hour",
             "rule",
             "text | Your devotion to helping others and doing good keeps you going, even against insurmountable odds. Instead of being knocked out, you are reduced to 1 Hit Point, gain a number of temporary Hit Points equal to your level for 1 round, and increase your wounded value by 1."
         ],
@@ -49434,6 +49665,7 @@
         "contents": [
             "pftrait | archetype",
             "property | Prerequisites | Knight Reclaimant Dedication, Invoke the Crimson Oath (Character Guide 95)",
+            "property | Frequency | once per day",
             "rule",
             "text | You've reached the apex of the Crimson Oath's power.",
             "text | The oath's power is overwhelming—too much for a mortal frame—but victory is worth any price. When you use this feat, you cry out the final line of the Crimson Oath, unleashing unbridled power for 1 minute. You can Dismiss this effect. While this effect is active, you gain the following effects:",
@@ -49639,6 +49871,7 @@
             "pftrait | archetype",
             "property | Prerequisites | Lastwall Sentry Dedication, master in Religion",
             "property | Trigger | A creature you can see uses a spell or ability that has the evil or negative traits.",
+            "property | Frequency | once per day",
             "rule",
             "text | You react instinctively when you sense evil forming, thrusting your spiritual energy toward the source to snuff out evil before it fully manifests. Attempt to counteract the triggering spell or ability using your Religion modifier as your counteract modifier."
         ],
@@ -49877,6 +50110,7 @@
         "contents": [
             "pftrait | uncommon | additive 2 | alchemist",
             "property | Trigger | You use Quick Alchemy to craft an alchemist's fire or ghost charge, and that bomb's level is at least 2 levels lower than your advanced alchemy level.",
+            "property | Frequency | once per round",
             "rule",
             "text | You developed a method to chemically purify and consecrate your bombs on the fly.",
             "text | You include this additive mixture when crafting your alchemist's fire or ghost charge.",
@@ -49936,6 +50170,7 @@
             "pftrait | uncommon | cleric | oracle",
             "property | Prerequisites | divine spells, you follow a good-aligned deity",
             "property | Requirements | Your most recent action was to cast a non-cantrip divine spell.",
+            "property | Frequency | once per turn",
             "rule",
             "text | You coat a weapon you're wielding in prayers and the divine power given to you by your deity. Until the end of your turn, the weapon deals an extra 1d6 positive damage. As usual for positive damage, this damage harms only undead and creatures with negative healing."
         ],
@@ -50143,6 +50378,7 @@
         "contents": [
             "pftrait | rare | additive 2 | alchemist",
             "property | Trigger | You use Quick Alchemy to craft an alchemist's fire, and that bomb's level is at least 2 levels lower than your advanced alchemy level.",
+            "property | Frequency | once per round",
             "rule",
             "text | Artokus developed a mixture of volatile materials that burns hotter and longer than typical alchemist's fire. You include this additive mixture when crafting your alchemist's fire. The alchemist's fire deals 1d4 persistent fire damage in addition to what the alchemist fire would normally cause (for instance, a moderate alchemist's fire deals 1d4+2 persistent fire damage)",
             "text | A creature taking persistent fire damage from the alchemist's fire requires two successful flat checks to end the persistent damage, or one check if the creature had an assisted recovery that reduces the flat check to DC 10. The enhanced alchemist's fire burns even underwater, and any attempts to end the persistent damage by using water have no effect."
@@ -50782,6 +51018,7 @@
             "pftrait | uncommon | orc",
             "property | Prerequisites | tusks unarmed attack",
             "property | Trigger | You successfully Strike a living creature that has the fiend trait with your tusks unarmed attack.",
+            "property | Frequency | once per minute",
             "rule",
             "text | Just the taste of fiendish blood is enough to send blood rushing through your veins in a supernatural fury. You become quickened until the end of your next turn and you can use the extra action to make a tusks Strike, Stride, or Step."
         ],
@@ -50863,6 +51100,7 @@
         "code": "feat 17",
         "contents": [
             "pftrait | shisk",
+            "property | Frequency | once per round",
             "rule",
             "text | You constantly remember details about the world. You attempt a check to Recall Knowledge. If you succeed, you gain additional information or context. If you critically succeed, at the GM's discretion you might gain even more additional information or context than normal.",
             "text | Shisk Enclaves Most shisks can be found in small communities burrowed into the Barrier Wall, existing in caverns and tunnels that riddle the mountains from peak to base. A few scattered enclaves can be found in the Bandu Hills—the dry and arid region well-suited to shisk tastes.",
@@ -51076,6 +51314,7 @@
             "pftrait | grippli",
             "property | Prerequisites | trained in Nature",
             "property | Trigger | A creature with the animal, beast, elemental, fey, fungus, or plant trait attacks you, and you can see the attacker.",
+            "property | Frequency | once per hour",
             "rule",
             "text | Your canny understanding of natural and primal creatures helps you predict and dodge their attacks. The triggering attack roll targets your Nature DC instead of your AC. Though this allows you to avoid taking penalties to your AC, it doesn't remove any conditions or other effects causing such penalties. For example, an enemy with sneak attack would still deal extra damage to you for being flat-footed, even though you wouldn't take the –2 circumstance penalty against the attack."
         ],
@@ -51290,6 +51529,7 @@
         "contents": [
             "pftrait | shisk",
             "property | Prerequisites | quillcoat shisk or quill unarmed attack",
+            "property | Frequency | once per day",
             "rule",
             "text | You can launch a mass of quills at opponents. You spray quills in a 30-foot cone, dealing 5d8 piercing damage. Each creature in the area must attempt a basic saving throw against the higher of your class DC or spell DC. On a critical failure, a creature also takes 5 persistent bleed damage. At 11th level and every even level thereafter, the piercing damage increases by 1d8 and the persistent bleed damage increases by 1."
         ],
@@ -51530,6 +51770,7 @@
         "code": "feat 17",
         "contents": [
             "pftrait | arcane | concentrate | divination | goloma",
+            "property | Frequency | once per hour",
             "rule",
             "text | When you focus your eyes carefully, your gaze can pierce through all obfuscations, even magical ones. When you use True Gaze, you gain the effects of a 6th-level true seeing spell, using your Perception modifier for the counteract check."
         ],
@@ -51599,6 +51840,7 @@
         "code": "feat 13",
         "contents": [
             "pftrait | anadi",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | Your natural ability to create silken webs blends with your magical powers, allowing you to create impossibly large webs with great frequency. This has the effects of a 2nd-level web spell using your class DC or spell DC, whichever is higher."
         ],
@@ -51705,6 +51947,7 @@
         "contents": [
             "pftrait | archetype",
             "property | Prerequisites | Spellmaster Dedication",
+            "property | Frequency | once per round",
             "rule",
             "text | Choose one spell with a sustained duration that one of your allies has in effect. You must be within 30 feet of the chosen ally. The ally can Sustain the Spell once as a free action, triggered at the start of their next turn."
         ],
@@ -51780,6 +52023,7 @@
             "pftrait | archetype | skill",
             "property | Prerequisites | Pathfinder Agent Dedication, master in a skill used to Recall Knowledge",
             "property | Trigger | You successfully Recall Knowledge about a creature you can see, using a skill in which you are a master.",
+            "property | Frequency | once per round",
             "rule",
             "text | Your Pathfinder training allows you to quickly size up numerous threats. Attempt to Recall Knowledge against a different kind of creature you can see using the same skill. You must still meet the requirements to attempt this check."
         ],
@@ -52242,6 +52486,7 @@
         "contents": [
             "pftrait | archetype",
             "property | Prerequisites | Pathfinder Agent Dedication",
+            "property | Frequency | once per day",
             "rule",
             "text | During your training to become a Pathfinder Agent you were schooled on a wide variety of creatures you might encounter, and you can think back to that training to gain crucial insight in times of need. Attempt a check to Recall Knowledge about a creature you can see, adding your level as a proficiency bonus if you are untrained (rather than 0)",
             "text | If you roll a failure (but not a critical failure) on this check, you get a success instead."
@@ -52307,6 +52552,7 @@
             "pftrait | archetype",
             "property | Prerequisites | Spellmaster's Resilience",
             "property | Trigger | You critically fail at a saving throw against a foe's spell, and that spell was cast or created with the tradition of magic you selected with the Spellmaster's Resilience feat.",
+            "property | Frequency | once per day",
             "rule",
             "text | You call upon the power of your spells to protect you from the worst of the magic headed your way. You fail your saving throw instead of critically failing. For 1 minute, increase the circumstance bonus to saving throws from the Spellmaster's Resilience feat to +2, and increase the resistance to damage it grants to 10."
         ],
@@ -52378,6 +52624,7 @@
         "contents": [
             "pftrait | archetype",
             "property | Prerequisites | Pathfinder Agent Dedication",
+            "property | Frequency | once per day",
             "rule",
             "text | Your time as a Pathfinder has taught you how to improvise, and you've learned to make use of the resources you find in the field. You Invest a magic item and remove a previously invested item. The previous item no longer counts against your limit of 10 invested items."
         ],
@@ -52897,6 +53144,7 @@
         "contents": [
             "pftrait | mental | poppet",
             "property | Trigger | A creature you can see damages you with a melee Strike.",
+            "property | Frequency | once per hour",
             "rule",
             "text | You respond with a startled look, dramatic pratfall, or theatrical arm-flailing that stymies your attacker. The attacker must succeed at a Will saving throw against your class DC or spell DC, whichever is higher, or become stupefied 1 for 1 round (stupefied 2 on a critical failure)."
         ],
@@ -52970,6 +53218,7 @@
         "contents": [
             "pftrait | archetype | metamagic",
             "property | Prerequisites | Captivator Dedication",
+            "property | Frequency | once per day",
             "rule",
             "text | If your illusions or enchantments fail to ensnare the minds of others, you can cast them again. If your next action is to cast an innate enchantment or illusion spell and it fails to affect any targets, you do not lose the spell. You must use the same number of actions to recast the same spell on your following turn; if you can't, or choose not to, you waste that number of actions with no effect. After this second casting, you lose the spell whether it affected any targets or not.",
             "text | Look Again works only with spells that require targets and doesn't do anything if you cast a targeted spell but didn't select any targets."
@@ -53047,6 +53296,7 @@
             "pftrait | archetype",
             "property | Prerequisites | Captivator Dedication",
             "property | Trigger | You are the target of a spell or attack.",
+            "property | Frequency | once per day",
             "rule",
             "text | You're so charming and distracting that when pressed, you can cast a simple enchantment in time to foil an attacker. You cast any of your 1st-level enchantment spells that normally take two actions or fewer to cast. This takes effect before the triggering spell or attack, and if the attacker is affected by your spell, it can make different decisions based on the effects (for instance, if you charm the attacker and it becomes friendly to you, it can choose a different target than you for its attack or spell). The attacking creature must be in range of your chosen spell, and if your spell requires targets, the attacking creature must be a valid target. Your spell affects only the attacking creature, even if it would normally affect more targets or an area."
         ],
@@ -53061,6 +53311,7 @@
         "contents": [
             "pftrait | poppet",
             "property | Trigger | You have the dying condition and are about to attempt a recovery check.",
+            "property | Frequency | once per day",
             "rule",
             "text | The magic that animates you strains to keep you alive.",
             "text | You're restored to 1 Hit Point, lose the dying and unconscious conditions, and can act normally on this turn. You gain or increase the wounded condition as normal when losing the dying condition in this way."
@@ -53817,6 +54068,7 @@
         "contents": [
             "pftrait | uncommon | general | skill",
             "property | Prerequisites | expert in Arcana, Arcane Sense",
+            "property | Frequency | once per day",
             "rule",
             "text | You open an incandescent third eye upon your forehead. The eye can remain open for 1 minute, and you can close it before then with a single action with the concentrate trait. It can remain open for 2 minutes if you're a master in Arcana, or 5 minutes if you're legendary. While the eye is open, you gain the following benefits: you gain the effects of the detect magic arcane innate spell from your Arcane Sense at the start of each of your turns without needing to cast the spell; you gain darkvision; you gain a +2 status bonus to Perception checks to Seek undetected and hidden creatures and to your Perception DC against Hide and Sneak. After your third eye closes, you are dazzled for an amount of time equal to how long you had it open."
         ],
@@ -54667,6 +54919,7 @@
             "pftrait | archetype | vigilante",
             "property | Prerequisites | Vigilante Dedication, member of the Gray Gardeners",
             "property | Trigger | You roll a failure (but not a critical failure) on a Will save against a fear effect.",
+            "property | Frequency | once per day",
             "rule",
             "text | The Gray Gardeners are known for having nerves of steel and an unbreakable resolve. When you would be overwhelmed by terror, you can draw upon this resolve to keep your composure and remain undaunted. You take mental damage equal to twice your level, and the saving throw is a success."
         ],
@@ -54682,6 +54935,7 @@
             "pftrait | archetype | vigilante",
             "property | Prerequisites | master in Intimidation, Vigilante Dedication",
             "property | Trigger | Another creature within 30 feet of you that can see you would gain the frightened condition.",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You give a target a stern glower to remind them that it is you, and no one else, they should truly fear. Reduce the value of the frightened condition the creature would take by 1."
         ],
@@ -55005,6 +55259,7 @@
             "pftrait | magus",
             "property | Prerequisites | Arcane Cascade, Spellstrike",
             "property | Requirements | Your most recent action was to Cast a Spell from a spell slot or make a Spellstrike with a spell from a spell slot.",
+            "property | Frequency | once per turn",
             "rule",
             "text | Your spell has a powerful aftereffect, briefly granting you a certain spell depending on the spell you cast. You use Arcane Cascade and are subject to an additional aftereffect spell depending on the school of your most recent spell. This aftereffect spell's duration lasts until the end of your next turn or its normal duration, whichever is longer. Using Arcane Shroud again ends any existing spell you gained from Arcane Shroud.",
             "bullet | **Abjuration** stoneskin",
@@ -55057,6 +55312,7 @@
             "pftrait | archetype",
             "property | Prerequisites | Geomancer Dedication",
             "property | Requirements | Your previous action was to cast a spell with the air, cold, earth, fire, plant, or water trait",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | The magic of your spell floods into you, overriding your connection to the land around you. You alter your terrain attunement to a terrain that matches a trait of the spell you just cast. You thereby gain your terrain attunement benefit when you cast further spells with the same descriptor, instead of using the terrain you're actually in. For instance, if you cast tanglefoot, your terrain attunement switches to your choice of forest or swamp, and your terrain attunement applies when you cast another plant spell.",
             "text | Your terrain attunement reverts to that of the terrain you're in 1 minute after you use Attunement Shift."
@@ -55956,6 +56212,7 @@
             "pftrait | druid | evocation | fire",
             "property | Prerequisites | flame order",
             "property | Trigger | An opponent adjacent to you hits you with a melee weapon or a melee unarmed attack.",
+            "property | Frequency | once per minute",
             "rule",
             "text | Ignoring your pain, you sear your attacker with a wave of flame. The triggering opponent takes fire damage equal to your level."
         ],
@@ -56733,6 +56990,7 @@
             "pftrait | archetype | concentrate | metamagic",
             "property | Prerequisites | Geomancer Dedication, legendary in Nature",
             "property | Requirements | Your previous action was Attunement Shift.",
+            "property | Frequency | once per day",
             "rule",
             "text | If your next action is to cast a spell that would grant your terrain attunement bonus, reduce the number of actions to cast it by 1 (to a minimum of 1 action)."
         ],
@@ -56799,6 +57057,7 @@
         "contents": [
             "pftrait | magus",
             "property | Prerequisites | Spellstrike",
+            "property | Frequency | once per day",
             "rule",
             "text | You tap into an arcane trick to recover your ability to meld spells and attacks. You recharge your Spellstrike."
         ],
@@ -57688,6 +57947,7 @@
             "property | Prerequisites | Geomancer Dedication, master in Nature",
             "property | Requirements | You gained a terrain attunement benefit since the start of your most recent turn and that attunement matches the terrain you're in.",
             "property | Trigger | A Strike would damage you.",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You're so attuned to the land that it rises up to protect you from a potentially fatal blow in a seeming coincidence. For instance, a branch suddenly falls from a nearby tree to take the brunt of a sword swing or a surprising change of current disrupts an enemy's attack. You gain resistance to physical damage equal to double your level against the triggering Strike."
         ],
@@ -57804,6 +58064,7 @@
             "pftrait | archetype",
             "property | Prerequisites | Wellspring Mage Dedication",
             "property | Trigger | An enemy reduces you to 0 HP, an enemy critically hits you, or you critically fail a saving throw against an enemy's effect.",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | Defeat lets you to tap into your wellspring. Attempt the flat check for wellspring magic. If you critically succeed, you can choose to forgo gaining a temporary spell slot to instead have the triggering enemy undergo a wellspring surge. This surge functions just as it would for you, the only difference being that it emits from the enemy."
         ],
@@ -57846,6 +58107,7 @@
             "pftrait | monk | water",
             "property | Prerequisites | Reflective Ripple Stance",
             "property | Requirements | You're in Reflective Ripple Stance.",
+            "property | Frequency | once per minute",
             "rule",
             "text | You dip and spin, unleashing a wide whirlpool of water. Make an Athletics check to Trip each creature standing on the ground in a 10-foot emanation. These attacks all count toward your multiple attack penalty, but the penalty doesn't increase until after you make all the attacks."
         ],
@@ -57986,6 +58248,7 @@
         "contents": [
             "pftrait | archetype | auditory | transmutation",
             "property | Prerequisites | Nantambu Chime-Ringer Dedication",
+            "property | Frequency | once per hour",
             "rule",
             "text | To rush after a criminal or reach someone in need, you ring a sprightly tone. You and all allies within 30 feet gain a +10-foot status bonus to all Speeds for 1 minute."
         ],
@@ -58095,6 +58358,7 @@
         "contents": [
             "pftrait | archetype | auditory | evocation",
             "property | Prerequisites | Nantambu Chime-Ringer Dedication",
+            "property | Frequency | once per hour",
             "rule",
             "text | You strike magical tones that can turn the tide of combat.",
             "text | You and your allies within 30 feet gain the effects of one of the following runes until the end of your next turn: corrosive, disrupting, flaming, frost, ghost touch, shock, or thundering. The effects apply to a single weapon the creature is holding or one of the creature's unarmed attacks.",
@@ -58112,6 +58376,7 @@
         "contents": [
             "pftrait | archetype | auditory | transmutation",
             "property | Prerequisites | Nantambu Chime-Ringer Dedication",
+            "property | Frequency | once per day",
             "rule",
             "text | You instill great swiftness into your allies. You and all allies within 30 feet become quickened for 1 minute and can use the additional action to Strike, Stride, or Step."
         ],
@@ -58142,6 +58407,7 @@
             "property | Prerequisites | Dragon Disciple Dedication, dragon wings sorcerer bloodline spell",
             "property | Requirements | You are aware of the attack and currently have dragon wings active.",
             "property | Trigger | You are the target of a ranged attack.",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You've mastered a defensive technique unique to the ancient dragons of Bloodsalt: beating your wings to create a billowing cloud of mist. You become momentarily hidden from the triggering attack if vision is the attacker's only precise sense. Normally this means the attacker must succeed at a DC 11 flat check to target you. You also gain a +4 circumstance bonus to AC against the triggering attack."
         ],

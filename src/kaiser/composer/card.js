@@ -21,8 +21,9 @@ exports.composeCard = (original) => {
         list,
         find: (id) => list.find((item) => item.id === id),
         findPartials: (id) => {
-            const pid = id.replace('P::', '');
-            const foundList = list.filter((item) => item.id.startsWith(pid));
+        
+            const pid = id.replace('P', '').split('::').filter(e=>e);
+            const foundList = list.filter((item) => pid.every(ppid=>item.id.includes(ppid)));
 
             return foundList;
         },

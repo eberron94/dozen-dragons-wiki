@@ -55,6 +55,7 @@ const getContent = ({
     weaponData,
     armorData,
     price,
+    frequency,
     ...item
 }) => {
     const lineArr = [];
@@ -100,6 +101,10 @@ const getContent = ({
         if (line !== 'property') lineArr.push(line);
     }
 
+    if (frequency?.unit) {
+        lineArr.push('property | Frequency | once per ' + frequency.unit);
+    }
+
     lineArr.push('rule');
 
     return lineArr.concat(getTextEntries(item));
@@ -115,7 +120,10 @@ const getId = ({
     source,
     ...item
 }) => {
-    const idArr = [type?.toLowerCase() || 'item', String(category).toLowerCase()];
+    const idArr = [
+        type?.toLowerCase() || 'item',
+        String(category).toLowerCase(),
+    ];
 
     if (idArr[0] === idArr[1]) {
         idArr[0] = 'item';

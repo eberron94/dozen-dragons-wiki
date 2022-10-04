@@ -88,6 +88,10 @@ const getContent = ({
         lineArr.push('property | Trigger | ' + Renderer.stripTags(trigger));
     }
 
+    if (frequency?.unit) {
+        lineArr.push('property | Frequency | once per ' + frequency.unit);
+    }
+
     lineArr.push('rule');
 
     return lineArr.concat(getTextEntries(item));

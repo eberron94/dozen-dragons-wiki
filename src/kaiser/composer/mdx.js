@@ -94,15 +94,19 @@ exports.composeMDX = (original) => {
 
                 const headers = [
                     ...page.html.matchAll(
-                        /<h([1-4])\s*(?:id="([^"]+)"|)[^>]*>\s*([^<]+?)\s*<\/h[1-4]\s*>/g
+                        /<h([1-4])\s*(?:id=["']([^"']+)["']|)[^>]*>\s*([^<]+)/g
                     ),
                 ].map(([match, headingLevel, id, str]) => {
+                    
                     return {
                         h: Number(headingLevel),
                         id: unescape(unescape(id)),
-                        str: unescape(unescape(str)),
+                        str: unescape(unescape(str.trim())),
+                        match,
                     };
                 });
+
+                if(page.node.name === 'Alchemist') console.log(headers)
 
                 page.toc = headers.filter(
                     (e) => e.h <= page.data.frontMatter.tocLevel

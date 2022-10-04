@@ -61,12 +61,16 @@ const getExtra = ({ special, leadsTo }) => {
     const lineArr = [];
 
     if (special) {
-        lineArr.push(getTextEntries({ entries: (special) }));
+        lineArr.push(getTextEntries({ entries: special }));
     }
 
     if (leadsTo) {
         lineArr.push('section | Leads to');
-        lineArr.push(leadsTo.map((e) => `bullet | ${cleanContent([unpackText(e)]).join('')}`));
+        lineArr.push(
+            leadsTo.map(
+                (e) => `bullet | ${cleanContent([unpackText(e)]).join('')}`
+            )
+        );
     }
 
     return lineArr.flat();
@@ -77,6 +81,7 @@ const getContent = ({
     trigger,
     prerequisites,
     requirements,
+    frequency,
     special,
     ...item
 }) => {
@@ -106,6 +111,14 @@ const getContent = ({
 
     if (trigger) {
         lineArr.push('property | Trigger | ' + Renderer.stripTags(trigger));
+    }
+
+    if (frequency?.unit) {
+        if (frequency.interval > 1)
+            lineArr.push(
+                `property | Frequency | once per ${frequency.interval} ${frequency.unit}s`
+            );
+        else lineArr.push(`property | Frequency | once per ${frequency.unit}`);
     }
 
     lineArr.push('rule');
