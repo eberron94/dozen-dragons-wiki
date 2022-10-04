@@ -31,6 +31,7 @@
         - spell.cantrip.1st.da.phase-bolt
         - spell.cantrip.1st.da.telekinetic-rend
         - spell.cantrip.1st.da.thermal-stasis
+        - spell.cantrip.1st.da.time-sense
         - spell.cantrip.1st.da.warp-step
         - spell.cantrip.1st.som.approximate
         - spell.cantrip.1st.som.bullhorn
@@ -113,6 +114,7 @@
         - spell.focus.1st.apg.touch-of-corruption
         - spell.focus.1st.apg.veil-of-dreams
         - spell.focus.1st.av-3.lift-natures-caul
+        - spell.focus.1st.botd.hallowed-ground
         - spell.focus.1st.crb.agile-feet
         - spell.focus.1st.crb.ancestral-memories
         - spell.focus.1st.crb.angelic-halo
@@ -180,6 +182,12 @@
         - spell.focus.1st.crb.wild-morph
         - spell.focus.1st.crb.wild-shape
         - spell.focus.1st.crb.word-of-truth
+        - spell.focus.1st.da.cinder-gaze
+        - spell.focus.1st.da.frenzied-revelry
+        - spell.focus.1st.da.hollow-heart
+        - spell.focus.1st.da.string-of-fate
+        - spell.focus.1st.da.temporal-distortion
+        - spell.focus.1st.da.victory-cry
         - spell.focus.1st.frp-3.rejuvenating-flames
         - spell.focus.1st.logm.adapt-self
         - spell.focus.1st.logm.charged-javelin
@@ -246,6 +254,8 @@
         - spell.focus.3rd.apg.steal-shadow
         - spell.focus.3rd.apg.thunderburst
         - spell.focus.3rd.apg.whirling-flames
+        - spell.focus.3rd.botd.eyes-of-the-dead
+        - spell.focus.3rd.botd.subjugate-undead
         - spell.focus.3rd.crb.aberrant-whispers
         - spell.focus.3rd.crb.angelic-wings
         - spell.focus.3rd.crb.dragon-breath
@@ -259,6 +269,7 @@
         - spell.focus.3rd.crb.litany-against-wrath
         - spell.focus.3rd.crb.swamp-of-sloth
         - spell.focus.3rd.da.return-the-favor
+        - spell.focus.3rd.da.time-skip
         - spell.focus.3rd.frp-3.shroud-of-flame
         - spell.focus.3rd.lol.suns-fury
         - spell.focus.3rd.lowg.unblinking-flame-revelation
@@ -327,6 +338,16 @@
         - spell.focus.4th.crb.wild-winds-stance
         - spell.focus.4th.crb.word-of-freedom
         - spell.focus.4th.crb.zeal-for-battle
+        - spell.focus.4th.da.euphoric-renewal
+        - spell.focus.4th.da.inevitable-destination
+        - spell.focus.4th.da.isolation
+        - spell.focus.4th.da.path-of-least-resistance
+        - spell.focus.4th.da.purifying-veil
+        - spell.focus.4th.da.shaken-confidence
+        - spell.focus.4th.da.waking-dream
+        - spell.focus.4th.da.weaponize-secret
+        - spell.focus.4th.da.wind-whispers
+        - spell.focus.4th.da.wordsmith
         - spell.focus.4th.logm.adaptive-ablation
         - spell.focus.4th.logm.asterism
         - spell.focus.4th.logm.bottle-the-storm
@@ -392,8 +413,11 @@
         - spell.focus.6th.apg.moonlight-bridge
         - spell.focus.6th.apg.shadow-illusion
         - spell.focus.6th.apg.tempest-form
+        - spell.focus.6th.botd.shambling-horror
         - spell.focus.6th.crb.champions-sacrifice
         - spell.focus.6th.crb.primal-summons
+        - spell.focus.6th.da.manifold-lives
+        - spell.focus.6th.lokl.for-love-for-lightning
         - spell.focus.7th.apg.litany-of-depravity
         - spell.focus.7th.apg.shadows-web
         - spell.focus.7th.crb.litany-of-righteousness
@@ -439,7 +463,6 @@
         - spell.slot.1st.apg.pet-cache
         - spell.slot.1st.apg.pummeling-rubble
         - spell.slot.1st.apg.thoughtful-gift
-        - spell.slot.1st.botd.hallowed-ground
         - spell.slot.1st.crb.air-bubble
         - spell.slot.1st.crb.alarm
         - spell.slot.1st.crb.ant-haul
@@ -498,14 +521,7 @@
         - spell.slot.1st.crb.true-strike
         - spell.slot.1st.crb.unseen-servant
         - spell.slot.1st.crb.ventriloquism
-        - spell.slot.1st.da.cinder-gaze
-        - spell.slot.1st.da.frenzied-revelry
-        - spell.slot.1st.da.hollow-heart
         - spell.slot.1st.da.kinetic-ram
-        - spell.slot.1st.da.string-of-fate
-        - spell.slot.1st.da.temporal-distortion
-        - spell.slot.1st.da.time-sense
-        - spell.slot.1st.da.victory-cry
         - spell.slot.1st.ec-1.personal-rain-cloud
         - spell.slot.1st.ec-1.scouring-sand
         - spell.slot.1st.ec-1.verdant-sprout
@@ -692,8 +708,6 @@
         - spell.slot.3rd.apg.safe-passage
         - spell.slot.3rd.apg.sculpt-sound
         - spell.slot.3rd.apg.threefold-aspect
-        - spell.slot.3rd.botd.eyes-of-the-dead
-        - spell.slot.3rd.botd.subjugate-undead
         - spell.slot.3rd.crb.animal-vision
         - spell.slot.3rd.crb.bind-undead
         - spell.slot.3rd.crb.blindness
@@ -743,7 +757,6 @@
         - spell.slot.3rd.da.shadow-spy
         - spell.slot.3rd.da.temporal-twin
         - spell.slot.3rd.da.time-pocket
-        - spell.slot.3rd.da.time-skip
         - spell.slot.3rd.ec-1.unseasonable-squall
         - spell.slot.3rd.ec-2.pillar-of-water
         - spell.slot.3rd.ec-2.pyrotechnics
@@ -850,20 +863,10 @@
         - spell.slot.4th.crb.vital-beacon
         - spell.slot.4th.crb.wall-of-fire
         - spell.slot.4th.crb.weapon-storm
-        - spell.slot.4th.da.euphoric-renewal
         - spell.slot.4th.da.false-nature
         - spell.slot.4th.da.implement-of-destruction
-        - spell.slot.4th.da.inevitable-destination
-        - spell.slot.4th.da.isolation
         - spell.slot.4th.da.morass-of-ages
-        - spell.slot.4th.da.path-of-least-resistance
-        - spell.slot.4th.da.purifying-veil
-        - spell.slot.4th.da.shaken-confidence
         - spell.slot.4th.da.soft-landing
-        - spell.slot.4th.da.waking-dream
-        - spell.slot.4th.da.weaponize-secret
-        - spell.slot.4th.da.wind-whispers
-        - spell.slot.4th.da.wordsmith
         - spell.slot.4th.ec-2.clownish-curse
         - spell.slot.4th.ec-2.favorable-review
         - spell.slot.4th.ec-4.necrotic-radiation
@@ -994,7 +997,6 @@
         - spell.slot.6th.apg.blanket-of-stars
         - spell.slot.6th.apg.blinding-fury
         - spell.slot.6th.apg.scintillating-safeguard
-        - spell.slot.6th.botd.shambling-horror
         - spell.slot.6th.crb.baleful-polymorph
         - spell.slot.6th.crb.blade-barrier
         - spell.slot.6th.crb.chain-lightning
@@ -1025,11 +1027,9 @@
         - spell.slot.6th.crb.wall-of-force
         - spell.slot.6th.crb.zealous-conviction
         - spell.slot.6th.da.awaken-entropy
-        - spell.slot.6th.da.manifold-lives
         - spell.slot.6th.da.poltergeists-fury
         - spell.slot.6th.da.suspended-retribution
         - spell.slot.6th.frp-1.aura-of-the-unremarkable
-        - spell.slot.6th.lokl.for-love-for-lightning
         - spell.slot.6th.lol.halcyon-infusion
         - spell.slot.6th.som.cast-into-time
         - spell.slot.6th.som.catch-your-name

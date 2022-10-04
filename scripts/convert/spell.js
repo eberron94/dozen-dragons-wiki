@@ -39,11 +39,14 @@ const convertItem = (item) => {
     // SET CODE
     card.code = 'spell ' + item.level;
 
-    if (item.traits.includes('cantrip')) {
+    if (
+        item.traits.includes('cantrip') ||
+        item.type?.toLowerCase() === 'cantrip'
+    ) {
         card.code = 'cantrip ' + item.level;
     }
 
-    if (item.focus === true) {
+    if (item.focus === true || item.type?.toLowerCase() === 'focus') {
         card.code = 'focus ' + item.level;
     }
 
@@ -189,14 +192,20 @@ const handleHeightened = ({ plusX, X: x }) => {
     return [];
 };
 
-const getId = ({ traits, source, focus, level, ...item }) => {
+const getId = ({ traits, source, focus, level, type, ...item }) => {
     const idArr = ['spell'];
 
-    if (traits.includes('cantrip') && focus === true) {
+    const isCantrip =
+        traits.includes('cantrip') ||
+        (type ? type.toLowerCase() === 'cantrip' : false);
+
+    const isFocus = focus || (type ? type.toLowerCase() === 'focus' : false);
+
+    if (isCantrip && isFocus) {
         idArr.push('focus-cantrip');
-    } else if (traits.includes('cantrip')) {
+    } else if (isCantrip) {
         idArr.push('cantrip');
-    } else if (focus === true) {
+    } else if (isFocus) {
         idArr.push('focus');
     } else {
         idArr.push('slot');

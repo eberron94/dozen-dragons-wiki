@@ -3634,11 +3634,11 @@
         ]
     },
     {
-        "id": "spell.slot.1st.botd.hallowed-ground",
+        "id": "spell.focus.1st.botd.hallowed-ground",
         "color": "",
         "title": "Hallowed Ground",
         "icon_front": "spell-necromancy",
-        "code": "spell 1",
+        "code": "focus 1",
         "contents": [
             "pftrait | uncommon | good | necromancy | positive",
             "property | Cast | [[two-action]]",
@@ -3653,11 +3653,11 @@
         ]
     },
     {
-        "id": "spell.slot.3rd.botd.eyes-of-the-dead",
+        "id": "spell.focus.3rd.botd.eyes-of-the-dead",
         "color": "",
         "title": "Eyes of the Dead",
         "icon_front": "spell-divination",
-        "code": "spell 3",
+        "code": "focus 3",
         "contents": [
             "pftrait | uncommon | divination | mental",
             "property | Cast | [[three-action]]",
@@ -3673,11 +3673,11 @@
         ]
     },
     {
-        "id": "spell.slot.6th.botd.shambling-horror",
+        "id": "spell.focus.6th.botd.shambling-horror",
         "color": "",
         "title": "Shambling Horror",
         "icon_front": "spell-necromancy",
-        "code": "spell 6",
+        "code": "focus 6",
         "contents": [
             "pftrait | uncommon | evil | necromancy",
             "property | Cast | [[three-action]]",
@@ -3689,11 +3689,11 @@
         ]
     },
     {
-        "id": "spell.slot.3rd.botd.subjugate-undead",
+        "id": "spell.focus.3rd.botd.subjugate-undead",
         "color": "",
         "title": "Subjugate Undead",
         "icon_front": "spell-necromancy",
-        "code": "spell 3",
+        "code": "focus 3",
         "contents": [
             "pftrait | uncommon | mental | necromancy",
             "property | Cast | [[three-action]]",
@@ -14918,11 +14918,11 @@
         ]
     },
     {
-        "id": "spell.slot.1st.da.cinder-gaze",
+        "id": "spell.focus.1st.da.cinder-gaze",
         "color": "",
         "title": "Cinder Gaze",
         "icon_front": "spell-divination",
-        "code": "spell 1",
+        "code": "focus 1",
         "contents": [
             "pftrait | rare | cleric | divination | prediction",
             "property | Cast | 1 minute [S M V]",
@@ -15208,11 +15208,11 @@
         ]
     },
     {
-        "id": "spell.slot.1st.da.temporal-distortion",
+        "id": "spell.focus.1st.da.temporal-distortion",
         "color": "",
         "title": "Temporal Distortion",
         "icon_front": "spell-transmutation",
-        "code": "spell 1",
+        "code": "focus 1",
         "contents": [
             "pftrait | uncommon | cursebound | oracle | transmutation",
             "property | Cast | [[one-action]] [S V]",
@@ -15228,11 +15228,11 @@
         ]
     },
     {
-        "id": "spell.slot.3rd.da.time-skip",
+        "id": "spell.focus.3rd.da.time-skip",
         "color": "",
         "title": "Time Skip",
         "icon_front": "spell-transmutation",
-        "code": "spell 3",
+        "code": "focus 3",
         "contents": [
             "pftrait | uncommon | cursebound | oracle | transmutation",
             "property | Cast | [[one-action]] [S]",
@@ -15246,11 +15246,11 @@
         ]
     },
     {
-        "id": "spell.slot.6th.da.manifold-lives",
+        "id": "spell.focus.6th.da.manifold-lives",
         "color": "",
         "title": "Manifold Lives",
         "icon_front": "spell-divination",
-        "code": "spell 6",
+        "code": "focus 6",
         "contents": [
             "pftrait | uncommon | cursebound | divination | emotion | mental | oracle",
             "property | Cast | [[two-action]] [S V]",
@@ -15271,11 +15271,11 @@
         ]
     },
     {
-        "id": "spell.slot.4th.da.path-of-least-resistance",
+        "id": "spell.focus.4th.da.path-of-least-resistance",
         "color": "",
         "title": "Path of Least Resistance",
         "icon_front": "spell-divination",
-        "code": "spell 4",
+        "code": "focus 4",
         "contents": [
             "pftrait | uncommon | divination",
             "property | Cast | [[one-action]] [V]",
@@ -15284,11 +15284,11 @@
         ]
     },
     {
-        "id": "spell.slot.1st.da.time-sense",
+        "id": "spell.cantrip.1st.da.time-sense",
         "color": "",
         "title": "Time Sense",
         "icon_front": "spell-divination",
-        "code": "spell 1",
+        "code": "cantrip 1",
         "contents": [
             "pftrait | divination",
             "property | Traditions | Arcane, Occult",
@@ -15299,11 +15299,11 @@
         ]
     },
     {
-        "id": "spell.slot.4th.da.euphoric-renewal",
+        "id": "spell.focus.4th.da.euphoric-renewal",
         "color": "",
         "title": "Euphoric Renewal",
         "icon_front": "spell-necromancy",
-        "code": "spell 4",
+        "code": "focus 4",
         "contents": [
             "pftrait | rare | cleric | necromancy",
             "property | Cast | [[two-action]] [S V]",
@@ -15319,11 +15319,11 @@
         ]
     },
     {
-        "id": "spell.slot.1st.da.frenzied-revelry",
+        "id": "spell.focus.1st.da.frenzied-revelry",
         "color": "",
         "title": "Frenzied Revelry",
         "icon_front": "spell-enchantment",
-        "code": "spell 1",
+        "code": "focus 1",
         "contents": [
             "pftrait | rare | cleric | emotion | enchantment | mental",
             "property | Cast | [[two-action]] [S V]",
@@ -15338,11 +15338,11 @@
         ]
     },
     {
-        "id": "spell.slot.1st.da.hollow-heart",
+        "id": "spell.focus.1st.da.hollow-heart",
         "color": "",
         "title": "Hollow Heart",
         "icon_front": "spell-enchantment",
-        "code": "spell 1",
+        "code": "focus 1",
         "contents": [
             "pftrait | rare | cleric | emotion | enchantment | fear | mental",
             "property | Cast | [[two-action]] [S V]",
@@ -15360,11 +15360,11 @@
         ]
     },
     {
-        "id": "spell.slot.4th.da.waking-dream",
+        "id": "spell.focus.4th.da.waking-dream",
         "color": "",
         "title": "Waking Dream",
         "icon_front": "spell-enchantment",
-        "code": "spell 4",
+        "code": "focus 4",
         "contents": [
             "pftrait | enchantment | mental",
             "property | Cast | [[two-action]] [S V]",
@@ -15382,11 +15382,11 @@
         ]
     },
     {
-        "id": "spell.slot.4th.da.isolation",
+        "id": "spell.focus.4th.da.isolation",
         "color": "",
         "title": "Isolation",
         "icon_front": "spell-illusion",
-        "code": "spell 4",
+        "code": "focus 4",
         "contents": [
             "pftrait | rare | cleric | illusion",
             "property | Cast | [[two-action]] [S V]",
@@ -15403,11 +15403,11 @@
         ]
     },
     {
-        "id": "spell.slot.4th.da.inevitable-destination",
+        "id": "spell.focus.4th.da.inevitable-destination",
         "color": "",
         "title": "Inevitable Destination",
         "icon_front": "spell-conjuration",
-        "code": "spell 4",
+        "code": "focus 4",
         "contents": [
             "pftrait | rare | cleric | conjuration",
             "property | Cast | [[two-action]] [S V]",
@@ -15423,11 +15423,11 @@
         ]
     },
     {
-        "id": "spell.slot.4th.da.purifying-veil",
+        "id": "spell.focus.4th.da.purifying-veil",
         "color": "",
         "title": "Purifying Veil",
         "icon_front": "spell-evocation",
-        "code": "spell 4",
+        "code": "focus 4",
         "contents": [
             "pftrait | rare | cleric | evocation | good | water",
             "property | Cast | [[two-action]] [S V]",
@@ -15441,11 +15441,11 @@
         ]
     },
     {
-        "id": "spell.slot.4th.da.shaken-confidence",
+        "id": "spell.focus.4th.da.shaken-confidence",
         "color": "",
         "title": "Shaken Confidence",
         "icon_front": "spell-enchantment",
-        "code": "spell 4",
+        "code": "focus 4",
         "contents": [
             "pftrait | rare | cleric | emotion | enchantment | mental | misfortune",
             "property | Cast | [[reaction]] [V]; **Trigger** An enemy within 30 feet of you critically fails an attack roll, Perception check, or skill check.",
@@ -15460,11 +15460,11 @@
         ]
     },
     {
-        "id": "spell.slot.1st.da.string-of-fate",
+        "id": "spell.focus.1st.da.string-of-fate",
         "color": "",
         "title": "String of Fate",
         "icon_front": "spell-abjuration",
-        "code": "spell 1",
+        "code": "focus 1",
         "contents": [
             "pftrait | rare | abjuration | cleric | fortune",
             "property | Cast | [[one-action]] [S]",
@@ -15475,11 +15475,11 @@
         ]
     },
     {
-        "id": "spell.slot.1st.da.victory-cry",
+        "id": "spell.focus.1st.da.victory-cry",
         "color": "",
         "title": "Victory Cry",
         "icon_front": "spell-evocation",
-        "code": "spell 1",
+        "code": "focus 1",
         "contents": [
             "pftrait | rare | cleric | evocation | sonic",
             "property | Cast | [[reaction]] [V]; **Trigger** An ally within range critically succeeds at a melee Strike.",
@@ -15493,11 +15493,11 @@
         ]
     },
     {
-        "id": "spell.slot.4th.da.weaponize-secret",
+        "id": "spell.focus.4th.da.weaponize-secret",
         "color": "",
         "title": "Weaponize Secret",
         "icon_front": "spell-divination",
-        "code": "spell 4",
+        "code": "focus 4",
         "contents": [
             "pftrait | rare | cleric | divination | mental",
             "property | Cast | [[two-action]] [S V]",
@@ -15517,11 +15517,11 @@
         ]
     },
     {
-        "id": "spell.slot.4th.da.wind-whispers",
+        "id": "spell.focus.4th.da.wind-whispers",
         "color": "",
         "title": "Wind Whispers",
         "icon_front": "spell-enchantment",
-        "code": "spell 4",
+        "code": "focus 4",
         "contents": [
             "pftrait | rare | cleric | enchantment | linguistic | mental",
             "property | Cast | 1 hour [S M V]",
@@ -15537,11 +15537,11 @@
         ]
     },
     {
-        "id": "spell.slot.4th.da.wordsmith",
+        "id": "spell.focus.4th.da.wordsmith",
         "color": "",
         "title": "Wordsmith",
         "icon_front": "spell-transmutation",
-        "code": "spell 4",
+        "code": "focus 4",
         "contents": [
             "pftrait | rare | cleric | transmutation",
             "property | Cast | [[three-action]] [S M V]",
@@ -17669,11 +17669,11 @@
         ]
     },
     {
-        "id": "spell.slot.6th.lokl.for-love-for-lightning",
+        "id": "spell.focus.6th.lokl.for-love-for-lightning",
         "color": "",
         "title": "For Love, for Lightning",
         "icon_front": "spell-evocation",
-        "code": "spell 6",
+        "code": "focus 6",
         "contents": [
             "pftrait | uncommon | electricity | evocation",
             "property | Cast | [[three-action]] [S M V]; **Requirements** You are wielding a sword or spear made partly or wholly of metal.",
