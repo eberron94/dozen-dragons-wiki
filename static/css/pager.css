@@ -1,15 +1,10 @@
-.breadcrumb-bumper {
-    min-height: 40px;
-    height: 40px;
-}
+
 
 ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
     background-color: #eee;
-    position: fixed;
-    top: 20px;
-    width: 100%;
+    /* width: 100%; */
     z-index: 100;
 }
 

@@ -68,7 +68,7 @@
     flex-flow: row nowrap;
     width: 100%;
     min-height: 100%;
-    height: auto;
+    height: 100%;
     overflow-y: auto;
     position: relative;
 }
