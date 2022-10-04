@@ -121,12 +121,25 @@ const registerHandlebars = () => {
         compileHandlebarTemplate('templates/game/traits.hbs')
     );
 
+    Handlebars.registerHelper('breadcrumb', (context, options) => {
+        const compileBread = compileHandlebarTemplate(
+            'templates/common/breadcrumb.hbs'
+        );
+        if(context.slug === '/index') return ''
+
+        if (options.hash.isYoungest) console.log(context.slug, options.hash);
+        return compileBread(
+            { ...context, isYoungest: Boolean(options.hash.isYoungest) },
+            options
+        );
+    });
+
     Handlebars.registerHelper('card', (context, options) => {
         const cardFind = kaiser.data.itemCard.find(context.trim());
 
         if (cardFind && cardFind?.block?.index) return cardFind.block.index;
 
-        console.log('MISSING ID', context);
+        // console.warn('MISSING ID', context);
         return 'ERROR: INVALID ID';
     });
 

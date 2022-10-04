@@ -1,9 +1,55 @@
+.breadcrumb-bumper {
+    min-height: 40px;
+    height: 40px;
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    z-index: 100;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li + li:before {
+    padding: 8px;
+    color: black;
+    content: '/\00a0';
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+/* ************************************************************** */
+/* PAGER */
+/* ************************************************************** */
+
 .pager-wrapper {
     display: grid;
     column-gap: 24px;
     -webkit-column-gap: 24px;
     grid-template-columns: calc(50% - 16px) calc(50% - 16px);
     margin-bottom: 8px;
+    align-content: center;
+    justify-content: center;
 }
 
 .rightArrow,
@@ -45,9 +91,11 @@
     flex: 1 1;
 }
 
+.rightArrow,
 .nextRightWrapper,
-.rightArrow {
-    padding: 16px;
+.leftArrow,
+.preRightWrapper {
+    padding: 4px 16px;
     display: block;
     margin: 0;
 }
@@ -55,13 +103,6 @@
 .preRightWrapper {
     flex: 1 1;
     text-align: right;
-}
-
-.leftArrow,
-.preRightWrapper {
-    display: block;
-    margin: 0;
-    padding: 16px;
 }
 
 .smallContent {

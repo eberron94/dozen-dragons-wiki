@@ -63,9 +63,93 @@
             <main id='page-media' class=''>
 
                 <div class='inner inner-left page-body'>
+                    <div class="breadcrumb-bumper"></div>
+                    <ul class='breadcrumb'>
+                        {{{breadcrumb this.node isYoungest=true}}}
+                    </ul>
                     <span class='title'>{{node.name}}</span>
 
                     <div class='cred'>{{{metadata.frontMatter.cred}}}</div>
+
+                    <div class='pager-wrapper'>
+                        <a class='previousBtn' href='{{prev.slug}}.html'><div
+                                class='leftArrow'
+                            >
+                                <svg
+                                    preserveAspectRatio='xMidYMid meet'
+                                    height='1em'
+                                    width='1em'
+                                    fill='none'
+                                    xmlns='http://www.w3.org/2000/svg'
+                                    viewBox='0 0 24 24'
+                                    stroke-width='2'
+                                    stroke-linecap='round'
+                                    stroke-linejoin='round'
+                                    stroke='currentColor'
+                                    class='_13gjrqj'
+                                >
+                                    <g>
+                                        <line
+                                            x1='19'
+                                            y1='12'
+                                            x2='5'
+                                            y2='12'
+                                        ></line>
+                                        <polyline
+                                            points='12 19 5 12 12 5'
+                                        ></polyline>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class='preRightWrapper'><div
+                                    class='smallContent'
+                                >
+                                    <span>Previous</span>
+                                </div>
+                                <div class='nextPreviousTitle'>
+                                    <span>{{prev.name}}</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a class='nextBtn' href='{{next.slug}}.html'>
+                            <div class='nextRightWrapper'>
+                                <div class='smallContent'>
+                                    <span>Next</span>
+                                </div>
+                                <div class='nextPreviousTitle'>
+                                    <span>{{next.name}}</span>
+                                </div>
+                            </div>
+                            <div class='rightArrow'>
+                                <svg
+                                    preserveAspectRatio='xMidYMid meet'
+                                    height='1em'
+                                    width='1em'
+                                    fill='none'
+                                    xmlns='http://www.w3.org/2000/svg'
+                                    viewBox='0 0 24 24'
+                                    stroke-width='2'
+                                    stroke-linecap='round'
+                                    stroke-linejoin='round'
+                                    stroke='currentColor'
+                                    class='_13gjrqj'
+                                >
+                                    <g>
+                                        <line
+                                            x1='5'
+                                            y1='12'
+                                            x2='19'
+                                            y2='12'
+                                        ></line>
+                                        <polyline
+                                            points='12 5 19 12 12 19'
+                                        ></polyline>
+                                    </g>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
                     <div class='heart'>
                         {{{html}}}
                         {{{sidebar}}}
@@ -73,7 +157,8 @@
                     <div class='pager-wrapper'>
                         <a class='previousBtn' href='{{prev.slug}}.html'><div
                                 class='leftArrow'
-                            ><svg
+                            >
+                                <svg
                                     preserveAspectRatio='xMidYMid meet'
                                     height='1em'
                                     width='1em'
@@ -85,29 +170,42 @@
                                     stroke-linejoin='round'
                                     stroke='currentColor'
                                     class='_13gjrqj'
-                                ><g><line
+                                >
+                                    <g>
+                                        <line
                                             x1='19'
                                             y1='12'
                                             x2='5'
                                             y2='12'
-                                        ></line><polyline
+                                        ></line>
+                                        <polyline
                                             points='12 19 5 12 12 5'
-                                        ></polyline></g></svg></div><div
-                                class='preRightWrapper'
-                            ><div class='smallContent'><span
-                                    >Previous</span></div><div
-                                    class='nextPreviousTitle'
-                                ><span>{{prev.name}}</span></div></div></a>
+                                        ></polyline>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class='preRightWrapper'><div
+                                    class='smallContent'
+                                >
+                                    <span>Previous</span>
+                                </div>
+                                <div class='nextPreviousTitle'>
+                                    <span>{{prev.name}}</span>
+                                </div>
+                            </div>
+                        </a>
 
                         <a class='nextBtn' href='{{next.slug}}.html'>
                             <div class='nextRightWrapper'>
                                 <div class='smallContent'>
                                     <span>Next</span>
                                 </div>
-                                <div class='nextPreviousTitle'><span
-                                    >{{next.name}}</span></div></div><div
-                                class='rightArrow'
-                            ><svg
+                                <div class='nextPreviousTitle'>
+                                    <span>{{next.name}}</span>
+                                </div>
+                            </div>
+                            <div class='rightArrow'>
+                                <svg
                                     preserveAspectRatio='xMidYMid meet'
                                     height='1em'
                                     width='1em'
@@ -119,15 +217,21 @@
                                     stroke-linejoin='round'
                                     stroke='currentColor'
                                     class='_13gjrqj'
-                                ><g><line
+                                >
+                                    <g>
+                                        <line
                                             x1='5'
                                             y1='12'
                                             x2='19'
                                             y2='12'
-                                        ></line><polyline
+                                        ></line>
+                                        <polyline
                                             points='12 5 19 12 12 19'
-                                        ></polyline></g></svg></div></a>
-
+                                        ></polyline>
+                                    </g>
+                                </svg>
+                            </div>
+                        </a>
                     </div>
                     <div class='credits'><p>Dozen Dragons Wiki, an Eberron &amp;
                             PF2e campaign.</p></div>

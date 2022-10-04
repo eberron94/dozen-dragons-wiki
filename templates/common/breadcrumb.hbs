@@ -1,0 +1,13 @@
+{{#if parent.name}}
+    {{{breadcrumb parent}}}
+{{else}}
+    <a href='/'>Wiki</a>
+{{/if}}
+
+<li>
+    {{#if isYoungest}}
+        {{name}}
+    {{else}}
+        <a href='{{slug}}.html'>{{name}}</a>
+    {{/if}}
+</li>

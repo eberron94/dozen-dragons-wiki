@@ -10,6 +10,7 @@ class PageNode {
         this.navName = navName || name;
         this.tabName = tabName || name;
         this.children = {};
+        this.parent = {};
         this.orphans = [];
     }
 
@@ -50,6 +51,7 @@ class PageNode {
         if (childNodeLevel === myNodeLevel + 1) {
             console.log('[CHILD]', childNode.name, 'is child to', this.name);
             this.children[nextLevelPath] = childNode;
+            childNode.parent = this;
             return;
         }
 

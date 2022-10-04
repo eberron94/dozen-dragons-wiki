@@ -1,10 +1,13 @@
 const { unescape } = require('lodash');
-const { filterUniqueByObjectKey } = require('../../util/arrays');
+const { filterUniqueByObjectKey, bucketArray } = require('../../util/arrays');
 const { toCamelCase } = require('../../util/stringHelper');
 const { PageNode } = require('../classes');
 
 exports.composeMDX = (original) => {
-    const list = original.map(parse).filter(filterUniqueByObjectKey());
+    const list = original
+        .map(parse)
+        .filter(filterUniqueByObjectKey())
+        .sort(sortItems);
 
     // list.forEach((page) => {
     //     const headers = [
@@ -22,8 +25,11 @@ exports.composeMDX = (original) => {
     //     page.toc = headers.filter((e) => e.h <= page.data.frontMatter.tocLevel);
     // });
 
+    const slugMap = bucketArray(list, 'slug');
+
     return {
         list,
+        slugMap,
         find: (id) => {
             const found = list.find((item) => item.id === id);
             return found ? { ...found } : null;
@@ -98,6 +104,11 @@ exports.composeMDX = (original) => {
                     };
                 });
 
+                const dive = (n) =>
+                    `${n.parent.name ? dive(n.parent) : ''} \/ ${n.name}`;
+
+                console.log(dive(page.node));
+
                 page.toc = headers.filter(
                     (e) => e.h <= page.data.frontMatter.tocLevel
                 );
@@ -122,6 +133,7 @@ const parse = (item) => {
 
     return {
         id: toCamelCase('page' + node.slug.replace(/\//g, ' ')),
+        slug: node.slug,
         type: 'mdx',
         node,
         data,
