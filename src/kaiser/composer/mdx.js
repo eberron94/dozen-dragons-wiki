@@ -104,11 +104,6 @@ exports.composeMDX = (original) => {
                     };
                 });
 
-                const dive = (n) =>
-                    `${n.parent.name ? dive(n.parent) : ''} \/ ${n.name}`;
-
-                console.log(dive(page.node));
-
                 page.toc = headers.filter(
                     (e) => e.h <= page.data.frontMatter.tocLevel
                 );

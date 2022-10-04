@@ -22,7 +22,7 @@
     margin: 16px;
     /* text-transform: uppercase; */
     font-family: Magneto, sans-serif;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 .deco-bar-icon img {

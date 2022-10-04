@@ -125,9 +125,8 @@ const registerHandlebars = () => {
         const compileBread = compileHandlebarTemplate(
             'templates/common/breadcrumb.hbs'
         );
-        if(context.slug === '/index') return ''
+        if (context.slug === '/index') return '';
 
-        if (options.hash.isYoungest) console.log(context.slug, options.hash);
         return compileBread(
             { ...context, isYoungest: Boolean(options.hash.isYoungest) },
             options

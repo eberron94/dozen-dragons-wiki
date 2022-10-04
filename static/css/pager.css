@@ -1,35 +1,38 @@
-
-
 ul.breadcrumb {
+    flex: 1;
     padding: 10px 16px;
     list-style: none;
-    background-color: #eee;
+    /* background-color: #eee; */
     /* width: 100%; */
     z-index: 100;
+    color: white;
 }
 
 /* Display list items side by side */
 ul.breadcrumb li {
     display: inline;
-    font-size: 18px;
+    font-size: 1rem;
+
+    word-break: keep-all;
 }
 
 /* Add a slash symbol (/) before/behind each list item */
 ul.breadcrumb li + li:before {
-    padding: 8px;
-    color: black;
+    padding: 4px;
+    color: white;
     content: '/\00a0';
 }
 
 /* Add a color to all links inside the list */
 ul.breadcrumb li a {
-    color: #0275d8;
+    color: #dbdbdb;
     text-decoration: none;
+    word-break: keep-all;
 }
 
 /* Add a color on mouse-over */
 ul.breadcrumb li a:hover {
-    color: #01447e;
+    color: #7b7b7b;
     text-decoration: underline;
 }
 
@@ -50,7 +53,7 @@ ul.breadcrumb li a:hover {
 .rightArrow,
 .leftArrow {
     flex: 0 0 auto;
-    font-size: 24px;
+    font-size: 1.4rem;
     transition: color 0.2s ease 0s;
     color: #9daab6;
 }

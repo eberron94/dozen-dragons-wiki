@@ -9,7 +9,8 @@
     .join-game,
     .page-toc,
     #id-tool,
-    #id-tool-min {
+    #id-tool-min,
+    .deco-bar-title {
         display: none !important;
     }
 
@@ -39,13 +40,20 @@
     }
 
     .pager-wrapper {
-        display: block;
+        /* display: block; */
         padding: 0 15px;
     }
 
-    .previousBtn,
-    .nextBtn {
-        margin-bottom: 20px;
+    .smallContent {
+        font-size: 0.3rem;
+    }
+
+    .nextPreviousTitle {
+        font-size: 0.6rem;
+    }
+
+    ul.breadcrumb li {
+        font-size: 0.8rem;
     }
 }
 
