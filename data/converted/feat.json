@@ -1,5 +1,73 @@
 [
     {
+        "id": "feat.ancestry.changeling.brew.camoflage",
+        "color": "",
+        "title": "Camoflage",
+        "icon_front": "azul-flake",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | changeling",
+            "rule",
+            "text | You can change your skin pattern to more closely match your environment. While in standard cover or difficult terrain of rubble, snow, or underbrush, you gain the +4 circumstance bonus to your Stealth checks hide or otherwise avoid detection while not moving."
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.ancestry.dragonborn.brew.draconic-savagery",
+        "color": "",
+        "title": "Draconic Savagery",
+        "icon_front": "azul-flake",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | dragonborn",
+            "rule",
+            "text | Your body is just as dangerous as real weapons. You gain an unarmed attack from the list below, it is in the brawling group. You can take this feat multiple times, but must select a different unarmed attack every time.",
+            "bullet | **Bite** deals 1d8 piercing",
+            "bullet | **Claw** deals 1d6 slashing and has the agile and finesse traits",
+            "bullet | **Bite** deals 1d6 bludgeoning and has the sweeping trait"
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.ancestry.dragonborn.brew.draconic-sorcery",
+        "color": "",
+        "title": "Draconic Sorcery",
+        "icon_front": "azul-flake",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | dragonborn",
+            "rule",
+            "text | Your blood boils with arcane potential. Choose one cantrip from the arcane spell list. You can cast this cantrip as an innate arcane spell at will. A cantrip is heightened to a spell level equal to half your level rounded up."
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.ancestry.dragonborn.brew.dragon-hunter",
+        "color": "",
+        "title": "Dragon Hunter",
+        "icon_front": "azul-flake",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | dragonborn",
+            "rule",
+            "text | You seek vengeance against the the dragons that enslaved your people or hunt down dragons that oppose your draconic god. You gain a +1 circumstance bonus to damage with weapons and unarmed attacks against dragons. If your attack would deal more than one weapon die of damage (as is common at higher levels than 1st), the bonus is equal to the number of weapon dice or unarmed attack dice. In addition, if a creature critically succeeds at an attack against you and deals damage to you, you gain your bonus to damage against that creature for 1 minute regardless of whether it has the chosen trait."
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.ancestry.dragonborn.brew.dragon-resilience",
+        "color": "",
+        "title": "Dragon Resilience",
+        "icon_front": "azul-flake",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | dragonborn",
+            "rule",
+            "text | You gain a +1 circumstance bonus to saves against effects that would impose the Paralyzed or sleep conditions. If you roll a success on a saving throw against an effect that would impose the paralyzed or sleep condition, you get a critical success instead."
+        ],
+        "level": 1
+    },
+    {
         "id": "feat.ancestry.aaws.alghollthu-bound",
         "color": "",
         "title": "Alghollthu Bound",

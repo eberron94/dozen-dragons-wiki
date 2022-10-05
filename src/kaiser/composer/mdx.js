@@ -36,7 +36,7 @@ exports.composeMDX = (original) => {
         },
         fillPages: (compileFn, contentList) => {
             list.forEach((page) => {
-                const contentFill = {};
+                const contentFill = { ...page, html:null };
 
                 //Check if page has Content array
                 if (typeof page?.data?.frontMatter?.content === 'object') {
@@ -97,16 +97,13 @@ exports.composeMDX = (original) => {
                         /<h([1-4])\s*(?:id=["']([^"']+)["']|)[^>]*>\s*([^<]+)/g
                     ),
                 ].map(([match, headingLevel, id, str]) => {
-                    
                     return {
                         h: Number(headingLevel),
                         id: unescape(unescape(id)),
-                        str: unescape(unescape(str.trim())),
+                        str: unescape(unescape(str.trim())).split('^')[0],
                         match,
                     };
                 });
-
-                if(page.node.name === 'Alchemist') console.log(headers)
 
                 page.toc = headers.filter(
                     (e) => e.h <= page.data.frontMatter.tocLevel

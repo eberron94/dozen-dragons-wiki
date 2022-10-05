@@ -175,6 +175,7 @@
         - feat.ancestry.changeling.apg.mist-child
         - feat.ancestry.changeling.apg.occult-resistance
         - feat.ancestry.changeling.apg.slag-may
+        - feat.ancestry.changeling.brew.camoflage
         - feat.ancestry.changeling.loag.crones-cruelty
         - feat.ancestry.changeling.loag.cunning-hair
         - feat.ancestry.changeling.loag.favorable-winds
@@ -228,6 +229,10 @@
         - feat.ancestry.da.walk-on-the-wind
         - feat.ancestry.da.warp-likeness
         - feat.ancestry.da.warped-reflection
+        - feat.ancestry.dragonborn.brew.draconic-savagery
+        - feat.ancestry.dragonborn.brew.draconic-sorcery
+        - feat.ancestry.dragonborn.brew.dragon-hunter
+        - feat.ancestry.dragonborn.brew.dragon-resilience
         - feat.ancestry.dwarf.apg.defy-the-darkness
         - feat.ancestry.dwarf.apg.dwarven-doughtiness
         - feat.ancestry.dwarf.apg.dwarven-reinforcement

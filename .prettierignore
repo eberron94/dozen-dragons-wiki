@@ -5,6 +5,6 @@ data/temp.json
 
 scripts/util/toolUtil.js
 
-data-raw/*
+data-raw/data/*
 
 build/*

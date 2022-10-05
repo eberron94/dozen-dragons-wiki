@@ -4,10 +4,21 @@ metaTitle: ''
 metaDescription: ''
 tocLevel: 2
 weight: 1000
+traits:
+    rarity: common
+    traits:
+        - dwarf
+        - humanoid
 content:
     feats:
         - P::feat.ancestry.dwarf
+    warding:
+        - P::feat.ancestry.mark-of-warding
 ---
+
+Dwarves are natural miners and smiths, and they control most of the precious metals found naturally across the continent of Khorvaire. Powerful dwarf families mint coinage and operate banks, issue letters of credit, hold loans, and collect debts. Dwarf bankers and merchants wield a great deal of economic power throughout Khorvaire, and they are well respected as a result. To an extent, they are also feared, since dwarves are known to be ruthless in collecting unpaid debts.
+
+Dwarves can manifest the Mark of Warding, bestowing them with powers used to protect people, places, and things from all manner of damage or harm, with a focus on guarding locations and items from would-be thieves. The bloodlines that possess the dragonmark are part of House Kundarak.
 
 # Mechanics
 
@@ -17,20 +28,70 @@ content:
 
 **Speed** 20 feet
 
-**Senses** Darkvision
+**Senses** darkvision
 
 **Ability Boots**
-- Constitution
-- Wisdom
-- Free
+
+-   Constitution
+-   Wisdom
+-   Free
 
 **Ability Flaw**
-- Charisma
+
+-   Charisma
 
 **Clan Dagger** You get one clan dagger for free, as it was given to you at birth. Selling this clan dagger is a terrible taboo and earns you the disdain of other dwarves.
 
 # Heritages
 
+You select a heritage at 1st level to reflect abilities passed down to you from your ancestors or common among those of your ancestry in the environment where you were born or grew up. You have only one heritage and can't change it later. A heritage is not the same as a culture or ethnicity, though some cultures or ethnicities might have more or fewer members from a particular heritage.
+
+## Ancient-Blooded Dwarf
+
+Dwarven heroes of old could shrug off their enemies' magic, and some of that resistance manifests in you. You gain the Call on Ancient Blood reaction.
+
+{{{card "action.ancestry.dwarf.crb.call-on-ancient-blood"}}}
+
+## Anvil Dwarf
+
+You are a descendant of a famed crafter and have your own amazing talent. Other dwarves might consider this a blessing from your ancestors or from the Forgefather himself, depending on where you grew up. You become trained in Crafting (or another skill if you were already trained in Crafting) and gain the Specialty Crafting skill feat, but you can pick two different specialties instead of one.
+
+## Death Warden Dwarf^†^
+
+Your ancestors have been tomb guardians for generations, and the power they cultivated to ward off transmutation has passed on to you. If you roll a success on a saving throw against a transmutation effect, you get a critical success instead.
+
+## Elemental Heart Dwarf
+
+Whether through a connection to the lost forge, the azers of the Plane of Fire, or another source, you can exude a burst of energy. Choose one of the following damage types: acid, cold, electricity, or fire. Once chosen, this can't be changed. You gain the Energy Emanation activity.
+
+{{{card "action.ancestry.dwarf.locg.energy-emanation"}}}
+
+## Forge Dwarf
+
+You have a remarkable adaptation to hot environments from ancestors who inhabited blazing deserts or volcanic chambers beneath the earth. This grants you fire resistance equal to half your level (minimum 1), and you treat environmental heat effects as if they were one step less extreme (incredible heat becomes extreme, extreme heat becomes severe, and so on).
+
+## Oathkeeper Dwarf
+
+Growing up, you never tried to lie to get what you wanted, and even when necessary, lying makes you uncomfortable. The especially faithful might even have thought that you were blessed by Aureon. You gain a +1 circumstance bonus to Perception checks to Sense Motive and to Perception DCs against attempts to Lie to you. Furthermore, you gain a +2 circumstance bonus to Diplomacy checks to convince others you speak the truth when you are telling the truth, and you take a -4 circumstance penalty to Lie and to your Deception DC against Sense Motive.
+
+## Rock Dwarf
+
+Your ancestors lived and worked among the great ancient stones of the mountains or the depths of the earth. This makes you solid as a rock when you plant your feet. You gain a +2 circumstance bonus to your Fortitude or Reflex DC against attempts to Shove or Trip you. This bonus also applies to saving throws against spells or effects that attempt to knock you prone.
+
+In addition, if any effect would force you to move 10 feet or more, you are moved only half the distance.
+
+## Strong-Blooded Dwarf
+
+Your blood runs hearty and strong, and you can shake off toxins. You gain poison resistance equal to half your level (minimum 1), and each of your successful saving throws against a poison affliction reduces its stage by 2, or by 1 for a virulent poison. Each critical success against an ongoing poison reduces its stage by 3, or by 2 for a virulent poison.
+
 # Ancestry Feats
 
+As a {{node.name}}, you select from among the following ancestry feats.
+
 {{{deck feats levelHeading=2}}}
+
+# Mark of Warding Feats
+
+As a {{node.name}}, you can take the following dragonmark feats in place of ancestry feats.
+
+{{{deck warding levelHeading=2}}}

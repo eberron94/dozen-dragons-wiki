@@ -121,6 +121,26 @@ const registerHandlebars = () => {
         compileHandlebarTemplate('templates/game/traits.hbs')
     );
 
+    Handlebars.registerHelper('traitline', (context, options) => {
+        const compileFn = compileHandlebarTemplate('templates/game/traits.hbs');
+        let rarity = '';
+        const traits = String(context)
+            .split('|')
+            .map((e) => e.trim().toLowerCase())
+            .filter((e) => {
+                if (['common', 'uncommon', 'rare', 'unique'].includes(e)) {
+                    rarity = e;
+                    return false;
+                }
+                return e;
+            });
+
+        return compileFn({
+            rarity,
+            traits,
+        });
+    });
+
     Handlebars.registerHelper('img', (context, options) => {
         const compileImg = compileHandlebarTemplate('templates/page/img.hbs');
 
@@ -129,7 +149,8 @@ const registerHandlebars = () => {
         if (options.hash.width) style.push(`width: ${options.hash.width}`);
         else style.push('width: 100%');
 
-        if (options.hash.maxWidth) style.push(`max-width: ${options.hash.maxWidth}`);
+        if (options.hash.maxWidth)
+            style.push(`max-width: ${options.hash.maxWidth}`);
         else style.push('max-width: 300px');
 
         return compileImg(

@@ -1,0 +1,14 @@
+{
+    "feat": [
+        {
+            "name": "Camoflage",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["changeling"],
+            "entries": [
+                "You can change your skin pattern to more closely match your environment. While in standard cover or difficult terrain of rubble, snow, or underbrush, you gain the +4 circumstance bonus to your Stealth checks hide or otherwise avoid detection while not moving."
+            ]
+        }
+    ]
+}

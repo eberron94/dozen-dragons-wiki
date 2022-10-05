@@ -1,0 +1,52 @@
+{
+    "feat": [
+        {
+            "name": "Draconic Savagery",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["dragonborn"],
+            "entries": [
+                "Your body is just as dangerous as real weapons. You gain an unarmed attack from the list below, it is in the brawling group. You can take this feat multiple times, but must select a different unarmed attack every time.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Bite} deals 1d8 piercing",
+                        "{@b Claw} deals 1d6 slashing and has the agile and finesse traits",
+                        "{@b Bite} deals 1d6 bludgeoning and has the sweeping trait"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Draconic Sorcery",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["dragonborn"],
+            "entries": [
+                "Your blood boils with arcane potential. Choose one cantrip from the arcane spell list. You can cast this cantrip as an innate arcane spell at will. A cantrip is heightened to a spell level equal to half your level rounded up."
+            ]
+        },
+        {
+            "name": "Dragon Hunter",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["dragonborn"],
+            "entries": [
+                "You seek vengeance against the the dragons that enslaved your people or hunt down dragons that oppose your draconic god. You gain a +1 circumstance bonus to damage with weapons and unarmed attacks against dragons. If your attack would deal more than one weapon die of damage (as is common at higher levels than 1st), the bonus is equal to the number of weapon dice or unarmed attack dice. In addition, if a creature critically succeeds at an attack against you and deals damage to you, you gain your bonus to damage against that creature for 1 minute regardless of whether it has the chosen trait."
+            ]
+        },
+        {
+            "name": "Dragon Resilience",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["dragonborn"],
+            "entries": [
+                "You gain a +1 circumstance bonus to saves against effects that would impose the Paralyzed or sleep conditions. If you roll a success on a saving throw against an effect that would impose the paralyzed or sleep condition, you get a critical success instead."
+            ]
+        }
+    ]
+}

@@ -150,6 +150,11 @@
                             </div>
                         </a>
                     </div>
+                    {{#if data.frontMatter.traits}}
+                        <div class='title-traits'>{{{traits
+                                data.frontMatter.traits
+                            }}}</div>
+                    {{/if}}
                     <div class='heart'>
                         {{{html}}}
                         <div class='mobile-sidebar'>
