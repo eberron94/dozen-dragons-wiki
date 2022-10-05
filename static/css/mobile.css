@@ -10,8 +10,13 @@
     .page-toc,
     #id-tool,
     #id-tool-min,
-    .deco-bar-title {
+    .deco-bar-title,
+    .page-sidecontent {
         display: none !important;
+    }
+
+    .mobile-sidebar {
+        display: block;
     }
 
     #top-scroll-btn {
@@ -62,8 +67,13 @@
 
     .page-toc,
     #id-tool,
-    #id-tool-min {
+    #id-tool-min,
+    .page-sidecontent {
         display: none;
+    }
+
+    .mobile-sidebar {
+        display: block;
     }
 
     #top-scroll-btn {

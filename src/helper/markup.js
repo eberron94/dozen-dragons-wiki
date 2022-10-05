@@ -47,6 +47,10 @@ const markup = (str) => {
         (string, match) => `<sup class='text-superscript'>${match}</sup>`
     );
 
+    str = str.replace(/\[\[\[+([^\]]+)\]\]\]+/g, (string, match) =>
+        `<div class="castle-body">${match.trim()}</div>`
+    );
+
     str = str.replace(/-----\n/g, '<hr />');
 
     str = str.replace(/ *--- */g, '&mdash;');

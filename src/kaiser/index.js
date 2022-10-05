@@ -8,6 +8,18 @@ const { composeCard } = require('./composer/card');
 const { composeDefinition } = require('./composer/definition');
 const { composeMDX } = require('./composer/mdx');
 
+const navigationDividers = [
+    
+    {
+        id: 'eberron',
+        name: 'Eberron',
+        slug: '',
+        depth: 1,
+        weight: 10_000,
+        children: [],
+    },
+];
+
 class Kaiser {
     constructor() {
         console.time('kaiser-constructor');
@@ -47,32 +59,7 @@ class Kaiser {
             .filter((e) => e.path.length === 1)
             .sort(PageNode.sort)
             .map(makeChildNode)
-            .concat([
-                {
-                    id: 'pf2erules',
-                    name: 'PF2e Rules',
-                    slug: '',
-                    depth: 1,
-                    weight: 1000,
-                    children: [],
-                },
-                {
-                    id: 'homebrew',
-                    name: 'Homebrew',
-                    slug: '',
-                    depth: 1,
-                    weight: 2000,
-                    children: [],
-                },
-                {
-                    id: 'flame-rondo',
-                    name: 'Flame Rondo',
-                    slug: '',
-                    depth: 1,
-                    weight: 4000,
-                    children: [],
-                },
-            ])
+            .concat(navigationDividers)
             .sort(PageNode.sort);
 
         //Flatten nav tree for paging
@@ -231,8 +218,6 @@ class Kaiser {
 
         return matchedBlock.index;
     }
-
-    
 }
 
 const makeChildNode = (n) => ({

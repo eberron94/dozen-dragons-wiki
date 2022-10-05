@@ -71,6 +71,7 @@
     height: 100%;
     overflow-y: auto;
     position: relative;
+    justify-content: space-between;
 }
 
 .cred,
@@ -84,6 +85,7 @@
 .page-body {
     min-width: 300px;
     width: 100%;
+    max-width: 750px;
 }
 
 .page-body .heart {
@@ -93,11 +95,18 @@
 }
 
 .page-sidecontent {
-    min-width: 300px;
-    max-width: 300px;
-    width: 300px;
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    flex: 1;
+    padding: 120px 12px 12px 12px;
+}
+
+.page-sidecontent > div {
+    min-width: 200px;
+    max-width: 400px;
+}
+
+.mobile-sidebar {
+    display: none;
 }
 
 .page-toc {
@@ -115,11 +124,6 @@
 
 .content ul li p {
     display: inline;
-}
-
-.page-sidecontent > div {
-    border-left: solid #1d70a2 8px;
-    padding: 0 8px 0 4px;
 }
 
 .content table {
@@ -158,12 +162,17 @@
     gap: 4px;
 
     list-style: none;
+    margin: 0;
 }
 
 .content .castle-body li {
     border: rgb(59, 69, 78) 1px solid;
     border-radius: 4px;
     padding: 8px;
+}
+
+.content .castle-body p {
+    display: none;
 }
 
 /* PATHFINDER STYLES */

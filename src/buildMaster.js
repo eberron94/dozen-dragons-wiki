@@ -121,6 +121,27 @@ const registerHandlebars = () => {
         compileHandlebarTemplate('templates/game/traits.hbs')
     );
 
+    Handlebars.registerHelper('img', (context, options) => {
+        const compileImg = compileHandlebarTemplate('templates/page/img.hbs');
+
+        const style = [];
+
+        if (options.hash.width) style.push(`width: ${options.hash.width}`);
+        else style.push('width: 100%');
+
+        if (options.hash.maxWidth) style.push(`max-width: ${options.hash.maxWidth}`);
+        else style.push('max-width: 300px');
+
+        return compileImg(
+            {
+                src: context,
+                style: style.map((e) => e + ';').join(' '),
+                center: Boolean(options.hash.center),
+            },
+            options
+        );
+    });
+
     Handlebars.registerHelper('breadcrumb', (context, options) => {
         const compileBread = compileHandlebarTemplate(
             'templates/common/breadcrumb.hbs'

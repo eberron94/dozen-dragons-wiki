@@ -66,6 +66,8 @@ const entryMarkup = (str) => {
         })
     );
 
+    
+
     str = str.replace(/\{@([^\}]+)\}/g, (_, match) => {
         // console.log('tag found', match);
 
