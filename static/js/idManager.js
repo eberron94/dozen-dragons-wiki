@@ -103,7 +103,6 @@ const handleUpdateId = () => {
 
     const dList = document.getElementById('id-tool-menu-selected-list');
     const itemLists = getItemList();
-    console.log(itemLists);
 
     let inner = '';
 
