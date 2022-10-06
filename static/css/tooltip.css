@@ -26,6 +26,12 @@
     right: 0%;
 }
 
+.tooltip.asset .tool-tip-content {
+    top: unset;
+    bottom: -40px;
+    right:50%;
+}
+
 .tooltip:hover .tool-tip-content {
     visibility: visible;
 }

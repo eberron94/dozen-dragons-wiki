@@ -1,0 +1,427 @@
+[
+    {
+        "id": "tiefling-1",
+        "name": "tiefling",
+        "type": "asset",
+        "source": {
+            "artist": "AonikaArt",
+            "title": "Miva portrait",
+            "distributor": "Deviant Art",
+            "imageUrl": "https://www.deviantart.com/aonikaart/art/Miva-portrait-281614383",
+            "artistUrl": "https://www.deviantart.com/aonikaart",
+            "accessed": "10-6-2022"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/tiefling-1.webp",
+            "full": "/img/ancestry/tiefling-1.jpg"
+        }
+    },
+    {
+        "id": "aasimar-1",
+        "name": "aasimar",
+        "type": "asset",
+        "source": {
+            "artist": "Anna Pavleeva",
+            "title": "female aasimar cleric",
+            "distributor": "Art Station",
+            "imageUrl": "https://annapavleeva.artstation.com/projects/BmkOKr",
+            "artistUrl": "https://annapavleeva.artstation.com/",
+            "accessed": "10-6-2022"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/aasimar-1.webp",
+            "full": "/img/ancestry/aasimar-1.jpg"
+        }
+    },
+    {
+        "id": "automaton-1",
+        "name": "automaton",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "Kyle \"OutlandIdol\" Hebert",
+            "artistUrl": "https://www.artstation.com/outlandidol",
+            "distributor": "Art Station",
+            "imageUrl": "https://www.artstation.com/artwork/5XNQ1A",
+            "title": "S-41"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/automaton-1.webp",
+            "full": "/img/ancestry/automaton-1.jpg"
+        }
+    },
+    {
+        "id": "bugbear-1",
+        "name": "bugbear",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "Nin Jackson",
+            "artistUrl": "https://ninjackson.artstation.com/",
+            "distributor": "Art Station",
+            "imageUrl": "https://ninjackson.artstation.com/projects/w6xmJL",
+            "title": "Rzeka the Bugbear"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/bugbear-1.webp",
+            "full": "/img/ancestry/bugbear-1.jpg"
+        }
+    },
+    {
+        "id": "catfolk-1",
+        "name": "catfolk",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "Julia Mato",
+            "artistUrl": "https://juliathedragoncat.artstation.com/",
+            "distributor": "Art Station",
+            "imageUrl": "https://juliathedragoncat.artstation.com/projects/baL1oa",
+            "title": "Smoke Break"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/catfolk-1.webp",
+            "full": "/img/ancestry/catfolk-1.jpg"
+        }
+    },
+    {
+        "id": "changeling-1",
+        "name": "changeling",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "Ewa \"Maraden\" Kamczyc",
+            "artistUrl": "https://www.artstation.com/maraden",
+            "distributor": "Art Station",
+            "imageUrl": "https://www.artstation.com/artwork/D5EdDy",
+            "title": "Blank - changeling rogue/warlock"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/changeling-1.webp",
+            "full": "/img/ancestry/changeling-1.jpg"
+        }
+    },
+    {
+        "id": "dragonborn-1",
+        "name": "dragonborn",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "Sami Rytkönen",
+            "artistUrl": "https://www.artstation.com/zamisam",
+            "distributor": "Art Station",
+            "imageUrl": "https://www.artstation.com/artwork/qQ34bn",
+            "title": "Dragonborn mage"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/dragonborn-1.webp",
+            "full": "/img/ancestry/dragonborn-1.jpg"
+        }
+    },
+    {
+        "id": "dwarf-1",
+        "name": "dwarf",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "KW",
+            "artistUrl": "https://turbogum.artstation.com/",
+            "distributor": "Art Station",
+            "imageUrl": "https://turbogum.artstation.com/projects/2qWw2x",
+            "title": "DnD Portrait | Grimnir Oakfist, dwarven monk"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/dwarf-1.webp",
+            "full": "/img/ancestry/dwarf-1.jpg"
+        }
+    },
+    {
+        "id": "elf-1",
+        "name": "elf",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "Yasen Stoilov",
+            "artistUrl": "https://www.artstation.com/yasen_stoilov",
+            "distributor": "Art Station",
+            "imageUrl": "https://www.artstation.com/artwork/rRLO6e",
+            "title": "Elf Warrior"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/elf-1.webp",
+            "full": "/img/ancestry/elf-1.jpg"
+        }
+    },
+    {
+        "id": "fleshwarp-1",
+        "name": "fleshwarp",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "Juan Carlos Stella",
+            "artistUrl": "https://www.artstation.com/jukaso",
+            "distributor": "Art Station",
+            "imageUrl": "https://www.artstation.com/artwork/R386WD",
+            "title": "Cultist Leader"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/fleshwarp-1.webp",
+            "full": "/img/ancestry/fleshwarp-1.jpg"
+        }
+    },
+    {
+        "id": "gnoll-1",
+        "name": "gnoll",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "Aurora \"DiesVitae\" Scaioni",
+            "artistUrl": "https://diesvitae.artstation.com/",
+            "distributor": "Art Station",
+            "imageUrl": "https://diesvitae.artstation.com/projects/zDwQ36",
+            "title": "Gnoll Artificer"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/gnoll-1.webp",
+            "full": "/img/ancestry/gnoll-1.jpg"
+        }
+    },
+    {
+        "id": "gnome-1",
+        "name": "gnome",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "Florent Mounier",
+            "artistUrl": "https://www.artstation.com/moonyeah",
+            "distributor": "Art Station",
+            "imageUrl": "https://www.artstation.com/artwork/Lex4b0",
+            "title": "Fantasy Characters"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/gnome-1.webp",
+            "full": "/img/ancestry/gnome-1.jpg"
+        }
+    },
+    {
+        "id": "half-elf-1",
+        "name": "Khoravar",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "Wayleri",
+            "artistUrl": "https://www.deviantart.com/wayleri",
+            "distributor": "Deviant Art",
+            "imageUrl": "https://www.deviantart.com/wayleri/art/Half-elf-830802295",
+            "title": "Half-elf"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/half-elf-1.webp",
+            "full": "/img/ancestry/half-elf-1.jpg"
+        }
+    },
+    {
+        "id": "half-orc-1",
+        "name": "Khoravar",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "Giovanni Marcora",
+            "artistUrl": "https://www.artstation.com/les_chats_nocturnes",
+            "distributor": "Art Station",
+            "imageUrl": "https://www.artstation.com/artwork/LeloZk",
+            "title": "Charming Barbarian Half-orc"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/half-orc-1.webp",
+            "full": "/img/ancestry/half-orc-1.jpg"
+        }
+    },
+    {
+        "id": "halfling-1",
+        "name": "halfling",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "Ilina Naydenova",
+            "artistUrl": "https://www.artstation.com/ilinanaydenova",
+            "distributor": "Art Station",
+            "imageUrl": "https://www.artstation.com/artwork/Vgnn8g",
+            "title": "Halfling Fighters"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/halfling-1.webp",
+            "full": "/img/ancestry/halfling-1.jpg"
+        }
+    },
+    {
+        "id": "hobgoblin-1",
+        "name": "hobgoblin",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "Rerin Kin",
+            "artistUrl": "https://rerinkin.artstation.com/",
+            "distributor": "Art Station",
+            "imageUrl": "https://rerinkin.artstation.com/projects/WKnlQ2",
+            "title": "Yara Hobgoblin D&D Commission"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/hobgoblin-1.webp",
+            "full": "/img/ancestry/hobgoblin-1.jpg"
+        }
+    },
+    {
+        "id": "goblin-1",
+        "name": "goblin",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "sarty96",
+            "artistUrl": "https://www.deviantart.com/sarty96",
+            "distributor": "Deviant Art",
+            "imageUrl": "https://www.deviantart.com/sarty96/art/Goblin-Thief-908831394",
+            "title": "Goblin Thief"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/goblin-1.webp",
+            "full": "/img/ancestry/goblin-1.jpg"
+        }
+    },
+    {
+        "id": "human-1",
+        "name": "human",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "Kii Weatherton",
+            "artistUrl": "https://www.artstation.com/kiikiibee",
+            "distributor": "Art Station",
+            "imageUrl": "https://www.artstation.com/artwork/aWL49",
+            "title": "warcraft. Paladin"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/human-1.webp",
+            "full": "/img/ancestry/human-1.jpg"
+        }
+    },
+    {
+        "id": "kalashtar-1",
+        "name": "kalashtar",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "Kii Weatherton",
+            "artistUrl": "https://www.artstation.com/kiikiibee",
+            "distributor": "Art Station",
+            "imageUrl": "https://www.artstation.com/artwork/oOqPom",
+            "title": "DnD. Lily"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/kalashtar-1.webp",
+            "full": "/img/ancestry/kalashtar-1.jpg"
+        }
+    },
+    {
+        "id": "kobold-1",
+        "name": "kobold",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "Petar \"DNAVENOM\" Penev",
+            "artistUrl": "https://dnavenom.artstation.com/",
+            "distributor": "Art Station",
+            "imageUrl": "https://dnavenom.artstation.com/projects/68eJJV",
+            "title": "Adventures from the Potbellied Kobold | cover | logo | interior art"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/kobold-1.webp",
+            "full": "/img/ancestry/kobold-1.jpg"
+        }
+    },
+    {
+        "id": "lizardfolk-1",
+        "name": "lizardfolk",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "Olieart",
+            "artistUrl": "https://www.deviantart.com/olieart",
+            "distributor": "Deviant Art",
+            "imageUrl": "https://www.deviantart.com/olieart/art/Sah-Kajul-Lizardfolk-Paladin-commission-dnd-812258254",
+            "title": "Sah-Kajul, Lizardfolk Paladin"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/lizardfolk-1.webp",
+            "full": "/img/ancestry/lizardfolk-1.jpg"
+        }
+    },
+    {
+        "id": "orc-1",
+        "name": "orc",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "Federico Lacelli",
+            "artistUrl": "https://www.artstation.com/fedelac",
+            "distributor": "Art Station",
+            "imageUrl": "https://www.artstation.com/artwork/4wZ0W",
+            "title": "Orc Wizard"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/orc-1.webp",
+            "full": "/img/ancestry/orc-1.jpg"
+        }
+    },
+    {
+        "id": "shifter-1",
+        "name": "shifter",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "A.E. Coggon",
+            "artistUrl": "https://aecoggon.artstation.com/",
+            "distributor": "Art Station",
+            "imageUrl": "https://aecoggon.artstation.com/projects/18AY6Z",
+            "title": "Lycanthrope Shifter Cleric Commission"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/shifter-1.webp",
+            "full": "/img/ancestry/shifter-1.jpg"
+        }
+    },
+    {
+        "id": "sprite-1",
+        "name": "sprite",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "Nathan Poole",
+            "artistUrl": "https://www.artstation.com/npoole",
+            "distributor": "Art Station",
+            "imageUrl": "https://www.artstation.com/artwork/r9K8eL",
+            "title": "DnD Character Design Fairy Warlock"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/sprite-1.webp",
+            "full": "/img/ancestry/sprite-1.jpg"
+        }
+    },
+    {
+        "id": "warforged-1",
+        "name": "warforged",
+        "type": "asset",
+        "source": {
+            "accessed": "10-6-2022",
+            "artist": "Benjamin Clair",
+            "artistUrl": "https://www.artstation.com/benjaminclair",
+            "distributor": "Art Station",
+            "imageUrl": "https://www.artstation.com/artwork/DZQEy",
+            "title": "Warforged"
+        },
+        "src": {
+            "portrait": "/img/ancestry/portrait/warforged-1.webp",
+            "full": "/img/ancestry/warforged-1.jpg"
+        }
+    }
+]

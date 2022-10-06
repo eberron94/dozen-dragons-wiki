@@ -4,12 +4,12 @@ const { colatePages } = require('../pageManager/colatePages');
 const { arrayToObject, bucketArray } = require('../util/arrays');
 const { cape } = require('../util/cape');
 const { PageNode } = require('./classes');
+const { composeAsset } = require('./composer/asset');
 const { composeCard } = require('./composer/card');
 const { composeDefinition } = require('./composer/definition');
 const { composeMDX } = require('./composer/mdx');
 
 const navigationDividers = [
-    
     {
         id: 'eberron',
         name: 'Eberron',
@@ -31,6 +31,7 @@ class Kaiser {
             definition: composeDefinition(coreData.definition || []),
             itemCard: composeCard(coreData.item || []),
             mdx: composeMDX(coreData.mdx || []),
+            asset: composeAsset(coreData.asset || []),
         };
 
         /* Prepare Navigation Sidebar data */

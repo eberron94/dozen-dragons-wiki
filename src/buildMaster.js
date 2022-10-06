@@ -163,6 +163,30 @@ const registerHandlebars = () => {
         );
     });
 
+    Handlebars.registerHelper('portrait', (context, options) => {
+        const compileImg = compileHandlebarTemplate('templates/page/portrait.hbs');
+
+        const image = kaiser.data.asset.find(context);
+
+        const style = [];
+
+        if (options.hash.width) style.push(`width: ${options.hash.width}`);
+        else style.push('width: 100%');
+
+        if (options.hash.maxWidth)
+            style.push(`max-width: ${options.hash.maxWidth}`);
+        else style.push('max-width: 300px');
+
+        return compileImg(
+            {
+                ...image,
+                style: style.map((e) => e + ';').join(' '),
+                center: Boolean(options.hash.center),
+            },
+            options
+        );
+    });
+
     Handlebars.registerHelper('breadcrumb', (context, options) => {
         const compileBread = compileHandlebarTemplate(
             'templates/common/breadcrumb.hbs'
