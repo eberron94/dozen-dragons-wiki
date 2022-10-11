@@ -42,14 +42,6 @@
     font-style: italic;
 }
 
-.content blockquote {
-    margin: 0 3em 0.5em 3em;
-    padding: 0 4px 0 4px;
-    font-style: italic;
-    border-right: rgb(59, 69, 78) solid 4px;
-    border-left: rgb(59, 69, 78) solid 4px;
-}
-
 .content p {
     margin: 8pt 0 8pt 0;
 }
@@ -58,6 +50,21 @@
     vertical-align: super;
     font-size: smaller;
 }
+
+.content blockquote {
+    margin: 0 3em 0 3em;
+    padding: 0 4px 0 4px;
+    /* font-style: italic; */
+    border-left: rgb(59, 69, 78) solid 4px;
+    
+}
+
+.content blockquote p {
+    margin: 0;
+    padding-left: 2em;
+    text-indent: -2em;
+}
+
 
 /* 
  * Modify main Media
@@ -123,7 +130,7 @@
     list-style: inside;
     list-style-position: outside;
     margin: 10px;
-    margin-left: 32px;
+    /* margin-left: 32px; */
 }
 
 .content ul li p {

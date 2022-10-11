@@ -2,41 +2,87 @@
 title: 'Basic Gameplay'
 metaTitle: ''
 metaDescription: ''
-weight: 2300
+weight: 100
 ---
 
-This is a quick overview of the basics of the game. Don't worry about this too much, learning by example is better than reading for gameplay.
+This is a quick overview of the basics of the game. Don't worry about this too much, learning by example is better than reading for gameplay. For a complete set of rules, see the [official rules](https://2e.aonprd.com/Rules.aspx?ID=311).
+
+# Character Statistics
+
+You character has numerical ratings for anything they can do. These stats are broken up into a few different categories.
+
+## Ability Scores
+
+Ability scores are your character's primary statistics and important in determine how good they are at doing anything. These stats consist of strength, dexterity, constitution, intelligence, wisdom, and charisma. A common meme in the hobby is explaining these in reference to a tomato.
+
+-   **Strength** is being able to crush a tomato
+-   **Dexterity** is being able to dodge a tomato
+-   **Constitution** is being able to eat a bad tomato
+-   **Intelligence** is knowing a tomato is a fruit
+-   **Wisdom** is knowing not to put a tomato in a fruit salad
+-   **Charisma** is being able to sell a tomato based fruit salad
+
+An ability scores start at 10 and are increased by ability boosts. You get a number of these boosts during character creation, and occasionally an ability flaw. Your raw ability scores do not usually do something directly. Instead you use ability modifiers for each ability score. For example, when a skill uses your Dexterity, you add your Dexterity modifier.
+
+## Rolling Stats
+
+Statistics that you add to a roll have a final value, which is the value you write down on your character sheet. They are all calculated in a similar way. You add your proficiency with the stat and the keyed ability modifier. Proficiency is explained later.
+
+> **Final Value** = proficiency +&nbsp;ability&nbsp;modifier
+
+**Saving throws**---also called saves---represent an attempt to resist a spell, a trap, a poison, a disease, or a similar threat. The three saves are Fortitude, Reflex, and Will. You don't normally decide to make a saving throw; you are forced to make one because your character or monster is at risk of harm.
+
+-   **Fortitude** saving throws allow you to reduce the effects of abilities and afflictions that can debilitate the body. They use your Constitution.
+
+-   **Reflex** saving throws measure how well you can respond quickly to a situation and how gracefully you can avoid effects that have been thrown at you. They use your Dexterity.
+
+-   **Will** saving throws measure how well you can resist attacks to your mind and spirit. They use your Wisdom.
+
+**Skills** represent your training and experience at performing certain tasks. Each skill is keyed to one of your ability scores and used for an array of related actions. There are too many skills to list here directly.
+
+**Perception** is a special skill and measures how alert you are. It uses your Wisdom.
+
+**Strikes**---either melee, ranged, or spell---is your talent at hitting things with weapons or magic. Usually, you use Strength for melee Strikes and Dexterity for ranged Strikes. Spells uses your spellcasting key ability, determined by your class.
+
+## Opposed stats
+
+Statistics that are opposed set the Difficulty Class (DC) for your opponent when they attempt to hit you or resist some feature or spell of yours.
+
+**Armor Class (AC)** is the difficulty at hitting you in combat. AC is 10 plus your proficiency with your worn armor, your worn armor's item bonus and your Dexterity modifier (which is limited by your worn armor).
+
+**Class DC** is your potency with certain class features. Your class determines what ability scores is used. Class DC is 10 plus your class DC proficiency and your class's key ability.
+
+**Spellcasting DC** is your talent at applying the effects of spells to enemies. Your spellcasting DC is 10 plus your spell proficiency and your spellcasting's ability modifier.
+
+> **AC** = 10 +&nbsp;proficiency +&nbsp;item&nbsp;bonus +&nbsp;Dexterity&nbsp;modifier |&nbsp;depends&nbsp;on&nbsp;worn&nbsp;armor
+
+> **Class DC** = 10 +&nbsp;proficiency +&nbsp;class's&nbsp;key&nbsp;ability&nbsp;modifier
+
+> **Spellcasting DC** = 10 +&nbsp;proficiency +&nbsp;spellcasting's&nbsp;ability&nbsp;modifier
+
+## Proficiency
+
+Your talent at each statistic is measured with proficiency. There are four levels: trained, expert, master, and legendary. Each level adds a multiple of +2 to that statistics final value or DC.
+
+| Proficiency | Bonus |
+| ----------- | ----- |
+| Trained     | +2    |
+| Expert      | +4    |
+| Master      | +6    |
+| Legendary   | +8    |
 
 # Rolling Dice
 
-> d20 + skill proficiency + ability modifier + potency + (circumstance bonus + circumstance penalty) + (status bonus + status penalty)
+To determine the outcome of something in the game, you "check" the result by rolling a d20 (a 20 sided die) and add the final value of a stat and applicable factors. There are two factors---circumstance and status---and you only apply the best bonus and worst penalty of each.
 
-Most rolls will use a d20, these are skill checks, attack rolls, and saving throws. You add the following to the d20:
+> **Result** = d20 +&nbsp;final&nbsp;value +&nbsp;best&nbsp;circumstance&nbsp;bonus +&nbsp;best&nbsp;status&nbsp;bonus -&nbsp;worst&nbsp;circumstance&nbsp;penalty -&nbsp;worst&nbsp;status&nbsp;penalty
 
--   **Proficiency** your proficiency is determined by various features. It has a value of +2 for _trained_, +4 for _expert_, +6 for _master_, and +8 for _legendary_.
--   **Ability Modifier** you add of the six ability modifier and it usually has a value between -1 to +6.
--   **Potency** a bonus determined by your level, added only to proficient rolls. It has a value of +1 at 4th level, +2 at 10th level, and +3 at 16th level.
--   **Circumstance** the best bonus and worst penalty circumstance values are added to a roll. Applied by circumstantial things, like being prone or raising a shield.
--   **Status** the best bonus and worst penalty status values are added to a roll. Applied by supernatural forces.
+The three most common checks are attack rolls, skill checks, and saving throws. A roll is a Success when it beats the Difficulty Class, DC for short. If the roll is 10 points greater than the DC, it is instead a Critical Success, which has enhanced results for you. If the roll is less than the DC, you have a Failure, or a Critical Failure if you failed by 10 points.
 
-A roll is successful when it beats the Difficulty Class, DC for short. If the roll is 10 points greater than the DC, it is instead a critical success, which has enhanced results for you. If the roll is less than the DC, you have a failure, or a critical failure if you failed by 10 points.
+> **Critical Success** result >= DC&nbsp;+&nbsp;10
 
-You record the sum of the _proficiency_, _ability modifier_, and _potency_ for all skills, attacks, and saving throws for quick reference. This is called your final value for that statistic.
+> **Success** result >= DC
 
-# Determining AC and other DCs
+> **Failure** result < DC
 
-A DC is used when another creature attempts to oppose you on something. The most common DC is Armor Class, AC for short, and is referenced whenever something makes an attack roll against you.
-
-Your AC is equal to 10 plus the following:
-
--   **Proficiency with your worn armor** your proficiency is determined by your class. It has a value of +2 for _trained_, +4 for _expert_, +6 for _master_, and +8 for _legendary_.
--   **Worn armor's item bonus** the armor you wear gives a bonus between +0 and +6. See your armor's statistics.
--   **Dexterity modifier** your Dexterity modifier, but only if it is a positive value. Some armor will limit the Dexterity bonus.
--   **Potency** a bonus determined by your level. It has a value of +1 at 4th level, +2 at 10th level, and +3 at 16th level.
--   **Other modifiers** AC can be altered by circumstance and status values.
-
-> AC = 10 + worn armor proficiency + armor item bonus + Dexterity modifier [capped by armor] + potency + circumstance and status values
-
-You will also need to know the DC of certain character features. The most common is Class DC and Spellcasting DC. For all cases, you add 10 to the final value. For example, your Reflex DC is 10 plus your Reflex final value.
-
-> DC = 10 + final value of statistic
+> **Critical Failure** result < DC&nbsp;-&nbsp;10

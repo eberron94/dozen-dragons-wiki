@@ -208,6 +208,19 @@ const registerHandlebars = () => {
         return 'ERROR: INVALID ID';
     });
 
+    Handlebars.registerHelper('ref', (context, options) => {
+
+        return "TODO"
+        const cardFind = kaiser.data.itemCard.findWithComplexSearch(context.trim());
+
+        console.log('REF', cardFind.id)
+
+        if (cardFind && cardFind?.tooltip?.index) return cardFind.tooltip.index;
+
+        // console.warn('MISSING ID', context);
+        return 'ERROR: INVALID ID';
+    });
+
     Handlebars.registerHelper('featureClass', (context, options) => {
         return compileHandlebarTemplate('templates/game/feature.hbs')(
             {

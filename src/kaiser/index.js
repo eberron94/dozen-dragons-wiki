@@ -11,6 +11,14 @@ const { composeMDX } = require('./composer/mdx');
 
 const navigationDividers = [
     {
+        id: 'catalog',
+        name: 'Catalog',
+        slug: '',
+        depth: 1,
+        weight: 1_000,
+        children: [],
+    },
+    {
         id: 'eberron',
         name: 'Eberron',
         slug: '',
@@ -329,7 +337,7 @@ const buildTooltipsFn = (compileFn) => (list, templateFileName) => {
                 id: e.id,
                 altId: cape(e.altId) || [],
                 type: e.type,
-                index: renderTemplate({ ...e, tag: e.tag.toFormat() }),
+                index: renderTemplate({ ...e, tag: e?.tag?.toFormat() }),
                 a: renderTemplate({ ...e, tag: e.tag.toFormat('a') }),
                 f: renderTemplate({ ...e, tag: e.tag.toFormat('f') }),
                 p: renderTemplate({ ...e, tag: e.tag.toFormat('p') }),
@@ -349,5 +357,7 @@ const buildTooltipsFn = (compileFn) => (list, templateFileName) => {
 
     return list;
 };
+
+const buildCardRefsFn = (compileFn) => (list, templateFileName) => {};
 
 exports.kaiser = new Kaiser();

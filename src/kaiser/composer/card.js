@@ -17,18 +17,39 @@ exports.composeCard = (original) => {
     const list = original.map(parse).filter(filterUniqueByObjectKey());
     // console.log(list);
 
+    const find = (id) => list.find((item) => item.id === id);
+
     return {
         list,
-        find: (id) => list.find((item) => item.id === id),
+        find,
         findPartials: (id) => {
-        
-            const pid = id.replace('P', '').split('::').filter(e=>e);
-            const foundList = list.filter((item) => pid.every(ppid=>item.id.includes(ppid)));
+            const pid = id
+                .replace('P', '')
+                .split('::')
+                .filter((e) => e);
+            const foundList = list.filter((item) =>
+                pid.every((ppid) => item.id.includes(ppid))
+            );
 
             return foundList;
         },
+        findWithComplexSearch: (searchStr) => {
+            let found = this.find(searchStr)[0];
+            if (found) return found;
+            const searchParams = searchStr
+                .split('|')
+                .map((e) => e.trim())
+                .map((e) => {
+                    const [key, value] = e.split('=');
+                    return { key, value };
+                });
+            if (searchParams.length === 1)
+                return list.find((item) => item.data.title === searchParams[0])[0];
+
+            // handle individual terms
+        },
         buildBlocks: (buildFn) => buildFn(list, 'item-card.hbs'),
-        // buildTooltips: (buildFn) => buildFn(list, 'item-card.hbs'),
+        buildTooltips: (buildFn) => buildFn(list, 'item-card.hbs'),
         print: () => {
             const kMap = {};
 
@@ -36,19 +57,18 @@ exports.composeCard = (original) => {
 
             return `const kaiser = ${JSON.stringify(kMap, null, 4)};`;
         },
-        sort:(a,b)=> {
+        sort: (a, b) => {
+            if (a?.level < b?.level) return -1;
+            if (a?.level > b?.level) return 1;
 
-            if(a?.level < b?.level) return -1;
-            if(a?.level > b?.level) return 1;
+            if (a?.data?.title < b?.data?.title) return -1;
+            if (a?.data?.title > b?.data?.title) return 1;
 
-            if(a?.data?.title < b?.data?.title) return -1;
-            if(a?.data?.title > b?.data?.title) return 1;
-
-            if(a?.id < b?.id) return -1;
-            if(a?.id > b?.id) return 1;
+            if (a?.id < b?.id) return -1;
+            if (a?.id > b?.id) return 1;
 
             return 0;
-        }
+        },
     };
 };
 
