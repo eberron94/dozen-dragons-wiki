@@ -234,7 +234,8 @@
     gap: 4px;
 }
 
-.item-card .item-card-title img {
+.item-card .item-card-title img,
+.item-ref>img {
     position: relative;
     height: 24px;
     filter: invert(0.8);

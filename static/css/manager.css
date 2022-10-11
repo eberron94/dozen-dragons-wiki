@@ -1,11 +1,13 @@
-.item-card-title img {
+.item-card-title img,
+.item-ref img {
     cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
 }
 
-.item-card-title img:hover {
+.item-card-title img:hover,
+.item-ref img:hover {
     filter: invert();
 }
 
