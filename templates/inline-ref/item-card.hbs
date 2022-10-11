@@ -1,23 +1,9 @@
-<span class='item-ref'>
-    <img data-id='{{{id}}}' src='{{card.icon}}' /><a class='reftip'>{{{card.title}}}<span class='tool-tip-content'>
-            <div class='item-card'>
-                <div class='item-card-title'>
-                    <img data-id='{{{id}}}' src='{{card.icon}}' />
-                    <h4 id='{{id}}'>
-                        {{{card.title}}}
-                    </h4>
-                    <span class='item-label'>
-                        {{#if card.code}}<span
-                                class='item-label-text'
-                            >{{card.code}}</span>{{/if}}
-                    </span>
-                </div>
-                <div class='item-card-body'>
-                    {{#each card.contents}}
-                        {{{this}}}
-                    {{/each}}
-                </div>
-            </div>
+<span class='item-ref' >
+    <img data-id='{{{id}}}' src='{{card.icon}}' /><a data-id='{{{id}}}'
+        class='reftip'
+    >{{{card.title}}}
+        <span class='tool-tip-content'>
+            {{{block.index}}}
         </span>
     </a>
 

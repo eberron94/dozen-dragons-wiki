@@ -1,9 +1,14 @@
-.tooltip, .reftip {
+.tooltip {
     position: relative;
     display: inline-block;
 }
 
-a.tooltip .tool-tip-content {
+.reftip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tool-tip-content {
     visibility: hidden;
     width: 160px;
     height: 40px;
@@ -18,34 +23,40 @@ a.tooltip .tool-tip-content {
     right: 105%;
 
     font-size: small;
+
+    opacity: 0;
+    transition: opacity 200ms;
+    transition-timing-function: ease-in;
+    transition-delay: 500ms;
 }
 
 #id-tool .tooltip .tool-tip-content {
     top: unset;
-    bottom: calc(50% + 20px);
+    bottom: 100%;
     right: 0%;
 }
 
-.item-ref .reftip .tool-tip-content {
+.reftip .tool-tip-content {
     visibility: hidden;
-    width: 360px;
-    top: 100%;
-    left: 0%;
+    max-width: 750px;
+    position: fixed;
+    bottom: 0;
+    left: 300px;
+
     border-radius: 6px;
     padding: 5px 0;
-    position: absolute;
+    margin-right: 20px;
+
     z-index: 1;
-    top: calc(50% - 20px);
-    right: 105%;
+
+    opacity: 0;
+    transition: opacity 200ms;
+    transition-timing-function: ease-in;
+    transition-delay: 500ms;
 }
 
 .tooltip.asset .tool-tip-content {
     top: unset;
     bottom: -40px;
     right: 50%;
-}
-
-.tooltip:hover .tool-tip-content,
-.reftip:hover .tool-tip-content {
-    visibility: visible !important;
 }

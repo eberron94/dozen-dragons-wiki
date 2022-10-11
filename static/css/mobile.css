@@ -99,4 +99,10 @@
     .nav-sidebar::-webkit-scrollbar {
         display: none; /* Safari and Chrome */
     }
+
+    .tooltip:hover .tool-tip-content,
+    .reftip:hover .tool-tip-content {
+        visibility: visible !important; /* Enable tooptip content for non-mobile*/
+        opacity: 1;
+    }
 }

@@ -225,7 +225,7 @@ const handleClickToTop = () => {
 };
 
 document.addEventListener('click', (event) => {
-    if (event.target.matches('.item-card-title img'))
+    if (event.target.matches('.item-card-title img') || event.target.matches('.item-ref>img,.item-ref>a') )
         return handleClickCopyId(event);
 
     if (event.target.matches('#id-tool-menu-selected-list .delete'))
