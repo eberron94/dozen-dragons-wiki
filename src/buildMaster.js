@@ -31,6 +31,7 @@ exports.buildSite = () => {
     kaiser.buildTooltips(compileHandlebarTemplate);
     kaiser.buildBlocks(compileHandlebarTemplate);
     kaiser.buildPages(compileHandlebarTemplate);
+    kaiser.buildInlineRefs(compileHandlebarTemplate)
 
     /**
      * Fill MDX pages with content blocks
@@ -210,12 +211,12 @@ const registerHandlebars = () => {
 
     Handlebars.registerHelper('ref', (context, options) => {
 
-        return "TODO"
+        // return "TODO"
         const cardFind = kaiser.data.itemCard.findWithComplexSearch(context.trim());
 
-        console.log('REF', cardFind.id)
+        // console.log('REF', cardFind.id, cardFind)
 
-        if (cardFind && cardFind?.tooltip?.index) return cardFind.tooltip.index;
+        if (cardFind && cardFind?.inlineRef?.index) return cardFind.inlineRef.index;
 
         // console.warn('MISSING ID', context);
         return 'ERROR: INVALID ID';

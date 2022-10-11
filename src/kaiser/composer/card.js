@@ -34,8 +34,8 @@ exports.composeCard = (original) => {
             return foundList;
         },
         findWithComplexSearch: (searchStr) => {
-            let found = this.find(searchStr)[0];
-            if (found) return found;
+            let found = find(searchStr);
+            if (found && found.length) return found[0];
             const searchParams = searchStr
                 .split('|')
                 .map((e) => e.trim())
@@ -43,13 +43,19 @@ exports.composeCard = (original) => {
                     const [key, value] = e.split('=');
                     return { key, value };
                 });
+
+
             if (searchParams.length === 1)
-                return list.find((item) => item.data.title === searchParams[0])[0];
+                found = list.find(
+                    (item) => item.data.title === searchParams[0].key
+                );
+
+            if (found) return found;
 
             // handle individual terms
         },
         buildBlocks: (buildFn) => buildFn(list, 'item-card.hbs'),
-        buildTooltips: (buildFn) => buildFn(list, 'item-card.hbs'),
+        buildInlineRefs: (buildFn) => buildFn(list, 'item-card.hbs'),
         print: () => {
             const kMap = {};
 

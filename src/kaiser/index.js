@@ -1,4 +1,4 @@
-const { template } = require('handlebars');
+const { template, compile } = require('handlebars');
 const { list } = require('../card/parts/list');
 const { colatePages } = require('../pageManager/colatePages');
 const { arrayToObject, bucketArray } = require('../util/arrays');
@@ -151,6 +151,29 @@ class Kaiser {
             .filter((e) => typeof e === 'object');
 
         this.tooltipBucket = bucketArray(tooltipList, 'type');
+    }
+
+    buildInlineRefs(compileFn) {
+        Object.values(this.data)
+            .filter(
+                (e) => e.buildInlineRefs && typeof e.buildInlineRefs === 'function'
+            )
+            .forEach(({ buildInlineRefs }) => {
+                buildInlineRefs(buildInlineRefsFn(compileFn));
+            });
+
+        const inlineRefList = Object.values(this.data)
+            .flatMap((e) => e.list)
+            .map((e) => {
+                const { id, inlineRef } = e;
+                if (inlineRef && typeof inlineRef === 'string') {
+                    console.log('--- inlineRef', id, inlineRef.length);
+                }
+                return inlineRef;
+            })
+            .filter((e) => typeof e === 'object');
+
+        this.inlineRefBucket = bucketArray(inlineRefList, 'type');
     }
 
     getTooltip(match) {
@@ -358,6 +381,26 @@ const buildTooltipsFn = (compileFn) => (list, templateFileName) => {
     return list;
 };
 
-const buildCardRefsFn = (compileFn) => (list, templateFileName) => {};
+const buildInlineRefsFn = (compileFn) => (list, templateFileName) => {
+    const renderTemplate = compileFn('templates/inline-ref/' + templateFileName);
+
+    list.forEach(
+        (e) =>
+            (e.inlineRef = {
+                id: e.id,
+                type: e.type,
+                index: renderTemplate(e),
+            })
+    );
+
+    console.log(
+        'compiled',
+        String(list.length).padStart(3),
+        templateFileName.padEnd(20),
+        'inlineRefs'
+    );
+
+    return list;
+};
 
 exports.kaiser = new Kaiser();
