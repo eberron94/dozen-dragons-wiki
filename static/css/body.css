@@ -130,7 +130,7 @@
     list-style: inside;
     list-style-position: outside;
     margin: 10px;
-    /* margin-left: 32px; */
+    margin-left: 32px;
 }
 
 .content ul li p {

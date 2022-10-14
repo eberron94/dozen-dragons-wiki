@@ -156,7 +156,8 @@ class Kaiser {
     buildInlineRefs(compileFn) {
         Object.values(this.data)
             .filter(
-                (e) => e.buildInlineRefs && typeof e.buildInlineRefs === 'function'
+                (e) =>
+                    e.buildInlineRefs && typeof e.buildInlineRefs === 'function'
             )
             .forEach(({ buildInlineRefs }) => {
                 buildInlineRefs(buildInlineRefsFn(compileFn));
@@ -174,6 +175,35 @@ class Kaiser {
             .filter((e) => typeof e === 'object');
 
         this.inlineRefBucket = bucketArray(inlineRefList, 'type');
+    }
+
+    applyReferences2Cards() {
+        const refableCards = this.data.itemCard.list.filter(
+            (e) => Array.isArray(e.card.reference) && e.card.reference.length
+        );
+
+        refableCards.forEach((rCard) => {
+            console.log('REFING', rCard.id, rCard.card.reference);
+            rCard.card.reference = rCard.card.reference
+                .flatMap((r) => this.data.itemCard.findWithComplexSearch(r))
+                .map((r) => `<li>${r.inlineRef.index}</li>`);
+        });
+
+        console.log(refableCards.map((rCard) => rCard));
+
+        refableCards.map((rCard) => {
+            if (rCard.block.index.includes(`<div class='reference'></div>`))
+                console.log('FOUND REPLACEMENT PART');
+            rCard.block.index = rCard.block.index.replace(
+                `<div class='reference'></div>`,
+                `<svg class="card-element card-ruler-line" height="1" width="100" viewBox="0 0 100 1" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="0,0 100,0.5 0,1" fill="{color}"></polyline>
+                </svg>
+                <div class='reference'>
+                    ${rCard.card.reference.join('\n')}
+                </div>`
+            );
+        });
     }
 
     getTooltip(match) {
@@ -382,7 +412,9 @@ const buildTooltipsFn = (compileFn) => (list, templateFileName) => {
 };
 
 const buildInlineRefsFn = (compileFn) => (list, templateFileName) => {
-    const renderTemplate = compileFn('templates/inline-ref/' + templateFileName);
+    const renderTemplate = compileFn(
+        'templates/inline-ref/' + templateFileName
+    );
 
     list.forEach(
         (e) =>

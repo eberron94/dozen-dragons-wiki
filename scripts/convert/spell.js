@@ -39,6 +39,9 @@ const convertItem = (item) => {
     // SET CODE
     card.code = 'spell ' + item.level;
 
+    // SET COLOR
+    card.color = '#0D47A1';
+
     if (
         item.traits.includes('cantrip') ||
         item.type?.toLowerCase() === 'cantrip'

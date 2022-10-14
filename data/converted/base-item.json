@@ -1,7 +1,7 @@
 [
     {
         "id": "equipment.weapon.martial.lokl.war-lance",
-        "color": "",
+        "color": "#43A047",
         "title": "War Lance",
         "icon_front": "trident",
         "code": "equipment",
@@ -15,7 +15,7 @@
     },
     {
         "id": "equipment.weapon.martial.lokl.bladed-gauntlet",
-        "color": "",
+        "color": "#43A047",
         "title": "Bladed Gauntlet",
         "icon_front": "brass-knuckles",
         "code": "equipment",
@@ -29,7 +29,7 @@
     },
     {
         "id": "equipment.weapon.martial.b-1.ogre-hook",
-        "color": "",
+        "color": "#43A047",
         "title": "Ogre Hook",
         "icon_front": "war-pick",
         "code": "equipment",
@@ -43,7 +43,7 @@
     },
     {
         "id": "equipment.weapon.martial.loag.adze",
-        "color": "",
+        "color": "#43A047",
         "title": "Adze",
         "icon_front": "sharp-axe",
         "code": "equipment",
@@ -57,7 +57,7 @@
     },
     {
         "id": "equipment.weapon.simple.g-g.air-repeater",
-        "color": "",
+        "color": "#43A047",
         "title": "Air Repeater",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -71,7 +71,7 @@
     },
     {
         "id": "equipment.weapon.advanced.b-1.aklys",
-        "color": "",
+        "color": "#43A047",
         "title": "Aklys",
         "icon_front": "wood-club",
         "code": "equipment",
@@ -85,7 +85,7 @@
     },
     {
         "id": "item.weapon.simple.fop.alchemical-crossbow",
-        "color": "",
+        "color": "#43A047",
         "title": "Alchemical Crossbow",
         "icon_front": "crossbow",
         "code": "item 0",
@@ -100,7 +100,7 @@
     },
     {
         "id": "equipment.weapon.advanced.lowg.aldori-dueling-sword",
-        "color": "",
+        "color": "#43A047",
         "title": "Aldori Dueling Sword",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -114,7 +114,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.arquebus",
-        "color": "",
+        "color": "#43A047",
         "title": "Arquebus",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -128,7 +128,7 @@
     },
     {
         "id": "equipment.weapon.martial.lotgb.asp-coil",
-        "color": "",
+        "color": "#43A047",
         "title": "Asp Coil",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -142,7 +142,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.axe-musket",
-        "color": "",
+        "color": "#43A047",
         "title": "Axe Musket",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -156,7 +156,7 @@
     },
     {
         "id": "item.weapon.martial.g-g.backpack-ballista",
-        "color": "",
+        "color": "#43A047",
         "title": "Backpack Ballista",
         "icon_front": "crossbow",
         "code": "item 1",
@@ -170,7 +170,7 @@
     },
     {
         "id": "item.weapon.advanced.g-g.backpack-catapult",
-        "color": "",
+        "color": "#43A047",
         "title": "Backpack Catapult",
         "icon_front": "sling",
         "code": "item 1",
@@ -184,7 +184,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.bastard-sword",
-        "color": "",
+        "color": "#43A047",
         "title": "Bastard Sword",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -198,7 +198,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.battle-axe",
-        "color": "",
+        "color": "#43A047",
         "title": "Battle Axe",
         "icon_front": "sharp-axe",
         "code": "equipment",
@@ -212,7 +212,7 @@
     },
     {
         "id": "equipment.weapon.simple.av-2.battle-lute",
-        "color": "",
+        "color": "#43A047",
         "title": "Battle Lute",
         "icon_front": "wood-club",
         "code": "equipment",
@@ -226,7 +226,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.bayonet",
-        "color": "",
+        "color": "#43A047",
         "title": "Bayonet",
         "icon_front": "daggers",
         "code": "equipment",
@@ -241,7 +241,7 @@
     },
     {
         "id": "item.weapon.martial.g-g.big-boom-gun",
-        "color": "",
+        "color": "#43A047",
         "title": "Big Boom Gun",
         "icon_front": "blunderbuss",
         "code": "item 1",
@@ -259,7 +259,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.black-powder-knuckle-dusters",
-        "color": "",
+        "color": "#43A047",
         "title": "Black Powder Knuckle Dusters",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -273,7 +273,7 @@
     },
     {
         "id": "equipment.weapon.advanced.ec-1.bladed-diabolo",
-        "color": "",
+        "color": "#43A047",
         "title": "Bladed Diabolo",
         "icon_front": "flail",
         "code": "equipment",
@@ -287,7 +287,7 @@
     },
     {
         "id": "equipment.weapon.advanced.ec-1.bladed-hoop",
-        "color": "",
+        "color": "#43A047",
         "title": "Bladed Hoop",
         "icon_front": "daggers",
         "code": "equipment",
@@ -301,7 +301,7 @@
     },
     {
         "id": "equipment.weapon.martial.logm.bladed-scarf",
-        "color": "",
+        "color": "#43A047",
         "title": "Bladed Scarf",
         "icon_front": "flail",
         "code": "equipment",
@@ -315,7 +315,7 @@
     },
     {
         "id": "equipment.weapon.simple.crb.blowgun",
-        "color": "",
+        "color": "#43A047",
         "title": "Blowgun",
         "icon_front": "dart",
         "code": "equipment",
@@ -329,7 +329,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.blunderbuss",
-        "color": "",
+        "color": "#43A047",
         "title": "Blunderbuss",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -343,7 +343,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.bo-staff",
-        "color": "",
+        "color": "#43A047",
         "title": "Bo Staff",
         "icon_front": "wood-club",
         "code": "equipment",
@@ -357,7 +357,7 @@
     },
     {
         "id": "equipment.weapon.martial.aaws.boarding-axe",
-        "color": "",
+        "color": "#43A047",
         "title": "Boarding Axe",
         "icon_front": "sharp-axe",
         "code": "equipment",
@@ -371,7 +371,7 @@
     },
     {
         "id": "equipment.weapon.martial.lopsg.boarding-pike",
-        "color": "",
+        "color": "#43A047",
         "title": "Boarding Pike",
         "icon_front": "bo",
         "code": "equipment",
@@ -385,7 +385,7 @@
     },
     {
         "id": "equipment.weapon.martial.apg.bola",
-        "color": "",
+        "color": "#43A047",
         "title": "Bola",
         "icon_front": "sling",
         "code": "equipment",
@@ -399,7 +399,7 @@
     },
     {
         "id": "equipment.armor.light.lokl.armored-coat",
-        "color": "",
+        "color": "#43A047",
         "title": "Armored Coat",
         "icon_front": "leather-armor",
         "code": "equipment",
@@ -415,7 +415,7 @@
     },
     {
         "id": "equipment.armor.medium.crb.breastplate",
-        "color": "",
+        "color": "#43A047",
         "title": "Breastplate",
         "icon_front": "abdominal-armor",
         "code": "equipment",
@@ -430,7 +430,7 @@
     },
     {
         "id": "equipment.shield.crb.buckler",
-        "color": "",
+        "color": "#43A047",
         "title": "Buckler",
         "icon_front": "shield",
         "code": "equipment",
@@ -442,7 +442,7 @@
     },
     {
         "id": "equipment.weapon.advanced.lotgb.butchering-axe",
-        "color": "",
+        "color": "#43A047",
         "title": "Butchering Axe",
         "icon_front": "sharp-axe",
         "code": "equipment",
@@ -456,7 +456,7 @@
     },
     {
         "id": "equipment.weapon.advanced.frp-2.butterfly-sword",
-        "color": "",
+        "color": "#43A047",
         "title": "Butterfly Sword",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -470,7 +470,7 @@
     },
     {
         "id": "equipment.weapon.martial.loag.buugeng",
-        "color": "",
+        "color": "#43A047",
         "title": "Buugeng",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -484,7 +484,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.cane-pistol",
-        "color": "",
+        "color": "#43A047",
         "title": "Cane Pistol",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -498,7 +498,7 @@
     },
     {
         "id": "equipment.armor.medium.crb.chain-mail",
-        "color": "",
+        "color": "#43A047",
         "title": "Chain Mail",
         "icon_front": "abdominal-armor",
         "code": "equipment",
@@ -514,7 +514,7 @@
     },
     {
         "id": "equipment.armor.light.crb.chain-shirt",
-        "color": "",
+        "color": "#43A047",
         "title": "Chain Shirt",
         "icon_front": "leather-armor",
         "code": "equipment",
@@ -530,7 +530,7 @@
     },
     {
         "id": "equipment.weapon.martial.lotgb.chakram",
-        "color": "",
+        "color": "#43A047",
         "title": "Chakram",
         "icon_front": "daggers",
         "code": "equipment",
@@ -544,7 +544,7 @@
     },
     {
         "id": "equipment.weapon.simple.crb.clan-dagger",
-        "color": "",
+        "color": "#43A047",
         "title": "Clan Dagger",
         "icon_front": "daggers",
         "code": "equipment",
@@ -558,7 +558,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.clan-pistol",
-        "color": "",
+        "color": "#43A047",
         "title": "Clan Pistol",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -572,7 +572,7 @@
     },
     {
         "id": "equipment.weapon.martial.apg.claw-blade",
-        "color": "",
+        "color": "#43A047",
         "title": "Claw Blade",
         "icon_front": "daggers",
         "code": "equipment",
@@ -586,7 +586,7 @@
     },
     {
         "id": "item.armor.light.g-g.clockwork-disguise",
-        "color": "",
+        "color": "#43A047",
         "title": "Clockwork Disguise",
         "icon_front": "leather-armor",
         "code": "item 6",
@@ -610,7 +610,7 @@
     },
     {
         "id": "equipment.weapon.advanced.lotgb.clockwork-macuahuitl",
-        "color": "",
+        "color": "#43A047",
         "title": "Clockwork Macuahuitl",
         "icon_front": "wood-club",
         "code": "equipment",
@@ -625,7 +625,7 @@
     },
     {
         "id": "equipment.weapon.simple.crb.club",
-        "color": "",
+        "color": "#43A047",
         "title": "Club",
         "icon_front": "wood-club",
         "code": "equipment",
@@ -639,7 +639,7 @@
     },
     {
         "id": "equipment.weapon.simple.g-g.coat-pistol",
-        "color": "",
+        "color": "#43A047",
         "title": "Coat Pistol",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -653,7 +653,7 @@
     },
     {
         "id": "equipment.weapon.martial.lopsg.combat-grapnel",
-        "color": "",
+        "color": "#43A047",
         "title": "Combat Grapnel",
         "icon_front": "flail",
         "code": "equipment",
@@ -667,7 +667,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.composite-longbow",
-        "color": "",
+        "color": "#43A047",
         "title": "Composite Longbow",
         "icon_front": "crossbow",
         "code": "equipment",
@@ -681,7 +681,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.composite-shortbow",
-        "color": "",
+        "color": "#43A047",
         "title": "Composite Shortbow",
         "icon_front": "crossbow",
         "code": "equipment",
@@ -695,7 +695,7 @@
     },
     {
         "id": "equipment.weapon.simple.crb.crossbow",
-        "color": "",
+        "color": "#43A047",
         "title": "Crossbow",
         "icon_front": "crossbow",
         "code": "equipment",
@@ -708,7 +708,7 @@
     },
     {
         "id": "equipment.weapon.simple.crb.dagger",
-        "color": "",
+        "color": "#43A047",
         "title": "Dagger",
         "icon_front": "daggers",
         "code": "equipment",
@@ -722,7 +722,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.dagger-pistol",
-        "color": "",
+        "color": "#43A047",
         "title": "Dagger Pistol",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -736,7 +736,7 @@
     },
     {
         "id": "equipment.weapon.simple.crb.dart",
-        "color": "",
+        "color": "#43A047",
         "title": "Dart",
         "icon_front": "dart",
         "code": "equipment",
@@ -750,7 +750,7 @@
     },
     {
         "id": "item.weapon.martial.g-g.dart-umbrella",
-        "color": "",
+        "color": "#43A047",
         "title": "Dart Umbrella",
         "icon_front": "dart",
         "code": "item 0",
@@ -764,7 +764,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.dogslicer",
-        "color": "",
+        "color": "#43A047",
         "title": "Dogslicer",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -778,7 +778,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.double-barreled-musket",
-        "color": "",
+        "color": "#43A047",
         "title": "Double-barreled Musket",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -792,7 +792,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.double-barreled-pistol",
-        "color": "",
+        "color": "#43A047",
         "title": "Double-barreled Pistol",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -806,7 +806,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.dragon-mouth-pistol",
-        "color": "",
+        "color": "#43A047",
         "title": "Dragon Mouth Pistol",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -820,7 +820,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.dueling-pistol",
-        "color": "",
+        "color": "#43A047",
         "title": "Dueling Pistol",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -834,7 +834,7 @@
     },
     {
         "id": "equipment.weapon.martial.lotgb.dueling-spear",
-        "color": "",
+        "color": "#43A047",
         "title": "Dueling Spear",
         "icon_front": "trident",
         "code": "equipment",
@@ -848,7 +848,7 @@
     },
     {
         "id": "equipment.weapon.advanced.g-g.dwarven-scattergun",
-        "color": "",
+        "color": "#43A047",
         "title": "Dwarven Scattergun",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -862,7 +862,7 @@
     },
     {
         "id": "equipment.weapon.advanced.crb.dwarven-war-axe",
-        "color": "",
+        "color": "#43A047",
         "title": "Dwarven War Axe",
         "icon_front": "sharp-axe",
         "code": "equipment",
@@ -876,7 +876,7 @@
     },
     {
         "id": "equipment.weapon.martial.lotgb.elven-branched-spear",
-        "color": "",
+        "color": "#43A047",
         "title": "Elven Branched Spear",
         "icon_front": "trident",
         "code": "equipment",
@@ -890,7 +890,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.elven-curve-blade",
-        "color": "",
+        "color": "#43A047",
         "title": "Elven Curve Blade",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -904,7 +904,7 @@
     },
     {
         "id": "equipment.armor.unarmored.crb.explorers-clothing",
-        "color": "",
+        "color": "#43A047",
         "title": "Explorer's Clothing",
         "icon_front": "ninja-armor",
         "code": "equipment",
@@ -919,7 +919,7 @@
     },
     {
         "id": "equipment.weapon.advanced.g-g.explosive-dogslicer",
-        "color": "",
+        "color": "#43A047",
         "title": "Explosive Dogslicer",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -933,7 +933,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.falchion",
-        "color": "",
+        "color": "#43A047",
         "title": "Falchion",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -947,7 +947,7 @@
     },
     {
         "id": "equipment.weapon.martial.loag.fangwire",
-        "color": "",
+        "color": "#43A047",
         "title": "Fangwire",
         "icon_front": "brass-knuckles",
         "code": "equipment",
@@ -961,7 +961,7 @@
     },
     {
         "id": "equipment.weapon.martial.locg.fauchard",
-        "color": "",
+        "color": "#43A047",
         "title": "Fauchard",
         "icon_front": "bo",
         "code": "equipment",
@@ -975,7 +975,7 @@
     },
     {
         "id": "equipment.weapon.martial.logm.fighting-fan",
-        "color": "",
+        "color": "#43A047",
         "title": "Fighting Fan",
         "icon_front": "daggers",
         "code": "equipment",
@@ -989,7 +989,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.filchers-fork",
-        "color": "",
+        "color": "#43A047",
         "title": "Filcher's Fork",
         "icon_front": "trident",
         "code": "equipment",
@@ -1003,7 +1003,7 @@
     },
     {
         "id": "equipment.weapon.simple.g-g.fire-lance",
-        "color": "",
+        "color": "#43A047",
         "title": "Fire Lance",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -1017,7 +1017,7 @@
     },
     {
         "id": "equipment.weapon.advanced.ec-1.fire-poi",
-        "color": "",
+        "color": "#43A047",
         "title": "Fire Poi",
         "icon_front": "flail",
         "code": "equipment",
@@ -1031,7 +1031,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.flail",
-        "color": "",
+        "color": "#43A047",
         "title": "Flail",
         "icon_front": "flail",
         "code": "equipment",
@@ -1045,7 +1045,7 @@
     },
     {
         "id": "equipment.weapon.advanced.g-g.flingflenser",
-        "color": "",
+        "color": "#43A047",
         "title": "Flingflenser",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -1059,7 +1059,7 @@
     },
     {
         "id": "equipment.weapon.simple.g-g.flintlock-musket",
-        "color": "",
+        "color": "#43A047",
         "title": "Flintlock Musket",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -1073,7 +1073,7 @@
     },
     {
         "id": "equipment.weapon.simple.g-g.flintlock-pistol",
-        "color": "",
+        "color": "#43A047",
         "title": "Flintlock Pistol",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -1087,7 +1087,7 @@
     },
     {
         "id": "equipment.weapon.simple.g-g.forked-bipod",
-        "color": "",
+        "color": "#43A047",
         "title": "Forked Bipod",
         "icon_front": "trident",
         "code": "equipment",
@@ -1101,7 +1101,7 @@
     },
     {
         "id": "equipment.armor.heavy.crb.full-plate",
-        "color": "",
+        "color": "#43A047",
         "title": "Full Plate",
         "icon_front": "lamellar",
         "code": "equipment",
@@ -1117,7 +1117,7 @@
     },
     {
         "id": "equipment.weapon.martial.bst.gaff",
-        "color": "",
+        "color": "#43A047",
         "title": "Gaff",
         "icon_front": "war-pick",
         "code": "equipment",
@@ -1131,7 +1131,7 @@
     },
     {
         "id": "equipment.weapon.martial.b-2.gaff",
-        "color": "",
+        "color": "#43A047",
         "title": "Gaff",
         "icon_front": "wood-club",
         "code": "equipment",
@@ -1145,7 +1145,7 @@
     },
     {
         "id": "equipment.weapon.simple.crb.gauntlet",
-        "color": "",
+        "color": "#43A047",
         "title": "Gauntlet",
         "icon_front": "brass-knuckles",
         "code": "equipment",
@@ -1159,7 +1159,7 @@
     },
     {
         "id": "equipment.weapon.martial.aaws.gill-hook",
-        "color": "",
+        "color": "#43A047",
         "title": "Gill Hook",
         "icon_front": "trident",
         "code": "equipment",
@@ -1173,7 +1173,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.glaive",
-        "color": "",
+        "color": "#43A047",
         "title": "Glaive",
         "icon_front": "bo",
         "code": "equipment",
@@ -1187,7 +1187,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.gnome-amalgam-musket",
-        "color": "",
+        "color": "#43A047",
         "title": "Gnome Amalgam Musket",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -1201,7 +1201,7 @@
     },
     {
         "id": "equipment.weapon.advanced.crb.gnome-flickmace",
-        "color": "",
+        "color": "#43A047",
         "title": "Gnome Flickmace",
         "icon_front": "flail",
         "code": "equipment",
@@ -1215,7 +1215,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.gnome-hooked-hammer",
-        "color": "",
+        "color": "#43A047",
         "title": "Gnome Hooked Hammer",
         "icon_front": "warhammer",
         "code": "equipment",
@@ -1229,7 +1229,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.greataxe",
-        "color": "",
+        "color": "#43A047",
         "title": "Greataxe",
         "icon_front": "sharp-axe",
         "code": "equipment",
@@ -1243,7 +1243,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.greatclub",
-        "color": "",
+        "color": "#43A047",
         "title": "Greatclub",
         "icon_front": "wood-club",
         "code": "equipment",
@@ -1257,7 +1257,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.greatpick",
-        "color": "",
+        "color": "#43A047",
         "title": "Greatpick",
         "icon_front": "war-pick",
         "code": "equipment",
@@ -1271,7 +1271,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.greatsword",
-        "color": "",
+        "color": "#43A047",
         "title": "Greatsword",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -1285,7 +1285,7 @@
     },
     {
         "id": "item.weapon.martial.lotgb.griffon-cane",
-        "color": "",
+        "color": "#43A047",
         "title": "Griffon Cane",
         "icon_front": "wood-club",
         "code": "item 0",
@@ -1299,7 +1299,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.guisarme",
-        "color": "",
+        "color": "#43A047",
         "title": "Guisarme",
         "icon_front": "bo",
         "code": "equipment",
@@ -1313,7 +1313,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.gun-sword",
-        "color": "",
+        "color": "#43A047",
         "title": "Gun Sword",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -1327,7 +1327,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.halberd",
-        "color": "",
+        "color": "#43A047",
         "title": "Halberd",
         "icon_front": "bo",
         "code": "equipment",
@@ -1341,7 +1341,7 @@
     },
     {
         "id": "equipment.armor.heavy.crb.half-plate",
-        "color": "",
+        "color": "#43A047",
         "title": "Half Plate",
         "icon_front": "lamellar",
         "code": "equipment",
@@ -1356,7 +1356,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.halfling-sling-staff",
-        "color": "",
+        "color": "#43A047",
         "title": "Halfling Sling Staff",
         "icon_front": "sling",
         "code": "equipment",
@@ -1370,7 +1370,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.hammer-gun",
-        "color": "",
+        "color": "#43A047",
         "title": "Hammer Gun",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -1384,7 +1384,7 @@
     },
     {
         "id": "equipment.weapon.martial.loag.hand-adze",
-        "color": "",
+        "color": "#43A047",
         "title": "Hand Adze",
         "icon_front": "sharp-axe",
         "code": "equipment",
@@ -1398,7 +1398,7 @@
     },
     {
         "id": "equipment.weapon.simple.g-g.hand-cannon",
-        "color": "",
+        "color": "#43A047",
         "title": "Hand Cannon",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -1412,7 +1412,7 @@
     },
     {
         "id": "equipment.weapon.simple.crb.hand-crossbow",
-        "color": "",
+        "color": "#43A047",
         "title": "Hand Crossbow",
         "icon_front": "crossbow",
         "code": "equipment",
@@ -1425,7 +1425,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.harmona-gun",
-        "color": "",
+        "color": "#43A047",
         "title": "Harmona Gun",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -1439,7 +1439,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.hatchet",
-        "color": "",
+        "color": "#43A047",
         "title": "Hatchet",
         "icon_front": "sharp-axe",
         "code": "equipment",
@@ -1453,7 +1453,7 @@
     },
     {
         "id": "equipment.weapon.simple.crb.heavy-crossbow",
-        "color": "",
+        "color": "#43A047",
         "title": "Heavy Crossbow",
         "icon_front": "crossbow",
         "code": "equipment",
@@ -1466,7 +1466,7 @@
     },
     {
         "id": "equipment.armor.heavy.g-g.heavy-power-suit",
-        "color": "",
+        "color": "#43A047",
         "title": "Heavy Power Suit",
         "icon_front": "lamellar",
         "code": "equipment",
@@ -1483,7 +1483,7 @@
     },
     {
         "id": "equipment.armor.heavy.locg.hellknight-plate",
-        "color": "",
+        "color": "#43A047",
         "title": "Hellknight Plate",
         "icon_front": "lamellar",
         "code": "equipment",
@@ -1500,7 +1500,7 @@
     },
     {
         "id": "equipment.armor.medium.crb.hide",
-        "color": "",
+        "color": "#43A047",
         "title": "Hide",
         "icon_front": "abdominal-armor",
         "code": "equipment",
@@ -1515,7 +1515,7 @@
     },
     {
         "id": "equipment.weapon.advanced.lotgb.hongali-hornbow",
-        "color": "",
+        "color": "#43A047",
         "title": "Hongali Hornbow",
         "icon_front": "crossbow",
         "code": "equipment",
@@ -1529,7 +1529,7 @@
     },
     {
         "id": "equipment.weapon.advanced.frp-2.hook-sword",
-        "color": "",
+        "color": "#43A047",
         "title": "Hook Sword",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -1543,7 +1543,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.horsechopper",
-        "color": "",
+        "color": "#43A047",
         "title": "Horsechopper",
         "icon_front": "bo",
         "code": "equipment",
@@ -1557,7 +1557,7 @@
     },
     {
         "id": "item.weapon.martial.g-g.injection-spear",
-        "color": "",
+        "color": "#43A047",
         "title": "Injection Spear",
         "icon_front": "trident",
         "code": "item 0",
@@ -1571,7 +1571,7 @@
     },
     {
         "id": "equipment.weapon.simple.crb.javelin",
-        "color": "",
+        "color": "#43A047",
         "title": "Javelin",
         "icon_front": "dart",
         "code": "equipment",
@@ -1585,7 +1585,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.jezail",
-        "color": "",
+        "color": "#43A047",
         "title": "Jezail",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -1599,7 +1599,7 @@
     },
     {
         "id": "equipment.weapon.simple.ec-1.juggling-club",
-        "color": "",
+        "color": "#43A047",
         "title": "Juggling Club",
         "icon_front": "wood-club",
         "code": "equipment",
@@ -1613,7 +1613,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.kama",
-        "color": "",
+        "color": "#43A047",
         "title": "Kama",
         "icon_front": "daggers",
         "code": "equipment",
@@ -1627,7 +1627,7 @@
     },
     {
         "id": "equipment.weapon.advanced.frp-2.karambit",
-        "color": "",
+        "color": "#43A047",
         "title": "Karambit",
         "icon_front": "daggers",
         "code": "equipment",
@@ -1641,7 +1641,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.katana",
-        "color": "",
+        "color": "#43A047",
         "title": "Katana",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -1655,7 +1655,7 @@
     },
     {
         "id": "equipment.weapon.simple.crb.katar",
-        "color": "",
+        "color": "#43A047",
         "title": "Katar",
         "icon_front": "daggers",
         "code": "equipment",
@@ -1669,7 +1669,7 @@
     },
     {
         "id": "equipment.weapon.martial.apg.khakkara",
-        "color": "",
+        "color": "#43A047",
         "title": "Khakkara",
         "icon_front": "wood-club",
         "code": "equipment",
@@ -1683,7 +1683,7 @@
     },
     {
         "id": "equipment.weapon.martial.logm.khopesh",
-        "color": "",
+        "color": "#43A047",
         "title": "Khopesh",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -1697,7 +1697,7 @@
     },
     {
         "id": "equipment.weapon.simple.g-g.knuckle-duster",
-        "color": "",
+        "color": "#43A047",
         "title": "Knuckle Duster",
         "icon_front": "brass-knuckles",
         "code": "equipment",
@@ -1711,7 +1711,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.kukri",
-        "color": "",
+        "color": "#43A047",
         "title": "Kukri",
         "icon_front": "daggers",
         "code": "equipment",
@@ -1725,7 +1725,7 @@
     },
     {
         "id": "equipment.weapon.martial.frp-2.kusarigama",
-        "color": "",
+        "color": "#43A047",
         "title": "Kusarigama",
         "icon_front": "daggers",
         "code": "equipment",
@@ -1739,7 +1739,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.lance",
-        "color": "",
+        "color": "#43A047",
         "title": "Lance",
         "icon_front": "trident",
         "code": "equipment",
@@ -1753,7 +1753,7 @@
     },
     {
         "id": "equipment.armor.light.crb.leather",
-        "color": "",
+        "color": "#43A047",
         "title": "Leather",
         "icon_front": "leather-armor",
         "code": "equipment",
@@ -1768,7 +1768,7 @@
     },
     {
         "id": "equipment.weapon.martial.frp-2.leiomano",
-        "color": "",
+        "color": "#43A047",
         "title": "Leiomano",
         "icon_front": "wood-club",
         "code": "equipment",
@@ -1782,7 +1782,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.light-hammer",
-        "color": "",
+        "color": "#43A047",
         "title": "Light Hammer",
         "icon_front": "warhammer",
         "code": "equipment",
@@ -1796,7 +1796,7 @@
     },
     {
         "id": "equipment.weapon.simple.crb.light-mace",
-        "color": "",
+        "color": "#43A047",
         "title": "Light Mace",
         "icon_front": "wood-club",
         "code": "equipment",
@@ -1810,7 +1810,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.light-pick",
-        "color": "",
+        "color": "#43A047",
         "title": "Light Pick",
         "icon_front": "war-pick",
         "code": "equipment",
@@ -1824,7 +1824,7 @@
     },
     {
         "id": "item.weapon.martial.sot-4.lion-scythe",
-        "color": "",
+        "color": "#43A047",
         "title": "Lion Scythe",
         "icon_front": "daggers",
         "code": "item 0",
@@ -1838,7 +1838,7 @@
     },
     {
         "id": "equipment.weapon.simple.g-g.long-air-repeater",
-        "color": "",
+        "color": "#43A047",
         "title": "Long Air Repeater",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -1852,7 +1852,7 @@
     },
     {
         "id": "equipment.weapon.advanced.apg.daikyu",
-        "color": "",
+        "color": "#43A047",
         "title": "Daikyu",
         "icon_front": "crossbow",
         "code": "equipment",
@@ -1866,7 +1866,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.longbow",
-        "color": "",
+        "color": "#43A047",
         "title": "Longbow",
         "icon_front": "crossbow",
         "code": "equipment",
@@ -1880,7 +1880,7 @@
     },
     {
         "id": "equipment.weapon.simple.crb.longspear",
-        "color": "",
+        "color": "#43A047",
         "title": "Longspear",
         "icon_front": "trident",
         "code": "equipment",
@@ -1894,7 +1894,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.longsword",
-        "color": "",
+        "color": "#43A047",
         "title": "Longsword",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -1908,7 +1908,7 @@
     },
     {
         "id": "item.weapon.martial.sot-5.shobhad-longrifle",
-        "color": "",
+        "color": "#43A047",
         "title": "Shobhad Longrifle",
         "icon_front": "blunderbuss",
         "code": "item 1",
@@ -1923,7 +1923,7 @@
     },
     {
         "id": "equipment.weapon.simple.crb.mace",
-        "color": "",
+        "color": "#43A047",
         "title": "Mace",
         "icon_front": "wood-club",
         "code": "equipment",
@@ -1937,7 +1937,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.mace-multipistol",
-        "color": "",
+        "color": "#43A047",
         "title": "Mace Multipistol",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -1951,7 +1951,7 @@
     },
     {
         "id": "equipment.weapon.martial.logm.machete",
-        "color": "",
+        "color": "#43A047",
         "title": "Machete",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -1965,7 +1965,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.main-gauche",
-        "color": "",
+        "color": "#43A047",
         "title": "Main-gauche",
         "icon_front": "daggers",
         "code": "equipment",
@@ -1979,7 +1979,7 @@
     },
     {
         "id": "equipment.weapon.martial.logm.mambele",
-        "color": "",
+        "color": "#43A047",
         "title": "Mambele",
         "icon_front": "sharp-axe",
         "code": "equipment",
@@ -1993,7 +1993,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.maul",
-        "color": "",
+        "color": "#43A047",
         "title": "Maul",
         "icon_front": "warhammer",
         "code": "equipment",
@@ -2007,7 +2007,7 @@
     },
     {
         "id": "equipment.weapon.martial.logm.meteor-hammer",
-        "color": "",
+        "color": "#43A047",
         "title": "Meteor Hammer",
         "icon_front": "flail",
         "code": "equipment",
@@ -2021,7 +2021,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.mithral-tree",
-        "color": "",
+        "color": "#43A047",
         "title": "Mithral Tree",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -2035,7 +2035,7 @@
     },
     {
         "id": "equipment.weapon.martial.aoe-1.monkeys-fist",
-        "color": "",
+        "color": "#43A047",
         "title": "Monkey's Fist",
         "icon_front": "flail",
         "code": "equipment",
@@ -2049,7 +2049,7 @@
     },
     {
         "id": "equipment.weapon.simple.crb.morningstar",
-        "color": "",
+        "color": "#43A047",
         "title": "Morningstar",
         "icon_front": "wood-club",
         "code": "equipment",
@@ -2063,7 +2063,7 @@
     },
     {
         "id": "equipment.weapon.martial.logm.naginata",
-        "color": "",
+        "color": "#43A047",
         "title": "Naginata",
         "icon_front": "bo",
         "code": "equipment",
@@ -2077,7 +2077,7 @@
     },
     {
         "id": "equipment.weapon.simple.aoe-1.nightstick",
-        "color": "",
+        "color": "#43A047",
         "title": "Nightstick",
         "icon_front": "wood-club",
         "code": "equipment",
@@ -2092,7 +2092,7 @@
     },
     {
         "id": "equipment.weapon.martial.logm.nine-ring-sword",
-        "color": "",
+        "color": "#43A047",
         "title": "Nine-Ring Sword",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -2106,7 +2106,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.nunchaku",
-        "color": "",
+        "color": "#43A047",
         "title": "Nunchaku",
         "icon_front": "wood-club",
         "code": "equipment",
@@ -2120,7 +2120,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.orc-knuckle-dagger",
-        "color": "",
+        "color": "#43A047",
         "title": "Orc Knuckle Dagger",
         "icon_front": "daggers",
         "code": "equipment",
@@ -2134,7 +2134,7 @@
     },
     {
         "id": "equipment.weapon.advanced.crb.orc-necksplitter",
-        "color": "",
+        "color": "#43A047",
         "title": "Orc Necksplitter",
         "icon_front": "sharp-axe",
         "code": "equipment",
@@ -2148,7 +2148,7 @@
     },
     {
         "id": "equipment.armor.light.crb.padded-armor",
-        "color": "",
+        "color": "#43A047",
         "title": "Padded Armor",
         "icon_front": "leather-armor",
         "code": "equipment",
@@ -2164,7 +2164,7 @@
     },
     {
         "id": "item.weapon.martial.g-g.pantograph-gauntlet",
-        "color": "",
+        "color": "#43A047",
         "title": "Pantograph Gauntlet",
         "icon_front": "brass-knuckles",
         "code": "item 0",
@@ -2178,7 +2178,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.pepperbox",
-        "color": "",
+        "color": "#43A047",
         "title": "Pepperbox",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -2192,7 +2192,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.pick",
-        "color": "",
+        "color": "#43A047",
         "title": "Pick",
         "icon_front": "war-pick",
         "code": "equipment",
@@ -2206,7 +2206,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.piercing-wind",
-        "color": "",
+        "color": "#43A047",
         "title": "Piercing Wind",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -2220,7 +2220,7 @@
     },
     {
         "id": "equipment.weapon.martial.lotgb.piranha-kiss",
-        "color": "",
+        "color": "#43A047",
         "title": "Piranha Kiss",
         "icon_front": "daggers",
         "code": "equipment",
@@ -2234,7 +2234,7 @@
     },
     {
         "id": "equipment.weapon.simple.ec-1.poi",
-        "color": "",
+        "color": "#43A047",
         "title": "Poi",
         "icon_front": "flail",
         "code": "equipment",
@@ -2248,7 +2248,7 @@
     },
     {
         "id": "equipment.weapon.martial.logm.polytool",
-        "color": "",
+        "color": "#43A047",
         "title": "Polytool",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -2262,7 +2262,7 @@
     },
     {
         "id": "equipment.armor.medium.g-g.power-suit",
-        "color": "",
+        "color": "#43A047",
         "title": "Power Suit",
         "icon_front": "abdominal-armor",
         "code": "equipment",
@@ -2277,7 +2277,7 @@
     },
     {
         "id": "item.weapon.martial.lotgb.probing-cane",
-        "color": "",
+        "color": "#43A047",
         "title": "Probing Cane",
         "icon_front": "wood-club",
         "code": "item 0",
@@ -2293,7 +2293,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.ranseur",
-        "color": "",
+        "color": "#43A047",
         "title": "Ranseur",
         "icon_front": "bo",
         "code": "equipment",
@@ -2307,7 +2307,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.rapier",
-        "color": "",
+        "color": "#43A047",
         "title": "Rapier",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -2321,7 +2321,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.rapier-pistol",
-        "color": "",
+        "color": "#43A047",
         "title": "Rapier Pistol",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -2335,7 +2335,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.reinforced-stock",
-        "color": "",
+        "color": "#43A047",
         "title": "Reinforced Stock",
         "icon_front": "wood-club",
         "code": "equipment",
@@ -2350,7 +2350,7 @@
     },
     {
         "id": "equipment.weapon.advanced.g-g.repeating-crossbow",
-        "color": "",
+        "color": "#43A047",
         "title": "Repeating Crossbow",
         "icon_front": "crossbow",
         "code": "equipment",
@@ -2364,7 +2364,7 @@
     },
     {
         "id": "equipment.weapon.advanced.g-g.repeating-hand-crossbow",
-        "color": "",
+        "color": "#43A047",
         "title": "Repeating Hand Crossbow",
         "icon_front": "crossbow",
         "code": "equipment",
@@ -2378,7 +2378,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.repeating-heavy-crossbow",
-        "color": "",
+        "color": "#43A047",
         "title": "Repeating Heavy Crossbow",
         "icon_front": "crossbow",
         "code": "equipment",
@@ -2392,7 +2392,7 @@
     },
     {
         "id": "equipment.weapon.advanced.av-3.rhoka-sword",
-        "color": "",
+        "color": "#43A047",
         "title": "Rhoka Sword",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -2406,7 +2406,7 @@
     },
     {
         "id": "equipment.weapon.martial.loag.rungu",
-        "color": "",
+        "color": "#43A047",
         "title": "Rungu",
         "icon_front": "wood-club",
         "code": "equipment",
@@ -2420,7 +2420,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.sai",
-        "color": "",
+        "color": "#43A047",
         "title": "Sai",
         "icon_front": "daggers",
         "code": "equipment",
@@ -2434,7 +2434,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.sap",
-        "color": "",
+        "color": "#43A047",
         "title": "Sap",
         "icon_front": "wood-club",
         "code": "equipment",
@@ -2448,7 +2448,7 @@
     },
     {
         "id": "equipment.weapon.advanced.crb.sawtooth-saber",
-        "color": "",
+        "color": "#43A047",
         "title": "Sawtooth Saber",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -2462,7 +2462,7 @@
     },
     {
         "id": "equipment.armor.medium.crb.scale-mail",
-        "color": "",
+        "color": "#43A047",
         "title": "Scale Mail",
         "icon_front": "abdominal-armor",
         "code": "equipment",
@@ -2477,7 +2477,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.scimitar",
-        "color": "",
+        "color": "#43A047",
         "title": "Scimitar",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -2491,7 +2491,7 @@
     },
     {
         "id": "equipment.weapon.martial.ec-1.scorpion-whip",
-        "color": "",
+        "color": "#43A047",
         "title": "Scorpion Whip",
         "icon_front": "flail",
         "code": "equipment",
@@ -2505,7 +2505,7 @@
     },
     {
         "id": "equipment.weapon.martial.locg.scourge",
-        "color": "",
+        "color": "#43A047",
         "title": "Scourge",
         "icon_front": "flail",
         "code": "equipment",
@@ -2519,7 +2519,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.scythe",
-        "color": "",
+        "color": "#43A047",
         "title": "Scythe",
         "icon_front": "bo",
         "code": "equipment",
@@ -2533,7 +2533,7 @@
     },
     {
         "id": "equipment.weapon.martial.av-3.shauth-blade",
-        "color": "",
+        "color": "#43A047",
         "title": "Shauth Blade",
         "icon_front": "daggers",
         "code": "equipment",
@@ -2547,7 +2547,7 @@
     },
     {
         "id": "equipment.weapon.advanced.av-3.shauth-lash",
-        "color": "",
+        "color": "#43A047",
         "title": "Shauth Lash",
         "icon_front": "flail",
         "code": "equipment",
@@ -2561,7 +2561,7 @@
     },
     {
         "id": "equipment.weapon.simple.b-2.shears",
-        "color": "",
+        "color": "#43A047",
         "title": "Shears",
         "icon_front": "daggers",
         "code": "equipment",
@@ -2575,7 +2575,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.shield-boss",
-        "color": "",
+        "color": "#43A047",
         "title": "Shield Boss",
         "icon_front": "bordered-shield",
         "code": "equipment",
@@ -2589,7 +2589,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.shield-spikes",
-        "color": "",
+        "color": "#43A047",
         "title": "Shield Spikes",
         "icon_front": "bordered-shield",
         "code": "equipment",
@@ -2603,7 +2603,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.shortbow",
-        "color": "",
+        "color": "#43A047",
         "title": "Shortbow",
         "icon_front": "crossbow",
         "code": "equipment",
@@ -2617,7 +2617,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.shortsword",
-        "color": "",
+        "color": "#43A047",
         "title": "Shortsword",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -2631,7 +2631,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.shuriken",
-        "color": "",
+        "color": "#43A047",
         "title": "Shuriken",
         "icon_front": "dart",
         "code": "equipment",
@@ -2645,7 +2645,7 @@
     },
     {
         "id": "equipment.weapon.simple.crb.sickle",
-        "color": "",
+        "color": "#43A047",
         "title": "Sickle",
         "icon_front": "daggers",
         "code": "equipment",
@@ -2659,7 +2659,7 @@
     },
     {
         "id": "equipment.weapon.advanced.lotgb.sickle-saber",
-        "color": "",
+        "color": "#43A047",
         "title": "Sickle-Saber",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -2673,7 +2673,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.slide-pistol",
-        "color": "",
+        "color": "#43A047",
         "title": "Slide Pistol",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -2687,7 +2687,7 @@
     },
     {
         "id": "equipment.weapon.simple.crb.sling",
-        "color": "",
+        "color": "#43A047",
         "title": "Sling",
         "icon_front": "sling",
         "code": "equipment",
@@ -2701,7 +2701,7 @@
     },
     {
         "id": "equipment.weapon.simple.crb.spear",
-        "color": "",
+        "color": "#43A047",
         "title": "Spear",
         "icon_front": "trident",
         "code": "equipment",
@@ -2715,7 +2715,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.spiked-chain",
-        "color": "",
+        "color": "#43A047",
         "title": "Spiked Chain",
         "icon_front": "flail",
         "code": "equipment",
@@ -2729,7 +2729,7 @@
     },
     {
         "id": "equipment.weapon.simple.crb.spiked-gauntlet",
-        "color": "",
+        "color": "#43A047",
         "title": "Spiked Gauntlet",
         "icon_front": "brass-knuckles",
         "code": "equipment",
@@ -2743,7 +2743,7 @@
     },
     {
         "id": "equipment.weapon.advanced.lotgb.spiral-rapier",
-        "color": "",
+        "color": "#43A047",
         "title": "Spiral Rapier",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -2757,7 +2757,7 @@
     },
     {
         "id": "equipment.armor.heavy.crb.splint-mail",
-        "color": "",
+        "color": "#43A047",
         "title": "Splint Mail",
         "icon_front": "lamellar",
         "code": "equipment",
@@ -2772,7 +2772,7 @@
     },
     {
         "id": "item.weapon.martial.g-g.spoon-gun",
-        "color": "",
+        "color": "#43A047",
         "title": "Spoon Gun",
         "icon_front": "blunderbuss",
         "code": "item 1",
@@ -2787,7 +2787,7 @@
     },
     {
         "id": "equipment.weapon.simple.crb.staff",
-        "color": "",
+        "color": "#43A047",
         "title": "Staff",
         "icon_front": "wood-club",
         "code": "equipment",
@@ -2801,7 +2801,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.starknife",
-        "color": "",
+        "color": "#43A047",
         "title": "Starknife",
         "icon_front": "daggers",
         "code": "equipment",
@@ -2815,7 +2815,7 @@
     },
     {
         "id": "equipment.shield.crb.steel-shield",
-        "color": "",
+        "color": "#43A047",
         "title": "Steel Shield",
         "icon_front": "shield",
         "code": "equipment",
@@ -2827,7 +2827,7 @@
     },
     {
         "id": "equipment.weapon.martial.lopsg.stiletto-pen",
-        "color": "",
+        "color": "#43A047",
         "title": "Stiletto Pen",
         "icon_front": "dart",
         "code": "equipment",
@@ -2841,7 +2841,7 @@
     },
     {
         "id": "equipment.armor.light.crb.studded-leather",
-        "color": "",
+        "color": "#43A047",
         "title": "Studded Leather",
         "icon_front": "leather-armor",
         "code": "equipment",
@@ -2856,7 +2856,7 @@
     },
     {
         "id": "equipment.armor.medium.g-g.subterfuge-suit",
-        "color": "",
+        "color": "#43A047",
         "title": "Subterfuge Suit",
         "icon_front": "abdominal-armor",
         "code": "equipment",
@@ -2872,7 +2872,7 @@
     },
     {
         "id": "equipment.weapon.advanced.lotgb.switchscythe",
-        "color": "",
+        "color": "#43A047",
         "title": "Switchscythe",
         "icon_front": "war-pick",
         "code": "equipment",
@@ -2886,7 +2886,7 @@
     },
     {
         "id": "equipment.weapon.martial.apg.sword-cane",
-        "color": "",
+        "color": "#43A047",
         "title": "Sword Cane",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -2900,7 +2900,7 @@
     },
     {
         "id": "equipment.weapon.advanced.av-2.tamchal-chakram",
-        "color": "",
+        "color": "#43A047",
         "title": "Tamchal Chakram",
         "icon_front": "dart",
         "code": "equipment",
@@ -2914,7 +2914,7 @@
     },
     {
         "id": "equipment.weapon.advanced.loag.taw-launcher",
-        "color": "",
+        "color": "#43A047",
         "title": "Taw Launcher",
         "icon_front": "crossbow",
         "code": "equipment",
@@ -2928,7 +2928,7 @@
     },
     {
         "id": "equipment.weapon.martial.logm.tekko-kagi",
-        "color": "",
+        "color": "#43A047",
         "title": "Tekko-Kagi",
         "icon_front": "brass-knuckles",
         "code": "equipment",
@@ -2942,7 +2942,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.temple-sword",
-        "color": "",
+        "color": "#43A047",
         "title": "Temple Sword",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -2956,7 +2956,7 @@
     },
     {
         "id": "equipment.weapon.martial.apg.tengu-gale-blade",
-        "color": "",
+        "color": "#43A047",
         "title": "Tengu Gale Blade",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -2970,7 +2970,7 @@
     },
     {
         "id": "equipment.weapon.martial.g-g.three-peaked-tree",
-        "color": "",
+        "color": "#43A047",
         "title": "Three Peaked Tree",
         "icon_front": "blunderbuss",
         "code": "equipment",
@@ -2984,7 +2984,7 @@
     },
     {
         "id": "equipment.weapon.simple.ec-1.throwing-knife",
-        "color": "",
+        "color": "#43A047",
         "title": "Throwing Knife",
         "icon_front": "daggers",
         "code": "equipment",
@@ -2998,7 +2998,7 @@
     },
     {
         "id": "equipment.weapon.martial.loag.thunder-sling",
-        "color": "",
+        "color": "#43A047",
         "title": "Thunder Sling",
         "icon_front": "sling",
         "code": "equipment",
@@ -3012,7 +3012,7 @@
     },
     {
         "id": "equipment.weapon.simple.lotgb.thundermace",
-        "color": "",
+        "color": "#43A047",
         "title": "Thundermace",
         "icon_front": "wood-club",
         "code": "equipment",
@@ -3026,7 +3026,7 @@
     },
     {
         "id": "equipment.weapon.martial.lotgb.tonfa",
-        "color": "",
+        "color": "#43A047",
         "title": "Tonfa",
         "icon_front": "brass-knuckles",
         "code": "equipment",
@@ -3040,7 +3040,7 @@
     },
     {
         "id": "equipment.shield.crb.tower-shield",
-        "color": "",
+        "color": "#43A047",
         "title": "Tower Shield",
         "icon_front": "shield",
         "code": "equipment",
@@ -3053,7 +3053,7 @@
     },
     {
         "id": "equipment.weapon.simple.lotgb.tri-bladed-katar",
-        "color": "",
+        "color": "#43A047",
         "title": "Tri-bladed Katar",
         "icon_front": "daggers",
         "code": "equipment",
@@ -3067,7 +3067,7 @@
     },
     {
         "id": "equipment.weapon.advanced.loag.tricky-pick",
-        "color": "",
+        "color": "#43A047",
         "title": "Tricky Pick",
         "icon_front": "war-pick",
         "code": "equipment",
@@ -3081,7 +3081,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.trident",
-        "color": "",
+        "color": "#43A047",
         "title": "Trident",
         "icon_front": "trident",
         "code": "equipment",
@@ -3095,7 +3095,7 @@
     },
     {
         "id": "item.weapon.martial.g-g.umbrella-injector",
-        "color": "",
+        "color": "#43A047",
         "title": "Umbrella Injector",
         "icon_front": "broadsword",
         "code": "item 0",
@@ -3110,7 +3110,7 @@
     },
     {
         "id": "equipment.weapon.martial.logm.urumi",
-        "color": "",
+        "color": "#43A047",
         "title": "Urumi",
         "icon_front": "flail",
         "code": "equipment",
@@ -3124,7 +3124,7 @@
     },
     {
         "id": "equipment.weapon.martial.apg.wakizashi",
-        "color": "",
+        "color": "#43A047",
         "title": "Wakizashi",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -3138,7 +3138,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.war-flail",
-        "color": "",
+        "color": "#43A047",
         "title": "War Flail",
         "icon_front": "flail",
         "code": "equipment",
@@ -3152,7 +3152,7 @@
     },
     {
         "id": "equipment.weapon.martial.logm.war-razor",
-        "color": "",
+        "color": "#43A047",
         "title": "War Razor",
         "icon_front": "daggers",
         "code": "equipment",
@@ -3166,7 +3166,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.warhammer",
-        "color": "",
+        "color": "#43A047",
         "title": "Warhammer",
         "icon_front": "warhammer",
         "code": "equipment",
@@ -3180,7 +3180,7 @@
     },
     {
         "id": "equipment.weapon.martial.crb.whip",
-        "color": "",
+        "color": "#43A047",
         "title": "Whip",
         "icon_front": "flail",
         "code": "equipment",
@@ -3194,7 +3194,7 @@
     },
     {
         "id": "equipment.weapon.advanced.loag.whip-claw",
-        "color": "",
+        "color": "#43A047",
         "title": "Whip Claw",
         "icon_front": "flail",
         "code": "equipment",
@@ -3208,7 +3208,7 @@
     },
     {
         "id": "equipment.weapon.advanced.frp-2.wind-and-fire-wheel",
-        "color": "",
+        "color": "#43A047",
         "title": "Wind and Fire Wheel",
         "icon_front": "daggers",
         "code": "equipment",
@@ -3222,7 +3222,7 @@
     },
     {
         "id": "equipment.weapon.martial.loag.wish-blade",
-        "color": "",
+        "color": "#43A047",
         "title": "Wish Blade",
         "icon_front": "broadsword",
         "code": "equipment",
@@ -3236,7 +3236,7 @@
     },
     {
         "id": "equipment.weapon.martial.loag.wish-knife",
-        "color": "",
+        "color": "#43A047",
         "title": "Wish Knife",
         "icon_front": "daggers",
         "code": "equipment",
@@ -3250,7 +3250,7 @@
     },
     {
         "id": "equipment.shield.crb.wooden-shield",
-        "color": "",
+        "color": "#43A047",
         "title": "Wooden Shield",
         "icon_front": "shield",
         "code": "equipment",

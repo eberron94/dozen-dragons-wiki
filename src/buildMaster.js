@@ -31,7 +31,8 @@ exports.buildSite = () => {
     kaiser.buildTooltips(compileHandlebarTemplate);
     kaiser.buildBlocks(compileHandlebarTemplate);
     kaiser.buildPages(compileHandlebarTemplate);
-    kaiser.buildInlineRefs(compileHandlebarTemplate)
+    kaiser.buildInlineRefs(compileHandlebarTemplate);
+    kaiser.applyReferences2Cards();
 
     /**
      * Fill MDX pages with content blocks
@@ -165,7 +166,9 @@ const registerHandlebars = () => {
     });
 
     Handlebars.registerHelper('portrait', (context, options) => {
-        const compileImg = compileHandlebarTemplate('templates/page/portrait.hbs');
+        const compileImg = compileHandlebarTemplate(
+            'templates/page/portrait.hbs'
+        );
 
         const image = kaiser.data.asset.find(context);
 
@@ -210,13 +213,15 @@ const registerHandlebars = () => {
     });
 
     Handlebars.registerHelper('ref', (context, options) => {
-
         // return "TODO"
-        const cardFind = kaiser.data.itemCard.findWithComplexSearch(context.trim());
+        const cardFind = kaiser.data.itemCard.findWithComplexSearch(
+            context.trim()
+        );
 
         // console.log('REF', cardFind.id, cardFind)
 
-        if (cardFind && cardFind?.inlineRef?.index) return cardFind.inlineRef.index;
+        if (cardFind && cardFind?.inlineRef?.index)
+            return cardFind.inlineRef.index;
 
         // console.warn('MISSING ID', context);
         return 'ERROR: INVALID ID';

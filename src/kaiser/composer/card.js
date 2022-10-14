@@ -12,6 +12,7 @@ const { filterUniqueByObjectKey } = require('../../util/arrays');
 const { toCamelCase } = require('../../util/stringHelper');
 
 const iconMap = require('../../iconMap.json');
+const { round } = require('lodash');
 
 exports.composeCard = (original) => {
     const list = original.map(parse).filter(filterUniqueByObjectKey());
@@ -34,8 +35,16 @@ exports.composeCard = (original) => {
             return foundList;
         },
         findWithComplexSearch: (searchStr) => {
+            console.log('COMPLEX SEARCHING', searchStr);
+            // ATTEMPT ID BASED SEARCH
             let found = find(searchStr);
-            if (found && found.length) return found[0];
+            if (found) return found;
+
+            // ATTEMPT NAME BASED SEARCH
+            found = list.find((item) => item.data.title.includes(searchStr));
+            if (found) return found;
+
+            // BREAK INTO SEARCH PARAMS
             const searchParams = searchStr
                 .split('|')
                 .map((e) => e.trim())
@@ -43,7 +52,6 @@ exports.composeCard = (original) => {
                     const [key, value] = e.split('=');
                     return { key, value };
                 });
-
 
             if (searchParams.length === 1)
                 found = list.find(
@@ -87,6 +95,7 @@ const parse = (item) => {
         color = '',
         code = '',
         extra = [],
+        reference = [],
         level,
     } = item;
 
@@ -96,7 +105,7 @@ const parse = (item) => {
     // console.log('************', contents);
 
     const contentLines = contents
-        .concat(extra)
+        // .concat(extra)
         .map((cl) => cl.split('|').map((e) => e.trim()))
         .map(([type, ...args]) => ({ type, params: args || [] }))
         .map(matchLines);
@@ -120,6 +129,7 @@ const parse = (item) => {
             contents: contentLines,
             icon: iconMap[icon_front || 'ace'].path,
             code: code,
+            reference,
         },
     };
 };

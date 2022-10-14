@@ -37,6 +37,9 @@ const convertItem = (item) => {
     // SET ICON
     card.icon_front = getIcon(item);
 
+    // SET COLOR
+    card.color = '#43A047';
+
     // SET ID
     card.id = getId(item);
 

@@ -1,9 +1,9 @@
 [
     {
         "id": "action.ancestry.hobgoblin.locg.resist-xaos-magic",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Resist Xaos Magic [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "property | Trigger | You attempt a saving throw against a magical effect but haven't rolled yet.",
@@ -13,9 +13,9 @@
     },
     {
         "id": "action.ancestry.changeling.brew.changeling-shape",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Changeling Shape [[three-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | occult | transmutation",
@@ -28,9 +28,9 @@
     },
     {
         "id": "action.da.recenter",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Recenter [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate",
@@ -41,9 +41,9 @@
     },
     {
         "id": "action.da.psychic-defense",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Psychic Defense [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | magical",
@@ -55,9 +55,9 @@
     },
     {
         "id": "action.da.exploit-vulnerability",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Exploit Vulnerability [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | esoterica | manipulate | thaumaturge",
@@ -75,9 +75,9 @@
     },
     {
         "id": "action.da.intensify-vulnerability",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Intensify Vulnerability [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | divination | esoterica | magical | thaumaturge",
@@ -90,9 +90,9 @@
     },
     {
         "id": "action.da.amulets-abeyance",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Amulet's Abeyance [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | abjuration | magical | manipulate | thaumaturge",
@@ -104,9 +104,9 @@
     },
     {
         "id": "action.da.ring-bell",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Ring Bell [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | auditory | emotion | enchantment | magical | manipulate | mental | thaumaturge",
@@ -118,9 +118,9 @@
     },
     {
         "id": "action.da.drink-from-the-chalice",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Drink from the Chalice [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | magical | manipulate | necromancy | thaumaturge",
@@ -132,9 +132,9 @@
     },
     {
         "id": "action.da.mirrors-reflection",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Mirror's Reflection [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | illusion | magical | manipulate | thaumaturge",
@@ -147,9 +147,9 @@
     },
     {
         "id": "action.da.fling-magic",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Fling Magic [[two-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | evocation | magical | manipulate | thaumaturge",
@@ -161,9 +161,9 @@
     },
     {
         "id": "action.da.implements-interruption",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Implement's Interruption [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | evocation | magical | thaumaturge",
@@ -175,9 +175,9 @@
     },
     {
         "id": "action.da.fade-into-daydreams",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Fade Into Daydreams [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | illusion | psyche | psychic",
@@ -187,9 +187,9 @@
     },
     {
         "id": "action.da.calculate-threats",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Calculate Threats [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | mental | psyche | psychic",
@@ -199,9 +199,9 @@
     },
     {
         "id": "action.da.recall-the-teachings",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Recall The Teachings [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | divination | occult | psyche | psychic",
@@ -211,9 +211,9 @@
     },
     {
         "id": "action.da.restore-the-mind",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Restore The Mind [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | emotion | enchantment | healing | mental | psyche | psychic",
@@ -225,9 +225,9 @@
     },
     {
         "id": "action.class.psychic.da.unleash-psyche",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Unleash Psyche [[free-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | psychic",
@@ -243,9 +243,9 @@
     },
     {
         "id": "action.g-g.accidental-shot",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Accidental Shot [[two-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | fortune",
@@ -256,9 +256,9 @@
     },
     {
         "id": "action.class.summoner.som.act-together",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Act Together [[one-action]] to [[three-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | summoner | tandem",
@@ -271,9 +271,9 @@
     },
     {
         "id": "action.basic.crb.activate-an-item",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Activate an Item",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "property | Requirements | You can Activate an Item with the invested trait only if it's invested by you. If the item requires you to Interact with it, you must be wielding it (if it's a held item) or touching it with a free hand (if it's another type of item).",
@@ -290,9 +290,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.administer-first-aid",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Administer First Aid [[two-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | manipulate",
@@ -309,9 +309,9 @@
     },
     {
         "id": "action.basic.som.affix-a-fulu",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Affix a Fulu [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | manipulate",
@@ -321,9 +321,9 @@
     },
     {
         "id": "action.basic.crb.affix-a-talisman",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Affix a Talisman",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | exploration | manipulate",
@@ -334,9 +334,9 @@
     },
     {
         "id": "action.basic.crb.aid",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Aid [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "property | Requirements | The ally is willing to accept your aid, and you have prepared to help (see below).",
@@ -353,9 +353,9 @@
     },
     {
         "id": "action.ancestry.anadi.lome.anadi-venom",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Anadi Venom [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "rule",
@@ -364,9 +364,9 @@
     },
     {
         "id": "action.class.magus.som.arcane-cascade",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Arcane Cascade [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | magus | stance",
@@ -382,9 +382,9 @@
     },
     {
         "id": "action.basic.crb.arrest-a-fall",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Arrest a Fall [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "property | Requirements | You have a fly Speed.",
@@ -398,9 +398,9 @@
     },
     {
         "id": "action.class.fighter.crb.attack-of-opportunity",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Attack of Opportunity [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "property | Trigger | A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.",
@@ -410,9 +410,9 @@
     },
     {
         "id": "action.ancestry.automaton.g-g.automaton-aim",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Automaton Aim [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "rule",
@@ -421,9 +421,9 @@
     },
     {
         "id": "action.basic.crb.avert-gaze",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Avert Gaze [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "rule",
@@ -432,9 +432,9 @@
     },
     {
         "id": "action.basic.crb.avoid-notice",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Avoid Notice",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | exploration",
@@ -444,9 +444,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.balance",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Balance [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | move",
@@ -463,9 +463,9 @@
     },
     {
         "id": "action.ancestry.shisk.lome.barbed-quills",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Barbed Quills [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "property | Trigger | You are hit with an unarmed strike or a strike with a non-reach melee weapon.",
@@ -476,9 +476,9 @@
     },
     {
         "id": "action.gmg.board",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Board [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | move",
@@ -489,9 +489,9 @@
     },
     {
         "id": "action.basic.skill.trained.crb.borrow-an-arcane-spell",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Borrow an Arcane Spell",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | exploration",
@@ -505,9 +505,9 @@
     },
     {
         "id": "action.gmg.bribe-contact",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Bribe Contact",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | downtime | secret",
@@ -523,9 +523,9 @@
     },
     {
         "id": "action.gmg.bullying-press",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Bullying Press [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | flourish",
@@ -537,9 +537,9 @@
     },
     {
         "id": "action.basic.crb.burrow",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Burrow [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | move",
@@ -550,9 +550,9 @@
     },
     {
         "id": "action.ancestry.dwarf.crb.call-on-ancient-blood",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Call on Ancient Blood [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "property | Trigger | You attempt a saving throw against a magical effect, but you haven't rolled yet.",
@@ -562,9 +562,9 @@
     },
     {
         "id": "action.ancestry.conrasu.lome.call-to-axis",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Call to Axis [[free-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | fortune",
@@ -576,9 +576,9 @@
     },
     {
         "id": "action.basic.crb.cast-a-spell",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Cast a Spell",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "rule",
@@ -595,9 +595,9 @@
     },
     {
         "id": "action.ancestry.kitsune.loag.change-shape",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Change Shape [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | divine | kitsune | polymorph | transmutation",
@@ -607,9 +607,9 @@
     },
     {
         "id": "action.loag.change-shape",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Change Shape [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | polymorph | primal | transmutation",
@@ -619,9 +619,9 @@
     },
     {
         "id": "action.gmg.change-tradition-focus",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Change Tradition Focus [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | magical",
@@ -632,9 +632,9 @@
     },
     {
         "id": "action.som.cleanse-soul-path",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Cleanse Soul Path",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | exploration",
@@ -644,9 +644,9 @@
     },
     {
         "id": "action.class.gunslinger.subclass.vanguard.g-g.clear-a-path",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Clear a Path [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | gunslinger",
@@ -657,9 +657,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.climb",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Climb [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | move",
@@ -675,9 +675,9 @@
     },
     {
         "id": "action.class.investigator.apg.clue-in",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Clue In [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | investigator",
@@ -689,9 +689,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.coerce",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Coerce [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | auditory | concentrate | emotion | exploration | linguistic | mental",
@@ -707,9 +707,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.command-an-animal",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Command an Animal [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | auditory | concentrate",
@@ -726,9 +726,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.conceal-an-object",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Conceal an Object [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | manipulate | secret",
@@ -743,9 +743,9 @@
     },
     {
         "id": "action.loag.conduct-energy",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Conduct Energy [[free-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | energy",
@@ -756,9 +756,9 @@
     },
     {
         "id": "action.class.swashbuckler.apg.confident-finisher",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Confident Finisher [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | finisher | swashbuckler",
@@ -771,9 +771,9 @@
     },
     {
         "id": "action.basic.skill.trained.crb.cover-tracks",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Cover Tracks",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | exploration | move",
@@ -784,9 +784,9 @@
     },
     {
         "id": "action.class.gunslinger.subclass.sniper.g-g.covered-reload",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Covered Reload [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | gunslinger",
@@ -796,9 +796,9 @@
     },
     {
         "id": "action.basic.skill.trained.crb.craft",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Craft",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | downtime | manipulate",
@@ -821,9 +821,9 @@
     },
     {
         "id": "action.sot-1.cram",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Cram",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | downtime",
@@ -834,9 +834,9 @@
     },
     {
         "id": "action.basic.crb.crawl",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Crawl [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | move",
@@ -847,9 +847,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.create-a-diversion",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Create a Diversion [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | mental",
@@ -864,9 +864,9 @@
     },
     {
         "id": "action.basic.skill.trained.crb.create-forgery",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Create Forgery",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | downtime | secret",
@@ -883,9 +883,9 @@
     },
     {
         "id": "action.class.rogue.crb.debilitating-strike",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Debilitating Strike [[free-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | rogue",
@@ -898,9 +898,9 @@
     },
     {
         "id": "action.gmg.deceptive-sidestep",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Deceptive Sidestep [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | misfortune",
@@ -912,9 +912,9 @@
     },
     {
         "id": "action.basic.crb.decipher-writing",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Decipher Writing",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | exploration | secret",
@@ -931,9 +931,9 @@
     },
     {
         "id": "action.basic.crb.defend",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Defend",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | exploration",
@@ -943,9 +943,9 @@
     },
     {
         "id": "action.basic.crb.delay",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Delay [[free-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "property | Trigger | Your turn begins.",
@@ -956,9 +956,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.demoralize",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Demoralize [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | auditory | concentrate | emotion | fear | mental",
@@ -972,9 +972,9 @@
     },
     {
         "id": "action.class.champion.subclass.antipaladin.apg.destructive-vengeance",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Destructive Vengeance [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | uncommon | champion",
@@ -986,9 +986,9 @@
     },
     {
         "id": "action.basic.crb.detect-magic",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Detect Magic",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | exploration",
@@ -998,9 +998,9 @@
     },
     {
         "id": "action.class.investigator.apg.devise-a-stratagem",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Devise a Stratagem [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | fortune | investigator",
@@ -1013,9 +1013,9 @@
     },
     {
         "id": "action.basic.skill.trained.crb.disable-a-device",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Disable a Device [[two-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | manipulate",
@@ -1032,9 +1032,9 @@
     },
     {
         "id": "action.basic.skill.trained.crb.disarm",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Disarm [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | attack",
@@ -1050,9 +1050,9 @@
     },
     {
         "id": "action.gmg.discover",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Discover",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | secret",
@@ -1068,9 +1068,9 @@
     },
     {
         "id": "action.basic.crb.dismiss",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Dismiss [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate",
@@ -1080,9 +1080,9 @@
     },
     {
         "id": "action.class.gunslinger.g-g.dispelling-bullet",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Dispelling Bullet [[two-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | abjuration | magical | spellshot",
@@ -1092,9 +1092,9 @@
     },
     {
         "id": "action.class.wizard.crb.drain-bonded-item",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Drain Bonded Item [[free-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | arcane | wizard",
@@ -1105,9 +1105,9 @@
     },
     {
         "id": "action.class.gunslinger.subclass.drifter.g-g.drifters-wake",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Drifter's Wake [[three-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | gunslinger",
@@ -1117,9 +1117,9 @@
     },
     {
         "id": "action.gmg.drive",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Drive",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | move",
@@ -1133,9 +1133,9 @@
     },
     {
         "id": "action.basic.crb.drop-prone",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Drop Prone [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | move",
@@ -1145,9 +1145,9 @@
     },
     {
         "id": "action.gmg.dueling-counter",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Dueling Counter [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | magical",
@@ -1159,9 +1159,9 @@
     },
     {
         "id": "action.basic.crb.earn-income",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Earn Income",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | downtime",
@@ -1179,9 +1179,9 @@
     },
     {
         "id": "action.ancestry.dwarf.locg.energy-emanation",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Energy Emanation [[two-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "property | Frequency | once per day",
@@ -1191,9 +1191,9 @@
     },
     {
         "id": "action.class.gunslinger.g-g.energy-shot",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Energy Shot [[free-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | evocation | magical | spellshot",
@@ -1204,9 +1204,9 @@
     },
     {
         "id": "action.basic.crb.escape",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Escape [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | attack",
@@ -1221,9 +1221,9 @@
     },
     {
         "id": "action.class.investigator.subclass.empiricism.apg.expeditious-inspection",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Expeditious Inspection [[free-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | investigator",
@@ -1234,9 +1234,9 @@
     },
     {
         "id": "action.class.inventor.g-g.explode",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Explode [[two-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | fire | inventor | manipulate | unstable",
@@ -1248,9 +1248,9 @@
     },
     {
         "id": "action.basic.skill.trained.crb.feint",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Feint [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | mental",
@@ -1266,9 +1266,9 @@
     },
     {
         "id": "action.class.gunslinger.subclass.drifter.g-g.finish-the-job",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Finish the Job [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | gunslinger",
@@ -1279,9 +1279,9 @@
     },
     {
         "id": "action.class.monk.crb.flurry-of-blows",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Flurry of Blows [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | flourish | monk",
@@ -1291,9 +1291,9 @@
     },
     {
         "id": "action.basic.crb.fly",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Fly [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | move",
@@ -1304,9 +1304,9 @@
     },
     {
         "id": "action.basic.crb.follow-the-expert",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Follow the Expert",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | auditory | concentrate | exploration | visual",
@@ -1316,9 +1316,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.force-open",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Force Open [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | attack",
@@ -1333,9 +1333,9 @@
     },
     {
         "id": "action.gmg.forge-documents",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Forge Documents",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | downtime | secret",
@@ -1350,9 +1350,9 @@
     },
     {
         "id": "action.gmg.fortify-camp",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Fortify Camp",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "rule",
@@ -1361,9 +1361,9 @@
     },
     {
         "id": "action.gmg.gain-contact",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Gain Contact",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | downtime",
@@ -1379,9 +1379,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.gather-information",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Gather Information",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | exploration | secret",
@@ -1395,9 +1395,9 @@
     },
     {
         "id": "action.class.gunslinger.subclass.sniper.g-g.ghost-shot",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Ghost Shot [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | flourish | gunslinger",
@@ -1407,9 +1407,9 @@
     },
     {
         "id": "action.class.champion.subclass.redeemer.crb.glimpse-of-redemption",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Glimpse of Redemption [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | champion",
@@ -1422,9 +1422,9 @@
     },
     {
         "id": "action.gmg.gossip",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Gossip",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | downtime | secret",
@@ -1440,9 +1440,9 @@
     },
     {
         "id": "action.basic.crb.grab-an-edge",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Grab an Edge [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "property | Requirements | Your hands are not tied behind your back or otherwise restrained.",
@@ -1458,9 +1458,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.grapple",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Grapple [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | attack",
@@ -1477,9 +1477,9 @@
     },
     {
         "id": "action.class.gunslinger.subclass.pistolero.g-g.grim-swagger",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Grim Swagger [[three-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | auditory | emotion | fear | gunslinger | linguistic | mental",
@@ -1495,9 +1495,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.hide",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Hide [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | secret",
@@ -1510,9 +1510,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.high-jump",
-        "color": "",
+        "color": "#B71C1C",
         "title": "High Jump [[two-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "rule",
@@ -1527,9 +1527,9 @@
     },
     {
         "id": "action.class.ranger.crb.hunt-prey",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Hunt Prey [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | ranger",
@@ -1541,9 +1541,9 @@
     },
     {
         "id": "action.basic.crb.hustle",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Hustle",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | exploration | move",
@@ -1553,9 +1553,9 @@
     },
     {
         "id": "action.basic.skill.trained.crb.identify-alchemy",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Identify Alchemy",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | exploration | secret",
@@ -1571,9 +1571,9 @@
     },
     {
         "id": "action.basic.crb.identify-magic",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Identify Magic",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | exploration | secret",
@@ -1589,9 +1589,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.impersonate",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Impersonate",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | exploration | manipulate | secret",
@@ -1607,9 +1607,9 @@
     },
     {
         "id": "action.gmg.influence",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Influence",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | linguistic",
@@ -1625,9 +1625,9 @@
     },
     {
         "id": "action.basic.crb.interact",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Interact [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | manipulate",
@@ -1637,9 +1637,9 @@
     },
     {
         "id": "action.class.gunslinger.subclass.drifter.g-g.into-the-fray",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Into the Fray [[free-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | gunslinger",
@@ -1650,9 +1650,9 @@
     },
     {
         "id": "action.basic.crb.invest-an-item",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Invest an Item",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "rule",
@@ -1662,9 +1662,9 @@
     },
     {
         "id": "action.basic.crb.investigate",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Investigate",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | exploration",
@@ -1674,9 +1674,9 @@
     },
     {
         "id": "action.ancestry.kitsune.loag.invigorating-fear",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Invigorating Fear [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "property | Trigger | A creature within 60 feet gains the frightened condition.",
@@ -1687,9 +1687,9 @@
     },
     {
         "id": "action.ancestry.kitsune.crb.invoke-celestial-privilege",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Invoke Celestial Privilege [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "property | Trigger | You attempt a saving throw against a divine effect, but you haven't rolled yet.",
@@ -1699,9 +1699,9 @@
     },
     {
         "id": "action.class.champion.subclass.tyrant.apg.iron-command",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Iron Command [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | uncommon | champion | divine | emotion | enchantment | mental",
@@ -1715,9 +1715,9 @@
     },
     {
         "id": "action.basic.crb.leap",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Leap [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "rule",
@@ -1728,9 +1728,9 @@
     },
     {
         "id": "action.basic.crb.learn-a-spell",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Learn a Spell",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | exploration",
@@ -1752,9 +1752,9 @@
     },
     {
         "id": "action.som.learn-name",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Learn Name",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | rare | downtime | secret",
@@ -1770,9 +1770,9 @@
     },
     {
         "id": "action.class.champion.subclass.liberator.crb.liberating-step",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Liberating Step [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | champion",
@@ -1783,9 +1783,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.lie",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Lie",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | auditory | concentrate | linguistic | mental | secret",
@@ -1800,9 +1800,9 @@
     },
     {
         "id": "action.class.gunslinger.subclass.vanguard.g-g.living-fortification",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Living Fortification [[free-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | gunslinger",
@@ -1813,9 +1813,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.long-jump",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Long Jump [[two-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "rule",
@@ -1830,9 +1830,9 @@
     },
     {
         "id": "action.basic.crb.long-term-rest",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Long-Term Rest",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | downtime",
@@ -1842,9 +1842,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.make-an-impression",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Make an Impression",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | auditory | concentrate | exploration | linguistic | mental",
@@ -1859,9 +1859,9 @@
     },
     {
         "id": "action.basic.skill.trained.crb.maneuver-in-flight",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Maneuver in Flight [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | move",
@@ -1877,9 +1877,9 @@
     },
     {
         "id": "action.class.summoner.som.manifest-eidolon",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Manifest Eidolon [[three-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | conjuration | manipulate | summoner | teleportation",
@@ -1890,9 +1890,9 @@
     },
     {
         "id": "action.gmg.map-the-area",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Map the Area",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate",
@@ -1902,9 +1902,9 @@
     },
     {
         "id": "action.class.rogue.crb.master-strike",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Master Strike [[free-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | incapacitation | rogue",
@@ -1922,9 +1922,9 @@
     },
     {
         "id": "action.class.barbarian.crb.mighty-rage",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Mighty Rage [[free-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | barbarian",
@@ -1935,9 +1935,9 @@
     },
     {
         "id": "action.basic.crb.mount",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Mount [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | move",
@@ -1947,9 +1947,9 @@
     },
     {
         "id": "action.class.alchemist.subclass.mutagenist.crb.mutagenic-flashback",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Mutagenic Flashback [[free-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | alchemist",
@@ -1960,9 +1960,9 @@
     },
     {
         "id": "action.class.gunslinger.subclass.sniper.g-g.one-shot-one-kill",
-        "color": "",
+        "color": "#B71C1C",
         "title": "One Shot, One Kill [[free-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | gunslinger",
@@ -1973,9 +1973,9 @@
     },
     {
         "id": "action.class.swashbuckler.apg.opportune-riposte",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Opportune Riposte [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | swashbuckler",
@@ -1986,9 +1986,9 @@
     },
     {
         "id": "action.class.inventor.g-g.overdrive",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Overdrive [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | inventor | manipulate",
@@ -2005,9 +2005,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.palm-an-object",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Palm an Object [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | manipulate",
@@ -2021,9 +2021,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.perform",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Perform [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate",
@@ -2039,9 +2039,9 @@
     },
     {
         "id": "action.basic.skill.trained.crb.pick-a-lock",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Pick a Lock [[two-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | manipulate",
@@ -2057,9 +2057,9 @@
     },
     {
         "id": "action.class.gunslinger.subclass.pistolero.g-g.pistoleros-retort",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Pistolero's Retort [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | gunslinger",
@@ -2071,9 +2071,9 @@
     },
     {
         "id": "action.basic.crb.point-out",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Point Out [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | auditory | manipulate | visual",
@@ -2084,9 +2084,9 @@
     },
     {
         "id": "action.class.investigator.subclass.interrogation.apg.pointed-question",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Pointed Question [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | auditory | concentrate | investigator | linguistic | mental",
@@ -2103,9 +2103,9 @@
     },
     {
         "id": "action.sot-1.practical-research",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Practical Research",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | downtime",
@@ -2116,9 +2116,9 @@
     },
     {
         "id": "action.class.investigator.apg.pursue-a-lead",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Pursue a Lead",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | exploration | investigator",
@@ -2131,9 +2131,9 @@
     },
     {
         "id": "action.class.alchemist.crb.quick-alchemy",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Quick Alchemy [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | alchemist | manipulate",
@@ -2144,9 +2144,9 @@
     },
     {
         "id": "action.class.investigator.subclass.alchemical-sciences.apg.quick-tincture",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Quick Tincture [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | investigator | manipulate",
@@ -2157,9 +2157,9 @@
     },
     {
         "id": "action.class.gunslinger.subclass.pistolero.g-g.raconteurs-reload",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Raconteur's Reload [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | gunslinger",
@@ -2169,9 +2169,9 @@
     },
     {
         "id": "action.class.barbarian.crb.rage",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Rage [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | barbarian | concentrate | emotion | mental",
@@ -2186,9 +2186,9 @@
     },
     {
         "id": "action.basic.crb.raise-a-shield",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Raise a Shield [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "property | Requirements | You are wielding a shield.",
@@ -2198,9 +2198,9 @@
     },
     {
         "id": "action.gmg.rally",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Rally",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | auditory | emotion | exploration | linguistic | mental",
@@ -2212,9 +2212,9 @@
     },
     {
         "id": "action.basic.crb.ready",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Ready [[two-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate",
@@ -2225,9 +2225,9 @@
     },
     {
         "id": "action.class.gunslinger.g-g.recall-ammunition",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Recall Ammunition [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | conjuration | magical | spellshot | teleportation",
@@ -2238,9 +2238,9 @@
     },
     {
         "id": "action.basic.crb.recall-knowledge",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Recall Knowledge [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | secret",
@@ -2255,9 +2255,9 @@
     },
     {
         "id": "action.gmg.reconnoiter",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Reconnoiter",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate",
@@ -2268,9 +2268,9 @@
     },
     {
         "id": "action.basic.crb.refocus",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Refocus",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | exploration",
@@ -2281,9 +2281,9 @@
     },
     {
         "id": "action.basic.crb.release",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Release [[free-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | manipulate",
@@ -2294,9 +2294,9 @@
     },
     {
         "id": "action.class.gunslinger.subclass.drifter.g-g.reloading-strike",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Reloading Strike [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | gunslinger",
@@ -2307,9 +2307,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.repair",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Repair",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | exploration | manipulate",
@@ -2325,9 +2325,9 @@
     },
     {
         "id": "action.basic.crb.repeat-a-spell",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Repeat a Spell",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | exploration",
@@ -2338,9 +2338,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.request",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Request [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | auditory | concentrate | linguistic | mental",
@@ -2356,9 +2356,9 @@
     },
     {
         "id": "action.gmg.research",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Research",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | exploration | linguistic",
@@ -2373,9 +2373,9 @@
     },
     {
         "id": "action.basic.crb.retraining",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Retraining",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | downtime",
@@ -2388,9 +2388,9 @@
     },
     {
         "id": "action.class.champion.subclass.paladin.crb.retributive-strike",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Retributive Strike [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | champion",
@@ -2401,9 +2401,9 @@
     },
     {
         "id": "action.gmg.run-over",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Run Over [[three-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | move | reckless",
@@ -2415,9 +2415,9 @@
     },
     {
         "id": "action.basic.crb.scout",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Scout",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | exploration",
@@ -2427,9 +2427,9 @@
     },
     {
         "id": "action.gmg.scout-location",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Scout Location",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | downtime | secret",
@@ -2444,9 +2444,9 @@
     },
     {
         "id": "action.basic.crb.search",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Search",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | exploration",
@@ -2456,9 +2456,9 @@
     },
     {
         "id": "action.gmg.secure-disguises",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Secure Disguises",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | downtime",
@@ -2472,9 +2472,9 @@
     },
     {
         "id": "action.basic.crb.seek",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Seek [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | secret",
@@ -2490,9 +2490,9 @@
     },
     {
         "id": "action.class.champion.subclass.desecrator.apg.selfish-shield",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Selfish Shield [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | uncommon | champion",
@@ -2504,9 +2504,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.sense-direction",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Sense Direction",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | exploration | secret",
@@ -2520,9 +2520,9 @@
     },
     {
         "id": "action.basic.crb.sense-motive",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Sense Motive [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | secret",
@@ -2538,9 +2538,9 @@
     },
     {
         "id": "action.gmg.sense-weakness",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Sense Weakness [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "property | Requirements | You're in a duel, you're trained in Perception, and you rolled a Perception check for initiative this round.",
@@ -2551,9 +2551,9 @@
     },
     {
         "id": "action.class.summoner.som.share-senses",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Share Senses [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | divination | scrying | summoner",
@@ -2564,9 +2564,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.shove",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Shove [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | attack",
@@ -2582,9 +2582,9 @@
     },
     {
         "id": "action.class.gunslinger.subclass.vanguard.g-g.siegebreaker",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Siegebreaker [[three-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | flourish | gunslinger",
@@ -2596,9 +2596,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.sneak",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Sneak [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | move | secret",
@@ -2614,9 +2614,9 @@
     },
     {
         "id": "action.class.magus.som.spellstrike",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Spellstrike [[two-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | magus",
@@ -2627,9 +2627,9 @@
     },
     {
         "id": "action.class.gunslinger.subclass.vanguard.g-g.spinning-crush",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Spinning Crush [[three-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | gunslinger",
@@ -2640,9 +2640,9 @@
     },
     {
         "id": "action.basic.skill.trained.crb.squeeze",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Squeeze",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | exploration | move",
@@ -2657,9 +2657,9 @@
     },
     {
         "id": "action.basic.crb.stand",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Stand [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | move",
@@ -2669,9 +2669,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.steal",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Steal [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | manipulate",
@@ -2687,9 +2687,9 @@
     },
     {
         "id": "action.basic.crb.step",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Step [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | move",
@@ -2701,9 +2701,9 @@
     },
     {
         "id": "action.gmg.stop",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Stop [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | manipulate",
@@ -2714,9 +2714,9 @@
     },
     {
         "id": "action.basic.crb.stride",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Stride [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | move",
@@ -2726,9 +2726,9 @@
     },
     {
         "id": "action.basic.crb.strike",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Strike [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | attack",
@@ -2742,9 +2742,9 @@
     },
     {
         "id": "action.sot-1.study",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Study",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | downtime",
@@ -2761,9 +2761,9 @@
     },
     {
         "id": "action.basic.crb.subsist",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Subsist",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | downtime",
@@ -2779,9 +2779,9 @@
     },
     {
         "id": "action.basic.crb.sustain-a-spell",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Sustain a Spell [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate",
@@ -2793,9 +2793,9 @@
     },
     {
         "id": "action.basic.crb.sustain-an-activation",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Sustain an Activation [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "property | Requirements | You have at least one magic item activation that you can sustain and you are not fatigued.",
@@ -2806,9 +2806,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.swim",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Swim [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | move",
@@ -2824,9 +2824,9 @@
     },
     {
         "id": "action.ancestry.kobold.apg.tail-toxin",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Tail Toxin [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | kobold | poison",
@@ -2838,9 +2838,9 @@
     },
     {
         "id": "action.gmg.take-a-breather",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Take a Breather",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | exploration",
@@ -2850,9 +2850,9 @@
     },
     {
         "id": "action.gmg.take-control",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Take Control [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | manipulate",
@@ -2863,9 +2863,9 @@
     },
     {
         "id": "action.basic.crb.take-cover",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Take Cover [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "property | Requirements | You are benefiting from cover, are near a feature that allows you to take cover, or are prone.",
@@ -2875,9 +2875,9 @@
     },
     {
         "id": "action.basic.skill.trained.som.tap-ley-line",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Tap Ley Line [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate",
@@ -2893,9 +2893,9 @@
     },
     {
         "id": "action.class.gunslinger.subclass.pistolero.g-g.ten-paces",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Ten Paces [[free-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | gunslinger",
@@ -2906,9 +2906,9 @@
     },
     {
         "id": "action.g-g.thoughtful-reload",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Thoughtful Reload [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | gunslinger",
@@ -2918,9 +2918,9 @@
     },
     {
         "id": "action.ancestry.lizardfolk.locg.threatening-approach",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Threatening Approach [[two-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "rule",
@@ -2929,9 +2929,9 @@
     },
     {
         "id": "action.ancestry.grippli.lome.toxic-skin",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Toxic Skin [[reaction]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | grippli | poison",
@@ -2943,9 +2943,9 @@
     },
     {
         "id": "action.basic.skill.trained.crb.track",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Track",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | concentrate | exploration | move",
@@ -2961,9 +2961,9 @@
     },
     {
         "id": "action.gmg.travel",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Travel",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | move",
@@ -2974,9 +2974,9 @@
     },
     {
         "id": "action.basic.skill.trained.crb.treat-disease",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Treat Disease",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | downtime | manipulate",
@@ -2992,9 +2992,9 @@
     },
     {
         "id": "action.basic.skill.trained.crb.treat-poison",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Treat Poison [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | manipulate",
@@ -3010,9 +3010,9 @@
     },
     {
         "id": "action.basic.skill.trained.crb.treat-wounds",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Treat Wounds",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | exploration | healing | manipulate",
@@ -3031,9 +3031,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.trip",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Trip [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | attack",
@@ -3049,9 +3049,9 @@
     },
     {
         "id": "action.basic.skill.untrained.crb.tumble-through",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Tumble Through [[one-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | move",
@@ -3065,9 +3065,9 @@
     },
     {
         "id": "action.class.gunslinger.subclass.sniper.g-g.vital-shot",
-        "color": "",
+        "color": "#B71C1C",
         "title": "Vital Shot [[two-action]]",
-        "icon_front": "ace",
+        "icon_front": "expander",
         "code": "action",
         "contents": [
             "pftrait | gunslinger",
