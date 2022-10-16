@@ -1,4 +1,4 @@
-<li {{#unless slug}}class="group-list-seperator"{{/unless}}>
+<li {{#unless slug}}class="group-list-seperator"{{/unless}} data-id="{{id}}">
     {{#if children}}
         <input class='nav-group-toggle' id='{{id}}' type='checkbox' hidden />
         <label for='{{id}}'>

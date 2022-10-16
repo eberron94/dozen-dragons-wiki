@@ -68,7 +68,12 @@
 
                 <div class='inner inner-left page-body'>
 
-                    <span class='title'>{{node.name}}</span>
+                    <div class='title'>
+                        <span>{{node.name}}</span>
+                        <img data-id="{{node.slug}}"
+                            src='/icons/ffffff/transparent/1x1/delapouite/round-star.svg'
+                        />
+                    </div>
 
                     <div class='cred'>{{{metadata.frontMatter.cred}}}</div>
 
@@ -344,6 +349,7 @@
         <script type='text/javascript' src='/js/toggleNav.js'></script>
         <script type='text/javascript' src='/js/kaiser.js'></script>
         <script type='text/javascript' src='/js/idManager.js'></script>
+        <script type='text/javascript' src='/js/favorite.js'></script>
 
     </body>
 

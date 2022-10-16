@@ -56,7 +56,6 @@
     padding: 0 4px 0 4px;
     /* font-style: italic; */
     border-left: rgb(59, 69, 78) solid 4px;
-    
 }
 
 .content blockquote p {
@@ -64,7 +63,6 @@
     padding-left: 2em;
     text-indent: -2em;
 }
-
 
 /* 
  * Modify main Media
@@ -234,13 +232,13 @@
     gap: 4px;
 }
 
-.item-card .item-card-title img{
+.item-card .item-card-title img {
     position: relative;
     height: 24px;
     filter: invert(0.8);
 }
 
-.item-ref>img {
+.item-ref > img {
     position: relative;
     height: 12px;
     filter: invert(0.8);
@@ -349,4 +347,54 @@
     border-radius: 12px;
     border: 4px rgb(59, 69, 78) solid;
     background-color: rgb(59, 69, 78);
+}
+
+/* Favorites */
+
+li.fav {
+    opacity: 0;
+}
+
+li.fav.filled {
+    opacity: 1;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+li.fav img {
+    filter: invert(17%) sepia(37%) saturate(587%) hue-rotate(351deg)
+        brightness(103%) contrast(107%);
+    height: 1rem;
+
+    -webkit-transition: filter 0.5s;
+    -moz-transition: filter 0.5s;
+    transition: filter 0.5s;
+}
+
+li.fav img:hover {
+    filter: invert(1);
+
+    -webkit-transition: filter 0.5s;
+    -moz-transition: filter 0.5s;
+    transition: filter 0.5s;
+}
+
+.title img {
+    filter: invert(1);
+    height: 30px;
+
+    -webkit-transition: filter 0.5s;
+    -moz-transition: filter 0.5s;
+    transition: filter 0.5s;
+}
+
+.title img:hover,
+.title img.current-fav {
+    filter: invert(17%) sepia(37%) saturate(587%) hue-rotate(351deg)
+        brightness(103%) contrast(107%);
+
+    -webkit-transition: filter 0.5s;
+    -moz-transition: filter 0.5s;
+    transition: filter 0.5s;
 }
