@@ -18,8 +18,12 @@ exports.colatePages = () => {
                 frontMatter: metadata,
                 slug: filePath.substring(index + 6),
 
-                html: resultPrime,
-                sidebar: resultSidebar,
+                html: resultPrime
+                    .replace(/\<p/g, `<div class="p"`)
+                    .replace(/<\/p/g, `</div`),
+                sidebar: resultSidebar
+                    .replace(/\<p/g, `<div class="p"`)
+                    .replace(/<\/p/g, `</div`),
             };
         }
     );
@@ -35,7 +39,7 @@ const extractSidebar = (content) => {
     const index = content.indexOf('+++');
     if (index < 0) return [content, ''];
     const top = content.substring(0, index) || '';
-    const footer = content.substring(index+3) || '';
+    const footer = content.substring(index + 3) || '';
 
     return [top, footer];
 };

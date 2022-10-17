@@ -42,7 +42,8 @@
     font-style: italic;
 }
 
-.content p {
+.content p,
+.content div.p {
     margin: 8pt 0 8pt 0;
 }
 
@@ -236,6 +237,11 @@
     position: relative;
     height: 24px;
     filter: invert(0.8);
+}
+
+.item-ref {
+    display:inline-block;
+    word-break: keep-all;
 }
 
 .item-ref > img {
