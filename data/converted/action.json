@@ -27,6 +27,32 @@
         ]
     },
     {
+        "id": "action.ancestry.shifter.brew.shifter-shape",
+        "color": "#B71C1C",
+        "title": "Shifter Shape [[one-action]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | polymorph | primal | transmutation",
+            "property | Frequency | once per hour",
+            "rule",
+            "text | You assume a more bestial shape. This hybrid-form shape has a specific, persistent appearance, which appears to be a half mix between a human and your beast within. This change is not similar to the change of a were-creature. While in hybrid-form, you gain the beast trait and a feature of the beast within your heritage. This transformation lasts for 10 minutes, or until you spend an action, with the concentrate trait, to dismiss it. In addition, you gain a claws unarmed Strike resembling the features of your beast within (claws for felines, talons for eagles, and so on). Your claws deal 1d4 piercing damage, have the agile, finesse, and unarmed traits, and are in the brawling weapon group."
+        ]
+    },
+    {
+        "id": "action.ancestry.shifter.brew.brace",
+        "color": "#B71C1C",
+        "title": "Brace [[one-action]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | shifter",
+            "property | Requirements | You are in your hybrid-form.",
+            "rule",
+            "text | You brace yourself to take a hit, using your thick skin and fortitude to protect yourself. You gain a +1 circumstance bonus to AC. This remains until the start of your next turn."
+        ]
+    },
+    {
         "id": "action.da.recenter",
         "color": "#B71C1C",
         "title": "Recenter [[one-action]]",

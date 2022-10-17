@@ -11,14 +11,7 @@
             "editor.action.organizeImports",
             "editor.action.formatDocument"
         ],
-        "tagAction": ["surround.with.zAction"],
-        "tagDefault": ["surround.with.zDefault"],
-        "tagFeature": ["surround.with.zFeature"],
-        "tagMisc": ["surround.with.zCreatureType"],
-        "tagSkill": ["surround.with.zSkill"],
-        "tagSkillShort": ["surround.with.zSkillShort"],
-        "tagSpell": ["surround.with.zSpell"],
-        "tagState": ["surround.with.zState"]
+        "tagRef": ["surround.with.zDefault"]
     },
     "prettier.arrowParens": "avoid",
     "prettier.jsxSingleQuote": true,
@@ -210,45 +203,10 @@
             "label": "mdx bold",
             "snippet": "**$TM_SELECTED_TEXT$0**"
         },
-        "zAction": {
-            "description": "surround with default",
-            "label": "Action Surround",
-            "snippet": "{@action ${TM_SELECTED_TEXT/(?:(\\w+)|(\\w*)\\W+(\\w*))/${1:/downcase}${2:/downcase}${3:/capitalize}/g}}"
-        },
-        "zCreatureType": {
-            "description": "surround with default",
-            "label": "CT Surround",
-            "snippet": "{@ct ${TM_SELECTED_TEXT/(?:(\\w+)|(\\w*)\\W+(\\w*))/${1:/downcase}${2:/downcase}${3:/capitalize}/g}}"
-        },
         "zDefault": {
             "description": "surround with default",
-            "label": "Default",
-            "snippet": "{@ ${TM_SELECTED_TEXT/(?:(\\w+)|(\\w*)\\W+(\\w*))/${1:/downcase}${2:/downcase}${3:/capitalize}/g}}"
-        },
-        "zFeature": {
-            "description": "surround with default",
-            "label": "Feature Surround",
-            "snippet": "{@feature ${TM_SELECTED_TEXT/(?:(\\w+)|(\\w*)\\W+(\\w*))/${1:/downcase}${2:/downcase}${3:/capitalize}/g}}"
-        },
-        "zSkill": {
-            "description": "surround with default",
-            "label": "Skill Surround",
-            "snippet": "{@skill ${TM_SELECTED_TEXT/(?:(\\w+)|(\\w*)\\W+(\\w*))/${1:/downcase}${2:/downcase}${3:/capitalize}/g}}"
-        },
-        "zSkillShort": {
-            "description": "surround with default",
-            "label": "Short Skill Surround",
-            "snippet": "{@skill ${TM_SELECTED_TEXT/(?:(\\w+)|(\\w*)\\W+(\\w*))/${1:/downcase}${2:/downcase}${3:/capitalize}/g}|a}"
-        },
-        "zSpell": {
-            "description": "surround with default",
-            "label": "Spell Surround",
-            "snippet": "{@spell ${TM_SELECTED_TEXT/(?:(\\w+)|(\\w*)\\W+(\\w*))/${1:/downcase}${2:/downcase}${3:/capitalize}/g}}"
-        },
-        "zState": {
-            "description": "surround with default",
-            "label": "State Surround",
-            "snippet": "{@state ${TM_SELECTED_TEXT/(?:(\\w+)|(\\w*)\\W+(\\w*))/${1:/downcase}${2:/downcase}${3:/capitalize}/g}}"
+            "label": "Ref Surround",
+            "snippet": "{{{ref \"$TM_SELECTED_TEXT\"}}}"
         }
     },
     "typescript.preferences.quoteStyle": "single"
