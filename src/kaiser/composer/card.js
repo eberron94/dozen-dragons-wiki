@@ -35,7 +35,7 @@ exports.composeCard = (original) => {
             return foundList;
         },
         findWithComplexSearch: (searchStr) => {
-            console.log('COMPLEX SEARCHING', searchStr);
+            // console.log('COMPLEX SEARCHING', searchStr);
             // ATTEMPT ID BASED SEARCH
             let found = find(searchStr);
             if (found) return found;

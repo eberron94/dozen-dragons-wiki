@@ -59,7 +59,7 @@ exports.buildSite = () => {
         ensureDirectoryExistence('./build/' + node.slug);
         fs.writeFile('./build/' + node.slug + '.html', completeHTML, (err) => {
             if (err) console.error(err, pageData.html);
-            else console.log(node.slug, 'file written successfully');
+            // else console.log(node.slug, 'file written successfully');
         });
     });
 

@@ -52,20 +52,20 @@ exports.composeMDX = (original) => {
                             contentFill[key] = ids
                                 .flatMap((id) => {
                                     if (id.startsWith('P::')) {
-                                        console.log(
-                                            'searching for partials w/',
-                                            id,
-                                            'for',
-                                            page.id + ':' + key
-                                        );
+                                        // console.log(
+                                        //     'searching for partials w/',
+                                        //     id,
+                                        //     'for',
+                                        //     page.id + ':' + key
+                                        // );
                                         return contentList.findPartials(id);
                                     } else {
-                                        console.log(
-                                            'searching for item',
-                                            id,
-                                            'for',
-                                            page.id + ':' + key
-                                        );
+                                        // console.log(
+                                        //     'searching for item',
+                                        //     id,
+                                        //     'for',
+                                        //     page.id + ':' + key
+                                        // );
                                         return contentList.find(id);
                                     }
                                 })

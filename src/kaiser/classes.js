@@ -37,26 +37,26 @@ class PageNode {
 
         //Check and handle grandchild
         if (this.children[nextLevelPath]) {
-            console.log(
-                '[GRAND]',
-                childNode.name,
-                'is grandchild to',
-                this.name
-            );
+            // console.log(
+            //     '[GRAND]',
+            //     childNode.name,
+            //     'is grandchild to',
+            //     this.name
+            // );
             // this.children[nextLevelPath].putChild(childNode);
             return;
         }
 
         //Check and handle Direct child
         if (childNodeLevel === myNodeLevel + 1) {
-            console.log('[CHILD]', childNode.name, 'is child to', this.name);
+            // console.log('[CHILD]', childNode.name, 'is child to', this.name);
             this.children[nextLevelPath] = childNode;
             childNode.parent = this;
             return;
         }
 
         //Handle Orphan
-        console.log('[ORPHN]', childNode.name, 'is an orphan to', this.name);
+        // console.log('[ORPHN]', childNode.name, 'is an orphan to', this.name);
         this.orphans.push(childNode.name);
     }
 

@@ -27,7 +27,7 @@ exports.readJsonFilesSync = (dir) => {
     const content = files
         .filter((f) => f.ext === '.json')
         .flatMap(({ filepath }) => {
-            console.log('found', filepath);
+            // console.log('found', filepath);
             const raw = fs.readFileSync(filepath);
             const json = JSON.parse(raw);
             return json;
@@ -44,7 +44,7 @@ exports.readMarkdownFilesSync = (dir) => {
     files
         .filter((f) => f.ext === '.md' || f.ext === '.mdx')
         .forEach(({ filepath, ...other }) => {
-            console.log('found', filepath);
+            // console.log('found', filepath);
 
             const raw = fs.readFileSync(filepath, 'utf8');
             const md = markdownMetaParser(raw);

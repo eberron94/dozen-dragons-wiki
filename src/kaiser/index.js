@@ -102,7 +102,7 @@ class Kaiser {
             .filter((e) => {
                 const { id, html } = e;
                 if (html && typeof html === 'string') {
-                    console.log('--- page', id, html.length);
+                    // console.log('--- page', id, html.length);
                     // if (temp.id === 'detectChaos') console.log(html);
                 }
                 return e?.node?.slug;
@@ -121,7 +121,7 @@ class Kaiser {
             .map((e) => {
                 const { id, block } = e;
                 if (block && typeof block === 'string') {
-                    console.log('--- block', id, block.length);
+                    // console.log('--- block', id, block.length);
                 }
                 return block;
             })
@@ -144,7 +144,7 @@ class Kaiser {
             .map((e) => {
                 const { id, tooltip } = e;
                 if (tooltip && typeof tooltip === 'string') {
-                    console.log('--- tooltip', id, tooltip.length);
+                    // console.log('--- tooltip', id, tooltip.length);
                 }
                 return tooltip;
             })
@@ -168,7 +168,7 @@ class Kaiser {
             .map((e) => {
                 const { id, inlineRef } = e;
                 if (inlineRef && typeof inlineRef === 'string') {
-                    console.log('--- inlineRef', id, inlineRef.length);
+                    // console.log('--- inlineRef', id, inlineRef.length);
                 }
                 return inlineRef;
             })
@@ -183,13 +183,13 @@ class Kaiser {
         );
 
         refableCards.forEach((rCard) => {
-            console.log('REFING', rCard.id, rCard.card.reference);
+            // console.log('REFING', rCard.id, rCard.card.reference);
             rCard.card.reference = rCard.card.reference
                 .flatMap((r) => this.data.itemCard.findWithComplexSearch(r))
                 .map((r) => `<li>${r.inlineRef.index}</li>`);
         });
 
-        console.log(refableCards.map((rCard) => rCard));
+        // console.log(refableCards.map((rCard) => rCard));
 
         refableCards.map((rCard) => {
             if (rCard.block.index.includes(`<div class='reference'></div>`))
