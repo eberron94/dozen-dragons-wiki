@@ -1,6 +1,51 @@
 {
     "feat": [
         {
+            "name": "Dragonborn Lore",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["dragonborn"],
+            "entries": [
+                "You gain the trained proficiency rank in Arcana and Intimidation. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Dragonborn Lore."
+            ]
+        },
+        {
+            "name": "Dragonborn Breath",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["arcane", "dragonborn", "evocation"],
+            "activity": {
+                "number": 2,
+                "unit": "action"
+            },
+            "entries": [
+                "You can breath elemental power into a gout of energy that manifests as a 30-foot line or a 15-foot cone, dealing 1d4 damage. Each creature in the area must attempt a basic saving throw against the higher of your class DC or spell DC. You can't use this ability again for 1d4 rounds. Your Draconic Exemplar determines the shape, damage type, and saving throw of this ability.",
+                "At 3rd level and every 2 levels thereafter, the damage increases by 1d4. The shape of the breath, the damage type, and the saving throw match those of your heritage. This ability has the trait associated with the type of damage it deals."
+            ]
+        },
+        {
+            "name": "Dragon Resilience",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["dragonborn"],
+            "entries": [
+                "You gain a +1 circumstance bonus to saves against effects that would impose the Paralyzed or sleep conditions. If you roll a success on a saving throw against an effect that would impose the paralyzed or sleep condition, you get a critical success instead."
+            ]
+        },
+        {
+            "name": "Dragon Hunter",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["dragonborn"],
+            "entries": [
+                "You seek vengeance against the the dragons that enslaved your people or hunt down dragons that oppose your draconic god. You gain a +1 circumstance bonus to damage with weapons and unarmed attacks against dragons. If your attack would deal more than one weapon die of damage (as is common at higher levels than 1st), the bonus is equal to the number of weapon dice or unarmed attack dice. In addition, if a creature critically succeeds at an attack against you and deals damage to you, you gain your bonus to damage against that creature for 1 minute regardless of whether it has the chosen trait."
+            ]
+        },
+        {
             "name": "Draconic Savagery",
             "source": "BREW",
             "page": 1,
@@ -11,9 +56,9 @@
                 {
                     "type": "list",
                     "items": [
-                        "{@b Bite} deals 1d8 piercing",
-                        "{@b Claw} deals 1d6 slashing and has the agile and finesse traits",
-                        "{@b Bite} deals 1d6 bludgeoning and has the sweeping trait"
+                        "{@b Bite} unarmed attack deals 1d8 piercing",
+                        "{@b Claw} unarmed attack deals 1d4 slashing and has the agile and finesse traits",
+                        "{@b Bite} unarmed attack deals 1d6 bludgeoning and has the sweeping trait"
                     ]
                 }
             ]
@@ -29,23 +74,229 @@
             ]
         },
         {
-            "name": "Dragon Hunter",
+            "name": "Elemental Affinity",
             "source": "BREW",
             "page": 1,
             "level": 1,
             "traits": ["dragonborn"],
             "entries": [
-                "You seek vengeance against the the dragons that enslaved your people or hunt down dragons that oppose your draconic god. You gain a +1 circumstance bonus to damage with weapons and unarmed attacks against dragons. If your attack would deal more than one weapon die of damage (as is common at higher levels than 1st), the bonus is equal to the number of weapon dice or unarmed attack dice. In addition, if a creature critically succeeds at an attack against you and deals damage to you, you gain your bonus to damage against that creature for 1 minute regardless of whether it has the chosen trait."
+                "You gain resistance to your Draconic Exemplar's energy type equal to half your level."
             ]
         },
         {
-            "name": "Dragon Resilience",
+            "name": "Hoard Collector",
             "source": "BREW",
             "page": 1,
             "level": 1,
             "traits": ["dragonborn"],
             "entries": [
-                "You gain a +1 circumstance bonus to saves against effects that would impose the Paralyzed or sleep conditions. If you roll a success on a saving throw against an effect that would impose the paralyzed or sleep condition, you get a critical success instead."
+                "You gain treasure scent 30 feet as an imprecise sense. If you aren't using the Seek action or searching, the GM automatically rolls a secret check for you to notice hidden treasure anyway.",
+                "Treasure scent enables you to smell valuable metals and precious gems as you would roasted meat or sweat cream."
+            ]
+        },
+        {
+            "name": "Draconic Unarmed Cunning",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["dragonborn"],
+            "prerequisites": "Draconic Savagery",
+            "entries": [
+                "Whenever you score a critical hit with an unarmed attack you gained from the Draconic Savagery feat, you apply the unarmed attack's critical specialization effect."
+            ]
+        },
+        {
+            "name": "Draconic Magic",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["dragonborn"],
+            "prerequisites": "Draconic Sorcery",
+            "entries": [
+                "You can cast Detect Magic, Read Aura, and Shield as innate arcane spells at will. If you chose one of those spells with Draconic Sorcery, you can select a different arcane cantrip."
+            ]
+        },
+        {
+            "name": "Draconic Snout",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["dragonborn"],
+            "entries": ["You gain Scent (imprecise) of 30 feet."]
+        },
+        {
+            "name": "Aquatic Adapter",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["dragonborn"],
+            "entries": ["You gain a 15-foot swim speed."]
+        },
+        {
+            "name": "Mountain Adapter",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["dragonborn"],
+            "entries": ["You gain a 15-foot climb speed."]
+        },
+        {
+            "name": "Arcane Hide",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["dragonborn"],
+            "prerequisites": "Dragon Resilience",
+            "entries": [
+                "You gain a +1 status bonus to saves against magical effects."
+            ]
+        },
+        {
+            "name": "Draconic Pride",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["dragonborn"],
+            "activity": {
+                "number": 1,
+                "unit": "free"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "trigger": "You attempt a check using a skill you're trained in.",
+            "entries": [
+                "Your prideful nature pushes you to impress others with your talents. You gain a +4 circumstance bonus to the triggering skill check."
+            ]
+        },
+        {
+            "name": "Dragon Slayer",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["dragonborn"],
+            "activity": {
+                "number": 1,
+                "unit": "reaction"
+            },
+            "trigger": "You attempt a saving throw against a dragon's Frightful Presence or Breath Weapon.",
+            "prerequisites": "Dragon Hunter",
+            "entries": [
+                "You gain a +1 circumstance bonus to the triggering saving throw until the end of this turn. If you roll a critical failure on the saving throw, you get a failure instead."
+            ]
+        },
+        {
+            "name": "Dragon Wings",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["arcane", "dragonborn", "morph", "transmutation"],
+            "activity": {
+                "number": 2,
+                "unit": "action"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "entries": [
+                "Channeling draconic magic, you summon forth wings from your back, similar in appear to dragons. These wings remain for 10 minutes. You gain a fly Speed equal to your Speed while you've manifested your wings."
+            ]
+        },
+        {
+            "name": "Fury of Dragons",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["dragonborn"],
+            "activity": {
+                "number": 1,
+                "unit": "reaction"
+            },
+            "prerequisites": "access to the Cast a Spell activity",
+            "trigger": "A creature critically succeeds on a saving throw against a spell you cast with an energy type matching your Draconic Exemplar.",
+            "entries": [
+                "Your affinity to your heritage lets you bend magic. The enemy treats their critical success as a success."
+            ]
+        },
+        {
+            "name": "Fury of Dragons",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["dragonborn"],
+            "prerequisites": "Dragonborn Breath",
+            "entries": [
+                "When you use Dragonborn Breath, you can increase the damage dice to d8s and increase the area to 60 feet for a line breath weapon or 30 feet for a cone. If you do, you can't use Dragonborn Breath again for 1 hour."
+            ]
+        },
+        {
+            "name": "Elemental Mastery",
+            "source": "BREW",
+            "page": 1,
+            "level": 13,
+            "traits": ["dragonborn"],
+            "prerequisites": "Elemental Affinity",
+            "entries": [
+                "Your resistance from Elemental Affinity increases to 5 + half your level, and you can cast 4th-level heightened resist element as an innate arcane spell once per day. The spell only grants resistance to your heritage energy type, but you can target up to three creatures."
+            ]
+        },
+        {
+            "name": "Frightful Presence",
+            "source": "BREW",
+            "page": 1,
+            "level": 13,
+            "traits": ["dragonborn"],
+            "activity": {
+                "number": 2,
+                "unit": "action"
+            },
+            "frequency": {
+                "unit": "hour",
+                "freq": 1
+            },
+            "entries": [
+                "Attempt Intimidate checks to Demoralize each enemy within 30 feet."
+            ]
+        },
+        {
+            "name": "Inspiring Roar",
+            "source": "BREW",
+            "page": 1,
+            "level": 13,
+            "traits": ["dragonborn"],
+            "activity": {
+                "number": 2,
+                "unit": "action"
+            },
+            "frequency": {
+                "unit": "hour",
+                "freq": 1
+            },
+            "entries": [
+                "You let out a triumphant roar that pushes your allies to fight harder. You and all allies in a 30-foot emanation gain a +1 status bonus to checks, saving throws, and armor class until the end of their next turn."
+            ]
+        },
+        {
+            "name": "Draconic Paragon",
+            "source": "BREW",
+            "page": 1,
+            "level": 17,
+            "traits": ["dragonborn"],
+            "entries": [
+                "You have untapped the arcane blood of your draconic heritage to transform into a true dragon. You gain dragon form as a 6rd-level innate arcane spell that you can cast once per day, except that you can use your own AC and attack modifier, and gain temporary hit points equal to your level. You use your class DC for your breath weapon DC. The type of dragon you choose must match your Draconic Exemplar."
+            ]
+        },
+        {
+            "name": "Dragon Flight",
+            "source": "BREW",
+            "page": 1,
+            "level": 17,
+            "traits": ["dragonborn"],
+            "prerequisites": "Dragon Wings",
+            "entries": [
+                "Your wings are now a permanent part of your physiology. You gain the effects of Dragon Wings at all times, rather than just once per day for 10 minutes."
             ]
         }
     ]
