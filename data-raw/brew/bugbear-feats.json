@@ -1,0 +1,279 @@
+{
+    "feat": [
+        {
+            "name": "Bugbear Lore",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["bugbear"],
+            "entries": [
+                "You've studied bugbear traditions and survival tactics. You become trained in Athletics and Survival. For each of these skills in which you were already trained, you become trained in a skill of your choice. You also become trained in Bugbear Lore."
+            ]
+        },
+        {
+            "name": "Bugbear Weapon Familiarity",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["bugbear"],
+            "entries": [
+                "You are trained with composite longbows, composite shortbows, longbows, shortbows, flails, and war flails. In addition, you gain access to all uncommon goblin weapons. For the purpose of determining your proficiency, martial goblin weapons are simple weapons and advanced goblin weapons are martial weapons."
+            ]
+        },
+        {
+            "name": "Bully",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["bugbear"],
+            "entries": [
+                "Your long limbs and great strength provide you with an advantage in physical contests on the battlefield. Whenever you use an Athletics skill with the attack trait on a creature smaller than you, you gain a +1 circumstance bonus."
+            ]
+        },
+        {
+            "name": "Courage",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["bugbear"],
+            "entries": [
+                "Your courage on the battlefield is unmatched. You gain a +1 circumstance bonus to saves against effects with the fear trait, and a +2 circumstance bonus to your Will DC against Intimidate skill actions, such as Demoralize."
+            ]
+        },
+        {
+            "name": "Heavy Blows",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["bugbear"],
+            "entries": [
+                "Your long limbs give extra strength to your blows. The damage die for your fist increases to 1d6 instead of 1d4. You don't take a penalty when making a lethal attack with your fist or any other unarmed attack."
+            ]
+        },
+        {
+            "name": "Stalker",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["bugbear"],
+            "entries": [
+                "Stealth is an important tool in your arsenal. You can move 5 feet farther when you take the Sneak action, up to your Speed. In addition, as long as you continue to use Sneak actions and succeed at your Stealth check, you don't become observed if you don't have cover or greater cover and aren't concealed at the end of the Sneak action, as long as you have cover or greater cover or are concealed at the end of your turn."
+            ]
+        },
+        {
+            "name": "Storybook Monster",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["bugbear"],
+            "entries": [
+                "You use bugbears' reputation to your advantage. Against any of the common ancestries from Khorvaire, you gain a +1 circumstance bonus to intimidation checks."
+            ]
+        },
+        {
+            "name": "Vigorous Health",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["bugbear"],
+            "entries": [
+                "Your physique is robust and can withstand blood loss startlingly well. Whenever you would gain the drained condition, you can attempt a DC 17 flat check. On a success, you do not gain the drained condition."
+            ]
+        },
+        {
+            "name": "Bugbear Endurance",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["bugbear"],
+            "frequency": {
+                "unit": "hour",
+                "freq": 1
+            },
+            "activity": {
+                "number": 1,
+                "unit": "reaction"
+            },
+            "trigger": "You would be reduced to 0 Hit Points but not immediately killed.",
+            "entries": [
+                "You stand through wounds that would drop most mortals. Make a DC 10 flat check. On a success, you avoid being knocked out and remain at 1 Hit Point, and your wounded condition increases by 1.",
+                "If you are a Thradaask Guul'dar, you reduce the flat check to DC 9."
+            ]
+        },
+        {
+            "name": "Steadfast",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["bugbear"],
+            "prerequisites": "Courage",
+            "entries": [
+                "When you gain the fleeing condition, its value is reduced by 1 (to a minimum of 1). In addition, you may choose to Delay your turn even if you have the fleeing condition --- standing resolute in the face of fear."
+            ]
+        },
+        {
+            "name": "Sturdy Stance",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["bugbear"],
+            "entries": [
+                "You use your natural mass to resist effects that would move you against your will. Gain a +1 circumstance bonus to DCs to resist Athletics checks with the attack trait."
+            ]
+        },
+        {
+            "name": "Tyrant",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["bugbear"],
+            "prerequisites": "Bully",
+            "entries": [
+                "You're able to control the battlefield by throwing your muscle around. The effects of Bully apply to any creature at most one size larger than you and if your Athletics check is a critical failure, it is a failure instead."
+            ]
+        },
+        {
+            "name": "Unarmed Lunge",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["bugbear"],
+            "activity": {
+                "number": 1,
+                "unit": "action"
+            },
+            "requirements": "You have at least one hand free",
+            "entries": [
+                "You have an extraordinarily long reach --- and practice using it. With a combination of lunges and arcing swings, you can deliver blows at a distance on the battlefield. Make an unarmed Strike against a creature. This strike gains the Reach trait which does not stack with Reach from other sources. Alternatively, you can use make a Disarm, Shove, or Trip action instead of an unarmed Strike."
+            ]
+        },
+        {
+            "name": "Work Horse",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["bugbear"],
+            "entries": [
+                "You can use your mass and strength to carry more than most humanoids for longer durations. You gain the Hefty Hauler skill feat. In addition, when you have the encumbered condition, the speed penalty is reduced by 5."
+            ]
+        },
+        {
+            "name": "Bugbear Fortitude",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["bugbear"],
+            "entries": [
+                "Your hardiness lets you withstand more punishment than most before going down. Increase your maximum Hit Points by your level. When you have the dying condition, the DC of your recovery checks is equal to 9 + your dying value (instead of 10 + your dying value).",
+                "If you also have the Toughness feat, the Hit Points gained from it and this feat are cumulative, and the DC of your recovery checks is equal to 6 + your dying value.",
+                "If you also have Bugbear Endurance, the flat check DC is reduced by 1."
+            ]
+        },
+        {
+            "name": "Heavy Hauler",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["bugbear"],
+            "prerequisites": "Work Horse",
+            "entries": [
+                "You do not suffer any penalties from the Encumbered condition. You still cannot carry bulk greater than 10 plus your strength modifier."
+            ]
+        },
+        {
+            "name": "Stand by the Strong",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["bugbear", "auditory", "emotion", "mental"],
+            "activity": {
+                "number": 1,
+                "unit": "reaction"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "trigger": "An ally within 30 feet of you makes a saving throw against an effect with the fear trait.",
+            "entries": [
+                "You can use your reaction with a shout to reinforce your ally's courage in battle. If your ally can hear you, your ally gains a +2 circumstance bonus to their save. You can use your reaction after you know the result of the check."
+            ]
+        },
+        {
+            "name": "Unstoppable",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["bugbear"],
+            "entries": [
+                "Walking speed penalties can't reduce your Speed below 10 feet. In addition, when you use the Escape action, critical failures and successes are one step better."
+            ]
+        },
+        {
+            "name": "Flexible Might",
+            "source": "BREW",
+            "page": 1,
+            "level": 13,
+            "traits": ["bugbear"],
+            "entries": [
+                "Your long limbs and great strength are impossible for enemies to control. When you are Grabbed or Restrained, you may continue to use actions with the manipulate and attack trait."
+            ]
+        },
+        {
+            "name": "Silent Stalker",
+            "source": "BREW",
+            "page": 1,
+            "level": 13,
+            "traits": ["bugbear"],
+            "prerequisites": "Stalker",
+            "entries": [
+                "You can move up to your speed when you use the Sneak action, and you no longer need to have cover or greater cover or be concealed to Hide or Sneak."
+            ]
+        },
+        {
+            "name": "Unarmed Stance",
+            "source": "BREW",
+            "page": 1,
+            "level": 13,
+            "traits": ["bugbear", "stance"],
+            "requirements": "You have at least one hand free",
+            "entries": [
+                "You take up a stance to take advantage of your long limbs and swing with large arcs to lash out at distant enemies. While you are in this stance, your unarmed Strikes, Disarm, Shove, and Trip actions gain the reach trait. This trait does not stack with reach from other sources such as Unarmed Lunge."
+            ]
+        },
+        {
+            "name": "Bugbear Juggernaut",
+            "source": "BREW",
+            "page": 1,
+            "level": 17,
+            "traits": ["bugbear", "stance"],
+            "prerequisites": "Bugbear Endurance",
+            "activity": {
+                "number": 1,
+                "unit": "free"
+            },
+            "trigger": "You use Bugbear Endurance.",
+            "entries": [
+                "You refuse to fall no matter how many blows land. Bugbear Endurance gains the following levels of success based on the flat check.",
+                {
+                    "type": "successDegree",
+                    "entries": {
+                        "Critical Success": "As Success, but this activation of Bugbear Endurance doesn't count against the frequency.",
+                        "Success": "As in Bugbear Endurance, but your wounded condition does not increase."
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Martial Reach",
+            "source": "BREW",
+            "page": 1,
+            "level": 17,
+            "traits": ["bugbear"],
+            "prerequisites": "Unarmed Stance",
+            "entries": [
+                "Your weapons become extensions of your limbs on the battlefield, and you can extend the reach of your weapon attacks. While in the Unarmed Stance and wielding any melee weapon with which you are at least trained, it gains the Reach trait. If it already has the reach trait, the trait stacks."
+            ]
+        }
+    ]
+}

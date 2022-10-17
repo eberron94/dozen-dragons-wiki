@@ -130,6 +130,29 @@
         - feat.ancestry.botd.skeleton-commander
         - feat.ancestry.botd.undead-empathy
         - feat.ancestry.botd.well-armed
+        - feat.ancestry.bugbear.brew.bugbear-endurance
+        - feat.ancestry.bugbear.brew.bugbear-fortitude
+        - feat.ancestry.bugbear.brew.bugbear-juggernaut
+        - feat.ancestry.bugbear.brew.bugbear-lore
+        - feat.ancestry.bugbear.brew.bugbear-weapon-familiarity
+        - feat.ancestry.bugbear.brew.bully
+        - feat.ancestry.bugbear.brew.courage
+        - feat.ancestry.bugbear.brew.flexible-might
+        - feat.ancestry.bugbear.brew.heavy-blows
+        - feat.ancestry.bugbear.brew.heavy-hauler
+        - feat.ancestry.bugbear.brew.martial-reach
+        - feat.ancestry.bugbear.brew.silent-stalker
+        - feat.ancestry.bugbear.brew.stalker
+        - feat.ancestry.bugbear.brew.stand-by-the-strong
+        - feat.ancestry.bugbear.brew.steadfast
+        - feat.ancestry.bugbear.brew.storybook-monster
+        - feat.ancestry.bugbear.brew.sturdy-stance
+        - feat.ancestry.bugbear.brew.tyrant
+        - feat.ancestry.bugbear.brew.unarmed-lunge
+        - feat.ancestry.bugbear.brew.unarmed-stance
+        - feat.ancestry.bugbear.brew.unstoppable
+        - feat.ancestry.bugbear.brew.vigorous-health
+        - feat.ancestry.bugbear.brew.work-horse
         - feat.ancestry.catfolk.apg.aggravating-scratch
         - feat.ancestry.catfolk.apg.black-cat-curse
         - feat.ancestry.catfolk.apg.caterwaul
@@ -175,7 +198,27 @@
         - feat.ancestry.changeling.apg.mist-child
         - feat.ancestry.changeling.apg.occult-resistance
         - feat.ancestry.changeling.apg.slag-may
-        - feat.ancestry.changeling.brew.camoflage
+        - feat.ancestry.changeling.brew.amophous
+        - feat.ancestry.changeling.brew.aquatic-adaptation
+        - feat.ancestry.changeling.brew.camouflage
+        - feat.ancestry.changeling.brew.changeling-lore
+        - feat.ancestry.changeling.brew.clawed-adaptation
+        - feat.ancestry.changeling.brew.climbing-adaptation
+        - feat.ancestry.changeling.brew.deep-shift
+        - feat.ancestry.changeling.brew.emotional-empathy
+        - feat.ancestry.changeling.brew.marvelous-mimic
+        - feat.ancestry.changeling.brew.mind-of-the-traveler
+        - feat.ancestry.changeling.brew.personable-performer
+        - feat.ancestry.changeling.brew.rapid-regeneration
+        - feat.ancestry.changeling.brew.rapid-shift
+        - feat.ancestry.changeling.brew.shapechangers-intuition
+        - feat.ancestry.changeling.brew.skin-cant
+        - feat.ancestry.changeling.brew.skin-dancer
+        - feat.ancestry.changeling.brew.skin-glider
+        - feat.ancestry.changeling.brew.terrifying-shift
+        - feat.ancestry.changeling.brew.the-travelers-gift
+        - feat.ancestry.changeling.brew.the-travelers-protection
+        - feat.ancestry.changeling.brew.wellversed-traveler
         - feat.ancestry.changeling.loag.crones-cruelty
         - feat.ancestry.changeling.loag.cunning-hair
         - feat.ancestry.changeling.loag.favorable-winds
@@ -229,10 +272,30 @@
         - feat.ancestry.da.walk-on-the-wind
         - feat.ancestry.da.warp-likeness
         - feat.ancestry.da.warped-reflection
+        - feat.ancestry.dragonborn.brew.aquatic-adapter
+        - feat.ancestry.dragonborn.brew.arcane-hide
+        - feat.ancestry.dragonborn.brew.draconic-magic
+        - feat.ancestry.dragonborn.brew.draconic-paragon
+        - feat.ancestry.dragonborn.brew.draconic-pride
         - feat.ancestry.dragonborn.brew.draconic-savagery
+        - feat.ancestry.dragonborn.brew.draconic-snout
         - feat.ancestry.dragonborn.brew.draconic-sorcery
+        - feat.ancestry.dragonborn.brew.draconic-unarmed-cunning
+        - feat.ancestry.dragonborn.brew.dragon-flight
         - feat.ancestry.dragonborn.brew.dragon-hunter
         - feat.ancestry.dragonborn.brew.dragon-resilience
+        - feat.ancestry.dragonborn.brew.dragon-slayer
+        - feat.ancestry.dragonborn.brew.dragon-wings
+        - feat.ancestry.dragonborn.brew.dragonborn-breath
+        - feat.ancestry.dragonborn.brew.dragonborn-lore
+        - feat.ancestry.dragonborn.brew.elemental-affinity
+        - feat.ancestry.dragonborn.brew.elemental-mastery
+        - feat.ancestry.dragonborn.brew.frightful-presence
+        - feat.ancestry.dragonborn.brew.fury-of-dragons
+        - feat.ancestry.dragonborn.brew.fury-of-dragons
+        - feat.ancestry.dragonborn.brew.hoard-collector
+        - feat.ancestry.dragonborn.brew.inspiring-roar
+        - feat.ancestry.dragonborn.brew.mountain-adapter
         - feat.ancestry.dwarf.apg.defy-the-darkness
         - feat.ancestry.dwarf.apg.dwarven-doughtiness
         - feat.ancestry.dwarf.apg.dwarven-reinforcement
@@ -1014,6 +1077,31 @@
         - feat.ancestry.tiefling.loag.riftmarked
         - feat.ancestry.tiefling.loag.shackleborn
         - feat.ancestry.tiefling.loag.velstrac-magic
+        - feat.ancestry.warforged.brew.adamantine-tracery
+        - feat.ancestry.warforged.brew.battle-readiness
+        - feat.ancestry.warforged.brew.cold-iron-tracery
+        - feat.ancestry.warforged.brew.construct-body
+        - feat.ancestry.warforged.brew.construct-lock
+        - feat.ancestry.warforged.brew.construct-resiliency
+        - feat.ancestry.warforged.brew.construct-soul
+        - feat.ancestry.warforged.brew.fall-in-line
+        - feat.ancestry.warforged.brew.innate-forge
+        - feat.ancestry.warforged.brew.juggernaut-function
+        - feat.ancestry.warforged.brew.mithral-tracery
+        - feat.ancestry.warforged.brew.nocturnal-vision
+        - feat.ancestry.warforged.brew.powerful-slam
+        - feat.ancestry.warforged.brew.sentry-vision
+        - feat.ancestry.warforged.brew.silver-tracery
+        - feat.ancestry.warforged.brew.spiked-frame
+        - feat.ancestry.warforged.brew.storage-unit
+        - feat.ancestry.warforged.brew.superior-juggernaut
+        - feat.ancestry.warforged.brew.warforged-bulwark
+        - feat.ancestry.warforged.brew.warforged-bulwark-competence
+        - feat.ancestry.warforged.brew.warforged-bulwark-expertise
+        - feat.ancestry.warforged.brew.warforged-lore
+        - feat.ancestry.warforged.brew.warforged-weapon-competence
+        - feat.ancestry.warforged.brew.warforged-weapon-expertise
+        - feat.ancestry.warforged.brew.warforged-weapon-familiarity
         - feat.archetype.acrobat.class.apg.contortionist
         - feat.archetype.acrobat.class.apg.dodge-away
         - feat.archetype.acrobat.class.apg.tumbling-opportunist

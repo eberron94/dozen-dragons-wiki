@@ -72,7 +72,15 @@ const getContent = ({
     line = 'property';
     if (hands) line += ` | Hands | ${hands}`;
     if (bulk) line += ` | Bulk | ${bulk}`;
-    if (price) line += ` | Price | ${price.amount} ${price.coin}`;
+    if (line !== 'property') lineArr.push(line);
+
+    line = 'property';
+    if (price) {
+        line += ` | Price | ${price.amount} ${price.coin}`;
+        line += ` | Crafting | ${Math.floor(Number(price.amount) * 0.75)} ${
+            price.coin
+        }`;
+    }
     if (line !== 'property') lineArr.push(line);
 
     if (category === 'Weapon') {
@@ -85,27 +93,48 @@ const getContent = ({
     }
 
     if (category === 'Armor' && armorData) {
-        line = 'property';
-        if (armorData.ac) line += ` | AC Bonus | +${armorData.ac}`;
-        if (armorData.dexCap) line += ` | Dex Cap | +${armorData.dexCap}`;
-        if (line !== 'property') lineArr.push(line);
-
-        line = 'property';
-        if (armorData.str) line += ` | Str Req. | ${armorData.str}`;
-        if (armorData.checkPen)
-            line += ` | Check Penalty | --${armorData.checkPen}`;
-        if (armorData.speedPen)
-            line += ` | Speed Penalty | --${armorData.speedPen} ft.`;
-        if (line !== 'property') lineArr.push(line);
+        let armorHead = 'tablehead';
+        line = 'row';
+        if (armorData.ac) {
+            line += ` | +${armorData.ac}`;
+            armorHead += ` | AC Bonus `;
+        }
+        if (armorData.dexCap) {
+            line += ` | +${armorData.dexCap}`;
+            armorHead += ` | Dex Cap `;
+        }
+        if (armorData.str) {
+            line += ` | ${armorData.str}`;
+            armorHead += ` | Str Req. `;
+        }
+        if (armorData.checkPen) {
+            line += ` | --${armorData.checkPen}`;
+            armorHead += ` | Check Pen. `;
+        }
+        if (armorData.speedPen) {
+            line += ` |  --${armorData.speedPen} ft.`;
+            armorHead += ` | Spd Pen. `;
+        }
+        if (line !== 'row') {
+            lineArr.push(armorHead);
+            lineArr.push(line);
+        }
 
         line = 'property';
         if (armorData.ac) line += ` | Category | ${subCategory} Armor`;
         if (armorData?.group) line += ` | Group | ${armorData.group}`;
+
         if (line !== 'property') lineArr.push(line);
     }
 
     if (frequency?.unit) {
-        lineArr.push('property | Frequency | once per ' + frequency.unit);
+        if (frequency.interval > 1)
+            lineArr.push(
+                `property | Frequency | once per ${frequency.interval} ${frequency.unit}s`
+            );
+        else lineArr.push(`property | Frequency | once per ${frequency.unit}`);
+    } else if (frequency?.entry) {
+        lineArr.push(`property | Frequency | ${frequency.entry}`);
     }
 
     lineArr.push('rule');

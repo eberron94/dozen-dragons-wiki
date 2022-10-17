@@ -7,7 +7,7 @@
             "level": 1,
             "traits": ["dragonborn"],
             "entries": [
-                "You gain the trained proficiency rank in Arcana and Intimidation. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Dragonborn Lore."
+                "You have studied the ancient cultures and stories of the dragonborn. You become trained in Arcana and Intimidation. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Dragonborn Lore."
             ]
         },
         {
@@ -257,7 +257,7 @@
                 "freq": 1
             },
             "entries": [
-                "Attempt Intimidate checks to Demoralize each enemy within 30 feet."
+                "Your dragon's blood well up and you let out a terrifying roar. Attempt Intimidate checks to Demoralize each enemy within 30 feet."
             ]
         },
         {
