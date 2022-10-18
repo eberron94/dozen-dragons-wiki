@@ -97,7 +97,7 @@
             "trigger": "You would be reduced to 0 Hit Points but not immediately killed.",
             "entries": [
                 "You stand through wounds that would drop most mortals. Make a DC 10 flat check. On a success, you avoid being knocked out and remain at 1 Hit Point, and your wounded condition increases by 1.",
-                "If you are a Thradaask Guul'dar, you reduce the flat check to DC 9."
+                "{@b Special} If you are a Thradaask Guul'dar, you reduce the flat check to DC 9."
             ]
         },
         {
@@ -165,8 +165,8 @@
             "traits": ["bugbear"],
             "entries": [
                 "Your hardiness lets you withstand more punishment than most before going down. Increase your maximum Hit Points by your level. When you have the dying condition, the DC of your recovery checks is equal to 9 + your dying value (instead of 10 + your dying value).",
-                "If you also have the Toughness feat, the Hit Points gained from it and this feat are cumulative, and the DC of your recovery checks is equal to 6 + your dying value.",
-                "If you also have Bugbear Endurance, the flat check DC is reduced by 1."
+                "{@b Special} If you also have the Toughness feat, the Hit Points gained from it and this feat are cumulative, and the DC of your recovery checks is equal to 6 + your dying value.",
+                "{@b Special} If you also have Bugbear Endurance, the flat check DC is reduced by 1."
             ]
         },
         {

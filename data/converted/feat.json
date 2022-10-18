@@ -1957,7 +1957,7 @@
             "property | Frequency | once per hour",
             "rule",
             "text | You stand through wounds that would drop most mortals. Make a DC 10 flat check. On a success, you avoid being knocked out and remain at 1 Hit Point, and your wounded condition increases by 1.",
-            "text | If you are a Thradaask Guul'dar, you reduce the flat check to DC 9."
+            "text | **Special** If you are a Thradaask Guul'dar, you reduce the flat check to DC 9."
         ],
         "level": 5
     },
@@ -1971,8 +1971,8 @@
             "pftrait | bugbear",
             "rule",
             "text | Your hardiness lets you withstand more punishment than most before going down. Increase your maximum Hit Points by your level. When you have the dying condition, the DC of your recovery checks is equal to 9 + your dying value (instead of 10 + your dying value).",
-            "text | If you also have the Toughness feat, the Hit Points gained from it and this feat are cumulative, and the DC of your recovery checks is equal to 6 + your dying value.",
-            "text | If you also have Bugbear Endurance, the flat check DC is reduced by 1."
+            "text | **Special** If you also have the Toughness feat, the Hit Points gained from it and this feat are cumulative, and the DC of your recovery checks is equal to 6 + your dying value.",
+            "text | **Special** If you also have Bugbear Endurance, the flat check DC is reduced by 1."
         ],
         "level": 9
     },
@@ -2969,7 +2969,7 @@
             "pftrait | changeling",
             "rule",
             "text | You excel at navigating social situations and keeping secrets. You gain the trained proficiency rank in Diplomacy and Deception. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Changeling Lore.",
-            "text | If you are a Persona Changeling, the DC of your checks to find a persona in a settlement is reduced by 2."
+            "text | **Special** If you are a Persona Changeling, the DC of your checks to find a persona in a settlement is reduced by 2."
         ],
         "level": 1
     },
@@ -3134,7 +3134,7 @@
             "property | Prerequisites | expert in Performance",
             "rule",
             "text | You are a master of the unique changeling art of skin dancing. You can create intricate patterns and even images on your skin, and shift them about in mesmerizing ways. You can achieve effects such as lighting coursing up your arms, or and fire dancing in a crown around your brow. You gain the Virtuosic Performer skill feat in the specialty of dance (if you already have the Virtuosic Performer in dance, you may choose an additional different specialty). When you use the Virtuosic Performer feat for dance, you gain a +1 status bonus if you augment your performance with a special use of Changeling Shape, or +2 if you are Legendary in Performance.",
-            "text | If you have the Personable Performer as well, Skin Dance counts for the favorable form."
+            "text | **Special** If you have the Personable Performer as well, Skin Dance counts for the favorable form."
         ],
         "level": 9
     },
@@ -3149,7 +3149,7 @@
             "property | Trigger | You begin to fall more than 30 feet.",
             "rule",
             "text | When you begin to fall, you're able to shift your shape to maximize your air resistance, not unlike a flying squirrel. Your fall slows to 60 feet per round. This rapid change is extremely obvious to any observers watching, and all of them become aware that you are a changeling.",
-            "text | If you have the Rapid Shift feat, the trigger is instead when you begin to fall more than 5 feet."
+            "text | **Special** If you have the Rapid Shift feat, the trigger is instead when you begin to fall more than 5 feet."
         ],
         "level": 5
     },
@@ -15060,6 +15060,660 @@
             "text | Just the taste of fiendish blood is enough to send blood rushing through your veins in a supernatural fury. You become quickened until the end of your next turn and you can use the extra action to make a tusks Strike, Stride, or Step."
         ],
         "level": 5
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.animal-magic",
+        "color": "",
+        "title": "Animal Magic",
+        "icon_front": "azul-flake",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | Your shapeshifting grants you a magical connection to the animal world. You can cast animal messenger, calm emotions (animals only), and speak with animals as 2nd-level primal innate spells once per day each. These spells use your class DC or spell DC, whichever is higher."
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.animal-magnetism",
+        "color": "",
+        "title": "Animal Magnetism",
+        "icon_front": "azul-flake",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | Your heritage gives you a strong animal presence. You gain a +1 circumstance bonus to Diplomacy, and Intimidation against animals and beasts, and to Nature checks to Command an Animal.",
+            "text | **Special** If you have the Dreamsight shifter heritage, your circumstance bonus is +2."
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.animal-olfactory",
+        "color": "",
+        "title": "Animal Olfactory",
+        "icon_front": "azul-flake",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | Your sense of smell is like an animal. You gain scent (imprecise) 30 feet.",
+            "text | **Special** If you are a Wildhunt shifter, your scent (imprecise) increases to 50 feet."
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.animal-swiftness",
+        "color": "",
+        "title": "Animal Swiftness",
+        "icon_front": "azul-flake",
+        "code": "feat 17",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | You move like an animal. Your Speed increases by 5 feet. In addition, you gain one of the following Speeds available to your beast within: climb, fly, or swim. You gain this Speed only while in your hybrid shape. The new movement is as fast as your land Speed; for example, if you have a 30-foot Speed, you can gain a 30-foot climb Speed. If your beast within doesn't typically have a specific type of Speed, you can't gain it with this feat. If your beast within doesn't typically have a climb, fly, or swim Speed, your land Speed increases by 10 feet instead."
+        ],
+        "level": 17
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.animal-swiftness",
+        "color": "",
+        "title": "Animal Swiftness",
+        "icon_front": "azul-flake",
+        "code": "feat 17",
+        "contents": [
+            "pftrait | shifter",
+            "property | Prerequisites | Dreamsight heritage",
+            "rule",
+            "text | Your sense of the world increase to perceive all things as they are. You gain the true perception general feat, even if you don't meet the prerequisites. In addition, you gain the lifesense of your hybrid form as an imprecise sense with a range of 15 feet while in your humanoid form. This lifesense can detect any animal, beast, humanoid, or plant creature. While in your hybrid form your lifesense becomes a precise sense.",
+            "text | **Special** If you have the Dreamsight Expert feat, you can detect any creature type while in your humanoid form with your lifesense."
+        ],
+        "level": 17
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.animalistic-resistance",
+        "color": "",
+        "title": "Animalistic Resistance",
+        "icon_front": "azul-flake",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | Your animalistic connections help you resist natural afflictions. You gain a +2 circumstance bonus to saves to resist diseases and poisons."
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.beasthide-endurance",
+        "color": "",
+        "title": "Beasthide Endurance [[reaction]]",
+        "icon_front": "azul-flake",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | shifter",
+            "property | Prerequisites | Beasthide heritage",
+            "property | Trigger | You are in your hybrid form and would be reduced to 0 Hit Points but not immediately killed.",
+            "property | Frequency | once per day",
+            "rule",
+            "text | You are a tenacious combatant, continuing to fight when others would succumb to pain and injury. You avoid being knocked out and remain at 1 Hit Point, and your wounded condition increases by 1."
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.bounce-back",
+        "color": "",
+        "title": "Bounce Back [[free-action]]",
+        "icon_front": "azul-flake",
+        "code": "feat 13",
+        "contents": [
+            "pftrait | shifter",
+            "property | Trigger | You lose the dying condition.",
+            "property | Frequency | once per day",
+            "rule",
+            "text | You recover from near-death experiences with astounding resilience. Don't increase the value of your wounded condition due to losing the dying condition."
+        ],
+        "level": 13
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.cliffwalker-elite",
+        "color": "",
+        "title": "Cliffwalker Elite",
+        "icon_front": "azul-flake",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | shifter",
+            "property | Prerequisites | Cliffwalker heritage",
+            "rule",
+            "text | You gain a climb Speed of 10 feet. While in hybrid-form, your climb Speed increases to 25 feet."
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.dire-shape",
+        "color": "",
+        "title": "Dire Shape",
+        "icon_front": "azul-flake",
+        "code": "feat 13",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | Your hybrid-form grows larger and more menacing. While in hybrid-form, you gain the effects of the Enlarge spell."
+        ],
+        "level": 13
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.dreamsight-expert",
+        "color": "",
+        "title": "Dreamsight Expert",
+        "icon_front": "azul-flake",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | shifter",
+            "property | Prerequisites | Dreamsight heritage",
+            "rule",
+            "text | Your senses are keen, and you can pick up on the life force traces of any creature. While in your hybrid form, your lifesense can detect any creature not protected against detection by magical means."
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.fledgling-flight",
+        "color": "",
+        "title": "Fledgling Flight [[one-action]]",
+        "icon_front": "azul-flake",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | move | shifter",
+            "property | Prerequisites | Swiftwing heritage",
+            "property | Requirements | You are in your hybrid-form.",
+            "property | Frequency | once per round",
+            "rule",
+            "text | You fly through the air in short bursts at half your land Speed. If you don't end your movement on solid ground, you fall at the end of your turn."
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.fleet-step",
+        "color": "",
+        "title": "Fleet Step [[one-action]]",
+        "icon_front": "azul-flake",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | With a quick step, you use your natural agility to stay light on your feet as you move. You Step 5 feet twice."
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.gift-of-the-moon",
+        "color": "",
+        "title": "Gift of the Moon",
+        "icon_front": "azul-flake",
+        "code": "feat 13",
+        "contents": [
+            "pftrait | shifter",
+            "property | Prerequisites | Dreamsight heritage",
+            "rule",
+            "text | You can share your power with others, but they can't escape the call of the wild as easily as you can. You can cast a 5th-level moon frenzy as a primal innate spell once per day. At 15th level, you cast a 6th-level moon frenzy instead. At 17th level, your 6th-level moon frenzy grants its standard effects, except the temporary Hit Points increase to 15 and the silver weakness increases to 15. At 20th level, you cast a 10th-level moon frenzy instead. The spell uses your class DC or spell DC, whichever is higher."
+        ],
+        "level": 13
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.gorebrute-vengence",
+        "color": "",
+        "title": "Gorebrute Vengence [[reaction]]",
+        "icon_front": "azul-flake",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | emotion | mental | shifter",
+            "property | Prerequisites | Gorebrute heritage",
+            "property | Trigger | You, or an ally you can see, are damaged by an enemy's critical hit and you are in your hybrid form.",
+            "property | Frequency | once per 10 minutes",
+            "rule",
+            "text | You dedicate yourself to destroying those who harm your companions. Until the end of your next turn, you deal an additional +1d6 damage on Strikes against the triggering enemy. The bonus increases to +2d6 at 4th level and +3d6 at 12th level."
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.greater-animal-sense",
+        "color": "",
+        "title": "Greater Animal Sense",
+        "icon_front": "azul-flake",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | Your senses advance to match those of your animal aspect. You gain one of the following senses available to your beast within: echolocation (imprecise) 30 feet, tremorsense (imprecise) 30 feet, or wavesense (imprecise) 30 feet. If your beast within doesn't typically have a specific type of sense, you can't gain the sense with this feat.",
+            "text | **Special** You can select this feat multiple times, choosing a different sense each time."
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.group-aid",
+        "color": "",
+        "title": "Group Aid [[one-action]]",
+        "icon_front": "azul-flake",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | Your upbringing emphasized teamwork and helping your allies comes naturally to you. After you Aid an ally at a skill check that doesn't have the attack trait, you can also Aid any other ally who attempts the same skill check for the same purpose that round. You do so as a free action rather than a reaction.",
+            "text | The preparation you did to help must still apply to the other allies, and you can Aid each ally only once. For example, if you helped lift up an ally to Aid them on an Athletics check to scale a wall, you could keep the same posture to give a boost to other allies attempting to scale the wall in the same round."
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.hardy-traveler",
+        "color": "",
+        "title": "Hardy Traveler",
+        "icon_front": "azul-flake",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | There's no journey too far or burden too heavy when your friends are at your side. Increase your maximum and encumbered Bulk limits by 1. In addition, you gain a +10-foot circumstance bonus to your Speed during overland travel."
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.hybrid-strength",
+        "color": "",
+        "title": "Hybrid Strength",
+        "icon_front": "azul-flake",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | You have strengthened your connection to your hybrid-form. Your hybrid-form transformation has no maximum duration."
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.inner-focus",
+        "color": "",
+        "title": "Inner Focus [[reaction]]",
+        "icon_front": "azul-flake",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | shifter",
+            "property | Trigger | You roll a critical failure on a saving throw against an emotion effect.",
+            "property | Frequency | once per day",
+            "rule",
+            "text | You center yourself. You fail the save against the emotion effect instead of critically failing."
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.juvenile-flight-shape",
+        "color": "",
+        "title": "Juvenile Flight Shape [[one-action]]",
+        "icon_front": "azul-flake",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | shifter",
+            "property | Prerequisites | Swiftwing heritage",
+            "property | Requirements | Your last action was Shifter Shape and you are in hybrid-form.",
+            "property | Frequency | once per day",
+            "rule",
+            "text | You continue to shift your form, with special focus on your wings. You gain a fly Speed equal to your land Speed while your wings are unfurled in hybrid-form. If you have Fledgling Flight, you gain a +10-foot status bonus to your fly Speed with Juvenile Flight Shape. As normal, since your fly Speed is derived from your land Speed, this status bonus isn't cumulative with a status bonus to your land Speed, if you have one.",
+            "text | **Special** If you have the Hybrid Strength feat, your hybrid-form has a maximum duration of 30 minutes."
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.lingering-curse",
+        "color": "",
+        "title": "Lingering Curse",
+        "icon_front": "azul-flake",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | Shifter's have a natural resistance to curses, believed to be a result from the Lycanthrope curse creating them or from their connection to nature. You gain a +1 circumstance bonus to saving throws against curses, and to saving throws against spells cast by a daelkyr. If you roll a success on a saving throw against a curse or a spell cast by a daelkyr, you get a critical success instead."
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.longstrider-elite",
+        "color": "",
+        "title": "Longstrider Elite",
+        "icon_front": "azul-flake",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | shifter",
+            "property | Prerequisites | Longstrider heritage",
+            "rule",
+            "text | You increase your Speed by 5 feet. While in your hybrid form, your Speed is increased by an additional 5 feet."
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.longtooth-elite",
+        "color": "",
+        "title": "Longtooth Elite",
+        "icon_front": "azul-flake",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | shifter",
+            "property | Prerequisites | Longtooth heritage",
+            "rule",
+            "text | Your proficiency with your bite becomes devastating. Your jaws unarmed attack becomes part of the Pick weapon group and you gain the Critical Specialization effect for your jaws unarmed attack."
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.natural-skill",
+        "color": "",
+        "title": "Natural Skill",
+        "icon_front": "azul-flake",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | Your survival instinct and drive to be self-sufficient allow you to learn a wide variety of skills. You gain the trained proficiency rank in two skills of your choice."
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.night-senses",
+        "color": "",
+        "title": "Night Senses",
+        "icon_front": "azul-flake",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | Your senses sharpen and you have the ability to see through the dark and gloom. You gain darkvision."
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.pack-bond",
+        "color": "",
+        "title": "Pack Bond",
+        "icon_front": "azul-flake",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | shifter",
+            "property | Prerequisites | Pack Hunter",
+            "rule",
+            "text | You have developed a soul-deep bond with your comrades and maintain an even greater degree of cooperation with them. If you are at least an expert in the skill you are Aiding, you get a success on any outcome rolled to Aid other than a critical success."
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.pack-hunter",
+        "color": "",
+        "title": "Pack Hunter",
+        "icon_front": "azul-flake",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | You were taught how to hunt as part of a pack. You gain a +2 circumstance bonus to checks to Aid, and your allies gain a +2 circumstance bonus to checks to Aid you."
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.pack-stalker",
+        "color": "",
+        "title": "Pack Stalker",
+        "icon_front": "azul-flake",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | shifter",
+            "property | Prerequisites | Pack Hunter; expert in Stealth",
+            "rule",
+            "text | Hunting with a pack is a shifter tradition. You gain the Terrain Stalker feat and can extend its effects to a single ally so long as they remain within 10 ft. of you. If you have master proficiency in Stealth, you can extend the effect to two allies. If you have legendary proficiency in Stealth, you can extend it to four allies."
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.pack-tactics",
+        "color": "",
+        "title": "Pack Tactics",
+        "icon_front": "azul-flake",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | shifter",
+            "property | Prerequisites | Pack Hunter",
+            "rule",
+            "text | You have mastered how to hunt with your pack. If an enemy is within reach of you and at least two of your allies, that enemy is flat-footed against you."
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.quick-shape",
+        "color": "",
+        "title": "Quick Shape [[free-action]]",
+        "icon_front": "azul-flake",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | shifter",
+            "property | Trigger | You roll initiative.",
+            "rule",
+            "text | Your instincts kick in and you take on an aggressive stance. You use Change Shape to enter or exit your hybrid form."
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.razorclaw-elite",
+        "color": "",
+        "title": "Razorclaw Elite",
+        "icon_front": "azul-flake",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | shifter",
+            "property | Prerequisites | Razorclaw heritage",
+            "rule",
+            "text | Your proficiency with your claws causes bleeding wounds. Your claws unarmed attack becomes part of the Knife weapon group and you gain the Critical Specialization effect for your claws unarmed attack."
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.sense-allies",
+        "color": "",
+        "title": "Sense Allies",
+        "icon_front": "azul-flake",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | Like many shifters raised in a close-knit community, you have always been strongly attuned to the presence of others. Willing allies that you are aware of within 60 feet that would otherwise be undetected by you are instead hidden from you. The flat check for you to target willing allies within 60 feet that are hidden from you is 5 instead of 11."
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.shifter-instincts",
+        "color": "",
+        "title": "Shifter Instincts",
+        "icon_front": "azul-flake",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | Your heritage has given you sharp senses and quick reflexes, and you have learned to trust your equally sharp instincts. You gain a +1 circumstance bonus to Perception checks to Seek, Sense Motive, and Initiative rolls."
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.shifter-lore",
+        "color": "",
+        "title": "Shifter Lore",
+        "icon_front": "azul-flake",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | You learned skills for surviving no matter the shifter community you were raised in. You gain the trained proficiency rank in Nature and Survival. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Shifter Lore."
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.shifter-paragon",
+        "color": "",
+        "title": "Shifter Paragon",
+        "icon_front": "azul-flake",
+        "code": "feat 13",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | You are a paragon of shifters and manifest the traits of a second shifter heritage. Select a shifter heritage other than your current heritage. You gain the heritage effects and may select feats restricted to this heritage. While in your hybrid form, you gain the benefits of both of your heritages."
+        ],
+        "level": 13
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.shifter-weapon-expertise",
+        "color": "",
+        "title": "Shifter Weapon Expertise",
+        "icon_front": "azul-flake",
+        "code": "feat 13",
+        "contents": [
+            "pftrait | shifter",
+            "property | Prerequisites | Shifter Weapon Familiarity",
+            "rule",
+            "text | Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency rank in all weapons you are trained in from Shifter Weapon Familiarity."
+        ],
+        "level": 13
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.shifter-weapon-familiarity",
+        "color": "",
+        "title": "Shifter Weapon Familiarity",
+        "icon_front": "azul-flake",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | You favor the weapons common to shifters. You are trained with the hatchet, kama, kukri, scimitar, and sickle. In addition, you gain access to kama, kukris, and all uncommon shifter weapons. For you, martial shifter weapons are simple weapons and advanced shifter weapons are martial weapons."
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.shifter-weapon-prowess",
+        "color": "",
+        "title": "Shifter Weapon Prowess",
+        "icon_front": "azul-flake",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | shifter",
+            "property | Prerequisites | Shifter Weapon Familiarity",
+            "rule",
+            "text | You know how to efficiently use the weapons of the shifters. Whenever you critically hit using a shifter weapon or one of the weapons listed in Shifter Weapon Familiarity, you apply the weapon's critical specialization effect."
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.stubborn-persistence",
+        "color": "",
+        "title": "Stubborn Persistence",
+        "icon_front": "azul-flake",
+        "code": "feat 13",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | Shifters are renowned for their ability like humans, to persist through the most grueling of trials. When you would become fatigued, attempt a DC 17 flat check. On a success, you aren't fatigued. If the fatigued condition has an underlying cause that you don't address, such as lack of rest, you must attempt the check again at an interval determined by the GM until you fail the flat check or address the underlying cause.",
+            "text | **Special** If you are a Beasthide or Gorebrute shifter, you reduce the flat check to DC 16."
+        ],
+        "level": 13
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.swiftwing-elite",
+        "color": "",
+        "title": "Swiftwing Elite",
+        "icon_front": "azul-flake",
+        "code": "feat 13",
+        "contents": [
+            "pftrait | shifter",
+            "property | Prerequisites | Swiftwing heritage; Juvenile Flight Shape",
+            "rule",
+            "text | You gain the effects of Juvenile Flight Shape whenever you change into your hybrid-form. This includes the status bonus to your Speed if you have Fledgling Flight. Additionally, if you have the Hybrid Strength feat, there is no maximum duration."
+        ],
+        "level": 13
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.terrain-advantage",
+        "color": "",
+        "title": "Terrain Advantage",
+        "icon_front": "azul-flake",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | You can take advantage of the terrain to bypass foes' defences. While in your hybrid form, non-shifter creatures in difficult terrain are flat-footed to you."
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.thick-skin",
+        "color": "",
+        "title": "Thick Skin",
+        "icon_front": "azul-flake",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | shifter",
+            "property | Prerequisites | Beasthide heritage",
+            "rule",
+            "text | Your skin has thickened with battle, granting you greater resistance to damage. Your DC on flat checks to end persistent bleed damage is reduced from 15 to 10, or from 10 to 5 after receiving especially appropriate assistance."
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.truedive-elite",
+        "color": "",
+        "title": "Truedive Elite",
+        "icon_front": "azul-flake",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | shifter",
+            "property | Prerequisites | Truedive heritage",
+            "rule",
+            "text | You gain a 10 foot swim Speed and the Underwater Marauder skill feat. While in your hybrid form, your swim Speed is 25 feet."
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.unarmed-cunning",
+        "color": "",
+        "title": "Unarmed Cunning",
+        "icon_front": "azul-flake",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | shifter",
+            "property | Prerequisites | Gorebrute, Longtooth, or Razorclaw heritage",
+            "rule",
+            "text | You make the most of your unarmed attacks. Whenever you score a critical hit with an unarmed attack you gained from your shifter heritage or a shifter ancestry feat, you apply the unarmed attack's critical specialization effect."
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.wild-stealth",
+        "color": "",
+        "title": "Wild Stealth",
+        "icon_front": "azul-flake",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | shifter",
+            "rule",
+            "text | You can call upon your bestial heritage to increase your stealth. You can move 5 feet farther when you take the Sneak action, up to your Speed.",
+            "text | In addition, while in your hybrid form as long as you continue to use Sneak actions and succeed at your Stealth check, you don't become observed if you don't have cover or greater cover and aren't concealed at the end of the Sneak action, as long as you have cover or greater cover or are concealed at the end of your turn."
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.ancestry.shifter.brew.wildhunt-elite",
+        "color": "",
+        "title": "Wildhunt Elite",
+        "icon_front": "azul-flake",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | shifter",
+            "property | Prerequisites | Wildhunt heritage",
+            "rule",
+            "text | Your shifter-enhanced instincts and senses allow you to detect concealed and invisible creatures. You gain scent (precise) 15 feet.",
+            "text | **Special** If you have the Animal Olfactory feat, you instead gain scent (precise) 20 feet."
+        ],
+        "level": 9
     },
     {
         "id": "feat.ancestry.som.basic-spellcasting",

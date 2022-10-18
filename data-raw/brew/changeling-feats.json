@@ -50,7 +50,7 @@
             "traits": ["changeling"],
             "entries": [
                 "You excel at navigating social situations and keeping secrets. You gain the trained proficiency rank in Diplomacy and Deception. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Changeling Lore.",
-                "If you are a Persona Changeling, the DC of your checks to find a persona in a settlement is reduced by 2."
+                "{@b Special} If you are a Persona Changeling, the DC of your checks to find a persona in a settlement is reduced by 2."
             ]
         },
         {
@@ -156,7 +156,7 @@
             "trigger": "You begin to fall more than 30 feet.",
             "entries": [
                 "When you begin to fall, you're able to shift your shape to maximize your air resistance, not unlike a flying squirrel. Your fall slows to 60 feet per round. This rapid change is extremely obvious to any observers watching, and all of them become aware that you are a changeling.",
-                "If you have the Rapid Shift feat, the trigger is instead when you begin to fall more than 5 feet."
+                "{@b Special} If you have the Rapid Shift feat, the trigger is instead when you begin to fall more than 5 feet."
             ]
         },
 
@@ -219,7 +219,7 @@
             "prerequisites": "expert in Performance",
             "entries": [
                 "You are a master of the unique changeling art of skin dancing. You can create intricate patterns and even images on your skin, and shift them about in mesmerizing ways. You can achieve effects such as lighting coursing up your arms, or and fire dancing in a crown around your brow. You gain the Virtuosic Performer skill feat in the specialty of dance (if you already have the Virtuosic Performer in dance, you may choose an additional different specialty). When you use the Virtuosic Performer feat for dance, you gain a +1 status bonus if you augment your performance with a special use of Changeling Shape, or +2 if you are Legendary in Performance.",
-                "If you have the Personable Performer as well, Skin Dance counts for the favorable form."
+                "{@b Special} If you have the Personable Performer as well, Skin Dance counts for the favorable form."
             ]
         },
 
