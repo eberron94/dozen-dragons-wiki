@@ -41,7 +41,10 @@ exports.composeCard = (original) => {
             if (found) return found;
 
             // ATTEMPT NAME BASED SEARCH
-            found = list.find((item) => item.data.title.includes(searchStr));
+            found =
+                list.find((item) => item.data.title === searchStr) ||
+                list.find((item) => item.data.title.startsWith(searchStr)) ||
+                list.find((item) => item.data.title.includes(searchStr));
             if (found) return found;
 
             // BREAK INTO SEARCH PARAMS

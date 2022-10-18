@@ -38,8 +38,9 @@ const getItemList = () => {
 
     const spells = list.filter((e) => e.id.startsWith('spell')).map(toLI);
     const feats = list.filter((e) => e.id.startsWith('feat')).map(toLI);
+    const actions = list.filter((e) => e.id.startsWith('action')).map(toLI);
 
-    return { items, feats, spells };
+    return { items, feats, spells, actions };
 };
 
 const addItem = (newId) => {
@@ -115,6 +116,9 @@ const handleUpdateId = () => {
     if (itemLists.feats?.length)
         inner += `<li>Feats<ul>${itemLists.feats.join('')}</ul></li>`;
 
+    if (itemLists.actions?.length)
+        inner += `<li>Actions<ul>${itemLists.actions.join('')}</ul></li>`;
+
     dList.innerHTML = inner;
 };
 
@@ -158,10 +162,10 @@ const handleClickToggleManager = (event) => {
 
 const handleCopyId = (event) => {
     event.preventDefault();
-    const idList = getList();
+    const idList = getList().join(', ');
     console.log('copying', idList);
-    if (isList.length) {
-        navigator.clipboard.writeText(idList.join(', '));
+    if (idList.length) {
+        navigator.clipboard.writeText(idList);
         toast('Copied IDs to clipboard');
     }
 };
@@ -195,9 +199,11 @@ const handleCopyName = (event) => {
     if (!idList.length) return;
 
     const names = idList2Names(idList);
-
-    navigator.clipboard.writeText(names);
-    toast('You have selected the following cards:\n' + names);
+    console.log('copying', names);
+    if (names.length) {
+        navigator.clipboard.writeText(names);
+        toast('You have selected the following cards:\n' + names);
+    }
 };
 
 const handleCopyData = (event) => {
@@ -225,7 +231,10 @@ const handleClickToTop = () => {
 };
 
 document.addEventListener('click', (event) => {
-    if (event.target.matches('.item-card-title img') || event.target.matches('.item-ref>img,.item-ref>a') )
+    if (
+        event.target.matches('.item-card-title img') ||
+        event.target.matches('.item-ref>img,.item-ref>a')
+    )
         return handleClickCopyId(event);
 
     if (event.target.matches('#id-tool-menu-selected-list .delete'))
