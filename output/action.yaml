@@ -11,6 +11,8 @@
         - action.ancestry.kitsune.loag.invigorating-fear
         - action.ancestry.kobold.apg.tail-toxin
         - action.ancestry.lizardfolk.locg.threatening-approach
+        - action.ancestry.shifter.brew.brace
+        - action.ancestry.shifter.brew.shifter-shape
         - action.ancestry.shisk.lome.barbed-quills
         - action.basic.crb.activate-an-item
         - action.basic.crb.affix-a-talisman

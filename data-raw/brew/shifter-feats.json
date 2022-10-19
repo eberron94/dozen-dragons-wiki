@@ -1,0 +1,611 @@
+{
+    "action": [
+        {
+            "name": "Shifter Shape",
+            "source": "BREW",
+            "page": 1,
+            "activity": {
+                "number": 1,
+                "unit": "action"
+            },
+            "frequency": {
+                "unit": "hour",
+                "freq": 1
+            },
+            "actionType": {
+                "ancestry": ["Shifter"]
+            },
+            "traits": ["concentrate", "primal", "transmutation", "polymorph"],
+            "entries": [
+                "You assume a more bestial shape. This hybrid-form shape has a specific, persistent appearance, which appears to be a half mix between a human and your beast within. This change is not similar to the change of a were-creature. While in hybrid-form, you gain the beast trait and a feature of the beast within your heritage. This transformation lasts for 10 minutes, or until you spend an action, with the concentrate trait, to dismiss it. In addition, you gain a claws or horns unarmed Strike resembling the features of your beast within (claws for felines, talons for eagles, and so on). Your claws deal 1d4 piercing damage, have the agile, finesse, and unarmed traits, and are in the brawling weapon group."
+            ]
+        },
+        {
+            "name": "Brace",
+            "source": "BREW",
+            "page": 1,
+            "activity": {
+                "number": 1,
+                "unit": "action"
+            },
+            "actionType": {
+                "ancestry": ["Shifter"]
+            },
+            "traits": ["shifter"],
+            "requirements": "You are in your hybrid-form.",
+            "entries": [
+                "You brace yourself to take a hit, using your thick skin and fortitude to protect yourself. You gain a +1 circumstance bonus to AC. This remains until the start of your next turn."
+            ]
+        }
+    ],
+    "feat": [
+        {
+            "name": "Beasthide Endurance",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["shifter"],
+            "activity": {
+                "number": 1,
+                "unit": "reaction"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "trigger": "You are in your hybrid form and would be reduced to 0 Hit Points but not immediately killed.",
+            "prerequisites": "Beasthide heritage",
+            "entries": [
+                "You are a tenacious combatant, continuing to fight when others would succumb to pain and injury. You avoid being knocked out and remain at 1 Hit Point, and your wounded condition increases by 1."
+            ]
+        },
+        {
+            "name": "Natural Skill",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["shifter"],
+            "entries": [
+                "Your survival instinct and drive to be self-sufficient allow you to learn a wide variety of skills. You gain the trained proficiency rank in two skills of your choice."
+            ]
+        },
+        {
+            "name": "Inner Focus",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["shifter"],
+            "activity": {
+                "number": 1,
+                "unit": "reaction"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "trigger": "You roll a critical failure on a saving throw against an emotion effect.",
+            "entries": [
+                "You center yourself. You fail the save against the emotion effect instead of critically failing."
+            ]
+        },
+        {
+            "name": "Lingering Curse",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["shifter"],
+            "entries": [
+                "Shifter's have a natural resistance to curses, believed to be a result from the Lycanthrope curse creating them or from their connection to nature. You gain a +1 circumstance bonus to saving throws against curses, and to saving throws against spells cast by a daelkyr. If you roll a success on a saving throw against a curse or a spell cast by a daelkyr, you get a critical success instead."
+            ]
+        },
+        {
+            "name": "Night Senses",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["shifter"],
+            "entries": [
+                "Your senses sharpen and you have the ability to see through the dark and gloom. You gain darkvision."
+            ]
+        },
+        {
+            "name": "Animal Olfactory",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["shifter"],
+            "entries": [
+                "Your sense of smell is like an animal. You gain scent (imprecise) 30 feet.",
+                "{@b Special} If you are a Wildhunt shifter, your scent (imprecise) increases to 50 feet."
+            ]
+        },
+        {
+            "name": "Pack Hunter",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["shifter"],
+            "entries": [
+                "You were taught how to hunt as part of a pack. You gain a +2 circumstance bonus to checks to Aid, and your allies gain a +2 circumstance bonus to checks to Aid you."
+            ]
+        },
+        {
+            "name": "Shifter Weapon Familiarity",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["shifter"],
+            "entries": [
+                "You favor the weapons common to shifters. You are trained with the hatchet, kama, kukri, scimitar, and sickle. In addition, you gain access to kama, kukris, and all uncommon shifter weapons. For you, martial shifter weapons are simple weapons and advanced shifter weapons are martial weapons."
+            ]
+        },
+        {
+            "name": "Shifter Instincts",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["shifter"],
+            "entries": [
+                "Your heritage has given you sharp senses and quick reflexes, and you have learned to trust your equally sharp instincts. You gain a +1 circumstance bonus to Perception checks to Seek, Sense Motive, and Initiative rolls."
+            ]
+        },
+        {
+            "name": "Shifter Lore",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["shifter"],
+            "entries": [
+                "You learned skills for surviving no matter the shifter community you were raised in. You gain the trained proficiency rank in Nature and Survival. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Shifter Lore."
+            ]
+        },
+        {
+            "name": "Animal Magnetism",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["shifter"],
+            "entries": [
+                "Your heritage gives you a strong animal presence. You gain a +1 circumstance bonus to Diplomacy, and Intimidation against animals and beasts, and to Nature checks to Command an Animal.",
+                "{@b Special} If you are a Dreamsight shifter, your circumstance bonus is +2."
+            ]
+        },
+        {
+            "name": "Quick Shape",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["shifter"],
+            "activity": {
+                "number": 1,
+                "unit": "free"
+            },
+            "trigger": "You roll initiative.",
+            "entries": [
+                "Your instincts kick in and you take on an aggressive stance. You use Change Shape to enter or exit your hybrid form."
+            ]
+        },
+        {
+            "name": "Wild Stealth",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["shifter"],
+            "entries": [
+                "You can call upon your bestial heritage to increase your stealth. You can move 5 feet farther when you take the Sneak action, up to your Speed.",
+                "In addition, while in your hybrid form as long as you continue to use Sneak actions and succeed at your Stealth check, you don't become observed if you don't have cover or greater cover and aren't concealed at the end of the Sneak action, as long as you have cover or greater cover or are concealed at the end of your turn."
+            ]
+        },
+        {
+            "name": "Animalistic Resistance",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["shifter"],
+            "entries": [
+                "Your animalistic connections help you resist natural afflictions. You gain a +2 circumstance bonus to saves to resist diseases and poisons."
+            ]
+        },
+        {
+            "name": "Cliffwalker Elite",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["shifter"],
+            "prerequisites": "Cliffwalker heritage",
+            "entries": [
+                "You gain a climb Speed of 10 feet. While in hybrid-form, your climb Speed increases to 25 feet."
+            ]
+        },
+        {
+            "name": "Fledgling Flight",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["shifter", "move"],
+            "activity": {
+                "number": 1,
+                "unit": "action"
+            },
+            "frequency": {
+                "unit": "round",
+                "freq": 1
+            },
+            "prerequisites": "Swiftwing heritage",
+            "requirements": "You are in your hybrid-form.",
+            "entries": [
+                "You fly through the air in short bursts at half your land Speed. If you don't end your movement on solid ground, you fall at the end of your turn."
+            ]
+        },
+        {
+            "name": "Gorebrute Vengence",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["shifter", "emotion", "mental"],
+            "activity": {
+                "number": 1,
+                "unit": "reaction"
+            },
+            "frequency": {
+                "unit": "minute",
+                "interval": 10
+            },
+            "prerequisites": "Gorebrute heritage",
+            "trigger": "You, or an ally you can see, are damaged by an enemy's critical hit and you are in your hybrid form.",
+            "entries": [
+                "You dedicate yourself to destroying those who harm your companions. Until the end of your next turn, you deal an additional +1d6 damage on Strikes against the triggering enemy. The bonus increases to +2d6 at 4th level and +3d6 at 12th level."
+            ]
+        },
+        {
+            "name": "Greater Animal Sense",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["shifter"],
+            "entries": [
+                "Your senses advance to match those of your animal aspect. You gain one of the following senses available to your beast within: echolocation (imprecise) 30 feet, tremorsense (imprecise) 30 feet, or wavesense (imprecise) 30 feet. If your beast within doesn't typically have a specific type of sense, you can't gain the sense with this feat.",
+                "{@b Special} You can select this feat multiple times, choosing a different sense each time."
+            ]
+        },
+        {
+            "name": "Pack Stalker",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["shifter"],
+            "prerequisites": "Pack Hunter; expert in Stealth",
+            "entries": [
+                "Hunting with a pack is a shifter tradition. You gain the Terrain Stalker feat and can extend its effects to a single ally so long as they remain within 10 ft. of you. If you have master proficiency in Stealth, you can extend the effect to two allies. If you have legendary proficiency in Stealth, you can extend it to four allies."
+            ]
+        },
+        {
+            "name": "Sense Allies",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["shifter"],
+            "entries": [
+                "Like many shifters raised in a close-knit community, you have always been strongly attuned to the presence of others. Willing allies that you are aware of within 60 feet that would otherwise be undetected by you are instead hidden from you. The flat check for you to target willing allies within 60 feet that are hidden from you is 5 instead of 11."
+            ]
+        },
+        {
+            "name": "Shifter Weapon Prowess",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["shifter"],
+            "prerequisites": "Shifter Weapon Familiarity",
+            "entries": [
+                "You know how to efficiently use the weapons of the shifters. Whenever you critically hit using a shifter weapon or one of the weapons listed in Shifter Weapon Familiarity, you apply the weapon's critical specialization effect."
+            ]
+        },
+        {
+            "name": "Truedive Elite",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["shifter"],
+            "prerequisites": "Truedive heritage",
+            "entries": [
+                "You gain a 10 foot swim Speed and the Underwater Marauder skill feat. While in your hybrid form, your swim Speed is 25 feet."
+            ]
+        },
+        {
+            "name": "Unarmed Cunning",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["shifter"],
+            "prerequisites": "Gorebrute, Longtooth, or Razorclaw heritage",
+            "entries": [
+                "You make the most of your unarmed attacks. Whenever you score a critical hit with an unarmed attack you gained from your shifter heritage or a shifter ancestry feat, you apply the unarmed attack's critical specialization effect."
+            ]
+        },
+        {
+            "name": "Animal Magic",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["shifter"],
+            "entries": [
+                "Your shapeshifting grants you a magical connection to the animal world. You can cast animal messenger, calm emotions (animals only), and speak with animals as 2nd-level primal innate spells once per day each. These spells use your class DC or spell DC, whichever is higher."
+            ]
+        },
+        {
+            "name": "Dreamsight Expert",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["shifter"],
+            "prerequisites": "Dreamsight heritage",
+            "entries": [
+                "Your senses are keen, and you can pick up on the life force traces of any creature. While in your hybrid form, your lifesense can detect any creature not protected against detection by magical means."
+            ]
+        },
+        {
+            "name": "Fleet Step",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["shifter"],
+            "activity": {
+                "number": 1,
+                "unit": "action"
+            },
+            "entries": [
+                "With a quick step, you use your natural agility to stay light on your feet as you move. You Step 5 feet twice."
+            ]
+        },
+        {
+            "name": "Group Aid",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["shifter"],
+            "activity": {
+                "number": 1,
+                "unit": "action"
+            },
+            "entries": [
+                "Your upbringing emphasized teamwork and helping your allies comes naturally to you. After you Aid an ally at a skill check that doesn't have the attack trait, you can also Aid any other ally who attempts the same skill check for the same purpose that round. You do so as a free action rather than a reaction.",
+                "The preparation you did to help must still apply to the other allies, and you can Aid each ally only once. For example, if you helped lift up an ally to Aid them on an Athletics check to scale a wall, you could keep the same posture to give a boost to other allies attempting to scale the wall in the same round."
+            ]
+        },
+        {
+            "name": "Hardy Traveler",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["shifter"],
+            "entries": [
+                "There's no journey too far or burden too heavy when your friends are at your side. Increase your maximum and encumbered Bulk limits by 1. In addition, you gain a +10-foot circumstance bonus to your Speed during overland travel."
+            ]
+        },
+        {
+            "name": "Hybrid Strength",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["shifter"],
+            "entries": [
+                "You have strengthened your connection to your hybrid-form. Your hybrid-form transformation has no maximum duration."
+            ]
+        },
+        {
+            "name": "Juvenile Flight Shape",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["shifter"],
+            "activity": {
+                "number": 1,
+                "unit": "action"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "prerequisites": "Swiftwing heritage",
+            "requirements": "Your last action was Shifter Shape and you are in hybrid-form.",
+            "entries": [
+                "You continue to shift your form, with special focus on your wings. You gain a fly Speed equal to your land Speed while your wings are unfurled in hybrid-form. If you have Fledgling Flight, you gain a +10-foot status bonus to your fly Speed with Juvenile Flight Shape. As normal, since your fly Speed is derived from your land Speed, this status bonus isn't cumulative with a status bonus to your land Speed, if you have one.",
+                "{@b Special} If you have the Hybrid Strength feat, your hybrid-form has a maximum duration of 30 minutes."
+            ]
+        },
+        {
+            "name": "Longstrider Elite",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["shifter"],
+            "prerequisites": "Longstrider heritage",
+            "entries": [
+                "You increase your Speed by 5 feet. While in your hybrid form, your Speed is increased by an additional 5 feet."
+            ]
+        },
+        {
+            "name": "Longtooth Elite",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["shifter"],
+            "prerequisites": "Longtooth heritage",
+            "entries": [
+                "Your proficiency with your bite becomes devastating. Your jaws unarmed attack becomes part of the Pick weapon group and you gain the Critical Specialization effect for your jaws unarmed attack."
+            ]
+        },
+        {
+            "name": "Pack Bond",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["shifter"],
+            "prerequisites": "Pack Hunter",
+            "entries": [
+                "You have developed a soul-deep bond with your comrades and maintain an even greater degree of cooperation with them. If you are at least an expert in the skill you are Aiding, you get a success on any outcome rolled to Aid other than a critical success."
+            ]
+        },
+
+        {
+            "name": "Pack Tactics",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["shifter"],
+            "prerequisites": "Pack Hunter",
+            "entries": [
+                "You have mastered how to hunt with your pack. If an enemy is within reach of you and at least two of your allies, that enemy is flat-footed against you."
+            ]
+        },
+        {
+            "name": "Razorclaw Elite",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["shifter"],
+            "prerequisites": "Razorclaw heritage",
+            "entries": [
+                "Your proficiency with your claws causes bleeding wounds. Your claws unarmed attack becomes part of the Knife weapon group and you gain the Critical Specialization effect for your claws unarmed attack."
+            ]
+        },
+        {
+            "name": "Terrain Advantage",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["shifter"],
+            "entries": [
+                "You can take advantage of the terrain to bypass foes' defences. While in your hybrid form, non-shifter creatures in difficult terrain are flat-footed to you."
+            ]
+        },
+        {
+            "name": "Thick Skin",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["shifter"],
+            "prerequisites": "Beasthide heritage",
+            "entries": [
+                "Your skin has thickened with battle, granting you greater resistance to damage. Your DC on flat checks to end persistent bleed damage is reduced from 15 to 10, or from 10 to 5 after receiving especially appropriate assistance."
+            ]
+        },
+        {
+            "name": "Wildhunt Elite",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["shifter"],
+            "prerequisites": "Wildhunt heritage",
+            "entries": [
+                "Your shifter-enhanced instincts and senses allow you to detect concealed and invisible creatures. You gain scent (precise) 15 feet.",
+                "{@b Special} If you have the Animal Olfactory feat, you instead gain scent (precise) 20 feet."
+            ]
+        },
+        {
+            "name": "Bounce Back",
+            "source": "BREW",
+            "page": 1,
+            "level": 13,
+            "traits": ["shifter"],
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "activity": {
+                "number": 1,
+                "unit": "free"
+            },
+            "trigger": "You lose the dying condition.",
+            "entries": [
+                "You recover from near-death experiences with astounding resilience. Don't increase the value of your wounded condition due to losing the dying condition."
+            ]
+        },
+        {
+            "name": "Swiftwing Elite",
+            "source": "BREW",
+            "page": 1,
+            "level": 13,
+            "traits": ["shifter"],
+            "prerequisites": "Swiftwing heritage; Juvenile Flight Shape",
+            "entries": [
+                "You gain the effects of Juvenile Flight Shape whenever you change into your hybrid-form. This includes the status bonus to your Speed if you have Fledgling Flight. Additionally, if you have the Hybrid Strength feat, there is no maximum duration."
+            ]
+        },
+        {
+            "name": "Gift of the Moon",
+            "source": "BREW",
+            "page": 1,
+            "level": 13,
+            "traits": ["shifter"],
+            "prerequisites": "Dreamsight heritage",
+            "entries": [
+                "You can share your power with others, but they can't escape the call of the wild as easily as you can. You can cast a 5th-level moon frenzy as a primal innate spell once per day. At 15th level, you cast a 6th-level moon frenzy instead. At 17th level, your 6th-level moon frenzy grants its standard effects, except the temporary Hit Points increase to 15 and the silver weakness increases to 15. At 20th level, you cast a 10th-level moon frenzy instead. The spell uses your class DC or spell DC, whichever is higher."
+            ]
+        },
+        {
+            "name": "Shifter Paragon",
+            "source": "BREW",
+            "page": 1,
+            "level": 13,
+            "traits": ["shifter"],
+            "entries": [
+                "You are a paragon of shifters and manifest the traits of a second shifter heritage. Select a shifter heritage other than your current heritage. You gain the heritage effects and may select feats restricted to this heritage. While in your hybrid form, you gain the benefits of both of your heritages."
+            ]
+        },
+        {
+            "name": "Shifter Weapon Expertise",
+            "source": "BREW",
+            "page": 1,
+            "level": 13,
+            "traits": ["shifter"],
+            "prerequisites": "Shifter Weapon Familiarity",
+            "entries": [
+                "Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency rank in all weapons you are trained in from Shifter Weapon Familiarity."
+            ]
+        },
+        {
+            "name": "Stubborn Persistence",
+            "source": "BREW",
+            "page": 1,
+            "level": 13,
+            "traits": ["shifter"],
+            "entries": [
+                "Shifters are renowned for their ability like humans, to persist through the most grueling of trials. When you would become fatigued, attempt a DC 17 flat check. On a success, you aren't fatigued. If the fatigued condition has an underlying cause that you don't address, such as lack of rest, you must attempt the check again at an interval determined by the GM until you fail the flat check or address the underlying cause.",
+                "{@b Special} If you are a Beasthide or Gorebrute shifter, you reduce the flat check to DC 16."
+            ]
+        },
+        {
+            "name": "Dire Shape",
+            "source": "BREW",
+            "page": 1,
+            "level": 13,
+            "traits": ["shifter"],
+            "entries": [
+                "Your hybrid-form grows larger and more menacing. While in hybrid-form, you gain the effects of the Enlarge spell."
+            ]
+        },
+        {
+            "name": "Animal Swiftness",
+            "source": "BREW",
+            "page": 1,
+            "level": 17,
+            "traits": ["shifter"],
+            "entries": [
+                "You move like an animal. Your Speed increases by 5 feet. In addition, you gain one of the following Speeds available to your beast within: climb, fly, or swim. You gain this Speed only while in your hybrid shape. The new movement is as fast as your land Speed; for example, if you have a 30-foot Speed, you can gain a 30-foot climb Speed. If your beast within doesn't typically have a specific type of Speed, you can't gain it with this feat. If your beast within doesn't typically have a climb, fly, or swim Speed, your land Speed increases by 10 feet instead."
+            ]
+        },
+        {
+            "name": "Animal Swiftness",
+            "source": "BREW",
+            "page": 1,
+            "level": 17,
+            "traits": ["shifter"],
+            "prerequisites": "Dreamsight heritage",
+            "entries": [
+                "Your sense of the world increase to perceive all things as they are. You gain the true perception general feat, even if you don't meet the prerequisites. In addition, you gain the lifesense of your hybrid form as an imprecise sense with a range of 15 feet while in your humanoid form. This lifesense can detect any animal, beast, humanoid, or plant creature. While in your hybrid form your lifesense becomes a precise sense.",
+                "{@b Special} If you have the Dreamsight Expert feat, you can detect any creature type while in your humanoid form with your lifesense."
+            ]
+        }
+    ]
+}

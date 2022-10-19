@@ -164,6 +164,10 @@ const getContent = ({
                 `property | Frequency | once per ${frequency.interval} ${frequency.unit}s`
             );
         else lineArr.push(`property | Frequency | once per ${frequency.unit}`);
+    } else if (frequency?.entry){
+        lineArr.push(
+            `property | Frequency | ${frequency.entry}`
+        );
     }
 
     lineArr.push('rule');

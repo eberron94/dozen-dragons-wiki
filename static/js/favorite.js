@@ -11,7 +11,7 @@ const getFavs = () => {
     if (list && Array.isArray(list) && list.every((e) => typeof e === 'string'))
         return list;
 
-    console.warn('issue with favs');
+    // console.warn('issue with favs');
     return [];
 };
 
@@ -46,7 +46,6 @@ const renderFavItem = (favSlot, favId, favElement) => () => {
 const renderFav = (fadeIn = false) => {
     clearAnimationTimeout();
     const favList = getFavs();
-    console.log('Current FAVS:', favList);
 
     const titleStar = document.querySelector('div.title img');
     titleStar.className = favList.includes(titleStar.dataset.id)
@@ -68,7 +67,6 @@ const renderFav = (fadeIn = false) => {
 };
 
 const toggleFav = (event) => {
-    console.log(event, event.target.dataset.id);
     const id = event.target.dataset.id;
     const oldList = getFavs();
     if (Array.isArray(oldList)) {
@@ -86,7 +84,6 @@ const toggleFav = (event) => {
 };
 
 const removeFav = (event) => {
-    console.log(event, event.target.dataset.id);
     const id = event.target.dataset.id;
     const oldList = getFavs();
     if (Array.isArray(oldList)) {

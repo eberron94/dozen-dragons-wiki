@@ -66,8 +66,6 @@
     /* MEDIUM VIEW */
 
     .page-toc,
-    #id-tool,
-    #id-tool-min,
     .page-sidecontent {
         display: none;
     }
@@ -78,6 +76,7 @@
 
     #top-scroll-btn {
         right: 24px;
+        bottom: 32px;
     }
 }
 

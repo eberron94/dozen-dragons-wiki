@@ -78,6 +78,8 @@
     flex-flow: row nowrap;
     align-items: flex-end;
     gap: 2px;
+
+    margin-top: 32px;
 }
 
 #id-tool-menu-selected-list li {
