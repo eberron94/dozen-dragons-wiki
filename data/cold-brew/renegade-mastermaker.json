@@ -1,0 +1,79 @@
+[
+    {
+        "id": "feat.archetype.renegade-mastermaker.class.brew.accursed-clay-fist",
+        "color": "",
+        "title": "Runic Fist",
+        "icon_front": "rank-2",
+        "code": "feat 10",
+        "contents": [
+            "pftrait | archetype | curse",
+            "property | Prerequisites | Renegade Mastermaker Dedication, expert in unarmed attacks",
+            "rule",
+            "text | You have replaced one of your forearms with one made of metal and infused with arcane magic. When you make an unarmed Strike with your metal fist and hit, your target takes a -2 status penalty to saving throws against curse effects for 1 hour.",
+            "text | **Special** The damage die for your metal fist is 1d8, and it loses the agile and finesse traits of a typical fist."
+        ],
+        "level": 10
+    },
+    {
+        "id": "feat.archetype.renegade-mastermaker.class.brew.iron-lung",
+        "color": "",
+        "title": "Iron Lung",
+        "icon_front": "rank-2",
+        "code": "feat 14",
+        "contents": [
+            "pftrait | archetype",
+            "property | Prerequisites | Renegade Mastermaker Dedication",
+            "rule",
+            "text | Your lungs are infused with the resilience of iron. Treat the result of your save against an inhaled poison as one degree of success better than you rolled. Additionally, you gain the following ability.",
+            "fill",
+            "section | **Activate** [[two-action]]",
+            "text | You sharply exhale the poison that previously surrounded you in a 15-foot cone. Creatures in the area are affected by the poison; the poison's DC and effects are unchanged.",
+            "rule",
+            "fill"
+        ],
+        "level": 14
+    },
+    {
+        "id": "feat.archetype.renegade-mastermaker.class.brew.legs-of-stone",
+        "color": "",
+        "title": "Legs Of Stone",
+        "icon_front": "rank-2",
+        "code": "feat 12",
+        "contents": [
+            "pftrait | archetype",
+            "property | Prerequisites | Renegade Mastermaker Dedication",
+            "rule",
+            "text | You gain a +2 status bonus to your Fortitude and Reflex DCs against attempts to Shove or Trip you. You can Shove creatures even if you don't have a hand free. When you successfully Shove a foe, you can Stride away from your opponent (instead of toward it), but you must move the same distance in the opposite direction from where you Shoved it."
+        ],
+        "level": 12
+    },
+    {
+        "id": "feat.archetype.renegade-mastermaker.class.brew.quicken-heartbeat",
+        "color": "",
+        "title": "Quicken Heartbeat [[one-action]]",
+        "icon_front": "rank-2",
+        "code": "feat 10",
+        "contents": [
+            "pftrait | archetype",
+            "property | Prerequisites | Renegade Mastermaker Dedication",
+            "property | Frequency | once per turn",
+            "rule",
+            "text | You've replaced your heart with one made of animated quicksilver and living adamantine. You reduce your slowed condition by 1. Alternatively, if you are not slowed, you are quickened 1 during your next turn, and can use your extra action to Stride or Strike."
+        ],
+        "level": 10
+    },
+    {
+        "id": "feat.archetype.renegade-mastermaker.dedication.brew.renegade-mastermaker-dedication",
+        "color": "",
+        "title": "Renegade Mastermaker Dedication",
+        "icon_front": "rank-3",
+        "code": "feat 2",
+        "contents": [
+            "pftrait | uncommon | archetype | dedication",
+            "property | Prerequisites | expert in Arcana and Crafting, or an ally with expert proficiency in those skills willing to augment you",
+            "rule",
+            "text | You have the secrets of the warforged creation method applied to your body, slowly replacing parts with mechanical augmentations. Increase your maximum Hit Points by an amount equal to your level. You gain resistance to physical damage (except adamantine) equal to your number of class feats from the renegade mastermaker archetype."
+        ],
+        "level": 2
+    }
+]
