@@ -8,7 +8,11 @@ const { subtitle } = require('../../card/parts/subtitle');
 const { tablerow } = require('../../card/parts/tablerow');
 const { text } = require('../../card/parts/text');
 const { markup } = require('../../helper/markup');
-const { filterUniqueByObjectKey } = require('../../util/arrays');
+const {
+    filterUniqueByObjectKey,
+    isSubset,
+    notSubset,
+} = require('../../util/arrays');
 const { toCamelCase } = require('../../util/stringHelper');
 
 const iconMap = require('../../iconMap.json');
@@ -28,14 +32,32 @@ exports.composeCard = (original) => {
                 .replace('P', '')
                 .split('::')
                 .filter((e) => e);
-            const foundList = list.filter((item) =>
+            let foundList = list.filter((item) =>
                 pid.every((ppid) => item.id.includes(ppid))
+            );
+
+            if (foundList.length) return foundList;
+
+            const hasFilter = [];
+            const notFilter = [];
+            pid[0]
+                .split('|')
+                .map((e) => e.trim())
+                .map((e) => {
+                    if (e.startsWith('!')) notFilter.push(e.replace('!', ''));
+                    else hasFilter.push(e);
+                });
+
+            foundList = list.filter(
+                (item) =>
+                    isSubset(item.filtering, hasFilter) &&
+                    notSubset(item.filtering, notFilter)
             );
 
             return foundList;
         },
         findWithComplexSearch: (searchStr) => {
-            // console.log('COMPLEX SEARCHING', searchStr);
+            console.log('COMPLEX SEARCHING', searchStr);
             // ATTEMPT ID BASED SEARCH
             let found = find(searchStr);
             if (found) return found;
@@ -48,18 +70,25 @@ exports.composeCard = (original) => {
             if (found) return found;
 
             // BREAK INTO SEARCH PARAMS
-            const searchParams = searchStr
+            const hasFilter = [];
+            const notFilter = [];
+            searchStr
                 .split('|')
                 .map((e) => e.trim())
                 .map((e) => {
-                    const [key, value] = e.split('=');
-                    return { key, value };
+                    if (e.startsWith('!')) notFilter.push(e.replace('!', ''));
+                    else hasFilter.push(e);
                 });
 
-            if (searchParams.length === 1)
-                found = list.find(
-                    (item) => item.data.title === searchParams[0].key
+            // console.log(hasFilter, notFilter);
+
+            found = list.find((item) => {
+                return (
+                    isSubset(item.filtering, hasFilter) &&
+                    notSubset(item.filtering, notFilter)
                 );
+            });
+            console.log(found);
 
             if (found) return found;
 
@@ -100,6 +129,7 @@ const parse = (item) => {
         extra = [],
         reference = [],
         level,
+        filtering = [],
     } = item;
 
     const id = item.id || toCamelCase(title);
@@ -119,6 +149,7 @@ const parse = (item) => {
         id,
         type: 'item-card',
         level,
+        filtering,
         data: {
             title,
             contents,

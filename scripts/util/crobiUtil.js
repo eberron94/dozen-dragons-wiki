@@ -4,6 +4,7 @@ const { Renderer } = require('./toolUtil');
 const initCard = () => ({
     id: '',
     color: '',
+    name: '',
     title: '',
     icon_front: '',
     code: '',
@@ -121,7 +122,7 @@ const getTextEntries = ({ entries = [] }) => {
                             break;
                         case 'ability':
                             lineArr.push('fill');
-                            let line = '**Activate** ';
+                            let line = e.name + ' ';
                             if (e.activity) line += parseActivity(e.activity);
                             if (e.components)
                                 line +=
@@ -135,7 +136,7 @@ const getTextEntries = ({ entries = [] }) => {
                                         .join(', ');
                             if (e.trigger)
                                 line +=
-                                    '; **Trigger** ' +
+                                    '| *Trigger* ' +
                                     Renderer.stripTags(e.trigger);
                             lineArr.push(
                                 `section | ` + line.replace(/ +/g, ' ')
@@ -147,7 +148,17 @@ const getTextEntries = ({ entries = [] }) => {
                             lineArr.push('fill');
                             break;
                         case 'table':
-                            lineArr.push('text | See book for table');
+                            //
+                            if (e.rows.every((row) => Array.isArray(row)))
+                                e.rows.forEach((row, i) => {
+                                    lineArr.push(
+                                        (i === 0 ? 'tablehead | ' : 'row | ') +
+                                            row.join(' | ')
+                                    );
+                                });
+                            else lineArr.push('text | See book for table');
+
+                            break;
                     }
             });
 

@@ -1,4 +1,5 @@
 const { kebabCase } = require('lodash');
+const { notSubset } = require('../../src/util/arrays');
 const { toDashCase } = require('../../src/util/stringHelper');
 const {
     initCard,
@@ -30,10 +31,16 @@ const convertSpell2Save = async (items, saveFn) => {
 const convertItem = (item) => {
     const card = initCard();
     // console.log('working on', item.name);
+    card.filtering = [`level-${item.level}`];
+    if (Array.isArray(item.traditions))
+        card.filtering = card.filtering.concat(item.traditions);
+    if (Array.isArray(item.traits))
+        card.filtering = card.filtering.concat(item.traits);
 
     // card.original = item;
 
     // SET NAME
+    card.name = item.name;
     card.title = item.name;
 
     // SET CODE
@@ -47,10 +54,12 @@ const convertItem = (item) => {
         item.type?.toLowerCase() === 'cantrip'
     ) {
         card.code = 'cantrip ' + item.level;
+        card.filtering.push('cantrip');
     }
 
     if (item.focus === true || item.type?.toLowerCase() === 'focus') {
-        card.code = 'focus ' + item.level;
+        card.code = 'focus ' + card.code;
+        card.filtering.push('focus');
     }
 
     // SET ICON
@@ -75,6 +84,11 @@ const convertItem = (item) => {
 
     // SET CONTENT
     card.contents = cleanContent(getContent(item));
+
+    // SET EXTRA
+    if (notSubset(item.traits, ['unique', 'rare', 'uncommon']))
+        card.filtering.push('common');
+    card.level = item.level;
 
     return card;
 };

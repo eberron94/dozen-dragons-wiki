@@ -33,6 +33,7 @@ const convertItem = (item) => {
     const act = item.activity ? parseActivity(item.activity) : '';
 
     // SET NAME
+    card.name = item.name;
     card.title = item.name;
     if (act.includes('[[')) card.title += ' ' + act;
 

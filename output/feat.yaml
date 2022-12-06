@@ -1167,6 +1167,12 @@
         - feat.archetype.aldori-duelist.class.lowg.saving-slash
         - feat.archetype.aldori-duelist.class.lowg.unnerving-prowess
         - feat.archetype.aldori-duelist.dedication.lowg.aldori-duelist-dedication
+        - feat.archetype.alkenstar-agent.class.apg.plant-evidence
+        - feat.archetype.alkenstar-agent.class.crb.instant-opening
+        - feat.archetype.alkenstar-agent.class.crb.quick-draw
+        - feat.archetype.alkenstar-agent.class.crb.reactive-pursuit
+        - feat.archetype.alkenstar-agent.class.crb.running-reload
+        - feat.archetype.alkenstar-agent.class.crb.snap-shot
         - feat.archetype.alter-ego.class.da.borrow-memories
         - feat.archetype.alter-ego.class.da.fake-it-till-you-make-it
         - feat.archetype.alter-ego.class.da.sound-mirror
@@ -1184,13 +1190,23 @@
         - feat.archetype.archaeologist.class.apg.archaeologists-luck
         - feat.archetype.archaeologist.class.apg.greater-magical-scholastics
         - feat.archetype.archaeologist.class.apg.magical-scholastics
+        - feat.archetype.archaeologist.class.crb.delay-trap
+        - feat.archetype.archaeologist.class.crb.trap-finder
         - feat.archetype.archaeologist.dedication.apg.archaeologist-dedication
         - feat.archetype.archaeologist.skill.apg.scholastic-identification
         - feat.archetype.archaeologist.skill.apg.settlement-scholastics
         - feat.archetype.archer.class.apg.advanced-bow-training
         - feat.archetype.archer.class.apg.archers-aim
         - feat.archetype.archer.class.apg.crossbow-terror
+        - feat.archetype.archer.class.apg.parting-shot
         - feat.archetype.archer.class.apg.quick-shot
+        - feat.archetype.archer.class.crb.assisting-shot
+        - feat.archetype.archer.class.crb.double-shot
+        - feat.archetype.archer.class.crb.mobile-shot-stance
+        - feat.archetype.archer.class.crb.multishot-stance
+        - feat.archetype.archer.class.crb.point-blank-shot
+        - feat.archetype.archer.class.crb.running-reload
+        - feat.archetype.archer.class.crb.triple-shot
         - feat.archetype.archer.class.lokl.staggering-fire
         - feat.archetype.archer.dedication.apg.archer-dedication
         - feat.archetype.artillerist.class.g-g.cannon-corner-shot
@@ -1204,6 +1220,10 @@
         - feat.archetype.assassin.class.apg.assassinate
         - feat.archetype.assassin.class.apg.expert-backstabber
         - feat.archetype.assassin.class.apg.surprise-attack
+        - feat.archetype.assassin.class.crb.improved-poison-weapon
+        - feat.archetype.assassin.class.crb.poison-resistance
+        - feat.archetype.assassin.class.crb.poison-weapon
+        - feat.archetype.assassin.class.crb.sneak-attacker
         - feat.archetype.assassin.class.lokl.angel-of-vindication
         - feat.archetype.assassin.dedication.apg.assassin-dedication
         - feat.archetype.assassin.skill.lokl.eclipsed-vitality
@@ -1226,9 +1246,15 @@
         - feat.archetype.bastion.class.apg.disarming-block
         - feat.archetype.bastion.class.apg.nimble-shield-hand
         - feat.archetype.bastion.class.apg.shield-salvation
+        - feat.archetype.bastion.class.crb.mirror-shield
+        - feat.archetype.bastion.class.crb.quick-shield-block
+        - feat.archetype.bastion.class.crb.reflexive-shield
+        - feat.archetype.bastion.class.crb.shield-warden
+        - feat.archetype.bastion.class.crb.shielded-stride
         - feat.archetype.bastion.class.lokl.drive-back
         - feat.archetype.bastion.dedication.apg.bastion-dedication
         - feat.archetype.beast-gunner.class.g-g.basic-beast-gunner-spellcasting
+        - feat.archetype.beast-gunner.class.g-g.call-gun
         - feat.archetype.beast-gunner.class.g-g.controlled-bullet
         - feat.archetype.beast-gunner.class.g-g.drain-vitality
         - feat.archetype.beast-gunner.class.g-g.expert-beast-gunner-spellcasting
@@ -1238,11 +1264,16 @@
         - feat.archetype.beastmaster.class.apg.beastmaster-bond
         - feat.archetype.beastmaster.class.apg.beastmasters-call
         - feat.archetype.beastmaster.class.apg.beastmasters-trance
+        - feat.archetype.beastmaster.class.apg.enlarge-companion
         - feat.archetype.beastmaster.class.apg.heal-animal
         - feat.archetype.beastmaster.class.apg.incredible-beastmaster-companion
         - feat.archetype.beastmaster.class.apg.lead-the-pack
+        - feat.archetype.beastmaster.class.apg.magic-hide
         - feat.archetype.beastmaster.class.apg.mature-beastmaster-companion
         - feat.archetype.beastmaster.class.apg.specialized-beastmaster-companion
+        - feat.archetype.beastmaster.class.crb.companions-cry
+        - feat.archetype.beastmaster.class.crb.side-by-side
+        - feat.archetype.beastmaster.class.crb.wild-empathy
         - feat.archetype.beastmaster.dedication.apg.beastmaster-dedication
         - feat.archetype.bellflower-tiller.class.aoa-3.cut-the-bonds
         - feat.archetype.bellflower-tiller.class.aoa-3.garden-path
@@ -1251,24 +1282,45 @@
         - feat.archetype.bellflower-tiller.class.aoa-3.tillers-aid
         - feat.archetype.bellflower-tiller.class.aoa-3.tillers-drive
         - feat.archetype.bellflower-tiller.dedication.aoa-3.bellflower-dedication
+        - feat.archetype.blessed-one.class.apg.accelerating-touch
+        - feat.archetype.blessed-one.class.apg.amplifying-touch
         - feat.archetype.blessed-one.class.apg.blessed-denial
         - feat.archetype.blessed-one.class.apg.blessed-sacrifice
         - feat.archetype.blessed-one.class.apg.blessed-spell
+        - feat.archetype.blessed-one.class.apg.elucidating-mercy
+        - feat.archetype.blessed-one.class.apg.invigorating-mercy
+        - feat.archetype.blessed-one.class.apg.rejuvenating-touch
+        - feat.archetype.blessed-one.class.apg.resilient-touch
+        - feat.archetype.blessed-one.class.crb.affliction-mercy
+        - feat.archetype.blessed-one.class.crb.greater-mercy
+        - feat.archetype.blessed-one.class.crb.mercy
         - feat.archetype.blessed-one.dedication.apg.blessed-one-dedication
         - feat.archetype.bounty-hunter.class.apg.keep-pace
         - feat.archetype.bounty-hunter.class.apg.opportunistic-grapple
         - feat.archetype.bounty-hunter.class.apg.posse
         - feat.archetype.bounty-hunter.class.apg.tools-of-the-trade
+        - feat.archetype.bounty-hunter.class.crb.double-prey
         - feat.archetype.bounty-hunter.dedication.apg.bounty-hunter-dedication
         - feat.archetype.bright-lion.class.lol.elude-the-divine
         - feat.archetype.bright-lion.class.lol.suns-fury
         - feat.archetype.bright-lion.class.lol.warding-light
         - feat.archetype.bright-lion.dedication.lol.bright-lion-dedication
+        - feat.archetype.bullet-dancer.class.crb.brawling-focus
+        - feat.archetype.bullet-dancer.class.crb.snap-shot
         - feat.archetype.bullet-dancer.class.g-g.black-powder-blaze
+        - feat.archetype.bullet-dancer.class.g-g.black-powder-boost
         - feat.archetype.bullet-dancer.class.g-g.bullet-dancer-burn
         - feat.archetype.bullet-dancer.class.g-g.bullet-dancer-reload
         - feat.archetype.bullet-dancer.class.g-g.ranged-disarm
+        - feat.archetype.bullet-dancer.class.g-g.ricochet-shot
+        - feat.archetype.bullet-dancer.class.g-g.showstopper
+        - feat.archetype.bullet-dancer.class.g-g.trick-shot
+        - feat.archetype.bullet-dancer.class.g-g.two-weapon-fusillade
         - feat.archetype.bullet-dancer.dedication.g-g.bullet-dancer-dedication
+        - feat.archetype.butterfly-blade.class.apg.clever-gambit
+        - feat.archetype.butterfly-blade.class.apg.combat-assessment
+        - feat.archetype.butterfly-blade.class.crb.dread-striker
+        - feat.archetype.butterfly-blade.class.crb.quick-draw
         - feat.archetype.butterfly-blade.class.frp-1.butterflys-kiss
         - feat.archetype.butterfly-blade.class.frp-1.butterflys-sting
         - feat.archetype.butterfly-blade.class.frp-1.deadly-butterfly
@@ -1364,6 +1416,10 @@
         - feat.archetype.dandy.skill.apg.party-crasher
         - feat.archetype.dedication.av-3.drow-shootist-dedication
         - feat.archetype.dedication.sot-4.bright-lion-dedication
+        - feat.archetype.demolitionist.class.apg.demolition-charge
+        - feat.archetype.demolitionist.class.crb.calculated-splash
+        - feat.archetype.demolitionist.class.crb.directional-bombs
+        - feat.archetype.demolitionist.class.crb.expanded-splash
         - feat.archetype.demolitionist.class.g-g.collapse-wall
         - feat.archetype.demolitionist.class.g-g.controlled-blast
         - feat.archetype.demolitionist.class.g-g.explosive-entry
@@ -1406,10 +1462,21 @@
         - feat.archetype.dual-weapon-warrior.class.apg.dual-weapon-blitz
         - feat.archetype.dual-weapon-warrior.class.apg.dual-weapon-reload
         - feat.archetype.dual-weapon-warrior.class.apg.flensing-slice
+        - feat.archetype.dual-weapon-warrior.class.crb.improved-twin-riposte
+        - feat.archetype.dual-weapon-warrior.class.crb.twin-parry
+        - feat.archetype.dual-weapon-warrior.class.crb.twin-riposte
+        - feat.archetype.dual-weapon-warrior.class.crb.twinned-defense
         - feat.archetype.dual-weapon-warrior.dedication.apg.dual-weapon-warrior-dedication
         - feat.archetype.duelist.class.apg.duelists-challenge
         - feat.archetype.duelist.class.apg.selfless-parry
         - feat.archetype.duelist.class.apg.student-of-the-dueling-arts
+        - feat.archetype.duelist.class.crb.disarming-stance
+        - feat.archetype.duelist.class.crb.disarming-twist
+        - feat.archetype.duelist.class.crb.dueling-dance
+        - feat.archetype.duelist.class.crb.dueling-parry
+        - feat.archetype.duelist.class.crb.dueling-riposte
+        - feat.archetype.duelist.class.crb.guiding-riposte
+        - feat.archetype.duelist.class.crb.improved-dueling-riposte
         - feat.archetype.duelist.dedication.apg.duelist-dedication
         - feat.archetype.edgewatch-detective.class.aoe-1.arcane-sensitivity
         - feat.archetype.edgewatch-detective.class.aoe-1.boleras-interrogation
@@ -1424,6 +1491,7 @@
         - feat.archetype.eldritch-archer.class.apg.phase-arrow
         - feat.archetype.eldritch-archer.class.apg.precious-arrow
         - feat.archetype.eldritch-archer.class.apg.seeker-arrow
+        - feat.archetype.eldritch-archer.class.crb.impossible-volley
         - feat.archetype.eldritch-archer.dedication.apg.eldritch-archer-dedication
         - feat.archetype.eldritch-researcher.class.av-2.able-ritualist
         - feat.archetype.eldritch-researcher.class.av-2.advanced-seeker-of-truths
@@ -1436,6 +1504,10 @@
         - feat.archetype.eldritch-researcher.class.av-2.strange-script
         - feat.archetype.eldritch-researcher.class.av-2.words-of-unraveling
         - feat.archetype.eldritch-researcher.dedication.av-2.eldritch-researcher-dedication
+        - feat.archetype.elementalist.class.apg.current-spell
+        - feat.archetype.elementalist.class.crb.enhanced-familiar
+        - feat.archetype.elementalist.class.crb.familiar
+        - feat.archetype.elementalist.class.crb.water-step
         - feat.archetype.elementalist.class.som.burning-spell
         - feat.archetype.elementalist.class.som.dousing-spell
         - feat.archetype.elementalist.class.som.elemental-familiar
@@ -1444,16 +1516,21 @@
         - feat.archetype.elementalist.class.som.rockslide-spell
         - feat.archetype.elementalist.class.som.wind-tossed-spell
         - feat.archetype.elementalist.dedication.som.elementalist-dedication
+        - feat.archetype.exorcist.class.apg.spiritual-sense
         - feat.archetype.exorcist.class.botd.cast-out
         - feat.archetype.exorcist.class.botd.enticing-dwelling
         - feat.archetype.exorcist.class.botd.spirits-absolution
         - feat.archetype.exorcist.class.botd.spirits-anguish
+        - feat.archetype.exorcist.class.crb.blind-fight
+        - feat.archetype.exorcist.class.crb.sense-evil
+        - feat.archetype.exorcist.class.crb.sense-the-unseen
         - feat.archetype.exorcist.dedication.botd.exorcist-dedication
         - feat.archetype.familiar-master.class.apg.familiar-conduit
         - feat.archetype.familiar-master.class.apg.familiar-mascot
         - feat.archetype.familiar-master.class.apg.improved-familiar
         - feat.archetype.familiar-master.class.apg.incredible-familiar
         - feat.archetype.familiar-master.class.apg.mutable-familiar
+        - feat.archetype.familiar-master.class.crb.enhanced-familiar
         - feat.archetype.familiar-master.dedication.apg.familiar-master-dedication
         - feat.archetype.fighter.class.crb.advanced-maneuver
         - feat.archetype.fighter.class.crb.basic-maneuver
@@ -1517,6 +1594,9 @@
         - feat.archetype.ghoul.class.botd.replenishing-consumption
         - feat.archetype.ghoul.class.botd.sickening-bite
         - feat.archetype.ghoul.class.botd.swift-leap
+        - feat.archetype.ghoul.class.crb.guarded-movement
+        - feat.archetype.ghoul.class.crb.reactive-pursuit
+        - feat.archetype.ghoul.class.crb.wall-run
         - feat.archetype.ghoul.dedication.botd.ghoul-dedication
         - feat.archetype.gladiator.class.apg.call-your-shot
         - feat.archetype.gladiator.class.apg.performative-weapons-training
@@ -1595,6 +1675,9 @@
         - feat.archetype.horizon-walker.class.apg.magical-adaptation
         - feat.archetype.horizon-walker.class.apg.perpetual-scout
         - feat.archetype.horizon-walker.class.apg.wild-strider
+        - feat.archetype.horizon-walker.class.crb.blind-fight
+        - feat.archetype.horizon-walker.class.crb.terrain-master
+        - feat.archetype.horizon-walker.class.crb.wardens-step
         - feat.archetype.horizon-walker.dedication.apg.horizon-walker-dedication
         - feat.archetype.horizon-walker.skill.apg.sure-foot
         - feat.archetype.inventor.class.g-g.advanced-breakthrough
@@ -1623,6 +1706,10 @@
         - feat.archetype.juggler.class.ec-1.quick-juggler
         - feat.archetype.juggler.class.ec-1.reflexive-catch
         - feat.archetype.juggler.dedication.ec-1.juggler-dedication
+        - feat.archetype.knight-reclaimant.class.crb.camouflage
+        - feat.archetype.knight-reclaimant.class.crb.reactive-pursuit
+        - feat.archetype.knight-reclaimant.class.crb.scouts-warning
+        - feat.archetype.knight-reclaimant.class.crb.sneak-savant
         - feat.archetype.knight-reclaimant.class.locg.blade-of-the-crimson-oath
         - feat.archetype.knight-reclaimant.class.locg.invoke-the-crimson-oath
         - feat.archetype.knight-reclaimant.class.locg.reaper-of-repose
@@ -1637,6 +1724,8 @@
         - feat.archetype.knight-reclaimant.dedication.locg.knight-reclaimant-dedication
         - feat.archetype.knight-reclaimant.skill.lokl.ashen-veil
         - feat.archetype.knight-reclaimant.skill.lokl.voice-cold-as-death
+        - feat.archetype.knight-vigilant.class.crb.mirror-shield
+        - feat.archetype.knight-vigilant.class.crb.shield-warden
         - feat.archetype.knight-vigilant.class.locg.aegis-of-arnisant
         - feat.archetype.knight-vigilant.class.locg.endure-deaths-touch
         - feat.archetype.knight-vigilant.class.locg.knight-in-shining-armor
@@ -1682,6 +1771,7 @@
         - feat.archetype.lich.class.botd.frightful-aura
         - feat.archetype.lich.class.botd.hand-of-the-lich
         - feat.archetype.lich.class.botd.spell-gem
+        - feat.archetype.lich.class.crb.magic-sense
         - feat.archetype.lich.dedication.botd.lich-dedication
         - feat.archetype.linguist.class.apg.crude-communication
         - feat.archetype.linguist.class.apg.spot-translate
@@ -1710,9 +1800,13 @@
         - feat.archetype.living-vessel.class.da.vessels-form
         - feat.archetype.living-vessel.class.da.warped-constriction
         - feat.archetype.living-vessel.dedication.da.living-vessel-dedication
+        - feat.archetype.loremaster.class.apg.assured-knowledge
+        - feat.archetype.loremaster.class.apg.enigmas-knowledge
         - feat.archetype.loremaster.class.apg.greater-magical-edification
         - feat.archetype.loremaster.class.apg.magical-edification
         - feat.archetype.loremaster.class.apg.quick-study
+        - feat.archetype.loremaster.class.crb.loremasters-etude
+        - feat.archetype.loremaster.class.crb.true-hypercognition
         - feat.archetype.loremaster.dedication.apg.loremaster-dedication
         - feat.archetype.loremaster.skill.apg.orthographic-mastery
         - feat.archetype.magaambyan-attendant-halcyon-speaker.dedication.locg.halcyon-speaker-dedication
@@ -1755,16 +1849,38 @@
         - feat.archetype.marshal.class.apg.target-of-opportunity
         - feat.archetype.marshal.class.apg.to-battle
         - feat.archetype.marshal.class.apg.topple-foe
+        - feat.archetype.marshal.class.crb.attack-of-opportunity
         - feat.archetype.marshal.class.lokl.push-back-the-dead
         - feat.archetype.marshal.dedication.apg.marshal-dedication
         - feat.archetype.martial-artist.class.apg.follow-up-strike
+        - feat.archetype.martial-artist.class.apg.gorilla-pound
+        - feat.archetype.martial-artist.class.apg.gorilla-stance
         - feat.archetype.martial-artist.class.apg.grievous-blow
         - feat.archetype.martial-artist.class.apg.path-of-iron
+        - feat.archetype.martial-artist.class.apg.stumbling-feint
+        - feat.archetype.martial-artist.class.apg.stumbling-stance
+        - feat.archetype.martial-artist.class.crb.brawling-focus
+        - feat.archetype.martial-artist.class.crb.crane-flutter
+        - feat.archetype.martial-artist.class.crb.crane-stance
+        - feat.archetype.martial-artist.class.crb.dragon-roar
+        - feat.archetype.martial-artist.class.crb.dragon-stance
+        - feat.archetype.martial-artist.class.crb.mountain-quake
+        - feat.archetype.martial-artist.class.crb.mountain-stance
+        - feat.archetype.martial-artist.class.crb.mountain-stronghold
+        - feat.archetype.martial-artist.class.crb.tiger-slash
+        - feat.archetype.martial-artist.class.crb.tiger-stance
+        - feat.archetype.martial-artist.class.crb.wolf-drag
+        - feat.archetype.martial-artist.class.crb.wolf-stance
         - feat.archetype.martial-artist.dedication.apg.martial-artist-dedication
         - feat.archetype.mauler.class.apg.avalanche-strike
         - feat.archetype.mauler.class.apg.clear-the-way
         - feat.archetype.mauler.class.apg.hammer-quake
         - feat.archetype.mauler.class.apg.shoving-sweep
+        - feat.archetype.mauler.class.apg.unbalancing-sweep
+        - feat.archetype.mauler.class.crb.brutal-finish
+        - feat.archetype.mauler.class.crb.improved-knockdown
+        - feat.archetype.mauler.class.crb.knockdown
+        - feat.archetype.mauler.class.crb.power-attack
         - feat.archetype.mauler.dedication.apg.mauler-dedication
         - feat.archetype.medic.class.apg.doctors-visitation
         - feat.archetype.medic.class.apg.resuscitate
@@ -1872,12 +1988,24 @@
         - feat.archetype.pistol-phenom.class.g-g.hot-foot
         - feat.archetype.pistol-phenom.class.g-g.phenoms-verve
         - feat.archetype.pistol-phenom.class.g-g.reach-for-the-sky
+        - feat.archetype.pistol-phenom.class.g-g.showstopper
+        - feat.archetype.pistol-phenom.class.g-g.sword-and-pistol
+        - feat.archetype.pistol-phenom.class.g-g.trick-shot
         - feat.archetype.pistol-phenom.class.g-g.whirling-knockdown
         - feat.archetype.pistol-phenom.dedication.g-g.pistol-phenom-dedication
         - feat.archetype.poisoner.class.apg.acquired-tolerance
+        - feat.archetype.poisoner.class.apg.chemical-contagion
         - feat.archetype.poisoner.class.apg.expert-poisoner
+        - feat.archetype.poisoner.class.apg.pinpoint-poisoner
         - feat.archetype.poisoner.class.apg.poison-coat
         - feat.archetype.poisoner.class.apg.poisoners-twist
+        - feat.archetype.poisoner.class.apg.sticky-poison
+        - feat.archetype.poisoner.class.apg.subtle-delivery
+        - feat.archetype.poisoner.class.apg.tenacious-toxins
+        - feat.archetype.poisoner.class.crb.improved-poison-weapon
+        - feat.archetype.poisoner.class.crb.improved-poison-weapon
+        - feat.archetype.poisoner.class.crb.poison-resistance
+        - feat.archetype.poisoner.class.crb.poison-weapon
         - feat.archetype.poisoner.dedication.apg.poisoner-dedication
         - feat.archetype.provocator.class.aoe-3.cartwheel-dodge
         - feat.archetype.provocator.class.aoe-3.flourishing-finish
@@ -1937,6 +2065,7 @@
         - feat.archetype.runelord.class.som.sin-reservoir
         - feat.archetype.runelord.dedication.som.runelord-dedication
         - feat.archetype.runelord.skill.som.embed-aeon-stone
+        - feat.archetype.runelord.skill.som.tattoo-artist
         - feat.archetype.runescarred.class.lowg.greater-spell-runes
         - feat.archetype.runescarred.class.lowg.living-rune
         - feat.archetype.runescarred.class.lowg.spell-runes
@@ -1947,11 +2076,13 @@
         - feat.archetype.scout.class.apg.scouts-pounce
         - feat.archetype.scout.class.apg.scouts-speed
         - feat.archetype.scout.class.apg.terrain-scout
+        - feat.archetype.scout.class.crb.camouflage
         - feat.archetype.scout.dedication.apg.scout-dedication
         - feat.archetype.scroll-trickster.class.apg.basic-scroll-cache
         - feat.archetype.scroll-trickster.class.apg.expert-scroll-cache
         - feat.archetype.scroll-trickster.class.apg.master-scroll-cache
         - feat.archetype.scroll-trickster.class.apg.skim-scroll
+        - feat.archetype.scroll-trickster.class.crb.camouflage
         - feat.archetype.scroll-trickster.dedication.apg.scroll-trickster-dedication
         - feat.archetype.scrollmaster.class.locg.font-of-knowledge
         - feat.archetype.scrollmaster.class.locg.lore-seeker
@@ -1972,9 +2103,17 @@
         - feat.archetype.scrounger.skill.apg.reverse-engineering
         - feat.archetype.sentinel.class.apg.armor-specialist
         - feat.archetype.sentinel.class.apg.armored-rebuff
+        - feat.archetype.sentinel.class.apg.greater-interpose
         - feat.archetype.sentinel.class.apg.mighty-bulwark
+        - feat.archetype.sentinel.class.apg.sacrifice-armor
         - feat.archetype.sentinel.dedication.apg.sentinel-dedication
         - feat.archetype.sentinel.skill.apg.steel-skin
+        - feat.archetype.shadowcaster.class.apg.additional-shadow-magic
+        - feat.archetype.shadowcaster.class.apg.shadow-illusion
+        - feat.archetype.shadowcaster.class.apg.shadow-magic
+        - feat.archetype.shadowcaster.class.apg.shadow-power
+        - feat.archetype.shadowcaster.class.crb.enhanced-familiar
+        - feat.archetype.shadowcaster.class.crb.familiar
         - feat.archetype.shadowcaster.class.som.disciple-of-shade
         - feat.archetype.shadowcaster.class.som.secrets-of-shadow
         - feat.archetype.shadowcaster.class.som.shadow-reservoir
@@ -1988,6 +2127,10 @@
         - feat.archetype.shadowdancer.class.apg.shadow-master
         - feat.archetype.shadowdancer.class.apg.shadow-power
         - feat.archetype.shadowdancer.class.apg.shadow-sneak-attack
+        - feat.archetype.shadowdancer.class.crb.cognitive-loophole
+        - feat.archetype.shadowdancer.class.crb.sense-the-unseen
+        - feat.archetype.shadowdancer.class.crb.spring-from-the-shadows
+        - feat.archetype.shadowdancer.class.crb.uncanny-dodge
         - feat.archetype.shadowdancer.dedication.apg.shadowdancer-dedication
         - feat.archetype.sixth-pillar.class.frp-2.maneuvering-spell
         - feat.archetype.sixth-pillar.class.frp-2.six-pillars-stance
@@ -2008,11 +2151,18 @@
         - feat.archetype.snarecrafter.class.apg.plentiful-snares
         - feat.archetype.snarecrafter.class.apg.remote-trigger
         - feat.archetype.snarecrafter.class.apg.surprise-snare
+        - feat.archetype.snarecrafter.class.crb.lightning-snares
+        - feat.archetype.snarecrafter.class.crb.powerful-snares
+        - feat.archetype.snarecrafter.class.crb.quick-snares
         - feat.archetype.snarecrafter.dedication.apg.snarecrafter-dedication
+        - feat.archetype.sniping-duo.class.crb.assisting-shot
         - feat.archetype.sniping-duo.class.g-g.concentrated-assault
+        - feat.archetype.sniping-duo.class.g-g.cover-fire
+        - feat.archetype.sniping-duo.class.g-g.deflecting-shot
         - feat.archetype.sniping-duo.class.g-g.duos-aim
         - feat.archetype.sniping-duo.class.g-g.eagle-eyes
         - feat.archetype.sniping-duo.class.g-g.exploit-opening
+        - feat.archetype.sniping-duo.class.g-g.redirecting-shot
         - feat.archetype.sniping-duo.class.g-g.tag-team
         - feat.archetype.sniping-duo.class.g-g.targeted-redirection
         - feat.archetype.sniping-duo.class.g-g.triangulate
@@ -2033,6 +2183,9 @@
         - feat.archetype.soul-warden.class.botd.psychopomp-familiar
         - feat.archetype.soul-warden.class.botd.safeguard-soul
         - feat.archetype.soul-warden.class.botd.spiral-sworn
+        - feat.archetype.soul-warden.class.crb.advanced-domain
+        - feat.archetype.soul-warden.class.crb.domain-initiate
+        - feat.archetype.soul-warden.class.logm.expanded-domain-initiate
         - feat.archetype.soul-warden.dedication.botd.soul-warden-dedication
         - feat.archetype.soulforger.class.som.rapid-manifestation
         - feat.archetype.soulforger.class.som.soul-arsenal
@@ -2145,6 +2298,10 @@
         - feat.archetype.thaumaturge.class.da.magical-knowledge
         - feat.archetype.thaumaturge.class.da.resolute
         - feat.archetype.thaumaturge.dedication.da.thaumaturge-dedication
+        - feat.archetype.time-mage.class.apg.echoing-spell
+        - feat.archetype.time-mage.class.apg.plot-the-future
+        - feat.archetype.time-mage.class.apg.read-disaster
+        - feat.archetype.time-mage.class.crb.quickened-casting
         - feat.archetype.time-mage.class.da.chronomancers-secrets
         - feat.archetype.time-mage.class.da.future-spell-learning
         - feat.archetype.time-mage.class.da.into-the-future
@@ -2171,8 +2328,14 @@
         - feat.archetype.turpin-rowe-lumberjack.class.ec-3.log-roll
         - feat.archetype.turpin-rowe-lumberjack.class.ec-3.widen-the-gap
         - feat.archetype.turpin-rowe-lumberjack.dedication.ec-3.turpin-rowe-lumberjack-dedication
+        - feat.archetype.undead-master.class.apg.additional-companion
+        - feat.archetype.undead-master.class.apg.incredible-beastmaster-companion
+        - feat.archetype.undead-master.class.apg.lead-the-pack
+        - feat.archetype.undead-master.class.apg.mature-beastmaster-companion
+        - feat.archetype.undead-master.class.apg.specialized-beastmaster-companion
         - feat.archetype.undead-master.class.botd.guardian-ghosts
         - feat.archetype.undead-master.class.botd.their-masters-call
+        - feat.archetype.undead-master.class.crb.companions-cry
         - feat.archetype.undead-master.dedication.botd.undead-master-dedication
         - feat.archetype.undead-slayer.class.botd.frighten-undead
         - feat.archetype.undead-slayer.class.botd.gear-up
@@ -2184,9 +2347,12 @@
         - feat.archetype.undead-slayer.dedication.botd.undead-slayer-dedication
         - feat.archetype.undead-slayer.skill.botd.blessed-medicine
         - feat.archetype.unexpected-sharpshooter.class.g-g.chain-reaction
+        - feat.archetype.unexpected-sharpshooter.class.g-g.hit-the-dirt
         - feat.archetype.unexpected-sharpshooter.class.g-g.i-meant-to-do-that
         - feat.archetype.unexpected-sharpshooter.class.g-g.lucky-escape
         - feat.archetype.unexpected-sharpshooter.class.g-g.no-hard-feelings
+        - feat.archetype.unexpected-sharpshooter.class.g-g.risky-reload
+        - feat.archetype.unexpected-sharpshooter.class.g-g.trick-shot
         - feat.archetype.unexpected-sharpshooter.class.g-g.unbelievable-escape
         - feat.archetype.unexpected-sharpshooter.class.g-g.unbelievable-luck
         - feat.archetype.unexpected-sharpshooter.dedication.g-g.unexpected-sharpshooter-dedication
@@ -2217,6 +2383,7 @@
         - feat.archetype.vigilante.class.apg.social-purview
         - feat.archetype.vigilante.class.apg.startling-appearance
         - feat.archetype.vigilante.class.apg.stunning-appearance
+        - feat.archetype.vigilante.class.crb.quick-draw
         - feat.archetype.vigilante.dedication.apg.vigilante-dedication
         - feat.archetype.vigilante.skill.apg.hidden-magic
         - feat.archetype.vigilante.skill.apg.minion-guise
@@ -2225,6 +2392,9 @@
         - feat.archetype.viking.class.apg.second-shield
         - feat.archetype.viking.class.apg.viking-weapon-familiarity
         - feat.archetype.viking.class.apg.viking-weapon-specialist
+        - feat.archetype.viking.class.crb.quick-shield-block
+        - feat.archetype.viking.class.crb.reactive-shield
+        - feat.archetype.viking.class.crb.shielded-stride
         - feat.archetype.viking.class.lokl.viking-vindicator
         - feat.archetype.viking.dedication.apg.viking-dedication
         - feat.archetype.weapon-improviser.class.apg.improvised-critical
@@ -2233,6 +2403,11 @@
         - feat.archetype.weapon-improviser.class.apg.shattering-strike
         - feat.archetype.weapon-improviser.class.apg.surprise-strike
         - feat.archetype.weapon-improviser.dedication.apg.weapon-improviser-dedication
+        - feat.archetype.wellspring-mage.class.apg.echoing-spell
+        - feat.archetype.wellspring-mage.class.apg.energetic-resonance
+        - feat.archetype.wellspring-mage.class.apg.scintillating-spell
+        - feat.archetype.wellspring-mage.class.apg.spell-relay
+        - feat.archetype.wellspring-mage.class.apg.surging-might
         - feat.archetype.wellspring-mage.class.som.interfering-surge
         - feat.archetype.wellspring-mage.class.som.urgent-upwelling
         - feat.archetype.wellspring-mage.class.som.wellspring-control
@@ -2252,6 +2427,10 @@
         - feat.archetype.wizard.class.crb.expert-wizard-spellcasting
         - feat.archetype.wizard.class.crb.master-wizard-spellcasting
         - feat.archetype.wizard.dedication.crb.wizard-dedication
+        - feat.archetype.wrestler.class.crb.combat-grab
+        - feat.archetype.wrestler.class.crb.crushing-grab
+        - feat.archetype.wrestler.class.crb.snagging-strike
+        - feat.archetype.wrestler.class.crb.whirling-throw
         - feat.archetype.wrestler.class.lotgb.aerial-piledriver
         - feat.archetype.wrestler.class.lotgb.clinch-strike
         - feat.archetype.wrestler.class.lotgb.disengaging-twist
@@ -2269,8 +2448,10 @@
         - feat.archetype.zephyr-guard.class.aoa-5.unfazed-assessment
         - feat.archetype.zephyr-guard.dedication.aoa-5.zephyr-guard-dedication
         - feat.archetype.zephyr-guard.skill.aoa-5.know-the-beat
+        - feat.archetype.zombie.class.apg.bashing-charge
         - feat.archetype.zombie.class.botd.ankle-biter
         - feat.archetype.zombie.class.botd.brains
+        - feat.archetype.zombie.class.botd.corpse-stench
         - feat.archetype.zombie.class.botd.feast
         - feat.archetype.zombie.class.botd.festering-wounds
         - feat.archetype.zombie.class.botd.numb
@@ -2279,6 +2460,8 @@
         - feat.archetype.zombie.class.botd.seize
         - feat.archetype.zombie.class.botd.shamble
         - feat.archetype.zombie.class.botd.unkillable
+        - feat.archetype.zombie.class.crb.combat-grab
+        - feat.archetype.zombie.class.crb.crushing-grab
         - feat.archetype.zombie.dedication.botd.zombie-dedication
         - feat.class.alchemist.aoa-5.shaped-contaminant
         - feat.class.alchemist.aoa-6.efficient-alchemy

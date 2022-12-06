@@ -2,6 +2,7 @@
     {
         "id": "action.ancestry.hobgoblin.locg.resist-xaos-magic",
         "color": "#B71C1C",
+        "name": "Resist Xaos Magic",
         "title": "Resist Xaos Magic [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -14,6 +15,7 @@
     {
         "id": "action.ancestry.changeling.brew.changeling-shape",
         "color": "#B71C1C",
+        "name": "Changeling Shape",
         "title": "Changeling Shape [[three-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -29,6 +31,7 @@
     {
         "id": "action.ancestry.shifter.brew.shifter-shape",
         "color": "#B71C1C",
+        "name": "Shifter Shape",
         "title": "Shifter Shape [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -42,6 +45,7 @@
     {
         "id": "action.ancestry.shifter.brew.brace",
         "color": "#B71C1C",
+        "name": "Brace",
         "title": "Brace [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -55,6 +59,7 @@
     {
         "id": "action.da.recenter",
         "color": "#B71C1C",
+        "name": "Recenter",
         "title": "Recenter [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -68,6 +73,7 @@
     {
         "id": "action.da.psychic-defense",
         "color": "#B71C1C",
+        "name": "Psychic Defense",
         "title": "Psychic Defense [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -82,6 +88,7 @@
     {
         "id": "action.da.exploit-vulnerability",
         "color": "#B71C1C",
+        "name": "Exploit Vulnerability",
         "title": "Exploit Vulnerability [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -102,6 +109,7 @@
     {
         "id": "action.da.intensify-vulnerability",
         "color": "#B71C1C",
+        "name": "Intensify Vulnerability",
         "title": "Intensify Vulnerability [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -117,6 +125,7 @@
     {
         "id": "action.da.amulets-abeyance",
         "color": "#B71C1C",
+        "name": "Amulet's Abeyance",
         "title": "Amulet's Abeyance [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -131,6 +140,7 @@
     {
         "id": "action.da.ring-bell",
         "color": "#B71C1C",
+        "name": "Ring Bell",
         "title": "Ring Bell [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -145,6 +155,7 @@
     {
         "id": "action.da.drink-from-the-chalice",
         "color": "#B71C1C",
+        "name": "Drink from the Chalice",
         "title": "Drink from the Chalice [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -159,6 +170,7 @@
     {
         "id": "action.da.mirrors-reflection",
         "color": "#B71C1C",
+        "name": "Mirror's Reflection",
         "title": "Mirror's Reflection [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -174,6 +186,7 @@
     {
         "id": "action.da.fling-magic",
         "color": "#B71C1C",
+        "name": "Fling Magic",
         "title": "Fling Magic [[two-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -188,6 +201,7 @@
     {
         "id": "action.da.implements-interruption",
         "color": "#B71C1C",
+        "name": "Implement's Interruption",
         "title": "Implement's Interruption [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -202,6 +216,7 @@
     {
         "id": "action.da.fade-into-daydreams",
         "color": "#B71C1C",
+        "name": "Fade Into Daydreams",
         "title": "Fade Into Daydreams [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -214,6 +229,7 @@
     {
         "id": "action.da.calculate-threats",
         "color": "#B71C1C",
+        "name": "Calculate Threats",
         "title": "Calculate Threats [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -226,6 +242,7 @@
     {
         "id": "action.da.recall-the-teachings",
         "color": "#B71C1C",
+        "name": "Recall The Teachings",
         "title": "Recall The Teachings [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -238,6 +255,7 @@
     {
         "id": "action.da.restore-the-mind",
         "color": "#B71C1C",
+        "name": "Restore The Mind",
         "title": "Restore The Mind [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -252,6 +270,7 @@
     {
         "id": "action.class.psychic.da.unleash-psyche",
         "color": "#B71C1C",
+        "name": "Unleash Psyche",
         "title": "Unleash Psyche [[free-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -270,6 +289,7 @@
     {
         "id": "action.g-g.accidental-shot",
         "color": "#B71C1C",
+        "name": "Accidental Shot",
         "title": "Accidental Shot [[two-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -283,6 +303,7 @@
     {
         "id": "action.class.summoner.som.act-together",
         "color": "#B71C1C",
+        "name": "Act Together",
         "title": "Act Together [[one-action]] to [[three-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -298,6 +319,7 @@
     {
         "id": "action.basic.crb.activate-an-item",
         "color": "#B71C1C",
+        "name": "Activate an Item",
         "title": "Activate an Item",
         "icon_front": "expander",
         "code": "action",
@@ -317,6 +339,7 @@
     {
         "id": "action.basic.skill.untrained.crb.administer-first-aid",
         "color": "#B71C1C",
+        "name": "Administer First Aid",
         "title": "Administer First Aid [[two-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -336,6 +359,7 @@
     {
         "id": "action.basic.som.affix-a-fulu",
         "color": "#B71C1C",
+        "name": "Affix a Fulu",
         "title": "Affix a Fulu [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -348,6 +372,7 @@
     {
         "id": "action.basic.crb.affix-a-talisman",
         "color": "#B71C1C",
+        "name": "Affix a Talisman",
         "title": "Affix a Talisman",
         "icon_front": "expander",
         "code": "action",
@@ -361,6 +386,7 @@
     {
         "id": "action.basic.crb.aid",
         "color": "#B71C1C",
+        "name": "Aid",
         "title": "Aid [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -380,6 +406,7 @@
     {
         "id": "action.ancestry.anadi.lome.anadi-venom",
         "color": "#B71C1C",
+        "name": "Anadi Venom",
         "title": "Anadi Venom [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -391,6 +418,7 @@
     {
         "id": "action.class.magus.som.arcane-cascade",
         "color": "#B71C1C",
+        "name": "Arcane Cascade",
         "title": "Arcane Cascade [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -409,6 +437,7 @@
     {
         "id": "action.basic.crb.arrest-a-fall",
         "color": "#B71C1C",
+        "name": "Arrest a Fall",
         "title": "Arrest a Fall [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -425,6 +454,7 @@
     {
         "id": "action.class.fighter.crb.attack-of-opportunity",
         "color": "#B71C1C",
+        "name": "Attack of Opportunity",
         "title": "Attack of Opportunity [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -437,6 +467,7 @@
     {
         "id": "action.ancestry.automaton.g-g.automaton-aim",
         "color": "#B71C1C",
+        "name": "Automaton Aim",
         "title": "Automaton Aim [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -448,6 +479,7 @@
     {
         "id": "action.basic.crb.avert-gaze",
         "color": "#B71C1C",
+        "name": "Avert Gaze",
         "title": "Avert Gaze [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -459,6 +491,7 @@
     {
         "id": "action.basic.crb.avoid-notice",
         "color": "#B71C1C",
+        "name": "Avoid Notice",
         "title": "Avoid Notice",
         "icon_front": "expander",
         "code": "action",
@@ -471,6 +504,7 @@
     {
         "id": "action.basic.skill.untrained.crb.balance",
         "color": "#B71C1C",
+        "name": "Balance",
         "title": "Balance [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -490,6 +524,7 @@
     {
         "id": "action.ancestry.shisk.lome.barbed-quills",
         "color": "#B71C1C",
+        "name": "Barbed Quills",
         "title": "Barbed Quills [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -503,6 +538,7 @@
     {
         "id": "action.gmg.board",
         "color": "#B71C1C",
+        "name": "Board",
         "title": "Board [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -516,6 +552,7 @@
     {
         "id": "action.basic.skill.trained.crb.borrow-an-arcane-spell",
         "color": "#B71C1C",
+        "name": "Borrow an Arcane Spell",
         "title": "Borrow an Arcane Spell",
         "icon_front": "expander",
         "code": "action",
@@ -532,6 +569,7 @@
     {
         "id": "action.gmg.bribe-contact",
         "color": "#B71C1C",
+        "name": "Bribe Contact",
         "title": "Bribe Contact",
         "icon_front": "expander",
         "code": "action",
@@ -550,6 +588,7 @@
     {
         "id": "action.gmg.bullying-press",
         "color": "#B71C1C",
+        "name": "Bullying Press",
         "title": "Bullying Press [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -564,6 +603,7 @@
     {
         "id": "action.basic.crb.burrow",
         "color": "#B71C1C",
+        "name": "Burrow",
         "title": "Burrow [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -577,6 +617,7 @@
     {
         "id": "action.ancestry.dwarf.crb.call-on-ancient-blood",
         "color": "#B71C1C",
+        "name": "Call on Ancient Blood",
         "title": "Call on Ancient Blood [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -589,6 +630,7 @@
     {
         "id": "action.ancestry.conrasu.lome.call-to-axis",
         "color": "#B71C1C",
+        "name": "Call to Axis",
         "title": "Call to Axis [[free-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -603,6 +645,7 @@
     {
         "id": "action.basic.crb.cast-a-spell",
         "color": "#B71C1C",
+        "name": "Cast a Spell",
         "title": "Cast a Spell",
         "icon_front": "expander",
         "code": "action",
@@ -622,6 +665,7 @@
     {
         "id": "action.ancestry.kitsune.loag.change-shape",
         "color": "#B71C1C",
+        "name": "Change Shape",
         "title": "Change Shape [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -634,6 +678,7 @@
     {
         "id": "action.loag.change-shape",
         "color": "#B71C1C",
+        "name": "Change Shape",
         "title": "Change Shape [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -646,6 +691,7 @@
     {
         "id": "action.gmg.change-tradition-focus",
         "color": "#B71C1C",
+        "name": "Change Tradition Focus",
         "title": "Change Tradition Focus [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -659,6 +705,7 @@
     {
         "id": "action.som.cleanse-soul-path",
         "color": "#B71C1C",
+        "name": "Cleanse Soul Path",
         "title": "Cleanse Soul Path",
         "icon_front": "expander",
         "code": "action",
@@ -671,6 +718,7 @@
     {
         "id": "action.class.gunslinger.subclass.vanguard.g-g.clear-a-path",
         "color": "#B71C1C",
+        "name": "Clear a Path",
         "title": "Clear a Path [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -684,6 +732,7 @@
     {
         "id": "action.basic.skill.untrained.crb.climb",
         "color": "#B71C1C",
+        "name": "Climb",
         "title": "Climb [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -702,6 +751,7 @@
     {
         "id": "action.class.investigator.apg.clue-in",
         "color": "#B71C1C",
+        "name": "Clue In",
         "title": "Clue In [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -716,6 +766,7 @@
     {
         "id": "action.basic.skill.untrained.crb.coerce",
         "color": "#B71C1C",
+        "name": "Coerce",
         "title": "Coerce [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -734,6 +785,7 @@
     {
         "id": "action.basic.skill.untrained.crb.command-an-animal",
         "color": "#B71C1C",
+        "name": "Command an Animal",
         "title": "Command an Animal [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -753,6 +805,7 @@
     {
         "id": "action.basic.skill.untrained.crb.conceal-an-object",
         "color": "#B71C1C",
+        "name": "Conceal an Object",
         "title": "Conceal an Object [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -770,6 +823,7 @@
     {
         "id": "action.loag.conduct-energy",
         "color": "#B71C1C",
+        "name": "Conduct Energy",
         "title": "Conduct Energy [[free-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -783,6 +837,7 @@
     {
         "id": "action.class.swashbuckler.apg.confident-finisher",
         "color": "#B71C1C",
+        "name": "Confident Finisher",
         "title": "Confident Finisher [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -798,6 +853,7 @@
     {
         "id": "action.basic.skill.trained.crb.cover-tracks",
         "color": "#B71C1C",
+        "name": "Cover Tracks",
         "title": "Cover Tracks",
         "icon_front": "expander",
         "code": "action",
@@ -811,6 +867,7 @@
     {
         "id": "action.class.gunslinger.subclass.sniper.g-g.covered-reload",
         "color": "#B71C1C",
+        "name": "Covered Reload",
         "title": "Covered Reload [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -823,6 +880,7 @@
     {
         "id": "action.basic.skill.trained.crb.craft",
         "color": "#B71C1C",
+        "name": "Craft",
         "title": "Craft",
         "icon_front": "expander",
         "code": "action",
@@ -848,6 +906,7 @@
     {
         "id": "action.sot-1.cram",
         "color": "#B71C1C",
+        "name": "Cram",
         "title": "Cram",
         "icon_front": "expander",
         "code": "action",
@@ -861,6 +920,7 @@
     {
         "id": "action.basic.crb.crawl",
         "color": "#B71C1C",
+        "name": "Crawl",
         "title": "Crawl [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -874,6 +934,7 @@
     {
         "id": "action.basic.skill.untrained.crb.create-a-diversion",
         "color": "#B71C1C",
+        "name": "Create a Diversion",
         "title": "Create a Diversion [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -891,6 +952,7 @@
     {
         "id": "action.basic.skill.trained.crb.create-forgery",
         "color": "#B71C1C",
+        "name": "Create Forgery",
         "title": "Create Forgery",
         "icon_front": "expander",
         "code": "action",
@@ -910,6 +972,7 @@
     {
         "id": "action.class.rogue.crb.debilitating-strike",
         "color": "#B71C1C",
+        "name": "Debilitating Strike",
         "title": "Debilitating Strike [[free-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -925,6 +988,7 @@
     {
         "id": "action.gmg.deceptive-sidestep",
         "color": "#B71C1C",
+        "name": "Deceptive Sidestep",
         "title": "Deceptive Sidestep [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -939,6 +1003,7 @@
     {
         "id": "action.basic.crb.decipher-writing",
         "color": "#B71C1C",
+        "name": "Decipher Writing",
         "title": "Decipher Writing",
         "icon_front": "expander",
         "code": "action",
@@ -958,6 +1023,7 @@
     {
         "id": "action.basic.crb.defend",
         "color": "#B71C1C",
+        "name": "Defend",
         "title": "Defend",
         "icon_front": "expander",
         "code": "action",
@@ -970,6 +1036,7 @@
     {
         "id": "action.basic.crb.delay",
         "color": "#B71C1C",
+        "name": "Delay",
         "title": "Delay [[free-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -983,6 +1050,7 @@
     {
         "id": "action.basic.skill.untrained.crb.demoralize",
         "color": "#B71C1C",
+        "name": "Demoralize",
         "title": "Demoralize [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -999,6 +1067,7 @@
     {
         "id": "action.class.champion.subclass.antipaladin.apg.destructive-vengeance",
         "color": "#B71C1C",
+        "name": "Destructive Vengeance",
         "title": "Destructive Vengeance [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -1013,6 +1082,7 @@
     {
         "id": "action.basic.crb.detect-magic",
         "color": "#B71C1C",
+        "name": "Detect Magic",
         "title": "Detect Magic",
         "icon_front": "expander",
         "code": "action",
@@ -1025,6 +1095,7 @@
     {
         "id": "action.class.investigator.apg.devise-a-stratagem",
         "color": "#B71C1C",
+        "name": "Devise a Stratagem",
         "title": "Devise a Stratagem [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1040,6 +1111,7 @@
     {
         "id": "action.basic.skill.trained.crb.disable-a-device",
         "color": "#B71C1C",
+        "name": "Disable a Device",
         "title": "Disable a Device [[two-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1059,6 +1131,7 @@
     {
         "id": "action.basic.skill.trained.crb.disarm",
         "color": "#B71C1C",
+        "name": "Disarm",
         "title": "Disarm [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1077,6 +1150,7 @@
     {
         "id": "action.gmg.discover",
         "color": "#B71C1C",
+        "name": "Discover",
         "title": "Discover",
         "icon_front": "expander",
         "code": "action",
@@ -1095,6 +1169,7 @@
     {
         "id": "action.basic.crb.dismiss",
         "color": "#B71C1C",
+        "name": "Dismiss",
         "title": "Dismiss [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1107,6 +1182,7 @@
     {
         "id": "action.class.gunslinger.g-g.dispelling-bullet",
         "color": "#B71C1C",
+        "name": "Dispelling Bullet",
         "title": "Dispelling Bullet [[two-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1119,6 +1195,7 @@
     {
         "id": "action.class.wizard.crb.drain-bonded-item",
         "color": "#B71C1C",
+        "name": "Drain Bonded Item",
         "title": "Drain Bonded Item [[free-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1132,6 +1209,7 @@
     {
         "id": "action.class.gunslinger.subclass.drifter.g-g.drifters-wake",
         "color": "#B71C1C",
+        "name": "Drifter's Wake",
         "title": "Drifter's Wake [[three-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1144,6 +1222,7 @@
     {
         "id": "action.gmg.drive",
         "color": "#B71C1C",
+        "name": "Drive",
         "title": "Drive",
         "icon_front": "expander",
         "code": "action",
@@ -1160,6 +1239,7 @@
     {
         "id": "action.basic.crb.drop-prone",
         "color": "#B71C1C",
+        "name": "Drop Prone",
         "title": "Drop Prone [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1172,6 +1252,7 @@
     {
         "id": "action.gmg.dueling-counter",
         "color": "#B71C1C",
+        "name": "Dueling Counter",
         "title": "Dueling Counter [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -1186,6 +1267,7 @@
     {
         "id": "action.basic.crb.earn-income",
         "color": "#B71C1C",
+        "name": "Earn Income",
         "title": "Earn Income",
         "icon_front": "expander",
         "code": "action",
@@ -1206,6 +1288,7 @@
     {
         "id": "action.ancestry.dwarf.locg.energy-emanation",
         "color": "#B71C1C",
+        "name": "Energy Emanation",
         "title": "Energy Emanation [[two-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1218,6 +1301,7 @@
     {
         "id": "action.class.gunslinger.g-g.energy-shot",
         "color": "#B71C1C",
+        "name": "Energy Shot",
         "title": "Energy Shot [[free-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1231,6 +1315,7 @@
     {
         "id": "action.basic.crb.escape",
         "color": "#B71C1C",
+        "name": "Escape",
         "title": "Escape [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1248,6 +1333,7 @@
     {
         "id": "action.class.investigator.subclass.empiricism.apg.expeditious-inspection",
         "color": "#B71C1C",
+        "name": "Expeditious Inspection",
         "title": "Expeditious Inspection [[free-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1261,6 +1347,7 @@
     {
         "id": "action.class.inventor.g-g.explode",
         "color": "#B71C1C",
+        "name": "Explode",
         "title": "Explode [[two-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1275,6 +1362,7 @@
     {
         "id": "action.basic.skill.trained.crb.feint",
         "color": "#B71C1C",
+        "name": "Feint",
         "title": "Feint [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1293,6 +1381,7 @@
     {
         "id": "action.class.gunslinger.subclass.drifter.g-g.finish-the-job",
         "color": "#B71C1C",
+        "name": "Finish the Job",
         "title": "Finish the Job [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1306,6 +1395,7 @@
     {
         "id": "action.class.monk.crb.flurry-of-blows",
         "color": "#B71C1C",
+        "name": "Flurry of Blows",
         "title": "Flurry of Blows [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1318,6 +1408,7 @@
     {
         "id": "action.basic.crb.fly",
         "color": "#B71C1C",
+        "name": "Fly",
         "title": "Fly [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1331,6 +1422,7 @@
     {
         "id": "action.basic.crb.follow-the-expert",
         "color": "#B71C1C",
+        "name": "Follow the Expert",
         "title": "Follow the Expert",
         "icon_front": "expander",
         "code": "action",
@@ -1343,6 +1435,7 @@
     {
         "id": "action.basic.skill.untrained.crb.force-open",
         "color": "#B71C1C",
+        "name": "Force Open",
         "title": "Force Open [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1360,6 +1453,7 @@
     {
         "id": "action.gmg.forge-documents",
         "color": "#B71C1C",
+        "name": "Forge Documents",
         "title": "Forge Documents",
         "icon_front": "expander",
         "code": "action",
@@ -1377,6 +1471,7 @@
     {
         "id": "action.gmg.fortify-camp",
         "color": "#B71C1C",
+        "name": "Fortify Camp",
         "title": "Fortify Camp",
         "icon_front": "expander",
         "code": "action",
@@ -1388,6 +1483,7 @@
     {
         "id": "action.gmg.gain-contact",
         "color": "#B71C1C",
+        "name": "Gain Contact",
         "title": "Gain Contact",
         "icon_front": "expander",
         "code": "action",
@@ -1406,6 +1502,7 @@
     {
         "id": "action.basic.skill.untrained.crb.gather-information",
         "color": "#B71C1C",
+        "name": "Gather Information",
         "title": "Gather Information",
         "icon_front": "expander",
         "code": "action",
@@ -1422,6 +1519,7 @@
     {
         "id": "action.class.gunslinger.subclass.sniper.g-g.ghost-shot",
         "color": "#B71C1C",
+        "name": "Ghost Shot",
         "title": "Ghost Shot [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1434,6 +1532,7 @@
     {
         "id": "action.class.champion.subclass.redeemer.crb.glimpse-of-redemption",
         "color": "#B71C1C",
+        "name": "Glimpse of Redemption",
         "title": "Glimpse of Redemption [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -1449,6 +1548,7 @@
     {
         "id": "action.gmg.gossip",
         "color": "#B71C1C",
+        "name": "Gossip",
         "title": "Gossip",
         "icon_front": "expander",
         "code": "action",
@@ -1467,6 +1567,7 @@
     {
         "id": "action.basic.crb.grab-an-edge",
         "color": "#B71C1C",
+        "name": "Grab an Edge",
         "title": "Grab an Edge [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -1485,6 +1586,7 @@
     {
         "id": "action.basic.skill.untrained.crb.grapple",
         "color": "#B71C1C",
+        "name": "Grapple",
         "title": "Grapple [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1504,6 +1606,7 @@
     {
         "id": "action.class.gunslinger.subclass.pistolero.g-g.grim-swagger",
         "color": "#B71C1C",
+        "name": "Grim Swagger",
         "title": "Grim Swagger [[three-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1522,6 +1625,7 @@
     {
         "id": "action.basic.skill.untrained.crb.hide",
         "color": "#B71C1C",
+        "name": "Hide",
         "title": "Hide [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1537,6 +1641,7 @@
     {
         "id": "action.basic.skill.untrained.crb.high-jump",
         "color": "#B71C1C",
+        "name": "High Jump",
         "title": "High Jump [[two-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1554,6 +1659,7 @@
     {
         "id": "action.class.ranger.crb.hunt-prey",
         "color": "#B71C1C",
+        "name": "Hunt Prey",
         "title": "Hunt Prey [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1568,6 +1674,7 @@
     {
         "id": "action.basic.crb.hustle",
         "color": "#B71C1C",
+        "name": "Hustle",
         "title": "Hustle",
         "icon_front": "expander",
         "code": "action",
@@ -1580,6 +1687,7 @@
     {
         "id": "action.basic.skill.trained.crb.identify-alchemy",
         "color": "#B71C1C",
+        "name": "Identify Alchemy",
         "title": "Identify Alchemy",
         "icon_front": "expander",
         "code": "action",
@@ -1598,6 +1706,7 @@
     {
         "id": "action.basic.crb.identify-magic",
         "color": "#B71C1C",
+        "name": "Identify Magic",
         "title": "Identify Magic",
         "icon_front": "expander",
         "code": "action",
@@ -1616,6 +1725,7 @@
     {
         "id": "action.basic.skill.untrained.crb.impersonate",
         "color": "#B71C1C",
+        "name": "Impersonate",
         "title": "Impersonate",
         "icon_front": "expander",
         "code": "action",
@@ -1634,6 +1744,7 @@
     {
         "id": "action.gmg.influence",
         "color": "#B71C1C",
+        "name": "Influence",
         "title": "Influence",
         "icon_front": "expander",
         "code": "action",
@@ -1652,6 +1763,7 @@
     {
         "id": "action.basic.crb.interact",
         "color": "#B71C1C",
+        "name": "Interact",
         "title": "Interact [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1664,6 +1776,7 @@
     {
         "id": "action.class.gunslinger.subclass.drifter.g-g.into-the-fray",
         "color": "#B71C1C",
+        "name": "Into the Fray",
         "title": "Into the Fray [[free-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1677,6 +1790,7 @@
     {
         "id": "action.basic.crb.invest-an-item",
         "color": "#B71C1C",
+        "name": "Invest an Item",
         "title": "Invest an Item",
         "icon_front": "expander",
         "code": "action",
@@ -1689,6 +1803,7 @@
     {
         "id": "action.basic.crb.investigate",
         "color": "#B71C1C",
+        "name": "Investigate",
         "title": "Investigate",
         "icon_front": "expander",
         "code": "action",
@@ -1701,6 +1816,7 @@
     {
         "id": "action.ancestry.kitsune.loag.invigorating-fear",
         "color": "#B71C1C",
+        "name": "Invigorating Fear",
         "title": "Invigorating Fear [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -1714,6 +1830,7 @@
     {
         "id": "action.ancestry.kitsune.crb.invoke-celestial-privilege",
         "color": "#B71C1C",
+        "name": "Invoke Celestial Privilege",
         "title": "Invoke Celestial Privilege [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -1726,6 +1843,7 @@
     {
         "id": "action.class.champion.subclass.tyrant.apg.iron-command",
         "color": "#B71C1C",
+        "name": "Iron Command",
         "title": "Iron Command [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -1742,6 +1860,7 @@
     {
         "id": "action.basic.crb.leap",
         "color": "#B71C1C",
+        "name": "Leap",
         "title": "Leap [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1755,6 +1874,7 @@
     {
         "id": "action.basic.crb.learn-a-spell",
         "color": "#B71C1C",
+        "name": "Learn a Spell",
         "title": "Learn a Spell",
         "icon_front": "expander",
         "code": "action",
@@ -1779,6 +1899,7 @@
     {
         "id": "action.som.learn-name",
         "color": "#B71C1C",
+        "name": "Learn Name",
         "title": "Learn Name",
         "icon_front": "expander",
         "code": "action",
@@ -1797,6 +1918,7 @@
     {
         "id": "action.class.champion.subclass.liberator.crb.liberating-step",
         "color": "#B71C1C",
+        "name": "Liberating Step",
         "title": "Liberating Step [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -1810,6 +1932,7 @@
     {
         "id": "action.basic.skill.untrained.crb.lie",
         "color": "#B71C1C",
+        "name": "Lie",
         "title": "Lie",
         "icon_front": "expander",
         "code": "action",
@@ -1827,6 +1950,7 @@
     {
         "id": "action.class.gunslinger.subclass.vanguard.g-g.living-fortification",
         "color": "#B71C1C",
+        "name": "Living Fortification",
         "title": "Living Fortification [[free-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1840,6 +1964,7 @@
     {
         "id": "action.basic.skill.untrained.crb.long-jump",
         "color": "#B71C1C",
+        "name": "Long Jump",
         "title": "Long Jump [[two-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1857,6 +1982,7 @@
     {
         "id": "action.basic.crb.long-term-rest",
         "color": "#B71C1C",
+        "name": "Long-Term Rest",
         "title": "Long-Term Rest",
         "icon_front": "expander",
         "code": "action",
@@ -1869,6 +1995,7 @@
     {
         "id": "action.basic.skill.untrained.crb.make-an-impression",
         "color": "#B71C1C",
+        "name": "Make an Impression",
         "title": "Make an Impression",
         "icon_front": "expander",
         "code": "action",
@@ -1886,6 +2013,7 @@
     {
         "id": "action.basic.skill.trained.crb.maneuver-in-flight",
         "color": "#B71C1C",
+        "name": "Maneuver in Flight",
         "title": "Maneuver in Flight [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1904,6 +2032,7 @@
     {
         "id": "action.class.summoner.som.manifest-eidolon",
         "color": "#B71C1C",
+        "name": "Manifest Eidolon",
         "title": "Manifest Eidolon [[three-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1917,6 +2046,7 @@
     {
         "id": "action.gmg.map-the-area",
         "color": "#B71C1C",
+        "name": "Map the Area",
         "title": "Map the Area",
         "icon_front": "expander",
         "code": "action",
@@ -1929,6 +2059,7 @@
     {
         "id": "action.class.rogue.crb.master-strike",
         "color": "#B71C1C",
+        "name": "Master Strike",
         "title": "Master Strike [[free-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1949,6 +2080,7 @@
     {
         "id": "action.class.barbarian.crb.mighty-rage",
         "color": "#B71C1C",
+        "name": "Mighty Rage",
         "title": "Mighty Rage [[free-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1962,6 +2094,7 @@
     {
         "id": "action.basic.crb.mount",
         "color": "#B71C1C",
+        "name": "Mount",
         "title": "Mount [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1974,6 +2107,7 @@
     {
         "id": "action.class.alchemist.subclass.mutagenist.crb.mutagenic-flashback",
         "color": "#B71C1C",
+        "name": "Mutagenic Flashback",
         "title": "Mutagenic Flashback [[free-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -1987,6 +2121,7 @@
     {
         "id": "action.class.gunslinger.subclass.sniper.g-g.one-shot-one-kill",
         "color": "#B71C1C",
+        "name": "One Shot, One Kill",
         "title": "One Shot, One Kill [[free-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2000,6 +2135,7 @@
     {
         "id": "action.class.swashbuckler.apg.opportune-riposte",
         "color": "#B71C1C",
+        "name": "Opportune Riposte",
         "title": "Opportune Riposte [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -2013,6 +2149,7 @@
     {
         "id": "action.class.inventor.g-g.overdrive",
         "color": "#B71C1C",
+        "name": "Overdrive",
         "title": "Overdrive [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2032,6 +2169,7 @@
     {
         "id": "action.basic.skill.untrained.crb.palm-an-object",
         "color": "#B71C1C",
+        "name": "Palm an Object",
         "title": "Palm an Object [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2048,6 +2186,7 @@
     {
         "id": "action.basic.skill.untrained.crb.perform",
         "color": "#B71C1C",
+        "name": "Perform",
         "title": "Perform [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2066,6 +2205,7 @@
     {
         "id": "action.basic.skill.trained.crb.pick-a-lock",
         "color": "#B71C1C",
+        "name": "Pick a Lock",
         "title": "Pick a Lock [[two-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2084,6 +2224,7 @@
     {
         "id": "action.class.gunslinger.subclass.pistolero.g-g.pistoleros-retort",
         "color": "#B71C1C",
+        "name": "Pistolero's Retort",
         "title": "Pistolero's Retort [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -2098,6 +2239,7 @@
     {
         "id": "action.basic.crb.point-out",
         "color": "#B71C1C",
+        "name": "Point Out",
         "title": "Point Out [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2111,6 +2253,7 @@
     {
         "id": "action.class.investigator.subclass.interrogation.apg.pointed-question",
         "color": "#B71C1C",
+        "name": "Pointed Question",
         "title": "Pointed Question [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2130,6 +2273,7 @@
     {
         "id": "action.sot-1.practical-research",
         "color": "#B71C1C",
+        "name": "Practical Research",
         "title": "Practical Research",
         "icon_front": "expander",
         "code": "action",
@@ -2143,6 +2287,7 @@
     {
         "id": "action.class.investigator.apg.pursue-a-lead",
         "color": "#B71C1C",
+        "name": "Pursue a Lead",
         "title": "Pursue a Lead",
         "icon_front": "expander",
         "code": "action",
@@ -2158,6 +2303,7 @@
     {
         "id": "action.class.alchemist.crb.quick-alchemy",
         "color": "#B71C1C",
+        "name": "Quick Alchemy",
         "title": "Quick Alchemy [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2171,6 +2317,7 @@
     {
         "id": "action.class.investigator.subclass.alchemical-sciences.apg.quick-tincture",
         "color": "#B71C1C",
+        "name": "Quick Tincture",
         "title": "Quick Tincture [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2184,6 +2331,7 @@
     {
         "id": "action.class.gunslinger.subclass.pistolero.g-g.raconteurs-reload",
         "color": "#B71C1C",
+        "name": "Raconteur's Reload",
         "title": "Raconteur's Reload [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2196,6 +2344,7 @@
     {
         "id": "action.class.barbarian.crb.rage",
         "color": "#B71C1C",
+        "name": "Rage",
         "title": "Rage [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2213,6 +2362,7 @@
     {
         "id": "action.basic.crb.raise-a-shield",
         "color": "#B71C1C",
+        "name": "Raise a Shield",
         "title": "Raise a Shield [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2225,6 +2375,7 @@
     {
         "id": "action.gmg.rally",
         "color": "#B71C1C",
+        "name": "Rally",
         "title": "Rally",
         "icon_front": "expander",
         "code": "action",
@@ -2239,6 +2390,7 @@
     {
         "id": "action.basic.crb.ready",
         "color": "#B71C1C",
+        "name": "Ready",
         "title": "Ready [[two-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2252,6 +2404,7 @@
     {
         "id": "action.class.gunslinger.g-g.recall-ammunition",
         "color": "#B71C1C",
+        "name": "Recall Ammunition",
         "title": "Recall Ammunition [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -2265,6 +2418,7 @@
     {
         "id": "action.basic.crb.recall-knowledge",
         "color": "#B71C1C",
+        "name": "Recall Knowledge",
         "title": "Recall Knowledge [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2282,6 +2436,7 @@
     {
         "id": "action.gmg.reconnoiter",
         "color": "#B71C1C",
+        "name": "Reconnoiter",
         "title": "Reconnoiter",
         "icon_front": "expander",
         "code": "action",
@@ -2295,6 +2450,7 @@
     {
         "id": "action.basic.crb.refocus",
         "color": "#B71C1C",
+        "name": "Refocus",
         "title": "Refocus",
         "icon_front": "expander",
         "code": "action",
@@ -2308,6 +2464,7 @@
     {
         "id": "action.basic.crb.release",
         "color": "#B71C1C",
+        "name": "Release",
         "title": "Release [[free-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2321,6 +2478,7 @@
     {
         "id": "action.class.gunslinger.subclass.drifter.g-g.reloading-strike",
         "color": "#B71C1C",
+        "name": "Reloading Strike",
         "title": "Reloading Strike [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2334,6 +2492,7 @@
     {
         "id": "action.basic.skill.untrained.crb.repair",
         "color": "#B71C1C",
+        "name": "Repair",
         "title": "Repair",
         "icon_front": "expander",
         "code": "action",
@@ -2352,6 +2511,7 @@
     {
         "id": "action.basic.crb.repeat-a-spell",
         "color": "#B71C1C",
+        "name": "Repeat a Spell",
         "title": "Repeat a Spell",
         "icon_front": "expander",
         "code": "action",
@@ -2365,6 +2525,7 @@
     {
         "id": "action.basic.skill.untrained.crb.request",
         "color": "#B71C1C",
+        "name": "Request",
         "title": "Request [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2383,6 +2544,7 @@
     {
         "id": "action.gmg.research",
         "color": "#B71C1C",
+        "name": "Research",
         "title": "Research",
         "icon_front": "expander",
         "code": "action",
@@ -2400,6 +2562,7 @@
     {
         "id": "action.basic.crb.retraining",
         "color": "#B71C1C",
+        "name": "Retraining",
         "title": "Retraining",
         "icon_front": "expander",
         "code": "action",
@@ -2415,6 +2578,7 @@
     {
         "id": "action.class.champion.subclass.paladin.crb.retributive-strike",
         "color": "#B71C1C",
+        "name": "Retributive Strike",
         "title": "Retributive Strike [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -2428,6 +2592,7 @@
     {
         "id": "action.gmg.run-over",
         "color": "#B71C1C",
+        "name": "Run Over",
         "title": "Run Over [[three-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2442,6 +2607,7 @@
     {
         "id": "action.basic.crb.scout",
         "color": "#B71C1C",
+        "name": "Scout",
         "title": "Scout",
         "icon_front": "expander",
         "code": "action",
@@ -2454,6 +2620,7 @@
     {
         "id": "action.gmg.scout-location",
         "color": "#B71C1C",
+        "name": "Scout Location",
         "title": "Scout Location",
         "icon_front": "expander",
         "code": "action",
@@ -2471,6 +2638,7 @@
     {
         "id": "action.basic.crb.search",
         "color": "#B71C1C",
+        "name": "Search",
         "title": "Search",
         "icon_front": "expander",
         "code": "action",
@@ -2483,6 +2651,7 @@
     {
         "id": "action.gmg.secure-disguises",
         "color": "#B71C1C",
+        "name": "Secure Disguises",
         "title": "Secure Disguises",
         "icon_front": "expander",
         "code": "action",
@@ -2499,6 +2668,7 @@
     {
         "id": "action.basic.crb.seek",
         "color": "#B71C1C",
+        "name": "Seek",
         "title": "Seek [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2517,6 +2687,7 @@
     {
         "id": "action.class.champion.subclass.desecrator.apg.selfish-shield",
         "color": "#B71C1C",
+        "name": "Selfish Shield",
         "title": "Selfish Shield [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -2531,6 +2702,7 @@
     {
         "id": "action.basic.skill.untrained.crb.sense-direction",
         "color": "#B71C1C",
+        "name": "Sense Direction",
         "title": "Sense Direction",
         "icon_front": "expander",
         "code": "action",
@@ -2547,6 +2719,7 @@
     {
         "id": "action.basic.crb.sense-motive",
         "color": "#B71C1C",
+        "name": "Sense Motive",
         "title": "Sense Motive [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2565,6 +2738,7 @@
     {
         "id": "action.gmg.sense-weakness",
         "color": "#B71C1C",
+        "name": "Sense Weakness",
         "title": "Sense Weakness [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -2578,6 +2752,7 @@
     {
         "id": "action.class.summoner.som.share-senses",
         "color": "#B71C1C",
+        "name": "Share Senses",
         "title": "Share Senses [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2591,6 +2766,7 @@
     {
         "id": "action.basic.skill.untrained.crb.shove",
         "color": "#B71C1C",
+        "name": "Shove",
         "title": "Shove [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2609,6 +2785,7 @@
     {
         "id": "action.class.gunslinger.subclass.vanguard.g-g.siegebreaker",
         "color": "#B71C1C",
+        "name": "Siegebreaker",
         "title": "Siegebreaker [[three-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2623,6 +2800,7 @@
     {
         "id": "action.basic.skill.untrained.crb.sneak",
         "color": "#B71C1C",
+        "name": "Sneak",
         "title": "Sneak [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2641,6 +2819,7 @@
     {
         "id": "action.class.magus.som.spellstrike",
         "color": "#B71C1C",
+        "name": "Spellstrike",
         "title": "Spellstrike [[two-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2654,6 +2833,7 @@
     {
         "id": "action.class.gunslinger.subclass.vanguard.g-g.spinning-crush",
         "color": "#B71C1C",
+        "name": "Spinning Crush",
         "title": "Spinning Crush [[three-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2667,6 +2847,7 @@
     {
         "id": "action.basic.skill.trained.crb.squeeze",
         "color": "#B71C1C",
+        "name": "Squeeze",
         "title": "Squeeze",
         "icon_front": "expander",
         "code": "action",
@@ -2684,6 +2865,7 @@
     {
         "id": "action.basic.crb.stand",
         "color": "#B71C1C",
+        "name": "Stand",
         "title": "Stand [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2696,6 +2878,7 @@
     {
         "id": "action.basic.skill.untrained.crb.steal",
         "color": "#B71C1C",
+        "name": "Steal",
         "title": "Steal [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2714,6 +2897,7 @@
     {
         "id": "action.basic.crb.step",
         "color": "#B71C1C",
+        "name": "Step",
         "title": "Step [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2728,6 +2912,7 @@
     {
         "id": "action.gmg.stop",
         "color": "#B71C1C",
+        "name": "Stop",
         "title": "Stop [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2741,6 +2926,7 @@
     {
         "id": "action.basic.crb.stride",
         "color": "#B71C1C",
+        "name": "Stride",
         "title": "Stride [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2753,6 +2939,7 @@
     {
         "id": "action.basic.crb.strike",
         "color": "#B71C1C",
+        "name": "Strike",
         "title": "Strike [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2769,6 +2956,7 @@
     {
         "id": "action.sot-1.study",
         "color": "#B71C1C",
+        "name": "Study",
         "title": "Study",
         "icon_front": "expander",
         "code": "action",
@@ -2788,6 +2976,7 @@
     {
         "id": "action.basic.crb.subsist",
         "color": "#B71C1C",
+        "name": "Subsist",
         "title": "Subsist",
         "icon_front": "expander",
         "code": "action",
@@ -2806,6 +2995,7 @@
     {
         "id": "action.basic.crb.sustain-a-spell",
         "color": "#B71C1C",
+        "name": "Sustain a Spell",
         "title": "Sustain a Spell [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2820,6 +3010,7 @@
     {
         "id": "action.basic.crb.sustain-an-activation",
         "color": "#B71C1C",
+        "name": "Sustain an Activation",
         "title": "Sustain an Activation [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2833,6 +3024,7 @@
     {
         "id": "action.basic.skill.untrained.crb.swim",
         "color": "#B71C1C",
+        "name": "Swim",
         "title": "Swim [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2851,6 +3043,7 @@
     {
         "id": "action.ancestry.kobold.apg.tail-toxin",
         "color": "#B71C1C",
+        "name": "Tail Toxin",
         "title": "Tail Toxin [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2865,6 +3058,7 @@
     {
         "id": "action.gmg.take-a-breather",
         "color": "#B71C1C",
+        "name": "Take a Breather",
         "title": "Take a Breather",
         "icon_front": "expander",
         "code": "action",
@@ -2877,6 +3071,7 @@
     {
         "id": "action.gmg.take-control",
         "color": "#B71C1C",
+        "name": "Take Control",
         "title": "Take Control [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2890,6 +3085,7 @@
     {
         "id": "action.basic.crb.take-cover",
         "color": "#B71C1C",
+        "name": "Take Cover",
         "title": "Take Cover [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2902,6 +3098,7 @@
     {
         "id": "action.basic.skill.trained.som.tap-ley-line",
         "color": "#B71C1C",
+        "name": "Tap Ley Line",
         "title": "Tap Ley Line [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2920,6 +3117,7 @@
     {
         "id": "action.class.gunslinger.subclass.pistolero.g-g.ten-paces",
         "color": "#B71C1C",
+        "name": "Ten Paces",
         "title": "Ten Paces [[free-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2933,6 +3131,7 @@
     {
         "id": "action.g-g.thoughtful-reload",
         "color": "#B71C1C",
+        "name": "Thoughtful Reload",
         "title": "Thoughtful Reload [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2945,6 +3144,7 @@
     {
         "id": "action.ancestry.lizardfolk.locg.threatening-approach",
         "color": "#B71C1C",
+        "name": "Threatening Approach",
         "title": "Threatening Approach [[two-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -2956,6 +3156,7 @@
     {
         "id": "action.ancestry.grippli.lome.toxic-skin",
         "color": "#B71C1C",
+        "name": "Toxic Skin",
         "title": "Toxic Skin [[reaction]]",
         "icon_front": "expander",
         "code": "action",
@@ -2970,6 +3171,7 @@
     {
         "id": "action.basic.skill.trained.crb.track",
         "color": "#B71C1C",
+        "name": "Track",
         "title": "Track",
         "icon_front": "expander",
         "code": "action",
@@ -2988,6 +3190,7 @@
     {
         "id": "action.gmg.travel",
         "color": "#B71C1C",
+        "name": "Travel",
         "title": "Travel",
         "icon_front": "expander",
         "code": "action",
@@ -3001,6 +3204,7 @@
     {
         "id": "action.basic.skill.trained.crb.treat-disease",
         "color": "#B71C1C",
+        "name": "Treat Disease",
         "title": "Treat Disease",
         "icon_front": "expander",
         "code": "action",
@@ -3019,6 +3223,7 @@
     {
         "id": "action.basic.skill.trained.crb.treat-poison",
         "color": "#B71C1C",
+        "name": "Treat Poison",
         "title": "Treat Poison [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -3037,6 +3242,7 @@
     {
         "id": "action.basic.skill.trained.crb.treat-wounds",
         "color": "#B71C1C",
+        "name": "Treat Wounds",
         "title": "Treat Wounds",
         "icon_front": "expander",
         "code": "action",
@@ -3058,6 +3264,7 @@
     {
         "id": "action.basic.skill.untrained.crb.trip",
         "color": "#B71C1C",
+        "name": "Trip",
         "title": "Trip [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -3076,6 +3283,7 @@
     {
         "id": "action.basic.skill.untrained.crb.tumble-through",
         "color": "#B71C1C",
+        "name": "Tumble Through",
         "title": "Tumble Through [[one-action]]",
         "icon_front": "expander",
         "code": "action",
@@ -3092,6 +3300,7 @@
     {
         "id": "action.class.gunslinger.subclass.sniper.g-g.vital-shot",
         "color": "#B71C1C",
+        "name": "Vital Shot",
         "title": "Vital Shot [[two-action]]",
         "icon_front": "expander",
         "code": "action",

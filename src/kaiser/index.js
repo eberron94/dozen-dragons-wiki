@@ -11,11 +11,43 @@ const { composeMDX } = require('./composer/mdx');
 
 const navigationDividers = [
     {
-        id: 'catalog',
-        name: 'Catalog',
+        id: 'character-options',
+        name: 'Character Options',
         slug: '',
         depth: 1,
         weight: 1_000,
+        children: [],
+    },
+    {
+        id: 'magic',
+        name: 'Magic',
+        slug: '',
+        depth: 1,
+        weight: 2_000,
+        children: [],
+    },
+    {
+        id: 'alchemy',
+        name: 'Alchemy',
+        slug: '',
+        depth: 1,
+        weight: 3_000,
+        children: [],
+    },
+    {
+        id: 'gear',
+        name: 'Adventuring Gear',
+        slug: '',
+        depth: 1,
+        weight: 4_000,
+        children: [],
+    },
+    {
+        id: 'wonderous-items',
+        name: 'Magical Equipment',
+        slug: '',
+        depth: 1,
+        weight: 5_000,
         children: [],
     },
     {

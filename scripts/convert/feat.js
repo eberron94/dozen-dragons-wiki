@@ -1,4 +1,4 @@
-const { kebabCase } = require('lodash');
+const { kebabCase, cloneDeep } = require('lodash');
 const { markup } = require('../../src/helper/markup');
 const { toDashCase } = require('../../src/util/stringHelper');
 const {
@@ -12,14 +12,16 @@ const {
 } = require('../util/crobiUtil');
 const { DataUtil, SortUtil, Renderer } = require('../util/toolUtil');
 
-exports.convertFeats2Save = async (items, saveFn) => {
+exports.convertFeats2Save = async (items, archetypes, saveFn) => {
     let singletonList;
+
     await Promise.all(
         items.map((item) => DataUtil.item.expandVariants(item))
     ).then((result) =>
         (singletonList = result
             .flat()
             .filter((e) => e.generic !== 'G')
+            .concat(accordionArchetype(items, archetypes))
             .map(convertFeat)).sort((a, b) => a.id.localeCompare(b.id))
     );
 
@@ -27,17 +29,84 @@ exports.convertFeats2Save = async (items, saveFn) => {
     saveFn(singletonList);
 };
 
+const accordionArchetype = (items, archetypes) => {
+    const archetypeExtras = archetypes
+        .filter((archetype) => archetype?.extraFeats?.length)
+        .flatMap(parseArchetypeExtra);
+
+    return archetypeExtras
+        .flatMap(populateArchetypeExtra(items))
+        .filter((e) => e);
+};
+
+const parseArchetypeExtra = ({ name: dedicationName, extraFeats }) => {
+    const parsedFeats = [];
+
+    extraFeats.forEach((str) => {
+        const [level, name, source] = str.split('|');
+        parsedFeats.push({ dedicationName, level, name, source });
+    });
+
+    return parsedFeats;
+};
+
+const populateArchetypeExtra =
+    (items) =>
+    ({ dedicationName, level, name, source }) => {
+        // console.log(`Looking for ${name} ${source}`);
+        const foundFeat = items.find((item) => {
+            const cannonName = item.add_hash
+                ? `${item.name} (${item.add_hash})`
+                : item.name;
+            return (
+                cannonName.toLowerCase() === name.toLowerCase() &&
+                item.source.toLowerCase() === source.toLowerCase()
+            );
+        });
+
+        if (!foundFeat) {
+            console.log(
+                `Match FAILED for ${name} to ${dedicationName} archetype`
+            );
+            return null;
+        }
+        const archFeat = cloneDeep(foundFeat);
+        if (!archFeat.traits) console.log(archFeat);
+
+        // Apply Trait changes
+        archFeat.traits.push('archetype');
+        archFeat.traits = archFeat.traits.filter((t) => !classList.includes(t));
+
+        // Update Level
+        archFeat.level = level;
+
+        // Add or update prereq
+        if (archFeat.prerequisites)
+            archFeat.prerequisites =
+                dedicationName + ' Dedication, ' + archFeat.prerequisites;
+        else archFeat.prerequisites = dedicationName + ' Dedication';
+
+        // Add Feat Type
+        archFeat.featType = { archetype: [dedicationName] };
+
+        // console.log(`Matched ${name} to ${dedicationName} archetype`);
+
+        return archFeat;
+    };
+
 const convertFeat = (item) => {
     const card = initCard();
     // console.log('working on', item.name);
 
     // SET NAME
+    card.name = item.name;
     card.title = item.name;
-    if (item.add_hash) card.title += ` (${item.add_hash})`;
+    // if (item.add_hash) card.title += ` (${item.add_hash})`;
 
     if (item.activity) card.title += ` ${parseActivity(item.activity)}`;
 
     // SET COLOR
+    card.color = getColor(item);
 
     // SET CODE
     card.code = 'feat ' + (item.level || '1');
@@ -53,7 +122,7 @@ const convertFeat = (item) => {
 
     // SET EXTRA
     card.level = item.level;
-    if (item.special || item.leadsTo) card.extra = getExtra(item);
+    // if (item.special || item.leadsTo) card.extra = getExtra(item);
 
     return card;
 };
@@ -164,10 +233,8 @@ const getContent = ({
                 `property | Frequency | once per ${frequency.interval} ${frequency.unit}s`
             );
         else lineArr.push(`property | Frequency | once per ${frequency.unit}`);
-    } else if (frequency?.entry){
-        lineArr.push(
-            `property | Frequency | ${frequency.entry}`
-        );
+    } else if (frequency?.entry) {
+        lineArr.push(`property | Frequency | ${frequency.entry}`);
     }
 
     lineArr.push('rule');

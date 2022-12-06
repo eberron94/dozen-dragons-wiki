@@ -5,7 +5,7 @@ const { convertItem, convertItems2Save } = require('./convert/item');
 const { convertSpell2Save } = require('./convert/spell');
 const { readFilesSync } = require('./util/readFiles');
 
-const workingKeys = ['spell', 'baseitem', 'item', 'action', 'feat'];
+const workingKeys = ['spell', 'baseitem', 'item', 'action', 'feat', 'archetype'];
 
 const saveFile = (name, data) => {
     try {
@@ -65,7 +65,7 @@ const packer = () => {
     convertItems2Save(content.item, saveFn('item'));
     convertItems2Save(content.baseitem, saveFn('base-item'));
 
-    convertFeats2Save(content.feat, saveFn('feat'));
+    convertFeats2Save(content.feat, content.archetype, saveFn('feat'));
 
     convertActions2Save(content.action, saveFn('action'));
     convertSpell2Save(content.spell, saveFn('spell'));

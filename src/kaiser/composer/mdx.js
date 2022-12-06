@@ -66,7 +66,7 @@ exports.composeMDX = (original) => {
                                         //     'for',
                                         //     page.id + ':' + key
                                         // );
-                                        return contentList.find(id);
+                                        return contentList.findWithComplexSearch(id);
                                     }
                                 })
                                 .sort((a, b) => {

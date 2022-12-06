@@ -1,4 +1,5 @@
 const { kebabCase } = require('lodash');
+const { notSubset } = require('../../src/util/arrays');
 const { toDashCase } = require('../../src/util/stringHelper');
 const { initCard, getTextEntries, unpackText } = require('../util/crobiUtil');
 const { DataUtil, SortUtil, Renderer } = require('../util/toolUtil');
@@ -24,11 +25,19 @@ const convertItem = (item) => {
     // console.log('working on', item.name);
 
     // card.original = item;
+    card.filtering = [`level-${item.level||0}`];
+
+    if (Array.isArray(item.traits))
+        card.filtering = card.filtering.concat(item.traits);
 
     // SET NAME
+    card.name = item.name;
     card.title = item.name;
 
-    if (item.type === 'Rune') card.title += ' Rune';
+    if (item.type === 'Rune') {
+        card.title += ' Rune';
+        card.filtering.push('rune');
+    }
 
     // SET CODE
     if (item.type === 'Equipment') card.code = 'equipment';
@@ -45,6 +54,11 @@ const convertItem = (item) => {
 
     // SET CONTENT
     card.contents = getContent(item);
+
+    // SET EXTRA
+    if (notSubset(item.traits, ['unique', 'rare', 'uncommon']))
+        card.filtering.push('common');
+    card.level = item.level || 0;
 
     return card;
 };
