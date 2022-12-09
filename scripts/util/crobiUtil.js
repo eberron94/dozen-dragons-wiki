@@ -11,6 +11,26 @@ const initCard = () => ({
     contents: [],
 });
 
+const skillList = [
+    'acrobatics',
+    'arcana',
+    'athletics',
+    'crafting',
+    'deception',
+    'diplomacy',
+    'insight',
+    'intimidation',
+    'medicine',
+    'nature',
+    'occultism',
+    'performance',
+    'religion',
+    'society',
+    'stealth',
+    'survival',
+    'thievery'
+];
+
 const classList = [
     'alchemist',
     'barbarian',
@@ -234,7 +254,7 @@ const cleanContent = (arr) => {
 module.exports = {
     initCard,
     getTextEntries,
-    classList,
+    classList, skillList,
     getMatchedAncestry,
     parseActivity,
     unpackText: (str) =>

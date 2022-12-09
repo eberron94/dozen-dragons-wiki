@@ -11,7 +11,7 @@
     padding-bottom: 120px;
 }
 
-ul.nav-sidebar > li:nth-child(1) {
+ul.nav-sidebar > li[data-id="/index"] {
     display: none;
 }
 
@@ -36,6 +36,10 @@ ul.nav-sidebar > li:nth-child(1) {
 
 .nav label {
     cursor: pointer;
+}
+
+.nav hr {
+    margin: 0;
 }
 
 /**

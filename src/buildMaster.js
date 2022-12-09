@@ -260,7 +260,7 @@ const registerHandlebars = () => {
                 .map((lvl) => {
                     const nth = nthNumber(lvl);
                     return (
-                        `<div class='level-head'><h${hl} id="level-${nth}">${nth} Level</h${hl}></div>` +
+                        `<div class='level-head'><h${hl} id="level-${nth}-${options.hash.res||'a'}">${nth} Level</h${hl}></div>` +
                         buildDeck(levelBuckets[lvl], options)
                     );
                 })

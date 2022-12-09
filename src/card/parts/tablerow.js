@@ -1,15 +1,18 @@
 const { markup } = require('../../helper/markup');
 const cardUtil = require('../cardUtil');
 
-exports.tablerow = (params, decoration) => {
+exports.tablerow = (params, decoration = 'row') => {
     const containerElem = cardUtil.element(
-        decoration === 'header' ? 'th' : 'tr',
+        'tr',
         'card-element card-tablerow-line'
     );
-    const textElem = cardUtil.element('td', 'card-tablerow-text');
+    const textElem = cardUtil.element(
+        decoration === 'header' ? 'th' : 'td',
+        'card-tablerow-text'
+    );
 
     const row = cardUtil
-        .tableCellTextArray( params )
+        .tableCellTextArray(params)
         .map((e) => textElem(markup(e)));
 
     return containerElem(row.join(''));

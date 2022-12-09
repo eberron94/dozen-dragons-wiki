@@ -4,15 +4,14 @@
         "color": "",
         "title": "Runic Fist",
         "icon_front": "rank-2",
-        "code": "feat 10",
+        "code": "feat 4",
         "contents": [
-            "pftrait | archetype | curse",
-            "property | Prerequisites | Renegade Mastermaker Dedication, expert in unarmed attacks",
+            "pftrait | archetype",
+            "property | Prerequisites | Renegade Mastermaker Dedication",
             "rule",
-            "text | You have replaced one of your forearms with one made of metal and infused with arcane magic. When you make an unarmed Strike with your metal fist and hit, your target takes a -2 status penalty to saving throws against curse effects for 1 hour.",
-            "text | **Special** The damage die for your metal fist is 1d8, and it loses the agile and finesse traits of a typical fist."
+            "text | You have replaced one of your forearms with one made of metal and infused with arcane magic. The damage die for your metal fist is 1d8, and it loses the agile and finesse traits of a typical fist."
         ],
-        "level": 10
+        "level": 4
     },
     {
         "id": "feat.archetype.renegade-mastermaker.class.brew.iron-lung",

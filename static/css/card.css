@@ -93,6 +93,13 @@
     font-style: italic;
 }
 
+/* TABLE LINE */
+
+table.card-table {
+    margin: 4px 0;
+    text-align: center;
+}
+
 /* PF TRAIT LINE */
 
 /* .card-pftrait-line {

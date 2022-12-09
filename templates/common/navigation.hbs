@@ -1,8 +1,5 @@
 <ul class='nav__list nav-sidebar'>
-    {{#each this}}
-        {{{navChild this}}}
-    {{/each}}
-    <hr />
+    
     <li id='fav-0' class='fav'></li>
     <li id='fav-1' class='fav'></li>
     <li id='fav-2' class='fav'></li>
@@ -13,4 +10,9 @@
     <li id='fav-7' class='fav'></li>
     <li id='fav-8' class='fav'></li>
     <li id='fav-9' class='fav'></li>
+    <hr />
+    {{#each this}}
+        {{{navChild this}}}
+    {{/each}}
+    
 </ul>

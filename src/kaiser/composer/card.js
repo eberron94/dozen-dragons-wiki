@@ -160,7 +160,7 @@ const parse = (item) => {
         },
         card: {
             title: markup(title),
-            contents: contentLines,
+            contents: groupTableLines(contentLines),
             icon: iconMap[icon_front || 'ace'].path,
             code: code,
             reference,
@@ -204,11 +204,11 @@ const matchLines = (arg) => {
         case 'tableheader':
         case 'table':
         case 'th':
-            return tablerow(arg);
+            return tablerow(arg, 'header');
         case 'tablerow':
         case 'row':
         case 'tr':
-            return tablerow(arg);
+            return tablerow(arg, 'row');
         case 'pftrait':
             // console.log(arg);
 
@@ -216,4 +216,32 @@ const matchLines = (arg) => {
         default:
             return '';
     }
+};
+
+const groupTableLines = (lines) => {
+    if (lines.length === 0) return [];
+
+    const groups = [];
+
+    let queue = [];
+    lines.forEach((line) => {
+        if (line.startsWith('<t')) {
+            queue.push(line);
+        } else {
+            if (queue.length) {
+                groups.push(queue);
+                queue = [];
+            }
+            groups.push([line]);
+        }
+    });
+
+    return groups.map((group) => {
+        if (group.length === 1) return group[0];
+        const [header, ...rows] = group;
+        return `<table class='card-element card-table'>
+            <thead>${header}</thead>
+            <tbody>${rows.join('\n')}</tbody>
+        </table>`;
+    });
 };

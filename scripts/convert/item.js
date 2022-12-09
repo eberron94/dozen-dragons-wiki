@@ -25,7 +25,7 @@ const convertItem = (item) => {
     // console.log('working on', item.name);
 
     // card.original = item;
-    card.filtering = [`level-${item.level||0}`];
+    card.filtering = [`level-${item.level || 0}`];
 
     if (Array.isArray(item.traits))
         card.filtering = card.filtering.concat(item.traits);
@@ -34,14 +34,17 @@ const convertItem = (item) => {
     card.name = item.name;
     card.title = item.name;
 
+    // SET CODE
     if (item.type === 'Rune') {
         card.title += ' Rune';
+        card.code = 'rune ' + (item.level || '0');
         card.filtering.push('rune');
+    } else if (item.type === 'Equipment') {
+        card.code = 'equipment';
+        card.filtering.push('equipment');
+    } else {
+        card.code = 'item ' + (item.level || '0');
     }
-
-    // SET CODE
-    if (item.type === 'Equipment') card.code = 'equipment';
-    else card.code = 'item ' + (item.level || '0');
 
     // SET ICON
     card.icon_front = getIcon(item);
@@ -56,10 +59,15 @@ const convertItem = (item) => {
     card.contents = getContent(item);
 
     // SET EXTRA
-    if (notSubset(item.traits, ['unique', 'rare', 'uncommon']))
+    if (notSubset(item.traits||[], ['unique', 'rare', 'uncommon']))
         card.filtering.push('common');
+    if (item.category) card.filtering.push(item.category);
+    if (item.subCategory) card.filtering.push(item.subCategory);
+    if (item?.weaponData?.group) card.filtering.push(item.weaponData.group.split('|')[0]);
+    if (item?.armorData?.group) card.filtering.push(item.armorData.group);
     card.level = item.level || 0;
 
+    card.filtering = card.filtering.filter((e) => e).map(toDashCase);
     return card;
 };
 
@@ -104,9 +112,19 @@ const getContent = ({
             line += ` | Group | ${weaponData.group.split('|')[0]}`;
 
         if (line !== 'property') lineArr.push(line);
+
+        line = 'property';
+        if(weaponData?.damage) line += ` | Damage | ${weaponData.damage} ${weaponData.damageType}`;
+        if (line !== 'property') lineArr.push(line);
     }
 
     if (category === 'Armor' && armorData) {
+        line = 'property';
+        if (armorData.ac) line += ` | Category | ${subCategory} Armor`;
+        if (armorData?.group) line += ` | Group | ${armorData.group}`;
+
+        if (line !== 'property') lineArr.push(line);
+        
         let armorHead = 'tablehead';
         line = 'row';
         if (armorData.ac) {
@@ -126,7 +144,7 @@ const getContent = ({
             armorHead += ` | Check Pen. `;
         }
         if (armorData.speedPen) {
-            line += ` |  --${armorData.speedPen} ft.`;
+            line += ` | --${armorData.speedPen} ft.`;
             armorHead += ` | Spd Pen. `;
         }
         if (line !== 'row') {
@@ -134,11 +152,7 @@ const getContent = ({
             lineArr.push(line);
         }
 
-        line = 'property';
-        if (armorData.ac) line += ` | Category | ${subCategory} Armor`;
-        if (armorData?.group) line += ` | Group | ${armorData.group}`;
-
-        if (line !== 'property') lineArr.push(line);
+        
     }
 
     if (frequency?.unit) {

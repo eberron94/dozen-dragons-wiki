@@ -2044,6 +2044,13 @@
         - feat.archetype.red-mantis-assassin.class.lowg.crimson-shroud
         - feat.archetype.red-mantis-assassin.class.lowg.mantis-form
         - feat.archetype.red-mantis-assassin.dedication.lowg.red-mantis-assassin-dedication
+        - feat.archetype.renegade-mastermaker.class.brew.construct-lock
+        - feat.archetype.renegade-mastermaker.class.brew.dim-vision-upgrade
+        - feat.archetype.renegade-mastermaker.class.brew.framed-resiliency
+        - feat.archetype.renegade-mastermaker.class.brew.internal-storage-unit
+        - feat.archetype.renegade-mastermaker.class.brew.night-vision-upgrade
+        - feat.archetype.renegade-mastermaker.class.brew.partial-construct-body
+        - feat.archetype.renegade-mastermaker.class.brew.partial-construct-soul
         - feat.archetype.ritualist.class.apg.assured-ritualist
         - feat.archetype.ritualist.class.apg.efficient-rituals
         - feat.archetype.ritualist.class.apg.flexible-ritualist

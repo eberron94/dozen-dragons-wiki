@@ -1,5 +1,6 @@
 const { kebabCase, cloneDeep } = require('lodash');
 const { markup } = require('../../src/helper/markup');
+const { notSubset } = require('../../src/util/arrays');
 const { toDashCase } = require('../../src/util/stringHelper');
 const {
     initCard,
@@ -9,6 +10,7 @@ const {
     getMatchedAncestry,
     unpackText,
     cleanContent,
+    skillList,
 } = require('../util/crobiUtil');
 const { DataUtil, SortUtil, Renderer } = require('../util/toolUtil');
 
@@ -98,6 +100,10 @@ const convertFeat = (item) => {
     const card = initCard();
     // console.log('working on', item.name);
 
+    card.filtering = [`feat-${item.level}`];
+    if (Array.isArray(item.traits))
+        card.filtering = card.filtering.concat(item.traits);
+
     // SET NAME
     card.name = item.name;
     card.title = item.name;
@@ -122,12 +128,20 @@ const convertFeat = (item) => {
 
     // SET EXTRA
     card.level = item.level;
+    if (notSubset(item.traits, ['unique', 'rare', 'uncommon']))
+        card.filtering.push('common');
+    if (getFeatType(item) === 'skill') {
+        // Add tags for Prereq skill
+        skillList
+            .filter((skill) => item.prerequisites && item.prerequisites.toLowerCase().includes(skill))
+            .forEach((skill) => card.filtering.push(skill));
+    }
     // if (item.special || item.leadsTo) card.extra = getExtra(item);
 
     return card;
 };
 
-const getColor = ({ traits }) => {
+const getFeatType = ({ traits }) => {
     let featType = 'ancestry';
 
     //Check for Class Feats
@@ -156,7 +170,11 @@ const getColor = ({ traits }) => {
         featType = 'dragonmark';
     }
 
-    switch (featType) {
+    return featType;
+};
+
+const getColor = (item) => {
+    switch (getFeatType(item)) {
         case 'dragonmark':
             return '#F57C00';
         case 'class':
