@@ -100,7 +100,7 @@ const convertFeat = (item) => {
     const card = initCard();
     // console.log('working on', item.name);
 
-    card.filtering = [`feat-${item.level}`];
+    card.filtering = ['feat', `feat-${item.level}`];
     if (Array.isArray(item.traits))
         card.filtering = card.filtering.concat(item.traits);
 
@@ -133,7 +133,11 @@ const convertFeat = (item) => {
     if (getFeatType(item) === 'skill') {
         // Add tags for Prereq skill
         skillList
-            .filter((skill) => item.prerequisites && item.prerequisites.toLowerCase().includes(skill))
+            .filter(
+                (skill) =>
+                    item.prerequisites &&
+                    item.prerequisites.toLowerCase().includes(skill)
+            )
             .forEach((skill) => card.filtering.push(skill));
     }
     // if (item.special || item.leadsTo) card.extra = getExtra(item);
