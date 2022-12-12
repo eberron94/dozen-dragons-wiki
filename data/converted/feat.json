@@ -24619,6 +24619,327 @@
         "level": 2
     },
     {
+        "id": "feat.archetype.artificer.class.brew.coerce-staff",
+        "color": "#37474F",
+        "name": "Coerce Staff",
+        "title": "Coerce Staff",
+        "icon_front": "rank-2",
+        "code": "feat 4",
+        "contents": [
+            "pftrait | archetype",
+            "property | Prerequisites | Artificer Dedication",
+            "rule",
+            "text | During your daily preparations, you can prepare a magical staff and infuse it with an Eberron dragonshard. The staff gains 1 charge, or adds 1 charge to its usual amount. You can Cast a Spell from a staff by tricking it like a wand or scroll.",
+            "text | At 7th level and ever two levels after that, the staff gains 1 additional charge, up to a maximum of 5 charges at 15th level."
+        ],
+        "filtering": [
+            "feat-4",
+            "archetype",
+            "common"
+        ],
+        "level": 4
+    },
+    {
+        "id": "feat.archetype.artificer.class.brew.expert-spellwright",
+        "color": "#37474F",
+        "name": "Expert Spellwright",
+        "title": "Expert Spellwright",
+        "icon_front": "rank-2",
+        "code": "feat 12",
+        "contents": [
+            "pftrait | archetype",
+            "property | Prerequisites | Artificer Dedication; master in Arcana",
+            "rule",
+            "text | When you create wands for Spellwright, you can create a fourth wand with a 4th level spell.",
+            "text | At 14th level, you can create a fifth wand which contains a 5th level spell. At 16th level, you can create a sixth wand which contains a 6th level spell.",
+            "text | Additionally, when you use wands and scrolls that you have tricked, you are considered an expert for spell attack rolls and spell DCs, using your Intelligence modifier, with the spells it casts."
+        ],
+        "filtering": [
+            "feat-12",
+            "archetype",
+            "common"
+        ],
+        "level": 12
+    },
+    {
+        "id": "feat.archetype.artificer.class.brew.intuitive-master",
+        "color": "#37474F",
+        "name": "Intuitive Master",
+        "title": "Intuitive Master",
+        "icon_front": "rank-2",
+        "code": "feat 16",
+        "contents": [
+            "pftrait | archetype",
+            "property | Prerequisites | Artificer Dedication; Intuitive Understanding; legendary in Crafting",
+            "rule",
+            "text | Your unparalleled experience with the different magic traditions ingrained a complex understanding.",
+            "text | Any magic item of half your level or lower that could be tricked by you using a skill you are a master in is always tricked in your hands."
+        ],
+        "filtering": [
+            "feat-16",
+            "archetype",
+            "common"
+        ],
+        "level": 16
+    },
+    {
+        "id": "feat.archetype.artificer.class.brew.intuitive-understanding",
+        "color": "#37474F",
+        "name": "Intuitive Understanding",
+        "title": "Intuitive Understanding",
+        "icon_front": "rank-2",
+        "code": "feat 8",
+        "contents": [
+            "pftrait | archetype",
+            "property | Prerequisites | Artificer Dedication; master in Crafting",
+            "rule",
+            "text | Your study of the different magic traditions has created an intuitive understanding of simple magic items.",
+            "text | All 1st and 2nd level magic items that require you to trick them with a skill you are an expert in are always tricked in your hands."
+        ],
+        "filtering": [
+            "feat-8",
+            "archetype",
+            "common"
+        ],
+        "level": 8
+    },
+    {
+        "id": "feat.archetype.artificer.class.brew.master-spellwright",
+        "color": "#37474F",
+        "name": "Master Spellwright",
+        "title": "Master Spellwright",
+        "icon_front": "rank-2",
+        "code": "feat 18",
+        "contents": [
+            "pftrait | archetype",
+            "property | Prerequisites | Artificer Dedication; Expert Spellwright; legendary in Arcana",
+            "rule",
+            "text | When you create wands for Spellwright, you can create a seventh wand with a 7th level spell.",
+            "text | At 20th level, you can create a eighth wand which contains a 8th level spell.",
+            "text | Additionally, when you use wands and scrolls that you have tricked, you are considered a master for spell attack rolls and spell DCs, using your Intelligence modifier, with the spells it casts."
+        ],
+        "filtering": [
+            "feat-18",
+            "archetype",
+            "common"
+        ],
+        "level": 18
+    },
+    {
+        "id": "feat.archetype.artificer.class.brew.prolific-inventor",
+        "color": "#37474F",
+        "name": "Prolific Inventor",
+        "title": "Prolific Inventor",
+        "icon_front": "rank-2",
+        "code": "feat 4",
+        "contents": [
+            "pftrait | archetype",
+            "property | Prerequisites | Artificer Dedication; expert in Crafting",
+            "rule",
+            "text | You gain the Inventor skill feat, even if you don't meet that feat's prerequisites.",
+            "text | When you take this feat, add the formulas for two common magic items up to 4th level to your formula book. Whenever you take an artificer archetype feat, you gain an additional formula of up to the level that you took the feat at."
+        ],
+        "filtering": [
+            "feat-4",
+            "archetype",
+            "common"
+        ],
+        "level": 4
+    },
+    {
+        "id": "feat.archetype.artificer.class.brew.spell-slinger",
+        "color": "#37474F",
+        "name": "Spell Slinger",
+        "title": "Spell Slinger [[one-action]]",
+        "icon_front": "rank-2",
+        "code": "feat 4",
+        "contents": [
+            "pftrait | archetype",
+            "property | Prerequisites | Artificer Dedication",
+            "rule",
+            "text | You interact to retrieve a wand, scroll, or magic item that requires activation and then use Trick Magic Item or No Need for Tricks on it."
+        ],
+        "filtering": [
+            "feat-4",
+            "archetype",
+            "common"
+        ],
+        "level": 4
+    },
+    {
+        "id": "feat.archetype.artificer.class.brew.spellwright",
+        "color": "#37474F",
+        "name": "Spellwright",
+        "title": "Spellwright",
+        "icon_front": "rank-2",
+        "code": "feat 4",
+        "contents": [
+            "pftrait | archetype",
+            "property | Prerequisites | Artificer Dedication; Magical Crafting",
+            "rule",
+            "text | You have a small supply of special Eberron dragonshards that are capable changing their properties. Each day during your daily preparations, you can create a single temporary wand containing a 1st-level spell. The spell must be one in your codex. This wand is an unstable, temporary item and loses its magic the next time you make your daily preparations. It can't be used to Learn the Spell.",
+            "text | At 6th level, you can create a second wand which contains a 2nd level spell. At 8th level, you can create a third wand which contains a 3rd level spell.",
+            "text | Additionally, when you use wands and scrolls that you have tricked, you are considered trained for spell attack rolls and spell DCs, using your Intelligence modifier, with the spells it casts."
+        ],
+        "filtering": [
+            "feat-4",
+            "archetype",
+            "common"
+        ],
+        "level": 4
+    },
+    {
+        "id": "feat.archetype.artificer.class.brew.wring-wand",
+        "color": "#37474F",
+        "name": "Wring Wand",
+        "title": "Wring Wand",
+        "icon_front": "rank-2",
+        "code": "feat 8",
+        "contents": [
+            "pftrait | archetype",
+            "property | Prerequisites | Artificer Dedication; master in Crafting",
+            "rule",
+            "text | You have learned how to force every last drop of power out of your wands.",
+            "text | You gain the Wand Surge focus spell. Increase the number of Focus Points in your focus pool by 1. You can Refocus by tinkering or repairing with magic items."
+        ],
+        "filtering": [
+            "feat-8",
+            "archetype",
+            "common"
+        ],
+        "level": 8
+    },
+    {
+        "id": "feat.archetype.artificer.dedication.brew.artificer-dedication",
+        "color": "#37474F",
+        "name": "Artificer Dedication",
+        "title": "Artificer Dedication",
+        "icon_front": "rank-3",
+        "code": "feat 2",
+        "contents": [
+            "pftrait | archetype | dedication",
+            "property | Prerequisites | trained in Crafting",
+            "rule",
+            "text | Artificers devote their life to tinkering with the forces of magic, bending them to their will will nails and gears.",
+            "text | You gain the Trick Magic Item skill feat. You also gain the No Need for Tricks activity.",
+            "text | Additionally, you gain a codex, a special type of spellbook, that contains two 1st-level arcane spells. A codex can be used as a spellbook when preparing and casting spells, but does not give you the spellcasting feature. You can add arcane spells to your codex by Learn a Spell."
+        ],
+        "filtering": [
+            "feat-2",
+            "archetype",
+            "dedication",
+            "common"
+        ],
+        "level": 2
+    },
+    {
+        "id": "feat.archetype.artificer.skill.brew.artificer-lore",
+        "color": "#E64A19",
+        "name": "Artificer Lore",
+        "title": "Artificer Lore",
+        "icon_front": "moebius-star",
+        "code": "feat 2",
+        "contents": [
+            "pftrait | archetype | skill",
+            "property | Prerequisites | Artificer Dedication",
+            "rule",
+            "text | You gain the Magical Crafting skill feat, even if you don't meet the prerequisites. Additionally, you gain expert proficiency in Artifice Lore. At 6th, and 13th levels, you gain an additional skill increase to Artifice Lore. When rolling to Craft a magical item or Trick Magic Item, you can use Artifice Lore in place of the usual skill. For Tricking Magic Items, your proficiency with the tradition's skill is still used to determine the DC or spell attack.",
+            "text | When you are crafting a magic item that requires you to supply a casting of an arcane spell whos level is no greater than half your level, you fulfil that requirement if the spell is in your codex."
+        ],
+        "filtering": [
+            "feat-2",
+            "archetype",
+            "skill",
+            "common"
+        ],
+        "level": 2
+    },
+    {
+        "id": "feat.archetype.artificer.skill.brew.esoteric-insights",
+        "color": "#E64A19",
+        "name": "Esoteric Insights",
+        "title": "Esoteric Insights",
+        "icon_front": "moebius-star",
+        "code": "feat 6",
+        "contents": [
+            "pftrait | archetype | skill",
+            "property | Prerequisites | Artificer Dedication",
+            "rule",
+            "text | Your study of esoteric practices and the effect of Eberron dragonshards on its magic allows you to emulate them through artifice. You can add occult spells to your codex as you would arcane spells. In addition when you craft occult magic items, you ignore any requirements related to class, alignment, or belief system. When you would roll Occultism to identify magic item's or Trick a Magic Item, you can choose to roll Arcana instead."
+        ],
+        "filtering": [
+            "feat-6",
+            "archetype",
+            "skill",
+            "common"
+        ],
+        "level": 6
+    },
+    {
+        "id": "feat.archetype.artificer.skill.brew.halcyon-insights",
+        "color": "#E64A19",
+        "name": "Halcyon Insights",
+        "title": "Halcyon Insights",
+        "icon_front": "moebius-star",
+        "code": "feat 6",
+        "contents": [
+            "pftrait | archetype | skill",
+            "property | Prerequisites | Artificer Dedication",
+            "rule",
+            "text | Your study of primal practices and the effect of Eberron dragonshards on its magic allows you to emulate them through artifice. You can add primal spells to your codex as you would arcane spells. In addition when you craft primal magic items, you ignore any requirements related to class, alignment, or belief system. When you would roll Nature to identify magic item's or Trick a Magic Item, you can choose to roll Arcana instead."
+        ],
+        "filtering": [
+            "feat-6",
+            "archetype",
+            "skill",
+            "common"
+        ],
+        "level": 6
+    },
+    {
+        "id": "feat.archetype.artificer.skill.brew.scrapper",
+        "color": "#E64A19",
+        "name": "Scrapper",
+        "title": "Scrapper",
+        "icon_front": "moebius-star",
+        "code": "feat 2",
+        "contents": [
+            "pftrait | archetype | skill",
+            "property | Prerequisites | Artificer Dedication",
+            "rule",
+            "text | You break down a magical item, extracting the arcane substance that powers it, Eberric dust. You spend 1 day tearing apart the item, which yields an amount of dust equal to the magic item's crafting cost. Each 100 gp of Eberric dust weights one L bulk.",
+            "text | Eberric dust's properties are not well known by those untrained in the art of artifice and is unlikely to be found in the open market. When you craft a magic item, you can use Eberric dust as half of the raw material's gp value. For example, an item with a base cost of 200 gp in raw material can be crafted with 100 gp worth of Eberric dust while the remaining 100 gold of raw material is supplied by normal means."
+        ],
+        "filtering": [
+            "feat-2",
+            "archetype",
+            "skill",
+            "common"
+        ],
+        "level": 2
+    },
+    {
+        "id": "feat.archetype.artificer.skill.brew.theological-insights",
+        "color": "#E64A19",
+        "name": "Theological Insights",
+        "title": "Theological Insights",
+        "icon_front": "moebius-star",
+        "code": "feat 6",
+        "contents": [
+            "pftrait | archetype | skill",
+            "property | Prerequisites | Artificer Dedication",
+            "rule",
+            "text | Your study of divine practices and the effect of Eberron dragonshards on its magic allows you to emulate them through artifice. You can add divine spells to your codex as you would arcane spells. In addition when you craft divine magic items, you ignore any requirements related to class, alignment, or belief system. When you would roll Religion to identify magic item's or Trick a Magic Item, you can choose to roll Arcana instead."
+        ],
+        "filtering": [
+            "feat-6",
+            "archetype",
+            "skill",
+            "common"
+        ],
+        "level": 6
+    },
+    {
         "id": "feat.archetype.artillerist.class.g-g.cannon-corner-shot",
         "color": "#37474F",
         "name": "Cannon Corner Shot",

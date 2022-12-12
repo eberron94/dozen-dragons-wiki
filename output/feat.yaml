@@ -1209,6 +1209,21 @@
         - feat.archetype.archer.class.crb.triple-shot
         - feat.archetype.archer.class.lokl.staggering-fire
         - feat.archetype.archer.dedication.apg.archer-dedication
+        - feat.archetype.artificer.class.brew.coerce-staff
+        - feat.archetype.artificer.class.brew.expert-spellwright
+        - feat.archetype.artificer.class.brew.intuitive-master
+        - feat.archetype.artificer.class.brew.intuitive-understanding
+        - feat.archetype.artificer.class.brew.master-spellwright
+        - feat.archetype.artificer.class.brew.prolific-inventor
+        - feat.archetype.artificer.class.brew.spell-slinger
+        - feat.archetype.artificer.class.brew.spellwright
+        - feat.archetype.artificer.class.brew.wring-wand
+        - feat.archetype.artificer.dedication.brew.artificer-dedication
+        - feat.archetype.artificer.skill.brew.artificer-lore
+        - feat.archetype.artificer.skill.brew.esoteric-insights
+        - feat.archetype.artificer.skill.brew.halcyon-insights
+        - feat.archetype.artificer.skill.brew.scrapper
+        - feat.archetype.artificer.skill.brew.theological-insights
         - feat.archetype.artillerist.class.g-g.cannon-corner-shot
         - feat.archetype.artillerist.class.g-g.field-artillery
         - feat.archetype.artillerist.class.g-g.live-ammunition

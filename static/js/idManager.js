@@ -162,7 +162,7 @@ const handleClickToggleManager = (event) => {
 
 const handleCopyId = (event) => {
     event.preventDefault();
-    const idList = getList().join(', ');
+    const idList = getList().map(e=>event.shiftKey?`"${e}"`:e).join(', ');
     console.log('copying', idList);
     if (idList.length) {
         navigator.clipboard.writeText(idList);

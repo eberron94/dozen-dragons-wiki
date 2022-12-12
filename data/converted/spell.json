@@ -1,5 +1,32 @@
 [
     {
+        "id": "spell.focus.4th.brew.wand-surge",
+        "color": "#0D47A1",
+        "name": "Wand Surge",
+        "title": "Wand Surge",
+        "icon_front": "spell-transmutation",
+        "code": "focus spell 4",
+        "contents": [
+            "pftrait | uncommon | transmutation",
+            "property | Cast | [[one-action]] [S M]; **Requirements** You are holding a wand.",
+            "rule",
+            "text | You infuse the wand with extra power from an Eberron dragonshard. If your next action is to Cast a Spell from a wand, you overcharge the wand but reduce the DC of the flat check to DC 5.",
+            "text | If the wand has already been overcharged today, you instead supercharge the wand. You cast the spell from the wand, then roll a DC 19 flat check.",
+            "fill",
+            "property | Success | The wand is broken.",
+            "property | Failure | The wand is destroyed.",
+            "property | Critical Failure | The wand explodes with a powerful force. The wand deals 2d10 force damage in a 10-foot burst centered on you, with a basic Reflex Save. Your result cannot exceed Failure. For every level of the wand beyond 1, the damage increases by 2d10.",
+            "fill"
+        ],
+        "filtering": [
+            "level-4",
+            "uncommon",
+            "transmutation",
+            "focus"
+        ],
+        "level": 4
+    },
+    {
         "id": "spell.slot.1st.aoa-3.exchange-image",
         "color": "#0D47A1",
         "name": "Exchange Image",

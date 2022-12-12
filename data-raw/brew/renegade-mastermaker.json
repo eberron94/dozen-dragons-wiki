@@ -7,10 +7,8 @@
             "level": 4,
             "traits": ["archetype"],
             "featType": {
-				"archetype": [
-					"Renegade Mastermaker"
-				]
-			},
+                "archetype": ["Renegade Mastermaker"]
+            },
             "prerequisites": "Renegade Mastermaker Dedication",
             "entries": [
                 "You gain a +1 circumstance bonus to saves against poison or effects that would impose the sleep condition. If you roll a success on a saving throw against poison or an effect that would impose the sleep condition, you get a critical success instead."
@@ -21,11 +19,10 @@
             "source": "BREW",
             "page": 1,
             "level": 4,
-            "traits": ["archetype"],"featType": {
-				"archetype": [
-					"Renegade Mastermaker"
-				]
-			},
+            "traits": ["archetype"],
+            "featType": {
+                "archetype": ["Renegade Mastermaker"]
+            },
             "prerequisites": "Renegade Mastermaker Dedication",
             "entries": [
                 "You are skilled at finding constructs' weak points due to your understanding of your own construction. You gain a +1 circumstance bonus to damage with weapons and unarmed attacks against constructs. If your attack would deal more than one weapon die of damage (as is common at higher levels than 1st), the bonus is equal to the number of weapon dice or unarmed attack dice.",
@@ -37,11 +34,10 @@
             "source": "BREW",
             "page": 1,
             "level": 4,
-            "traits": ["archetype"],"featType": {
-				"archetype": [
-					"Renegade Mastermaker"
-				]
-			},
+            "traits": ["archetype"],
+            "featType": {
+                "archetype": ["Renegade Mastermaker"]
+            },
             "prerequisites": "Renegade Mastermaker Dedication",
             "entries": [
                 "Your eyes have been upgraded with the capacity to see through dim light. You gain low-light vision."
@@ -52,11 +48,10 @@
             "source": "BREW",
             "page": 1,
             "level": 6,
-            "traits": ["archetype"],"featType": {
-				"archetype": [
-					"Renegade Mastermaker"
-				]
-			},
+            "traits": ["archetype"],
+            "featType": {
+                "archetype": ["Renegade Mastermaker"]
+            },
             "prerequisites": "Partial Construct Body",
             "entries": [
                 "Poison that harms \"fleshies\" has little effect against your mechanical frame. You gain resistance to poison equal to half your level."
@@ -67,11 +62,10 @@
             "source": "BREW",
             "page": 1,
             "level": 6,
-            "traits": ["archetype"],"featType": {
-				"archetype": [
-					"Renegade Mastermaker"
-				]
-			},
+            "traits": ["archetype"],
+            "featType": {
+                "archetype": ["Renegade Mastermaker"]
+            },
             "prerequisites": "Dim Vision Upgrade",
             "entries": [
                 "You have further enhanced your forged sight. You gain Darkvision."
@@ -82,11 +76,10 @@
             "source": "BREW",
             "page": 1,
             "level": 8,
-            "traits": ["archetype"],"featType": {
-				"archetype": [
-					"Renegade Mastermaker"
-				]
-			},
+            "traits": ["archetype"],
+            "featType": {
+                "archetype": ["Renegade Mastermaker"]
+            },
             "prerequisites": "Renegade Mastermaker Dedication",
             "entries": [
                 "You have added an inner compartment within your body to store items. Your compartment holds up to 2 Bulk of items, and these items don't count against your Bulk limits."
@@ -97,11 +90,10 @@
             "source": "BREW",
             "page": 1,
             "level": 12,
-            "traits": ["archetype"],"featType": {
-				"archetype": [
-					"Renegade Mastermaker"
-				]
-			},
+            "traits": ["archetype"],
+            "featType": {
+                "archetype": ["Renegade Mastermaker"]
+            },
             "prerequisites": "Partial Construct Body",
             "entries": [
                 "You also gain the benefits of your Construct Body against effects that would inflict the Doomed, Drained, Fatigued, Paralyzed or Sickened condition."

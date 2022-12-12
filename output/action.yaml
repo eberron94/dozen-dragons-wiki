@@ -108,6 +108,7 @@
         - action.basic.skill.untrained.crb.trip
         - action.basic.skill.untrained.crb.tumble-through
         - action.basic.som.affix-a-fulu
+        - action.brew.no-need-for-tricks
         - action.class.alchemist.crb.quick-alchemy
         - action.class.alchemist.subclass.mutagenist.crb.mutagenic-flashback
         - action.class.barbarian.crb.mighty-rage

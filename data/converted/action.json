@@ -13,6 +13,20 @@
         ]
     },
     {
+        "id": "action.brew.no-need-for-tricks",
+        "color": "#B71C1C",
+        "name": "No Need for Tricks",
+        "title": "No Need for Tricks [[one-action]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | artificer | manipulate",
+            "property | Frequency | once per round",
+            "rule",
+            "text | You can activate the magic of an item of your level or lower that either casts a spell in your codex or is in your formula book. This counts as an automatic success on your attempt to Trick a Magic Item. You must know what activating the item does, or you can't attempt to trick it."
+        ]
+    },
+    {
         "id": "action.ancestry.changeling.brew.changeling-shape",
         "color": "#B71C1C",
         "name": "Changeling Shape",
