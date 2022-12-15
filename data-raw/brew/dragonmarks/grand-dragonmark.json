@@ -1,0 +1,197 @@
+{
+    "feat": [
+        {
+            "name": "Grand Dragonmark",
+            "source": "BREW",
+            "page": 1,
+            "level": 13,
+            "traits": ["dragonmark"],
+            "entries": [
+                "Your dragonmark expands in size and power. You gain your mark's grand dragonmark focus spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
+            ],
+            "generic": "G",
+            "variants": [
+                {
+                    "variantType": "Detection",
+                    "traits": ["dragonmark", "mark of detection"],
+                    "prerequisites": "Greater Dragonmark (Detection)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's grand dragonmark focus spell",
+                                "with": "the Grand Detector dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Finding",
+                    "traits": ["dragonmark", "mark of finding"],
+                    "prerequisites": "Greater Dragonmark (Finding)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's grand dragonmark focus spell",
+                                "with": "the Grand Seeker dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Handling",
+                    "traits": ["dragonmark", "mark of handling"],
+                    "prerequisites": "Greater Dragonmark (Handling)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's grand dragonmark focus spell",
+                                "with": "the Grand Handler dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Healing",
+                    "traits": ["dragonmark", "mark of healing"],
+                    "prerequisites": "Greater Dragonmark (Healing)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's grand dragonmark focus spell",
+                                "with": "the Grand Healer dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Hospitality",
+                    "traits": ["dragonmark", "mark of hospitality"],
+                    "prerequisites": "Greater Dragonmark (Hospitality)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's grand dragonmark focus spell",
+                                "with": "the Grand Hearth dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Making",
+                    "traits": ["dragonmark", "mark of making"],
+                    "prerequisites": "Greater Dragonmark (Making)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's grand dragonmark focus spell",
+                                "with": "the Grand Maker dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Passage",
+                    "traits": ["dragonmark", "mark of passage"],
+                    "prerequisites": "Greater Dragonmark (Passage)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's grand dragonmark focus spell",
+                                "with": "the Grand Traveler dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Scribing",
+                    "traits": ["dragonmark", "mark of scribing"],
+                    "prerequisites": "Greater Dragonmark (Scribing)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's grand dragonmark focus spell",
+                                "with": "the Grand Scribe dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Sentinel",
+                    "traits": ["dragonmark", "mark of sentinel"],
+                    "prerequisites": "Greater Dragonmark (Sentinel)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's grand dragonmark focus spell",
+                                "with": "the Grand Protector dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Shadow",
+                    "traits": ["dragonmark", "mark of shadow"],
+                    "prerequisites": "Greater Dragonmark (Shadow)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's grand dragonmark focus spell",
+                                "with": "the Grand Shade dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Storm",
+                    "traits": ["dragonmark", "mark of storm"],
+                    "prerequisites": "Greater Dragonmark (Storm)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's grand dragonmark focus spell",
+                                "with": "the Grand Stormbringer dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Warding",
+                    "traits": ["dragonmark", "mark of warding"],
+                    "prerequisites": "Greater Dragonmark (Warding)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's grand dragonmark focus spell",
+                                "with": "the Grand Warder dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                }
+            ]
+        }
+    ]
+}

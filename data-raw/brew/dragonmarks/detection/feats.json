@@ -1,0 +1,99 @@
+{
+    "feat": [
+        {
+            "name": "Eye of Medani",
+            "source": "BREW",
+            "page": 1,
+            "level": 3,
+            "traits": ["dragonmark", "mark of detection", "fortune"],
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "activity": {
+                "number": 1,
+                "unit": "free"
+            },
+            "prerequisites": "Least Dragonmark (Detection)",
+            "trigger": "You fail a non-secret Perception check.",
+            "entries": [
+                "Your eye for detail is enhanced by your training with House Medani. If you roll a failure on a Perception check that is not secret, you can reroll the check. You may select the better of the two rolls."
+            ]
+        },
+        {
+            "name": "Prophetic Visions",
+            "source": "BREW",
+            "page": 1,
+            "level": 3,
+            "traits": ["dragonmark", "mark of detection", "divination"],
+            "prerequisites": "Least Dragonmark (Detection)",
+            "entries": [
+                "You begin to receive powerful visions of the past and future. These visions often connect to your current location, such that you are far more likely to see an image of the ancient battles between quori and giant if you are in Xen'drik.",
+                "When you enter a new location, such as a room or corridor, you receive a vision related to one thing out of the ordinary. The GM determines what it is, or whether there's nothing reasonable to pick up, skipping obvious clues that can be easily noticed without a check or specifically looking for them. You learn only that an area or object is suspicious, but not why it's suspicious. For example, if you entered a study with a large bloodstain on the ground, the bloodstain is so obviously suspicious it's evident to you already, so the GM might note that there's something suspicious about the desk drawer instead. You would then need to investigate the drawer further to find out what specifically is out of the ordinary. Prophetic Visions doesn't reveal whether creatures are suspicious.",
+                "You don't typically get any benefit when you leave and come back to a place, though if a major change has happened there and time has passed, the GM might determine that you do."
+            ]
+        },
+        {
+            "name": "Medani Prophet",
+            "source": "BREW",
+            "page": 1,
+            "level": 7,
+            "traits": ["dragonmark", "mark of detection", "divine"],
+            "prerequisites": "Lesser Dragonmark (Detection)",
+            "access": "Received training from the Voice of Aureon",
+            "entries": [
+                "Your divine training allows you to seek answers from beyond the material plane. When you cast Lesser Detector, you can choose to replicate Augury."
+            ]
+        },
+        {
+            "name": "Visions of the Past",
+            "source": "BREW",
+            "page": 1,
+            "level": 7,
+            "traits": ["dragonmark", "mark of detection", "divination"],
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "prerequisites": "Lesser Dragonmark (Detection)",
+            "entries": [
+                "By spending 10 minutes in deep meditation, you peer into the past. You can ask three questions regarding the past of the area you are in. You receive your answers as a combination of indistinct sensory impressions, as determined by the GM. For example, if you ask \"Who killed Borestes?\" you might learn that it was a male half-orc wielding an axe, but you will not learn the name of the killer. If you happen to be familiar with this particular half-orc, you might instinctively recognize him. In general, however, the imagery is vague and blurred; however, you might catch a particularly vivid image, such as a precise look at the killer's distinctive axe.",
+                "The answers you receive come not from any deity, but from your dragonmark's supernatural connection to the past. As such, treat the answers as coming from an effectively omniscient being. However, you will only receive responses to questions regarding events that occurred within your line of sight, and any magical effect that would have interfered with scrying automatically conceals past events from this power. For example, you might ask a question regarding a crime committed at a particular site, but if the character who committed that crime was under the effect of Nondetection at the time, the response will be completely indecipherable. This ability works best when you ask specific questions: The more vague the question you ask, the more vague the response will be.",
+                "The maximum period you can look back through time is based on the strength of the dragonmark whose power you expend: lesser is a week, greater is a month, grand is a year, and Siberys a century."
+            ]
+        },
+        {
+            "name": "Forewarned",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["dragonmark", "mark of detection"],
+            "prerequisites": "Lesser Dragonmark (Detection)",
+            "entries": [
+                "Your dragonmark maintains your awareness of the world around you at all times, you gain a +1 status bonus to your Perception. In addition, you are never flat-footed to hidden enemies."
+            ]
+        },
+        {
+            "name": "Scrying Sense",
+            "source": "BREW",
+            "page": 1,
+            "level": 15,
+            "traits": ["dragonmark", "mark of detection"],
+            "prerequisites": "Grand Dragonmark (Detection)",
+            "entries": [
+                "When you replicate Detect Scrying with Grand Detector, the spell is considered to be cast 2 levels higher."
+            ]
+        },
+        {
+            "name": "Perfect Scrying Sense",
+            "source": "BREW",
+            "page": 1,
+            "level": 17,
+            "traits": ["dragonmark", "mark of detection"],
+            "prerequisites": "Scrying Sense",
+            "entries": [
+                "When you replicate Detect Scrying with Grand Detector, you detect the presence of all effects with the detection trait in the area. If Detect Scrying is higher level than a detection effect, you gain a glimpse of the caster and learn its approximate distance and direction."
+            ]
+        }
+    ]
+}

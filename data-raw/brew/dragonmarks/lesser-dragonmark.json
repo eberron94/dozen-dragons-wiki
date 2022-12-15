@@ -1,0 +1,197 @@
+{
+    "feat": [
+        {
+            "name": "Lesser Dragonmark",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["dragonmark"],
+            "entries": [
+                "Your dragonmark grows in power and doubles in size. You gain your mark's lesser dragonmark focus spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
+            ],
+            "generic": "G",
+            "variants": [
+                {
+                    "variantType": "Detection",
+                    "traits": ["dragonmark", "mark of detection"],
+                    "prerequisites": "Least Dragonmark (Detection)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's lesser dragonmark focus spell",
+                                "with": "the Lesser Detector dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Finding",
+                    "traits": ["dragonmark", "mark of finding"],
+                    "prerequisites": "Least Dragonmark (Finding)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's lesser dragonmark focus spell",
+                                "with": "the Lesser Seeker dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Handling",
+                    "traits": ["dragonmark", "mark of handling"],
+                    "prerequisites": "Least Dragonmark (Handling)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's lesser dragonmark focus spell",
+                                "with": "the Lesser Handler dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Healing",
+                    "traits": ["dragonmark", "mark of healing"],
+                    "prerequisites": "Least Dragonmark (Healing)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's lesser dragonmark focus spell",
+                                "with": "the Lesser Healer dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Hospitality",
+                    "traits": ["dragonmark", "mark of hospitality"],
+                    "prerequisites": "Least Dragonmark (Hospitality)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's lesser dragonmark focus spell",
+                                "with": "the Lesser Hearth dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Making",
+                    "traits": ["dragonmark", "mark of making"],
+                    "prerequisites": "Least Dragonmark (Making)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's lesser dragonmark focus spell",
+                                "with": "the Lesser Maker dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Passage",
+                    "traits": ["dragonmark", "mark of passage"],
+                    "prerequisites": "Least Dragonmark (Passage)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's lesser dragonmark focus spell",
+                                "with": "the Lesser Traveler dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Scribing",
+                    "traits": ["dragonmark", "mark of scribing"],
+                    "prerequisites": "Least Dragonmark (Scribing)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's lesser dragonmark focus spell",
+                                "with": "the Lesser Scribe dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Sentinel",
+                    "traits": ["dragonmark", "mark of sentinel"],
+                    "prerequisites": "Least Dragonmark (Sentinel)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's lesser dragonmark focus spell",
+                                "with": "the Lesser Protector dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Shadow",
+                    "traits": ["dragonmark", "mark of shadow"],
+                    "prerequisites": "Least Dragonmark (Shadow)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's lesser dragonmark focus spell",
+                                "with": "the Lesser Shade dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Storm",
+                    "traits": ["dragonmark", "mark of storm"],
+                    "prerequisites": "Least Dragonmark (Storm)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's lesser dragonmark focus spell",
+                                "with": "the Lesser Stormbringer dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Warding",
+                    "traits": ["dragonmark", "mark of warding"],
+                    "prerequisites": "Least Dragonmark (Warding)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's lesser dragonmark focus spell",
+                                "with": "the Lesser Warder dragonmark spell"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                }
+            ]
+        }
+    ]
+}

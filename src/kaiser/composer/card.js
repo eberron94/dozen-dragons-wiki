@@ -20,43 +20,48 @@ const ignoreList = require('../ignoreList.json');
 const { round } = require('lodash');
 
 exports.composeCard = (original) => {
-    const list = original.map(parse).filter(item=>!ignoreList.includes(item.id)).filter(filterUniqueByObjectKey());
+    const list = original
+        .map(parse)
+        .filter((item) => !ignoreList.includes(item.id))
+        .filter(filterUniqueByObjectKey());
     // console.log(list);
 
     const find = (id) => list.find((item) => item.id === id);
 
+    const findPartials = (id) => {
+        const pid = id
+            .replace('P', '')
+            .split('::')
+            .filter((e) => e);
+        let foundList = list.filter((item) =>
+            pid.every((ppid) => item.id.includes(ppid))
+        );
+
+        if (foundList.length) return foundList;
+
+        const hasFilter = [];
+        const notFilter = [];
+        pid[0]
+            .split('|')
+            .map((e) => e.trim())
+            .map((e) => {
+                if (e.startsWith('!')) notFilter.push(e.replace('!', ''));
+                else hasFilter.push(e);
+            });
+
+        foundList = list.filter(
+            (item) =>
+                isSubset(item.filtering, hasFilter) &&
+                notSubset(item.filtering, notFilter)
+        );
+
+        return foundList;
+    };
+
     return {
         list,
         find,
-        findPartials: (id) => {
-            const pid = id
-                .replace('P', '')
-                .split('::')
-                .filter((e) => e);
-            let foundList = list.filter((item) =>
-                pid.every((ppid) => item.id.includes(ppid))
-            );
-
-            if (foundList.length) return foundList;
-
-            const hasFilter = [];
-            const notFilter = [];
-            pid[0]
-                .split('|')
-                .map((e) => e.trim())
-                .map((e) => {
-                    if (e.startsWith('!')) notFilter.push(e.replace('!', ''));
-                    else hasFilter.push(e);
-                });
-
-            foundList = list.filter(
-                (item) =>
-                    isSubset(item.filtering, hasFilter) &&
-                    notSubset(item.filtering, notFilter)
-            );
-
-            return foundList;
-        },
+        findPartials,
         findWithComplexSearch: (searchStr) => {
             console.log('COMPLEX SEARCHING', searchStr);
             // ATTEMPT ID BASED SEARCH
@@ -71,29 +76,14 @@ exports.composeCard = (original) => {
             if (found) return found;
 
             // BREAK INTO SEARCH PARAMS
-            const hasFilter = [];
-            const notFilter = [];
-            searchStr
-                .split('|')
-                .map((e) => e.trim())
-                .map((e) => {
-                    if (e.startsWith('!')) notFilter.push(e.replace('!', ''));
-                    else hasFilter.push(e);
-                });
+            const foundList = findPartials(searchStr);
 
-            // console.log(hasFilter, notFilter);
+            if (foundList.length && foundList[0]) return foundList[0];
 
-            found = list.find((item) => {
-                return (
-                    isSubset(item.filtering, hasFilter) &&
-                    notSubset(item.filtering, notFilter)
-                );
-            });
-            console.log(found);
-
-            if (found) return found;
 
             // handle individual terms
+
+            return null;
         },
         buildBlocks: (buildFn) => buildFn(list, 'item-card.hbs'),
         buildInlineRefs: (buildFn) => buildFn(list, 'item-card.hbs'),

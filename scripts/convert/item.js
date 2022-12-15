@@ -59,11 +59,12 @@ const convertItem = (item) => {
     card.contents = getContent(item);
 
     // SET EXTRA
-    if (notSubset(item.traits||[], ['unique', 'rare', 'uncommon']))
+    if (notSubset(item.traits || [], ['unique', 'rare', 'uncommon']))
         card.filtering.push('common');
     if (item.category) card.filtering.push(item.category);
     if (item.subCategory) card.filtering.push(item.subCategory);
-    if (item?.weaponData?.group) card.filtering.push(item.weaponData.group.split('|')[0]);
+    if (item?.weaponData?.group)
+        card.filtering.push(item.weaponData.group.split('|')[0]);
     if (item?.armorData?.group) card.filtering.push(item.armorData.group);
     card.level = item.level || 0;
 
@@ -114,7 +115,9 @@ const getContent = ({
         if (line !== 'property') lineArr.push(line);
 
         line = 'property';
-        if(weaponData?.damage) line += ` | Damage | ${weaponData.damage} ${weaponData.damageType}`;
+        if (weaponData?.damage)
+            line += ` | Damage | ${weaponData.damage} ${weaponData.damageType}`;
+        if (weaponData?.reload) line += ` | Reload | ${weaponData.reload}`;
         if (line !== 'property') lineArr.push(line);
     }
 
@@ -124,7 +127,7 @@ const getContent = ({
         if (armorData?.group) line += ` | Group | ${armorData.group}`;
 
         if (line !== 'property') lineArr.push(line);
-        
+
         let armorHead = 'tablehead';
         line = 'row';
         if (armorData.ac) {
@@ -151,8 +154,6 @@ const getContent = ({
             lineArr.push(armorHead);
             lineArr.push(line);
         }
-
-        
     }
 
     if (frequency?.unit) {

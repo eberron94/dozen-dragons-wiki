@@ -63425,7 +63425,7 @@
             "property | Bulk | L",
             "property | Price | 3 gp | Crafting | 2 gp",
             "property | Category | Martial Weapon | Group | Sling",
-            "property | Damage | 1d8 P",
+            "property | Damage | 1d8 P | Reload | 1",
             "rule",
             "text | A sun sling is a small staff with a head of woven netting. The staff is small enough to hold in a single hand, making it useful for hit-and-run tactics, but once loaded with ammunition, it requires two hands to properly swing and fire. Sun slings use small metal bullets covered in sharp spikes known as sun shots."
         ],

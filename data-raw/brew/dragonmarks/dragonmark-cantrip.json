@@ -1,0 +1,197 @@
+{
+    "feat": [
+        {
+            "name": "Dragonmark Cantrip",
+            "source": "BREW",
+            "page": 1,
+            "level": 3,
+            "traits": ["dragonmark"],
+            "entries": [
+                "You can wield your dragonmark to consistently produce magic. You gain the dragonmark cantrip spells associated with your mark. The cantrips gains the dragonmark trait and a material component of your dragonmark and lose the verbal component, if they have it. If anything interferes with your dragonmark, you cannot cast these cantrips."
+            ],
+            "generic": "G",
+            "variants": [
+                {
+                    "variantType": "Detection",
+                    "traits": ["dragonmark", "mark of detection"],
+                    "prerequisites": "Least Dragonmark (Detection)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "the dragonmark cantrip spells associated with your mark",
+                                "with": "the Detect Magic and Read Aura cantrips"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Finding",
+                    "traits": ["dragonmark", "mark of finding"],
+                    "prerequisites": "Least Dragonmark (Finding)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "the dragonmark cantrip spells associated with your mark",
+                                "with": "the Detect Magic and Know Direction cantrips"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Handling",
+                    "traits": ["dragonmark", "mark of handling"],
+                    "prerequisites": "Least Dragonmark (Handling)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "the dragonmark cantrip spells associated with your mark",
+                                "with": "the Tame and Tanglefoot cantrips"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Healing",
+                    "traits": ["dragonmark", "mark of healing"],
+                    "prerequisites": "Least Dragonmark (Healing)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "the dragonmark cantrip spells associated with your mark",
+                                "with": "the Healing Plaster and Stabilize cantrips"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Hospitality",
+                    "traits": ["dragonmark", "mark of hospitality"],
+                    "prerequisites": "Least Dragonmark (Hospitality)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "the dragonmark cantrip spells associated with your mark",
+                                "with": "the Mage Hand and Prestidigitation cantrips"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Making",
+                    "traits": ["dragonmark", "mark of making"],
+                    "prerequisites": "Least Dragonmark (Making)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "the dragonmark cantrip spells associated with your mark",
+                                "with": "the Read Aura and Sigil cantrips"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Passage",
+                    "traits": ["dragonmark", "mark of passage"],
+                    "prerequisites": "Least Dragonmark (Passage)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "the dragonmark cantrip spells associated with your mark",
+                                "with": "the Know Direction and Light cantrips"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Scribing",
+                    "traits": ["dragonmark", "mark of scribing"],
+                    "prerequisites": "Least Dragonmark (Scribing)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "the dragonmark cantrip spells associated with your mark",
+                                "with": "the Message and Sigil cantrips"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Sentinel",
+                    "traits": ["dragonmark", "mark of sentinel"],
+                    "prerequisites": "Least Dragonmark (Sentinel)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "the dragonmark cantrip spells associated with your mark",
+                                "with": "the Forbidding Ward and Shield cantrips"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Shadow",
+                    "traits": ["dragonmark", "mark of shadow"],
+                    "prerequisites": "Least Dragonmark (Shadow)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "the dragonmark cantrip spells associated with your mark",
+                                "with": "the Dancing Lights and Ghost Sound cantrips"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Storm",
+                    "traits": ["dragonmark", "mark of storm"],
+                    "prerequisites": "Least Dragonmark (Storm)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "the dragonmark cantrip spells associated with your mark",
+                                "with": "the Electric Arc and Know Direction cantrips"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Warding",
+                    "traits": ["dragonmark", "mark of warding"],
+                    "prerequisites": "Least Dragonmark (Warding)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "the dragonmark cantrip spells associated with your mark",
+                                "with": "the Forbidding Ward and Sigil cantrips"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                }
+            ]
+        }
+    ]
+}

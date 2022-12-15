@@ -186,7 +186,7 @@
             "property | Hands | 2 | Bulk | 1",
             "property | Price | 25 gp | Crafting | 18 gp",
             "property | Category | Simple Weapon | Group | Bow",
-            "property | Damage | 1d8 P",
+            "property | Damage | 1d8 P | Reload | 1",
             "rule",
             "text | This crossbow can deliver alchemically infused bolts. The strange weapon has a metal bracket mounted on the side of the stock near the lath. As an action, you can load a single lesser alchemical bomb into the bracket; this bomb must be one that deals energy damage (such as an acid flask, alchemist's fire, bottled lightning, frost vial, or thunderstone). The next three attacks made with the crossbow deal 1d6 damage of the bomb's damage type in addition to the crossbow's normal damage. If the second and third attacks are not all made within 1 minute of the first attack, the bomb's energy is wasted. These attacks never deal splash damage or other special effects of the bomb and are not modified by any abilities that add to or modify a bomb's effect. The addition of the bracket serves to unbalance the weapon, reducing its range to 30 feet.",
             "text | It otherwise functions as a crossbow (when determining damage, reload, and so on). Creatures use their crossbow proficiency when using the alchemical crossbow. The alchemical crossbow costs 25 gp."
@@ -241,7 +241,7 @@
             "property | Hands | 2 | Bulk | 2",
             "property | Price | 10 gp | Crafting | 7 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d8 P",
+            "property | Damage | 1d8 P | Reload | 1",
             "rule",
             "text | This is a long rifle that offers more range than the average firearm, though the long barrel and ferocious kickback make the weapon particularly unsteady unless a tripod or other stand is used to stabilize it. The arquebus is one of the most commonly used long guns among the soldiers of Dongun Hold and Alkenstar."
         ],
@@ -298,7 +298,7 @@
             "property | Hands | 2 | Bulk | 2",
             "property | Price | 10 gp | Crafting | 7 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d6 P",
+            "property | Damage | 1d6 P | Reload | 1",
             "rule",
             "text | This item, favored by firearms-using dwarves and barbarians, takes the form of a sturdy musket with an axeblade attached near the muzzle."
         ],
@@ -324,7 +324,7 @@
             "property | Hands | 1+ | Bulk | 2",
             "property | Price | 18 gp | Crafting | 13 gp",
             "property | Category | Martial Weapon | Group | Bow",
-            "property | Damage | 1d12 P",
+            "property | Damage | 1d12 P | Reload | 1 min.",
             "rule",
             "text | This complex wooden device, worn on the back, contains a miniature ballista on a retractable arm. As an Interact action, you can pull a lever to deploy or retract the ballista. As long as it remains deployed, you must hold the ballista using that hand or some of the components spill out onto the ground, just like dropping any other weapon. While deployed, the device opens and raises the ballista up over your shoulder. While retracted, the ballista and its mount slide down and are concealed within the device. Although a backpack ballista packs a punch, the device is a challenge to operate. Reloading it takes 1 minute and can't be done while worn. As normal, you can't wear a backpack ballista with another backpack."
         ],
@@ -349,7 +349,7 @@
             "property | Hands | 1+ | Bulk | 3",
             "property | Price | 20 gp | Crafting | 15 gp",
             "property | Category | Advanced Weapon | Group | Sling",
-            "property | Damage | 1d12 B",
+            "property | Damage | 1d12 B | Reload | 1 min.",
             "rule",
             "text | This wooden device is worn on the back and contains a miniature catapult mounted on a retractable frame. As an Interact action, you can pull a lever to deploy or retract the catapult. As long as it remains deployed, you must hold the catapult using that hand or some of the components spill out onto the ground, just like dropping any other weapon. While deployed, the device opens and raises the catapult up over your shoulder. While retracted, the catapult and its mount slide down and are concealed within the device. A backpack catapult fires specialized stone spheres that are loaded into the bucket while unworn and retracted, through a sliding hatch; the reloading process takes 1 minute. To prevent misfires and accidental injury, the bucket fully encloses the stone while deployed, only opening when fired. As normal, you can't wear a backpack catapult with another backpack."
         ],
@@ -487,7 +487,7 @@
             "property | Hands | 1 | Bulk | 2",
             "property | Price | 10 gp | Crafting | 7 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d6 modular",
+            "property | Damage | 1d6 modular | Reload | 1",
             "rule",
             "text | Developed by a goblin weaponsmith who missed the 'hand' part of 'hand cannon', this comically-oversized gun has a heavily reinforced barrel and is loaded with a worrisome quantity of gunpowder.",
             "text | This hand cannon is a martial weapon, instead of a simple weapon. It has the fatal d12 trait and a range of 20 feet. It also has the following modified critical failure condition:",
@@ -520,7 +520,7 @@
             "property | Hands | 1 | Bulk | L",
             "property | Price | 8 gp | Crafting | 6 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d4 P",
+            "property | Damage | 1d4 P | Reload | 1",
             "rule",
             "text | This pair of knuckle dusters is fitted with an explosive charge of black powder within the hollowed spikes of the weapon and a firing mechanism you hold in your hand while in use."
         ],
@@ -637,7 +637,7 @@
             "property | Hands | 1 | Bulk | L",
             "property | Price | 1 sp | Crafting | 0 sp",
             "property | Category | Simple Weapon | Group | Dart",
-            "property | Damage | 1 P",
+            "property | Damage | 1 P | Reload | 1",
             "rule",
             "text | This long, narrow tube is used for shooting blowgun darts, using only the power of a forcefully exhaled breath."
         ],
@@ -665,7 +665,7 @@
             "property | Hands | 2 | Bulk | 2",
             "property | Price | 8 gp | Crafting | 6 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d8 P",
+            "property | Damage | 1d8 P | Reload | 1",
             "rule",
             "text | This weapon fires pellets from a trumpet-shaped barrel, making it an excellent choice for hunting brush fowl or dealing damage within a short, broad area. Adventuring gunslingers often carry a blunderbuss to deal with swarms of vermin and similar threats."
         ],
@@ -977,7 +977,7 @@
             "property | Hands | 1 | Bulk | 1",
             "property | Price | 8 gp | Crafting | 6 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d4 P",
+            "property | Damage | 1d4 P | Reload | 1",
             "rule",
             "text | This fashionable cane's handle hides a dueling pistol fired through the thin, painted cap at the bottom of the cane."
         ],
@@ -1118,7 +1118,7 @@
             "property | Hands | 1 | Bulk | L",
             "property | Price | 5 gp | Crafting | 3 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d6 P",
+            "property | Damage | 1d6 P | Reload | 1",
             "rule",
             "text | The tradition of dwarves displaying their clan affiliations with special clan daggers goes back millennia, but many of the dwarf clans of Dongun Hold have their own take on the tradition, with promising young gunsmiths claiming their adulthood by crafting a specialized personal firearm using the clan's unique smithing traditions. Losing or being forced to surrender their clan pistol is a terrible embarrassment for the dwarves that carry them."
         ],
@@ -1272,7 +1272,7 @@
             "property | Hands | 1 | Bulk | L",
             "property | Price | 6 gp | Crafting | 4 gp",
             "property | Category | Simple Weapon | Group | Firearm",
-            "property | Damage | 1d4 P",
+            "property | Damage | 1d4 P | Reload | 1",
             "rule",
             "text | This small pistol is easily concealed inside a jacket or some other article of clothing. Rarely kept as a primary weapon, coat pistols are equally favored by clever assassins and traveling Alkenstar aristocrats."
         ],
@@ -1387,7 +1387,7 @@
             "property | Hands | 2 | Bulk | 1",
             "property | Price | 3 gp | Crafting | 2 gp",
             "property | Category | Simple Weapon | Group | Bow",
-            "property | Damage | 1d8 P",
+            "property | Damage | 1d8 P | Reload | 1",
             "rule",
             "text | This ranged weapon has a bow-like assembly mounted on a handled frame called a tiller. The tiller has a mechanism to lock the bowstring in place, attached to a trigger mechanism that releases the tension and launches a bolt."
         ],
@@ -1443,7 +1443,7 @@
             "property | Hands | 1 | Bulk | L",
             "property | Price | 8 gp | Crafting | 6 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d4 P",
+            "property | Damage | 1d4 P | Reload | 1",
             "rule",
             "text | This weapon, favored by rangers and other wilderness wanderers, takes the form of a stoutly built pistol with a dagger blade attached beneath the barrel and extending out past the muzzle."
         ],
@@ -1497,7 +1497,7 @@
             "property | Hands | 1 | Bulk | 1",
             "property | Price | 1 gp | Crafting | 0 gp",
             "property | Category | Martial Weapon | Group | Dart",
-            "property | Damage | 1 P",
+            "property | Damage | 1 P | Reload | 1",
             "rule",
             "text | This umbrella fires tiny blowgun darts from its ferrule with a twist of the handle. The darts are loaded into the shaft, and though the damage they deal is minimal, the dart umbrella is an inconspicuous weapon easy to slip past inspections."
         ],
@@ -1555,7 +1555,7 @@
             "property | Hands | 2 | Bulk | 1",
             "property | Price | 11 gp | Crafting | 8 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d6 P",
+            "property | Damage | 1d6 P | Reload | 1",
             "rule",
             "text | This flintlock breech-loader has two side-by-side barrels. Though less accurate than a standard musket, a double-barreled musket offers versatility in firing options. Many of Alkenstar's famous shield marshals save their earnings to buy a double-barreled musket as their first personal firearm."
         ],
@@ -1584,7 +1584,7 @@
             "property | Hands | 1 | Bulk | 1",
             "property | Price | 7 gp | Crafting | 5 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d4 P",
+            "property | Damage | 1d4 P | Reload | 1",
             "rule",
             "text | This flintlock pistol has two side-by-side barrels. Though less accurate than a standard pistol, a double-barreled pistol is a useful and versatile weapon. It's generally banned in areas where duels with pistols are relatively common, in much the same way that arriving at an aristocratic duel with a scattergun would be considered crass, at best."
         ],
@@ -1613,7 +1613,7 @@
             "property | Hands | 1 | Bulk | 1",
             "property | Price | 9 gp | Crafting | 6 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d6 P",
+            "property | Damage | 1d6 P | Reload | 1",
             "rule",
             "text | Similar to the blunderbuss, a dragon-mouth pistol fires pellets from a flared barrel. Though less powerful than a blunderbuss, the dragon-mouth pistol is appreciated for its portability and one-handed design. Though the name was coined because of the destructive belch of this handheld scatter weapon, many gunsmiths craft dragon-mouth pistols with elaborate embellishments that resemble a stylized dragon's maw framing the barrel."
         ],
@@ -1641,7 +1641,7 @@
             "property | Hands | 1 | Bulk | L",
             "property | Price | 12 gp | Crafting | 9 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d6 P",
+            "property | Damage | 1d6 P | Reload | 1",
             "rule",
             "text | Made for settling disputes when diplomacy fails, dueling pistols are finely crafted and made to fit easily into a holster or pocket. Noble and wealthy merchants in both Alkenstar and Dongun Hold often own matching pairs of dueling pistols in case they're called upon to address a challenge—though this practice has become increasingly rare in the modern age."
         ],
@@ -1699,7 +1699,7 @@
             "property | Hands | 2 | Bulk | 2",
             "property | Price | 10 gp | Crafting | 7 gp",
             "property | Category | Advanced Weapon | Group | Firearm",
-            "property | Damage | 1d8 P",
+            "property | Damage | 1d8 P | Reload | 1",
             "rule",
             "text | A favored weapon of dwarf scouts from Dongun Hold, the dwarven scattergun is a powerful weapon designed to take advantage of a dwarf's sturdy frame. A dwarven scattergun fires a large paper cartridge stuffed with black powder and knuckle-sized lumps of metal, creating a devastating burst so destructive that a foolish dwarf might find themself catching painful ricochets when firing at a too-close target. Some scatterguns are crafted with a clockwork firing tray that can quickly sort and load black powder and shot without needing a prepackaged cartridge, though this is largely an aesthetic feature with no real mechanical benefit."
         ],
@@ -1845,7 +1845,7 @@
             "property | Hands | 2 | Bulk | 2",
             "property | Price | 10 gp | Crafting | 7 gp",
             "property | Category | Advanced Weapon | Group | Firearm",
-            "property | Damage | 1d6 S",
+            "property | Damage | 1d6 S | Reload | 1",
             "rule",
             "text | An explosive dogslicer is a sneaky, explosive weapon that often brings perverse joy to the goblins who use them. At first glance, it appears to be a triple-bladed dogslicer with an oversized guard."
         ],
@@ -2024,7 +2024,7 @@
             "property | Hands | 2 | Bulk | 2",
             "property | Price | 5 gp | Crafting | 3 gp",
             "property | Category | Simple Weapon | Group | Firearm",
-            "property | Damage | 1d6 P",
+            "property | Damage | 1d6 P | Reload | 2",
             "rule",
             "text | This amazingly simple projectile weapon is nothing more than a metal tube packed with black powder and a stopper, attached to the sharpened head of a javelin. A loaded fire lance can be wielded as a normal spear, though it requires an Interact action to regrip the weapon and hold it properly when switching from one use to another. Fire lances are most commonly found in Tian Xia, though occasionally one makes its way all the way to Avistan, typically in the hands of a Tien mercenary or caravan guard."
         ],
@@ -2110,7 +2110,7 @@
             "property | Hands | 2 | Bulk | 1",
             "property | Price | 6 gp | Crafting | 4 gp",
             "property | Category | Advanced Weapon | Group | Firearm",
-            "property | Damage | 1d6 S",
+            "property | Damage | 1d6 S | Reload | 1",
             "rule",
             "text | A flingflenser is a goblin-designed weapon ending in an ovoid tube with a hatch and handle on the narrow end. A cluster of circular blades held together and attached to a black powder packet with a thin leather strap serves as ammunition and is loaded through the hatch before being fired with a flintlock or other external ignition mechanism. The flingflenser's sturdy design also places it among the more reliable goblin weapons."
         ],
@@ -2140,7 +2140,7 @@
             "property | Hands | 2 | Bulk | 1",
             "property | Price | 7 gp | Crafting | 5 gp",
             "property | Category | Simple Weapon | Group | Firearm",
-            "property | Damage | 1d6 P",
+            "property | Damage | 1d6 P | Reload | 1",
             "rule",
             "text | The most commonly available of firearms in Alkenstar, the flintlock musket includes an external firing mechanism and an efficient and relatively compact frame. Though lacking the range and firing power of the arquebus preferred by Alkenstar and Dongun Hold's military members, the flintlock musket is popular among civilians for its ease of use."
         ],
@@ -2168,7 +2168,7 @@
             "property | Hands | 1 | Bulk | 1",
             "property | Price | 6 gp | Crafting | 4 gp",
             "property | Category | Simple Weapon | Group | Firearm",
-            "property | Damage | 1d4 P",
+            "property | Damage | 1d4 P | Reload | 1",
             "rule",
             "text | Though less accurate and powerful than a flintlock musket, the flintlock pistol is a preferred weapon of privateers thanks to its more compact size and affordability. Pirate captains often wear a brace of such pistols in a bandolier so they can draw and fire without stopping to reload."
         ],
@@ -2395,7 +2395,7 @@
             "property | Hands | 2 | Bulk | 2",
             "property | Price | 10 gp | Crafting | 7 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d6 P",
+            "property | Damage | 1d6 P | Reload | 2",
             "rule",
             "text | Rumored to be the result of a gnomish dare to make a variant of a hooked hammer that's even more intricate and complex, this weapon adds a musket to the mix of an already overcomplicated device."
         ],
@@ -2643,7 +2643,7 @@
             "property | Hands | 2 | Bulk | 2",
             "property | Price | 13 gp | Crafting | 9 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d8 P",
+            "property | Damage | 1d8 P | Reload | 1",
             "rule",
             "text | This weapon consists of a large sword with a powerful gun based on a harmona gun down the center. Vanguards and other characters who rely on Strength and Dexterity enjoy the power and flexibility of a gun sword."
         ],
@@ -2723,7 +2723,7 @@
             "property | Hands | 2 | Bulk | 1",
             "property | Price | 5 gp | Crafting | 3 gp",
             "property | Category | Martial Weapon | Group | Sling",
-            "property | Damage | 1d10 B",
+            "property | Damage | 1d10 B | Reload | 1",
             "rule",
             "text | This staff ends in a Y-shaped split that cradles a sling. The length of the staff provides excellent leverage when used two-handed to fling rocks or bullets from the sling."
         ],
@@ -2751,7 +2751,7 @@
             "property | Hands | 2 | Bulk | 2",
             "property | Price | 13 gp | Crafting | 9 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d6 P",
+            "property | Damage | 1d6 P | Reload | 1",
             "rule",
             "text | This weapon, favored by dwarves and those who like smashing and shooting, takes the form of a stoutly built gun designed similarly to an arquebus with a hammer head built into the muzzle, decreasing kickback but limiting range."
         ],
@@ -2808,7 +2808,7 @@
             "property | Hands | 1 | Bulk | 1",
             "property | Price | 5 gp | Crafting | 3 gp",
             "property | Category | Simple Weapon | Group | Firearm",
-            "property | Damage | 1d6 modular",
+            "property | Damage | 1d6 modular | Reload | 1",
             "rule",
             "text | Popular among privateers and mercenaries in Goka, hand cannons are little more than a hardened tube with a handle and external ignition attached. A hand cannon can be used to fire almost anything that can be packed into its barrel. The wielder of a hand cannon can change the damage type granted by its modular trait as part of the same Interact action used to reload."
         ],
@@ -2834,7 +2834,7 @@
             "property | Hands | 1 | Bulk | L",
             "property | Price | 3 gp | Crafting | 2 gp",
             "property | Category | Simple Weapon | Group | Bow",
-            "property | Damage | 1d6 P",
+            "property | Damage | 1d6 P | Reload | 1",
             "rule",
             "text | Sometimes referred to as an alley bow by rogues or ruffians, this small crossbow fires small bolts that are sometimes used to deliver poison to the target. It's small enough to be shot one-handed, but it still requires two hands to load."
         ],
@@ -2860,7 +2860,7 @@
             "property | Hands | 2 | Bulk | 2",
             "property | Price | 10 gp | Crafting | 7 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d10 B",
+            "property | Damage | 1d10 B | Reload | 1",
             "rule",
             "text | A favored weapon of monster hunters in Arcadia, the harmona gun is a large-bore long gun that fires a heavy, slow-moving round. The gun got its name due to the eerie similarity between the buzzing sound its oversized projectiles make flying through the air and the flight of a fey bird called a harmona."
         ],
@@ -2915,7 +2915,7 @@
             "property | Hands | 2 | Bulk | 2",
             "property | Price | 4 gp | Crafting | 3 gp",
             "property | Category | Simple Weapon | Group | Bow",
-            "property | Damage | 1d10 P",
+            "property | Damage | 1d10 P | Reload | 2",
             "rule",
             "text | This large crossbow is harder to load and more substantial than a regular crossbow, but it packs a greater punch."
         ],
@@ -3167,7 +3167,7 @@
             "property | Hands | 1 | Bulk | 1",
             "property | Price | 11 gp | Crafting | 8 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d8 P",
+            "property | Damage | 1d8 P | Reload | 1",
             "rule",
             "text | Jezails are simple, efficient long guns developed in Casmaron that typically feature a custom stock and a flintlock firing mechanism. Though lacking the range and stopping power of an arquebus or the raw force of a harmona gun, the jezail is an elegant, well-balanced weapon suitable for a variety of combat situations. It's even possible to tuck it under one arm to fire a less accurate attack that uses only one hand."
         ],
@@ -3818,7 +3818,7 @@
             "property | Bulk | 1",
             "property | Price | 20 gp | Crafting | 15 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d8 P",
+            "property | Damage | 1d8 P | Reload | 1",
             "rule",
             "text | The shobhad longrifle is a firearm with a long, rifled barrel. Often mounted with a multi-lensed scope for targeting at an array of ranges and a chambering mechanism that can adjust the speed and penetrating power of each shot, it's the preferred weapon of many shobhad warriors. Shobhad longrifles are equipped with a built-in silencer so they make no more noise than a crossbow when fired.",
             "text | For more information on firearms, see Pathfinder Guns & Gears. If you don't wish to include firearms in your Strength of Thousands campaign, simply substitute the longrifles wielded by shobhads in this adventure with composite longbows."
@@ -3876,7 +3876,7 @@
             "property | Hands | 1 | Bulk | 1",
             "property | Price | 13 gp | Crafting | 9 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d4 P",
+            "property | Damage | 1d4 P | Reload | 1",
             "rule",
             "text | At first glance this weapon looks like nothing more than an iron-bound club. But the top of the weapon features a latch that opens to reveal three rotating pistol muzzles concealed in the mace's head that can be fired and rotated using triggers built into the weapon's haft."
         ],
@@ -4047,7 +4047,7 @@
             "property | Hands | 2 | Bulk | 1",
             "property | Price | 9 gp | Crafting | 6 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d6 P",
+            "property | Damage | 1d6 P | Reload | 1",
             "rule",
             "text | Neither mithral nor a tree, this long gun takes its name from the legends of the elves of Jinin and is most commonly found within the nation. An elegant weapon, a mithral tree does somewhat resemble a tree; its fanned stock and long, sweeping barrel reinforced with metal rings enable a wielder to parry melee attacks while moving back into safe firing range."
         ],
@@ -4365,7 +4365,7 @@
             "property | Hands | 1 | Bulk | 1",
             "property | Price | 12 gp | Crafting | 9 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d4 P",
+            "property | Damage | 1d4 P | Reload | 1",
             "rule",
             "text | This weapon is a specialty of the smiths of Alkenstar. The pepperbox has three barrels that each hold a single shot, and the shooter can manually rotate the whole barrel assembly to align a loaded barrel with the firing mechanism."
         ],
@@ -4421,7 +4421,7 @@
             "property | Hands | 1 | Bulk | 1",
             "property | Price | 15 gp | Crafting | 11 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d6 P",
+            "property | Damage | 1d6 P | Reload | 1",
             "rule",
             "text | Favored by caravan guards who traverse the Mana Wastes, a piercing wind is similar to a jezail, in that you can carry it in one hand as long as the other hand's free, by holding it under one arm. Additionally, it's fitted with an underslung curved blade."
         ],
@@ -4645,7 +4645,7 @@
             "property | Hands | 1 | Bulk | 1",
             "property | Price | 10 gp | Crafting | 7 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d4 P",
+            "property | Damage | 1d4 P | Reload | 1",
             "rule",
             "text | This elegant weapon is shaped similarly to a rapier with a pistol down the length of the blade."
         ],
@@ -4755,7 +4755,7 @@
             "property | Hands | 2 | Bulk | 2",
             "property | Price | 20 gp | Crafting | 15 gp",
             "property | Category | Martial Weapon | Group | Bow",
-            "property | Damage | 1d10 P",
+            "property | Damage | 1d10 P | Reload | 1",
             "rule",
             "text | This large crossbow has an internal chamber that can be loaded with up to five bolts. While it uses the same automated catch mechanism as other repeating crossbows, a repeating heavy crossbow's design has significant trade-offs. It has increased range and damage and is easier to learn how to use, but requires a small amount of effort to reload."
         ],
@@ -5354,7 +5354,7 @@
             "property | Hands | 1 | Bulk | 2",
             "property | Price | 16 gp | Crafting | 12 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d6 P",
+            "property | Damage | 1d6 P | Reload | 1",
             "rule",
             "text | Also known as a harmonica gun, this weapon is essentially a stock, trigger, and firing mechanism attached to a sliding brace of barrels that can each hold a round of ammunition."
         ],
@@ -5383,7 +5383,7 @@
             "property | Hands | 1 | Bulk | L",
             "property | Price | 0 gp | Crafting | 0 gp",
             "property | Category | Simple Weapon | Group | Sling",
-            "property | Damage | 1d6 B",
+            "property | Damage | 1d6 B | Reload | 1",
             "rule",
             "text | Little more than a leather cup attached to a pair of straps, a sling can be used to fling smooth stones or sling bullets at a range."
         ],
@@ -5549,7 +5549,7 @@
             "property | Hands | 1 | Bulk | 1",
             "property | Price | 10 gp | Crafting | 7 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d6 modular",
+            "property | Damage | 1d6 modular | Reload | 1",
             "rule",
             "text | No one's entirely certain who developed the spoon gun, but all authorities agree that it was probably a goblin. Essentially a terrible idea in firearm form, the spoon gun is a spring-powered hand cannon with a modified grip that uses miscellaneous knives, forks, chopsticks, and spoons as ammunition. Users typically upend the entire contents of their cutlery drawer into the gun, aim it in the general direction of the foe, and hope it hits something.",
             "text | This hand cannon is a martial weapon, instead of a simple weapon. It has the scatter (5 feet) trait and uses cutlery or similar-sized objects as ammunition instead of bullets (enough cheap cutlery to fire ten shots costs 1 sp)."
@@ -5828,7 +5828,7 @@
             "property | Hands | 2 | Bulk | 1",
             "property | Price | 10 gp | Crafting | 7 gp",
             "property | Category | Advanced Weapon | Group | Bow",
-            "property | Damage | 1d6 modular",
+            "property | Damage | 1d6 modular | Reload | 1",
             "rule",
             "text | Designed by conrasu warriors, this complex device is a crossbow and fires small wooden bullets known as taws. A system of blades within the launcher can rapidly reshape a taw as it's loaded, allowing the launcher to fire taws of different shapes, such as fléchettes."
         ],
@@ -5946,7 +5946,7 @@
             "property | Hands | 2 | Bulk | 2",
             "property | Price | 12 gp | Crafting | 9 gp",
             "property | Category | Martial Weapon | Group | Firearm",
-            "property | Damage | 1d4 P",
+            "property | Damage | 1d4 P | Reload | 1",
             "rule",
             "text | A recently developed weapon created for an elven champion from Jinin, the three-peaked tree can be used as both a trident and a mithral tree. A three-peaked tree has a length of silken rope attached to the butt of its haft, allowing it to be quickly retrieved after thrown."
         ],
@@ -6001,7 +6001,7 @@
             "property | Hands | 1 | Bulk | L",
             "property | Price | 5 gp | Crafting | 3 gp",
             "property | Category | Martial Weapon | Group | Sling",
-            "property | Damage | 1d6 P",
+            "property | Damage | 1d6 P | Reload | 1",
             "rule",
             "text | Tengu use these specialized slings to fire darts further and with greater force than when thrown by hand, which is particularly effective when attacking from great heights. A thunder sling uses darts as ammunition. It can also hurl blowgun darts as ammunition but deals 1d4 piercing damage instead of 1d6 when used this way."
         ],

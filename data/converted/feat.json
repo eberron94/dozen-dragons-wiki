@@ -6917,6 +6917,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | dwarf",
+            "property | Access | You are from Dongun Hold or Alkenstar.",
             "rule",
             "text | After years of using black powder weaponry in dimly lit spaces, you've become accustomed to dazzling flashes of light and sudden shifts in illumination. You gain a +1 circumstance bonus to saving throws against visual effects.",
             "text | If you roll a success on a saving throw against a visual effect, you get a critical success instead."
@@ -6938,6 +6939,7 @@
         "code": "feat 5",
         "contents": [
             "pftrait | uncommon | dwarf",
+            "property | Access | You are from Dongun Hold or Alkenstar.",
             "rule",
             "text | You're used to the clamor of steel, the crack of a firearm, and the thunderous blast of explosions. You gain resistance 3 to sonic. If you roll a success on a saving throw against an auditory effect that causes the deafened condition, you get a critical success instead."
         ],
@@ -6958,6 +6960,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | dwarf",
+            "property | Access | You are from Dongun Hold or Alkenstar.",
             "rule",
             "text | Raised in the ancient halls of Dongun Hold or the surrounding region, you display your lineage with a clan pistol, rather than a clan dagger. You get one clan pistol of your clan for free, as it was given to you at birth. This replaces your clan dagger. Selling this pistol is a terrible taboo and earns you the disdain of other dwarves. You are trained with the clan pistol. In addition, when your clan pistol is visible, you gain a +1 circumstance bonus on checks to Gather Information or Make an Impression when interacting with citizens of Alkenstar, Dongun Hold, or their allies."
         ],
@@ -6978,6 +6981,7 @@
         "code": "feat 13",
         "contents": [
             "pftrait | uncommon | dwarf | fortune",
+            "property | Access | You are from Dongun Hold or Alkenstar.",
             "property | Prerequisites | master in Crafting",
             "property | Trigger | You misfire with a firearm or you roll a failure on a Strike with a ranged weapon",
             "property | Frequency | once per day",
@@ -7002,6 +7006,7 @@
         "code": "feat 9",
         "contents": [
             "pftrait | uncommon | dwarf",
+            "property | Access | You are from Dongun Hold or Alkenstar.",
             "rule",
             "text | You know how to destroy objects with a well-placed explosion. Whenever you hit with a bomb Strike against a trap or an unattended object, you ignore the first 5 points of the object's Hardness."
         ],
@@ -7022,6 +7027,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | dwarf",
+            "property | Access | You are from Dongun Hold or Alkenstar.",
             "rule",
             "text | You're knowledgeable in trades that are important to your people's survival and commercial interests. Pick two of the following Lore skills: Engineering Lore, Explosive Lore, or Firearm Lore. At 2nd level, you gain expert proficiency in these Lore skills; at 7th level, you gain master proficiency in these Lore skills; and at 15th level, you gain legendary proficiency in them."
         ],
@@ -7042,6 +7048,7 @@
         "code": "feat 13",
         "contents": [
             "pftrait | uncommon | dwarf",
+            "property | Access | You are from Dongun Hold or Alkenstar.",
             "property | Prerequisites | Explosive Savant",
             "rule",
             "text | You have continued training in volatile weapons and gained a deeper understanding. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency for simple and martial bombs and firearms."
@@ -7063,6 +7070,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | dwarf",
+            "property | Access | You are from Dongun Hold or Alkenstar.",
             "rule",
             "text | A lifetime wielding firearms and explosive ordinance amid the chaos of battle has granted you great skill with volatile weapons. You become trained in simple and martial bombs and firearms."
         ],
@@ -7083,6 +7091,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | dwarf",
+            "property | Access | You are from Dongun Hold or Alkenstar.",
             "rule",
             "text | You've grown up around a forge and are well-suited to dealing with smoke and flame. Your flat check to remove persistent fire damage is DC 10 instead of DC 15, which is reduced to DC 5 with appropriate assistance. In addition, if you roll a success on a saving throw against suffocation or choking due to smoke or ash, you get a critical success instead."
         ],
@@ -7103,6 +7112,7 @@
         "code": "feat 17",
         "contents": [
             "pftrait | uncommon | divine | dwarf",
+            "property | Access | You are from Dongun Hold or Alkenstar.",
             "property | Prerequisites | worshipper of Torag or Angradd",
             "property | Trigger | You attempt a ranged Strike.",
             "property | Frequency | once per day",
@@ -7127,6 +7137,7 @@
         "code": "feat 13",
         "contents": [
             "pftrait | uncommon | dwarf",
+            "property | Access | You are from Dongun Hold or Alkenstar.",
             "rule",
             "text | Your family's traditions of defending against Geb's undead have granted you a sixth sense for detecting spirits, haunts, and other restless dead, no matter their form or the strength of their presence. You gain a +2 circumstance bonus to Perception checks to Sense Motive when trying to determine if a creature is possessed or under the influence of an effect that would make them controlled, a +2 circumstance bonus to Perception checks made to see through disguises worn by undead, and a +2 circumstance bonus when using the Seek action to find hidden or undetected haunts or undead within 30 feet of you.",
             "text | If you aren't using the Seek action or searching, the GM automatically rolls a secret check for you to notice haunts or undead within 30 feet anyway. This check doesn't gain the usual +2 circumstance bonus, and instead takes a –2 circumstance penalty."
@@ -7148,6 +7159,7 @@
         "code": "feat 9",
         "contents": [
             "pftrait | uncommon | dwarf",
+            "property | Access | You are from Dongun Hold or Alkenstar.",
             "rule",
             "text | You're used to fighting and hiding in a haze of smoke and flame. You automatically succeed at the DC 5 flat check to target a concealed creature if that creature is concealed only by smoke. When you are concealed or hidden in smoke, increase the DC of the flat check to target you to 6 if you're concealed or 12 if you're hidden."
         ],
@@ -7168,6 +7180,7 @@
         "code": "feat 5",
         "contents": [
             "pftrait | uncommon | dwarf | fire | manipulate",
+            "property | Access | You are from Dongun Hold or Alkenstar.",
             "property | Prerequisites | expert in Crafting",
             "property | Frequency | once per minute",
             "rule",
@@ -7194,6 +7207,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | dwarf",
+            "property | Access | mountain dwarf ethnicity",
             "property | Trigger | An ally within 30 feet gains the dying condition.",
             "property | Frequency | once per day",
             "rule",
@@ -7300,6 +7314,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | dwarf",
+            "property | Access | underground dwarf ethnicity",
             "rule",
             "text | Your unusual rest cycle allows you to recover faster.",
             "text | As long as you rest for 12 hours, you gain the effects of the Fast Recovery general feat and you can go 20 hours without resting before becoming fatigued."
@@ -7341,6 +7356,7 @@
         "code": "feat 9",
         "contents": [
             "pftrait | dwarf",
+            "property | Access | Vahird ethnicity",
             "property | Prerequisites | ancient-blooded dwarf heritage",
             "rule",
             "text | Your ancestors' defiance of magic and your people's strictly egalitarian mindset mean that certain forms of magic have little effect on you. When you use your Call on Ancient Blood reaction against a divine spell and roll a critical failure on the saving throw against that spell, you get a failure instead."
@@ -7383,6 +7399,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | dwarf",
+            "property | Access | any surface dwarf ethnicity",
             "rule",
             "text | Your interactions with other cultures on the surface have not only taught you about many other ancestries, but have also helped you realize the value of your own. You gain the trained proficiency rank in the Society skill (or another skill of your choice if you were already trained in Society), and you gain the Additional Lore skill feat for the Lore corresponding to your culture (for instance, Ouat Lore or Pahmet Lore)."
         ],
@@ -8181,6 +8198,7 @@
         "code": "feat 5",
         "contents": [
             "pftrait | uncommon | elf",
+            "property | Access | Spiresworn elf",
             "rule",
             "text | You loathe the alghollthus and their mind magic, and you've been trained to be willing to die rather than give into mental manipulation. If you would start your turn confused, controlled, or fleeing due to a failed Will save, you can attempt a Will save against the same DC; on a success, you become paralyzed until your next turn, rather than act against your will."
         ],
@@ -8368,6 +8386,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | elf",
+            "property | Access | Mualijae ethnicity",
             "rule",
             "text | You have learned to access the old magic of wild places. Choose one cantrip from the primal spell list. You can cast this cantrip as an innate primal spell at will. A cantrip is heightened to a spell level equal to half your level rounded up."
         ],
@@ -11166,6 +11185,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | halfling",
+            "property | Access | Mihrini ethnicity",
             "rule",
             "text | You've fiddled with knots, locks, and blacksmith's puzzles since you were a child to give your hands something to do. You gain the trained proficiency rank in Thievery (or another skill of your choice, if you're already trained in Thievery). If you roll a success on a Thievery check to Pick a Lock, you get a critical success instead."
         ],
@@ -11227,6 +11247,7 @@
         "code": "feat 5",
         "contents": [
             "pftrait | uncommon | halfling",
+            "property | Access | Chelaxian nationality",
             "rule",
             "text | You are practiced at blending into the background of the streets and halls of larger folk to ensure that you are overlooked. When you are in a crowd or well trafficked urban area, you can attempt to Hide and Sneak, even when observed.",
             "text | On a success, you aren't hidden or undetected, but other creatures simply don't take particular notice of you, even though they can see you. You can't use this ability on observers who have already seen you perform obtrusive or notable actions. If you perform any action other than to Hide or Sneak or otherwise take particularly salient actions (GM's discretion), observers notice you right away."
@@ -11354,6 +11375,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | halfling",
+            "property | Access | Jaric ethnicity",
             "rule",
             "text | You are accustomed to working alongside others, relying on each other to get by. You gain a +2 circumstance bonus to checks to Aid, and your allies gain a +2 circumstance bonus to checks to Aid you."
         ],
@@ -11395,6 +11417,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | halfling",
+            "property | Access | Uhlam ethnicity",
             "rule",
             "text | Your family instilled the values of care and patience into you from a young age.",
             "text | You gain a +1 circumstance bonus to checks to perform a downtime activity."
@@ -12402,6 +12425,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | human",
+            "property | Access | Varisian ethnicity or New Thassilon nationality",
             "rule",
             "text | You have tattoos on your body corresponding to one of the ancient Thassilonian schools of magic. Choose one of the following schools of magic: abjuration (shield), conjuration (tanglefoot), enchantment (daze), evocation (electric arc), illusion (ghost sound), necromancy (chill touch), or transmutation (sigil). You can cast the associated cantrip (listed in parentheses) as an innate arcane spell at will."
         ],
@@ -12422,6 +12446,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | fortune | human",
+            "property | Access | Keleshite nationality",
             "property | Requirements | You're in a settlement or community, and you haven't used Courteous Comeback in this settlement or community within the past month.",
             "property | Trigger | You critically fail a Diplomacy check.",
             "rule",
@@ -12466,6 +12491,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | human",
+            "property | Access | Chelaxian nationality",
             "rule",
             "text | You know more about the habits of devils than is entirely safe. You gain a +2 circumstance bonus to Perception checks against devils and saving throws against their abilities. In addition, whenever you meet a devil in a social situation, you can immediately attempt a Diplomacy check to Make an Impression on that creature rather than needing to converse for 1 minute. You take a –5 penalty to the check. If you fail, you can engage in 1 minute of conversation and attempt a new check at the end of that time rather than accepting the failure or critical failure result."
         ],
@@ -12591,6 +12617,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | human",
+            "property | Access | Taldan nationality",
             "property | Trigger | You are affected by an emotion effect.",
             "rule",
             "text | Taldan pride means you never show weakness. Roll a Deception check and compare the result to any observing creatures' Perception DCs. On a success, that creature believes you were unaffected by the emotion effect. A creature tricked in this manner can't benefit from the emotion effect and can't use abilities that require you to be under this emotion effect; for example, if you successfully use this ability to trick a will-o'-wisp into believing you aren't under a fear effect, it can't use its Feed on Fear ability on you."
@@ -12612,6 +12639,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | fortune | human",
+            "property | Access | Vudrani ethnicity",
             "property | Trigger | You roll a critical failure on a saving throw against an emotion effect.",
             "property | Frequency | once per day",
             "rule",
@@ -12656,6 +12684,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | human",
+            "property | Access | Shoanti ethnicity",
             "rule",
             "text | You grew up among the Shoanti tribes, with the spirits watching over you, and they offer you guidance. You gain the trained proficiency rank in the skill listed for your quah (or another skill of your choice, if you're already trained in that skill). You gain the Assurance skill feat in that skill, as the spirits' help guides your actions."
         ],
@@ -12676,6 +12705,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | concentrate | human",
+            "property | Access | Lirgeni nationality",
             "property | Requirements | You must spend 10 minutes just after your daily preparations examining the sky or consulting a star chart or you can't use this action that day.",
             "property | Frequency | once per day",
             "rule",
@@ -12762,6 +12792,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | human",
+            "property | Access | Erutaki ethnicity",
             "property | Prerequisites | You have a spellcasting class feature with the divine or primal tradition",
             "rule",
             "text | You know the truth behind old stories that tell of sending a fetish of bone and sinew to seek vengeance. These old magics allow you to conjure constructs with ease.",
@@ -12784,6 +12815,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | human",
+            "property | Access | Ulfen ethnicity",
             "rule",
             "text | You trained with shields and weapons as soon as you were old enough to hold them, eager to win honor and glory for yourself. You gain the Shield Block reaction and are trained in your choice of the battle axe or longsword."
         ],
@@ -12848,6 +12880,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | human",
+            "property | Access | Kellid ethnicity",
             "rule",
             "text | You and your family have fought long and hard against witches, particularly the winter witches of Irrisen, and you've learned to be wary of their curses and the otherworldly powers their patrons grant. You gain a +1 circumstance bonus to saving throws against curses, and to saving throws against spells cast by a witch or hag. If you roll a success on a saving throw against a curse or a spell cast by a witch or hag, you get a critical success instead."
         ],
@@ -21959,6 +21992,7 @@
         "code": "feat 5",
         "contents": [
             "pftrait | uncommon | orc",
+            "property | Access | Matanji ethnicity",
             "property | Prerequisites | tusks unarmed attack",
             "property | Trigger | You successfully Strike a living creature that has the fiend trait with your tusks unarmed attack.",
             "property | Frequency | once per minute",
@@ -24872,6 +24906,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | archetype | dedication",
+            "property | Access | You are from the Broken Lands region.",
             "property | Prerequisites | trained in Aldori dueling swords",
             "rule",
             "text | Your Aldori duelist training teaches you martial techniques and increases your dedication to the Aldori dueling sword. You become trained in your choice of Acrobatics or Athletics and in Dueling Lore; if you were already trained, you become an expert instead.",
@@ -28263,6 +28298,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | archetype | dedication",
+            "property | Access | Bright Lion background",
             "property | Prerequisites | member of the Bright Lions, not a worshipper of Walkena, trained in Stealth",
             "rule",
             "text | You become trained in your choice of Deception or Diplomacy and in Mzali Lore; if you were already trained, you become an expert instead. You incorporate enough worship of Walkena in your daily life to avoid suspicion. You typically don't need to Lie or Impersonate to pass yourself off as a worshipper of Walkena. Against careful inspection, you gain a +4 circumstance bonus to Deception checks specifically to pass yourself off as a version of yourself faithful to Walkena."
@@ -28749,6 +28785,7 @@
         "code": "feat 4",
         "contents": [
             "pftrait | uncommon | archetype | dedication",
+            "property | Access | Defeat a member of the Butterfly Blades in a sanctioned bout.",
             "property | Prerequisites | trained in butterfly swords",
             "rule",
             "text | You become trained in Deception and Stealth; if you were already trained, you become an expert instead. Whenever your proficiency rank in any weapon increases to expert or beyond, you also gain that new proficiency rank with butterfly swords. You gain access to butterfly swords."
@@ -30778,6 +30815,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | archetype | dedication",
+            "property | Access | Bright Lion background (Lost Omens World Guide 95) You become trained in Mzali Lore and your choice of",
             "property | Prerequisites | member of the Bright Lions, not a worshipper of Walkena, trained in Stealth",
             "rule",
             "text | Deception or Diplomacy; if you were already trained, you become an expert instead. You incorporate enough worship of Walkena in your daily life to avoid suspicion.",
@@ -31284,6 +31322,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | archetype | dedication",
+            "property | Access | You are a kobold with the dragonscaled or spellscaled heritage, a dragon instinct barbarian, or a draconic bloodline sorcerer.",
             "rule",
             "text | You choose to study or worship one type of dragon, and your focus grants you a measure of its power. You become trained in arcane spell DCs and arcane spell attack rolls. Choose one color of dragon when you select this feat; if you are a sorcerer with the draconic bloodline, this must be the same type as your bloodline. You gain resistance equal to half your level against one type of damage determined by the chosen dragon type. The GM may allow you to choose a dragon type not listed below, and will determine the damage type appropriate for that dragon.",
             "bullet | **Black, Brine1, or Copper** Acid",
@@ -36253,6 +36292,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | archetype | dedication",
+            "property | Access | You are from Old Cheliax.",
             "property | Prerequisites | member of a Hellknight order, trained in heavy armor as well as your order's favored weapon",
             "rule",
             "text | Your Hellknight training teaches you to terrorize others into compliance, but you also study the structure and hierarchy of Hell. You must survive painful tests of your body and mind called reckonings, which steady your mind against all sorts of trauma.",
@@ -37227,6 +37267,7 @@
         "code": "feat 4",
         "contents": [
             "pftrait | uncommon | archetype | dedication",
+            "property | Access | trained by a current or former member of a House of Perfection",
             "property | Prerequisites | expert in unarmed attacks",
             "rule",
             "text | Your skill and dedication have set you on a path to master the techniques of Jalmeray's greatest martial artists: victors of the Challenge of Sky and Heaven. You become trained in either Acrobatics or Occultism. You gain either the Ki Rush or Ki Strike monk feat, which grants you a ki spell and a focus pool of 1 Focus Point that you can recover using the Refocus activity as a monk does. If you already have both these feats, you can instead choose a single 1st-level monk feat."
@@ -37581,6 +37622,7 @@
         "code": "feat 12",
         "contents": [
             "pftrait | rare | archetype",
+            "property | Access | A character who performs a specialized mission for Clarethe Iomedar has access to this option.",
             "property | Prerequisites | Knight Reclaimant Dedication",
             "rule",
             "text | Rumors suggest this technique was pioneered by knights who undertook missions for Clarethe Iomedar at the half-moon, but many Crimson Reclaimers have since mastered it. You learn the for love, for lightning focus spell (see below). If you don't already have one, you gain a focus pool of 1 Focus Point, which you can regain using the Refocus activity to recite the Crimson Oath and meditate on its teachings; if you already have a focus pool, increase the number of Focus Points in your focus pool by 1. Your knight reclaimant focus spells are divine spells; when you gain this feat, you become trained in divine spell attacks and spell DCs. Charisma is the key spellcasting ability for knight reclaimant focus spells."
@@ -38631,6 +38673,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | archetype | dedication",
+            "property | Access | You are from the Eye of Dread region.",
             "property | Prerequisites | member of the Knights of Lastwall, Shield Block",
             "rule",
             "text | You've sworn yourself as a sentry for the Knights of Lastwall, the first line of defense against incursions by the Whispering Tyrant throughout Golarion. You become trained in Athletics and in Undead Lore; if you were already trained, you become an expert instead. Finally, you gain the Reactive Shield fighter feat."
@@ -39157,6 +39200,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | archetype | dedication",
+            "property | Access | You are from Taldor.",
             "property | Prerequisites | member of the Lion Blades, trained in Performance",
             "rule",
             "text | Your lion blade spy training helps you conceal yourself and your identity. You become trained in your choice of Deception or Stealth and in Espionage Lore; if you were already trained, you become an expert instead. You never take circumstance penalties for attempting to take a disguise of a different ancestry, age, and so on, as long as the disguised form is appropriate for your size."
@@ -39312,6 +39356,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | archetype | dedication",
+            "property | Access | You are from the Golden Road region.",
             "property | Prerequisites | Ancient Osiriani and Sphinx languages, trained in Crafting",
             "rule",
             "text | You've begun to inscribe a magical stone called a ka stone that you will some day tie to your soul. You gain knowledge of Ancient Osirion and a connection to your nascent ka stone. If you fail a recovery check while dying, your dying condition does not increase; if you critically fail, your dying condition increases by only 1. You become trained in Ancient Osirion Lore, or expert if you were already trained."
@@ -40125,6 +40170,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | archetype | dedication",
+            "property | Access | You are from the Mwangi Expanse.",
             "property | Prerequisites | ability to cast focus spells",
             "rule",
             "text | You have taken up a nameless mask and sworn the oath of the magic warriors. You become trained in your choice of Arcana or Nature and in Magic Warrior Lore; if you were already trained in the skill, you become an expert instead.",
@@ -43396,6 +43442,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | archetype | dedication",
+            "property | Access | You are from Absalom.",
             "property | Prerequisites | member of the Pathfinder Society",
             "rule",
             "text | Your Pathfinder training has broadened your horizons and made you more flexible at various skills, since you never know when you might need an obscure skill to complete your mission. You become trained in one skill of your choice, or expert in a skill of your choice in which you were trained. You also become trained in Pathfinder Lore, or an expert if you were already trained. When using a skill untrained, your proficiency bonus is equal to your level instead of 0. You gain access to wayfinders."
@@ -44346,6 +44393,7 @@
         "code": "feat 10",
         "contents": [
             "pftrait | uncommon | archetype | dedication",
+            "property | Access | Successfully defeat the ebaraks in the Irorium.",
             "property | Prerequisites | Strength 14, Charisma 14",
             "rule",
             "text | For you, fighting is as much about style as skill. You become trained in simple weapons, martial weapons, and one advanced weapon of your choice. When you critically succeed at an attack roll using your chosen advanced weapon, you also apply the critical specialization of that weapon. You become an expert in Performance and your choice of either Acrobatics or Athletics. If you were an expert in all three of these skills, you instead become an expert in a skill of your choice."
@@ -45039,6 +45087,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | archetype | dedication",
+            "property | Access | You are from Mediogalti Island.",
             "property | Prerequisites | trained in sawtooth sabers, deity is Achaekek, lawful evil alignment, member of the Red Mantis assassins",
             "rule",
             "text | You have learned how to stalk your foes and slay them with a sawtooth sabre. You become trained in Stealth and Assassin Lore; if you were already trained, you become an expert instead. Whenever your proficiency in any weapon increases to expert or beyond, you also gain that new proficiency with sawtooth sabers."
@@ -45772,6 +45821,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | archetype | dedication",
+            "property | Access | You are from the Saga Lands.",
             "property | Prerequisites | trained in Arcana",
             "rule",
             "text | Whether through blood (if you're Varisian, Shoanti, or New Thassilonian) or by exposure to rune magic, you have become runescarred, with visible, glowing runes on your body in the form of tattoos or scars. You might have possessed these marks before gaining the archetype, but you only truly became runescarred when you chose to study and tap into the runes' power. You become an expert in Arcana and you also become trained in Thassilon Lore, or an expert in Thassilon Lore if you were already trained in it.",
@@ -49628,6 +49678,7 @@
         "code": "feat 10",
         "contents": [
             "pftrait | uncommon | archetype",
+            "property | Access | You are from Arcadia.",
             "rule",
             "text | You've incorporated beast tech from Arcadia into your dynamo, adding in components from various terrifying creatures to enhance your prosthesis's capabilities. The beast parts can unleash a disturbing howl as you make a powerful attack with your dynamo. Attempt a single Intimidation check to Demoralize each enemy within 30 feet; you don't take a penalty when you attempt to Demoralize a creature that doesn't understand your language. Then, make a dynamo Strike. Reduce the operational time of your sterling dynamo by 1 hour."
         ],
@@ -49648,6 +49699,7 @@
         "code": "feat 12",
         "contents": [
             "pftrait | uncommon | archetype",
+            "property | Access | You are an automaton or are otherwise from the ancient Jistka Imperium.",
             "property | Prerequisites | Sterling Dynamo Dedication",
             "rule",
             "text | You've learned the secrets of Jistkan golem prostheses, allowing you to incorporate golem components into your dynamo and gain a portion of their magic. You gain a +1 status bonus to saving throws against magic, and your dynamo Strikes become magical."
@@ -49734,6 +49786,7 @@
         "code": "feat 8",
         "contents": [
             "pftrait | uncommon | archetype",
+            "property | Access | You are from Ustalav.",
             "property | Prerequisites | Sterling Dynamo Dedication",
             "rule",
             "text | You've modified your dynamo with Stasian coils, allowing you to make a powerful attack that crackles with electricity.",
@@ -49828,6 +49881,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | archetype | dedication",
+            "property | Access | You are from Jalmeray.",
             "property | Prerequisites | powerful fist or expert in unarmed attacks; member of a House of Perfection",
             "rule",
             "text | You have learned the martial arts techniques of your House of Perfection. You become trained in your choice of Acrobatics or Athletics and Warfare Lore; if you were already trained, you become an expert instead. You gain the Ki Strike monk class feat, which grants you the ki strike ki spell and a focus pool of 1 Focus Point that you can recover using the Refocus activity as a monk does. Your ki spells from Student of Perfection are occult spells."
@@ -51539,6 +51593,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | archetype | dedication",
+            "property | Access | You must befriend at least one Turpin Rowe logger.",
             "property | Prerequisites | trained in Survival",
             "rule",
             "text | Your logging training has made you intimately familiar with all aspects of forestry, and you have trained extensively to reach around trees and utilize their bulk to your advantage. You become trained in Milling Lore and Forest Lore, or an expert if you were already trained. You can always Take Cover when you are within forest terrain to gain cover, even if you're not next to an obstacle you can Take Cover behind. In addition, any enemy who gains standard cover from a tree gains only lesser cover against your attacks (or only standard cover, if the enemy otherwise gains greater cover)."
@@ -54268,6 +54323,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | archetype | dedication",
+            "property | Access | You are from Katapesh.",
             "property | Prerequisites | member of the Zephyr Guard",
             "rule",
             "text | As a Zephyr Guard, you're always vigilant against crime and threats to the city's safety. You gain a +1 circumstance bonus to Perception checks against attempts to Palm an Object, Steal, or Conceal an Object (including you're Seeking concealed objects). You become trained in Society and Katapesh Lore; if you were already trained, you become an expert instead."
@@ -55742,6 +55798,7 @@
         "code": "feat 4",
         "contents": [
             "pftrait | uncommon | additive 2 | alchemist",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "property | Trigger | You use Quick Alchemy to craft an alchemist's fire or ghost charge, and that bomb's level is at least 2 levels lower than your advanced alchemy level.",
             "property | Frequency | once per round",
             "rule",
@@ -55767,6 +55824,7 @@
         "code": "feat 8",
         "contents": [
             "pftrait | uncommon | alchemist",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "property | Requirements | You're holding holy water or a bomb that deals positive damage in one of your hands.",
             "property | Trigger | You would take damage from an adjacent creature's Strike.",
             "rule",
@@ -57697,6 +57755,7 @@
         "code": "feat 10",
         "contents": [
             "pftrait | uncommon | barbarian | swashbuckler",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "property | Trigger | You destroy an undead foe.",
             "rule",
             "text | You defy Tar-Baphon with every undead you destroy, using your victory to rally your allies. Allies that can see you gain a +1 status bonus to attack and damage rolls against undead for 1 round, or a +2 status bonus to attack and damage rolls against undead for 2 rounds if the undead foe destroyed was a creature of your level or higher."
@@ -57719,6 +57778,7 @@
         "code": "feat 4",
         "contents": [
             "pftrait | uncommon | barbarian | divine | instinct | necromancy | rage",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "property | Prerequisites | spirit instinct",
             "rule",
             "text | Spirits around you coalesce upon your fists, enabling you to seize and harm other ghosts and spirits. Until the beginning of your next turn, your fists gain the effects of the ghost touch property rune, and you can make Strength-based skill checks against incorporeal creatures."
@@ -59322,6 +59382,7 @@
         "code": "feat 4",
         "contents": [
             "pftrait | uncommon | bard | champion | emotion | mental",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "property | Trigger | You and at least one other creature become the target of a spell or effect with the emotion, fear, or mental trait that allows a saving throw, and you haven't rolled the save yet.",
             "rule",
             "text | You show defiance in times of hardship and inspire your companions to persevere.",
@@ -59347,6 +59408,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | bard | champion",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "rule",
             "text | You know the path to victory isn't traveled alone, and you lend aid to your companions whenever you can. You gain a +2 circumstance bonus to checks to Aid. If you roll a critical failure on a check to Aid, you get a failure instead."
         ],
@@ -59368,6 +59430,7 @@
         "code": "feat 12",
         "contents": [
             "pftrait | uncommon | bard | concentrate | metamagic | sorcerer",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "property | Prerequisites | Soulsight",
             "rule",
             "text | You bestow the mystical vision granted to you by your muse upon your allies. If your next action is to cast a non-cantrip spell that affects one or more of your allies, all affected allies gain your spiritsense for 1 minute."
@@ -61374,6 +61437,7 @@
         "code": "feat 1",
         "contents": [
             "pftrait | uncommon | champion | fighter",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "property | Requirements | You are wielding a shield with a shield boss or shield spikes in one hand.",
             "rule",
             "text | You change your grip on the shield, allowing you to combine rapid attacks with your shield boss or shield spikes and your main weapon's Strikes in a series of swift motions. You reduce your shield boss and shield spikes weapon damage die to 1d4. As long as the weapon damage die is 1d4, your shield boss and shield spike Strikes gain the agile weapon trait. You can use Agile Shield Grip again to switch to a normal grip, returning the damage to the usual amount and removing the agile trait."
@@ -61396,6 +61460,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | champion | fighter",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "property | Requirements | Your last action was to Raise a Shield.",
             "rule",
             "text | You adopt a wide stance, ready to defend both yourself and your chosen ward. Select one adjacent creature. As long as your shield is raised and the creature remains adjacent to you, the creature gains a +1 circumstance bonus to their AC, or a +2 circumstance bonus if the shield you raised was a tower shield."
@@ -61418,6 +61483,7 @@
         "code": "feat 10",
         "contents": [
             "pftrait | uncommon | champion | cleric | concentrate | divine | evocation | light",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "property | Prerequisites | you follow a good-aligned deity",
             "rule",
             "text | You raise your arms to the sky and pray fervently, surrounding yourself in a beacon of holy light. The beacon sheds bright light in a 30-foot-radius, 100-foot-high cylinder centered on you until the beginning of your next turn. Evil creatures in the area must succeed at a Will save equal to your class DC or spell DC (whichever is higher) or become dazzled for 1 round."
@@ -61444,6 +61510,7 @@
         "code": "feat 4",
         "contents": [
             "pftrait | uncommon | champion | fighter",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "rule",
             "text | You attack carefully to knock some sense into a creature whose actions aren't their own. Make a Strike against a confused ally. The Strike is nonlethal and doesn't take a –2 penalty for using a weapon without the nonlethal trait; if you hit and deal damage, your ally automatically succeeds at the flat check to remove the confused condition when taking damage."
         ],
@@ -61465,6 +61532,7 @@
         "code": "feat 12",
         "contents": [
             "pftrait | uncommon | champion | cleric",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "property | Trigger | An adjacent fiend or undead begins to use a reaction.",
             "rule",
             "text | Through divine intervention or whispered prayers, you foil an enemy's response.",
@@ -61488,6 +61556,7 @@
         "code": "feat 12",
         "contents": [
             "pftrait | uncommon | champion | druid",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "rule",
             "text | You imbue your shield with life-giving energy to deflect harmful necromantic magic. When you have your shield raised, you gain the shield's circumstance bonus to your AC and saving throws against necromancy spells. If you have the Shield Block reaction, damage you take as a result of a necromancy spell can trigger that reaction, even if it isn't physical damage."
         ],
@@ -61509,6 +61578,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | champion | cleric",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "rule",
             "text | You're firm in your convictions and have girded your mind against outside influence. You gain a +1 circumstance bonus to saves against mental effects. This bonus increases to +2 against mental effects originating from undead."
         ],
@@ -61530,6 +61600,7 @@
         "code": "feat 6",
         "contents": [
             "pftrait | uncommon | champion | fighter",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "property | Trigger | Your shield is raised and an adjacent ally Raises a Shield.",
             "rule",
             "text | You use your shield in tandem with an ally's, forming a barricade. Both you and the triggering creature have standard cover as long as you remain adjacent to each other and you both have your shields raised; when this is no longer the case, the effect ends. You and your ally can't use this cover to Hide, as it's obvious you're standing there holding your shields, but you and your ally can use it to Take Cover.",
@@ -63132,6 +63203,7 @@
         "code": "feat 10",
         "contents": [
             "pftrait | uncommon | cleric | concentrate | metamagic | oracle | sorcerer",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "property | Prerequisites | ability to cast focus spells, divine spells",
             "rule",
             "text | You infuse a spell with the power of your faith, consecrating it. If the next action you use is to Cast a Spell that targets a single undead, you can expend a Focus Point, channeling the power of your focus spells into the primary spell. If you do, the spell you cast deals additional good or positive damage (your choice) equal to the level of your focus spells. As normal for additional damage, this additional damage is doubled if the spell cast requires an attack roll and the result of the attack roll is a critical hit, or if the spell cast requires a saving throw and the result of the saving throw is a critical failure."
@@ -63157,6 +63229,7 @@
         "code": "feat 6",
         "contents": [
             "pftrait | uncommon | cleric | concentrate | metamagic | oracle | sorcerer | witch | wizard",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "rule",
             "text | Your spell becomes volatile and explosive. If the next action you use is to Cast a Spell that deals damage to a single target and the spell successfully damages that target, the spell explodes, dealing splash damage equal to the level of the spell cast to adjacent creatures. Unlike normally, this splash damage doesn't apply to the target. The splash damage dealt is of the same type the spell deals."
         ],
@@ -63183,6 +63256,7 @@
         "code": "feat 4",
         "contents": [
             "pftrait | uncommon | cleric | oracle",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "property | Prerequisites | divine spells, you follow a good-aligned deity",
             "property | Requirements | Your most recent action was to cast a non-cantrip divine spell.",
             "property | Frequency | once per turn",
@@ -63207,6 +63281,7 @@
         "code": "feat 14",
         "contents": [
             "pftrait | uncommon | cleric | oracle | sorcerer",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "property | Prerequisites | divine spells",
             "property | Requirements | Your most recent action was to cast a non-cantrip spell with the healing trait.",
             "rule",
@@ -66943,6 +67018,7 @@
         "code": "feat 8",
         "contents": [
             "pftrait | uncommon | fighter | swashbuckler",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "property | Prerequisites | trained in Athletics",
             "property | Trigger | An undead creature within your reach critically fails a Strike against you.",
             "rule",
@@ -66966,6 +67042,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | fighter | flourish | ranger",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "rule",
             "text | Through countless battles, you've learned you're stronger when working alongside your allies. Make a Strike. Your Strike gains a circumstance bonus to damage rolls equal to the number of other different creatures that damaged the target since the end of the target's last turn, to a maximum of a +4 circumstance bonus."
         ],
@@ -77243,6 +77320,7 @@
         "code": "feat 8",
         "contents": [
             "pftrait | uncommon | rogue",
+            "property | Access | Side with the Washboard Dogs in the gang conflict.",
             "property | Prerequisites | ruffian racket",
             "property | Requirements | You're wielding a melee weapon that deals bludgeoning damage and you're hidden from or undetected by an enemy.",
             "rule",
@@ -77265,6 +77343,7 @@
         "code": "feat 12",
         "contents": [
             "pftrait | uncommon | concentrate | rogue",
+            "property | Access | Help either the Washboard Dogs or the Diobel Sweepers destroy their rival.",
             "rule",
             "text | With a sharp whistle or wave of your hands, you distract an opponent from the fact that one of your allies is about to attack them. Choose a target and an ally, both of whom must be within 30 feet. The target is flat-footed against the first Strike the ally makes on their next turn; if your ally doesn't Strike that target, the effect is lost. Depending on how you describe your distraction, this action gains either the auditory or visual trait."
         ],
@@ -77286,6 +77365,7 @@
         "code": "feat 10",
         "contents": [
             "pftrait | uncommon | rogue",
+            "property | Access | Help either the Washboard Dogs or the Diobel Sweepers destroy their rival",
             "rule",
             "text | When you succeed or critically succeed at a Deception check to Feint an opponent, that target can't flank with their allies until the beginning of your next turn."
         ],
@@ -77306,6 +77386,7 @@
         "code": "feat 6",
         "contents": [
             "pftrait | uncommon | flourish | manipulate | rogue",
+            "property | Access | Help either the Washboard Dogs or the Diobel",
             "property | Requirements | You're wielding a melee weapon that deals slashing damage and you have a free hand.",
             "rule",
             "text | You attempt a melee Strike with the required weapon. If you hit and deal damage and the result of your attack roll exceeds the target's Perception DC, you Steal a small object from the target (as if you had succeeded at that task using the Thievery skill). Depending on the object, the target might realize that it has been stolen, and onlookers might realize you have stolen the object if the attack roll doesn't exceed their Perception DCs."
@@ -77329,6 +77410,7 @@
         "code": "feat 8",
         "contents": [
             "pftrait | uncommon | flourish | rogue",
+            "property | Access | Help either the Washboard Dogs or the Diobel",
             "property | Prerequisites | Quick Draw",
             "property | Requirements | You have a melee weapon of light bulk",
             "rule",
@@ -80547,6 +80629,7 @@
         "code": "feat 6",
         "contents": [
             "pftrait | uncommon | sorcerer | witch",
+            "property | Access | Knights of Lastwall have access to this feat.",
             "property | Prerequisites | a familiar, you follow a good-aligned deity or patron",
             "rule",
             "text | Your familiar is a divine emissary, sent to you by your deity or patron and infused with celestial powers. You can select one additional familiar ability each day, which must be one of the following divine emissary familiar abilities. You can't select more than one divine emissary familiar ability at a time.",
@@ -85772,6 +85855,7 @@
         "code": "feat 14",
         "contents": [
             "pftrait | uncommon | wizard",
+            "property | Access | member of the Magaambya",
             "property | Requirements | You have an active spell that affects an area and you are within the spell's range.",
             "rule",
             "text | You move the spell's area to a new location within 120 feet.",
@@ -85809,6 +85893,2320 @@
             "wizard"
         ],
         "level": 20
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-adept-detection",
+        "color": "#F57C00",
+        "name": "Dragonmark Adept (Detection)",
+        "title": "Dragonmark Adept (Detection)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of detection",
+            "property | Prerequisites | Least Dragonmark (Detection)",
+            "rule",
+            "text | You gain a dragonmark spell from the Mark of Detection additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of detection",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-adept-finding",
+        "color": "#F57C00",
+        "name": "Dragonmark Adept (Finding)",
+        "title": "Dragonmark Adept (Finding)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of finding",
+            "property | Prerequisites | Least Dragonmark (Finding)",
+            "rule",
+            "text | You gain a dragonmark spell from the Mark of Finding additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of finding",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-adept-handling",
+        "color": "#F57C00",
+        "name": "Dragonmark Adept (Handling)",
+        "title": "Dragonmark Adept (Handling)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of handling",
+            "property | Prerequisites | Least Dragonmark (Handling)",
+            "rule",
+            "text | You gain a dragonmark spell from the Mark of Handling additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of handling",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-adept-healing",
+        "color": "#F57C00",
+        "name": "Dragonmark Adept (Healing)",
+        "title": "Dragonmark Adept (Healing)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of healing",
+            "property | Prerequisites | Least Dragonmark (Healing)",
+            "rule",
+            "text | You gain a dragonmark spell from the Mark of Healing additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of healing",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-adept-hospitality",
+        "color": "#F57C00",
+        "name": "Dragonmark Adept (Hospitality)",
+        "title": "Dragonmark Adept (Hospitality)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of hospitality",
+            "property | Prerequisites | Least Dragonmark (Hospitality)",
+            "rule",
+            "text | You gain a dragonmark spell from the Mark of Hospitality additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of hospitality",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-adept-making",
+        "color": "#F57C00",
+        "name": "Dragonmark Adept (Making)",
+        "title": "Dragonmark Adept (Making)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of making",
+            "property | Prerequisites | Least Dragonmark (Making)",
+            "rule",
+            "text | You gain a dragonmark spell from the Mark of Making additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of making",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-adept-passage",
+        "color": "#F57C00",
+        "name": "Dragonmark Adept (Passage)",
+        "title": "Dragonmark Adept (Passage)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of passage",
+            "property | Prerequisites | Least Dragonmark (Passage)",
+            "rule",
+            "text | You gain a dragonmark spell from the Mark of Passage additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of passage",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-adept-scribing",
+        "color": "#F57C00",
+        "name": "Dragonmark Adept (Scribing)",
+        "title": "Dragonmark Adept (Scribing)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of scribing",
+            "property | Prerequisites | Least Dragonmark (Scribing)",
+            "rule",
+            "text | You gain a dragonmark spell from the Mark of Scribing additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of scribing",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-adept-sentinel",
+        "color": "#F57C00",
+        "name": "Dragonmark Adept (Sentinel)",
+        "title": "Dragonmark Adept (Sentinel)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of sentinel",
+            "property | Prerequisites | Least Dragonmark (Sentinel)",
+            "rule",
+            "text | You gain a dragonmark spell from the Mark of Sentinel additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of sentinel",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-adept-shadow",
+        "color": "#F57C00",
+        "name": "Dragonmark Adept (Shadow)",
+        "title": "Dragonmark Adept (Shadow)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of shadow",
+            "property | Prerequisites | Least Dragonmark (Shadow)",
+            "rule",
+            "text | You gain a dragonmark spell from the Mark of Shadow additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of shadow",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-adept-storm",
+        "color": "#F57C00",
+        "name": "Dragonmark Adept (Storm)",
+        "title": "Dragonmark Adept (Storm)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of storm",
+            "property | Prerequisites | Least Dragonmark (Storm)",
+            "rule",
+            "text | You gain a dragonmark spell from the Mark of Storm additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of storm",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-adept-warding",
+        "color": "#F57C00",
+        "name": "Dragonmark Adept (Warding)",
+        "title": "Dragonmark Adept (Warding)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of warding",
+            "property | Prerequisites | Least Dragonmark (Warding)",
+            "rule",
+            "text | You gain a dragonmark spell from the Mark of Warding additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of warding",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-cantrip-detection",
+        "color": "#F57C00",
+        "name": "Dragonmark Cantrip (Detection)",
+        "title": "Dragonmark Cantrip (Detection)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of detection",
+            "property | Prerequisites | Least Dragonmark (Detection)",
+            "rule",
+            "text | You can wield your dragonmark to consistently produce magic. You gain the Detect Magic and Read Aura cantrips. The cantrips gains the dragonmark trait and a material component of your dragonmark and lose the verbal component, if they have it. If anything interferes with your dragonmark, you cannot cast these cantrips."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of detection",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-cantrip-finding",
+        "color": "#F57C00",
+        "name": "Dragonmark Cantrip (Finding)",
+        "title": "Dragonmark Cantrip (Finding)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of finding",
+            "property | Prerequisites | Least Dragonmark (Finding)",
+            "rule",
+            "text | You can wield your dragonmark to consistently produce magic. You gain the Detect Magic and Know Direction cantrips. The cantrips gains the dragonmark trait and a material component of your dragonmark and lose the verbal component, if they have it. If anything interferes with your dragonmark, you cannot cast these cantrips."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of finding",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-cantrip-handling",
+        "color": "#F57C00",
+        "name": "Dragonmark Cantrip (Handling)",
+        "title": "Dragonmark Cantrip (Handling)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of handling",
+            "property | Prerequisites | Least Dragonmark (Handling)",
+            "rule",
+            "text | You can wield your dragonmark to consistently produce magic. You gain the Tame and Tanglefoot cantrips. The cantrips gains the dragonmark trait and a material component of your dragonmark and lose the verbal component, if they have it. If anything interferes with your dragonmark, you cannot cast these cantrips."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of handling",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-cantrip-healing",
+        "color": "#F57C00",
+        "name": "Dragonmark Cantrip (Healing)",
+        "title": "Dragonmark Cantrip (Healing)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of healing",
+            "property | Prerequisites | Least Dragonmark (Healing)",
+            "rule",
+            "text | You can wield your dragonmark to consistently produce magic. You gain the Healing Plaster and Stabilize cantrips. The cantrips gains the dragonmark trait and a material component of your dragonmark and lose the verbal component, if they have it. If anything interferes with your dragonmark, you cannot cast these cantrips."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of healing",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-cantrip-hospitality",
+        "color": "#F57C00",
+        "name": "Dragonmark Cantrip (Hospitality)",
+        "title": "Dragonmark Cantrip (Hospitality)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of hospitality",
+            "property | Prerequisites | Least Dragonmark (Hospitality)",
+            "rule",
+            "text | You can wield your dragonmark to consistently produce magic. You gain the Mage Hand and Prestidigitation cantrips. The cantrips gains the dragonmark trait and a material component of your dragonmark and lose the verbal component, if they have it. If anything interferes with your dragonmark, you cannot cast these cantrips."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of hospitality",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-cantrip-making",
+        "color": "#F57C00",
+        "name": "Dragonmark Cantrip (Making)",
+        "title": "Dragonmark Cantrip (Making)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of making",
+            "property | Prerequisites | Least Dragonmark (Making)",
+            "rule",
+            "text | You can wield your dragonmark to consistently produce magic. You gain the Read Aura and Sigil cantrips. The cantrips gains the dragonmark trait and a material component of your dragonmark and lose the verbal component, if they have it. If anything interferes with your dragonmark, you cannot cast these cantrips."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of making",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-cantrip-passage",
+        "color": "#F57C00",
+        "name": "Dragonmark Cantrip (Passage)",
+        "title": "Dragonmark Cantrip (Passage)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of passage",
+            "property | Prerequisites | Least Dragonmark (Passage)",
+            "rule",
+            "text | You can wield your dragonmark to consistently produce magic. You gain the Know Direction and Light cantrips. The cantrips gains the dragonmark trait and a material component of your dragonmark and lose the verbal component, if they have it. If anything interferes with your dragonmark, you cannot cast these cantrips."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of passage",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-cantrip-scribing",
+        "color": "#F57C00",
+        "name": "Dragonmark Cantrip (Scribing)",
+        "title": "Dragonmark Cantrip (Scribing)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of scribing",
+            "property | Prerequisites | Least Dragonmark (Scribing)",
+            "rule",
+            "text | You can wield your dragonmark to consistently produce magic. You gain the Message and Sigil cantrips. The cantrips gains the dragonmark trait and a material component of your dragonmark and lose the verbal component, if they have it. If anything interferes with your dragonmark, you cannot cast these cantrips."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of scribing",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-cantrip-sentinel",
+        "color": "#F57C00",
+        "name": "Dragonmark Cantrip (Sentinel)",
+        "title": "Dragonmark Cantrip (Sentinel)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of sentinel",
+            "property | Prerequisites | Least Dragonmark (Sentinel)",
+            "rule",
+            "text | You can wield your dragonmark to consistently produce magic. You gain the Forbidding Ward and Shield cantrips. The cantrips gains the dragonmark trait and a material component of your dragonmark and lose the verbal component, if they have it. If anything interferes with your dragonmark, you cannot cast these cantrips."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of sentinel",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-cantrip-shadow",
+        "color": "#F57C00",
+        "name": "Dragonmark Cantrip (Shadow)",
+        "title": "Dragonmark Cantrip (Shadow)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of shadow",
+            "property | Prerequisites | Least Dragonmark (Shadow)",
+            "rule",
+            "text | You can wield your dragonmark to consistently produce magic. You gain the Dancing Lights and Ghost Sound cantrips. The cantrips gains the dragonmark trait and a material component of your dragonmark and lose the verbal component, if they have it. If anything interferes with your dragonmark, you cannot cast these cantrips."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of shadow",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-cantrip-storm",
+        "color": "#F57C00",
+        "name": "Dragonmark Cantrip (Storm)",
+        "title": "Dragonmark Cantrip (Storm)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of storm",
+            "property | Prerequisites | Least Dragonmark (Storm)",
+            "rule",
+            "text | You can wield your dragonmark to consistently produce magic. You gain the Electric Arc and Know Direction cantrips. The cantrips gains the dragonmark trait and a material component of your dragonmark and lose the verbal component, if they have it. If anything interferes with your dragonmark, you cannot cast these cantrips."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of storm",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-cantrip-warding",
+        "color": "#F57C00",
+        "name": "Dragonmark Cantrip (Warding)",
+        "title": "Dragonmark Cantrip (Warding)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of warding",
+            "property | Prerequisites | Least Dragonmark (Warding)",
+            "rule",
+            "text | You can wield your dragonmark to consistently produce magic. You gain the Forbidding Ward and Sigil cantrips. The cantrips gains the dragonmark trait and a material component of your dragonmark and lose the verbal component, if they have it. If anything interferes with your dragonmark, you cannot cast these cantrips."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of warding",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-weapon-detection",
+        "color": "#F57C00",
+        "name": "Dragonmark Weapon (Detection)",
+        "title": "Dragonmark Weapon (Detection)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of detection",
+            "property | Prerequisites | Least Dragonmark (Detection)",
+            "rule",
+            "text | You have learned how to manipulate your dragonmark to separate from your body to some degree. You spend 10 minutes focusing your marks magic, imprinting it with the potential of a light mace, longspear, mace, staff, flail, rapier, whip, or bladed scarf. When you have a free hand, you can spend a single interact action to cause your dragonmark to separate from your body, forming the weapon in your free hand; a second interact action returns it to tattoo form. Your dragonmark weapon functions as the imprinted weapon and can be etched with runes or affixed with talismans as normal, which are suppressed when the weapon is in tattoo form. It also becomes an arcane focus."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of detection",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-weapon-finding",
+        "color": "#F57C00",
+        "name": "Dragonmark Weapon (Finding)",
+        "title": "Dragonmark Weapon (Finding)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of finding",
+            "property | Prerequisites | Least Dragonmark (Finding)",
+            "rule",
+            "text | You have learned how to manipulate your dragonmark to separate from your body to some degree. You spend 10 minutes focusing your marks magic, imprinting it with the potential of a light mace, longspear, mace, staff, flail, rapier, whip, or orc knuckle dagger. When you have a free hand, you can spend a single interact action to cause your dragonmark to separate from your body, forming the weapon in your free hand; a second interact action returns it to tattoo form. Your dragonmark weapon functions as the imprinted weapon and can be etched with runes or affixed with talismans as normal, which are suppressed when the weapon is in tattoo form. It also becomes an arcane focus."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of finding",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-weapon-handling",
+        "color": "#F57C00",
+        "name": "Dragonmark Weapon (Handling)",
+        "title": "Dragonmark Weapon (Handling)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of handling",
+            "property | Prerequisites | Least Dragonmark (Handling)",
+            "rule",
+            "text | You have learned how to manipulate your dragonmark to separate from your body to some degree. You spend 10 minutes focusing your marks magic, imprinting it with the potential of a light mace, longspear, mace, staff, flail, rapier, whip, or war lance. When you have a free hand, you can spend a single interact action to cause your dragonmark to separate from your body, forming the weapon in your free hand; a second interact action returns it to tattoo form. Your dragonmark weapon functions as the imprinted weapon and can be etched with runes or affixed with talismans as normal, which are suppressed when the weapon is in tattoo form. It also becomes an arcane focus."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of handling",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-weapon-healing",
+        "color": "#F57C00",
+        "name": "Dragonmark Weapon (Healing)",
+        "title": "Dragonmark Weapon (Healing)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of healing",
+            "property | Prerequisites | Least Dragonmark (Healing)",
+            "rule",
+            "text | You have learned how to manipulate your dragonmark to separate from your body to some degree. You spend 10 minutes focusing your marks magic, imprinting it with the potential of a light mace, longspear, mace, staff, flail, rapier, whip, or kukri. When you have a free hand, you can spend a single interact action to cause your dragonmark to separate from your body, forming the weapon in your free hand; a second interact action returns it to tattoo form. Your dragonmark weapon functions as the imprinted weapon and can be etched with runes or affixed with talismans as normal, which are suppressed when the weapon is in tattoo form. It also becomes an arcane focus."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of healing",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-weapon-hospitality",
+        "color": "#F57C00",
+        "name": "Dragonmark Weapon (Hospitality)",
+        "title": "Dragonmark Weapon (Hospitality)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of hospitality",
+            "property | Prerequisites | Least Dragonmark (Hospitality)",
+            "rule",
+            "text | You have learned how to manipulate your dragonmark to separate from your body to some degree. You spend 10 minutes focusing your marks magic, imprinting it with the potential of a light mace, longspear, mace, staff, flail, rapier, whip, or kukri. When you have a free hand, you can spend a single interact action to cause your dragonmark to separate from your body, forming the weapon in your free hand; a second interact action returns it to tattoo form. Your dragonmark weapon functions as the imprinted weapon and can be etched with runes or affixed with talismans as normal, which are suppressed when the weapon is in tattoo form. It also becomes an arcane focus."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of hospitality",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-weapon-making",
+        "color": "#F57C00",
+        "name": "Dragonmark Weapon (Making)",
+        "title": "Dragonmark Weapon (Making)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of making",
+            "property | Prerequisites | Least Dragonmark (Making)",
+            "rule",
+            "text | You have learned how to manipulate your dragonmark to separate from your body to some degree. You spend 10 minutes focusing your marks magic, imprinting it with the potential of a light mace, longspear, mace, staff, flail, rapier, whip, or battle wand. When you have a free hand, you can spend a single interact action to cause your dragonmark to separate from your body, forming the weapon in your free hand; a second interact action returns it to tattoo form. Your dragonmark weapon functions as the imprinted weapon and can be etched with runes or affixed with talismans as normal, which are suppressed when the weapon is in tattoo form. It also becomes an arcane focus."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of making",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-weapon-passage",
+        "color": "#F57C00",
+        "name": "Dragonmark Weapon (Passage)",
+        "title": "Dragonmark Weapon (Passage)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of passage",
+            "property | Prerequisites | Least Dragonmark (Passage)",
+            "rule",
+            "text | You have learned how to manipulate your dragonmark to separate from your body to some degree. You spend 10 minutes focusing your marks magic, imprinting it with the potential of a light mace, longspear, mace, staff, flail, rapier, whip, or dueling spear. When you have a free hand, you can spend a single interact action to cause your dragonmark to separate from your body, forming the weapon in your free hand; a second interact action returns it to tattoo form. Your dragonmark weapon functions as the imprinted weapon and can be etched with runes or affixed with talismans as normal, which are suppressed when the weapon is in tattoo form. It also becomes an arcane focus."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of passage",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-weapon-scribing",
+        "color": "#F57C00",
+        "name": "Dragonmark Weapon (Scribing)",
+        "title": "Dragonmark Weapon (Scribing)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of scribing",
+            "property | Prerequisites | Least Dragonmark (Scribing)",
+            "rule",
+            "text | You have learned how to manipulate your dragonmark to separate from your body to some degree. You spend 10 minutes focusing your marks magic, imprinting it with the potential of a light mace, longspear, mace, staff, flail, rapier, whip, or sword cane. When you have a free hand, you can spend a single interact action to cause your dragonmark to separate from your body, forming the weapon in your free hand; a second interact action returns it to tattoo form. Your dragonmark weapon functions as the imprinted weapon and can be etched with runes or affixed with talismans as normal, which are suppressed when the weapon is in tattoo form. It also becomes an arcane focus."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of scribing",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-weapon-sentinel",
+        "color": "#F57C00",
+        "name": "Dragonmark Weapon (Sentinel)",
+        "title": "Dragonmark Weapon (Sentinel)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of sentinel",
+            "property | Prerequisites | Least Dragonmark (Sentinel)",
+            "rule",
+            "text | You have learned how to manipulate your dragonmark to separate from your body to some degree. You spend 10 minutes focusing your marks magic, imprinting it with the potential of a light mace, longspear, mace, staff, flail, rapier, whip, or halberd. When you have a free hand, you can spend a single interact action to cause your dragonmark to separate from your body, forming the weapon in your free hand; a second interact action returns it to tattoo form. Your dragonmark weapon functions as the imprinted weapon and can be etched with runes or affixed with talismans as normal, which are suppressed when the weapon is in tattoo form. It also becomes an arcane focus."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of sentinel",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-weapon-shadow",
+        "color": "#F57C00",
+        "name": "Dragonmark Weapon (Shadow)",
+        "title": "Dragonmark Weapon (Shadow)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of shadow",
+            "property | Prerequisites | Least Dragonmark (Shadow)",
+            "rule",
+            "text | You have learned how to manipulate your dragonmark to separate from your body to some degree. You spend 10 minutes focusing your marks magic, imprinting it with the potential of a light mace, longspear, mace, staff, flail, rapier, whip, or katar. When you have a free hand, you can spend a single interact action to cause your dragonmark to separate from your body, forming the weapon in your free hand; a second interact action returns it to tattoo form. Your dragonmark weapon functions as the imprinted weapon and can be etched with runes or affixed with talismans as normal, which are suppressed when the weapon is in tattoo form. It also becomes an arcane focus."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of shadow",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-weapon-storm",
+        "color": "#F57C00",
+        "name": "Dragonmark Weapon (Storm)",
+        "title": "Dragonmark Weapon (Storm)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of storm",
+            "property | Prerequisites | Least Dragonmark (Storm)",
+            "rule",
+            "text | You have learned how to manipulate your dragonmark to separate from your body to some degree. You spend 10 minutes focusing your marks magic, imprinting it with the potential of a light mace, longspear, mace, staff, flail, rapier, whip, or thundermace. When you have a free hand, you can spend a single interact action to cause your dragonmark to separate from your body, forming the weapon in your free hand; a second interact action returns it to tattoo form. Your dragonmark weapon functions as the imprinted weapon and can be etched with runes or affixed with talismans as normal, which are suppressed when the weapon is in tattoo form. It also becomes an arcane focus."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of storm",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.dragonmark-weapon-warding",
+        "color": "#F57C00",
+        "name": "Dragonmark Weapon (Warding)",
+        "title": "Dragonmark Weapon (Warding)",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | mark of warding",
+            "property | Prerequisites | Least Dragonmark (Warding)",
+            "rule",
+            "text | You have learned how to manipulate your dragonmark to separate from your body to some degree. You spend 10 minutes focusing your marks magic, imprinting it with the potential of a light mace, longspear, mace, staff, flail, rapier, whip, or fighting fan. When you have a free hand, you can spend a single interact action to cause your dragonmark to separate from your body, forming the weapon in your free hand; a second interact action returns it to tattoo form. Your dragonmark weapon functions as the imprinted weapon and can be etched with runes or affixed with talismans as normal, which are suppressed when the weapon is in tattoo form. It also becomes an arcane focus."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of warding",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.eye-of-medani",
+        "color": "#F57C00",
+        "name": "Eye of Medani",
+        "title": "Eye of Medani [[free-action]]",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | fortune | mark of detection",
+            "property | Prerequisites | Least Dragonmark (Detection)",
+            "property | Trigger | You fail a non-secret Perception check.",
+            "property | Frequency | once per day",
+            "rule",
+            "text | Your eye for detail is enhanced by your training with House Medani. If you roll a failure on a Perception check that is not secret, you can reroll the check. You may select the better of the two rolls."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of detection",
+            "fortune",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.forewarned",
+        "color": "#F57C00",
+        "name": "Forewarned",
+        "title": "Forewarned",
+        "icon_front": "abstract-119",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | dragonmark | mark of detection",
+            "property | Prerequisites | Lesser Dragonmark (Detection)",
+            "rule",
+            "text | Your dragonmark maintains your awareness of the world around you at all times, you gain a +1 status bonus to your Perception. In addition, you are never flat-footed to hidden enemies."
+        ],
+        "filtering": [
+            "feat",
+            "feat-9",
+            "dragonmark",
+            "mark of detection",
+            "common"
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.dragonmark.brew.grand-dragonmark-detection",
+        "color": "#F57C00",
+        "name": "Grand Dragonmark (Detection)",
+        "title": "Grand Dragonmark (Detection)",
+        "icon_front": "abstract-119",
+        "code": "feat 13",
+        "contents": [
+            "pftrait | dragonmark | mark of detection",
+            "property | Prerequisites | Greater Dragonmark (Detection)",
+            "rule",
+            "text | Your dragonmark expands in size and power. You gain the Grand Detector dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
+        ],
+        "filtering": [
+            "feat",
+            "feat-13",
+            "dragonmark",
+            "mark of detection",
+            "common"
+        ],
+        "level": 13
+    },
+    {
+        "id": "feat.dragonmark.brew.grand-dragonmark-finding",
+        "color": "#F57C00",
+        "name": "Grand Dragonmark (Finding)",
+        "title": "Grand Dragonmark (Finding)",
+        "icon_front": "abstract-119",
+        "code": "feat 13",
+        "contents": [
+            "pftrait | dragonmark | mark of finding",
+            "property | Prerequisites | Greater Dragonmark (Finding)",
+            "rule",
+            "text | Your dragonmark expands in size and power. You gain the Grand Seeker dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
+        ],
+        "filtering": [
+            "feat",
+            "feat-13",
+            "dragonmark",
+            "mark of finding",
+            "common"
+        ],
+        "level": 13
+    },
+    {
+        "id": "feat.dragonmark.brew.grand-dragonmark-handling",
+        "color": "#F57C00",
+        "name": "Grand Dragonmark (Handling)",
+        "title": "Grand Dragonmark (Handling)",
+        "icon_front": "abstract-119",
+        "code": "feat 13",
+        "contents": [
+            "pftrait | dragonmark | mark of handling",
+            "property | Prerequisites | Greater Dragonmark (Handling)",
+            "rule",
+            "text | Your dragonmark expands in size and power. You gain the Grand Handler dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
+        ],
+        "filtering": [
+            "feat",
+            "feat-13",
+            "dragonmark",
+            "mark of handling",
+            "common"
+        ],
+        "level": 13
+    },
+    {
+        "id": "feat.dragonmark.brew.grand-dragonmark-healing",
+        "color": "#F57C00",
+        "name": "Grand Dragonmark (Healing)",
+        "title": "Grand Dragonmark (Healing)",
+        "icon_front": "abstract-119",
+        "code": "feat 13",
+        "contents": [
+            "pftrait | dragonmark | mark of healing",
+            "property | Prerequisites | Greater Dragonmark (Healing)",
+            "rule",
+            "text | Your dragonmark expands in size and power. You gain the Grand Healer dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
+        ],
+        "filtering": [
+            "feat",
+            "feat-13",
+            "dragonmark",
+            "mark of healing",
+            "common"
+        ],
+        "level": 13
+    },
+    {
+        "id": "feat.dragonmark.brew.grand-dragonmark-hospitality",
+        "color": "#F57C00",
+        "name": "Grand Dragonmark (Hospitality)",
+        "title": "Grand Dragonmark (Hospitality)",
+        "icon_front": "abstract-119",
+        "code": "feat 13",
+        "contents": [
+            "pftrait | dragonmark | mark of hospitality",
+            "property | Prerequisites | Greater Dragonmark (Hospitality)",
+            "rule",
+            "text | Your dragonmark expands in size and power. You gain the Grand Hearth dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
+        ],
+        "filtering": [
+            "feat",
+            "feat-13",
+            "dragonmark",
+            "mark of hospitality",
+            "common"
+        ],
+        "level": 13
+    },
+    {
+        "id": "feat.dragonmark.brew.grand-dragonmark-making",
+        "color": "#F57C00",
+        "name": "Grand Dragonmark (Making)",
+        "title": "Grand Dragonmark (Making)",
+        "icon_front": "abstract-119",
+        "code": "feat 13",
+        "contents": [
+            "pftrait | dragonmark | mark of making",
+            "property | Prerequisites | Greater Dragonmark (Making)",
+            "rule",
+            "text | Your dragonmark expands in size and power. You gain the Grand Maker dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
+        ],
+        "filtering": [
+            "feat",
+            "feat-13",
+            "dragonmark",
+            "mark of making",
+            "common"
+        ],
+        "level": 13
+    },
+    {
+        "id": "feat.dragonmark.brew.grand-dragonmark-passage",
+        "color": "#F57C00",
+        "name": "Grand Dragonmark (Passage)",
+        "title": "Grand Dragonmark (Passage)",
+        "icon_front": "abstract-119",
+        "code": "feat 13",
+        "contents": [
+            "pftrait | dragonmark | mark of passage",
+            "property | Prerequisites | Greater Dragonmark (Passage)",
+            "rule",
+            "text | Your dragonmark expands in size and power. You gain the Grand Traveler dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
+        ],
+        "filtering": [
+            "feat",
+            "feat-13",
+            "dragonmark",
+            "mark of passage",
+            "common"
+        ],
+        "level": 13
+    },
+    {
+        "id": "feat.dragonmark.brew.grand-dragonmark-scribing",
+        "color": "#F57C00",
+        "name": "Grand Dragonmark (Scribing)",
+        "title": "Grand Dragonmark (Scribing)",
+        "icon_front": "abstract-119",
+        "code": "feat 13",
+        "contents": [
+            "pftrait | dragonmark | mark of scribing",
+            "property | Prerequisites | Greater Dragonmark (Scribing)",
+            "rule",
+            "text | Your dragonmark expands in size and power. You gain the Grand Scribe dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
+        ],
+        "filtering": [
+            "feat",
+            "feat-13",
+            "dragonmark",
+            "mark of scribing",
+            "common"
+        ],
+        "level": 13
+    },
+    {
+        "id": "feat.dragonmark.brew.grand-dragonmark-sentinel",
+        "color": "#F57C00",
+        "name": "Grand Dragonmark (Sentinel)",
+        "title": "Grand Dragonmark (Sentinel)",
+        "icon_front": "abstract-119",
+        "code": "feat 13",
+        "contents": [
+            "pftrait | dragonmark | mark of sentinel",
+            "property | Prerequisites | Greater Dragonmark (Sentinel)",
+            "rule",
+            "text | Your dragonmark expands in size and power. You gain the Grand Protector dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
+        ],
+        "filtering": [
+            "feat",
+            "feat-13",
+            "dragonmark",
+            "mark of sentinel",
+            "common"
+        ],
+        "level": 13
+    },
+    {
+        "id": "feat.dragonmark.brew.grand-dragonmark-shadow",
+        "color": "#F57C00",
+        "name": "Grand Dragonmark (Shadow)",
+        "title": "Grand Dragonmark (Shadow)",
+        "icon_front": "abstract-119",
+        "code": "feat 13",
+        "contents": [
+            "pftrait | dragonmark | mark of shadow",
+            "property | Prerequisites | Greater Dragonmark (Shadow)",
+            "rule",
+            "text | Your dragonmark expands in size and power. You gain the Grand Shade dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
+        ],
+        "filtering": [
+            "feat",
+            "feat-13",
+            "dragonmark",
+            "mark of shadow",
+            "common"
+        ],
+        "level": 13
+    },
+    {
+        "id": "feat.dragonmark.brew.grand-dragonmark-storm",
+        "color": "#F57C00",
+        "name": "Grand Dragonmark (Storm)",
+        "title": "Grand Dragonmark (Storm)",
+        "icon_front": "abstract-119",
+        "code": "feat 13",
+        "contents": [
+            "pftrait | dragonmark | mark of storm",
+            "property | Prerequisites | Greater Dragonmark (Storm)",
+            "rule",
+            "text | Your dragonmark expands in size and power. You gain the Grand Stormbringer dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
+        ],
+        "filtering": [
+            "feat",
+            "feat-13",
+            "dragonmark",
+            "mark of storm",
+            "common"
+        ],
+        "level": 13
+    },
+    {
+        "id": "feat.dragonmark.brew.grand-dragonmark-warding",
+        "color": "#F57C00",
+        "name": "Grand Dragonmark (Warding)",
+        "title": "Grand Dragonmark (Warding)",
+        "icon_front": "abstract-119",
+        "code": "feat 13",
+        "contents": [
+            "pftrait | dragonmark | mark of warding",
+            "property | Prerequisites | Greater Dragonmark (Warding)",
+            "rule",
+            "text | Your dragonmark expands in size and power. You gain the Grand Warder dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
+        ],
+        "filtering": [
+            "feat",
+            "feat-13",
+            "dragonmark",
+            "mark of warding",
+            "common"
+        ],
+        "level": 13
+    },
+    {
+        "id": "feat.dragonmark.brew.greater-dragonmark-detection",
+        "color": "#F57C00",
+        "name": "Greater Dragonmark (Detection)",
+        "title": "Greater Dragonmark (Detection)",
+        "icon_front": "abstract-119",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | dragonmark | mark of detection",
+            "property | Prerequisites | Lesser Dragonmark (Detection)",
+            "rule",
+            "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Detector dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-9",
+            "dragonmark",
+            "mark of detection",
+            "common"
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.dragonmark.brew.greater-dragonmark-finding",
+        "color": "#F57C00",
+        "name": "Greater Dragonmark (Finding)",
+        "title": "Greater Dragonmark (Finding)",
+        "icon_front": "abstract-119",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | dragonmark | mark of finding",
+            "property | Prerequisites | Lesser Dragonmark (Finding)",
+            "rule",
+            "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Seeker dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-9",
+            "dragonmark",
+            "mark of finding",
+            "common"
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.dragonmark.brew.greater-dragonmark-handling",
+        "color": "#F57C00",
+        "name": "Greater Dragonmark (Handling)",
+        "title": "Greater Dragonmark (Handling)",
+        "icon_front": "abstract-119",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | dragonmark | mark of handling",
+            "property | Prerequisites | Lesser Dragonmark (Handling)",
+            "rule",
+            "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Handler dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-9",
+            "dragonmark",
+            "mark of handling",
+            "common"
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.dragonmark.brew.greater-dragonmark-healing",
+        "color": "#F57C00",
+        "name": "Greater Dragonmark (Healing)",
+        "title": "Greater Dragonmark (Healing)",
+        "icon_front": "abstract-119",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | dragonmark | mark of healing",
+            "property | Prerequisites | Lesser Dragonmark (Healing)",
+            "rule",
+            "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Healer dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-9",
+            "dragonmark",
+            "mark of healing",
+            "common"
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.dragonmark.brew.greater-dragonmark-hospitality",
+        "color": "#F57C00",
+        "name": "Greater Dragonmark (Hospitality)",
+        "title": "Greater Dragonmark (Hospitality)",
+        "icon_front": "abstract-119",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | dragonmark | mark of hospitality",
+            "property | Prerequisites | Lesser Dragonmark (Hospitality)",
+            "rule",
+            "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Hearth dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-9",
+            "dragonmark",
+            "mark of hospitality",
+            "common"
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.dragonmark.brew.greater-dragonmark-making",
+        "color": "#F57C00",
+        "name": "Greater Dragonmark (Making)",
+        "title": "Greater Dragonmark (Making)",
+        "icon_front": "abstract-119",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | dragonmark | mark of making",
+            "property | Prerequisites | Lesser Dragonmark (Making)",
+            "rule",
+            "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Maker dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-9",
+            "dragonmark",
+            "mark of making",
+            "common"
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.dragonmark.brew.greater-dragonmark-passage",
+        "color": "#F57C00",
+        "name": "Greater Dragonmark (Passage)",
+        "title": "Greater Dragonmark (Passage)",
+        "icon_front": "abstract-119",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | dragonmark | mark of passage",
+            "property | Prerequisites | Lesser Dragonmark (Passage)",
+            "rule",
+            "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Traveler dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-9",
+            "dragonmark",
+            "mark of passage",
+            "common"
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.dragonmark.brew.greater-dragonmark-scribing",
+        "color": "#F57C00",
+        "name": "Greater Dragonmark (Scribing)",
+        "title": "Greater Dragonmark (Scribing)",
+        "icon_front": "abstract-119",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | dragonmark | mark of scribing",
+            "property | Prerequisites | Lesser Dragonmark (Scribing)",
+            "rule",
+            "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Scribe dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-9",
+            "dragonmark",
+            "mark of scribing",
+            "common"
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.dragonmark.brew.greater-dragonmark-sentinel",
+        "color": "#F57C00",
+        "name": "Greater Dragonmark (Sentinel)",
+        "title": "Greater Dragonmark (Sentinel)",
+        "icon_front": "abstract-119",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | dragonmark | mark of sentinel",
+            "property | Prerequisites | Lesser Dragonmark (Sentinel)",
+            "rule",
+            "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Protector dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-9",
+            "dragonmark",
+            "mark of sentinel",
+            "common"
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.dragonmark.brew.greater-dragonmark-shadow",
+        "color": "#F57C00",
+        "name": "Greater Dragonmark (Shadow)",
+        "title": "Greater Dragonmark (Shadow)",
+        "icon_front": "abstract-119",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | dragonmark | mark of shadow",
+            "property | Prerequisites | Lesser Dragonmark (Shadow)",
+            "rule",
+            "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Shade dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-9",
+            "dragonmark",
+            "mark of shadow",
+            "common"
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.dragonmark.brew.greater-dragonmark-storm",
+        "color": "#F57C00",
+        "name": "Greater Dragonmark (Storm)",
+        "title": "Greater Dragonmark (Storm)",
+        "icon_front": "abstract-119",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | dragonmark | mark of storm",
+            "property | Prerequisites | Lesser Dragonmark (Storm)",
+            "rule",
+            "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Stormbringer dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-9",
+            "dragonmark",
+            "mark of storm",
+            "common"
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.dragonmark.brew.greater-dragonmark-warding",
+        "color": "#F57C00",
+        "name": "Greater Dragonmark (Warding)",
+        "title": "Greater Dragonmark (Warding)",
+        "icon_front": "abstract-119",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | dragonmark | mark of warding",
+            "property | Prerequisites | Lesser Dragonmark (Warding)",
+            "rule",
+            "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Warder dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-9",
+            "dragonmark",
+            "mark of warding",
+            "common"
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.dragonmark.brew.least-dragonmark-detection",
+        "color": "#F57C00",
+        "name": "Least Dragonmark (Detection)",
+        "title": "Least Dragonmark (Detection)",
+        "icon_front": "abstract-119",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | dragonmark | mark of detection",
+            "property | Access | You were born to the Mark of Detection bloodline",
+            "property | Prerequisites | Khoravar ancestry",
+            "rule",
+            "text | You manifest the Mark of Detection dragonmark, a sign of your connection to the Draconic Prophecy and a powerful source of magic. Drawing on this power gives you the ability to cast dragonmark spells. You gain the Deductive Intuition dragonmark spell. It costs 1 Focus Point to cast a focus spell.",
+            "text | You're trained in arcane spell attack rolls and spell DCs. Choose Intelligence, Wisdom, or Charisma as your key spellcasting ability for dragonmark spells. This choice cannot be changed.",
+            "text | In addition, you gain the dragonmark and mark of detection traits."
+        ],
+        "filtering": [
+            "feat",
+            "feat-1",
+            "dragonmark",
+            "mark of detection",
+            "common"
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.dragonmark.brew.least-dragonmark-finding",
+        "color": "#F57C00",
+        "name": "Least Dragonmark (Finding)",
+        "title": "Least Dragonmark (Finding)",
+        "icon_front": "abstract-119",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | dragonmark | mark of finding",
+            "property | Access | You were born to the Mark of Finding bloodline",
+            "property | Prerequisites | Half-orc ancestry",
+            "rule",
+            "text | You manifest the Mark of Finding dragonmark, a sign of your connection to the Draconic Prophecy and a powerful source of magic. Drawing on this power gives you the ability to cast dragonmark spells. You gain the Seeker's Intuition dragonmark spell. It costs 1 Focus Point to cast a focus spell.",
+            "text | You're trained in arcane spell attack rolls and spell DCs. Choose Intelligence, Wisdom, or Charisma as your key spellcasting ability for dragonmark spells. This choice cannot be changed.",
+            "text | In addition, you gain the dragonmark and mark of finding traits."
+        ],
+        "filtering": [
+            "feat",
+            "feat-1",
+            "dragonmark",
+            "mark of finding",
+            "common"
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.dragonmark.brew.least-dragonmark-handling",
+        "color": "#F57C00",
+        "name": "Least Dragonmark (Handling)",
+        "title": "Least Dragonmark (Handling)",
+        "icon_front": "abstract-119",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | dragonmark | mark of handling",
+            "property | Access | You were born to the Mark of Handling bloodline",
+            "property | Prerequisites | Human ancestry",
+            "rule",
+            "text | You manifest the Mark of Handling dragonmark, a sign of your connection to the Draconic Prophecy and a powerful source of magic. Drawing on this power gives you the ability to cast dragonmark spells. You gain the Animal Friendship dragonmark spell. It costs 1 Focus Point to cast a focus spell.",
+            "text | You're trained in arcane spell attack rolls and spell DCs. Choose Intelligence, Wisdom, or Charisma as your key spellcasting ability for dragonmark spells. This choice cannot be changed.",
+            "text | In addition, you gain the dragonmark and mark of handling traits."
+        ],
+        "filtering": [
+            "feat",
+            "feat-1",
+            "dragonmark",
+            "mark of handling",
+            "common"
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.dragonmark.brew.least-dragonmark-healing",
+        "color": "#F57C00",
+        "name": "Least Dragonmark (Healing)",
+        "title": "Least Dragonmark (Healing)",
+        "icon_front": "abstract-119",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | dragonmark | mark of healing",
+            "property | Access | You were born to the Mark of Healing bloodline",
+            "property | Prerequisites | Halfling ancestry",
+            "rule",
+            "text | You manifest the Mark of Healing dragonmark, a sign of your connection to the Draconic Prophecy and a powerful source of magic. Drawing on this power gives you the ability to cast dragonmark spells. You gain the Healer's Intuition dragonmark spell. It costs 1 Focus Point to cast a focus spell.",
+            "text | You're trained in arcane spell attack rolls and spell DCs. Choose Intelligence, Wisdom, or Charisma as your key spellcasting ability for dragonmark spells. This choice cannot be changed.",
+            "text | In addition, you gain the dragonmark and mark of healing traits."
+        ],
+        "filtering": [
+            "feat",
+            "feat-1",
+            "dragonmark",
+            "mark of healing",
+            "common"
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.dragonmark.brew.least-dragonmark-hospitality",
+        "color": "#F57C00",
+        "name": "Least Dragonmark (Hospitality)",
+        "title": "Least Dragonmark (Hospitality)",
+        "icon_front": "abstract-119",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | dragonmark | mark of hospitality",
+            "property | Access | You were born to the Mark of Hospitality bloodline",
+            "property | Prerequisites | Halfling ancestry",
+            "rule",
+            "text | You manifest the Mark of Hospitality dragonmark, a sign of your connection to the Draconic Prophecy and a powerful source of magic. Drawing on this power gives you the ability to cast dragonmark spells. You gain the Innkeeper's Magic dragonmark spell. It costs 1 Focus Point to cast a focus spell.",
+            "text | You're trained in arcane spell attack rolls and spell DCs. Choose Intelligence, Wisdom, or Charisma as your key spellcasting ability for dragonmark spells. This choice cannot be changed.",
+            "text | In addition, you gain the dragonmark and mark of hospitality traits."
+        ],
+        "filtering": [
+            "feat",
+            "feat-1",
+            "dragonmark",
+            "mark of hospitality",
+            "common"
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.dragonmark.brew.least-dragonmark-making",
+        "color": "#F57C00",
+        "name": "Least Dragonmark (Making)",
+        "title": "Least Dragonmark (Making)",
+        "icon_front": "abstract-119",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | dragonmark | mark of making",
+            "property | Access | You were born to the Mark of Making bloodline",
+            "property | Prerequisites | Human ancestry",
+            "rule",
+            "text | You manifest the Mark of Making dragonmark, a sign of your connection to the Draconic Prophecy and a powerful source of magic. Drawing on this power gives you the ability to cast dragonmark spells. You gain the Maker's Gift dragonmark spell. It costs 1 Focus Point to cast a focus spell.",
+            "text | You're trained in arcane spell attack rolls and spell DCs. Choose Intelligence, Wisdom, or Charisma as your key spellcasting ability for dragonmark spells. This choice cannot be changed.",
+            "text | In addition, you gain the dragonmark and mark of making traits."
+        ],
+        "filtering": [
+            "feat",
+            "feat-1",
+            "dragonmark",
+            "mark of making",
+            "common"
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.dragonmark.brew.least-dragonmark-passage",
+        "color": "#F57C00",
+        "name": "Least Dragonmark (Passage)",
+        "title": "Least Dragonmark (Passage)",
+        "icon_front": "abstract-119",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | dragonmark | mark of passage",
+            "property | Access | You were born to the Mark of Passage bloodline",
+            "property | Prerequisites | Human ancestry",
+            "rule",
+            "text | You manifest the Mark of Passage dragonmark, a sign of your connection to the Draconic Prophecy and a powerful source of magic. Drawing on this power gives you the ability to cast dragonmark spells. You gain the Courier's Skill dragonmark spell. It costs 1 Focus Point to cast a focus spell.",
+            "text | You're trained in arcane spell attack rolls and spell DCs. Choose Intelligence, Wisdom, or Charisma as your key spellcasting ability for dragonmark spells. This choice cannot be changed.",
+            "text | In addition, you gain the dragonmark and mark of passage traits."
+        ],
+        "filtering": [
+            "feat",
+            "feat-1",
+            "dragonmark",
+            "mark of passage",
+            "common"
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.dragonmark.brew.least-dragonmark-scribing",
+        "color": "#F57C00",
+        "name": "Least Dragonmark (Scribing)",
+        "title": "Least Dragonmark (Scribing)",
+        "icon_front": "abstract-119",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | dragonmark | mark of scribing",
+            "property | Access | You were born to the Mark of Scribing bloodline",
+            "property | Prerequisites | Gnome ancestry",
+            "rule",
+            "text | You manifest the Mark of Scribing dragonmark, a sign of your connection to the Draconic Prophecy and a powerful source of magic. Drawing on this power gives you the ability to cast dragonmark spells. You gain the Scribe's Insight dragonmark spell. It costs 1 Focus Point to cast a focus spell.",
+            "text | You're trained in arcane spell attack rolls and spell DCs. Choose Intelligence, Wisdom, or Charisma as your key spellcasting ability for dragonmark spells. This choice cannot be changed.",
+            "text | In addition, you gain the dragonmark and mark of scribing traits."
+        ],
+        "filtering": [
+            "feat",
+            "feat-1",
+            "dragonmark",
+            "mark of scribing",
+            "common"
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.dragonmark.brew.least-dragonmark-sentinel",
+        "color": "#F57C00",
+        "name": "Least Dragonmark (Sentinel)",
+        "title": "Least Dragonmark (Sentinel)",
+        "icon_front": "abstract-119",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | dragonmark | mark of sentinel",
+            "property | Access | You were born to the Mark of Sentinel bloodline",
+            "property | Prerequisites | Human ancestry",
+            "rule",
+            "text | You manifest the Mark of Sentinel dragonmark, a sign of your connection to the Draconic Prophecy and a powerful source of magic. Drawing on this power gives you the ability to cast dragonmark spells. You gain the Sentinel's Intuition dragonmark spell. It costs 1 Focus Point to cast a focus spell.",
+            "text | You're trained in arcane spell attack rolls and spell DCs. Choose Intelligence, Wisdom, or Charisma as your key spellcasting ability for dragonmark spells. This choice cannot be changed.",
+            "text | In addition, you gain the dragonmark and mark of sentinel traits."
+        ],
+        "filtering": [
+            "feat",
+            "feat-1",
+            "dragonmark",
+            "mark of sentinel",
+            "common"
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.dragonmark.brew.least-dragonmark-shadow",
+        "color": "#F57C00",
+        "name": "Least Dragonmark (Shadow)",
+        "title": "Least Dragonmark (Shadow)",
+        "icon_front": "abstract-119",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | dragonmark | mark of shadow",
+            "property | Access | You were born to the Mark of Shadow bloodline",
+            "property | Prerequisites | Elf ancestry",
+            "rule",
+            "text | You manifest the Mark of Shadow dragonmark, a sign of your connection to the Draconic Prophecy and a powerful source of magic. Drawing on this power gives you the ability to cast dragonmark spells. You gain the Shadow's Veil dragonmark spell. It costs 1 Focus Point to cast a focus spell.",
+            "text | You're trained in arcane spell attack rolls and spell DCs. Choose Intelligence, Wisdom, or Charisma as your key spellcasting ability for dragonmark spells. This choice cannot be changed.",
+            "text | In addition, you gain the dragonmark and mark of shadow traits."
+        ],
+        "filtering": [
+            "feat",
+            "feat-1",
+            "dragonmark",
+            "mark of shadow",
+            "common"
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.dragonmark.brew.least-dragonmark-storm",
+        "color": "#F57C00",
+        "name": "Least Dragonmark (Storm)",
+        "title": "Least Dragonmark (Storm)",
+        "icon_front": "abstract-119",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | dragonmark | mark of storm",
+            "property | Access | You were born to the Mark of Storm bloodline",
+            "property | Prerequisites | Khoravar ancestry",
+            "rule",
+            "text | You manifest the Mark of Storm dragonmark, a sign of your connection to the Draconic Prophecy and a powerful source of magic. Drawing on this power gives you the ability to cast dragonmark spells. You gain the Windwright's Intuition dragonmark spell. It costs 1 Focus Point to cast a focus spell.",
+            "text | You're trained in arcane spell attack rolls and spell DCs. Choose Intelligence, Wisdom, or Charisma as your key spellcasting ability for dragonmark spells. This choice cannot be changed.",
+            "text | In addition, you gain the dragonmark and mark of storm traits."
+        ],
+        "filtering": [
+            "feat",
+            "feat-1",
+            "dragonmark",
+            "mark of storm",
+            "common"
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.dragonmark.brew.least-dragonmark-warding",
+        "color": "#F57C00",
+        "name": "Least Dragonmark (Warding)",
+        "title": "Least Dragonmark (Warding)",
+        "icon_front": "abstract-119",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | dragonmark | mark of warding",
+            "property | Access | You were born to the Mark of Warding bloodline",
+            "property | Prerequisites | Dwarf ancestry",
+            "rule",
+            "text | You manifest the Mark of Warding dragonmark, a sign of your connection to the Draconic Prophecy and a powerful source of magic. Drawing on this power gives you the ability to cast dragonmark spells. You gain the Warder's Intuition dragonmark spell. It costs 1 Focus Point to cast a focus spell.",
+            "text | You're trained in arcane spell attack rolls and spell DCs. Choose Intelligence, Wisdom, or Charisma as your key spellcasting ability for dragonmark spells. This choice cannot be changed.",
+            "text | In addition, you gain the dragonmark and mark of warding traits."
+        ],
+        "filtering": [
+            "feat",
+            "feat-1",
+            "dragonmark",
+            "mark of warding",
+            "common"
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.dragonmark.brew.lesser-dragonmark-detection",
+        "color": "#F57C00",
+        "name": "Lesser Dragonmark (Detection)",
+        "title": "Lesser Dragonmark (Detection)",
+        "icon_front": "abstract-119",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | dragonmark | mark of detection",
+            "property | Prerequisites | Least Dragonmark (Detection)",
+            "rule",
+            "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Detector dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
+        ],
+        "filtering": [
+            "feat",
+            "feat-5",
+            "dragonmark",
+            "mark of detection",
+            "common"
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.dragonmark.brew.lesser-dragonmark-finding",
+        "color": "#F57C00",
+        "name": "Lesser Dragonmark (Finding)",
+        "title": "Lesser Dragonmark (Finding)",
+        "icon_front": "abstract-119",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | dragonmark | mark of finding",
+            "property | Prerequisites | Least Dragonmark (Finding)",
+            "rule",
+            "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Seeker dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
+        ],
+        "filtering": [
+            "feat",
+            "feat-5",
+            "dragonmark",
+            "mark of finding",
+            "common"
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.dragonmark.brew.lesser-dragonmark-handling",
+        "color": "#F57C00",
+        "name": "Lesser Dragonmark (Handling)",
+        "title": "Lesser Dragonmark (Handling)",
+        "icon_front": "abstract-119",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | dragonmark | mark of handling",
+            "property | Prerequisites | Least Dragonmark (Handling)",
+            "rule",
+            "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Handler dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
+        ],
+        "filtering": [
+            "feat",
+            "feat-5",
+            "dragonmark",
+            "mark of handling",
+            "common"
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.dragonmark.brew.lesser-dragonmark-healing",
+        "color": "#F57C00",
+        "name": "Lesser Dragonmark (Healing)",
+        "title": "Lesser Dragonmark (Healing)",
+        "icon_front": "abstract-119",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | dragonmark | mark of healing",
+            "property | Prerequisites | Least Dragonmark (Healing)",
+            "rule",
+            "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Healer dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
+        ],
+        "filtering": [
+            "feat",
+            "feat-5",
+            "dragonmark",
+            "mark of healing",
+            "common"
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.dragonmark.brew.lesser-dragonmark-hospitality",
+        "color": "#F57C00",
+        "name": "Lesser Dragonmark (Hospitality)",
+        "title": "Lesser Dragonmark (Hospitality)",
+        "icon_front": "abstract-119",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | dragonmark | mark of hospitality",
+            "property | Prerequisites | Least Dragonmark (Hospitality)",
+            "rule",
+            "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Hearth dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
+        ],
+        "filtering": [
+            "feat",
+            "feat-5",
+            "dragonmark",
+            "mark of hospitality",
+            "common"
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.dragonmark.brew.lesser-dragonmark-making",
+        "color": "#F57C00",
+        "name": "Lesser Dragonmark (Making)",
+        "title": "Lesser Dragonmark (Making)",
+        "icon_front": "abstract-119",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | dragonmark | mark of making",
+            "property | Prerequisites | Least Dragonmark (Making)",
+            "rule",
+            "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Maker dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
+        ],
+        "filtering": [
+            "feat",
+            "feat-5",
+            "dragonmark",
+            "mark of making",
+            "common"
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.dragonmark.brew.lesser-dragonmark-passage",
+        "color": "#F57C00",
+        "name": "Lesser Dragonmark (Passage)",
+        "title": "Lesser Dragonmark (Passage)",
+        "icon_front": "abstract-119",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | dragonmark | mark of passage",
+            "property | Prerequisites | Least Dragonmark (Passage)",
+            "rule",
+            "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Traveler dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
+        ],
+        "filtering": [
+            "feat",
+            "feat-5",
+            "dragonmark",
+            "mark of passage",
+            "common"
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.dragonmark.brew.lesser-dragonmark-scribing",
+        "color": "#F57C00",
+        "name": "Lesser Dragonmark (Scribing)",
+        "title": "Lesser Dragonmark (Scribing)",
+        "icon_front": "abstract-119",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | dragonmark | mark of scribing",
+            "property | Prerequisites | Least Dragonmark (Scribing)",
+            "rule",
+            "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Scribe dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
+        ],
+        "filtering": [
+            "feat",
+            "feat-5",
+            "dragonmark",
+            "mark of scribing",
+            "common"
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.dragonmark.brew.lesser-dragonmark-sentinel",
+        "color": "#F57C00",
+        "name": "Lesser Dragonmark (Sentinel)",
+        "title": "Lesser Dragonmark (Sentinel)",
+        "icon_front": "abstract-119",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | dragonmark | mark of sentinel",
+            "property | Prerequisites | Least Dragonmark (Sentinel)",
+            "rule",
+            "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Protector dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
+        ],
+        "filtering": [
+            "feat",
+            "feat-5",
+            "dragonmark",
+            "mark of sentinel",
+            "common"
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.dragonmark.brew.lesser-dragonmark-shadow",
+        "color": "#F57C00",
+        "name": "Lesser Dragonmark (Shadow)",
+        "title": "Lesser Dragonmark (Shadow)",
+        "icon_front": "abstract-119",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | dragonmark | mark of shadow",
+            "property | Prerequisites | Least Dragonmark (Shadow)",
+            "rule",
+            "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Shade dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
+        ],
+        "filtering": [
+            "feat",
+            "feat-5",
+            "dragonmark",
+            "mark of shadow",
+            "common"
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.dragonmark.brew.lesser-dragonmark-storm",
+        "color": "#F57C00",
+        "name": "Lesser Dragonmark (Storm)",
+        "title": "Lesser Dragonmark (Storm)",
+        "icon_front": "abstract-119",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | dragonmark | mark of storm",
+            "property | Prerequisites | Least Dragonmark (Storm)",
+            "rule",
+            "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Stormbringer dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
+        ],
+        "filtering": [
+            "feat",
+            "feat-5",
+            "dragonmark",
+            "mark of storm",
+            "common"
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.dragonmark.brew.lesser-dragonmark-warding",
+        "color": "#F57C00",
+        "name": "Lesser Dragonmark (Warding)",
+        "title": "Lesser Dragonmark (Warding)",
+        "icon_front": "abstract-119",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | dragonmark | mark of warding",
+            "property | Prerequisites | Least Dragonmark (Warding)",
+            "rule",
+            "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Warder dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
+        ],
+        "filtering": [
+            "feat",
+            "feat-5",
+            "dragonmark",
+            "mark of warding",
+            "common"
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.dragonmark.brew.medani-prophet",
+        "color": "#F57C00",
+        "name": "Medani Prophet",
+        "title": "Medani Prophet",
+        "icon_front": "abstract-119",
+        "code": "feat 7",
+        "contents": [
+            "pftrait | divine | dragonmark | mark of detection",
+            "property | Access | Received training from the Voice of Aureon",
+            "property | Prerequisites | Lesser Dragonmark (Detection)",
+            "rule",
+            "text | Your divine training allows you to seek answers from beyond the material plane. When you cast Lesser Detector, you can choose to replicate Augury."
+        ],
+        "filtering": [
+            "feat",
+            "feat-7",
+            "dragonmark",
+            "mark of detection",
+            "divine",
+            "common"
+        ],
+        "level": 7
+    },
+    {
+        "id": "feat.dragonmark.brew.perfect-scrying-sense",
+        "color": "#F57C00",
+        "name": "Perfect Scrying Sense",
+        "title": "Perfect Scrying Sense",
+        "icon_front": "abstract-119",
+        "code": "feat 17",
+        "contents": [
+            "pftrait | dragonmark | mark of detection",
+            "property | Prerequisites | Scrying Sense",
+            "rule",
+            "text | When you replicate Detect Scrying with Grand Detector, you detect the presence of all effects with the detection trait in the area. If Detect Scrying is higher level than a detection effect, you gain a glimpse of the caster and learn its approximate distance and direction."
+        ],
+        "filtering": [
+            "feat",
+            "feat-17",
+            "dragonmark",
+            "mark of detection",
+            "common"
+        ],
+        "level": 17
+    },
+    {
+        "id": "feat.dragonmark.brew.prophetic-visions",
+        "color": "#F57C00",
+        "name": "Prophetic Visions",
+        "title": "Prophetic Visions",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | divination | dragonmark | mark of detection",
+            "property | Prerequisites | Least Dragonmark (Detection)",
+            "rule",
+            "text | You begin to receive powerful visions of the past and future. These visions often connect to your current location, such that you are far more likely to see an image of the ancient battles between quori and giant if you are in Xen'drik.",
+            "text | When you enter a new location, such as a room or corridor, you receive a vision related to one thing out of the ordinary. The GM determines what it is, or whether there's nothing reasonable to pick up, skipping obvious clues that can be easily noticed without a check or specifically looking for them. You learn only that an area or object is suspicious, but not why it's suspicious. For example, if you entered a study with a large bloodstain on the ground, the bloodstain is so obviously suspicious it's evident to you already, so the GM might note that there's something suspicious about the desk drawer instead. You would then need to investigate the drawer further to find out what specifically is out of the ordinary. Prophetic Visions doesn't reveal whether creatures are suspicious.",
+            "text | You don't typically get any benefit when you leave and come back to a place, though if a major change has happened there and time has passed, the GM might determine that you do."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of detection",
+            "divination",
+            "common"
+        ],
+        "level": 3
+    },
+    {
+        "id": "feat.dragonmark.brew.scrying-sense",
+        "color": "#F57C00",
+        "name": "Scrying Sense",
+        "title": "Scrying Sense",
+        "icon_front": "abstract-119",
+        "code": "feat 15",
+        "contents": [
+            "pftrait | dragonmark | mark of detection",
+            "property | Prerequisites | Grand Dragonmark (Detection)",
+            "rule",
+            "text | When you replicate {{ref \"Detect Scrying\"}} with Grand Detector, the spell is considered to be cast 2 levels higher."
+        ],
+        "filtering": [
+            "feat",
+            "feat-15",
+            "dragonmark",
+            "mark of detection",
+            "common"
+        ],
+        "level": 15
+    },
+    {
+        "id": "feat.dragonmark.brew.siberys-dragonmark-detection",
+        "color": "#F57C00",
+        "name": "Siberys Dragonmark (Detection)",
+        "title": "Siberys Dragonmark (Detection)",
+        "icon_front": "abstract-119",
+        "code": "feat 17",
+        "contents": [
+            "pftrait | dragonmark | mark of detection",
+            "property | Prerequisites | Grand Dragonmark (Detection)",
+            "rule",
+            "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Detector dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-17",
+            "dragonmark",
+            "mark of detection",
+            "common"
+        ],
+        "level": 17
+    },
+    {
+        "id": "feat.dragonmark.brew.siberys-dragonmark-finding",
+        "color": "#F57C00",
+        "name": "Siberys Dragonmark (Finding)",
+        "title": "Siberys Dragonmark (Finding)",
+        "icon_front": "abstract-119",
+        "code": "feat 17",
+        "contents": [
+            "pftrait | dragonmark | mark of finding",
+            "property | Prerequisites | Grand Dragonmark (Finding)",
+            "rule",
+            "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Seeker dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-17",
+            "dragonmark",
+            "mark of finding",
+            "common"
+        ],
+        "level": 17
+    },
+    {
+        "id": "feat.dragonmark.brew.siberys-dragonmark-handling",
+        "color": "#F57C00",
+        "name": "Siberys Dragonmark (Handling)",
+        "title": "Siberys Dragonmark (Handling)",
+        "icon_front": "abstract-119",
+        "code": "feat 17",
+        "contents": [
+            "pftrait | dragonmark | mark of handling",
+            "property | Prerequisites | Grand Dragonmark (Handling)",
+            "rule",
+            "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Handler dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-17",
+            "dragonmark",
+            "mark of handling",
+            "common"
+        ],
+        "level": 17
+    },
+    {
+        "id": "feat.dragonmark.brew.siberys-dragonmark-healing",
+        "color": "#F57C00",
+        "name": "Siberys Dragonmark (Healing)",
+        "title": "Siberys Dragonmark (Healing)",
+        "icon_front": "abstract-119",
+        "code": "feat 17",
+        "contents": [
+            "pftrait | dragonmark | mark of healing",
+            "property | Prerequisites | Grand Dragonmark (Healing)",
+            "rule",
+            "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Healer dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-17",
+            "dragonmark",
+            "mark of healing",
+            "common"
+        ],
+        "level": 17
+    },
+    {
+        "id": "feat.dragonmark.brew.siberys-dragonmark-hospitality",
+        "color": "#F57C00",
+        "name": "Siberys Dragonmark (Hospitality)",
+        "title": "Siberys Dragonmark (Hospitality)",
+        "icon_front": "abstract-119",
+        "code": "feat 17",
+        "contents": [
+            "pftrait | dragonmark | mark of hospitality",
+            "property | Prerequisites | Grand Dragonmark (Hospitality)",
+            "rule",
+            "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Hearth dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-17",
+            "dragonmark",
+            "mark of hospitality",
+            "common"
+        ],
+        "level": 17
+    },
+    {
+        "id": "feat.dragonmark.brew.siberys-dragonmark-making",
+        "color": "#F57C00",
+        "name": "Siberys Dragonmark (Making)",
+        "title": "Siberys Dragonmark (Making)",
+        "icon_front": "abstract-119",
+        "code": "feat 17",
+        "contents": [
+            "pftrait | dragonmark | mark of making",
+            "property | Prerequisites | Grand Dragonmark (Making)",
+            "rule",
+            "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Maker dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-17",
+            "dragonmark",
+            "mark of making",
+            "common"
+        ],
+        "level": 17
+    },
+    {
+        "id": "feat.dragonmark.brew.siberys-dragonmark-passage",
+        "color": "#F57C00",
+        "name": "Siberys Dragonmark (Passage)",
+        "title": "Siberys Dragonmark (Passage)",
+        "icon_front": "abstract-119",
+        "code": "feat 17",
+        "contents": [
+            "pftrait | dragonmark | mark of passage",
+            "property | Prerequisites | Grand Dragonmark (Passage)",
+            "rule",
+            "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Traveler dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-17",
+            "dragonmark",
+            "mark of passage",
+            "common"
+        ],
+        "level": 17
+    },
+    {
+        "id": "feat.dragonmark.brew.siberys-dragonmark-scribing",
+        "color": "#F57C00",
+        "name": "Siberys Dragonmark (Scribing)",
+        "title": "Siberys Dragonmark (Scribing)",
+        "icon_front": "abstract-119",
+        "code": "feat 17",
+        "contents": [
+            "pftrait | dragonmark | mark of scribing",
+            "property | Prerequisites | Grand Dragonmark (Scribing)",
+            "rule",
+            "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Scribe dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-17",
+            "dragonmark",
+            "mark of scribing",
+            "common"
+        ],
+        "level": 17
+    },
+    {
+        "id": "feat.dragonmark.brew.siberys-dragonmark-sentinel",
+        "color": "#F57C00",
+        "name": "Siberys Dragonmark (Sentinel)",
+        "title": "Siberys Dragonmark (Sentinel)",
+        "icon_front": "abstract-119",
+        "code": "feat 17",
+        "contents": [
+            "pftrait | dragonmark | mark of sentinel",
+            "property | Prerequisites | Grand Dragonmark (Sentinel)",
+            "rule",
+            "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Protector dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-17",
+            "dragonmark",
+            "mark of sentinel",
+            "common"
+        ],
+        "level": 17
+    },
+    {
+        "id": "feat.dragonmark.brew.siberys-dragonmark-shadow",
+        "color": "#F57C00",
+        "name": "Siberys Dragonmark (Shadow)",
+        "title": "Siberys Dragonmark (Shadow)",
+        "icon_front": "abstract-119",
+        "code": "feat 17",
+        "contents": [
+            "pftrait | dragonmark | mark of shadow",
+            "property | Prerequisites | Grand Dragonmark (Shadow)",
+            "rule",
+            "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Shade dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-17",
+            "dragonmark",
+            "mark of shadow",
+            "common"
+        ],
+        "level": 17
+    },
+    {
+        "id": "feat.dragonmark.brew.siberys-dragonmark-storm",
+        "color": "#F57C00",
+        "name": "Siberys Dragonmark (Storm)",
+        "title": "Siberys Dragonmark (Storm)",
+        "icon_front": "abstract-119",
+        "code": "feat 17",
+        "contents": [
+            "pftrait | dragonmark | mark of storm",
+            "property | Prerequisites | Grand Dragonmark (Storm)",
+            "rule",
+            "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Stormbringer dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-17",
+            "dragonmark",
+            "mark of storm",
+            "common"
+        ],
+        "level": 17
+    },
+    {
+        "id": "feat.dragonmark.brew.siberys-dragonmark-warding",
+        "color": "#F57C00",
+        "name": "Siberys Dragonmark (Warding)",
+        "title": "Siberys Dragonmark (Warding)",
+        "icon_front": "abstract-119",
+        "code": "feat 17",
+        "contents": [
+            "pftrait | dragonmark | mark of warding",
+            "property | Prerequisites | Grand Dragonmark (Warding)",
+            "rule",
+            "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Warder dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
+        ],
+        "filtering": [
+            "feat",
+            "feat-17",
+            "dragonmark",
+            "mark of warding",
+            "common"
+        ],
+        "level": 17
+    },
+    {
+        "id": "feat.dragonmark.brew.visions-of-the-past",
+        "color": "#F57C00",
+        "name": "Visions of the Past",
+        "title": "Visions of the Past",
+        "icon_front": "abstract-119",
+        "code": "feat 7",
+        "contents": [
+            "pftrait | divination | dragonmark | mark of detection",
+            "property | Prerequisites | Lesser Dragonmark (Detection)",
+            "property | Frequency | once per day",
+            "rule",
+            "text | By spending 10 minutes in deep meditation, you peer into the past. You can ask three questions regarding the past of the area you are in. You receive your answers as a combination of indistinct sensory impressions, as determined by the GM. For example, if you ask \"Who killed Borestes?\" you might learn that it was a male half-orc wielding an axe, but you will not learn the name of the killer. If you happen to be familiar with this particular half-orc, you might instinctively recognize him. In general, however, the imagery is vague and blurred; however, you might catch a particularly vivid image, such as a precise look at the killer's distinctive axe.",
+            "text | The answers you receive come not from any deity, but from your dragonmark's supernatural connection to the past. As such, treat the answers as coming from an effectively omniscient being. However, you will only receive responses to questions regarding events that occurred within your line of sight, and any magical effect that would have interfered with scrying automatically conceals past events from this power. For example, you might ask a question regarding a crime committed at a particular site, but if the character who committed that crime was under the effect of Nondetection at the time, the response will be completely indecipherable. This ability works best when you ask specific questions: The more vague the question you ask, the more vague the response will be.",
+            "text | The maximum period you can look back through time is based on the strength of the dragonmark whose power you expend: lesser is a week, greater is a month, grand is a year, and Siberys a century."
+        ],
+        "filtering": [
+            "feat",
+            "feat-7",
+            "dragonmark",
+            "mark of detection",
+            "divination",
+            "common"
+        ],
+        "level": 7
     },
     {
         "id": "feat.general.aoa-3.different-worlds",
@@ -90730,6 +93128,7 @@
         "code": "feat 2",
         "contents": [
             "pftrait | uncommon | general | skill",
+            "property | Access | You are a member of the Arclords of Nex.",
             "property | Prerequisites | expert in Arcana, Arcane Sense",
             "property | Frequency | once per day",
             "rule",

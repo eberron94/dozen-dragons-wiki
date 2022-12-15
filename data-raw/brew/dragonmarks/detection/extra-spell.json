@@ -1,0 +1,53 @@
+{
+    "spell": [
+        {
+            "name": "Detect Danger",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 2,
+            "traits": [
+                "divination",
+                "dragonmark",
+                "mark of detection",
+                "prediction"
+            ],
+            "cast": {
+                "number": 2,
+                "unit": "action"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Least Dragonmark",
+            "range": {
+				"number": 1,
+				"unit": "touch"
+			},
+			"targets": "1 creature",
+            "duration": {
+                "type": "timed",
+                "entry": "sustained up to 10 minutes",
+                "sustain": true,
+                "duration": {
+                    "number": 10,
+                    "unit": "minute"
+                }
+            },
+            "entries": [
+                "You call upon your dragonmark's power to forewarn your target of impending danger. When you cast the spell, the target gains a +1 status bonus to initiative rolls and isn't flat-footed against undetected creatures. This bonus remains as long as you Sustain the Spell. The target is temporarily immune to Detect Danger for 1 hour.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Greater Dragonmark} The bonus increases to +2",
+                        "{@b Siberys Dragonmark} The bonus increases to +3"
+                    ]
+                }
+            ],
+            "heightened": {
+                "X": {
+                    "3": ["You do not need to sustain Detect Danger."],
+                    "7": ["The duration increases to 1 hour."]
+                }
+            }
+        }
+    ]
+}

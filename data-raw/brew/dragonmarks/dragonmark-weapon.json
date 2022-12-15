@@ -1,0 +1,197 @@
+{
+    "feat": [
+        {
+            "name": "Dragonmark Weapon",
+            "source": "BREW",
+            "page": 1,
+            "level": 3,
+            "traits": ["dragonmark"],
+            "entries": [
+                "You have learned how to manipulate your dragonmark to separate from your body to some degree. You spend 10 minutes focusing your marks magic, imprinting it with the potential of a light mace, longspear, mace, staff, flail, rapier, whip, or a weapon from your mark. When you have a free hand, you can spend a single interact action to cause your dragonmark to separate from your body, forming the weapon in your free hand; a second interact action returns it to tattoo form. Your dragonmark weapon functions as the imprinted weapon and can be etched with runes or affixed with talismans as normal, which are suppressed when the weapon is in tattoo form. It also becomes an arcane focus."
+            ],
+            "generic": "G",
+            "variants": [
+                {
+                    "variantType": "Detection",
+                    "traits": ["dragonmark", "mark of detection"],
+                    "prerequisites": "Least Dragonmark (Detection)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "a weapon from your mark",
+                                "with": "bladed scarf"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Finding",
+                    "traits": ["dragonmark", "mark of finding"],
+                    "prerequisites": "Least Dragonmark (Finding)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "a weapon from your mark",
+                                "with": "orc knuckle dagger"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Handling",
+                    "traits": ["dragonmark", "mark of handling"],
+                    "prerequisites": "Least Dragonmark (Handling)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "a weapon from your mark",
+                                "with": "war lance"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Healing",
+                    "traits": ["dragonmark", "mark of healing"],
+                    "prerequisites": "Least Dragonmark (Healing)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "a weapon from your mark",
+                                "with": "kukri"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Hospitality",
+                    "traits": ["dragonmark", "mark of hospitality"],
+                    "prerequisites": "Least Dragonmark (Hospitality)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "a weapon from your mark",
+                                "with": "kukri"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Making",
+                    "traits": ["dragonmark", "mark of making"],
+                    "prerequisites": "Least Dragonmark (Making)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "a weapon from your mark",
+                                "with": "battle wand"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Passage",
+                    "traits": ["dragonmark", "mark of passage"],
+                    "prerequisites": "Least Dragonmark (Passage)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "a weapon from your mark",
+                                "with": "dueling spear"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Scribing",
+                    "traits": ["dragonmark", "mark of scribing"],
+                    "prerequisites": "Least Dragonmark (Scribing)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "a weapon from your mark",
+                                "with": "sword cane"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Sentinel",
+                    "traits": ["dragonmark", "mark of sentinel"],
+                    "prerequisites": "Least Dragonmark (Sentinel)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "a weapon from your mark",
+                                "with": "halberd"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Shadow",
+                    "traits": ["dragonmark", "mark of shadow"],
+                    "prerequisites": "Least Dragonmark (Shadow)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "a weapon from your mark",
+                                "with": "katar"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Storm",
+                    "traits": ["dragonmark", "mark of storm"],
+                    "prerequisites": "Least Dragonmark (Storm)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "a weapon from your mark",
+                                "with": "thundermace"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Warding",
+                    "traits": ["dragonmark", "mark of warding"],
+                    "prerequisites": "Least Dragonmark (Warding)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "a weapon from your mark",
+                                "with": "fighting fan"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                }
+            ]
+        }
+    ]
+}

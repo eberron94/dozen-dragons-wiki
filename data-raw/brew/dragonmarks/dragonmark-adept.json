@@ -1,0 +1,197 @@
+{
+    "feat": [
+        {
+            "name": "Dragonmark Adept",
+            "source": "BREW",
+            "page": 1,
+            "level": 3,
+            "traits": ["dragonmark"],
+            "entries": [
+                "You gain a dragonmark spell from your mark's additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+            ],
+            "generic": "G",
+            "variants": [
+                {
+                    "variantType": "Detection",
+                    "traits": ["dragonmark", "mark of detection"],
+                    "prerequisites": "Least Dragonmark (Detection)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's",
+                                "with": "the Mark of Detection additional focus spell list"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Finding",
+                    "traits": ["dragonmark", "mark of finding"],
+                    "prerequisites": "Least Dragonmark (Finding)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's",
+                                "with": "the Mark of Finding additional focus spell list"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Handling",
+                    "traits": ["dragonmark", "mark of handling"],
+                    "prerequisites": "Least Dragonmark (Handling)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's",
+                                "with": "the Mark of Handling additional focus spell list"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Healing",
+                    "traits": ["dragonmark", "mark of healing"],
+                    "prerequisites": "Least Dragonmark (Healing)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's",
+                                "with": "the Mark of Healing additional focus spell list"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Hospitality",
+                    "traits": ["dragonmark", "mark of hospitality"],
+                    "prerequisites": "Least Dragonmark (Hospitality)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's",
+                                "with": "the Mark of Hospitality additional focus spell list"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Making",
+                    "traits": ["dragonmark", "mark of making"],
+                    "prerequisites": "Least Dragonmark (Making)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's",
+                                "with": "the Mark of Making additional focus spell list"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Passage",
+                    "traits": ["dragonmark", "mark of passage"],
+                    "prerequisites": "Least Dragonmark (Passage)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's",
+                                "with": "the Mark of Passage additional focus spell list"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Scribing",
+                    "traits": ["dragonmark", "mark of scribing"],
+                    "prerequisites": "Least Dragonmark (Scribing)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's",
+                                "with": "the Mark of Scribing additional focus spell list"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Sentinel",
+                    "traits": ["dragonmark", "mark of sentinel"],
+                    "prerequisites": "Least Dragonmark (Sentinel)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's",
+                                "with": "the Mark of Sentinel additional focus spell list"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Shadow",
+                    "traits": ["dragonmark", "mark of shadow"],
+                    "prerequisites": "Least Dragonmark (Shadow)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's",
+                                "with": "the Mark of Shadow additional focus spell list"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Storm",
+                    "traits": ["dragonmark", "mark of storm"],
+                    "prerequisites": "Least Dragonmark (Storm)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's",
+                                "with": "the Mark of Storm additional focus spell list"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Warding",
+                    "traits": ["dragonmark", "mark of warding"],
+                    "prerequisites": "Least Dragonmark (Warding)",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "your mark's",
+                                "with": "the Mark of Warding additional focus spell list"
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                }
+            ]
+        }
+    ]
+}

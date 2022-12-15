@@ -59,10 +59,16 @@
     border-left: rgb(59, 69, 78) solid 4px;
 }
 
-.content blockquote p {
+.content blockquote > div.p {
     margin: 0;
     padding-left: 2em;
     text-indent: -2em;
+    padding-bottom: 8px;
+}
+
+.content blockquote > div.p div,
+.content blockquote > div.p span {
+    text-indent: 0;
 }
 
 /* 
@@ -240,7 +246,7 @@
 }
 
 .item-ref {
-    display:inline-block;
+    display: inline-block;
     word-break: keep-all;
 }
 

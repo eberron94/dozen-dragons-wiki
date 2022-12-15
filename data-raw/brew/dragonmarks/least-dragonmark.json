@@ -1,0 +1,342 @@
+{
+    "feat": [
+        {
+            "name": "Least Dragonmark",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["dragonmark"],
+            "entries": [
+                "You manifest a dragonmark, a sign of your connection to the Draconic Prophecy and a powerful source of magic. Drawing on this power gives you the ability to cast dragonmark spells. You gain the least dragonmark spell for your mark. It costs 1 Focus Point to cast a focus spell.",
+                "You're trained in arcane spell attack rolls and spell DCs. Choose Intelligence, Wisdom, or Charisma as your key spellcasting ability for dragonmark spells. This choice cannot be changed."
+            ],
+            "generic": "G",
+            "variants": [
+                {
+                    "variantType": "Detection",
+                    "traits": ["dragonmark", "mark of detection"],
+                    "access": "You were born to the Mark of Detection bloodline",
+                    "prerequisites": "Khoravar ancestry",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "You manifest a dragonmark",
+                                "with": "You manifest the Mark of Detection dragonmark"
+                            },
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "least dragonmark spell for your mark.",
+                                "with": "Deductive Intuition dragonmark spell."
+                            },
+                            {
+                                "mode": "appendArr",
+                                "items": [
+                                    "In addition, you gain the dragonmark and mark of detection traits."
+                                ]
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Finding",
+                    "traits": ["dragonmark", "mark of finding"],
+                    "access": "You were born to the Mark of Finding bloodline",
+                    "prerequisites": "Half-orc ancestry",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "You manifest a dragonmark",
+                                "with": "You manifest the Mark of Finding dragonmark"
+                            },
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "least dragonmark spell for your mark.",
+                                "with": "Seeker's Intuition dragonmark spell."
+                            },
+                            {
+                                "mode": "appendArr",
+                                "items": [
+                                    "In addition, you gain the dragonmark and mark of finding traits."
+                                ]
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Handling",
+                    "traits": ["dragonmark", "mark of handling"],
+                    "access": "You were born to the Mark of Handling bloodline",
+                    "prerequisites": "Human ancestry",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "You manifest a dragonmark",
+                                "with": "You manifest the Mark of Handling dragonmark"
+                            },
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "least dragonmark spell for your mark.",
+                                "with": "Animal Friendship dragonmark spell."
+                            },
+                            {
+                                "mode": "appendArr",
+                                "items": [
+                                    "In addition, you gain the dragonmark and mark of handling traits."
+                                ]
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Healing",
+                    "traits": ["dragonmark", "mark of healing"],
+                    "access": "You were born to the Mark of Healing bloodline",
+                    "prerequisites": "Halfling ancestry",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "You manifest a dragonmark",
+                                "with": "You manifest the Mark of Healing dragonmark"
+                            },
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "least dragonmark spell for your mark.",
+                                "with": "Healer's Intuition dragonmark spell."
+                            },
+                            {
+                                "mode": "appendArr",
+                                "items": [
+                                    "In addition, you gain the dragonmark and mark of healing traits."
+                                ]
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Hospitality",
+                    "traits": ["dragonmark", "mark of hospitality"],
+                    "access": "You were born to the Mark of Hospitality bloodline",
+                    "prerequisites": "Halfling ancestry",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "You manifest a dragonmark",
+                                "with": "You manifest the Mark of Hospitality dragonmark"
+                            },
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "least dragonmark spell for your mark.",
+                                "with": "Innkeeper's Magic dragonmark spell."
+                            },
+                            {
+                                "mode": "appendArr",
+                                "items": [
+                                    "In addition, you gain the dragonmark and mark of hospitality traits."
+                                ]
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Making",
+                    "traits": ["dragonmark", "mark of making"],
+                    "access": "You were born to the Mark of Making bloodline",
+                    "prerequisites": "Human ancestry",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "You manifest a dragonmark",
+                                "with": "You manifest the Mark of Making dragonmark"
+                            },
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "least dragonmark spell for your mark.",
+                                "with": "Maker's Gift dragonmark spell."
+                            },
+                            {
+                                "mode": "appendArr",
+                                "items": [
+                                    "In addition, you gain the dragonmark and mark of making traits."
+                                ]
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Passage",
+                    "traits": ["dragonmark", "mark of passage"],
+                    "access": "You were born to the Mark of Passage bloodline",
+                    "prerequisites": "Human ancestry",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "You manifest a dragonmark",
+                                "with": "You manifest the Mark of Passage dragonmark"
+                            },
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "least dragonmark spell for your mark.",
+                                "with": "Courier's Skill dragonmark spell."
+                            },
+                            {
+                                "mode": "appendArr",
+                                "items": [
+                                    "In addition, you gain the dragonmark and mark of passage traits."
+                                ]
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Scribing",
+                    "traits": ["dragonmark", "mark of scribing"],
+                    "access": "You were born to the Mark of Scribing bloodline",
+                    "prerequisites": "Gnome ancestry",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "You manifest a dragonmark",
+                                "with": "You manifest the Mark of Scribing dragonmark"
+                            },
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "least dragonmark spell for your mark.",
+                                "with": "Scribe's Insight dragonmark spell."
+                            },
+                            {
+                                "mode": "appendArr",
+                                "items": [
+                                    "In addition, you gain the dragonmark and mark of scribing traits."
+                                ]
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Sentinel",
+                    "traits": ["dragonmark", "mark of sentinel"],
+                    "access": "You were born to the Mark of Sentinel bloodline",
+                    "prerequisites": "Human ancestry",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "You manifest a dragonmark",
+                                "with": "You manifest the Mark of Sentinel dragonmark"
+                            },
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "least dragonmark spell for your mark.",
+                                "with": "Sentinel's Intuition dragonmark spell."
+                            },
+                            {
+                                "mode": "appendArr",
+                                "items": [
+                                    "In addition, you gain the dragonmark and mark of sentinel traits."
+                                ]
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Shadow",
+                    "traits": ["dragonmark", "mark of shadow"],
+                    "access": "You were born to the Mark of Shadow bloodline",
+                    "prerequisites": "Elf ancestry",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "You manifest a dragonmark",
+                                "with": "You manifest the Mark of Shadow dragonmark"
+                            },
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "least dragonmark spell for your mark.",
+                                "with": "Shadow's Veil dragonmark spell."
+                            },
+                            {
+                                "mode": "appendArr",
+                                "items": [
+                                    "In addition, you gain the dragonmark and mark of shadow traits."
+                                ]
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Storm",
+                    "traits": ["dragonmark", "mark of storm"],
+                    "access": "You were born to the Mark of Storm bloodline",
+                    "prerequisites": "Khoravar ancestry",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "You manifest a dragonmark",
+                                "with": "You manifest the Mark of Storm dragonmark"
+                            },
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "least dragonmark spell for your mark.",
+                                "with": "Windwright's Intuition dragonmark spell."
+                            },
+                            {
+                                "mode": "appendArr",
+                                "items": [
+                                    "In addition, you gain the dragonmark and mark of storm traits."
+                                ]
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                },
+                {
+                    "variantType": "Warding",
+                    "traits": ["dragonmark", "mark of warding"],
+                    "access": "You were born to the Mark of Warding bloodline",
+                    "prerequisites": "Dwarf ancestry",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "You manifest a dragonmark",
+                                "with": "You manifest the Mark of Warding dragonmark"
+                            },
+                            {
+                                "mode": "replaceTxt",
+                                "replace": "least dragonmark spell for your mark.",
+                                "with": "Warder's Intuition dragonmark spell."
+                            },
+                            {
+                                "mode": "appendArr",
+                                "items": [
+                                    "In addition, you gain the dragonmark and mark of warding traits."
+                                ]
+                            }
+                        ],
+                        "entriesMode": "generic"
+                    }
+                }
+            ]
+        }
+    ]
+}

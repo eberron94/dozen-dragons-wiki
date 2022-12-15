@@ -215,6 +215,7 @@ const getExtra = ({ special, leadsTo }) => {
 const getContent = ({
     traits,
     trigger,
+    access,
     prerequisites,
     requirements,
     frequency,
@@ -232,6 +233,12 @@ const getContent = ({
                     .sort(SortUtil.sortTraits)
                     .join(' | ')
         );
+
+    if (access) {
+        lineArr.push(
+            'property | Access | ' + Renderer.stripTags(access)
+        );
+    }
 
     if (prerequisites) {
         lineArr.push(

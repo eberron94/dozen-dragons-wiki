@@ -115,6 +115,7 @@
         - spell.focus.1st.apg.veil-of-dreams
         - spell.focus.1st.av-3.lift-natures-caul
         - spell.focus.1st.botd.hallowed-ground
+        - spell.focus.1st.brew.deductive-intuition
         - spell.focus.1st.crb.agile-feet
         - spell.focus.1st.crb.ancestral-memories
         - spell.focus.1st.crb.angelic-halo
@@ -226,6 +227,8 @@
         - spell.focus.2nd.apg.hunters-luck
         - spell.focus.2nd.apg.soothing-mist
         - spell.focus.2nd.apg.vision-of-weakness
+        - spell.focus.2nd.brew.banish-dragonmark
+        - spell.focus.2nd.brew.detect-danger
         - spell.focus.2nd.crb.wholeness-of-body
         - spell.focus.2nd.locg.invoke-the-crimson-oath
         - spell.focus.2nd.locg.light-of-revelation
@@ -256,6 +259,7 @@
         - spell.focus.3rd.apg.whirling-flames
         - spell.focus.3rd.botd.eyes-of-the-dead
         - spell.focus.3rd.botd.subjugate-undead
+        - spell.focus.3rd.brew.lesser-detector
         - spell.focus.3rd.crb.aberrant-whispers
         - spell.focus.3rd.crb.angelic-wings
         - spell.focus.3rd.crb.dragon-breath
@@ -386,6 +390,7 @@
         - spell.focus.5th.apg.symphony-of-the-unfettered-heart
         - spell.focus.5th.apg.terrain-transposition
         - spell.focus.5th.apg.wish-twisted-form
+        - spell.focus.5th.brew.greater-detector
         - spell.focus.5th.crb.abyssal-wrath
         - spell.focus.5th.crb.arcane-countermeasure
         - spell.focus.5th.crb.celestial-brand
@@ -421,6 +426,7 @@
         - spell.focus.6th.lokl.for-love-for-lightning
         - spell.focus.7th.apg.litany-of-depravity
         - spell.focus.7th.apg.shadows-web
+        - spell.focus.7th.brew.grand-detector
         - spell.focus.7th.crb.litany-of-righteousness
         - spell.focus.7th.crb.soothing-ballad
         - spell.focus.7th.som.darklight
@@ -429,6 +435,7 @@
         - spell.focus.8th.crb.impaling-briars
         - spell.focus.8th.crb.quivering-palm
         - spell.focus.9th.apg.ki-form
+        - spell.focus.9th.brew.siberys-detector
         - spell.focus.9th.crb.empty-body
         - spell.focus.9th.crb.storm-lord
         - spell.slot.10th.apg.indestructibility
