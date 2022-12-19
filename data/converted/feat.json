@@ -87907,7 +87907,7 @@
             "pftrait | dragonmark | mark of detection",
             "property | Prerequisites | Grand Dragonmark (Detection)",
             "rule",
-            "text | When you replicate {{ref \"Detect Scrying\"}} with Grand Detector, the spell is considered to be cast 2 levels higher."
+            "text | When you replicate Detect Scrying with Grand Detector, the spell is considered to be cast 2 levels higher."
         ],
         "filtering": [
             "feat",

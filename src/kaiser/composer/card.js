@@ -17,6 +17,7 @@ const { toCamelCase } = require('../../util/stringHelper');
 
 const iconMap = require('../../iconMap.json');
 const ignoreList = require('../ignoreList.json');
+const refList = require('../refList.json');
 const { round } = require('lodash');
 
 exports.composeCard = (original) => {
@@ -24,6 +25,7 @@ exports.composeCard = (original) => {
         .map(parse)
         .filter((item) => !ignoreList.includes(item.id))
         .filter(filterUniqueByObjectKey());
+
     // console.log(list);
 
     const find = (id) => list.find((item) => item.id === id);
@@ -58,33 +60,36 @@ exports.composeCard = (original) => {
         return foundList;
     };
 
+    const findWithComplexSearch = (searchStr) => {
+        console.log('COMPLEX SEARCHING', searchStr);
+        // ATTEMPT ID BASED SEARCH
+        let found = find(searchStr);
+        if (found) return found;
+
+        // ATTEMPT NAME BASED SEARCH
+        found =
+            list.find((item) => item.data.title === searchStr) ||
+            list.find((item) => item.data.title.startsWith(searchStr)) ||
+            list.find((item) => item.data.title.includes(searchStr));
+        if (found) return found;
+
+        // BREAK INTO SEARCH PARAMS
+        const foundList = findPartials(searchStr);
+
+        if (foundList.length && foundList[0]) return foundList[0];
+
+        // handle individual terms
+
+        return null;
+    };
+
+    list.forEach(matchReferences);
+
     return {
         list,
         find,
         findPartials,
-        findWithComplexSearch: (searchStr) => {
-            console.log('COMPLEX SEARCHING', searchStr);
-            // ATTEMPT ID BASED SEARCH
-            let found = find(searchStr);
-            if (found) return found;
-
-            // ATTEMPT NAME BASED SEARCH
-            found =
-                list.find((item) => item.data.title === searchStr) ||
-                list.find((item) => item.data.title.startsWith(searchStr)) ||
-                list.find((item) => item.data.title.includes(searchStr));
-            if (found) return found;
-
-            // BREAK INTO SEARCH PARAMS
-            const foundList = findPartials(searchStr);
-
-            if (foundList.length && foundList[0]) return foundList[0];
-
-
-            // handle individual terms
-
-            return null;
-        },
+        findWithComplexSearch,
         buildBlocks: (buildFn) => buildFn(list, 'item-card.hbs'),
         buildInlineRefs: (buildFn) => buildFn(list, 'item-card.hbs'),
         print: () => {
@@ -157,6 +162,14 @@ const parse = (item) => {
             reference,
         },
     };
+};
+
+const matchReferences = (item) => {
+    if (item?.id in refList) {
+        console.log('MATCHING REFERENCES FOR', item.id);
+        item.card.reference = item.card.reference.concat(refList[item.id]);
+    }
+    return item;
 };
 
 const matchLines = (arg) => {

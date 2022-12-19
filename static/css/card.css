@@ -144,3 +144,11 @@ table.card-table {
 .card-section-text {
     display: inline;
 }
+
+/******* REFERENCE PART LIST ********/
+
+.item-card .reference ul {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+}

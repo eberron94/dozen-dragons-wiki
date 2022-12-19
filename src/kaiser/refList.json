@@ -1,0 +1,7 @@
+{
+    "spell.focus.3rd.brew.lesser-detector": [
+        "spell.::.detect-poison",
+        "spell.::.see-invisibility",
+        "spell.::.object-reading"
+    ]
+}
