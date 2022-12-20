@@ -108,6 +108,7 @@ const getContent = ({
     duration,
     savingThrow,
     heightened,
+    dragonmark,
     ...item
 }) => {
     const lineArr = [];
@@ -143,14 +144,14 @@ const getContent = ({
         line = '';
     }
 
-    if (frequency?.unit) {
+    if (frequency?.entry) {
+        lineArr.push(`property | Frequency | ${frequency.entry}`);
+    } else if (frequency?.unit) {
         if (frequency.interval > 1)
             lineArr.push(
                 `property | Frequency | once per ${frequency.interval} ${frequency.unit}s`
             );
         else lineArr.push(`property | Frequency | once per ${frequency.unit}`);
-    } else if (frequency?.entry) {
-        lineArr.push(`property | Frequency | ${frequency.entry}`);
     }
 
     if (savingThrow)
@@ -185,7 +186,38 @@ const getContent = ({
 
     return lineArr
         .concat(getTextEntries(item))
-        .concat(handleHeightened(heightened || {}));
+        .concat(handleHeightened(heightened || {}))
+        .concat(handleDragonmarkHeightened(dragonmark || {}));
+};
+
+const handleDragonmarkHeightened = ({
+    least,
+    lesser,
+    greater,
+    grand,
+    siberys,
+}) => {
+    const arr = ['fill', 'section | Power of the Dragonmark'];
+
+    if (least)
+        arr.push(`property | Least Dragonmark | ${Renderer.stripTags(least)}`);
+    if (lesser)
+        arr.push(
+            `property | Lesser Dragonmark | ${Renderer.stripTags(lesser)}`
+        );
+    if (greater)
+        arr.push(
+            `property | Greater Dragonmark | ${Renderer.stripTags(greater)}`
+        );
+    if (grand)
+        arr.push(`property | Grand Dragonmark | ${Renderer.stripTags(grand)}`);
+    if (siberys)
+        arr.push(
+            `property | Siberys Dragonmark | ${Renderer.stripTags(siberys)}`
+        );
+
+    if (arr.length > 2) return arr;
+    else return [];
 };
 
 const handleHeightened = ({ plusX, X: x }) => {

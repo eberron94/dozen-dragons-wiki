@@ -1,0 +1,24 @@
+{
+    "feat": [
+        {
+            "name": "Jorasco Treatment",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["dragonmark", "mark of healing", "fortune"],
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "activity": {
+                "number": 1,
+                "unit": "free"
+            },
+            "prerequisites": "Least Dragonmark (Healing)",
+            "trigger": "You fail a non-secret Medicine check.",
+            "entries": [
+                "Your training in the infirmaries of Jorasco improves your skill with medicine. If you roll a failure on a Medicine check, you can reroll the check. You may select the better of the two rolls."
+            ]
+        }
+    ]
+}

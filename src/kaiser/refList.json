@@ -3,5 +3,34 @@
         "spell.::.detect-poison",
         "spell.::.see-invisibility",
         "spell.::.object-reading"
+    ],
+    "spell.focus.5th.brew.greater-detector": [
+        "spell.::.clairvoyance",
+        "spell.::.discern-lies"
+    ],
+    "spell.focus.7th.brew.grand-detector": [
+        "spell.::.detect-scrying",
+        "spell.::.true-seeing"
+    ],
+    "spell.focus.9th.brew.siberys-detector": [
+        "spell.::.retrocognition",
+        "spell.::.foresight"
+    ],
+    "spell.focus.3rd.brew.lesser-seeker": [
+        "spell.::.expeditious-excavation",
+        "spell.::.status",
+        "spell.::.locate"
+    ],
+    "spell.focus.5th.brew.greater-seeker": [
+        "spell.::.wanderers-guide",
+        "spell.::.countless-eyes"
+    ],
+    "spell.focus.7th.brew.grand-seeker": [
+        "spell.::.detect-scrying",
+        "spell.::.true-seeing"
+    ],
+    "spell.focus.9th.brew.siberys-seeker": [
+        "spell.::.discern-location",
+        "spell.::.unrelenting-observation"
     ]
 }

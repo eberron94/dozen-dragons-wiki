@@ -1,0 +1,182 @@
+{
+    "spell": [
+        {
+            "name": "Healer's Intuition",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 1,
+            "traits": [
+                "uncommon",
+                "necromancy",
+                "dragonmark",
+                "mark of healing"
+            ],
+            "cast": {
+                "number": 2,
+                "unit": "action"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Least Dragonmark",
+            "duration": {
+                "type": "timed",
+                "entry": "sustained up to 10 minutes",
+                "sustain": true,
+                "duration": {
+                    "number": 10,
+                    "unit": "minute"
+                }
+            },
+            "entries": [
+                "You call upon your dragonmark's power to better mend wounds. When you Cast the Spell, you can Recall Knowledge (Medicine), Administer First Aid, Battle Medicine, Treat Disease, Treat Poison, or Treat Wounds. You gain a +1 status bonus to the skill used for the roll, and this bonus remains as long as you Sustain the Spell."
+            ],
+            "heightened": {
+                "X": {
+                    "3": ["You do not need to sustain Healer's Intuition"],
+                    "7": ["The duration increases to 1 hour."]
+                }
+            },
+            "dragonmark": {
+                "greater": "The bonus increases to +2.",
+                "siberys": "The bonus increases to +3."
+            }
+        },
+        {
+            "name": "Lesser Healer",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 3,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of healing"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "special",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Lesser Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Healer, you choose to replicate  Endure, Soothe, Restoration, Remove Paralysis, or Restore Senses. Lesser Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Healer.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Greater Dragonmark} You may cast Lesser Healer up to two times per daily preparation.",
+                        "{@b Grand Dragonmark} You may cast Lesser Healer up to three times per daily preparation.",
+                        "{@b Siberys Dragonmark} You may cast Lesser Healer any number of times per daily preparation."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Greater Healer",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 5,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of healing"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "minute",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Greater Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Greater Healer, you choose to replicate Neutralize Poison, Remove Disease, or Remove Curse. Greater Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Greater Healer.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Grand Dragonmark} You may cast Greater Healer up to two times per daily preparation.",
+                        "{@b Siberys Dragonmark} You may cast Greater Healer up to three times per daily preparation."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Grand Healer",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 7,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of healing"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "minute",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Grand Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Grand Healer, you choose to replicate Breath of Life or Raise Dead. Grand Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Grand Healer.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Siberys Dragonmark} You may cast Grand Healer up to two times per daily preparation."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Siberys Healer",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 9,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of healing"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "minute",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Siberys Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Siberys Healer, you choose to replicate Regenerate, Moment of Renewal, or any spell listed in the Lesser, Greater or Grand Healer spells. Siberys Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Siberys Healer.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ]
+        }
+    ]
+}

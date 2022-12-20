@@ -7,7 +7,7 @@
             "level": 3,
             "traits": ["dragonmark"],
             "entries": [
-                "You gain a dragonmark spell from your mark's additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+                "You gain a dragonmark adept spell from your mark's adept list of a level you can cast. You can retrain this spell with a week of downtime, the new selection must be an adept spell you can cast."
             ],
             "generic": "G",
             "variants": [
@@ -19,8 +19,8 @@
                         "entries": [
                             {
                                 "mode": "replaceTxt",
-                                "replace": "your mark's",
-                                "with": "the Mark of Detection additional focus spell list"
+                                "replace": "your mark's adept list",
+                                "with": "the Mark of Detection adept spell list"
                             }
                         ],
                         "entriesMode": "generic"
@@ -34,8 +34,8 @@
                         "entries": [
                             {
                                 "mode": "replaceTxt",
-                                "replace": "your mark's",
-                                "with": "the Mark of Finding additional focus spell list"
+                                "replace": "your mark's adept list",
+                                "with": "the Mark of Finding adept spell list"
                             }
                         ],
                         "entriesMode": "generic"
@@ -49,8 +49,8 @@
                         "entries": [
                             {
                                 "mode": "replaceTxt",
-                                "replace": "your mark's",
-                                "with": "the Mark of Handling additional focus spell list"
+                                "replace": "your mark's adept list",
+                                "with": "the Mark of Handling adept spell list"
                             }
                         ],
                         "entriesMode": "generic"
@@ -64,8 +64,8 @@
                         "entries": [
                             {
                                 "mode": "replaceTxt",
-                                "replace": "your mark's",
-                                "with": "the Mark of Healing additional focus spell list"
+                                "replace": "your mark's adept list",
+                                "with": "the Mark of Healing adept spell list"
                             }
                         ],
                         "entriesMode": "generic"
@@ -79,8 +79,8 @@
                         "entries": [
                             {
                                 "mode": "replaceTxt",
-                                "replace": "your mark's",
-                                "with": "the Mark of Hospitality additional focus spell list"
+                                "replace": "your mark's adept list",
+                                "with": "the Mark of Hospitality adept spell list"
                             }
                         ],
                         "entriesMode": "generic"
@@ -94,8 +94,8 @@
                         "entries": [
                             {
                                 "mode": "replaceTxt",
-                                "replace": "your mark's",
-                                "with": "the Mark of Making additional focus spell list"
+                                "replace": "your mark's adept list",
+                                "with": "the Mark of Making adept spell list"
                             }
                         ],
                         "entriesMode": "generic"
@@ -109,8 +109,8 @@
                         "entries": [
                             {
                                 "mode": "replaceTxt",
-                                "replace": "your mark's",
-                                "with": "the Mark of Passage additional focus spell list"
+                                "replace": "your mark's adept list",
+                                "with": "the Mark of Passage adept spell list"
                             }
                         ],
                         "entriesMode": "generic"
@@ -124,8 +124,8 @@
                         "entries": [
                             {
                                 "mode": "replaceTxt",
-                                "replace": "your mark's",
-                                "with": "the Mark of Scribing additional focus spell list"
+                                "replace": "your mark's adept list",
+                                "with": "the Mark of Scribing adept spell list"
                             }
                         ],
                         "entriesMode": "generic"
@@ -139,8 +139,8 @@
                         "entries": [
                             {
                                 "mode": "replaceTxt",
-                                "replace": "your mark's",
-                                "with": "the Mark of Sentinel additional focus spell list"
+                                "replace": "your mark's adept list",
+                                "with": "the Mark of Sentinel adept spell list"
                             }
                         ],
                         "entriesMode": "generic"
@@ -154,8 +154,8 @@
                         "entries": [
                             {
                                 "mode": "replaceTxt",
-                                "replace": "your mark's",
-                                "with": "the Mark of Shadow additional focus spell list"
+                                "replace": "your mark's adept list",
+                                "with": "the Mark of Shadow adept spell list"
                             }
                         ],
                         "entriesMode": "generic"
@@ -169,8 +169,8 @@
                         "entries": [
                             {
                                 "mode": "replaceTxt",
-                                "replace": "your mark's",
-                                "with": "the Mark of Storm additional focus spell list"
+                                "replace": "your mark's adept list",
+                                "with": "the Mark of Storm adept spell list"
                             }
                         ],
                         "entriesMode": "generic"
@@ -184,8 +184,8 @@
                         "entries": [
                             {
                                 "mode": "replaceTxt",
-                                "replace": "your mark's",
-                                "with": "the Mark of Warding additional focus spell list"
+                                "replace": "your mark's adept list",
+                                "with": "the Mark of Warding adept spell list"
                             }
                         ],
                         "entriesMode": "generic"

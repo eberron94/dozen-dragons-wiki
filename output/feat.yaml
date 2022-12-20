@@ -3934,6 +3934,8 @@
         - feat.dragonmark.brew.dragonmark-weapon-shadow
         - feat.dragonmark.brew.dragonmark-weapon-storm
         - feat.dragonmark.brew.dragonmark-weapon-warding
+        - feat.dragonmark.brew.duraakash-insight
+        - feat.dragonmark.brew.duraakash-tracker
         - feat.dragonmark.brew.eye-of-medani
         - feat.dragonmark.brew.forewarned
         - feat.dragonmark.brew.grand-dragonmark-detection
@@ -3960,6 +3962,7 @@
         - feat.dragonmark.brew.greater-dragonmark-shadow
         - feat.dragonmark.brew.greater-dragonmark-storm
         - feat.dragonmark.brew.greater-dragonmark-warding
+        - feat.dragonmark.brew.jorasco-treatment
         - feat.dragonmark.brew.least-dragonmark-detection
         - feat.dragonmark.brew.least-dragonmark-finding
         - feat.dragonmark.brew.least-dragonmark-handling
@@ -3985,6 +3988,7 @@
         - feat.dragonmark.brew.lesser-dragonmark-storm
         - feat.dragonmark.brew.lesser-dragonmark-warding
         - feat.dragonmark.brew.medani-prophet
+        - feat.dragonmark.brew.perfect-awareness
         - feat.dragonmark.brew.perfect-scrying-sense
         - feat.dragonmark.brew.prophetic-visions
         - feat.dragonmark.brew.scrying-sense
@@ -4000,6 +4004,10 @@
         - feat.dragonmark.brew.siberys-dragonmark-shadow
         - feat.dragonmark.brew.siberys-dragonmark-storm
         - feat.dragonmark.brew.siberys-dragonmark-warding
+        - feat.dragonmark.brew.tharashk-survivalist
+        - feat.dragonmark.brew.track-the-trackless
+        - feat.dragonmark.brew.trap-warden
+        - feat.dragonmark.brew.vadalis-instincts
         - feat.dragonmark.brew.visions-of-the-past
         - feat.general.aoa-3.different-worlds
         - feat.general.apg.a-home-in-every-port

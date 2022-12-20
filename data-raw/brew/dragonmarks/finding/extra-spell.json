@@ -1,0 +1,43 @@
+{
+    "spell": [
+        {
+            "name": "Eyes of the Finder",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 2,
+            "traits": ["divination", "dragonmark", "mark of finding", "adept"],
+            "cast": {
+                "number": 2,
+                "unit": "action"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Least Dragonmark",
+            "duration": {
+                "type": "timed",
+                "entry": "sustained up to 1 minute",
+                "sustain": true,
+                "duration": {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            },
+            "entries": [
+                "You gain the ability to see through solid objects to a range of 30 feet. You have darkvision within that range as well. You perceive objects as ghostly, transparent images. The spell can see through most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, 3 feet of wood or dirt, or any magical material. You then become immune to Eyes of the Finder for 24 hours."
+            ],
+            "heightened": {
+                "X": {
+                    "3": [
+                        "You can see through twice the thickness of materials. Any amount of lead or magical material still blocks your vision."
+                    ],
+                    "7": ["The duration increases to 10 minutes."]
+                }
+            },
+            "dragonmark": {
+                "greater": "You do not need to sustain Eyes of the Finder.",
+                "grand": "You become immune to Eyes of the Finder for only 1 hour after the spell ends.",
+                "siberys": "You do not become immune to Eyes of the Finder after the spell ends."
+            }
+        }
+    ]
+}

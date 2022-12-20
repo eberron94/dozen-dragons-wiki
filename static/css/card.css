@@ -75,8 +75,8 @@
     border-bottom: 1px solid;
     font-variant: small-caps;
     font-weight: 600;
-    margin: 0;
-    margin-bottom: 4px;
+    margin: 4px 0 4px 0;
+    /* margin-bottom: 4px; */
 
     font-size: 18px;
 
@@ -84,6 +84,10 @@
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+.card-section-line p.card-section-text {
+    margin-bottom: 0;
 }
 
 /* SUBTITLE LINE */

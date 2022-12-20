@@ -6,7 +6,7 @@
             "page": 1,
             "focus": true,
             "level": 2,
-            "traits": ["abjuration", "dragonmark", "incapacitation", "true mark"],
+            "traits": ["abjuration", "dragonmark", "incapacitation", "true mark", "adept"],
             "cast": {
                 "number": 2,
                 "unit": "action"

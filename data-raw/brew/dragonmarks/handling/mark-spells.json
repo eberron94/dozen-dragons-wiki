@@ -1,0 +1,182 @@
+{
+    "spell": [
+        {
+            "name": "Primal Connection",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 1,
+            "traits": [
+                "uncommon",
+                "enchantment",
+                "dragonmark",
+                "mark of handling"
+            ],
+            "cast": {
+                "number": 2,
+                "unit": "action"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Least Dragonmark",
+            "duration": {
+                "type": "timed",
+                "entry": "sustained up to 10 minutes",
+                "sustain": true,
+                "duration": {
+                    "number": 10,
+                    "unit": "minute"
+                }
+            },
+            "entries": [
+                "You call upon your dragonmark's power to better interact with animals. When you Cast the Spell, you can Recall Knowledge (Nature) or Command an Animal. You gain a +1 status bonus to the skill used for the roll. This bonus remains as long as you Sustain the Spell."
+            ],
+            "heightened": {
+                "X": {
+                    "3": ["You do not need to sustain Primal Connection"],
+                    "7": ["The duration increases to 1 hour."]
+                }
+            },
+            "dragonmark": {
+                "greater": "The bonus increases to +2.",
+                "siberys": "The bonus increases to +3."
+            }
+        },
+        {
+            "name": "Lesser Handler",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 3,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of handling"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "special",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Lesser Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Handler, you choose to replicate  Friendfetch, Pet Cache, Animal Messenger, or Speak with Animals. Lesser Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Handler.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Greater Dragonmark} You may cast Lesser Handler up to two times per daily preparation.",
+                        "{@b Grand Dragonmark} You may cast Lesser Handler up to three times per daily preparation.",
+                        "{@b Siberys Dragonmark} You may cast Lesser Handler any number of times per daily preparation."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Greater Handler",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 5,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of handling"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "minute",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Greater Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Greater Handler, you choose to replicate Animal Vision or Aromatic Lure. Greater Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Greater Handler.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Grand Dragonmark} You may cast Greater Handler up to two times per daily preparation.",
+                        "{@b Siberys Dragonmark} You may cast Greater Handler up to three times per daily preparation."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Grand Handler",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 7,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of handling"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "minute",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Grand Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Grand Handler, you choose to replicate  Dominate or Entrancing Eyes, but you can only target creatures with the animal or beast trait. Grand Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Grand Handler.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Siberys Dragonmark} You may cast Grand Handler up to two times per daily preparation."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Siberys Handler",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 9,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of handling"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "minute",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Siberys Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Siberys Handler, you choose to replicate Power Word Stun (but you can only target creatures with the animal or beast trait), Nature's Enmity, or any spell listed in the Lesser, Greater or Grand Handler spells. Siberys Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Siberys Handler.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ]
+        }
+    ]
+}

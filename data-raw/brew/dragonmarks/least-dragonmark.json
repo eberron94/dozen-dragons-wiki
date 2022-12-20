@@ -5,7 +5,7 @@
             "source": "BREW",
             "page": 1,
             "level": 1,
-            "traits": ["dragonmark"],
+            "traits": ["least dragonmark", "dragonmark"],
             "entries": [
                 "You manifest a dragonmark, a sign of your connection to the Draconic Prophecy and a powerful source of magic. Drawing on this power gives you the ability to cast dragonmark spells. You gain the least dragonmark spell for your mark. It costs 1 Focus Point to cast a focus spell.",
                 "You're trained in arcane spell attack rolls and spell DCs. Choose Intelligence, Wisdom, or Charisma as your key spellcasting ability for dragonmark spells. This choice cannot be changed."
@@ -14,7 +14,7 @@
             "variants": [
                 {
                     "variantType": "Detection",
-                    "traits": ["dragonmark", "mark of detection"],
+                    "traits": ["least dragonmark", "dragonmark", "mark of detection"],
                     "access": "You were born to the Mark of Detection bloodline",
                     "prerequisites": "Khoravar ancestry",
                     "_mod": {
@@ -41,7 +41,7 @@
                 },
                 {
                     "variantType": "Finding",
-                    "traits": ["dragonmark", "mark of finding"],
+                    "traits": ["least dragonmark", "dragonmark", "mark of finding"],
                     "access": "You were born to the Mark of Finding bloodline",
                     "prerequisites": "Half-orc ancestry",
                     "_mod": {
@@ -68,7 +68,7 @@
                 },
                 {
                     "variantType": "Handling",
-                    "traits": ["dragonmark", "mark of handling"],
+                    "traits": ["least dragonmark", "dragonmark", "mark of handling"],
                     "access": "You were born to the Mark of Handling bloodline",
                     "prerequisites": "Human ancestry",
                     "_mod": {
@@ -81,7 +81,7 @@
                             {
                                 "mode": "replaceTxt",
                                 "replace": "least dragonmark spell for your mark.",
-                                "with": "Animal Friendship dragonmark spell."
+                                "with": "Primal Connection dragonmark spell."
                             },
                             {
                                 "mode": "appendArr",
@@ -95,7 +95,7 @@
                 },
                 {
                     "variantType": "Healing",
-                    "traits": ["dragonmark", "mark of healing"],
+                    "traits": ["least dragonmark", "dragonmark", "mark of healing"],
                     "access": "You were born to the Mark of Healing bloodline",
                     "prerequisites": "Halfling ancestry",
                     "_mod": {
@@ -122,7 +122,7 @@
                 },
                 {
                     "variantType": "Hospitality",
-                    "traits": ["dragonmark", "mark of hospitality"],
+                    "traits": ["least dragonmark", "dragonmark", "mark of hospitality"],
                     "access": "You were born to the Mark of Hospitality bloodline",
                     "prerequisites": "Halfling ancestry",
                     "_mod": {
@@ -149,7 +149,7 @@
                 },
                 {
                     "variantType": "Making",
-                    "traits": ["dragonmark", "mark of making"],
+                    "traits": ["least dragonmark", "dragonmark", "mark of making"],
                     "access": "You were born to the Mark of Making bloodline",
                     "prerequisites": "Human ancestry",
                     "_mod": {
@@ -176,7 +176,7 @@
                 },
                 {
                     "variantType": "Passage",
-                    "traits": ["dragonmark", "mark of passage"],
+                    "traits": ["least dragonmark", "dragonmark", "mark of passage"],
                     "access": "You were born to the Mark of Passage bloodline",
                     "prerequisites": "Human ancestry",
                     "_mod": {
@@ -203,7 +203,7 @@
                 },
                 {
                     "variantType": "Scribing",
-                    "traits": ["dragonmark", "mark of scribing"],
+                    "traits": ["least dragonmark", "dragonmark", "mark of scribing"],
                     "access": "You were born to the Mark of Scribing bloodline",
                     "prerequisites": "Gnome ancestry",
                     "_mod": {
@@ -230,7 +230,7 @@
                 },
                 {
                     "variantType": "Sentinel",
-                    "traits": ["dragonmark", "mark of sentinel"],
+                    "traits": ["least dragonmark", "dragonmark", "mark of sentinel"],
                     "access": "You were born to the Mark of Sentinel bloodline",
                     "prerequisites": "Human ancestry",
                     "_mod": {
@@ -257,7 +257,7 @@
                 },
                 {
                     "variantType": "Shadow",
-                    "traits": ["dragonmark", "mark of shadow"],
+                    "traits": ["least dragonmark", "dragonmark", "mark of shadow"],
                     "access": "You were born to the Mark of Shadow bloodline",
                     "prerequisites": "Elf ancestry",
                     "_mod": {
@@ -284,7 +284,7 @@
                 },
                 {
                     "variantType": "Storm",
-                    "traits": ["dragonmark", "mark of storm"],
+                    "traits": ["least dragonmark", "dragonmark", "mark of storm"],
                     "access": "You were born to the Mark of Storm bloodline",
                     "prerequisites": "Khoravar ancestry",
                     "_mod": {
@@ -311,7 +311,7 @@
                 },
                 {
                     "variantType": "Warding",
-                    "traits": ["dragonmark", "mark of warding"],
+                    "traits": ["least dragonmark", "dragonmark", "mark of warding"],
                     "access": "You were born to the Mark of Warding bloodline",
                     "prerequisites": "Dwarf ancestry",
                     "_mod": {

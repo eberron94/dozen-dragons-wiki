@@ -1,0 +1,44 @@
+{
+    "spell": [
+        {
+            "name": "Healing Word",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 2,
+            "traits": [
+                "necromancy",
+                "dragonmark",
+                "mark of healing",
+                "adept",
+                "healing"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "action"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Least Dragonmark",
+            "range": {
+                "number": 30,
+                "unit": "feet"
+            },
+            "targets": "1 living creature",
+            "entries": [
+                "You call upon your dragonmark's power to heal the wounded. Your dragonmark channels a burst of positive energy, healing a living creature. If you use healing word on a living target, they restore 4 Hit Points."
+            ],
+            "heightened": {
+                "plusX": {
+                    "1": [
+                        "The amount of healing increases by 4."
+                    ]
+                }
+            },
+            "dragonmark": {
+                "greater": "The range increases to 60 feet.",
+                "grand": "The range increases to 90 feet.",
+                "siberys": "The range increases to 120 feet."
+            }
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "feat": [
+        {
+            "name": "Tharashk Survivalist",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["dragonmark", "mark of finding", "fortune"],
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "activity": {
+                "number": 1,
+                "unit": "free"
+            },
+            "prerequisites": "Least Dragonmark (Finding)",
+            "trigger": "You fail a non-secret Survival check.",
+            "entries": [
+                "Your training with Tharashk provided you with the training to make the best of a bad survival situation. If you roll a failure on a Survival check, you can reroll the check. You may select the better of the two rolls."
+            ]
+        },
+        {
+            "name": "Duraak'ash Tracker",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["uncommon", "dragonmark", "mark of finding"],
+            "prerequisites": "Least Dragonmark (Finding)",
+            "entries": [
+                "As a duraak'ash, you learn to let the Mark of Finding guide you. As you hone your hunting skills, your mark becomes a deeper part of you, helping you find and fight your prey. You gain the 2nd-level Ranger Dedication feat, even if you normally couldn't take another dedication feat until you take more feats from your current archetype. You don't need to meet the feat's ability score prerequisite."
+            ]
+        },
+        {
+            "name": "Trap Warden",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["dragonmark", "mark of finding"],
+            "prerequisites": "Least Dragonmark (Finding)",
+            "entries": [
+                "You have an intuitive sense that alerts you to the dangers and presence of traps. You gain a +1 circumstance bonus to Perception checks to find traps, to AC against attacks made by traps, and to saves against traps. Even if you aren't Searching, you get a check to find traps that normally require you to be Searching. You still need to meet any other requirements to find the trap.",
+                "You can disable traps that require a proficiency rank of master in Thievery. If you have master proficiency in Thievery, you can disable traps that require a proficiency rank of legendary instead."
+            ],
+
+            "dragonmark": {
+                "greater": "The bonus increases to +2.",
+                "siberys": "The bonus increases to +3."
+            }
+        },
+        {
+            "name": "Duraak'ash Insight",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["uncommon", "dragonmark", "mark of finding"],
+            "prerequisites": "Lesser Dragonmark (Finding); Hunt Prey",
+            "entries": [
+                "When you replicate Locate with Lesser Seeker, you can locate a specific creature you have never met. When you roll initiative and can see the target of your Locate, you can Hunt Prey as a free action, designating that enemy."
+            ]
+        },
+        {
+            "name": "Perfect Awareness",
+            "source": "BREW",
+            "page": 1,
+            "level": 9,
+            "traits": ["dragonmark", "mark of finding"],
+            "prerequisites": "Lesser Dragonmark (Finding)",
+            "entries": [
+                "You cannot be flat-footed to a creature you have targeted with Locate."
+            ]
+        },
+        {
+            "name": "Track the Trackless",
+            "source": "BREW",
+            "page": 1,
+            "level": 17,
+            "traits": ["dragonmark", "mark of finding"],
+            "prerequisites": "Greater Dragonmark (Finding); Hunt Prey",
+            "entries": [
+                "The DC to track your prey is unaffected by Pass Without Trace. The +4 status bonus is not applied and the spell DC is not used."
+            ]
+        }
+    ]
+}

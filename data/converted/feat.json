@@ -85905,7 +85905,7 @@
             "pftrait | dragonmark | mark of detection",
             "property | Prerequisites | Least Dragonmark (Detection)",
             "rule",
-            "text | You gain a dragonmark spell from the Mark of Detection additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+            "text | You gain a dragonmark adept spell from the Mark of Detection adept spell list of a level you can cast. You can retrain this spell with a week of downtime, the new selection must be an adept spell you can cast."
         ],
         "filtering": [
             "feat",
@@ -85927,7 +85927,7 @@
             "pftrait | dragonmark | mark of finding",
             "property | Prerequisites | Least Dragonmark (Finding)",
             "rule",
-            "text | You gain a dragonmark spell from the Mark of Finding additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+            "text | You gain a dragonmark adept spell from the Mark of Finding adept spell list of a level you can cast. You can retrain this spell with a week of downtime, the new selection must be an adept spell you can cast."
         ],
         "filtering": [
             "feat",
@@ -85949,7 +85949,7 @@
             "pftrait | dragonmark | mark of handling",
             "property | Prerequisites | Least Dragonmark (Handling)",
             "rule",
-            "text | You gain a dragonmark spell from the Mark of Handling additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+            "text | You gain a dragonmark adept spell from the Mark of Handling adept spell list of a level you can cast. You can retrain this spell with a week of downtime, the new selection must be an adept spell you can cast."
         ],
         "filtering": [
             "feat",
@@ -85971,7 +85971,7 @@
             "pftrait | dragonmark | mark of healing",
             "property | Prerequisites | Least Dragonmark (Healing)",
             "rule",
-            "text | You gain a dragonmark spell from the Mark of Healing additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+            "text | You gain a dragonmark adept spell from the Mark of Healing adept spell list of a level you can cast. You can retrain this spell with a week of downtime, the new selection must be an adept spell you can cast."
         ],
         "filtering": [
             "feat",
@@ -85993,7 +85993,7 @@
             "pftrait | dragonmark | mark of hospitality",
             "property | Prerequisites | Least Dragonmark (Hospitality)",
             "rule",
-            "text | You gain a dragonmark spell from the Mark of Hospitality additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+            "text | You gain a dragonmark adept spell from the Mark of Hospitality adept spell list of a level you can cast. You can retrain this spell with a week of downtime, the new selection must be an adept spell you can cast."
         ],
         "filtering": [
             "feat",
@@ -86015,7 +86015,7 @@
             "pftrait | dragonmark | mark of making",
             "property | Prerequisites | Least Dragonmark (Making)",
             "rule",
-            "text | You gain a dragonmark spell from the Mark of Making additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+            "text | You gain a dragonmark adept spell from the Mark of Making adept spell list of a level you can cast. You can retrain this spell with a week of downtime, the new selection must be an adept spell you can cast."
         ],
         "filtering": [
             "feat",
@@ -86037,7 +86037,7 @@
             "pftrait | dragonmark | mark of passage",
             "property | Prerequisites | Least Dragonmark (Passage)",
             "rule",
-            "text | You gain a dragonmark spell from the Mark of Passage additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+            "text | You gain a dragonmark adept spell from the Mark of Passage adept spell list of a level you can cast. You can retrain this spell with a week of downtime, the new selection must be an adept spell you can cast."
         ],
         "filtering": [
             "feat",
@@ -86059,7 +86059,7 @@
             "pftrait | dragonmark | mark of scribing",
             "property | Prerequisites | Least Dragonmark (Scribing)",
             "rule",
-            "text | You gain a dragonmark spell from the Mark of Scribing additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+            "text | You gain a dragonmark adept spell from the Mark of Scribing adept spell list of a level you can cast. You can retrain this spell with a week of downtime, the new selection must be an adept spell you can cast."
         ],
         "filtering": [
             "feat",
@@ -86081,7 +86081,7 @@
             "pftrait | dragonmark | mark of sentinel",
             "property | Prerequisites | Least Dragonmark (Sentinel)",
             "rule",
-            "text | You gain a dragonmark spell from the Mark of Sentinel additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+            "text | You gain a dragonmark adept spell from the Mark of Sentinel adept spell list of a level you can cast. You can retrain this spell with a week of downtime, the new selection must be an adept spell you can cast."
         ],
         "filtering": [
             "feat",
@@ -86103,7 +86103,7 @@
             "pftrait | dragonmark | mark of shadow",
             "property | Prerequisites | Least Dragonmark (Shadow)",
             "rule",
-            "text | You gain a dragonmark spell from the Mark of Shadow additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+            "text | You gain a dragonmark adept spell from the Mark of Shadow adept spell list of a level you can cast. You can retrain this spell with a week of downtime, the new selection must be an adept spell you can cast."
         ],
         "filtering": [
             "feat",
@@ -86125,7 +86125,7 @@
             "pftrait | dragonmark | mark of storm",
             "property | Prerequisites | Least Dragonmark (Storm)",
             "rule",
-            "text | You gain a dragonmark spell from the Mark of Storm additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+            "text | You gain a dragonmark adept spell from the Mark of Storm adept spell list of a level you can cast. You can retrain this spell with a week of downtime, the new selection must be an adept spell you can cast."
         ],
         "filtering": [
             "feat",
@@ -86147,7 +86147,7 @@
             "pftrait | dragonmark | mark of warding",
             "property | Prerequisites | Least Dragonmark (Warding)",
             "rule",
-            "text | You gain a dragonmark spell from the Mark of Warding additional focus spell list additional focus spell list of a level you can cast. You can retrain this spell with a week of downtime."
+            "text | You gain a dragonmark adept spell from the Mark of Warding adept spell list of a level you can cast. You can retrain this spell with a week of downtime, the new selection must be an adept spell you can cast."
         ],
         "filtering": [
             "feat",
@@ -86687,12 +86687,56 @@
         "level": 3
     },
     {
+        "id": "feat.dragonmark.brew.duraakash-insight",
+        "color": "#F57C00",
+        "name": "Duraak'ash Insight",
+        "title": "Duraak'ash Insight",
+        "icon_front": "abstract-119",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | uncommon | dragonmark | mark of finding",
+            "property | Prerequisites | Lesser Dragonmark (Finding); Hunt Prey",
+            "rule",
+            "text | When you replicate Locate with Lesser Seeker, you can locate a specific creature you have never met. When you roll initiative and can see the target of your Locate, you can Hunt Prey as a free action, designating that enemy."
+        ],
+        "filtering": [
+            "feat",
+            "feat-9",
+            "uncommon",
+            "dragonmark",
+            "mark of finding"
+        ],
+        "level": 9
+    },
+    {
+        "id": "feat.dragonmark.brew.duraakash-tracker",
+        "color": "#F57C00",
+        "name": "Duraak'ash Tracker",
+        "title": "Duraak'ash Tracker",
+        "icon_front": "abstract-119",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | uncommon | dragonmark | mark of finding",
+            "property | Prerequisites | Least Dragonmark (Finding)",
+            "rule",
+            "text | As a duraak'ash, you learn to let the Mark of Finding guide you. As you hone your hunting skills, your mark becomes a deeper part of you, helping you find and fight your prey. You gain the 2nd-level Ranger Dedication feat, even if you normally couldn't take another dedication feat until you take more feats from your current archetype. You don't need to meet the feat's ability score prerequisite."
+        ],
+        "filtering": [
+            "feat",
+            "feat-5",
+            "uncommon",
+            "dragonmark",
+            "mark of finding"
+        ],
+        "level": 5
+    },
+    {
         "id": "feat.dragonmark.brew.eye-of-medani",
         "color": "#F57C00",
         "name": "Eye of Medani",
         "title": "Eye of Medani [[free-action]]",
         "icon_front": "abstract-119",
-        "code": "feat 3",
+        "code": "feat 1",
         "contents": [
             "pftrait | dragonmark | fortune | mark of detection",
             "property | Prerequisites | Least Dragonmark (Detection)",
@@ -86703,13 +86747,13 @@
         ],
         "filtering": [
             "feat",
-            "feat-3",
+            "feat-1",
             "dragonmark",
             "mark of detection",
             "fortune",
             "common"
         ],
-        "level": 3
+        "level": 1
     },
     {
         "id": "feat.dragonmark.brew.forewarned",
@@ -86741,7 +86785,7 @@
         "icon_front": "abstract-119",
         "code": "feat 13",
         "contents": [
-            "pftrait | dragonmark | mark of detection",
+            "pftrait | dragonmark | grand dragonmark | mark of detection",
             "property | Prerequisites | Greater Dragonmark (Detection)",
             "rule",
             "text | Your dragonmark expands in size and power. You gain the Grand Detector dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
@@ -86749,6 +86793,7 @@
         "filtering": [
             "feat",
             "feat-13",
+            "grand dragonmark",
             "dragonmark",
             "mark of detection",
             "common"
@@ -86763,7 +86808,7 @@
         "icon_front": "abstract-119",
         "code": "feat 13",
         "contents": [
-            "pftrait | dragonmark | mark of finding",
+            "pftrait | dragonmark | grand dragonmark | mark of finding",
             "property | Prerequisites | Greater Dragonmark (Finding)",
             "rule",
             "text | Your dragonmark expands in size and power. You gain the Grand Seeker dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
@@ -86771,6 +86816,7 @@
         "filtering": [
             "feat",
             "feat-13",
+            "grand dragonmark",
             "dragonmark",
             "mark of finding",
             "common"
@@ -86785,7 +86831,7 @@
         "icon_front": "abstract-119",
         "code": "feat 13",
         "contents": [
-            "pftrait | dragonmark | mark of handling",
+            "pftrait | dragonmark | grand dragonmark | mark of handling",
             "property | Prerequisites | Greater Dragonmark (Handling)",
             "rule",
             "text | Your dragonmark expands in size and power. You gain the Grand Handler dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
@@ -86793,6 +86839,7 @@
         "filtering": [
             "feat",
             "feat-13",
+            "grand dragonmark",
             "dragonmark",
             "mark of handling",
             "common"
@@ -86807,7 +86854,7 @@
         "icon_front": "abstract-119",
         "code": "feat 13",
         "contents": [
-            "pftrait | dragonmark | mark of healing",
+            "pftrait | dragonmark | grand dragonmark | mark of healing",
             "property | Prerequisites | Greater Dragonmark (Healing)",
             "rule",
             "text | Your dragonmark expands in size and power. You gain the Grand Healer dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
@@ -86815,6 +86862,7 @@
         "filtering": [
             "feat",
             "feat-13",
+            "grand dragonmark",
             "dragonmark",
             "mark of healing",
             "common"
@@ -86829,7 +86877,7 @@
         "icon_front": "abstract-119",
         "code": "feat 13",
         "contents": [
-            "pftrait | dragonmark | mark of hospitality",
+            "pftrait | dragonmark | grand dragonmark | mark of hospitality",
             "property | Prerequisites | Greater Dragonmark (Hospitality)",
             "rule",
             "text | Your dragonmark expands in size and power. You gain the Grand Hearth dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
@@ -86837,6 +86885,7 @@
         "filtering": [
             "feat",
             "feat-13",
+            "grand dragonmark",
             "dragonmark",
             "mark of hospitality",
             "common"
@@ -86851,7 +86900,7 @@
         "icon_front": "abstract-119",
         "code": "feat 13",
         "contents": [
-            "pftrait | dragonmark | mark of making",
+            "pftrait | dragonmark | grand dragonmark | mark of making",
             "property | Prerequisites | Greater Dragonmark (Making)",
             "rule",
             "text | Your dragonmark expands in size and power. You gain the Grand Maker dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
@@ -86859,6 +86908,7 @@
         "filtering": [
             "feat",
             "feat-13",
+            "grand dragonmark",
             "dragonmark",
             "mark of making",
             "common"
@@ -86873,7 +86923,7 @@
         "icon_front": "abstract-119",
         "code": "feat 13",
         "contents": [
-            "pftrait | dragonmark | mark of passage",
+            "pftrait | dragonmark | grand dragonmark | mark of passage",
             "property | Prerequisites | Greater Dragonmark (Passage)",
             "rule",
             "text | Your dragonmark expands in size and power. You gain the Grand Traveler dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
@@ -86881,6 +86931,7 @@
         "filtering": [
             "feat",
             "feat-13",
+            "grand dragonmark",
             "dragonmark",
             "mark of passage",
             "common"
@@ -86895,7 +86946,7 @@
         "icon_front": "abstract-119",
         "code": "feat 13",
         "contents": [
-            "pftrait | dragonmark | mark of scribing",
+            "pftrait | dragonmark | grand dragonmark | mark of scribing",
             "property | Prerequisites | Greater Dragonmark (Scribing)",
             "rule",
             "text | Your dragonmark expands in size and power. You gain the Grand Scribe dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
@@ -86903,6 +86954,7 @@
         "filtering": [
             "feat",
             "feat-13",
+            "grand dragonmark",
             "dragonmark",
             "mark of scribing",
             "common"
@@ -86917,7 +86969,7 @@
         "icon_front": "abstract-119",
         "code": "feat 13",
         "contents": [
-            "pftrait | dragonmark | mark of sentinel",
+            "pftrait | dragonmark | grand dragonmark | mark of sentinel",
             "property | Prerequisites | Greater Dragonmark (Sentinel)",
             "rule",
             "text | Your dragonmark expands in size and power. You gain the Grand Protector dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
@@ -86925,6 +86977,7 @@
         "filtering": [
             "feat",
             "feat-13",
+            "grand dragonmark",
             "dragonmark",
             "mark of sentinel",
             "common"
@@ -86939,7 +86992,7 @@
         "icon_front": "abstract-119",
         "code": "feat 13",
         "contents": [
-            "pftrait | dragonmark | mark of shadow",
+            "pftrait | dragonmark | grand dragonmark | mark of shadow",
             "property | Prerequisites | Greater Dragonmark (Shadow)",
             "rule",
             "text | Your dragonmark expands in size and power. You gain the Grand Shade dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
@@ -86947,6 +87000,7 @@
         "filtering": [
             "feat",
             "feat-13",
+            "grand dragonmark",
             "dragonmark",
             "mark of shadow",
             "common"
@@ -86961,7 +87015,7 @@
         "icon_front": "abstract-119",
         "code": "feat 13",
         "contents": [
-            "pftrait | dragonmark | mark of storm",
+            "pftrait | dragonmark | grand dragonmark | mark of storm",
             "property | Prerequisites | Greater Dragonmark (Storm)",
             "rule",
             "text | Your dragonmark expands in size and power. You gain the Grand Stormbringer dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
@@ -86969,6 +87023,7 @@
         "filtering": [
             "feat",
             "feat-13",
+            "grand dragonmark",
             "dragonmark",
             "mark of storm",
             "common"
@@ -86983,7 +87038,7 @@
         "icon_front": "abstract-119",
         "code": "feat 13",
         "contents": [
-            "pftrait | dragonmark | mark of warding",
+            "pftrait | dragonmark | grand dragonmark | mark of warding",
             "property | Prerequisites | Greater Dragonmark (Warding)",
             "rule",
             "text | Your dragonmark expands in size and power. You gain the Grand Warder dragonmark spell and the grand dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master."
@@ -86991,6 +87046,7 @@
         "filtering": [
             "feat",
             "feat-13",
+            "grand dragonmark",
             "dragonmark",
             "mark of warding",
             "common"
@@ -87005,7 +87061,7 @@
         "icon_front": "abstract-119",
         "code": "feat 9",
         "contents": [
-            "pftrait | dragonmark | mark of detection",
+            "pftrait | dragonmark | greater dragonmark | mark of detection",
             "property | Prerequisites | Lesser Dragonmark (Detection)",
             "rule",
             "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Detector dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
@@ -87013,6 +87069,7 @@
         "filtering": [
             "feat",
             "feat-9",
+            "greater dragonmark",
             "dragonmark",
             "mark of detection",
             "common"
@@ -87027,7 +87084,7 @@
         "icon_front": "abstract-119",
         "code": "feat 9",
         "contents": [
-            "pftrait | dragonmark | mark of finding",
+            "pftrait | dragonmark | greater dragonmark | mark of finding",
             "property | Prerequisites | Lesser Dragonmark (Finding)",
             "rule",
             "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Seeker dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
@@ -87035,6 +87092,7 @@
         "filtering": [
             "feat",
             "feat-9",
+            "greater dragonmark",
             "dragonmark",
             "mark of finding",
             "common"
@@ -87049,7 +87107,7 @@
         "icon_front": "abstract-119",
         "code": "feat 9",
         "contents": [
-            "pftrait | dragonmark | mark of handling",
+            "pftrait | dragonmark | greater dragonmark | mark of handling",
             "property | Prerequisites | Lesser Dragonmark (Handling)",
             "rule",
             "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Handler dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
@@ -87057,6 +87115,7 @@
         "filtering": [
             "feat",
             "feat-9",
+            "greater dragonmark",
             "dragonmark",
             "mark of handling",
             "common"
@@ -87071,7 +87130,7 @@
         "icon_front": "abstract-119",
         "code": "feat 9",
         "contents": [
-            "pftrait | dragonmark | mark of healing",
+            "pftrait | dragonmark | greater dragonmark | mark of healing",
             "property | Prerequisites | Lesser Dragonmark (Healing)",
             "rule",
             "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Healer dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
@@ -87079,6 +87138,7 @@
         "filtering": [
             "feat",
             "feat-9",
+            "greater dragonmark",
             "dragonmark",
             "mark of healing",
             "common"
@@ -87093,7 +87153,7 @@
         "icon_front": "abstract-119",
         "code": "feat 9",
         "contents": [
-            "pftrait | dragonmark | mark of hospitality",
+            "pftrait | dragonmark | greater dragonmark | mark of hospitality",
             "property | Prerequisites | Lesser Dragonmark (Hospitality)",
             "rule",
             "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Hearth dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
@@ -87101,6 +87161,7 @@
         "filtering": [
             "feat",
             "feat-9",
+            "greater dragonmark",
             "dragonmark",
             "mark of hospitality",
             "common"
@@ -87115,7 +87176,7 @@
         "icon_front": "abstract-119",
         "code": "feat 9",
         "contents": [
-            "pftrait | dragonmark | mark of making",
+            "pftrait | dragonmark | greater dragonmark | mark of making",
             "property | Prerequisites | Lesser Dragonmark (Making)",
             "rule",
             "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Maker dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
@@ -87123,6 +87184,7 @@
         "filtering": [
             "feat",
             "feat-9",
+            "greater dragonmark",
             "dragonmark",
             "mark of making",
             "common"
@@ -87137,7 +87199,7 @@
         "icon_front": "abstract-119",
         "code": "feat 9",
         "contents": [
-            "pftrait | dragonmark | mark of passage",
+            "pftrait | dragonmark | greater dragonmark | mark of passage",
             "property | Prerequisites | Lesser Dragonmark (Passage)",
             "rule",
             "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Traveler dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
@@ -87145,6 +87207,7 @@
         "filtering": [
             "feat",
             "feat-9",
+            "greater dragonmark",
             "dragonmark",
             "mark of passage",
             "common"
@@ -87159,7 +87222,7 @@
         "icon_front": "abstract-119",
         "code": "feat 9",
         "contents": [
-            "pftrait | dragonmark | mark of scribing",
+            "pftrait | dragonmark | greater dragonmark | mark of scribing",
             "property | Prerequisites | Lesser Dragonmark (Scribing)",
             "rule",
             "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Scribe dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
@@ -87167,6 +87230,7 @@
         "filtering": [
             "feat",
             "feat-9",
+            "greater dragonmark",
             "dragonmark",
             "mark of scribing",
             "common"
@@ -87181,7 +87245,7 @@
         "icon_front": "abstract-119",
         "code": "feat 9",
         "contents": [
-            "pftrait | dragonmark | mark of sentinel",
+            "pftrait | dragonmark | greater dragonmark | mark of sentinel",
             "property | Prerequisites | Lesser Dragonmark (Sentinel)",
             "rule",
             "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Protector dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
@@ -87189,6 +87253,7 @@
         "filtering": [
             "feat",
             "feat-9",
+            "greater dragonmark",
             "dragonmark",
             "mark of sentinel",
             "common"
@@ -87203,7 +87268,7 @@
         "icon_front": "abstract-119",
         "code": "feat 9",
         "contents": [
-            "pftrait | dragonmark | mark of shadow",
+            "pftrait | dragonmark | greater dragonmark | mark of shadow",
             "property | Prerequisites | Lesser Dragonmark (Shadow)",
             "rule",
             "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Shade dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
@@ -87211,6 +87276,7 @@
         "filtering": [
             "feat",
             "feat-9",
+            "greater dragonmark",
             "dragonmark",
             "mark of shadow",
             "common"
@@ -87225,7 +87291,7 @@
         "icon_front": "abstract-119",
         "code": "feat 9",
         "contents": [
-            "pftrait | dragonmark | mark of storm",
+            "pftrait | dragonmark | greater dragonmark | mark of storm",
             "property | Prerequisites | Lesser Dragonmark (Storm)",
             "rule",
             "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Stormbringer dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
@@ -87233,6 +87299,7 @@
         "filtering": [
             "feat",
             "feat-9",
+            "greater dragonmark",
             "dragonmark",
             "mark of storm",
             "common"
@@ -87247,7 +87314,7 @@
         "icon_front": "abstract-119",
         "code": "feat 9",
         "contents": [
-            "pftrait | dragonmark | mark of warding",
+            "pftrait | dragonmark | greater dragonmark | mark of warding",
             "property | Prerequisites | Lesser Dragonmark (Warding)",
             "rule",
             "text | Your dragonmark reaches a new level of strength, covering more of your body. You gain the Greater Warder dragonmark spell and the greater dragonmark trait. Increase the number of Focus Points in your focus pool by 1."
@@ -87255,11 +87322,37 @@
         "filtering": [
             "feat",
             "feat-9",
+            "greater dragonmark",
             "dragonmark",
             "mark of warding",
             "common"
         ],
         "level": 9
+    },
+    {
+        "id": "feat.dragonmark.brew.jorasco-treatment",
+        "color": "#F57C00",
+        "name": "Jorasco Treatment",
+        "title": "Jorasco Treatment [[free-action]]",
+        "icon_front": "abstract-119",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | dragonmark | fortune | mark of healing",
+            "property | Prerequisites | Least Dragonmark (Healing)",
+            "property | Trigger | You fail a non-secret Medicine check.",
+            "property | Frequency | once per day",
+            "rule",
+            "text | Your training in the infirmaries of Jorasco improves your skill with medicine. If you roll a failure on a Medicine check, you can reroll the check. You may select the better of the two rolls."
+        ],
+        "filtering": [
+            "feat",
+            "feat-1",
+            "dragonmark",
+            "mark of healing",
+            "fortune",
+            "common"
+        ],
+        "level": 1
     },
     {
         "id": "feat.dragonmark.brew.least-dragonmark-detection",
@@ -87269,7 +87362,7 @@
         "icon_front": "abstract-119",
         "code": "feat 1",
         "contents": [
-            "pftrait | dragonmark | mark of detection",
+            "pftrait | dragonmark | least dragonmark | mark of detection",
             "property | Access | You were born to the Mark of Detection bloodline",
             "property | Prerequisites | Khoravar ancestry",
             "rule",
@@ -87280,6 +87373,7 @@
         "filtering": [
             "feat",
             "feat-1",
+            "least dragonmark",
             "dragonmark",
             "mark of detection",
             "common"
@@ -87294,7 +87388,7 @@
         "icon_front": "abstract-119",
         "code": "feat 1",
         "contents": [
-            "pftrait | dragonmark | mark of finding",
+            "pftrait | dragonmark | least dragonmark | mark of finding",
             "property | Access | You were born to the Mark of Finding bloodline",
             "property | Prerequisites | Half-orc ancestry",
             "rule",
@@ -87305,6 +87399,7 @@
         "filtering": [
             "feat",
             "feat-1",
+            "least dragonmark",
             "dragonmark",
             "mark of finding",
             "common"
@@ -87319,17 +87414,18 @@
         "icon_front": "abstract-119",
         "code": "feat 1",
         "contents": [
-            "pftrait | dragonmark | mark of handling",
+            "pftrait | dragonmark | least dragonmark | mark of handling",
             "property | Access | You were born to the Mark of Handling bloodline",
             "property | Prerequisites | Human ancestry",
             "rule",
-            "text | You manifest the Mark of Handling dragonmark, a sign of your connection to the Draconic Prophecy and a powerful source of magic. Drawing on this power gives you the ability to cast dragonmark spells. You gain the Animal Friendship dragonmark spell. It costs 1 Focus Point to cast a focus spell.",
+            "text | You manifest the Mark of Handling dragonmark, a sign of your connection to the Draconic Prophecy and a powerful source of magic. Drawing on this power gives you the ability to cast dragonmark spells. You gain the Primal Connection dragonmark spell. It costs 1 Focus Point to cast a focus spell.",
             "text | You're trained in arcane spell attack rolls and spell DCs. Choose Intelligence, Wisdom, or Charisma as your key spellcasting ability for dragonmark spells. This choice cannot be changed.",
             "text | In addition, you gain the dragonmark and mark of handling traits."
         ],
         "filtering": [
             "feat",
             "feat-1",
+            "least dragonmark",
             "dragonmark",
             "mark of handling",
             "common"
@@ -87344,7 +87440,7 @@
         "icon_front": "abstract-119",
         "code": "feat 1",
         "contents": [
-            "pftrait | dragonmark | mark of healing",
+            "pftrait | dragonmark | least dragonmark | mark of healing",
             "property | Access | You were born to the Mark of Healing bloodline",
             "property | Prerequisites | Halfling ancestry",
             "rule",
@@ -87355,6 +87451,7 @@
         "filtering": [
             "feat",
             "feat-1",
+            "least dragonmark",
             "dragonmark",
             "mark of healing",
             "common"
@@ -87369,7 +87466,7 @@
         "icon_front": "abstract-119",
         "code": "feat 1",
         "contents": [
-            "pftrait | dragonmark | mark of hospitality",
+            "pftrait | dragonmark | least dragonmark | mark of hospitality",
             "property | Access | You were born to the Mark of Hospitality bloodline",
             "property | Prerequisites | Halfling ancestry",
             "rule",
@@ -87380,6 +87477,7 @@
         "filtering": [
             "feat",
             "feat-1",
+            "least dragonmark",
             "dragonmark",
             "mark of hospitality",
             "common"
@@ -87394,7 +87492,7 @@
         "icon_front": "abstract-119",
         "code": "feat 1",
         "contents": [
-            "pftrait | dragonmark | mark of making",
+            "pftrait | dragonmark | least dragonmark | mark of making",
             "property | Access | You were born to the Mark of Making bloodline",
             "property | Prerequisites | Human ancestry",
             "rule",
@@ -87405,6 +87503,7 @@
         "filtering": [
             "feat",
             "feat-1",
+            "least dragonmark",
             "dragonmark",
             "mark of making",
             "common"
@@ -87419,7 +87518,7 @@
         "icon_front": "abstract-119",
         "code": "feat 1",
         "contents": [
-            "pftrait | dragonmark | mark of passage",
+            "pftrait | dragonmark | least dragonmark | mark of passage",
             "property | Access | You were born to the Mark of Passage bloodline",
             "property | Prerequisites | Human ancestry",
             "rule",
@@ -87430,6 +87529,7 @@
         "filtering": [
             "feat",
             "feat-1",
+            "least dragonmark",
             "dragonmark",
             "mark of passage",
             "common"
@@ -87444,7 +87544,7 @@
         "icon_front": "abstract-119",
         "code": "feat 1",
         "contents": [
-            "pftrait | dragonmark | mark of scribing",
+            "pftrait | dragonmark | least dragonmark | mark of scribing",
             "property | Access | You were born to the Mark of Scribing bloodline",
             "property | Prerequisites | Gnome ancestry",
             "rule",
@@ -87455,6 +87555,7 @@
         "filtering": [
             "feat",
             "feat-1",
+            "least dragonmark",
             "dragonmark",
             "mark of scribing",
             "common"
@@ -87469,7 +87570,7 @@
         "icon_front": "abstract-119",
         "code": "feat 1",
         "contents": [
-            "pftrait | dragonmark | mark of sentinel",
+            "pftrait | dragonmark | least dragonmark | mark of sentinel",
             "property | Access | You were born to the Mark of Sentinel bloodline",
             "property | Prerequisites | Human ancestry",
             "rule",
@@ -87480,6 +87581,7 @@
         "filtering": [
             "feat",
             "feat-1",
+            "least dragonmark",
             "dragonmark",
             "mark of sentinel",
             "common"
@@ -87494,7 +87596,7 @@
         "icon_front": "abstract-119",
         "code": "feat 1",
         "contents": [
-            "pftrait | dragonmark | mark of shadow",
+            "pftrait | dragonmark | least dragonmark | mark of shadow",
             "property | Access | You were born to the Mark of Shadow bloodline",
             "property | Prerequisites | Elf ancestry",
             "rule",
@@ -87505,6 +87607,7 @@
         "filtering": [
             "feat",
             "feat-1",
+            "least dragonmark",
             "dragonmark",
             "mark of shadow",
             "common"
@@ -87519,7 +87622,7 @@
         "icon_front": "abstract-119",
         "code": "feat 1",
         "contents": [
-            "pftrait | dragonmark | mark of storm",
+            "pftrait | dragonmark | least dragonmark | mark of storm",
             "property | Access | You were born to the Mark of Storm bloodline",
             "property | Prerequisites | Khoravar ancestry",
             "rule",
@@ -87530,6 +87633,7 @@
         "filtering": [
             "feat",
             "feat-1",
+            "least dragonmark",
             "dragonmark",
             "mark of storm",
             "common"
@@ -87544,7 +87648,7 @@
         "icon_front": "abstract-119",
         "code": "feat 1",
         "contents": [
-            "pftrait | dragonmark | mark of warding",
+            "pftrait | dragonmark | least dragonmark | mark of warding",
             "property | Access | You were born to the Mark of Warding bloodline",
             "property | Prerequisites | Dwarf ancestry",
             "rule",
@@ -87555,6 +87659,7 @@
         "filtering": [
             "feat",
             "feat-1",
+            "least dragonmark",
             "dragonmark",
             "mark of warding",
             "common"
@@ -87569,7 +87674,7 @@
         "icon_front": "abstract-119",
         "code": "feat 5",
         "contents": [
-            "pftrait | dragonmark | mark of detection",
+            "pftrait | dragonmark | lesser dragonmark | mark of detection",
             "property | Prerequisites | Least Dragonmark (Detection)",
             "rule",
             "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Detector dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
@@ -87577,6 +87682,7 @@
         "filtering": [
             "feat",
             "feat-5",
+            "lesser dragonmark",
             "dragonmark",
             "mark of detection",
             "common"
@@ -87591,7 +87697,7 @@
         "icon_front": "abstract-119",
         "code": "feat 5",
         "contents": [
-            "pftrait | dragonmark | mark of finding",
+            "pftrait | dragonmark | lesser dragonmark | mark of finding",
             "property | Prerequisites | Least Dragonmark (Finding)",
             "rule",
             "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Seeker dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
@@ -87599,6 +87705,7 @@
         "filtering": [
             "feat",
             "feat-5",
+            "lesser dragonmark",
             "dragonmark",
             "mark of finding",
             "common"
@@ -87613,7 +87720,7 @@
         "icon_front": "abstract-119",
         "code": "feat 5",
         "contents": [
-            "pftrait | dragonmark | mark of handling",
+            "pftrait | dragonmark | lesser dragonmark | mark of handling",
             "property | Prerequisites | Least Dragonmark (Handling)",
             "rule",
             "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Handler dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
@@ -87621,6 +87728,7 @@
         "filtering": [
             "feat",
             "feat-5",
+            "lesser dragonmark",
             "dragonmark",
             "mark of handling",
             "common"
@@ -87635,7 +87743,7 @@
         "icon_front": "abstract-119",
         "code": "feat 5",
         "contents": [
-            "pftrait | dragonmark | mark of healing",
+            "pftrait | dragonmark | lesser dragonmark | mark of healing",
             "property | Prerequisites | Least Dragonmark (Healing)",
             "rule",
             "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Healer dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
@@ -87643,6 +87751,7 @@
         "filtering": [
             "feat",
             "feat-5",
+            "lesser dragonmark",
             "dragonmark",
             "mark of healing",
             "common"
@@ -87657,7 +87766,7 @@
         "icon_front": "abstract-119",
         "code": "feat 5",
         "contents": [
-            "pftrait | dragonmark | mark of hospitality",
+            "pftrait | dragonmark | lesser dragonmark | mark of hospitality",
             "property | Prerequisites | Least Dragonmark (Hospitality)",
             "rule",
             "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Hearth dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
@@ -87665,6 +87774,7 @@
         "filtering": [
             "feat",
             "feat-5",
+            "lesser dragonmark",
             "dragonmark",
             "mark of hospitality",
             "common"
@@ -87679,7 +87789,7 @@
         "icon_front": "abstract-119",
         "code": "feat 5",
         "contents": [
-            "pftrait | dragonmark | mark of making",
+            "pftrait | dragonmark | lesser dragonmark | mark of making",
             "property | Prerequisites | Least Dragonmark (Making)",
             "rule",
             "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Maker dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
@@ -87687,6 +87797,7 @@
         "filtering": [
             "feat",
             "feat-5",
+            "lesser dragonmark",
             "dragonmark",
             "mark of making",
             "common"
@@ -87701,7 +87812,7 @@
         "icon_front": "abstract-119",
         "code": "feat 5",
         "contents": [
-            "pftrait | dragonmark | mark of passage",
+            "pftrait | dragonmark | lesser dragonmark | mark of passage",
             "property | Prerequisites | Least Dragonmark (Passage)",
             "rule",
             "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Traveler dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
@@ -87709,6 +87820,7 @@
         "filtering": [
             "feat",
             "feat-5",
+            "lesser dragonmark",
             "dragonmark",
             "mark of passage",
             "common"
@@ -87723,7 +87835,7 @@
         "icon_front": "abstract-119",
         "code": "feat 5",
         "contents": [
-            "pftrait | dragonmark | mark of scribing",
+            "pftrait | dragonmark | lesser dragonmark | mark of scribing",
             "property | Prerequisites | Least Dragonmark (Scribing)",
             "rule",
             "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Scribe dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
@@ -87731,6 +87843,7 @@
         "filtering": [
             "feat",
             "feat-5",
+            "lesser dragonmark",
             "dragonmark",
             "mark of scribing",
             "common"
@@ -87745,7 +87858,7 @@
         "icon_front": "abstract-119",
         "code": "feat 5",
         "contents": [
-            "pftrait | dragonmark | mark of sentinel",
+            "pftrait | dragonmark | lesser dragonmark | mark of sentinel",
             "property | Prerequisites | Least Dragonmark (Sentinel)",
             "rule",
             "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Protector dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
@@ -87753,6 +87866,7 @@
         "filtering": [
             "feat",
             "feat-5",
+            "lesser dragonmark",
             "dragonmark",
             "mark of sentinel",
             "common"
@@ -87767,7 +87881,7 @@
         "icon_front": "abstract-119",
         "code": "feat 5",
         "contents": [
-            "pftrait | dragonmark | mark of shadow",
+            "pftrait | dragonmark | lesser dragonmark | mark of shadow",
             "property | Prerequisites | Least Dragonmark (Shadow)",
             "rule",
             "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Shade dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
@@ -87775,6 +87889,7 @@
         "filtering": [
             "feat",
             "feat-5",
+            "lesser dragonmark",
             "dragonmark",
             "mark of shadow",
             "common"
@@ -87789,7 +87904,7 @@
         "icon_front": "abstract-119",
         "code": "feat 5",
         "contents": [
-            "pftrait | dragonmark | mark of storm",
+            "pftrait | dragonmark | lesser dragonmark | mark of storm",
             "property | Prerequisites | Least Dragonmark (Storm)",
             "rule",
             "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Stormbringer dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
@@ -87797,6 +87912,7 @@
         "filtering": [
             "feat",
             "feat-5",
+            "lesser dragonmark",
             "dragonmark",
             "mark of storm",
             "common"
@@ -87811,7 +87927,7 @@
         "icon_front": "abstract-119",
         "code": "feat 5",
         "contents": [
-            "pftrait | dragonmark | mark of warding",
+            "pftrait | dragonmark | lesser dragonmark | mark of warding",
             "property | Prerequisites | Least Dragonmark (Warding)",
             "rule",
             "text | Your dragonmark grows in power and doubles in size. You gain the Lesser Warder dragonmark spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
@@ -87819,6 +87935,7 @@
         "filtering": [
             "feat",
             "feat-5",
+            "lesser dragonmark",
             "dragonmark",
             "mark of warding",
             "common"
@@ -87848,6 +87965,28 @@
             "common"
         ],
         "level": 7
+    },
+    {
+        "id": "feat.dragonmark.brew.perfect-awareness",
+        "color": "#F57C00",
+        "name": "Perfect Awareness",
+        "title": "Perfect Awareness",
+        "icon_front": "abstract-119",
+        "code": "feat 9",
+        "contents": [
+            "pftrait | dragonmark | mark of finding",
+            "property | Prerequisites | Lesser Dragonmark (Finding)",
+            "rule",
+            "text | You cannot be flat-footed to a creature you have targeted with Locate."
+        ],
+        "filtering": [
+            "feat",
+            "feat-9",
+            "dragonmark",
+            "mark of finding",
+            "common"
+        ],
+        "level": 9
     },
     {
         "id": "feat.dragonmark.brew.perfect-scrying-sense",
@@ -87926,7 +88065,7 @@
         "icon_front": "abstract-119",
         "code": "feat 17",
         "contents": [
-            "pftrait | dragonmark | mark of detection",
+            "pftrait | dragonmark | mark of detection | siberys dragonmark",
             "property | Prerequisites | Grand Dragonmark (Detection)",
             "rule",
             "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Detector dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
@@ -87934,6 +88073,7 @@
         "filtering": [
             "feat",
             "feat-17",
+            "siberys dragonmark",
             "dragonmark",
             "mark of detection",
             "common"
@@ -87948,7 +88088,7 @@
         "icon_front": "abstract-119",
         "code": "feat 17",
         "contents": [
-            "pftrait | dragonmark | mark of finding",
+            "pftrait | dragonmark | mark of finding | siberys dragonmark",
             "property | Prerequisites | Grand Dragonmark (Finding)",
             "rule",
             "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Seeker dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
@@ -87956,6 +88096,7 @@
         "filtering": [
             "feat",
             "feat-17",
+            "siberys dragonmark",
             "dragonmark",
             "mark of finding",
             "common"
@@ -87970,7 +88111,7 @@
         "icon_front": "abstract-119",
         "code": "feat 17",
         "contents": [
-            "pftrait | dragonmark | mark of handling",
+            "pftrait | dragonmark | mark of handling | siberys dragonmark",
             "property | Prerequisites | Grand Dragonmark (Handling)",
             "rule",
             "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Handler dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
@@ -87978,6 +88119,7 @@
         "filtering": [
             "feat",
             "feat-17",
+            "siberys dragonmark",
             "dragonmark",
             "mark of handling",
             "common"
@@ -87992,7 +88134,7 @@
         "icon_front": "abstract-119",
         "code": "feat 17",
         "contents": [
-            "pftrait | dragonmark | mark of healing",
+            "pftrait | dragonmark | mark of healing | siberys dragonmark",
             "property | Prerequisites | Grand Dragonmark (Healing)",
             "rule",
             "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Healer dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
@@ -88000,6 +88142,7 @@
         "filtering": [
             "feat",
             "feat-17",
+            "siberys dragonmark",
             "dragonmark",
             "mark of healing",
             "common"
@@ -88014,7 +88157,7 @@
         "icon_front": "abstract-119",
         "code": "feat 17",
         "contents": [
-            "pftrait | dragonmark | mark of hospitality",
+            "pftrait | dragonmark | mark of hospitality | siberys dragonmark",
             "property | Prerequisites | Grand Dragonmark (Hospitality)",
             "rule",
             "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Hearth dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
@@ -88022,6 +88165,7 @@
         "filtering": [
             "feat",
             "feat-17",
+            "siberys dragonmark",
             "dragonmark",
             "mark of hospitality",
             "common"
@@ -88036,7 +88180,7 @@
         "icon_front": "abstract-119",
         "code": "feat 17",
         "contents": [
-            "pftrait | dragonmark | mark of making",
+            "pftrait | dragonmark | mark of making | siberys dragonmark",
             "property | Prerequisites | Grand Dragonmark (Making)",
             "rule",
             "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Maker dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
@@ -88044,6 +88188,7 @@
         "filtering": [
             "feat",
             "feat-17",
+            "siberys dragonmark",
             "dragonmark",
             "mark of making",
             "common"
@@ -88058,7 +88203,7 @@
         "icon_front": "abstract-119",
         "code": "feat 17",
         "contents": [
-            "pftrait | dragonmark | mark of passage",
+            "pftrait | dragonmark | mark of passage | siberys dragonmark",
             "property | Prerequisites | Grand Dragonmark (Passage)",
             "rule",
             "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Traveler dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
@@ -88066,6 +88211,7 @@
         "filtering": [
             "feat",
             "feat-17",
+            "siberys dragonmark",
             "dragonmark",
             "mark of passage",
             "common"
@@ -88080,7 +88226,7 @@
         "icon_front": "abstract-119",
         "code": "feat 17",
         "contents": [
-            "pftrait | dragonmark | mark of scribing",
+            "pftrait | dragonmark | mark of scribing | siberys dragonmark",
             "property | Prerequisites | Grand Dragonmark (Scribing)",
             "rule",
             "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Scribe dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
@@ -88088,6 +88234,7 @@
         "filtering": [
             "feat",
             "feat-17",
+            "siberys dragonmark",
             "dragonmark",
             "mark of scribing",
             "common"
@@ -88102,7 +88249,7 @@
         "icon_front": "abstract-119",
         "code": "feat 17",
         "contents": [
-            "pftrait | dragonmark | mark of sentinel",
+            "pftrait | dragonmark | mark of sentinel | siberys dragonmark",
             "property | Prerequisites | Grand Dragonmark (Sentinel)",
             "rule",
             "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Protector dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
@@ -88110,6 +88257,7 @@
         "filtering": [
             "feat",
             "feat-17",
+            "siberys dragonmark",
             "dragonmark",
             "mark of sentinel",
             "common"
@@ -88124,7 +88272,7 @@
         "icon_front": "abstract-119",
         "code": "feat 17",
         "contents": [
-            "pftrait | dragonmark | mark of shadow",
+            "pftrait | dragonmark | mark of shadow | siberys dragonmark",
             "property | Prerequisites | Grand Dragonmark (Shadow)",
             "rule",
             "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Shade dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
@@ -88132,6 +88280,7 @@
         "filtering": [
             "feat",
             "feat-17",
+            "siberys dragonmark",
             "dragonmark",
             "mark of shadow",
             "common"
@@ -88146,7 +88295,7 @@
         "icon_front": "abstract-119",
         "code": "feat 17",
         "contents": [
-            "pftrait | dragonmark | mark of storm",
+            "pftrait | dragonmark | mark of storm | siberys dragonmark",
             "property | Prerequisites | Grand Dragonmark (Storm)",
             "rule",
             "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Stormbringer dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
@@ -88154,6 +88303,7 @@
         "filtering": [
             "feat",
             "feat-17",
+            "siberys dragonmark",
             "dragonmark",
             "mark of storm",
             "common"
@@ -88168,7 +88318,7 @@
         "icon_front": "abstract-119",
         "code": "feat 17",
         "contents": [
-            "pftrait | dragonmark | mark of warding",
+            "pftrait | dragonmark | mark of warding | siberys dragonmark",
             "property | Prerequisites | Grand Dragonmark (Warding)",
             "rule",
             "text | Your dragonmark covers your entire body now, its dominion over magic absolute. You gain the Siberys Warder dragonmark spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
@@ -88176,11 +88326,111 @@
         "filtering": [
             "feat",
             "feat-17",
+            "siberys dragonmark",
             "dragonmark",
             "mark of warding",
             "common"
         ],
         "level": 17
+    },
+    {
+        "id": "feat.dragonmark.brew.tharashk-survivalist",
+        "color": "#F57C00",
+        "name": "Tharashk Survivalist",
+        "title": "Tharashk Survivalist [[free-action]]",
+        "icon_front": "abstract-119",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | dragonmark | fortune | mark of finding",
+            "property | Prerequisites | Least Dragonmark (Finding)",
+            "property | Trigger | You fail a non-secret Survival check.",
+            "property | Frequency | once per day",
+            "rule",
+            "text | Your training with Tharashk provided you with the training to make the best of a bad survival situation. If you roll a failure on a Survival check, you can reroll the check. You may select the better of the two rolls."
+        ],
+        "filtering": [
+            "feat",
+            "feat-1",
+            "dragonmark",
+            "mark of finding",
+            "fortune",
+            "common"
+        ],
+        "level": 1
+    },
+    {
+        "id": "feat.dragonmark.brew.track-the-trackless",
+        "color": "#F57C00",
+        "name": "Track the Trackless",
+        "title": "Track the Trackless",
+        "icon_front": "abstract-119",
+        "code": "feat 17",
+        "contents": [
+            "pftrait | dragonmark | mark of finding",
+            "property | Prerequisites | Greater Dragonmark (Finding); Hunt Prey",
+            "rule",
+            "text | The DC to track your prey is unaffected by Pass Without Trace. The +4 status bonus is not applied and the spell DC is not used."
+        ],
+        "filtering": [
+            "feat",
+            "feat-17",
+            "dragonmark",
+            "mark of finding",
+            "common"
+        ],
+        "level": 17
+    },
+    {
+        "id": "feat.dragonmark.brew.trap-warden",
+        "color": "#F57C00",
+        "name": "Trap Warden",
+        "title": "Trap Warden",
+        "icon_front": "abstract-119",
+        "code": "feat 5",
+        "contents": [
+            "pftrait | dragonmark | mark of finding",
+            "property | Prerequisites | Least Dragonmark (Finding)",
+            "rule",
+            "text | You have an intuitive sense that alerts you to the dangers and presence of traps. You gain a +1 circumstance bonus to Perception checks to find traps, to AC against attacks made by traps, and to saves against traps. Even if you aren't Searching, you get a check to find traps that normally require you to be Searching. You still need to meet any other requirements to find the trap.",
+            "text | You can disable traps that require a proficiency rank of master in Thievery. If you have master proficiency in Thievery, you can disable traps that require a proficiency rank of legendary instead.",
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Greater Dragonmark | The bonus increases to +2.",
+            "property | Siberys Dragonmark | The bonus increases to +3."
+        ],
+        "filtering": [
+            "feat",
+            "feat-5",
+            "dragonmark",
+            "mark of finding",
+            "common"
+        ],
+        "level": 5
+    },
+    {
+        "id": "feat.dragonmark.brew.vadalis-instincts",
+        "color": "#F57C00",
+        "name": "Vadalis Instincts",
+        "title": "Vadalis Instincts [[free-action]]",
+        "icon_front": "abstract-119",
+        "code": "feat 1",
+        "contents": [
+            "pftrait | dragonmark | fortune | mark of handling",
+            "property | Prerequisites | Least Dragonmark (Handling)",
+            "property | Trigger | You fail a non-secret Nature check.",
+            "property | Frequency | once per day",
+            "rule",
+            "text | Your training with animals and nature improves your ties to the primal world. If you roll a failure on a Nature check, you can reroll the check. You may select the better of the two rolls."
+        ],
+        "filtering": [
+            "feat",
+            "feat-1",
+            "dragonmark",
+            "mark of handling",
+            "fortune",
+            "common"
+        ],
+        "level": 1
     },
     {
         "id": "feat.dragonmark.brew.visions-of-the-past",
@@ -88194,9 +88444,14 @@
             "property | Prerequisites | Lesser Dragonmark (Detection)",
             "property | Frequency | once per day",
             "rule",
-            "text | By spending 10 minutes in deep meditation, you peer into the past. You can ask three questions regarding the past of the area you are in. You receive your answers as a combination of indistinct sensory impressions, as determined by the GM. For example, if you ask \"Who killed Borestes?\" you might learn that it was a male half-orc wielding an axe, but you will not learn the name of the killer. If you happen to be familiar with this particular half-orc, you might instinctively recognize him. In general, however, the imagery is vague and blurred; however, you might catch a particularly vivid image, such as a precise look at the killer's distinctive axe.",
+            "text | By spending 10 minutes in deep meditation, you peer up to a week into the past. You can ask three questions regarding the past of the area you are in. You receive your answers as a combination of indistinct sensory impressions, as determined by the GM. For example, if you ask \"Who killed Borestes?\" you might learn that it was a male half-orc wielding an axe, but you will not learn the name of the killer. If you happen to be familiar with this particular half-orc, you might instinctively recognize him. In general, however, the imagery is vague and blurred; however, you might catch a particularly vivid image, such as a precise look at the killer's distinctive axe.",
             "text | The answers you receive come not from any deity, but from your dragonmark's supernatural connection to the past. As such, treat the answers as coming from an effectively omniscient being. However, you will only receive responses to questions regarding events that occurred within your line of sight, and any magical effect that would have interfered with scrying automatically conceals past events from this power. For example, you might ask a question regarding a crime committed at a particular site, but if the character who committed that crime was under the effect of Nondetection at the time, the response will be completely indecipherable. This ability works best when you ask specific questions: The more vague the question you ask, the more vague the response will be.",
-            "text | The maximum period you can look back through time is based on the strength of the dragonmark whose power you expend: lesser is a week, greater is a month, grand is a year, and Siberys a century."
+            "text | The maximum period you can look back through time is based on the strength of your dragonmark.",
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Greater Dragonmark | You can look back up to a month in time.",
+            "property | Grand Dragonmark | You can look back up to a year in time.",
+            "property | Siberys Dragonmark | You can look back up to a century in time."
         ],
         "filtering": [
             "feat",

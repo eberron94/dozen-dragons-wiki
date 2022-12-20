@@ -1,0 +1,65 @@
+{
+    "spell": [
+        {
+            "name": "Animal Friendship",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 2,
+            "traits": [
+                "enchantment",
+                "dragonmark",
+                "mark of handling",
+                "adept"
+            ],
+            "cast": {
+                "number": 2,
+                "unit": "action"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Least Dragonmark",
+            "range": {
+                "number": 30,
+                "unit": "feet"
+            },
+            "targets": "1 living creature with the animal or beast trait",
+            "duration": {
+                "type": "timed",
+                "entry": "sustained up to 1 minute",
+                "sustain": true,
+                "duration": {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            },
+            "entries": [
+                "You call upon your dragonmark's power to calm animal emotions and aid your interactions with animals. When you Cast the Spell, unwilling targets must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.",
+                "You can Dismiss the spell. If you use hostile actions against the target, the spell ends. If the spell ends before the full duration, the creature reverts to its original attitude. If the spell is sustained for the full duration, the effects remain and the spell ends.",
+                {
+                    "type": "successDegree",
+                    "entries": {
+                        "Critical Success": "The target's attitude towards you decreases by one step. This does not revert if dismissed early.",
+                        "Success": "The target's attitude towards you is unchanged.",
+                        "Failure": "The target's attitude towards you increases by one step, to a minimum of indifferent.",
+                        "Critical Failure": "The target's attitude towards you increases by two steps, to a minimum of friendly."
+                    }
+                }
+            ],
+            "heightened": {
+                "X": {
+                    "3": [
+                        "Even if the target succeeds its save, its attitude becomes a minimum of unfriendly."
+                    ],
+                    "7": [
+                        "The duration is reduced to 3 rounds, after which the effects remain and the spell ends."
+                    ]
+                }
+            },
+            "dragonmark": {
+                "greater": "You may target up to 2 living creatures with the animal or beast trait.",
+                "grand": "You may target up to 4 living creatures with the animal or beast trait.",
+                "siberys": "You may target any number of living creatures with the animal or beast trait."
+            }
+        }
+    ]
+}

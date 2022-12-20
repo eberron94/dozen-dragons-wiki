@@ -82,6 +82,7 @@ const getContent = ({
     armorData,
     price,
     frequency,
+    dragonmark,
     ...item
 }) => {
     const lineArr = [];
@@ -168,7 +169,39 @@ const getContent = ({
 
     lineArr.push('rule');
 
-    return lineArr.concat(getTextEntries(item));
+    return lineArr
+        .concat(getTextEntries(item))
+        .concat(handleDragonmarkHeightened(dragonmark || {}));
+};
+
+const handleDragonmarkHeightened = ({
+    least,
+    lesser,
+    greater,
+    grand,
+    siberys,
+}) => {
+    const arr = ['fill', 'section | Power of the Dragonmark'];
+
+    if (least)
+        arr.push(`property | Least Dragonmark | ${Renderer.stripTags(least)}`);
+    if (lesser)
+        arr.push(
+            `property | Lesser Dragonmark | ${Renderer.stripTags(lesser)}`
+        );
+    if (greater)
+        arr.push(
+            `property | Greater Dragonmark | ${Renderer.stripTags(greater)}`
+        );
+    if (grand)
+        arr.push(`property | Grand Dragonmark | ${Renderer.stripTags(grand)}`);
+    if (siberys)
+        arr.push(
+            `property | Siberys Dragonmark | ${Renderer.stripTags(siberys)}`
+        );
+
+    if (arr.length > 2) return arr;
+    else return [];
 };
 
 const getId = ({

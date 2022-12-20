@@ -35,7 +35,7 @@
         "icon_front": "spell-abjuration",
         "code": "focus spell 2",
         "contents": [
-            "pftrait | abjuration | dragonmark | incapacitation | true mark",
+            "pftrait | abjuration | adept | dragonmark | incapacitation | true mark",
             "property | Cast | [[two-action]] [S M]; **Requirements** Least Dragonmark",
             "property | Saving Throw | Will",
             "property | Range | 30 feet | Targets | 1 creature with the dragonmark trait",
@@ -56,6 +56,7 @@
             "dragonmark",
             "incapacitation",
             "true mark",
+            "adept",
             "focus",
             "common"
         ],
@@ -69,18 +70,20 @@
         "icon_front": "spell-divination",
         "code": "focus spell 2",
         "contents": [
-            "pftrait | divination | dragonmark | mark of detection | prediction",
+            "pftrait | adept | divination | dragonmark | mark of detection | prediction",
             "property | Cast | [[two-action]] [S M]; **Requirements** Least Dragonmark",
             "property | Range | touch | Targets | 1 creature",
             "property | Duration | sustained up to 10 minutes",
             "rule",
             "text | You call upon your dragonmark's power to forewarn your target of impending danger. When you cast the spell, the target gains a +1 status bonus to initiative rolls and isn't flat-footed against undetected creatures. This bonus remains as long as you Sustain the Spell. The target is temporarily immune to Detect Danger for 1 hour.",
-            "bullet | **Greater Dragonmark** The bonus increases to +2",
-            "bullet | **Siberys Dragonmark** The bonus increases to +3",
             "fill",
             "section | Heightened Spellcasting",
             "property | Heightened (3rd) | You do not need to sustain Detect Danger.",
-            "property | Heightened (7th) | The duration increases to 1 hour."
+            "property | Heightened (7th) | The duration increases to 1 hour.",
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Greater Dragonmark | The bonus increases to +2.",
+            "property | Siberys Dragonmark | The bonus increases to +3."
         ],
         "filtering": [
             "spell",
@@ -89,6 +92,7 @@
             "dragonmark",
             "mark of detection",
             "prediction",
+            "adept",
             "focus",
             "common"
         ],
@@ -107,12 +111,14 @@
             "property | Duration | sustained up to 10 minutes",
             "rule",
             "text | You call upon your dragonmark's power to better uncover secrets. When you Cast the Spell, you can Recall Knowledge, Seek, or Sense Motive. You gain a +1 status bonus to the skill or Perception used for the roll, and this bonus remains as long as you Sustain the Spell.",
-            "bullet | **Greater Dragonmark** The bonus increases to +2",
-            "bullet | **Siberys Dragonmark** The bonus increases to +3",
             "fill",
             "section | Heightened Spellcasting",
             "property | Heightened (3rd) | You do not need to sustain Deductive Intuition",
-            "property | Heightened (7th) | The duration increases to 1 hour."
+            "property | Heightened (7th) | The duration increases to 1 hour.",
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Greater Dragonmark | The bonus increases to +2.",
+            "property | Siberys Dragonmark | The bonus increases to +3."
         ],
         "filtering": [
             "spell",
@@ -135,13 +141,15 @@
         "contents": [
             "pftrait | uncommon | dragonmark | mark of detection | transmutation",
             "property | Cast | See replicated spell [S M]; **Requirements** Lesser Dragonmark",
-            "property | Frequency | once per day",
+            "property | Frequency | Once per day --- even if you have the focus point to cast it",
             "rule",
             "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Detector, you choose to replicate Detect Poison, See Invisibility, or Object Reading. Lesser Detector gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Detector.",
             "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
-            "bullet | **Greater Dragonmark** You may cast Lesser Detector up to two times per daily preparation.",
-            "bullet | **Grand Dragonmark** You may cast Lesser Detector up to three times per daily preparation.",
-            "bullet | **Siberys Dragonmark** You may cast Lesser Detector any number of times per daily preparation."
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Greater Dragonmark | You may cast Lesser Detector up to two times per daily preparation.",
+            "property | Grand Dragonmark | You may cast Lesser Detector up to three times per daily preparation.",
+            "property | Siberys Dragonmark | You may cast Lesser Detector any number of times per daily preparation."
         ],
         "filtering": [
             "spell",
@@ -164,12 +172,14 @@
         "contents": [
             "pftrait | uncommon | dragonmark | mark of detection | transmutation",
             "property | Cast | See replicated spell [S M]; **Requirements** Greater Dragonmark",
-            "property | Frequency | once per day",
+            "property | Frequency | Once per day --- even if you have the focus point to cast it",
             "rule",
             "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Greater Detector, you choose to replicate Clairvoyance or Discern Lies. Greater Detector gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Greater Detector.",
             "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
-            "bullet | **Grand Dragonmark** You may cast Greater Detector up to two times per daily preparation.",
-            "bullet | **Siberys Dragonmark** You may cast Greater Detector up to three times per daily preparation."
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Grand Dragonmark | You may cast Greater Detector up to two times per daily preparation.",
+            "property | Siberys Dragonmark | You may cast Greater Detector up to three times per daily preparation."
         ],
         "filtering": [
             "spell",
@@ -192,11 +202,13 @@
         "contents": [
             "pftrait | uncommon | dragonmark | mark of detection | transmutation",
             "property | Cast | See replicated spell [S M]; **Requirements** Grand Dragonmark",
-            "property | Frequency | once per day",
+            "property | Frequency | Once per day --- even if you have the focus point to cast it",
             "rule",
             "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Grand Detector, you choose to replicate Detect Scrying or True Seeing. Grand Detector gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Grand Detector.",
             "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
-            "bullet | **Siberys Dragonmark** You may cast Grand Detector up to two times per daily preparation."
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Siberys Dragonmark | You may cast Grand Detector up to two times per daily preparation."
         ],
         "filtering": [
             "spell",
@@ -219,7 +231,7 @@
         "contents": [
             "pftrait | uncommon | dragonmark | mark of detection | transmutation",
             "property | Cast | See replicated spell [S M]; **Requirements** Siberys Dragonmark",
-            "property | Frequency | once per day",
+            "property | Frequency | Once per day --- even if you have the focus point to cast it",
             "rule",
             "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Siberys Detector, you choose to replicate Retrocognition, Foresight or any spell listed in the Lesser, Greater or Grand Detector spells. Siberys Detector gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Siberys Detector.",
             "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
@@ -231,6 +243,548 @@
             "transmutation",
             "dragonmark",
             "mark of detection",
+            "focus"
+        ],
+        "level": 9
+    },
+    {
+        "id": "spell.focus.2nd.brew.eyes-of-the-finder",
+        "color": "#0D47A1",
+        "name": "Eyes of the Finder",
+        "title": "Eyes of the Finder",
+        "icon_front": "spell-divination",
+        "code": "focus spell 2",
+        "contents": [
+            "pftrait | adept | divination | dragonmark | mark of finding",
+            "property | Cast | [[two-action]] [S M]; **Requirements** Least Dragonmark",
+            "property | Duration | sustained up to 1 minute",
+            "rule",
+            "text | You gain the ability to see through solid objects to a range of 30 feet. You have darkvision within that range as well. You perceive objects as ghostly, transparent images. The spell can see through most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, 3 feet of wood or dirt, or any magical material. You then become immune to Eyes of the Finder for 24 hours.",
+            "fill",
+            "section | Heightened Spellcasting",
+            "property | Heightened (3rd) | You can see through twice the thickness of materials. Any amount of lead or magical material still blocks your vision.",
+            "property | Heightened (7th) | The duration increases to 10 minutes.",
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Greater Dragonmark | You do not need to sustain Eyes of the Finder.",
+            "property | Grand Dragonmark | You become immune to Eyes of the Finder for only 1 hour after the spell ends.",
+            "property | Siberys Dragonmark | You do not become immune to Eyes of the Finder after the spell ends."
+        ],
+        "filtering": [
+            "spell",
+            "level-2",
+            "divination",
+            "dragonmark",
+            "mark of finding",
+            "adept",
+            "focus",
+            "common"
+        ],
+        "level": 2
+    },
+    {
+        "id": "spell.focus.1st.brew.seekers-intuition",
+        "color": "#0D47A1",
+        "name": "Seeker's Intuition",
+        "title": "Seeker's Intuition",
+        "icon_front": "spell-divination",
+        "code": "focus spell 1",
+        "contents": [
+            "pftrait | uncommon | divination | dragonmark | mark of finding",
+            "property | Cast | [[two-action]] [S M]; **Requirements** Least Dragonmark",
+            "property | Duration | sustained up to 10 minutes",
+            "rule",
+            "text | You call upon your dragonmark's power to better uncover secrets. When you Cast the Spell, you can Recall Knowledge (Survival), Identify Magic, Seek, or Sense Direction, Subsist, or Track. You gain a +1 status bonus to the skill or Perception used for the roll, and this bonus remains as long as you Sustain the Spell.",
+            "fill",
+            "section | Heightened Spellcasting",
+            "property | Heightened (3rd) | You do not need to sustain Seeker's Intuition",
+            "property | Heightened (7th) | The duration increases to 1 hour.",
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Greater Dragonmark | The bonus increases to +2.",
+            "property | Siberys Dragonmark | The bonus increases to +3."
+        ],
+        "filtering": [
+            "spell",
+            "level-1",
+            "uncommon",
+            "divination",
+            "dragonmark",
+            "mark of finding",
+            "focus"
+        ],
+        "level": 1
+    },
+    {
+        "id": "spell.focus.3rd.brew.lesser-seeker",
+        "color": "#0D47A1",
+        "name": "Lesser Seeker",
+        "title": "Lesser Seeker",
+        "icon_front": "spell-transmutation",
+        "code": "focus spell 3",
+        "contents": [
+            "pftrait | uncommon | dragonmark | mark of finding | transmutation",
+            "property | Cast | See replicated spell [S M]; **Requirements** Lesser Dragonmark",
+            "property | Frequency | Once per day --- even if you have the focus point to cast it",
+            "rule",
+            "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Seeker, you choose to replicate Expeditious Excavation, Status, or Locate. Lesser Seeker gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Seeker.",
+            "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
+            "bullet | **Greater Dragonmark** You may cast Lesser Seeker up to two times per daily preparation.",
+            "bullet | **Grand Dragonmark** You may cast Lesser Seeker up to three times per daily preparation.",
+            "bullet | **Siberys Dragonmark** You may cast Lesser Seeker any number of times per daily preparation."
+        ],
+        "filtering": [
+            "spell",
+            "level-3",
+            "uncommon",
+            "transmutation",
+            "dragonmark",
+            "mark of finding",
+            "focus"
+        ],
+        "level": 3
+    },
+    {
+        "id": "spell.focus.5th.brew.greater-seeker",
+        "color": "#0D47A1",
+        "name": "Greater Seeker",
+        "title": "Greater Seeker",
+        "icon_front": "spell-transmutation",
+        "code": "focus spell 5",
+        "contents": [
+            "pftrait | uncommon | dragonmark | mark of finding | transmutation",
+            "property | Cast | See replicated spell [S M]; **Requirements** Greater Dragonmark",
+            "property | Frequency | Once per day --- even if you have the focus point to cast it",
+            "rule",
+            "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Greater Seeker, you choose to replicate Wanderer's Guide or Countless Eyes. Greater Seeker gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Greater Seeker.",
+            "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
+            "bullet | **Grand Dragonmark** You may cast Greater Seeker up to two times per daily preparation.",
+            "bullet | **Siberys Dragonmark** You may cast Greater Seeker up to three times per daily preparation."
+        ],
+        "filtering": [
+            "spell",
+            "level-5",
+            "uncommon",
+            "transmutation",
+            "dragonmark",
+            "mark of finding",
+            "focus"
+        ],
+        "level": 5
+    },
+    {
+        "id": "spell.focus.7th.brew.grand-seeker",
+        "color": "#0D47A1",
+        "name": "Grand Seeker",
+        "title": "Grand Seeker",
+        "icon_front": "spell-transmutation",
+        "code": "focus spell 7",
+        "contents": [
+            "pftrait | uncommon | dragonmark | mark of finding | transmutation",
+            "property | Cast | See replicated spell [S M]; **Requirements** Grand Dragonmark",
+            "property | Frequency | Once per day --- even if you have the focus point to cast it",
+            "rule",
+            "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Grand Seeker, you choose to replicate Detect Scrying or True Seeing. Grand Seeker gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Grand Seeker.",
+            "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
+            "bullet | **Siberys Dragonmark** You may cast Grand Seeker up to two times per daily preparation."
+        ],
+        "filtering": [
+            "spell",
+            "level-7",
+            "uncommon",
+            "transmutation",
+            "dragonmark",
+            "mark of finding",
+            "focus"
+        ],
+        "level": 7
+    },
+    {
+        "id": "spell.focus.9th.brew.siberys-seeker",
+        "color": "#0D47A1",
+        "name": "Siberys Seeker",
+        "title": "Siberys Seeker",
+        "icon_front": "spell-transmutation",
+        "code": "focus spell 9",
+        "contents": [
+            "pftrait | uncommon | dragonmark | mark of finding | transmutation",
+            "property | Cast | See replicated spell [S M]; **Requirements** Siberys Dragonmark",
+            "property | Frequency | Once per day --- even if you have the focus point to cast it",
+            "rule",
+            "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Siberys Seeker, you choose to replicate Discern Location, Unrelenting Observation, or any spell listed in the Lesser, Greater or Grand Seeker spells. Siberys Seeker gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Siberys Seeker.",
+            "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+        ],
+        "filtering": [
+            "spell",
+            "level-9",
+            "uncommon",
+            "transmutation",
+            "dragonmark",
+            "mark of finding",
+            "focus"
+        ],
+        "level": 9
+    },
+    {
+        "id": "spell.focus.2nd.brew.animal-friendship",
+        "color": "#0D47A1",
+        "name": "Animal Friendship",
+        "title": "Animal Friendship",
+        "icon_front": "spell-enchantment",
+        "code": "focus spell 2",
+        "contents": [
+            "pftrait | adept | dragonmark | enchantment | mark of handling",
+            "property | Cast | [[two-action]] [S M]; **Requirements** Least Dragonmark",
+            "property | Range | 30 feet | Targets | 1 living creature with the animal or beast trait",
+            "property | Duration | sustained up to 1 minute",
+            "rule",
+            "text | You call upon your dragonmark's power to calm animal emotions and aid your interactions with animals. When you Cast the Spell, unwilling targets must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.",
+            "text | You can Dismiss the spell. If you use hostile actions against the target, the spell ends. If the spell ends before the full duration, the creature reverts to its original attitude. If the spell is sustained for the full duration, the effects remain and the spell ends.",
+            "fill",
+            "property | Critical Success | The target's attitude towards you decreases by one step. This does not revert if dismissed early.",
+            "property | Success | The target's attitude towards you is unchanged.",
+            "property | Failure | The target's attitude towards you increases by one step, to a minimum of indifferent.",
+            "property | Critical Failure | The target's attitude towards you increases by two steps, to a minimum of friendly.",
+            "fill",
+            "fill",
+            "section | Heightened Spellcasting",
+            "property | Heightened (3rd) | Even if the target succeeds its save, its attitude becomes a minimum of unfriendly.",
+            "property | Heightened (7th) | The duration is reduced to 3 rounds, after which the effects remain and the spell ends.",
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Greater Dragonmark | You may target up to 2 living creatures with the animal or beast trait.",
+            "property | Grand Dragonmark | You may target up to 4 living creatures with the animal or beast trait.",
+            "property | Siberys Dragonmark | You may target any number of living creatures with the animal or beast trait."
+        ],
+        "filtering": [
+            "spell",
+            "level-2",
+            "enchantment",
+            "dragonmark",
+            "mark of handling",
+            "adept",
+            "focus",
+            "common"
+        ],
+        "level": 2
+    },
+    {
+        "id": "spell.focus.1st.brew.primal-connection",
+        "color": "#0D47A1",
+        "name": "Primal Connection",
+        "title": "Primal Connection",
+        "icon_front": "spell-enchantment",
+        "code": "focus spell 1",
+        "contents": [
+            "pftrait | uncommon | dragonmark | enchantment | mark of handling",
+            "property | Cast | [[two-action]] [S M]; **Requirements** Least Dragonmark",
+            "property | Duration | sustained up to 10 minutes",
+            "rule",
+            "text | You call upon your dragonmark's power to better interact with animals. When you Cast the Spell, you can Recall Knowledge (Nature) or Command an Animal. You gain a +1 status bonus to the skill used for the roll. This bonus remains as long as you Sustain the Spell.",
+            "fill",
+            "section | Heightened Spellcasting",
+            "property | Heightened (3rd) | You do not need to sustain Primal Connection",
+            "property | Heightened (7th) | The duration increases to 1 hour.",
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Greater Dragonmark | The bonus increases to +2.",
+            "property | Siberys Dragonmark | The bonus increases to +3."
+        ],
+        "filtering": [
+            "spell",
+            "level-1",
+            "uncommon",
+            "enchantment",
+            "dragonmark",
+            "mark of handling",
+            "focus"
+        ],
+        "level": 1
+    },
+    {
+        "id": "spell.focus.3rd.brew.lesser-handler",
+        "color": "#0D47A1",
+        "name": "Lesser Handler",
+        "title": "Lesser Handler",
+        "icon_front": "spell-transmutation",
+        "code": "focus spell 3",
+        "contents": [
+            "pftrait | uncommon | dragonmark | mark of handling | transmutation",
+            "property | Cast | See replicated spell [S M]; **Requirements** Lesser Dragonmark",
+            "property | Frequency | Once per day --- even if you have the focus point to cast it",
+            "rule",
+            "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Handler, you choose to replicate  Friendfetch, Pet Cache, Animal Messenger, or Speak with Animals. Lesser Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Handler.",
+            "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
+            "bullet | **Greater Dragonmark** You may cast Lesser Handler up to two times per daily preparation.",
+            "bullet | **Grand Dragonmark** You may cast Lesser Handler up to three times per daily preparation.",
+            "bullet | **Siberys Dragonmark** You may cast Lesser Handler any number of times per daily preparation."
+        ],
+        "filtering": [
+            "spell",
+            "level-3",
+            "uncommon",
+            "transmutation",
+            "dragonmark",
+            "mark of handling",
+            "focus"
+        ],
+        "level": 3
+    },
+    {
+        "id": "spell.focus.5th.brew.greater-handler",
+        "color": "#0D47A1",
+        "name": "Greater Handler",
+        "title": "Greater Handler",
+        "icon_front": "spell-transmutation",
+        "code": "focus spell 5",
+        "contents": [
+            "pftrait | uncommon | dragonmark | mark of handling | transmutation",
+            "property | Cast | See replicated spell [S M]; **Requirements** Greater Dragonmark",
+            "property | Frequency | Once per day --- even if you have the focus point to cast it",
+            "rule",
+            "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Greater Handler, you choose to replicate Animal Vision or Aromatic Lure. Greater Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Greater Handler.",
+            "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
+            "bullet | **Grand Dragonmark** You may cast Greater Handler up to two times per daily preparation.",
+            "bullet | **Siberys Dragonmark** You may cast Greater Handler up to three times per daily preparation."
+        ],
+        "filtering": [
+            "spell",
+            "level-5",
+            "uncommon",
+            "transmutation",
+            "dragonmark",
+            "mark of handling",
+            "focus"
+        ],
+        "level": 5
+    },
+    {
+        "id": "spell.focus.7th.brew.grand-handler",
+        "color": "#0D47A1",
+        "name": "Grand Handler",
+        "title": "Grand Handler",
+        "icon_front": "spell-transmutation",
+        "code": "focus spell 7",
+        "contents": [
+            "pftrait | uncommon | dragonmark | mark of handling | transmutation",
+            "property | Cast | See replicated spell [S M]; **Requirements** Grand Dragonmark",
+            "property | Frequency | Once per day --- even if you have the focus point to cast it",
+            "rule",
+            "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Grand Handler, you choose to replicate  Dominate or Entrancing Eyes, but you can only target creatures with the animal or beast trait. Grand Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Grand Handler.",
+            "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
+            "bullet | **Siberys Dragonmark** You may cast Grand Handler up to two times per daily preparation."
+        ],
+        "filtering": [
+            "spell",
+            "level-7",
+            "uncommon",
+            "transmutation",
+            "dragonmark",
+            "mark of handling",
+            "focus"
+        ],
+        "level": 7
+    },
+    {
+        "id": "spell.focus.9th.brew.siberys-handler",
+        "color": "#0D47A1",
+        "name": "Siberys Handler",
+        "title": "Siberys Handler",
+        "icon_front": "spell-transmutation",
+        "code": "focus spell 9",
+        "contents": [
+            "pftrait | uncommon | dragonmark | mark of handling | transmutation",
+            "property | Cast | See replicated spell [S M]; **Requirements** Siberys Dragonmark",
+            "property | Frequency | Once per day --- even if you have the focus point to cast it",
+            "rule",
+            "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Siberys Handler, you choose to replicate Power Word Stun (but you can only target creatures with the animal or beast trait), Nature's Enmity, or any spell listed in the Lesser, Greater or Grand Handler spells. Siberys Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Siberys Handler.",
+            "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+        ],
+        "filtering": [
+            "spell",
+            "level-9",
+            "uncommon",
+            "transmutation",
+            "dragonmark",
+            "mark of handling",
+            "focus"
+        ],
+        "level": 9
+    },
+    {
+        "id": "spell.focus.2nd.brew.healing-word",
+        "color": "#0D47A1",
+        "name": "Healing Word",
+        "title": "Healing Word",
+        "icon_front": "spell-necromancy",
+        "code": "focus spell 2",
+        "contents": [
+            "pftrait | adept | dragonmark | healing | mark of healing | necromancy",
+            "property | Cast | [[one-action]] [S M]; **Requirements** Least Dragonmark",
+            "property | Range | 30 feet | Targets | 1 living creature",
+            "rule",
+            "text | You call upon your dragonmark's power to heal the wounded. Your dragonmark channels a burst of positive energy, healing a living creature. If you use healing word on a living target, they restore 4 Hit Points.",
+            "fill",
+            "section | Heightened Spellcasting",
+            "property | Heightened (+1) | The amount of healing increases by 4.",
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Greater Dragonmark | The range increases to 60 feet.",
+            "property | Grand Dragonmark | The range increases to 90 feet.",
+            "property | Siberys Dragonmark | The range increases to 120 feet."
+        ],
+        "filtering": [
+            "spell",
+            "level-2",
+            "necromancy",
+            "dragonmark",
+            "mark of healing",
+            "adept",
+            "healing",
+            "focus",
+            "common"
+        ],
+        "level": 2
+    },
+    {
+        "id": "spell.focus.1st.brew.healers-intuition",
+        "color": "#0D47A1",
+        "name": "Healer's Intuition",
+        "title": "Healer's Intuition",
+        "icon_front": "spell-necromancy",
+        "code": "focus spell 1",
+        "contents": [
+            "pftrait | uncommon | dragonmark | mark of healing | necromancy",
+            "property | Cast | [[two-action]] [S M]; **Requirements** Least Dragonmark",
+            "property | Duration | sustained up to 10 minutes",
+            "rule",
+            "text | You call upon your dragonmark's power to better mend wounds. When you Cast the Spell, you can Recall Knowledge (Medicine), Administer First Aid, Battle Medicine, Treat Disease, Treat Poison, or Treat Wounds. You gain a +1 status bonus to the skill used for the roll, and this bonus remains as long as you Sustain the Spell.",
+            "fill",
+            "section | Heightened Spellcasting",
+            "property | Heightened (3rd) | You do not need to sustain Healer's Intuition",
+            "property | Heightened (7th) | The duration increases to 1 hour.",
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Greater Dragonmark | The bonus increases to +2.",
+            "property | Siberys Dragonmark | The bonus increases to +3."
+        ],
+        "filtering": [
+            "spell",
+            "level-1",
+            "uncommon",
+            "necromancy",
+            "dragonmark",
+            "mark of healing",
+            "focus"
+        ],
+        "level": 1
+    },
+    {
+        "id": "spell.focus.3rd.brew.lesser-healer",
+        "color": "#0D47A1",
+        "name": "Lesser Healer",
+        "title": "Lesser Healer",
+        "icon_front": "spell-transmutation",
+        "code": "focus spell 3",
+        "contents": [
+            "pftrait | uncommon | dragonmark | mark of healing | transmutation",
+            "property | Cast | See replicated spell [S M]; **Requirements** Lesser Dragonmark",
+            "property | Frequency | Once per day --- even if you have the focus point to cast it",
+            "rule",
+            "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Healer, you choose to replicate  Endure, Soothe, Restoration, Remove Paralysis, or Restore Senses. Lesser Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Healer.",
+            "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
+            "bullet | **Greater Dragonmark** You may cast Lesser Healer up to two times per daily preparation.",
+            "bullet | **Grand Dragonmark** You may cast Lesser Healer up to three times per daily preparation.",
+            "bullet | **Siberys Dragonmark** You may cast Lesser Healer any number of times per daily preparation."
+        ],
+        "filtering": [
+            "spell",
+            "level-3",
+            "uncommon",
+            "transmutation",
+            "dragonmark",
+            "mark of healing",
+            "focus"
+        ],
+        "level": 3
+    },
+    {
+        "id": "spell.focus.5th.brew.greater-healer",
+        "color": "#0D47A1",
+        "name": "Greater Healer",
+        "title": "Greater Healer",
+        "icon_front": "spell-transmutation",
+        "code": "focus spell 5",
+        "contents": [
+            "pftrait | uncommon | dragonmark | mark of healing | transmutation",
+            "property | Cast | See replicated spell [S M]; **Requirements** Greater Dragonmark",
+            "property | Frequency | Once per day --- even if you have the focus point to cast it",
+            "rule",
+            "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Greater Healer, you choose to replicate Neutralize Poison, Remove Disease, or Remove Curse. Greater Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Greater Healer.",
+            "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
+            "bullet | **Grand Dragonmark** You may cast Greater Healer up to two times per daily preparation.",
+            "bullet | **Siberys Dragonmark** You may cast Greater Healer up to three times per daily preparation."
+        ],
+        "filtering": [
+            "spell",
+            "level-5",
+            "uncommon",
+            "transmutation",
+            "dragonmark",
+            "mark of healing",
+            "focus"
+        ],
+        "level": 5
+    },
+    {
+        "id": "spell.focus.7th.brew.grand-healer",
+        "color": "#0D47A1",
+        "name": "Grand Healer",
+        "title": "Grand Healer",
+        "icon_front": "spell-transmutation",
+        "code": "focus spell 7",
+        "contents": [
+            "pftrait | uncommon | dragonmark | mark of healing | transmutation",
+            "property | Cast | See replicated spell [S M]; **Requirements** Grand Dragonmark",
+            "property | Frequency | Once per day --- even if you have the focus point to cast it",
+            "rule",
+            "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Grand Healer, you choose to replicate Breath of Life or Raise Dead. Grand Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Grand Healer.",
+            "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
+            "bullet | **Siberys Dragonmark** You may cast Grand Healer up to two times per daily preparation."
+        ],
+        "filtering": [
+            "spell",
+            "level-7",
+            "uncommon",
+            "transmutation",
+            "dragonmark",
+            "mark of healing",
+            "focus"
+        ],
+        "level": 7
+    },
+    {
+        "id": "spell.focus.9th.brew.siberys-healer",
+        "color": "#0D47A1",
+        "name": "Siberys Healer",
+        "title": "Siberys Healer",
+        "icon_front": "spell-transmutation",
+        "code": "focus spell 9",
+        "contents": [
+            "pftrait | uncommon | dragonmark | mark of healing | transmutation",
+            "property | Cast | See replicated spell [S M]; **Requirements** Siberys Dragonmark",
+            "property | Frequency | Once per day --- even if you have the focus point to cast it",
+            "rule",
+            "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Siberys Healer, you choose to replicate Regenerate, Moment of Renewal, or any spell listed in the Lesser, Greater or Grand Healer spells. Siberys Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Siberys Healer.",
+            "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+        ],
+        "filtering": [
+            "spell",
+            "level-9",
+            "uncommon",
+            "transmutation",
+            "dragonmark",
+            "mark of healing",
             "focus"
         ],
         "level": 9

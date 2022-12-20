@@ -5,7 +5,7 @@
             "source": "BREW",
             "page": 1,
             "level": 5,
-            "traits": ["dragonmark"],
+            "traits": ["lesser dragonmark", "dragonmark"],
             "entries": [
                 "Your dragonmark grows in power and doubles in size. You gain your mark's lesser dragonmark focus spell and the lesser dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to expert."
             ],
@@ -13,7 +13,7 @@
             "variants": [
                 {
                     "variantType": "Detection",
-                    "traits": ["dragonmark", "mark of detection"],
+                    "traits": ["lesser dragonmark", "dragonmark", "mark of detection"],
                     "prerequisites": "Least Dragonmark (Detection)",
                     "_mod": {
                         "entries": [
@@ -28,7 +28,7 @@
                 },
                 {
                     "variantType": "Finding",
-                    "traits": ["dragonmark", "mark of finding"],
+                    "traits": ["lesser dragonmark", "dragonmark", "mark of finding"],
                     "prerequisites": "Least Dragonmark (Finding)",
                     "_mod": {
                         "entries": [
@@ -43,7 +43,7 @@
                 },
                 {
                     "variantType": "Handling",
-                    "traits": ["dragonmark", "mark of handling"],
+                    "traits": ["lesser dragonmark", "dragonmark", "mark of handling"],
                     "prerequisites": "Least Dragonmark (Handling)",
                     "_mod": {
                         "entries": [
@@ -58,7 +58,7 @@
                 },
                 {
                     "variantType": "Healing",
-                    "traits": ["dragonmark", "mark of healing"],
+                    "traits": ["lesser dragonmark", "dragonmark", "mark of healing"],
                     "prerequisites": "Least Dragonmark (Healing)",
                     "_mod": {
                         "entries": [
@@ -73,7 +73,7 @@
                 },
                 {
                     "variantType": "Hospitality",
-                    "traits": ["dragonmark", "mark of hospitality"],
+                    "traits": ["lesser dragonmark", "dragonmark", "mark of hospitality"],
                     "prerequisites": "Least Dragonmark (Hospitality)",
                     "_mod": {
                         "entries": [
@@ -88,7 +88,7 @@
                 },
                 {
                     "variantType": "Making",
-                    "traits": ["dragonmark", "mark of making"],
+                    "traits": ["lesser dragonmark", "dragonmark", "mark of making"],
                     "prerequisites": "Least Dragonmark (Making)",
                     "_mod": {
                         "entries": [
@@ -103,7 +103,7 @@
                 },
                 {
                     "variantType": "Passage",
-                    "traits": ["dragonmark", "mark of passage"],
+                    "traits": ["lesser dragonmark", "dragonmark", "mark of passage"],
                     "prerequisites": "Least Dragonmark (Passage)",
                     "_mod": {
                         "entries": [
@@ -118,7 +118,7 @@
                 },
                 {
                     "variantType": "Scribing",
-                    "traits": ["dragonmark", "mark of scribing"],
+                    "traits": ["lesser dragonmark", "dragonmark", "mark of scribing"],
                     "prerequisites": "Least Dragonmark (Scribing)",
                     "_mod": {
                         "entries": [
@@ -133,7 +133,7 @@
                 },
                 {
                     "variantType": "Sentinel",
-                    "traits": ["dragonmark", "mark of sentinel"],
+                    "traits": ["lesser dragonmark", "dragonmark", "mark of sentinel"],
                     "prerequisites": "Least Dragonmark (Sentinel)",
                     "_mod": {
                         "entries": [
@@ -148,7 +148,7 @@
                 },
                 {
                     "variantType": "Shadow",
-                    "traits": ["dragonmark", "mark of shadow"],
+                    "traits": ["lesser dragonmark", "dragonmark", "mark of shadow"],
                     "prerequisites": "Least Dragonmark (Shadow)",
                     "_mod": {
                         "entries": [
@@ -163,7 +163,7 @@
                 },
                 {
                     "variantType": "Storm",
-                    "traits": ["dragonmark", "mark of storm"],
+                    "traits": ["lesser dragonmark", "dragonmark", "mark of storm"],
                     "prerequisites": "Least Dragonmark (Storm)",
                     "_mod": {
                         "entries": [
@@ -178,7 +178,7 @@
                 },
                 {
                     "variantType": "Warding",
-                    "traits": ["dragonmark", "mark of warding"],
+                    "traits": ["lesser dragonmark", "dragonmark", "mark of warding"],
                     "prerequisites": "Least Dragonmark (Warding)",
                     "_mod": {
                         "entries": [
