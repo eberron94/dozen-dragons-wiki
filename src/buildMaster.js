@@ -203,6 +203,20 @@ const registerHandlebars = () => {
         );
     });
 
+    Handlebars.registerHelper('childPages', (context, options) => {
+        const compileBread = compileHandlebarTemplate(
+            'templates/common/child-pages.hbs'
+        );
+        // if (context.slug === '/index') return '';
+
+        const childrenArr = Object.values(context.data.root.node.children).reverse()
+
+        return compileBread(
+            childrenArr,
+            options
+        );
+    })
+
     Handlebars.registerHelper('card', (context, options) => {
         const cardFind = kaiser.data.itemCard.findPartials(context.trim())[0];
 

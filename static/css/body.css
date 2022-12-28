@@ -410,3 +410,22 @@ li.fav img:hover {
     -moz-transition: filter 0.5s;
     transition: filter 0.5s;
 }
+
+.child-bookcase {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 4px;
+}
+
+.child-bookcase a {
+    flex: 0 0 30%;
+    width: 5rem;
+    color: #242a31;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #e6ecf1;
+    transition: border 0.2s ease 0s;
+    box-shadow: 0 3px 8px 0 rgb(116 129 141 / 10%);
+    text-decoration: none !important;
+    padding: 8px 4px;
+}
