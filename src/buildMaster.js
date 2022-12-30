@@ -7,6 +7,7 @@ const { kaiser } = require('./kaiser');
 const { bucketArray } = require('./util/arrays');
 const { nthNumber, toDashCase } = require('./util/stringHelper');
 const { unescape } = require('lodash');
+const { PageNode } = require('./kaiser/classes');
 
 exports.buildSite = () => {
     registerHandlebars();
@@ -207,22 +208,36 @@ const registerHandlebars = () => {
         const compileBread = compileHandlebarTemplate(
             'templates/common/child-pages.hbs'
         );
-        // if (context.slug === '/index') return '';
 
-        const childrenArr = Object.values(context.data.root.node.children).reverse()
+        const filterMinWeight =
+            options?.hash?.minWeight || options?.hash?.exactWeight || 0;
+        const filterMaxWeight =
+            options?.hash?.maxWeight ||
+            options?.hash?.exactWeight ||
+            Number.MAX_SAFE_INTEGER;
 
-        return compileBread(
-            childrenArr,
-            options
-        );
-    })
+        // console.log('FILTER CHILD PAGES', context, options);
+
+        const childrenArr = Object.values(
+            context?.node?.children ||
+                context?.data?.root?.node?.children ||
+                options?.data?.root?.node?.children
+        )
+            .filter(
+                (n) =>
+                    n.weight <= filterMaxWeight && n.weight >= filterMinWeight
+            )
+            .sort(PageNode.sort);
+
+        return compileBread(childrenArr, options);
+    });
 
     Handlebars.registerHelper('card', (context, options) => {
         const cardFind = kaiser.data.itemCard.findPartials(context.trim())[0];
 
         if (cardFind && cardFind?.block?.index) return cardFind.block.index;
 
-        // console.warn('MISSING ID', context);
+        console.warn('MISSING ID', context);
         return 'ERROR: INVALID ID';
     });
 
@@ -237,7 +252,7 @@ const registerHandlebars = () => {
         if (cardFind && cardFind?.inlineRef?.index)
             return cardFind.inlineRef.index;
 
-        // console.warn('MISSING ID', context);
+        console.warn('MISSING ID', context);
         return 'ERROR: INVALID ID';
     });
 
@@ -274,7 +289,9 @@ const registerHandlebars = () => {
                 .map((lvl) => {
                     const nth = nthNumber(lvl);
                     return (
-                        `<div class='level-head'><h${hl} id="level-${nth}-${options.hash.res||'a'}">${nth} Level</h${hl}></div>` +
+                        `<div class='level-head'><h${hl} id="level-${nth}-${
+                            options.hash.res || 'a'
+                        }">${nth} Level</h${hl}></div>` +
                         buildDeck(levelBuckets[lvl], options)
                     );
                 })

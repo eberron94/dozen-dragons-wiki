@@ -429,3 +429,9 @@ li.fav img:hover {
     text-decoration: none !important;
     padding: 8px 4px;
 }
+
+@media (max-width: 750px) {
+    .child-bookcase a {
+        flex-basis: 40%;
+    }
+}
