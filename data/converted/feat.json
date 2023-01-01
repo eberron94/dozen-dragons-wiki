@@ -87274,6 +87274,31 @@
         "level": 9
     },
     {
+        "id": "feat.dragonmark.brew.grace-of-ghallanda",
+        "color": "#F57C00",
+        "name": "Grace of Ghallanda",
+        "title": "Grace of Ghallanda [[free-action]]",
+        "icon_front": "abstract-119",
+        "code": "feat 3",
+        "contents": [
+            "pftrait | dragonmark | fortune | mark of hospitality",
+            "property | Prerequisites | Least Dragonmark (Hospitality)",
+            "property | Trigger | You fail a non-secret Diplomacy check.",
+            "property | Frequency | once per day",
+            "rule",
+            "text | Formal training with house Ghallanda allows you to upkeep your social grace. If you roll a failure on a Diplomacy check, you can reroll the check. You may select the better of the two rolls."
+        ],
+        "filtering": [
+            "feat",
+            "feat-3",
+            "dragonmark",
+            "mark of hospitality",
+            "fortune",
+            "common"
+        ],
+        "level": 3
+    },
+    {
         "id": "feat.dragonmark.brew.grand-dragonmark-detection",
         "color": "#F57C00",
         "name": "Grand Dragonmark (Detection)",

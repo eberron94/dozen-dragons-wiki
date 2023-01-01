@@ -117,6 +117,7 @@
         - spell.focus.1st.botd.hallowed-ground
         - spell.focus.1st.brew.deductive-intuition
         - spell.focus.1st.brew.healers-intuition
+        - spell.focus.1st.brew.innkeepers-magic
         - spell.focus.1st.brew.primal-connection
         - spell.focus.1st.brew.seekers-intuition
         - spell.focus.1st.crb.agile-feet
@@ -235,6 +236,7 @@
         - spell.focus.2nd.brew.detect-danger
         - spell.focus.2nd.brew.eyes-of-the-finder
         - spell.focus.2nd.brew.healing-word
+        - spell.focus.2nd.brew.kindle-friendship
         - spell.focus.2nd.crb.wholeness-of-body
         - spell.focus.2nd.locg.invoke-the-crimson-oath
         - spell.focus.2nd.locg.light-of-revelation
@@ -268,6 +270,7 @@
         - spell.focus.3rd.brew.lesser-detector
         - spell.focus.3rd.brew.lesser-handler
         - spell.focus.3rd.brew.lesser-healer
+        - spell.focus.3rd.brew.lesser-hearth
         - spell.focus.3rd.brew.lesser-seeker
         - spell.focus.3rd.crb.aberrant-whispers
         - spell.focus.3rd.crb.angelic-wings
@@ -402,6 +405,7 @@
         - spell.focus.5th.brew.greater-detector
         - spell.focus.5th.brew.greater-handler
         - spell.focus.5th.brew.greater-healer
+        - spell.focus.5th.brew.greater-hearth
         - spell.focus.5th.brew.greater-seeker
         - spell.focus.5th.crb.abyssal-wrath
         - spell.focus.5th.crb.arcane-countermeasure
@@ -441,6 +445,7 @@
         - spell.focus.7th.brew.grand-detector
         - spell.focus.7th.brew.grand-handler
         - spell.focus.7th.brew.grand-healer
+        - spell.focus.7th.brew.grand-hearth
         - spell.focus.7th.brew.grand-seeker
         - spell.focus.7th.crb.litany-of-righteousness
         - spell.focus.7th.crb.soothing-ballad
@@ -453,6 +458,7 @@
         - spell.focus.9th.brew.siberys-detector
         - spell.focus.9th.brew.siberys-handler
         - spell.focus.9th.brew.siberys-healer
+        - spell.focus.9th.brew.siberys-hearth
         - spell.focus.9th.brew.siberys-seeker
         - spell.focus.9th.crb.empty-body
         - spell.focus.9th.crb.storm-lord

@@ -1,16 +1,16 @@
 {
     "spell": [
         {
-            "name": "Healer's Intuition",
+            "name": "Innkeeper's Magic",
             "source": "BREW",
             "page": 1,
             "focus": true,
             "level": 1,
             "traits": [
                 "uncommon",
-                "necromancy",
+                "enchantment",
                 "dragonmark",
-                "mark of healing"
+                "mark of hospitality"
             ],
             "cast": {
                 "number": 2,
@@ -28,11 +28,11 @@
                 }
             },
             "entries": [
-                "You call upon your dragonmark's power to better mend wounds. When you Cast the Spell, you can Recall Knowledge (Medicine), Administer First Aid, Battle Medicine, Treat Disease, Treat Poison, or Treat Wounds. You gain a +1 status bonus to the skill used for the roll, and this bonus remains as long as you Sustain the Spell."
+                "You call upon your dragonmark's power to better interact with others. When you Cast the Spell, you can Recall Knowledge (Society), Gather Information, Make an Impression, or Request. You gain a +1 status bonus to the skill used for the roll, and this bonus remains as long as you Sustain the Spell."
             ],
             "heightened": {
                 "X": {
-                    "3": ["You do not need to sustain Healer's Intuition"],
+                    "3": ["You do not need to sustain Innkeeper's Magic"],
                     "7": ["The duration increases to 1 hour."]
                 }
             },
@@ -42,7 +42,7 @@
             }
         },
         {
-            "name": "Lesser Healer",
+            "name": "Lesser Hearth",
             "source": "BREW",
             "page": 1,
             "focus": true,
@@ -51,7 +51,7 @@
                 "uncommon",
                 "transmutation",
                 "dragonmark",
-                "mark of healing"
+                "mark of hospitality"
             ],
             "cast": {
                 "number": 1,
@@ -66,17 +66,17 @@
             "components": [["S", "M"]],
             "requirements": "Lesser Dragonmark",
             "entries": [
-                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Healer, you choose to replicate  Endure, Soothe, Restoration, Remove Paralysis, or Restore Senses. Lesser Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Healer.",
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Hearth, you choose to replicate Soothe, Sleep, Charm, Calm Emotions, or Create Food. Lesser Hearth gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Hearth.",
                 "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
             ],
             "dragonmark": {
-                "greater": "You may cast Lesser Healer up to two times per daily preparation.",
-                "grand": "You may cast Lesser Healer up to three times per daily preparation.",
-                "siberys": "You may cast Lesser Healer any number of times per daily preparation."
+                "greater": "You may cast Lesser Hearth up to two times per daily preparation.",
+                "grand": "You may cast Lesser Hearth up to three times per daily preparation.",
+                "siberys": "You may cast Lesser Hearth any number of times per daily preparation."
             }
         },
         {
-            "name": "Greater Healer",
+            "name": "Greater Hearth",
             "source": "BREW",
             "page": 1,
             "focus": true,
@@ -85,7 +85,7 @@
                 "uncommon",
                 "transmutation",
                 "dragonmark",
-                "mark of healing"
+                "mark of hospitality"
             ],
             "cast": {
                 "number": 1,
@@ -100,16 +100,16 @@
             "components": [["S", "M"]],
             "requirements": "Greater Dragonmark",
             "entries": [
-                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Greater Healer, you choose to replicate Neutralize Poison, Remove Disease, or Remove Curse. Greater Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Greater Healer.",
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Greater Hearth, you choose to replicate Cozy Cabin, Enhance Victuals, or Enthrall. Greater Hearth gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Greater Hearth.",
                 "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
             ],
             "dragonmark": {
-                "grand": "You may cast Greater Healer up to two times per daily preparation.",
-                "siberys": "You may cast Greater Healer up to three times per daily preparation."
+                "grand": "You may cast Greater Hearth up to two times per daily preparation.",
+                "siberys": "You may cast Greater Hearth up to three times per daily preparation."
             }
         },
         {
-            "name": "Grand Healer",
+            "name": "Grand Hearth",
             "source": "BREW",
             "page": 1,
             "focus": true,
@@ -118,7 +118,7 @@
                 "uncommon",
                 "transmutation",
                 "dragonmark",
-                "mark of healing"
+                "mark of hospitality"
             ],
             "cast": {
                 "number": 1,
@@ -133,15 +133,15 @@
             "components": [["S", "M"]],
             "requirements": "Grand Dragonmark",
             "entries": [
-                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Grand Healer, you choose to replicate Breath of Life or Raise Dead. Grand Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Grand Healer.",
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Grand Hearth, you choose to replicate Suggestion or Magnificent Mansion. Grand Hearth gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Grand Hearth.",
                 "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
             ],
             "dragonmark": {
-                "siberys": "You may cast Grand Healer up to two times per daily preparation."
+                "siberys": "You may cast Grand Hearth up to two times per daily preparation."
             }
         },
         {
-            "name": "Siberys Healer",
+            "name": "Siberys Hearth",
             "source": "BREW",
             "page": 1,
             "focus": true,
@@ -150,7 +150,7 @@
                 "uncommon",
                 "transmutation",
                 "dragonmark",
-                "mark of healing"
+                "mark of hospitality"
             ],
             "cast": {
                 "number": 1,
@@ -165,7 +165,7 @@
             "components": [["S", "M"]],
             "requirements": "Siberys Dragonmark",
             "entries": [
-                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Siberys Healer, you choose to replicate Regenerate, Moment of Renewal, or any spell listed in the Lesser, Greater or Grand Healer spells. Siberys Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Siberys Healer.",
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Siberys Hearth, you choose to replicate Moment of Renewal, Resplendent Mansion, or any spell listed in the Lesser, Greater or Grand Hearth spells. Siberys Hearth gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Siberys Hearth.",
                 "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
             ]
         }

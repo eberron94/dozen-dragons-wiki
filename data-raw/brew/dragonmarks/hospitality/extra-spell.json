@@ -1,0 +1,49 @@
+{
+    "spell": [
+        {
+            "name": "Kindle Friendship",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 2,
+            "traits": [
+                "emotion",
+                "enchantment",
+                "linguistic",
+                "dragonmark",
+                "mark of hospitality",
+                "adept"
+            ],
+            "cast": {
+                "number": 2,
+                "unit": "action"
+            },
+            "duration": {
+                "type": "timed",
+                "entry": "10 minutes",
+                "duration": {
+                    "number": 10,
+                    "unit": "minute"
+                }
+            },
+            "components": [["S", "M"]],
+            "requirements": "Least Dragonmark",
+            "entries": [
+                "With a warm handshake and a friendly smile, the powers of your dragonmark help others open themselves to you. The next creature you shake hands with may make a Will save if they are unwilling. They gain a +4 circumstance bonus to this save if you or your allies recently threatened or were hostile to it. Creatures are always unaware that you have cast Kindle Friendship. The creature is immune to all future uses of Kindle Friendship from you. The spell ends after your first interaction.",
+                {
+                    "type": "successDegree",
+                    "entries": {
+                        "Success": "No change in attitude.",
+                        "Failure": "The creature's attitude towards you increases by one step.",
+                        "Critical Failure": "The creature's attitude towards you increases by two steps."
+                    }
+                }
+            ],
+            "dragonmark": {
+                "greater": "The spell ends after your second interaction.",
+                "grand": "The spell ends after your third interaction.",
+                "siberys": "The spell does not end after interacting with a creature."
+            }
+        }
+    ]
+}

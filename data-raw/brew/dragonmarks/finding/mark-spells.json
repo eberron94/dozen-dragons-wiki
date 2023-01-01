@@ -67,16 +67,13 @@
             "requirements": "Lesser Dragonmark",
             "entries": [
                 "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Seeker, you choose to replicate Expeditious Excavation, Status, or Locate. Lesser Seeker gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Seeker.",
-                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
-                {
-                    "type": "list",
-                    "items": [
-                        "{@b Greater Dragonmark} You may cast Lesser Seeker up to two times per daily preparation.",
-                        "{@b Grand Dragonmark} You may cast Lesser Seeker up to three times per daily preparation.",
-                        "{@b Siberys Dragonmark} You may cast Lesser Seeker any number of times per daily preparation."
-                    ]
-                }
-            ]
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "dragonmark": {
+                "greater": "You may cast Lesser Seeker up to two times per daily preparation.",
+                "grand": "You may cast Lesser Seeker up to three times per daily preparation.",
+                "siberys": "You may cast Lesser Seeker any number of times per daily preparation."
+            }
         },
         {
             "name": "Greater Seeker",
@@ -104,15 +101,12 @@
             "requirements": "Greater Dragonmark",
             "entries": [
                 "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Greater Seeker, you choose to replicate Wanderer's Guide or Countless Eyes. Greater Seeker gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Greater Seeker.",
-                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
-                {
-                    "type": "list",
-                    "items": [
-                        "{@b Grand Dragonmark} You may cast Greater Seeker up to two times per daily preparation.",
-                        "{@b Siberys Dragonmark} You may cast Greater Seeker up to three times per daily preparation."
-                    ]
-                }
-            ]
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "dragonmark": {
+                "grand": "You may cast Greater Seeker up to two times per daily preparation.",
+                "siberys": "You may cast Greater Seeker up to three times per daily preparation."
+            }
         },
         {
             "name": "Grand Seeker",
@@ -140,14 +134,11 @@
             "requirements": "Grand Dragonmark",
             "entries": [
                 "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Grand Seeker, you choose to replicate Detect Scrying or True Seeing. Grand Seeker gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Grand Seeker.",
-                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
-                {
-                    "type": "list",
-                    "items": [
-                        "{@b Siberys Dragonmark} You may cast Grand Seeker up to two times per daily preparation."
-                    ]
-                }
-            ]
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "dragonmark": {
+                "siberys": "You may cast Grand Seeker up to two times per daily preparation."
+            }
         },
         {
             "name": "Siberys Seeker",

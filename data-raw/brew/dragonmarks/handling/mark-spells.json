@@ -67,16 +67,13 @@
             "requirements": "Lesser Dragonmark",
             "entries": [
                 "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Handler, you choose to replicate  Friendfetch, Pet Cache, Animal Messenger, or Speak with Animals. Lesser Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Handler.",
-                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
-                {
-                    "type": "list",
-                    "items": [
-                        "{@b Greater Dragonmark} You may cast Lesser Handler up to two times per daily preparation.",
-                        "{@b Grand Dragonmark} You may cast Lesser Handler up to three times per daily preparation.",
-                        "{@b Siberys Dragonmark} You may cast Lesser Handler any number of times per daily preparation."
-                    ]
-                }
-            ]
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "dragonmark": {
+                "greater": "You may cast Lesser Handler up to two times per daily preparation.",
+                "grand": "You may cast Lesser Handler up to three times per daily preparation.",
+                "siberys": "You may cast Lesser Handler any number of times per daily preparation."
+            }
         },
         {
             "name": "Greater Handler",
@@ -104,15 +101,12 @@
             "requirements": "Greater Dragonmark",
             "entries": [
                 "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Greater Handler, you choose to replicate Animal Vision or Aromatic Lure. Greater Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Greater Handler.",
-                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
-                {
-                    "type": "list",
-                    "items": [
-                        "{@b Grand Dragonmark} You may cast Greater Handler up to two times per daily preparation.",
-                        "{@b Siberys Dragonmark} You may cast Greater Handler up to three times per daily preparation."
-                    ]
-                }
-            ]
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "dragonmark": {
+                "grand": "You may cast Greater Handler up to two times per daily preparation.",
+                "siberys": "You may cast Greater Handler up to three times per daily preparation."
+            }
         },
         {
             "name": "Grand Handler",
@@ -140,14 +134,11 @@
             "requirements": "Grand Dragonmark",
             "entries": [
                 "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Grand Handler, you choose to replicate  Dominate or Entrancing Eyes, but you can only target creatures with the animal or beast trait. Grand Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Grand Handler.",
-                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
-                {
-                    "type": "list",
-                    "items": [
-                        "{@b Siberys Dragonmark} You may cast Grand Handler up to two times per daily preparation."
-                    ]
-                }
-            ]
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "dragonmark": {
+                "siberys": "You may cast Grand Handler up to two times per daily preparation."
+            }
         },
         {
             "name": "Siberys Handler",

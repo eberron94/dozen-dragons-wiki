@@ -329,9 +329,11 @@
             "rule",
             "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Seeker, you choose to replicate Expeditious Excavation, Status, or Locate. Lesser Seeker gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Seeker.",
             "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
-            "bullet | **Greater Dragonmark** You may cast Lesser Seeker up to two times per daily preparation.",
-            "bullet | **Grand Dragonmark** You may cast Lesser Seeker up to three times per daily preparation.",
-            "bullet | **Siberys Dragonmark** You may cast Lesser Seeker any number of times per daily preparation."
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Greater Dragonmark | You may cast Lesser Seeker up to two times per daily preparation.",
+            "property | Grand Dragonmark | You may cast Lesser Seeker up to three times per daily preparation.",
+            "property | Siberys Dragonmark | You may cast Lesser Seeker any number of times per daily preparation."
         ],
         "filtering": [
             "spell",
@@ -358,8 +360,10 @@
             "rule",
             "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Greater Seeker, you choose to replicate Wanderer's Guide or Countless Eyes. Greater Seeker gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Greater Seeker.",
             "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
-            "bullet | **Grand Dragonmark** You may cast Greater Seeker up to two times per daily preparation.",
-            "bullet | **Siberys Dragonmark** You may cast Greater Seeker up to three times per daily preparation."
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Grand Dragonmark | You may cast Greater Seeker up to two times per daily preparation.",
+            "property | Siberys Dragonmark | You may cast Greater Seeker up to three times per daily preparation."
         ],
         "filtering": [
             "spell",
@@ -386,7 +390,9 @@
             "rule",
             "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Grand Seeker, you choose to replicate Detect Scrying or True Seeing. Grand Seeker gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Grand Seeker.",
             "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
-            "bullet | **Siberys Dragonmark** You may cast Grand Seeker up to two times per daily preparation."
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Siberys Dragonmark | You may cast Grand Seeker up to two times per daily preparation."
         ],
         "filtering": [
             "spell",
@@ -515,9 +521,11 @@
             "rule",
             "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Handler, you choose to replicate  Friendfetch, Pet Cache, Animal Messenger, or Speak with Animals. Lesser Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Handler.",
             "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
-            "bullet | **Greater Dragonmark** You may cast Lesser Handler up to two times per daily preparation.",
-            "bullet | **Grand Dragonmark** You may cast Lesser Handler up to three times per daily preparation.",
-            "bullet | **Siberys Dragonmark** You may cast Lesser Handler any number of times per daily preparation."
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Greater Dragonmark | You may cast Lesser Handler up to two times per daily preparation.",
+            "property | Grand Dragonmark | You may cast Lesser Handler up to three times per daily preparation.",
+            "property | Siberys Dragonmark | You may cast Lesser Handler any number of times per daily preparation."
         ],
         "filtering": [
             "spell",
@@ -544,8 +552,10 @@
             "rule",
             "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Greater Handler, you choose to replicate Animal Vision or Aromatic Lure. Greater Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Greater Handler.",
             "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
-            "bullet | **Grand Dragonmark** You may cast Greater Handler up to two times per daily preparation.",
-            "bullet | **Siberys Dragonmark** You may cast Greater Handler up to three times per daily preparation."
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Grand Dragonmark | You may cast Greater Handler up to two times per daily preparation.",
+            "property | Siberys Dragonmark | You may cast Greater Handler up to three times per daily preparation."
         ],
         "filtering": [
             "spell",
@@ -572,7 +582,9 @@
             "rule",
             "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Grand Handler, you choose to replicate  Dominate or Entrancing Eyes, but you can only target creatures with the animal or beast trait. Grand Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Grand Handler.",
             "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
-            "bullet | **Siberys Dragonmark** You may cast Grand Handler up to two times per daily preparation."
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Siberys Dragonmark | You may cast Grand Handler up to two times per daily preparation."
         ],
         "filtering": [
             "spell",
@@ -693,9 +705,11 @@
             "rule",
             "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Healer, you choose to replicate  Endure, Soothe, Restoration, Remove Paralysis, or Restore Senses. Lesser Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Healer.",
             "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
-            "bullet | **Greater Dragonmark** You may cast Lesser Healer up to two times per daily preparation.",
-            "bullet | **Grand Dragonmark** You may cast Lesser Healer up to three times per daily preparation.",
-            "bullet | **Siberys Dragonmark** You may cast Lesser Healer any number of times per daily preparation."
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Greater Dragonmark | You may cast Lesser Healer up to two times per daily preparation.",
+            "property | Grand Dragonmark | You may cast Lesser Healer up to three times per daily preparation.",
+            "property | Siberys Dragonmark | You may cast Lesser Healer any number of times per daily preparation."
         ],
         "filtering": [
             "spell",
@@ -722,8 +736,10 @@
             "rule",
             "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Greater Healer, you choose to replicate Neutralize Poison, Remove Disease, or Remove Curse. Greater Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Greater Healer.",
             "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
-            "bullet | **Grand Dragonmark** You may cast Greater Healer up to two times per daily preparation.",
-            "bullet | **Siberys Dragonmark** You may cast Greater Healer up to three times per daily preparation."
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Grand Dragonmark | You may cast Greater Healer up to two times per daily preparation.",
+            "property | Siberys Dragonmark | You may cast Greater Healer up to three times per daily preparation."
         ],
         "filtering": [
             "spell",
@@ -750,7 +766,9 @@
             "rule",
             "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Grand Healer, you choose to replicate Breath of Life or Raise Dead. Grand Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Grand Healer.",
             "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
-            "bullet | **Siberys Dragonmark** You may cast Grand Healer up to two times per daily preparation."
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Siberys Dragonmark | You may cast Grand Healer up to two times per daily preparation."
         ],
         "filtering": [
             "spell",
@@ -785,6 +803,193 @@
             "transmutation",
             "dragonmark",
             "mark of healing",
+            "focus"
+        ],
+        "level": 9
+    },
+    {
+        "id": "spell.focus.2nd.brew.kindle-friendship",
+        "color": "#0D47A1",
+        "name": "Kindle Friendship",
+        "title": "Kindle Friendship",
+        "icon_front": "spell-enchantment",
+        "code": "focus spell 2",
+        "contents": [
+            "pftrait | adept | dragonmark | emotion | enchantment | linguistic | mark of hospitality",
+            "property | Cast | [[two-action]] [S M]; **Requirements** Least Dragonmark",
+            "property | Duration | 10 minutes",
+            "rule",
+            "text | With a warm handshake and a friendly smile, the powers of your dragonmark help others open themselves to you. The next creature you shake hands with may make a Will save if they are unwilling. They gain a +4 circumstance bonus to this save if you or your allies recently threatened or were hostile to it. Creatures are always unaware that you have cast Kindle Friendship. The creature is immune to all future uses of Kindle Friendship from you. The spell ends after your first interaction.",
+            "fill",
+            "property | Success | No change in attitude.",
+            "property | Failure | The creature's attitude towards you increases by one step.",
+            "property | Critical Failure | The creature's attitude towards you increases by two steps.",
+            "fill",
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Greater Dragonmark | The spell ends after your second interaction.",
+            "property | Grand Dragonmark | The spell ends after your third interaction.",
+            "property | Siberys Dragonmark | The spell does not end after interacting with a creature."
+        ],
+        "filtering": [
+            "spell",
+            "level-2",
+            "emotion",
+            "enchantment",
+            "linguistic",
+            "dragonmark",
+            "mark of hospitality",
+            "adept",
+            "focus",
+            "common"
+        ],
+        "level": 2
+    },
+    {
+        "id": "spell.focus.1st.brew.innkeepers-magic",
+        "color": "#0D47A1",
+        "name": "Innkeeper's Magic",
+        "title": "Innkeeper's Magic",
+        "icon_front": "spell-enchantment",
+        "code": "focus spell 1",
+        "contents": [
+            "pftrait | uncommon | dragonmark | enchantment | mark of hospitality",
+            "property | Cast | [[two-action]] [S M]; **Requirements** Least Dragonmark",
+            "property | Duration | sustained up to 10 minutes",
+            "rule",
+            "text | You call upon your dragonmark's power to better interact with others. When you Cast the Spell, you can Recall Knowledge (Society), Gather Information, Make an Impression, or Request. You gain a +1 status bonus to the skill used for the roll, and this bonus remains as long as you Sustain the Spell.",
+            "fill",
+            "section | Heightened Spellcasting",
+            "property | Heightened (3rd) | You do not need to sustain Innkeeper's Magic",
+            "property | Heightened (7th) | The duration increases to 1 hour.",
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Greater Dragonmark | The bonus increases to +2.",
+            "property | Siberys Dragonmark | The bonus increases to +3."
+        ],
+        "filtering": [
+            "spell",
+            "level-1",
+            "uncommon",
+            "enchantment",
+            "dragonmark",
+            "mark of hospitality",
+            "focus"
+        ],
+        "level": 1
+    },
+    {
+        "id": "spell.focus.3rd.brew.lesser-hearth",
+        "color": "#0D47A1",
+        "name": "Lesser Hearth",
+        "title": "Lesser Hearth",
+        "icon_front": "spell-transmutation",
+        "code": "focus spell 3",
+        "contents": [
+            "pftrait | uncommon | dragonmark | mark of hospitality | transmutation",
+            "property | Cast | See replicated spell [S M]; **Requirements** Lesser Dragonmark",
+            "property | Frequency | Once per day --- even if you have the focus point to cast it",
+            "rule",
+            "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Hearth, you choose to replicate Soothe, Sleep, Charm, Calm Emotions, or Create Food. Lesser Hearth gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Hearth.",
+            "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Greater Dragonmark | You may cast Lesser Hearth up to two times per daily preparation.",
+            "property | Grand Dragonmark | You may cast Lesser Hearth up to three times per daily preparation.",
+            "property | Siberys Dragonmark | You may cast Lesser Hearth any number of times per daily preparation."
+        ],
+        "filtering": [
+            "spell",
+            "level-3",
+            "uncommon",
+            "transmutation",
+            "dragonmark",
+            "mark of hospitality",
+            "focus"
+        ],
+        "level": 3
+    },
+    {
+        "id": "spell.focus.5th.brew.greater-hearth",
+        "color": "#0D47A1",
+        "name": "Greater Hearth",
+        "title": "Greater Hearth",
+        "icon_front": "spell-transmutation",
+        "code": "focus spell 5",
+        "contents": [
+            "pftrait | uncommon | dragonmark | mark of hospitality | transmutation",
+            "property | Cast | See replicated spell [S M]; **Requirements** Greater Dragonmark",
+            "property | Frequency | Once per day --- even if you have the focus point to cast it",
+            "rule",
+            "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Greater Hearth, you choose to replicate Cozy Cabin, Enhance Victuals, or Enthrall. Greater Hearth gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Greater Hearth.",
+            "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Grand Dragonmark | You may cast Greater Hearth up to two times per daily preparation.",
+            "property | Siberys Dragonmark | You may cast Greater Hearth up to three times per daily preparation."
+        ],
+        "filtering": [
+            "spell",
+            "level-5",
+            "uncommon",
+            "transmutation",
+            "dragonmark",
+            "mark of hospitality",
+            "focus"
+        ],
+        "level": 5
+    },
+    {
+        "id": "spell.focus.7th.brew.grand-hearth",
+        "color": "#0D47A1",
+        "name": "Grand Hearth",
+        "title": "Grand Hearth",
+        "icon_front": "spell-transmutation",
+        "code": "focus spell 7",
+        "contents": [
+            "pftrait | uncommon | dragonmark | mark of hospitality | transmutation",
+            "property | Cast | See replicated spell [S M]; **Requirements** Grand Dragonmark",
+            "property | Frequency | Once per day --- even if you have the focus point to cast it",
+            "rule",
+            "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Grand Hearth, you choose to replicate Suggestion or Magnificent Mansion. Grand Hearth gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Grand Hearth.",
+            "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it.",
+            "fill",
+            "section | Power of the Dragonmark",
+            "property | Siberys Dragonmark | You may cast Grand Hearth up to two times per daily preparation."
+        ],
+        "filtering": [
+            "spell",
+            "level-7",
+            "uncommon",
+            "transmutation",
+            "dragonmark",
+            "mark of hospitality",
+            "focus"
+        ],
+        "level": 7
+    },
+    {
+        "id": "spell.focus.9th.brew.siberys-hearth",
+        "color": "#0D47A1",
+        "name": "Siberys Hearth",
+        "title": "Siberys Hearth",
+        "icon_front": "spell-transmutation",
+        "code": "focus spell 9",
+        "contents": [
+            "pftrait | uncommon | dragonmark | mark of hospitality | transmutation",
+            "property | Cast | See replicated spell [S M]; **Requirements** Siberys Dragonmark",
+            "property | Frequency | Once per day --- even if you have the focus point to cast it",
+            "rule",
+            "text | With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Siberys Hearth, you choose to replicate Moment of Renewal, Resplendent Mansion, or any spell listed in the Lesser, Greater or Grand Hearth spells. Siberys Hearth gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Siberys Hearth.",
+            "text | You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+        ],
+        "filtering": [
+            "spell",
+            "level-9",
+            "uncommon",
+            "transmutation",
+            "dragonmark",
+            "mark of hospitality",
             "focus"
         ],
         "level": 9
