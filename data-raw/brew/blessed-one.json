@@ -1,0 +1,18 @@
+{
+    "feat": [
+        {
+            "name": "Flame of Censure",
+            "source": "BREW",
+            "page": 1,
+            "level": 4,
+            "traits": ["archetype"],
+            "featType": {
+                "archetype": ["Blessed One"]
+            },
+            "prerequisites": "Blessed One Dedication",
+            "entries": [
+                "You've sworn an oath to hunt down wicked evildoers and bring them to judgment. You can use lay on hands to damage evil creatures as if it were undead; in this case, lay on hands deals good damage instead of positive damage and gains the good trait. This good damage can affect non-evil creatures that fall within the Hierarchy of Evil. This doesn't prevent you from healing such a creature with lay on hands; you choose whether to heal or harm."
+            ]
+        }
+    ]
+}

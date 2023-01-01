@@ -1,0 +1,440 @@
+{
+    "feat":[
+        {
+			"name": "Cyran Avenger Dedication",
+			"source": "BREW",
+			"page": 47,
+			"level": 2,
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"traits": [
+				"uncommon",
+				"archetype",
+				"dedication"
+			],
+			"prerequisites": "{@feat Shield Block}",
+			"access": "You are from Cyre.",
+			"entries": [
+				"You've sworn yourself as a sentry for New Cyre, the first line of defense against incursions by the Mournland. You become trained in Athletics and in Mournland Lore; if you were already trained, you become an expert instead. Finally, you gain the Reactive Shield fighter feat."
+			],
+			"special": [
+				"You can't select another dedication feat until you have gained two other feats from the Cyran Avenger archetype."
+			]
+		},
+        {
+			"name": "Always Ready",
+			"source": "BREW",
+			"page": 78,
+			"level": 4,
+			"traits": [
+				"archetype"
+			],
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"prerequisites": "{@feat Cyran Avenger Dedication|BREW}",
+			"entries": [
+				"Extensive training against aberrant has taught you to cover your weak points, even when you think that you're alone. You aren't flat-footed to hidden, undetected, or flanking aberrant of your level or lower. However, the aberrant can still help their allies flank. If all of your opponents are aberrant, you gain a +1 circumstance bonus to initiative rolls; the GM determines whether to apply this bonus if aberrant are disguised as another type of creature, if another type of creature is disguised as aberrant, or if there are additional opponents you haven't noticed who aren't aberrant."
+			]
+		},
+		{
+			"name": "Bless Shield",
+			"source": "BREW",
+			"page": 78,
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"level": 4,
+			"traits": [
+				"archetype",
+				"divine"
+			],
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"prerequisites": "{@feat Cyran Avenger Dedication|BREW}, you worship a good-aligned deity",
+			"entries": [
+				"Your uttered prayers become an aegis, drawing the blessing of your deity across the surface of your shield. Until the beginning of your next turn your shield, any {@item shield boss}, or {@item shield spikes} gain the effects of a ghost touch property rune. Additionally, damage you take as a result of an incorporeal creature's {@action Strike} can trigger your Shield Block reaction, even if the damage isn't physical damage."
+			]
+		},
+		{
+			"name": "Familiar Foe",
+			"source": "BREW",
+			"page": 78,
+			"level": 4,
+			"traits": [
+				"archetype",
+				"skill"
+			],
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"prerequisites": "{@feat Cyran Avenger Dedication|BREW}, expert in {@skill Religion} or {@skill Lore||Mournland Lore}",
+			"entries": [
+				"You regularly face off against aberrant and can identify many with a glance. You gain a +1 circumstance bonus on skill checks to Recall Knowledge about aberrant. Whenever you roll a critical failure on a check to Recall Knowledge about aberrant, you get a failure instead."
+			]
+		},
+		{
+			"name": "Final Rest",
+			"source": "BREW",
+			"page": 78,
+			"level": 4,
+			"traits": [
+				"archetype",
+				"skill"
+			],
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"prerequisites": "{@feat Cyran Avenger Dedication|BREW}",
+			"entries": [
+				"As stubborn in death as you are in life, you vow you'll never aid your hated enemies. You can't be transformed into an aberrant, except by effects that originate from an artifact or deity. Aberrant creatures that touch your corpse take 1 positive damage each time they do, or {@damage 1d6} positive damage each time they expose themselves to your corpse in a more thorough manner, such as by biting or carrying your corpse."
+			]
+		},
+		{
+			"name": "Nonlethal Takedown",
+			"source": "BREW",
+			"page": 79,
+			"level": 4,
+			"traits": [
+				"archetype"
+			],
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"prerequisites": "{@feat Cyran Avenger Dedication|BREW}",
+			"entries": [
+				"You prefer to use nonlethal means against living opponents, but the weapons you carry are lethal enough to destroy undead. You don't take the normal --2 circumstance penalty when attacking nonlethally with a weapon that lacks the {@trait nonlethal} trait."
+			]
+		},
+		{
+			"name": "Practiced Opposition",
+			"source": "BREW",
+			"page": 79,
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"level": 6,
+			"traits": [
+				"archetype"
+			],
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"prerequisites": "{@feat Cyran Avenger Dedication|BREW}",
+			"entries": [
+				"You've battled more aberrant than you care to remember, often with little time to prepare between foes, forcing you to rely on experience and muscle memory to guide your blade. Attempt a check to {@action Recall Knowledge} about an aberrant you can see and then {@action Strike} that aberrant. If your attempt to {@action Recall Knowledge} is successful, your {@action Strike} treats the target's resistances as 5 lower. The target is then immune to your Practiced Opposition for 24 hours."
+			]
+		},
+		{
+			"name": "Repulse the Wicked",
+			"source": "BREW",
+			"page": 79,
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"level": 6,
+			"traits": [
+				"archetype"
+			],
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"prerequisites": "{@feat Cyran Avenger Dedication|BREW}",
+			"trigger": "An aberrant within your reach critically fails an attack roll targeting you.",
+			"entries": [
+				"You use your foe's failure as an opening to push them away. You attempt to {@action Shove} the aberrant."
+			]
+		},
+		{
+			"name": "Sacred Armaments",
+			"source": "BREW",
+			"page": 79,
+			"level": 6,
+			"traits": [
+				"archetype"
+			],
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"prerequisites": "{@feat Cyran Avenger Dedication|BREW}",
+			"entries": [
+				"Through the power of your faith or the blessing of a priest, your weapons are fully effective against incorporeal creatures.",
+				"Weapons you wield have the effects of a {@item ghost touch} property rune for as long as you wield them."
+			]
+		},
+		{
+			"name": "Flashing Shield",
+			"source": "BREW",
+			"page": 79,
+			"activity": {
+				"number": 1,
+				"unit": "free"
+			},
+			"level": 8,
+			"traits": [
+				"archetype"
+			],
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"prerequisites": "{@feat Cyran Avenger Dedication|BREW}, you worship a good-aligned deity",
+			"trigger": "You use the Shield Block reaction, and the opponent that triggered the Shield Block is undead and adjacent to you.",
+			"entries": [
+				"Your shield flares with holy light as you block the attack, searing the aberrant with the power of your faith. The triggering aberrant takes positive damage equal to half your level and becomes {@condition flat-footed} for 1 round."
+			]
+		},
+		{
+			"name": "Warped Bulwark",
+			"source": "BREW",
+			"page": 79,
+			"level": 8,
+			"traits": [
+				"archetype"
+			],
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"prerequisites": "{@feat Cyran Avenger Dedication|BREW}",
+			"entries": [
+				"Regular exposure to transmutation effects left you better able to defend against them. When you have your shield raised, you gain your shield's circumstance bonus to saving throws against effects that would deal negative damage. If you have the Shield Block reaction, negative damage you take can trigger the reaction, even though the damage isn't physical damage."
+			]
+		},
+		{
+			"name": "Warped Sight",
+			"source": "BREW",
+			"page": 79,
+			"level": 10,
+			"traits": [
+				"archetype"
+			],
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"prerequisites": "{@feat Cyran Avenger Dedication|BREW}, Warped Sense",
+			"entries": [
+				"Your ability to sense aberrant has improved. You sense aberrant as an imprecise sense (Core Rulebook 464) with a range of 60 feet: an uncomfortable sensation brushes against your spirit and stinks of rot. When in proximity to an aberrant, you can sense its presence, but it has the hidden condition instead of the observed condition. An aberrant using a disguise or otherwise trying to hide its presence must attempt a Deception or Stealth check against your Perception DC to hide its presence from you. If the creature succeeds, it's undetected, and you have to use the Seek basic action to detect the creature. As with hearing and other imprecise senses, you still need to Seek to locate an undetected creature."
+			]
+		},
+		{
+			"name": "No Stranger to Death",
+			"source": "BREW",
+			"page": 79,
+			"level": 12,
+			"traits": [
+				"archetype"
+			],
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"prerequisites": "{@feat Cyran Avenger Dedication|BREW}",
+			"entries": [
+				"Your regular exposure to the insidious putrescence of undeath inured you to its effects. You gain a +2 circumstance bonus to saving throws made against spells and effects with the death, {@trait disease}, and {@trait evil} traits. Whenever you become {@condition drained} or {@condition sickened}, reduce the status penalty you take from the condition by 1, to a minimum of 0."
+			]
+		},
+		{
+			"name": "Resolute Defender",
+			"source": "BREW",
+			"page": 79,
+			"level": 14,
+			"traits": [
+				"archetype"
+			],
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"prerequisites": "{@feat Cyran Avenger Dedication|BREW}",
+			"entries": [
+				"You hold your shield together with the power of your faith and conviction, refusing to let wood splinter and steel shatter until the day's battles are won. If a shield would be destroyed due to damage taken during your Shield Block, the shield remains intact at 1 Hit Point instead. Its construction is weakened until you repair it, preventing you from using Resolute Defender to save the same shield again until your next daily preparations."
+			]
+		},
+		{
+			"name": "Thwart Evil",
+			"source": "BREW",
+			"page": 79,
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"level": 14,
+			"traits": [
+				"archetype"
+			],
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"prerequisites": "{@feat Cyran Avenger Dedication|BREW}, master in {@skill Religion}",
+			"frequency": {
+				"freq": 1,
+				"unit": "day"
+			},
+			"trigger": "A creature you can see uses a spell or ability that has the {@trait evil} or {@trait negative} traits.",
+			"entries": [
+				"You react instinctively when you sense evil forming, thrusting your spiritual energy toward the source to snuff out evil before it fully manifests. Attempt to counteract the triggering spell or ability using your {@skill Religion} modifier as your counteract modifier."
+			]
+		},
+		{
+			"name": "Withstand Death",
+			"source": "BREW",
+			"page": 79,
+			"level": 16,
+			"traits": [
+				"archetype"
+			],
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"prerequisites": "{@feat Cyran Avenger Dedication|BREW}, Warped Resistance",
+			"entries": [
+				"Through repeated exposure, you've trained to resist the damage wrought by aberrant. Your resistance to negative damage also applies to damage dealt by the attacks and abilities of aberrant creatures, regardless of damage type."
+			]
+		},
+        {
+			"name": "Rescuer's Press",
+			"source": "BREW",
+			"page": 68,
+			"level": 4,
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"traits": [
+				"rare",
+				"archetype"
+			],
+			"prerequisites": "{@feat Cyran Avenger Dedication|BREW}",
+			"entries": [
+				"Any shield you wield gains the {@trait shove} trait. When you {@action Shove} using a shield and {@action Stride} as part of that action, you can move an additional 5 feet to either side of the creature you Shoved. In addition, if you are in the {@feat Everstand Stance|locg} and successfully {@action Shove} a creature using a shield that you wield two-handed, you can increase the distance of your {@action Shove} to 10 feet."
+			]
+		},
+        {
+			"name": "Eye Of Metrol",
+			"source": "BREW",
+			"page": 47,
+			"level": 4,
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"traits": [
+				"archetype"
+			],
+			"prerequisites": "{@feat Cyran Avenger Dedication|BREW}, expert in {@skill Perception}",
+			"entries": [
+				"You've learned how to spot danger at a distance, allowing you to serve as a sentry with ease. You gain a +2 circumstance bonus to initiative rolls when using {@skill Perception}, and when you're Scouting, you grant your allies a +2 circumstance bonus instead of +1."
+			]
+		},
+        {
+			"name": "Warped Sense",
+			"source": "BREW",
+			"page": 47,
+			"level": 6,
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"traits": [
+				"archetype"
+			],
+			"prerequisites": "{@feat Cyran Avenger Dedication|BREW}",
+			"entries": [
+				"Your time spent hunting the aberrant allows you to sense them.",
+				"You sense aberrant as a vague sense (Core Rulebook 465) similar to a human's sense of smell, an uncomfortable sensation akin to smelling something cloying and rotting. When in proximity to the aberrant, you eventually sense their presence, though you might not do so instantly, and you can't pinpoint their location. An aberrant using a disguise or otherwise trying to hide its presence must attempt a {@skill Deception} check against your {@skill Perception} DC to hide its presence from you. If the creature succeeds at its {@skill Deception} check, it is then temporarily immune to your Grave Sense for 1 day."
+			]
+		},
+        {
+			"name": "New Cyre Warden",
+			"source": "BREW",
+			"page": 47,
+			"level": 10,
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"traits": [
+				"archetype"
+			],
+			"prerequisites": "{@feat Cyran Avenger Dedication|BREW}",
+			"entries": [
+				"You use your shield to protect your allies, not just yourself, especially against the aberrant. When you have a shield raised, you can use your {@feat Shield Block} reaction when an attack is made against an ally adjacent to you, in addition to its usual trigger. If you do, the shield prevents that ally from taking damage instead of you, following the normal rules for a {@feat Shield Block}.",
+				"If an aberrant makes an attack against an ally within 10 feet, you can {@action Step} to become adjacent to your ally and then use {@feat Shield Block} as part of the same reaction."
+			]
+		},
+        {
+			"name": "Warped Resistance",
+			"source": "BREW",
+			"page": 47,
+			"level": 4,
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"traits": [
+				"archetype"
+			],
+			"prerequisites": "{@feat Cyran Avenger Dedication|BREW}",
+			"entries": [
+				"As part of your training, you've inured yourself against transmutation through repeated exposure. You gain a +1 circumstance bonus to saves against {@trait transmutation} effects and gain resistance to negative damage equal to half your level."
+			]
+		},
+		{
+			"name": "Warped Tenacity",
+			"source": "BREW",
+			"page": 47,
+			"level": 8,
+			"featType": {
+				"archetype": [
+					"Cyran Avenger"
+				]
+			},
+			"traits": [
+				"archetype"
+			],
+			"prerequisites": "{@feat Warped Resistance|BREW}",
+			"entries": [
+				"Your training against necromantic effects allows you to escape the worst of their touch. If you roll a success on a saving throw against a {@trait transmutation} effect, you get a critical success instead; if you roll a critical failure on such a save, you get a failure instead."
+			]
+		}
+    ]
+}

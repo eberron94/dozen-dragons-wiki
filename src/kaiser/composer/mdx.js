@@ -7,6 +7,7 @@ exports.composeMDX = (original) => {
     const list = original
         .map(parse)
         .filter(filterUniqueByObjectKey())
+        .filter(({ data }) => !data?.frontMatter?.hidden)
         .sort(sortItems);
 
     // list.forEach((page) => {
@@ -36,7 +37,7 @@ exports.composeMDX = (original) => {
         },
         fillPages: (compileFn, contentList) => {
             list.forEach((page) => {
-                const contentFill = { ...page, html:null };
+                const contentFill = { ...page, html: null };
 
                 //Check if page has Content array
                 if (typeof page?.data?.frontMatter?.content === 'object') {
@@ -66,7 +67,9 @@ exports.composeMDX = (original) => {
                                         //     'for',
                                         //     page.id + ':' + key
                                         // );
-                                        return contentList.findWithComplexSearch(id);
+                                        return contentList.findWithComplexSearch(
+                                            id
+                                        );
                                     }
                                 })
                                 .sort((a, b) => {

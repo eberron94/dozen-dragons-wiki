@@ -39,8 +39,9 @@ const getItemList = () => {
     const spells = list.filter((e) => e.id.startsWith('spell')).map(toLI);
     const feats = list.filter((e) => e.id.startsWith('feat')).map(toLI);
     const actions = list.filter((e) => e.id.startsWith('action')).map(toLI);
+    const backgrounds = list.filter((e) => e.id.startsWith('background')).map(toLI);
 
-    return { items, feats, spells, actions };
+    return { items, feats, spells, actions, backgrounds };
 };
 
 const addItem = (newId) => {
@@ -119,6 +120,9 @@ const handleUpdateId = () => {
     if (itemLists.actions?.length)
         inner += `<li>Actions<ul>${itemLists.actions.join('')}</ul></li>`;
 
+    if (itemLists.backgrounds?.length)
+        inner += `<li>Backgrounds<ul>${itemLists.backgrounds.join('')}</ul></li>`;
+
     dList.innerHTML = inner;
 };
 
@@ -162,7 +166,9 @@ const handleClickToggleManager = (event) => {
 
 const handleCopyId = (event) => {
     event.preventDefault();
-    const idList = getList().map(e=>event.shiftKey?`"${e}"`:e).join(', ');
+    const idList = getList()
+        .map((e) => (event.shiftKey ? `"${e}"` : e))
+        .join(', ');
     console.log('copying', idList);
     if (idList.length) {
         navigator.clipboard.writeText(idList);

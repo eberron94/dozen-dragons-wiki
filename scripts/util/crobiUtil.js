@@ -28,7 +28,7 @@ const skillList = [
     'society',
     'stealth',
     'survival',
-    'thievery'
+    'thievery',
 ];
 
 const classList = [
@@ -251,10 +251,13 @@ const cleanContent = (arr) => {
     return arr.map((e) => parseUp(e)).map((e) => Renderer.stripTags(e));
 };
 
+const cape = (arr) => (Array.isArray(arr) ? arr : [arr]);
+
 module.exports = {
     initCard,
     getTextEntries,
-    classList, skillList,
+    classList,
+    skillList,
     getMatchedAncestry,
     parseActivity,
     unpackText: (str) =>
@@ -263,4 +266,5 @@ module.exports = {
     parseSavingThrow,
     nthStr,
     cleanContent,
+    cape,
 };

@@ -1306,6 +1306,7 @@
         - feat.archetype.blessed-one.class.apg.invigorating-mercy
         - feat.archetype.blessed-one.class.apg.rejuvenating-touch
         - feat.archetype.blessed-one.class.apg.resilient-touch
+        - feat.archetype.blessed-one.class.brew.flame-of-censure
         - feat.archetype.blessed-one.class.crb.affliction-mercy
         - feat.archetype.blessed-one.class.crb.greater-mercy
         - feat.archetype.blessed-one.class.crb.mercy
@@ -1424,6 +1425,28 @@
         - feat.archetype.curse-maelstrom.class.da.unnerving-expansion
         - feat.archetype.curse-maelstrom.dedication.da.curse-maelstrom-dedication
         - feat.archetype.curse-maelstrom.skill.da.familiar-oddities
+        - feat.archetype.cyran-avenger.class.brew.always-ready
+        - feat.archetype.cyran-avenger.class.brew.bless-shield
+        - feat.archetype.cyran-avenger.class.brew.eye-of-metrol
+        - feat.archetype.cyran-avenger.class.brew.flashing-shield
+        - feat.archetype.cyran-avenger.class.brew.new-cyre-warden
+        - feat.archetype.cyran-avenger.class.brew.no-stranger-to-death
+        - feat.archetype.cyran-avenger.class.brew.nonlethal-takedown
+        - feat.archetype.cyran-avenger.class.brew.practiced-opposition
+        - feat.archetype.cyran-avenger.class.brew.repulse-the-wicked
+        - feat.archetype.cyran-avenger.class.brew.rescuers-press
+        - feat.archetype.cyran-avenger.class.brew.resolute-defender
+        - feat.archetype.cyran-avenger.class.brew.sacred-armaments
+        - feat.archetype.cyran-avenger.class.brew.thwart-evil
+        - feat.archetype.cyran-avenger.class.brew.warped-bulwark
+        - feat.archetype.cyran-avenger.class.brew.warped-resistance
+        - feat.archetype.cyran-avenger.class.brew.warped-sense
+        - feat.archetype.cyran-avenger.class.brew.warped-sight
+        - feat.archetype.cyran-avenger.class.brew.warped-tenacity
+        - feat.archetype.cyran-avenger.class.brew.withstand-death
+        - feat.archetype.cyran-avenger.dedication.brew.cyran-avenger-dedication
+        - feat.archetype.cyran-avenger.skill.brew.familiar-foe
+        - feat.archetype.cyran-avenger.skill.brew.final-rest
         - feat.archetype.dandy.class.apg.gossip-lore
         - feat.archetype.dandy.dedication.apg.dandy-dedication
         - feat.archetype.dandy.skill.apg.distracting-flattery

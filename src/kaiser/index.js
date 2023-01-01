@@ -218,9 +218,9 @@ class Kaiser {
             console.log('REFING', rCard.id, rCard.card.reference);
             rCard.card.reference = rCard.card.reference
                 .flatMap((r) => this.data.itemCard.findWithComplexSearch(r))
+                .filter((r) => r)
                 .map((r) => `<li>${r.inlineRef.index}</li>`);
         });
-
 
         refableCards.map((rCard) => {
             if (rCard.block.index.includes(`<div class='reference'></div>`))

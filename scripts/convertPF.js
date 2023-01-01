@@ -1,11 +1,12 @@
 const fs = require('fs');
 const { convertActions2Save } = require('./convert/action');
+const { convertBackground2Save } = require('./convert/background');
 const { convertFeats2Save } = require('./convert/feat');
 const { convertItem, convertItems2Save } = require('./convert/item');
 const { convertSpell2Save } = require('./convert/spell');
 const { readFilesSync } = require('./util/readFiles');
 
-const workingKeys = ['spell', 'baseitem', 'item', 'action', 'feat', 'archetype'];
+const workingKeys = ['spell', 'baseitem', 'item', 'action', 'feat', 'archetype', 'background'];
 
 const saveFile = (name, data) => {
     try {
@@ -69,6 +70,9 @@ const packer = () => {
 
     convertActions2Save(content.action, saveFn('action'));
     convertSpell2Save(content.spell, saveFn('spell'));
+
+    convertBackground2Save(content.background, saveFn('background'));
+
 
     // console.log(`found ${content.length} unique items`);
 
