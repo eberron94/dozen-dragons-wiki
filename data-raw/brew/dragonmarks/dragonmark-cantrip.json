@@ -4,7 +4,7 @@
             "name": "Dragonmark Cantrip",
             "source": "BREW",
             "page": 1,
-            "level": 3,
+            "level": 1,
             "traits": ["dragonmark"],
             "entries": [
                 "You can wield your dragonmark to consistently produce magic. You gain the dragonmark cantrip spells associated with your mark. The cantrips gains the dragonmark trait and a material component of your dragonmark and lose the verbal component, if they have it. If anything interferes with your dragonmark, you cannot cast these cantrips."
@@ -110,7 +110,7 @@
                             {
                                 "mode": "replaceTxt",
                                 "replace": "the dragonmark cantrip spells associated with your mark",
-                                "with": "the Know Direction and Light cantrips"
+                                "with": "the Know Direction and Warp Step cantrips"
                             }
                         ],
                         "entriesMode": "generic"

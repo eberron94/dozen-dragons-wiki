@@ -4,7 +4,7 @@
             "name": "Grace of Ghallanda",
             "source": "BREW",
             "page": 1,
-            "level": 3,
+            "level": 1,
             "traits": ["dragonmark", "mark of hospitality", "fortune"],
             "frequency": {
                 "unit": "day",

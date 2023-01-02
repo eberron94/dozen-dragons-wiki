@@ -1,0 +1,190 @@
+{
+    "spell": [
+        {
+            "name": "Scribe's Insight",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 1,
+            "traits": [
+                "uncommon",
+                "illusion",
+                "dragonmark",
+                "mark of scribing"
+            ],
+            "cast": {
+                "number": 2,
+                "unit": "action"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Least Dragonmark",
+            "duration": {
+                "type": "timed",
+                "entry": "sustained up to 10 minutes",
+                "sustain": true,
+                "duration": {
+                    "number": 10,
+                    "unit": "minute"
+                }
+            },
+            "entries": [
+                "You call upon your dragonmark's power to transcribe with ease. When you Cast the Spell, you Borrow an Arcane Spell, Create Forgery, Decipher Writing, Learn a Spell, or Recall Knowledge (Lore). You gain a +1 status bonus to the skill check. The bonus is applied any time you take one of the action, as long as you Sustain the Spell."
+            ],
+            "heightened": {
+                "X": {
+                    "3": ["You do not need to sustain Scribe's Insight"],
+                    "7": ["The duration increases to 1 hour."]
+                }
+            },
+            "dragonmark": {
+                "greater": "The bonus increases to +2.",
+                "siberys": "The bonus increases to +3."
+            }
+        },
+        {
+            "name": "Lesser Scribe",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 3,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of scribing"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "special",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Lesser Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Scribe, you choose to replicate Imprint Message, Message Rune, or Comprehend Language. Lesser Scribe gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Scribe.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "dragonmark": {
+                "greater": "You may cast Lesser Scribe up to two times per daily preparation.",
+                "grand": "You may cast Lesser Scribe up to three times per daily preparation.",
+                "siberys": "You may cast Lesser Scribe any number of times per daily preparation."
+            },
+            "reference": [
+                "spell.slot.1st.apg.imprint-message",
+                "spell.slot.1st.logm.message-rune",
+                "spell.slot.2nd.crb.comprehend-language"
+            ]
+        },
+        {
+            "name": "Greater Scribe",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 5,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of scribing"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "minute",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Greater Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Greater Scribe, you choose to replicate Secret Page, Forgotten Lines, or Sending. Greater Scribe gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Greater Scribe.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "dragonmark": {
+                "grand": "You may cast Greater Scribe up to two times per daily preparation.",
+                "siberys": "You may cast Greater Scribe up to three times per daily preparation."
+            },
+            "reference": [
+                "spell.slot.3rd.crb.secret-page",
+                "spell.slot.4th.aoa-3.forgotten-lines",
+                "spell.slot.5th.crb.sending"
+            ]
+        },
+        {
+            "name": "Grand Scribe",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 7,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of scribing"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "minute",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Grand Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Grand Scribe, you choose to replicate Hypercognition or Telepathic Bond. Grand Scribe gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Grand Scribe.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "dragonmark": {
+                "siberys": "You may cast Grand Scribe up to two times per daily preparation."
+            },
+            "reference": [
+                "spell.slot.3rd.crb.hypercognition",
+                "spell.slot.5th.crb.telepathic-bond"
+            ]
+        },
+        {
+            "name": "Siberys Scribe",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 9,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of scribing"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "minute",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Siberys Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Siberys Scribe, you choose to replicate Mind Blank or any spell listed in the Lesser, Greater or Grand Scribe spells. Siberys Scribe gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Siberys Scribe.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "reference": [
+                "spell.slot.8th.crb.mind-blank"
+            ]
+        }
+    ]
+}

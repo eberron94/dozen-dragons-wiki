@@ -9,6 +9,7 @@ const initCard = () => ({
     icon_front: '',
     code: '',
     contents: [],
+    reference: [],
 });
 
 const skillList = [

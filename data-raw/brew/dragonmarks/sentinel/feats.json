@@ -1,0 +1,26 @@
+{
+    "feat": [
+        {
+            "name": "Deneith Battle Stance",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["dragonmark", "mark of sentinel"],
+            "prerequisites": "Least Dragonmark (Sentinel)",
+            "entries": [
+                "Thanks to your training, you are more difficult to push around on the battlefield. You gain a +1 circumstance bonus to saves to resist forced movement."
+            ]
+        },
+        {
+            "name": "Blood of the Dauntless",
+            "source": "BREW",
+            "page": 1,
+            "level": 3,
+            "traits": ["dragonmark", "mark of sentinel"],
+            "prerequisites": "Least Dragonmark (Sentinel)",
+            "entries": [
+                "You can shake off effects that would incapacitate you on the battlefield. When you would gain the Stunned condition you reduce its value by 1 (to a minimum of 1). When you have the Confused condition you may spend your actions to do nothing, cast the Shield spell, or Raise a Shield on your turn."
+            ]
+        }
+    ]
+}

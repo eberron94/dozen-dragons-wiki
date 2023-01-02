@@ -1,0 +1,44 @@
+{
+    "spell": [
+        {
+            "name": "Guard and Seal",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 2,
+            "traits": ["abjuration", "dragonmark", "mark of warding", "adept"],
+            "cast": {
+                "number": 3,
+                "unit": "action"
+            },
+            "range": {
+                "number": 30,
+                "unit": "feet"
+            },
+            "targets": "1 item of light bulk or less",
+            "duration": {
+                "type": "special",
+                "entry": "until your next daily preparation or the target moves more than 15 feet"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Least Dragonmark",
+            "entries": [
+                "You draw upon your powers of warding to guard the presence of the target. You can apply any number of the following effects to the target:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The target object becomes invisible, as per the Invisible Item spell.",
+                        "You are alerted when the target is touched or moved. A creature aware of the spell must succeed at a Stealth check against the spell's DC to prevent the alert.",
+                        "The target, and all its contents, appears as non-magical. GM rolls a secret counteract check when an equal or higher level detection spell would affect the target."
+                    ]
+                }
+            ],
+            "dragonmark": {
+                "lesser": "You can target an item of 1 bulk or less.",
+                "greater": "You can target an item of 3 bulk. The duration is until you cast Guard and Seal again.",
+                "grand": "Additional Effect: the target is treated as being behind running water or a thin sheet of lead.",
+                "siberys": "You can target 10 items of 3 bulk or less or one willing Small creature."
+            }
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "feat": [
+        {
+            "name": "Lyrandar Stormrider",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["dragonmark", "mark of storm", "fortune"],
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "activity": {
+                "number": 1,
+                "unit": "free"
+            },
+            "prerequisites": "Least Dragonmark (Storm)",
+            "trigger": "You fail a non-secret Acrobatics check.",
+            "entries": [
+                "Hard training on ships in all conditions improves your balance. If you roll a failure on an Acrobatics check, you can reroll the check. You may select the better of the two rolls."
+            ]
+        }
+    ]
+}

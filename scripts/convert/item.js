@@ -23,6 +23,7 @@ const convertItems2Save = async (items, saveFn) => {
 const convertItem = (item) => {
     const card = initCard();
     // console.log('working on', item.name);
+    card.reference = item.reference || [];
 
     // card.original = item;
     card.filtering = [`level-${item.level || 0}`];

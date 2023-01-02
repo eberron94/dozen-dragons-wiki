@@ -31,6 +31,8 @@ const convertSpell2Save = async (items, saveFn) => {
 const convertItem = (item) => {
     const card = initCard();
     // console.log('working on', item.name);
+    card.reference = item.reference || [];
+    
     card.filtering = ['spell', `level-${item.level}`];
     if (Array.isArray(item.traditions))
         card.filtering = card.filtering.concat(item.traditions);

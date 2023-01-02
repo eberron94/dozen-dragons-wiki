@@ -4,7 +4,7 @@
             "name": "Cannith Forgecraft",
             "source": "BREW",
             "page": 1,
-            "level": 3,
+            "level": 1,
             "traits": ["dragonmark", "mark of making", "fortune"],
             "frequency": {
                 "unit": "day",

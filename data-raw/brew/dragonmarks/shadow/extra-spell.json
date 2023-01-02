@@ -1,0 +1,32 @@
+{
+    "spell": [
+        {
+            "name": "Become Shadow",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 2,
+            "traits": ["illusion", "dragonmark", "mark of shadow", "adept"],
+            "cast": {
+                "number": 2,
+                "unit": "action"
+            },
+            "duration": {
+                "type": "timed",
+                "entry": "10 minutes",
+                "duration": {
+                    "number": 10,
+                    "unit": "minute"
+                }
+            },
+            "components": [["S", "M"]],
+            "requirements": "Least Dragonmark; You are in dim light or darkness",
+            "entries": [
+                "You blend yourself with shadow, losing visual definition. For the duration, while in dim light or darkness, you gain a +2 status bonus to hide and sneak."
+            ],
+            "dragonmark": {
+                "greater": "You do not need to sustain Become Shadow."
+            }
+        }
+    ]
+}

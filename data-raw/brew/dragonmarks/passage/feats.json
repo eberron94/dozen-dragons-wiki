@@ -1,0 +1,46 @@
+{
+    "feat": [
+        {
+            "name": "Orien Maneuver",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["dragonmark", "mark of passage", "fortune"],
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "activity": {
+                "number": 1,
+                "unit": "free"
+            },
+            "prerequisites": "Least Dragonmark (Passage)",
+            "trigger": "You fail a non-secret Driving Lore or Pilot Lore check.",
+            "entries": [
+                "Your training with all manner of vehicles has forced you to make strange maneuvers, but they always work. If you roll a failure on a drive or pilot check, you can reroll the check. You may select the better of the two rolls."
+            ]
+        },
+        {
+            "name": "Orien Drive Master",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["dragonmark", "mark of passage"],
+            "prerequisites": "Least Dragonmark (Passage)",
+            "entries": [
+                "You were trained to control all House Orien vehicles. You become trained in Driving Lore and can use it place of Pilot Lore while operating a vehicle on the ground. At 3rd, 6th, and 13th levels, you gain an additional skill increase to Driving Lore."
+            ]
+        },
+        {
+            "name": "Orien Traveler",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["dragonmark", "mark of passage"],
+            "prerequisites": "Least Dragonmark (Passage)",
+            "entries": [
+                "You are trained to navigate long distances while maintaining awareness of your surroundings. When you use the scout or defend exploration activities, you may move at your full speed. While fatigued, you may still use the scout activity."
+            ]
+        }
+    ]
+}

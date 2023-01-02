@@ -28,7 +28,7 @@
                 }
             },
             "entries": [
-                "You call upon your dragonmark's power to better uncover secrets. When you Cast the Spell, you can Recall Knowledge (Survival), Identify Magic, Seek, or Sense Direction, Subsist, or Track. You gain a +1 status bonus to the skill or Perception used for the roll, and this bonus remains as long as you Sustain the Spell."
+                "You call upon your dragonmark's power to better uncover secrets. When you Cast the Spell, you Recall Knowledge (Survival), Seek, Sense Direction, Subsist, or Track. You gain a +1 status bonus to the skill check. The bonus is applied any time you take one of the action, as long as you Sustain the Spell."
             ],
             "heightened": {
                 "X": {
@@ -73,7 +73,12 @@
                 "greater": "You may cast Lesser Seeker up to two times per daily preparation.",
                 "grand": "You may cast Lesser Seeker up to three times per daily preparation.",
                 "siberys": "You may cast Lesser Seeker any number of times per daily preparation."
-            }
+            },
+            "reference": [
+                "spell.slot.2nd.logm.expeditious-excavation",
+                "spell.slot.2nd.crb.status",
+                "spell.slot.3rd.crb.locate"
+            ]
         },
         {
             "name": "Greater Seeker",
@@ -106,7 +111,11 @@
             "dragonmark": {
                 "grand": "You may cast Greater Seeker up to two times per daily preparation.",
                 "siberys": "You may cast Greater Seeker up to three times per daily preparation."
-            }
+            },
+            "reference": [
+                "spell.slot.3rd.crb.wanderers-guide",
+                "spell.slot.4th.apg.countless-eyes"
+            ]
         },
         {
             "name": "Grand Seeker",
@@ -138,7 +147,11 @@
             ],
             "dragonmark": {
                 "siberys": "You may cast Grand Seeker up to two times per daily preparation."
-            }
+            },
+            "reference": [
+                "spell.slot.4th.crb.detect-scrying",
+                "spell.slot.6th.crb.true-seeing"
+            ]
         },
         {
             "name": "Siberys Seeker",
@@ -167,6 +180,10 @@
             "entries": [
                 "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Siberys Seeker, you choose to replicate Discern Location, Unrelenting Observation, or any spell listed in the Lesser, Greater or Grand Seeker spells. Siberys Seeker gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Siberys Seeker.",
                 "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "reference": [
+                "spell.slot.8th.crb.discern-location",
+                "spell.slot.8th.crb.unrelenting-observation"
             ]
         }
     ]

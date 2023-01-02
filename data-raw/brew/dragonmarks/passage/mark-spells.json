@@ -1,0 +1,191 @@
+{
+    "spell": [
+        {
+            "name": "Courier's Skill",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 1,
+            "traits": [
+                "uncommon",
+                "abjuration",
+                "dragonmark",
+                "mark of passage"
+            ],
+            "cast": {
+                "number": 2,
+                "unit": "action"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Least Dragonmark",
+            "duration": {
+                "type": "timed",
+                "entry": "sustained up to 10 minutes",
+                "sustain": true,
+                "duration": {
+                    "number": 10,
+                    "unit": "minute"
+                }
+            },
+            "entries": [
+                "You call upon your dragonmark's power to enable swift travel. When you Cast the Spell, you Stride, Tumble Through, or Drive (as a one- or two-action activity) a land vehicle. You gain a +1 status bonus to the skill check or to AC if your movement triggers a reaction. The bonus is applied any time you take one of the action, as long as you Sustain the Spell."
+            ],
+            "heightened": {
+                "X": {
+                    "3": ["You do not need to sustain Courier's Skill"],
+                    "7": ["The duration increases to 1 hour."]
+                }
+            },
+            "dragonmark": {
+                "greater": "The bonus increases to +2.",
+                "siberys": "The bonus increases to +3."
+            }
+        },
+        {
+            "name": "Lesser Traveler",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 3,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of passage"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "special",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Lesser Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Traveler, you choose to replicate Fleet Step, Longstrider, or Safe Passage. Lesser Traveler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Traveler.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "dragonmark": {
+                "greater": "You may cast Lesser Traveler up to two times per daily preparation.",
+                "grand": "You may cast Lesser Traveler up to three times per daily preparation.",
+                "siberys": "You may cast Lesser Traveler any number of times per daily preparation."
+            },
+            "reference": [
+                "spell.slot.1st.crb.fleet-step",
+                "spell.slot.1st.crb.longstrider",
+                "spell.slot.3rd.apg.safe-passage"
+            ]
+        },
+        {
+            "name": "Greater Traveler",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 5,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of passage"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "minute",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Greater Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Greater Traveler, you choose to replicate Haste, Freedom of Movement, or Dimension Door. Greater Traveler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Greater Traveler.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "dragonmark": {
+                "grand": "You may cast Greater Traveler up to two times per daily preparation.",
+                "siberys": "You may cast Greater Traveler up to three times per daily preparation."
+            },
+            "reference": [
+                "spell.slot.3rd.crb.haste",
+                "spell.slot.4th.crb.freedom-of-movement",
+                "spell.slot.4th.crb.dimension-door"
+            ]
+        },
+        {
+            "name": "Grand Traveler",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 7,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of passage"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "minute",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Grand Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Grand Traveler, you choose to replicate Return Beacon and Teleport. Grand Traveler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Grand Traveler.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "dragonmark": {
+                "siberys": "You may cast Grand Traveler up to two times per daily preparation."
+            },
+            "reference": [
+                "spell.slot.5th.frp-1.return-beacon",
+                "spell.slot.6th.crb.teleport"
+            ]
+        },
+        {
+            "name": "Siberys Traveler",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 9,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of passage"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "minute",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Siberys Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Siberys Traveler, you choose to replicate Ethereal Jaunt, Plane Shift, or any spell listed in the Lesser, Greater or Grand Traveler spells. Siberys Traveler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Siberys Traveler.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "reference": [
+                "spell.slot.7th.crb.ethereal-jaunt",
+                "spell.slot.7th.crb.plane-shift"
+            ]
+        }
+    ]
+}

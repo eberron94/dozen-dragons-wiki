@@ -1,0 +1,44 @@
+{
+    "feat": [
+        {
+            "name": "Phiarlan Performer",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["dragonmark", "mark of shadow", "fortune"],
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "activity": {
+                "number": 1,
+                "unit": "free"
+            },
+            "prerequisites": "Least Dragonmark (Shadow)",
+            "trigger": "You fail a non-secret Performance check.",
+            "entries": [
+                "Your training with house Phiarlan grants you a stage presence that masks your mistakes. If you roll a failure on a Performance check, you can reroll the check. You may select the better of the two rolls."
+            ]
+        },
+        {
+            "name": "Thuranni Specter",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["dragonmark", "mark of shadow", "fortune"],
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "activity": {
+                "number": 1,
+                "unit": "free"
+            },
+            "prerequisites": "Least Dragonmark (Shadow)",
+            "trigger": "You fail a non-secret Stealth check.",
+            "entries": [
+                "Your training with house Thuranni grants you an understanding of using the light and shadow around you to your advantage. If you roll a failure on a Stealth check, you can reroll the check. You may select the better of the two rolls."
+            ]
+        }
+    ]
+}

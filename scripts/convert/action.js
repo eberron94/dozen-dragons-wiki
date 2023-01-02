@@ -29,6 +29,7 @@ const convertItem = (item) => {
     // console.log('working on', item.name);
 
     // card.original = item;
+    card.reference = item.reference || [];
 
     const act = item.activity ? parseActivity(item.activity) : '';
 

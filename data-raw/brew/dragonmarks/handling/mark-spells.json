@@ -28,7 +28,7 @@
                 }
             },
             "entries": [
-                "You call upon your dragonmark's power to better interact with animals. When you Cast the Spell, you can Recall Knowledge (Nature) or Command an Animal. You gain a +1 status bonus to the skill used for the roll. This bonus remains as long as you Sustain the Spell."
+                "You call upon your dragonmark's power to better interact with animals. When you Cast the Spell, you Recall Knowledge (Nature) or Command an Animal. You gain a +1 status bonus to the skill check. The bonus is applied any time you take one of the action, as long as you Sustain the Spell."
             ],
             "heightened": {
                 "X": {
@@ -66,14 +66,18 @@
             "components": [["S", "M"]],
             "requirements": "Lesser Dragonmark",
             "entries": [
-                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Handler, you choose to replicate  Friendfetch, Pet Cache, Animal Messenger, or Speak with Animals. Lesser Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Handler.",
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Handler, you choose to replicate Friendfetch, Pet Cache, Animal Messenger, or Speak with Animals. Lesser Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Handler.",
                 "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
             ],
             "dragonmark": {
                 "greater": "You may cast Lesser Handler up to two times per daily preparation.",
                 "grand": "You may cast Lesser Handler up to three times per daily preparation.",
                 "siberys": "You may cast Lesser Handler any number of times per daily preparation."
-            }
+            },
+            "reference": [
+                "spell.slot.1st.sot-1.friendfetch",
+                "spell.slot.1st.apg.pet-cache"
+            ]
         },
         {
             "name": "Greater Handler",
@@ -106,7 +110,11 @@
             "dragonmark": {
                 "grand": "You may cast Greater Handler up to two times per daily preparation.",
                 "siberys": "You may cast Greater Handler up to three times per daily preparation."
-            }
+            },
+            "reference": [
+                "spell.slot.3rd.crb.animal-vision",
+                "spell.slot.4th.lol.aromatic-lure"
+            ]
         },
         {
             "name": "Grand Handler",
@@ -133,12 +141,16 @@
             "components": [["S", "M"]],
             "requirements": "Grand Dragonmark",
             "entries": [
-                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Grand Handler, you choose to replicate  Dominate or Entrancing Eyes, but you can only target creatures with the animal or beast trait. Grand Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Grand Handler.",
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Grand Handler, you choose to replicate Dominate or Entrancing Eyes, but you can only target creatures with the animal or beast trait. Grand Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Grand Handler.",
                 "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
             ],
             "dragonmark": {
                 "siberys": "You may cast Grand Handler up to two times per daily preparation."
-            }
+            },
+            "reference": [
+                "spell.slot.6th.crb.dominate",
+                "spell.slot.7th.ec-4.entrancing-eyes"
+            ]
         },
         {
             "name": "Siberys Handler",
@@ -167,6 +179,10 @@
             "entries": [
                 "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Siberys Handler, you choose to replicate Power Word Stun (but you can only target creatures with the animal or beast trait), Nature's Enmity, or any spell listed in the Lesser, Greater or Grand Handler spells. Siberys Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Siberys Handler.",
                 "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "reference": [
+                "spell.slot.8th.crb.power-word-stun",
+                "spell.slot.9th.crb.natures-enmity"
             ]
         }
     ]

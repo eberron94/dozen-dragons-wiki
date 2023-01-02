@@ -1,0 +1,16 @@
+{
+    "feat": [
+        {
+            "name": "Kundarak Insight",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["dragonmark", "mark of warding"],
+            "prerequisites": "Least Dragonmark (Warding)",
+            "entries": [
+                "The development of Kundarak interests has granted you insight into the placement of structure wards and defenses. You also become trained in Security Lore. At 3rd, 7th, and 15th levels, you gain an additional skill increase to Security Lore.",
+                "You can make a Security Lore check when Disabling a Device or Picking a Lock."
+            ]
+        }
+    ]
+}

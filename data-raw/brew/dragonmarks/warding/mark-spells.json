@@ -1,0 +1,194 @@
+{
+    "spell": [
+        {
+            "name": "Warder's Intuition",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 1,
+            "traits": [
+                "uncommon",
+                "enchantment",
+                "dragonmark",
+                "mark of warding"
+            ],
+            "cast": {
+                "number": 2,
+                "unit": "action"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Least Dragonmark",
+            "duration": {
+                "type": "timed",
+                "entry": "sustained up to 10 minutes",
+                "sustain": true,
+                "duration": {
+                    "number": 10,
+                    "unit": "minute"
+                }
+            },
+            "entries": [
+                "You call upon your dragonmark's power to ward of attacks. When you Cast the Spell, you Conceal an Object, Disable a Device, Pick a Lock, Seek to Detect a Hazard, or Search. You gain a +1 status bonus to the skill check. The bonus is applied any time you take one of the action, as long as you Sustain the Spell."
+            ],
+            "heightened": {
+                "X": {
+                    "3": ["You do not need to sustain Warder's Intuition"],
+                    "7": ["The duration increases to 1 hour."]
+                }
+            },
+            "dragonmark": {
+                "greater": "The bonus increases to +2.",
+                "siberys": "The bonus increases to +3."
+            }
+        },
+        {
+            "name": "Lesser Warder",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 3,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of warding"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "special",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Lesser Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Warder, you choose to replicate Alarm, Lock, Tether, Knock, or Magical Fetters. Lesser Warder gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Warder.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "dragonmark": {
+                "greater": "You may cast Lesser Warder up to two times per daily preparation.",
+                "grand": "You may cast Lesser Warder up to three times per daily preparation.",
+                "siberys": "You may cast Lesser Warder any number of times per daily preparation."
+            },
+            "reference": [
+                "spell.slot.1st.crb.alarm",
+                "spell.slot.1st.crb.lock",
+                "spell.slot.1st.logm.tether",
+                "spell.slot.2nd.crb.knock",
+                "spell.slot.3rd.aoe-2.magical-fetters"
+            ]
+        },
+        {
+            "name": "Greater Warder",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 5,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of warding"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "minute",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Greater Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Greater Warder, you choose to replicate Circle of Protection, Glyph of Warding, Dimensional Anchor, or Private Sanctum. Greater Warder gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Greater Warder.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "dragonmark": {
+                "grand": "You may cast Greater Warder up to two times per daily preparation.",
+                "siberys": "You may cast Greater Warder up to three times per daily preparation."
+            },
+            "reference": [
+                "spell.slot.3rd.crb.circle-of-protection",
+                "spell.slot.3rd.crb.glyph-of-warding",
+                "spell.slot.4th.crb.dimensional-anchor",
+                "spell.slot.4th.crb.private-sanctum"
+            ]
+        },
+        {
+            "name": "Grand Warder",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 7,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of warding"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "minute",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Grand Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Grand Warder, you choose to replicate Wall of Stone or Dimensional Lock. Grand Warder gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Grand Warder.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "dragonmark": {
+                "siberys": "You may cast Grand Warder up to two times per daily preparation."
+            },
+            "reference": [
+                "spell.slot.5th.crb.wall-of-stone",
+                "spell.slot.7th.crb.dimensional-lock"
+            ]
+        },
+        {
+            "name": "Siberys Warder",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 9,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of warding"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "minute",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Siberys Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Siberys Warder, you choose to replicate Force Cage, Antimagic Field, or any spell listed in the Lesser, Greater or Grand Warder spells. Siberys Warder gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Siberys Warder.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "reference": [
+                "spell.slot.7th.apg.force-cage",
+                "spell.slot.8th.crb.antimagic-field"
+            ]
+        }
+    ]
+}

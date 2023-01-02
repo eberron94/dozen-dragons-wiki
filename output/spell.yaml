@@ -115,11 +115,18 @@
         - spell.focus.1st.apg.veil-of-dreams
         - spell.focus.1st.av-3.lift-natures-caul
         - spell.focus.1st.botd.hallowed-ground
+        - spell.focus.1st.brew.couriers-skill
         - spell.focus.1st.brew.deductive-intuition
         - spell.focus.1st.brew.healers-intuition
         - spell.focus.1st.brew.innkeepers-magic
+        - spell.focus.1st.brew.makers-gift
         - spell.focus.1st.brew.primal-connection
+        - spell.focus.1st.brew.scribes-insight
         - spell.focus.1st.brew.seekers-intuition
+        - spell.focus.1st.brew.sentinels-intuition
+        - spell.focus.1st.brew.shadows-veil
+        - spell.focus.1st.brew.warders-intuition
+        - spell.focus.1st.brew.windwrights-intuition
         - spell.focus.1st.crb.agile-feet
         - spell.focus.1st.crb.ancestral-memories
         - spell.focus.1st.crb.angelic-halo
@@ -233,10 +240,16 @@
         - spell.focus.2nd.apg.vision-of-weakness
         - spell.focus.2nd.brew.animal-friendship
         - spell.focus.2nd.brew.banish-dragonmark
+        - spell.focus.2nd.brew.become-shadow
         - spell.focus.2nd.brew.detect-danger
         - spell.focus.2nd.brew.eyes-of-the-finder
+        - spell.focus.2nd.brew.guard-and-seal
         - spell.focus.2nd.brew.healing-word
         - spell.focus.2nd.brew.kindle-friendship
+        - spell.focus.2nd.brew.passage-step
+        - spell.focus.2nd.brew.raincloud
+        - spell.focus.2nd.brew.relay
+        - spell.focus.2nd.brew.sentinels-defense
         - spell.focus.2nd.crb.wholeness-of-body
         - spell.focus.2nd.locg.invoke-the-crimson-oath
         - spell.focus.2nd.locg.light-of-revelation
@@ -271,7 +284,14 @@
         - spell.focus.3rd.brew.lesser-handler
         - spell.focus.3rd.brew.lesser-healer
         - spell.focus.3rd.brew.lesser-hearth
+        - spell.focus.3rd.brew.lesser-maker
+        - spell.focus.3rd.brew.lesser-scribe
         - spell.focus.3rd.brew.lesser-seeker
+        - spell.focus.3rd.brew.lesser-sentinel
+        - spell.focus.3rd.brew.lesser-shadow
+        - spell.focus.3rd.brew.lesser-stormbringer
+        - spell.focus.3rd.brew.lesser-traveler
+        - spell.focus.3rd.brew.lesser-warder
         - spell.focus.3rd.crb.aberrant-whispers
         - spell.focus.3rd.crb.angelic-wings
         - spell.focus.3rd.crb.dragon-breath
@@ -402,11 +422,19 @@
         - spell.focus.5th.apg.symphony-of-the-unfettered-heart
         - spell.focus.5th.apg.terrain-transposition
         - spell.focus.5th.apg.wish-twisted-form
+        - spell.focus.5th.brew.construct-savant
         - spell.focus.5th.brew.greater-detector
         - spell.focus.5th.brew.greater-handler
         - spell.focus.5th.brew.greater-healer
         - spell.focus.5th.brew.greater-hearth
+        - spell.focus.5th.brew.greater-maker
+        - spell.focus.5th.brew.greater-scribe
         - spell.focus.5th.brew.greater-seeker
+        - spell.focus.5th.brew.greater-sentinel
+        - spell.focus.5th.brew.greater-shadow
+        - spell.focus.5th.brew.greater-stormbringer
+        - spell.focus.5th.brew.greater-traveler
+        - spell.focus.5th.brew.greater-warder
         - spell.focus.5th.crb.abyssal-wrath
         - spell.focus.5th.crb.arcane-countermeasure
         - spell.focus.5th.crb.celestial-brand
@@ -446,7 +474,14 @@
         - spell.focus.7th.brew.grand-handler
         - spell.focus.7th.brew.grand-healer
         - spell.focus.7th.brew.grand-hearth
+        - spell.focus.7th.brew.grand-maker
+        - spell.focus.7th.brew.grand-scribe
         - spell.focus.7th.brew.grand-seeker
+        - spell.focus.7th.brew.grand-sentinel
+        - spell.focus.7th.brew.grand-shadow
+        - spell.focus.7th.brew.grand-stormbringer
+        - spell.focus.7th.brew.grand-traveler
+        - spell.focus.7th.brew.grand-warder
         - spell.focus.7th.crb.litany-of-righteousness
         - spell.focus.7th.crb.soothing-ballad
         - spell.focus.7th.som.darklight
@@ -459,7 +494,14 @@
         - spell.focus.9th.brew.siberys-handler
         - spell.focus.9th.brew.siberys-healer
         - spell.focus.9th.brew.siberys-hearth
+        - spell.focus.9th.brew.siberys-maker
+        - spell.focus.9th.brew.siberys-scribe
         - spell.focus.9th.brew.siberys-seeker
+        - spell.focus.9th.brew.siberys-sentinel
+        - spell.focus.9th.brew.siberys-shadow
+        - spell.focus.9th.brew.siberys-stormbringer
+        - spell.focus.9th.brew.siberys-traveler
+        - spell.focus.9th.brew.siberys-warder
         - spell.focus.9th.crb.empty-body
         - spell.focus.9th.crb.storm-lord
         - spell.slot.10th.apg.indestructibility

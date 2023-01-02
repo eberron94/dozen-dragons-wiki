@@ -28,7 +28,7 @@
                 }
             },
             "entries": [
-                "You call upon your dragonmark's power to better uncover secrets. When you Cast the Spell, you can Recall Knowledge, Seek, or Sense Motive. You gain a +1 status bonus to the skill or Perception used for the roll, and this bonus remains as long as you Sustain the Spell."
+                "You call upon your dragonmark's power to better uncover secrets. When you Cast the Spell, you Recall Knowledge, Seek, or Sense Motive. You gain a +1 status bonus to the skill check. The bonus is applied any time you take one of the action, as long as you Sustain the Spell."
             ],
             "heightened": {
                 "X": {
@@ -73,7 +73,12 @@
                 "greater": "You may cast Lesser Detector up to two times per daily preparation.",
                 "grand": "You may cast Lesser Detector up to three times per daily preparation.",
                 "siberys": "You may cast Lesser Detector any number of times per daily preparation."
-            }
+            },
+            "reference": [
+                "spell.slot.1st.crb.detect-poison",
+                "spell.slot.2nd.crb.see-invisibility",
+                "spell.slot.1st.apg.object-reading"
+            ]
         },
         {
             "name": "Greater Detector",
@@ -106,7 +111,11 @@
             "dragonmark": {
                 "grand": "You may cast Greater Detector up to two times per daily preparation.",
                 "siberys": "You may cast Greater Detector up to three times per daily preparation."
-            }
+            },
+            "reference": [
+                "spell.slot.4th.crb.clairvoyance",
+                "spell.slot.4th.crb.discern-lies"
+            ]
         },
         {
             "name": "Grand Detector",
@@ -138,7 +147,11 @@
             ],
             "dragonmark": {
                 "siberys": "You may cast Grand Detector up to two times per daily preparation."
-            }
+            },
+            "reference": [
+                "spell.slot.4th.crb.detect-scrying",
+                "spell.slot.6th.crb.true-seeing"
+            ]
         },
         {
             "name": "Siberys Detector",
@@ -167,6 +180,10 @@
             "entries": [
                 "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Siberys Detector, you choose to replicate Retrocognition, Foresight or any spell listed in the Lesser, Greater or Grand Detector spells. Siberys Detector gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Siberys Detector.",
                 "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "reference": [
+                "spell.slot.7th.crb.retrocognition",
+                "spell.slot.9th.crb.foresight"
             ]
         }
     ]

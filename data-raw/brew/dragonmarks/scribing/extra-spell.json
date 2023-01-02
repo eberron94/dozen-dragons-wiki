@@ -1,0 +1,44 @@
+{
+    "spell": [
+        {
+            "name": "Relay",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 2,
+            "traits": [
+                "mental",
+                "illusion",
+                "linguistic",
+                "dragonmark",
+                "mark of scribing",
+                "adept"
+            ],
+            "cast": {
+                "number": 3,
+                "unit": "action"
+            },
+            "range": {
+                "number": 30,
+                "unit": "feet"
+            },
+            "targets": "1 mundane item",
+            "duration": {
+                "type": "special",
+                "entry": "varies"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Least Dragonmark",
+            "entries": [
+                "You enchant magical items to relay your messages. At any time after you have enchanted the items, you may choose to send a message to the item as an action with the concentrate trait. If the item is attended, the creature currently in possession of the item receives your spoken word---up to 25 words. The creature can then respond as a reaction with a message of 25 words or fewer. Once the item has been used in this way, it may not be used again for 24 hours.",
+                "You can have a connection to one enchanted item. When you cast Relay, you can end your connection to an enchanted item and target a new one."
+            ],
+            "dragonmark": {
+                "lesser": "You can have a connection to two enchanted items.",
+                "greater": "You can have a connection to four enchanted items.",
+                "grand": "You can have a connection to ten enchanted items.",
+                "siberys": "You can have a connection to fifty enchanted items."
+            }
+        }
+    ]
+}

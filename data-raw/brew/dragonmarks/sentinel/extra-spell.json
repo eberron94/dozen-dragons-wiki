@@ -1,0 +1,41 @@
+{
+    "spell": [
+        {
+            "name": "Sentinel's Defense",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 2,
+            "traits": [
+                "abjuration",
+                "dragonmark",
+                "mark of sentinel",
+                "adept"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "action"
+            },
+            "duration": {
+                "type": "timed",
+                "entry": "1 minute",
+                "duration": {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            },
+            "range": {
+                "unit": "touch"
+            },
+            "targets": "1 willing creature",
+            "components": [["S", "M"]],
+            "requirements": "Least Dragonmark",
+            "entries": [
+                "You draw from the power of your dragonmark to better defend a creature. The target gains a +2 status bonus to AC."
+            ],
+            "dragonmark": {
+                "grand": "The spell can be sustained up to 1 hour."
+            }
+        }
+    ]
+}

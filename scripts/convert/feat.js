@@ -99,6 +99,7 @@ const populateArchetypeExtra =
 const convertFeat = (item) => {
     const card = initCard();
     // console.log('working on', item.name);
+    card.reference = item.reference || [];
 
     card.filtering = ['feat', `feat-${item.level}`];
     if (Array.isArray(item.traits))

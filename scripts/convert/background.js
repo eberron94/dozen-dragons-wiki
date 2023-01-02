@@ -29,6 +29,7 @@ const convertItem = (item) => {
     const card = initCard();
     card.reference = [];
     // console.log('working on', item.name);
+    card.reference = item.reference || [];
 
     // card.original = item;
     card.filtering = ['background'];

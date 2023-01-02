@@ -3921,6 +3921,9 @@
         - feat.class.wizard.ec-6.reclaim-spell
         - feat.class.wizard.frp-2.shift-spell
         - feat.class.wizard.frp-3.worldsphere-gravity
+        - feat.dragonmark.brew.blood-of-the-dauntless
+        - feat.dragonmark.brew.cannith-forgecraft
+        - feat.dragonmark.brew.deneith-battle-stance
         - feat.dragonmark.brew.dragonmark-adept-detection
         - feat.dragonmark.brew.dragonmark-adept-finding
         - feat.dragonmark.brew.dragonmark-adept-handling
@@ -3987,6 +3990,7 @@
         - feat.dragonmark.brew.greater-dragonmark-storm
         - feat.dragonmark.brew.greater-dragonmark-warding
         - feat.dragonmark.brew.jorasco-treatment
+        - feat.dragonmark.brew.kundarak-insight
         - feat.dragonmark.brew.least-dragonmark-detection
         - feat.dragonmark.brew.least-dragonmark-finding
         - feat.dragonmark.brew.least-dragonmark-handling
@@ -4011,10 +4015,16 @@
         - feat.dragonmark.brew.lesser-dragonmark-shadow
         - feat.dragonmark.brew.lesser-dragonmark-storm
         - feat.dragonmark.brew.lesser-dragonmark-warding
+        - feat.dragonmark.brew.lyrandar-stormrider
         - feat.dragonmark.brew.medani-prophet
+        - feat.dragonmark.brew.orien-drive-master
+        - feat.dragonmark.brew.orien-maneuver
+        - feat.dragonmark.brew.orien-traveler
         - feat.dragonmark.brew.perfect-awareness
         - feat.dragonmark.brew.perfect-scrying-sense
+        - feat.dragonmark.brew.phiarlan-performer
         - feat.dragonmark.brew.prophetic-visions
+        - feat.dragonmark.brew.scribe-of-sivis
         - feat.dragonmark.brew.scrying-sense
         - feat.dragonmark.brew.siberys-dragonmark-detection
         - feat.dragonmark.brew.siberys-dragonmark-finding
@@ -4029,6 +4039,7 @@
         - feat.dragonmark.brew.siberys-dragonmark-storm
         - feat.dragonmark.brew.siberys-dragonmark-warding
         - feat.dragonmark.brew.tharashk-survivalist
+        - feat.dragonmark.brew.thuranni-specter
         - feat.dragonmark.brew.track-the-trackless
         - feat.dragonmark.brew.trap-warden
         - feat.dragonmark.brew.vadalis-instincts

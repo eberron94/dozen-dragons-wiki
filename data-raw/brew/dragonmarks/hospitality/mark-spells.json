@@ -28,7 +28,7 @@
                 }
             },
             "entries": [
-                "You call upon your dragonmark's power to better interact with others. When you Cast the Spell, you can Recall Knowledge (Society), Gather Information, Make an Impression, or Request. You gain a +1 status bonus to the skill used for the roll, and this bonus remains as long as you Sustain the Spell."
+                "You call upon your dragonmark's power to better interact with others. When you Cast the Spell, you Recall Knowledge (Society), Gather Information, Make an Impression, or Request. You gain a +1 status bonus to the skill check. The bonus is applied any time you take one of the action, as long as you Sustain the Spell."
             ],
             "heightened": {
                 "X": {
@@ -66,14 +66,20 @@
             "components": [["S", "M"]],
             "requirements": "Lesser Dragonmark",
             "entries": [
-                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Hearth, you choose to replicate Soothe, Sleep, Charm, Calm Emotions, or Create Food. Lesser Hearth gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Hearth.",
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Hearth, you choose to replicate Sleep, Charm, Calm Emotions, or Create Food. Lesser Hearth gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Hearth.",
                 "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
             ],
             "dragonmark": {
                 "greater": "You may cast Lesser Hearth up to two times per daily preparation.",
                 "grand": "You may cast Lesser Hearth up to three times per daily preparation.",
                 "siberys": "You may cast Lesser Hearth any number of times per daily preparation."
-            }
+            },
+            "reference": [
+                "spell.slot.1st.crb.sleep",
+                "spell.slot.1st.crb.charm",
+                "spell.slot.2nd.crb.calm-emotions",
+                "spell.slot.2nd.crb.create-food"
+            ]
         },
         {
             "name": "Greater Hearth",
@@ -100,13 +106,17 @@
             "components": [["S", "M"]],
             "requirements": "Greater Dragonmark",
             "entries": [
-                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Greater Hearth, you choose to replicate Cozy Cabin, Enhance Victuals, or Enthrall. Greater Hearth gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Greater Hearth.",
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Greater Hearth, you choose to replicate Cozy Cabin or Enhance Victuals. Greater Hearth gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Greater Hearth.",
                 "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
             ],
             "dragonmark": {
                 "grand": "You may cast Greater Hearth up to two times per daily preparation.",
                 "siberys": "You may cast Greater Hearth up to three times per daily preparation."
-            }
+            },
+            "reference": [
+                "spell.slot.3rd.apg.cozy-cabin",
+                "spell.slot.2nd.crb.enhance-victuals"
+            ]
         },
         {
             "name": "Grand Hearth",
@@ -138,7 +148,11 @@
             ],
             "dragonmark": {
                 "siberys": "You may cast Grand Hearth up to two times per daily preparation."
-            }
+            },
+            "reference": [
+                "spell.slot.4th.crb.suggestion",
+                "spell.slot.7th.crb.magnificent-mansion"
+            ]
         },
         {
             "name": "Siberys Hearth",
@@ -167,6 +181,10 @@
             "entries": [
                 "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Siberys Hearth, you choose to replicate Moment of Renewal, Resplendent Mansion, or any spell listed in the Lesser, Greater or Grand Hearth spells. Siberys Hearth gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Siberys Hearth.",
                 "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "reference": [
+                "spell.slot.8th.crb.moment-of-renewal",
+                "spell.slot.9th.crb.resplendent-mansion"
             ]
         }
     ]

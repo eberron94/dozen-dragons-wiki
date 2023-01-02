@@ -28,7 +28,7 @@
                 }
             },
             "entries": [
-                "You call upon your dragonmark's power to better mend wounds. When you Cast the Spell, you can Recall Knowledge (Medicine), Administer First Aid, Battle Medicine, Treat Disease, Treat Poison, or Treat Wounds. You gain a +1 status bonus to the skill used for the roll, and this bonus remains as long as you Sustain the Spell."
+                "You call upon your dragonmark's power to better mend wounds. When you Cast the Spell, you Recall Knowledge (Medicine), Administer First Aid, Battle Medicine, Treat Disease, Treat Poison, or Treat Wounds. You gain a +1 status bonus to the skill check. The bonus is applied any time you take one of the action, as long as you Sustain the Spell."
             ],
             "heightened": {
                 "X": {
@@ -66,14 +66,20 @@
             "components": [["S", "M"]],
             "requirements": "Lesser Dragonmark",
             "entries": [
-                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Healer, you choose to replicate  Endure, Soothe, Restoration, Remove Paralysis, or Restore Senses. Lesser Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Healer.",
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Healer, you choose to replicate Endure, Restoration, Remove Paralysis, or Restore Senses. Lesser Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Healer.",
                 "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
             ],
             "dragonmark": {
                 "greater": "You may cast Lesser Healer up to two times per daily preparation.",
                 "grand": "You may cast Lesser Healer up to three times per daily preparation.",
                 "siberys": "You may cast Lesser Healer any number of times per daily preparation."
-            }
+            },
+            "reference": [
+                "spell.slot.1st.logm.endure",
+                "spell.slot.2nd.crb.restoration",
+                "spell.slot.2nd.crb.remove-paralysis",
+                "spell.slot.2nd.crb.restore-senses"
+            ]
         },
         {
             "name": "Greater Healer",
@@ -106,7 +112,12 @@
             "dragonmark": {
                 "grand": "You may cast Greater Healer up to two times per daily preparation.",
                 "siberys": "You may cast Greater Healer up to three times per daily preparation."
-            }
+            },
+            "reference": [
+                "spell.slot.3rd.crb.neutralize-poison",
+                "spell.slot.3rd.crb.remove-disease",
+                "spell.slot.4th.crb.remove-curse"
+            ]
         },
         {
             "name": "Grand Healer",
@@ -138,7 +149,11 @@
             ],
             "dragonmark": {
                 "siberys": "You may cast Grand Healer up to two times per daily preparation."
-            }
+            },
+            "reference": [
+                "spell.slot.5th.crb.breath-of-life",
+                "spell.slot.6th.crb.raise-dead"
+            ]
         },
         {
             "name": "Siberys Healer",
@@ -167,6 +182,10 @@
             "entries": [
                 "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Siberys Healer, you choose to replicate Regenerate, Moment of Renewal, or any spell listed in the Lesser, Greater or Grand Healer spells. Siberys Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Siberys Healer.",
                 "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "reference": [
+                "spell.slot.7th.crb.regenerate",
+                "spell.slot.8th.crb.moment-of-renewal"
             ]
         }
     ]

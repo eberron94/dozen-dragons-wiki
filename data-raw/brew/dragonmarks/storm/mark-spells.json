@@ -1,0 +1,191 @@
+{
+    "spell": [
+        {
+            "name": "Windwright's Intuition",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 1,
+            "traits": [
+                "uncommon",
+                "enchantment",
+                "dragonmark",
+                "mark of storm"
+            ],
+            "cast": {
+                "number": 2,
+                "unit": "action"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Least Dragonmark",
+            "duration": {
+                "type": "timed",
+                "entry": "sustained up to 10 minutes",
+                "sustain": true,
+                "duration": {
+                    "number": 10,
+                    "unit": "minute"
+                }
+            },
+            "entries": [
+                "You call upon your dragonmark's power to enable swift travel. When you Cast the Spell, you Stride, Tumble Through, or Pilot (as a one- or two-action activity) for an air or water vehicle. You gain a +1 status bonus to the skill used for the roll or to AC if your movement triggers a reaction. The bonus is applied any time you take one of the action, as long as you Sustain the Spell."
+            ],
+            "heightened": {
+                "X": {
+                    "3": ["You do not need to sustain Windwright's Intuition"],
+                    "7": ["The duration increases to 1 hour."]
+                }
+            },
+            "dragonmark": {
+                "greater": "The bonus increases to +2.",
+                "siberys": "The bonus increases to +3."
+            }
+        },
+        {
+            "name": "Lesser Stormbringer",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 3,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of storm"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "special",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Lesser Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Lesser Stormbringer, you choose to replicate Gust of Wind, Personal Rain Cloud, or Obscuring Mist. Lesser Stormbringer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Lesser Stormbringer.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "dragonmark": {
+                "greater": "You may cast Lesser Stormbringer up to two times per daily preparation.",
+                "grand": "You may cast Lesser Stormbringer up to three times per daily preparation.",
+                "siberys": "You may cast Lesser Stormbringer any number of times per daily preparation."
+            },
+            "reference": [
+                "spell.slot.1st.crb.gust-of-wind",
+                "spell.slot.1st.ec-1.personal-rain-cloud",
+                "spell.slot.2nd.crb.obscuring-mist"
+            ]
+        },
+        {
+            "name": "Greater Stormbringer",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 5,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of storm"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "minute",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Greater Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Greater Stormbringer, you choose to replicate Wall of Wind, Air Walk, or Solid Fog. Greater Stormbringer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Greater Stormbringer.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "dragonmark": {
+                "grand": "You may cast Greater Stormbringer up to two times per daily preparation.",
+                "siberys": "You may cast Greater Stormbringer up to three times per daily preparation."
+            },
+            "reference": [
+                "spell.slot.3rd.crb.wall-of-wind",
+                "spell.slot.4th.crb.air-walk",
+                "spell.slot.4th.crb.solid-fog"
+            ]
+        },
+        {
+            "name": "Grand Stormbringer",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 7,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of storm"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "minute",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Grand Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Grand Stormbringer, you choose to replicate Fly or Lightning Storm. Grand Stormbringer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Grand Stormbringer.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "dragonmark": {
+                "siberys": "You may cast Grand Stormbringer up to two times per daily preparation."
+            },
+            "reference": [
+                "spell.slot.4th.crb.fly",
+                "spell.slot.5th.apg.lightning-storm"
+            ]
+        },
+        {
+            "name": "Siberys Stormbringer",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 9,
+            "traits": [
+                "uncommon",
+                "transmutation",
+                "dragonmark",
+                "mark of storm"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "minute",
+                "entry": "See replicated spell"
+            },
+            "frequency": {
+                "unit": "day",
+                "freq": 1,
+                "entry": "Once per day --- even if you have the focus point to cast it"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Siberys Dragonmark",
+            "entries": [
+                "With a concentrated effort to bend the powers of your mark, you replicate the effects of a spell. When you begin to cast Siberys Stormbringer, you choose to replicate Wind Walk, Punishing Winds, or any spell listed in the Lesser, Greater or Grand Stormbringer spells. Siberys Stormbringer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the normal number of actions for it. The replicated spell is automatically heightened to the level of Siberys Stormbringer.",
+                "You ignore any trivial material or verbal components of the replicated spell, but if the replicated spell requires a focus or material cost, you must still provide it to cast it."
+            ],
+            "reference": [
+                "spell.slot.8th.crb.wind-walk",
+                "spell.slot.8th.crb.punishing-winds"
+            ]
+        }
+    ]
+}
