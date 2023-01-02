@@ -1,0 +1,33 @@
+{
+    "spell": [
+        {
+            "name": "Construct Savant",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 5,
+            "traits": ["conjuration", "dragonmark", "mark of making", "adept"],
+            "cast": {
+                "number": 8,
+                "unit": "hours",
+                "entry": "special"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Greater Dragonmark",
+            "entries": [
+                "You begin to craft an item as if using the crafting activity, but with the empowering effects of your dragonmark guiding you, your efficiency is increased exponentially.",
+                "When you perform the Crafting activity for a non-consumable item with more than 1 day of work remaining, you can cast Construct Savant as part of the activity and immediately make a crafting check.",
+                {
+                    "type": "successDegree",
+                    "entries": {
+                        "Critical Success": "You finish crafting the item, paying the market cost.",
+                        "Success": "You complete your work for the day and continue it tomorrow."
+                    }
+                }
+            ],
+            "dragonmark": {
+                "siberys": "On a Critical Success, you only pay the material cost."
+            }
+        }
+    ]
+}
