@@ -7,8 +7,8 @@ exports.list = (params, decoration) => {
     const nameElem = cardUtil.element('span', 'card-list-name');
     const textElem = cardUtil.element('p', 'card-list-text');
 
-    const name = cardUtil.listNameString(params );
-    const text = cardUtil.listTextString(params );
+    const name = cardUtil.listNameString(params);
+    const text = cardUtil.listTextString(params);
 
     if (name) {
         return containerElem(

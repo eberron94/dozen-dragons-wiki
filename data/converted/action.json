@@ -120,7 +120,7 @@
             "rule",
             "text | You scour your experiences and learning to identify something that might repel your foe. You retrieve an object from your esoterica with the appropriate supernatural qualities, then use your implement to stoke the remnants of its power into a blaze. Select a creature you can see and attempt an Esoteric Lore check against a standard DC for its level, as you retrieve the right object from your esoterica and use your implement to empower it. You gain the following effects until you Exploit Vulnerabilities again.",
             "fill",
-            "property | Critical Success | You remember the creature's weaknesses, and Archive as you empower your esoterica, you have a flash of insight that grants even more knowledge about the creature. You learn all of the creature's resistances, weaknesses, and immunities, including the amounts of the resistances and weaknesses and any unusual weaknesses or vulnerabilities, such as what spells will pass through a golem's antimagic. You can exploit either the creature's mortal weakness or personal antithesis. Your unarmed and weapon Strikes against the creature also become magical if they weren't already.",
+            "property | Critical Success | You remember the creature's weaknesses, and as you empower your esoterica, you have a flash of insight that grants even more knowledge about the creature. You learn all of the creature's resistances, weaknesses, and immunities, including the amounts of the resistances and weaknesses and any unusual weaknesses or vulnerabilities, such as what spells will pass through a golem's antimagic. You can exploit either the creature's mortal weakness or personal antithesis. Your unarmed and weapon Strikes against the creature also become magical if they weren't already.",
             "property | Success | You recall an important fact about the creature, learning its highest weakness (or one of its highest weaknesses, if it has multiple with the same value) but not its other weaknesses, resistances, or immunities. You can exploit either the creature's mortal weakness or personal antithesis. Your unarmed and weapon Strikes against the creature also become magical if they weren't already.",
             "property | Failure | Failing to recall a salient weakness about the creature, you instead attempt to exploit a more personal vulnerability. You can exploit only the creature's personal antithesis. Your unarmed and weapon Strikes against the creature also become magical if they weren't already.",
             "property | Critical Failure | You couldn't remember the right object to use and become distracted while you rummage through your esoterica. You become flat-footed until the beginning of your next turn.",
@@ -441,6 +441,70 @@
             "property | Success | You grant your ally a +1 circumstance bonus to the triggering check.",
             "property | Critical Failure | Your ally takes a –1 circumstance penalty to the triggering check.",
             "fill"
+        ],
+        "reference": []
+    },
+    {
+        "id": "action.ancestry.vishkanya.loil.envenom",
+        "color": "#B71C1C",
+        "name": "Envenom",
+        "title": "Envenom [[one-action]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | manipulate",
+            "property | Frequency | once per day",
+            "rule",
+            "text | Through use of either saliva or blood, you use your innate toxins to apply vishkanyan venom to your weapon or a piece of ammunition. To use your blood, you must be injured, or you can deal 1 slashing damage to yourself as part of the action. The vishkanyan venom remains potent until the end of your next turn, or until you expend it as normal for an injury poison by either hitting a target or critically failing an attack roll.",
+            "fill",
+            "section | Affliction DC undefined Fortitude; **Onset** immediate; **Max Dur.** 6 rounds",
+            "bullet | Stage 1 | 1d4 poison damage (1 round)",
+            "bullet | Stage 2 | 1d4 poison damage (1 round)",
+            "bullet | Stage 3 | 1d4 poison damage (1 round)",
+            "rule",
+            "fill"
+        ],
+        "reference": []
+    },
+    {
+        "id": "action.ancestry.vishkanya.loil.venom-draw",
+        "color": "#B71C1C",
+        "name": "Venom Draw",
+        "title": "Venom Draw [[one-action]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "property | Requirements | Your Envenom action hasn't been expended.",
+            "rule",
+            "text | You quickly envenom poisonous saliva on your weapon as you draw it. Interact to draw a weapon, and then Envenom it. This uses up your daily use of Envenom."
+        ],
+        "reference": []
+    },
+    {
+        "id": "action.ancestry.nagaji.loil.raise-neck",
+        "color": "#B71C1C",
+        "name": "Raise Neck",
+        "title": "Raise Neck [[one-action]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "rule",
+            "text | You raise your head into a striking position. The fangs Strike granted by your nagaji ancestry gains a reach of 10 feet until the end of your turn."
+        ],
+        "reference": []
+    },
+    {
+        "id": "action.ancestry.ghoran.loil.wicked-thorns",
+        "color": "#B71C1C",
+        "name": "Wicked Thorns",
+        "title": "Wicked Thorns [[reaction]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "property | Trigger | You're hit with an unarmed Strike or a Strike with a non-reach melee weapon.",
+            "property | Frequency | once per day",
+            "rule",
+            "text | Several of your thorns break off and hook into your attacker's body. You deal 1d8 piercing damage to the triggering creature. It attempts a basic Reflex save against the higher of your class DC or spell DC. On a critical failure, the creature also takes 1d4 persistent bleed damage as your thorns embed in its flesh. At 3rd level, and every 2 levels thereafter, this damage increases by 2d8, and the persistent piercing damage increases by 2."
         ],
         "reference": []
     },
@@ -3531,6 +3595,64 @@
             "pftrait | gunslinger",
             "rule",
             "text | Your careful shot against an unsuspecting opponent pierces a vital artery or organ. Make a ranged Strike. If the target is flat-footed, the Strike deals an extra die of weapon damage, and the foe takes persistent bleed damage equal to the amount of precision damage from your One Shot, One Kill."
+        ],
+        "reference": []
+    },
+    {
+        "id": "action.class.gunslinger.subclass.triggerbrand.loil.touch-and-go",
+        "color": "#B71C1C",
+        "name": "Touch and Go",
+        "title": "Touch and Go [[one-action]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | gunslinger",
+            "property | Requirements | You're wielding a combination weapon.",
+            "rule",
+            "text | Your body's shadows mask your hands' steel. You can Step toward an enemy, you can Interact to change your weapon between melee or ranged modes, and you then Interact to reload."
+        ],
+        "reference": []
+    },
+    {
+        "id": "action.class.gunslinger.subclass.triggerbrand.loil.spring-the-trap",
+        "color": "#B71C1C",
+        "name": "Spring the Trap",
+        "title": "Spring the Trap [[free-action]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | gunslinger",
+            "property | Trigger | You roll initiative.",
+            "rule",
+            "text | You can Interact to draw a combination weapon and set it to melee or ranged mode. On your first turn, your movement and ranged attacks don't trigger reactions that are normally triggered by movement or a ranged attack (such as Attack of Opportunity)."
+        ],
+        "reference": []
+    },
+    {
+        "id": "action.class.gunslinger.subclass.triggerbrand.loil.wind-them-up",
+        "color": "#B71C1C",
+        "name": "Wind Them Up",
+        "title": "Wind Them Up [[two-action]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | gunslinger",
+            "rule",
+            "text | Should foes parry your blade or dodge your bullets? Neither—they should be watching their purse. Make a melee Strike with your combination weapon, and then attempt a Thievery check with a –5 penalty to Steal from your target; you can't Steal closely guarded objects or objects that would take a long time to pilfer. You don't need a free hand to attempt to Steal something in this manner. If your Thievery check succeeds, the target is flat-footed against your ranged attacks until the start of your next turn, and you don't trigger reactions that are normally triggered by movement or a ranged attack. These effects occur even if your target has no objects to Steal."
+        ],
+        "reference": []
+    },
+    {
+        "id": "action.class.gunslinger.subclass.triggerbrand.loil.break-them-down",
+        "color": "#B71C1C",
+        "name": "Break Them Down",
+        "title": "Break Them Down [[two-action]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | gunslinger",
+            "rule",
+            "text | Your foes are but dross from which you carve and shoot your legend. Make a melee Strike and then a ranged Strike with a combination weapon, both against the same enemy; you don't need to change modes to do so. If the melee Strike hits, you gain a +1 circumstance bonus to the attack roll with the ranged Strike. Each attack counts toward your multiple attack penalty, but your multiple attack penalty doesn't increase until you've made both attacks. If both Strikes hit, you deal an additional 2d6 persistent bleed damage to the enemy, and they're dazzled until this persistent bleed damage ends."
         ],
         "reference": []
     }

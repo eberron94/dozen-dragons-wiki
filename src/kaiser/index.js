@@ -211,7 +211,7 @@ class Kaiser {
 
     applyReferences2Cards() {
         const refableCards = this.data.itemCard.list.filter(
-            (e) => Array.isArray(e.card.reference) && e.card.reference.length
+            (e) => Array.isArray(e.card.reference) && e.card.reference.length > 0
         );
 
         refableCards.forEach((rCard) => {
@@ -219,7 +219,7 @@ class Kaiser {
             rCard.card.reference = rCard.card.reference
                 .flatMap((r) => this.data.itemCard.findWithComplexSearch(r))
                 .filter((r) => r)
-                .map((r) => `<li>${r.inlineRef.index}</li>`);
+                .map((r) => `<div>${r.inlineRef.index}</div>`);
         });
 
         refableCards.map((rCard) => {

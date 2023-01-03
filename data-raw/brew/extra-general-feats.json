@@ -1,0 +1,37 @@
+{
+    "feat":[
+        {
+			"name": "Godless Recovery",
+			"source": "BREW",
+			"page": 1,
+			"level": 3,
+			"traits": [
+				"general"
+			],
+			"prerequisites": "You don't have a patron deity",
+			"entries": [
+				"You recover an additional 5 Hit Points from a successful attempt to {@action Treat Wounds||Treat your Wounds} or use {@feat Battle Medicine} on you. After you or an ally use {@feat Battle Medicine} on you, you become temporarily immune to that {@feat Battle Medicine} for only 1 hour, instead of 1 day."
+			]
+		},
+        {
+			"name": "Mortal Intervention",
+			"source": "BREW",
+			"page": 1,
+			"level": 2,
+			"featType": {
+				"skill": [
+					"Medicine"
+				]
+			},
+			"traits": [
+				"general",
+				"skill"
+			],
+			"prerequisites": "expert in Medicine; You don't have a patron deity",
+			"entries": [
+				"You grant greater healing when the gods don't interfere.",
+				"When you roll a success to {@action Treat Wounds} for a creature that hasn't regained Hit Points from divine magic in the past 24 hours, you get a critical success on your check instead and restore the corresponding amount of Hit Points."
+			]
+		}
+    ]
+}

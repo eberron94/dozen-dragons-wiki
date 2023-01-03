@@ -1,0 +1,38 @@
+{
+    "spell": [
+        {
+            "name": "Passage Step",
+            "source": "BREW",
+            "page": 1,
+            "focus": true,
+            "level": 2,
+            "traits": [
+                "conjuration",
+                "teleport",
+                "dragonmark",
+                "mark of passage",
+                "adept"
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "action"
+            },
+            "components": [["S", "M"]],
+            "requirements": "Least Dragonmark",
+            "range": {
+                "number": 15,
+                "unit": "feet"
+            },
+            "entries": [
+                "You instantly transfer yourself from your current location to another spot you can see within range. You always arrive at exactly the spot desired. You can bring along any objects you are touching as the spell is cast, so long as you are not encumbered. You cannot bring along other creatures.",
+                "If this spell would put you in a place that is already occupied or is not empty, the spell fails."
+            ],
+            "dragonmark": {
+                "lesser": "The range increases to 25 feet.",
+                "greater": "The range increases to 45 feet.",
+                "grand": "The range increases to 60 feet.",
+                "siberys": "The range increases to 90 feet."
+            }
+        }
+    ]
+}

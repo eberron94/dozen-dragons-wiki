@@ -405,6 +405,10 @@
         - feat.ancestry.fleshwarp.loag.spew-tentacles
         - feat.ancestry.fleshwarp.loag.startling-appearance
         - feat.ancestry.fleshwarp.loag.uncanny-awareness
+        - feat.ancestry.fleshwarp.loil.embodied-dragoon-subjectivity
+        - feat.ancestry.fleshwarp.loil.embodied-dreadnought-subjectivity
+        - feat.ancestry.fleshwarp.loil.embodied-legionary-subjectivity
+        - feat.ancestry.fleshwarp.loil.transposable-compliance
         - feat.ancestry.gnoll.lome.ancestors-rage
         - feat.ancestry.gnoll.lome.breath-like-honey
         - feat.ancestry.gnoll.lome.crunch
@@ -914,6 +918,114 @@
         - feat.ancestry.locg.solar-rejuvenation
         - feat.ancestry.locg.speak-with-kindred
         - feat.ancestry.locg.undaunted
+        - feat.ancestry.loil.alabaster-eyes
+        - feat.ancestry.loil.alluring-performance
+        - feat.ancestry.loil.ancient-memories
+        - feat.ancestry.loil.bend-space
+        - feat.ancestry.loil.breath-of-calamity
+        - feat.ancestry.loil.cannibalize-magic
+        - feat.ancestry.loil.canopy-sight
+        - feat.ancestry.loil.cleansing-light
+        - feat.ancestry.loil.climbing-tail
+        - feat.ancestry.loil.cold-minded
+        - feat.ancestry.loil.community-knowledge
+        - feat.ancestry.loil.crystal-luminescence
+        - feat.ancestry.loil.dangle
+        - feat.ancestry.loil.darting-monkey
+        - feat.ancestry.loil.debilitating-venom
+        - feat.ancestry.loil.disruptive-stare
+        - feat.ancestry.loil.drain-emotion
+        - feat.ancestry.loil.eldritch-calm
+        - feat.ancestry.loil.emotional-partitions
+        - feat.ancestry.loil.empathic-calm
+        - feat.ancestry.loil.endless-memories
+        - feat.ancestry.loil.envenom-strike
+        - feat.ancestry.loil.eternal-memories
+        - feat.ancestry.loil.fey-ascension
+        - feat.ancestry.loil.fey-influence
+        - feat.ancestry.loil.fey-transcendence
+        - feat.ancestry.loil.fighting-horn
+        - feat.ancestry.loil.flexible-form
+        - feat.ancestry.loil.flower-magic
+        - feat.ancestry.loil.fortified-mind
+        - feat.ancestry.loil.ghoran-lore
+        - feat.ancestry.loil.ghoran-weapon-expertise
+        - feat.ancestry.loil.ghoran-weapon-familiarity
+        - feat.ancestry.loil.ghoran-weapon-practice
+        - feat.ancestry.loil.ghorans-wrath
+        - feat.ancestry.loil.glamour
+        - feat.ancestry.loil.greater-enhance-venom
+        - feat.ancestry.loil.guarded-thoughts
+        - feat.ancestry.loil.hidden-thorn
+        - feat.ancestry.loil.hypnotic-lure
+        - feat.ancestry.loil.jungle-runner
+        - feat.ancestry.loil.kashrishi-revivification
+        - feat.ancestry.loil.legendary-size
+        - feat.ancestry.loil.lesser-enhance-venom
+        - feat.ancestry.loil.look-but-dont-touch
+        - feat.ancestry.loil.mental-sustenance
+        - feat.ancestry.loil.miraculous-repair
+        - feat.ancestry.loil.moderate-enhance-venom
+        - feat.ancestry.loil.molten-wit
+        - feat.ancestry.loil.monkey-spirits
+        - feat.ancestry.loil.murderous-thorns
+        - feat.ancestry.loil.nagaji-lore
+        - feat.ancestry.loil.nagaji-spell-expertise
+        - feat.ancestry.loil.nagaji-spell-familiarity
+        - feat.ancestry.loil.nagaji-spell-mysteries
+        - feat.ancestry.loil.native-waters
+        - feat.ancestry.loil.noble-resolve
+        - feat.ancestry.loil.open-mind
+        - feat.ancestry.loil.perfume-cloud
+        - feat.ancestry.loil.pit-of-snakes
+        - feat.ancestry.loil.planar-sidestep
+        - feat.ancestry.loil.prismatic-scales
+        - feat.ancestry.loil.puncturing-horn
+        - feat.ancestry.loil.ragdyas-dance
+        - feat.ancestry.loil.ragdyas-revelry
+        - feat.ancestry.loil.rakshasa-ravaged
+        - feat.ancestry.loil.reimagine
+        - feat.ancestry.loil.restoring-blood
+        - feat.ancestry.loil.scuttle-up
+        - feat.ancestry.loil.serpentcoil-slam
+        - feat.ancestry.loil.serpentine-swimmer
+        - feat.ancestry.loil.serpents-tongue
+        - feat.ancestry.loil.silent-stone
+        - feat.ancestry.loil.skilled-climber
+        - feat.ancestry.loil.skillful-climber
+        - feat.ancestry.loil.skin-split
+        - feat.ancestry.loil.social-camouflage
+        - feat.ancestry.loil.solar-rejuvenation
+        - feat.ancestry.loil.speak-with-flowers
+        - feat.ancestry.loil.stronger-debilitating-venom
+        - feat.ancestry.loil.sudden-mindfulness
+        - feat.ancestry.loil.swift-application
+        - feat.ancestry.loil.tail-snatch
+        - feat.ancestry.loil.telekinetic-slip
+        - feat.ancestry.loil.tough-skin
+        - feat.ancestry.loil.transcendent-realization
+        - feat.ancestry.loil.trees-ward
+        - feat.ancestry.loil.unbound-freedom
+        - feat.ancestry.loil.unfettering-prankster
+        - feat.ancestry.loil.unlock-secret
+        - feat.ancestry.loil.vanara-battle-clarity
+        - feat.ancestry.loil.vanara-lore
+        - feat.ancestry.loil.vanara-weapon-expertise
+        - feat.ancestry.loil.vanara-weapon-familiarity
+        - feat.ancestry.loil.vanara-weapon-trickery
+        - feat.ancestry.loil.venom-purge
+        - feat.ancestry.loil.venom-spit
+        - feat.ancestry.loil.vicious-venom
+        - feat.ancestry.loil.violent-vines
+        - feat.ancestry.loil.viper-strike
+        - feat.ancestry.loil.vishkanya-lore
+        - feat.ancestry.loil.vishkanya-weapon-arts
+        - feat.ancestry.loil.vishkanya-weapon-expertise
+        - feat.ancestry.loil.vishkanya-weapon-familiarity
+        - feat.ancestry.loil.water-nagaji
+        - feat.ancestry.loil.well-of-potential
+        - feat.ancestry.loil.whitecape
+        - feat.ancestry.loil.wind-pillow
         - feat.ancestry.lome.absorb-toxin
         - feat.ancestry.lome.ambush-awareness
         - feat.ancestry.lome.anadi-lore
@@ -1000,6 +1112,7 @@
         - feat.ancestry.lotgb.swimming-poppet
         - feat.ancestry.lotgb.wash-out
         - feat.ancestry.lotgb.wheedle-and-jig
+        - feat.ancestry.ooa-3.glass-skin
         - feat.ancestry.orc.apg.athletic-might
         - feat.ancestry.orc.apg.beast-trainer
         - feat.ancestry.orc.apg.bloody-blows
@@ -1124,6 +1237,13 @@
         - feat.ancestry.tiefling.loag.riftmarked
         - feat.ancestry.tiefling.loag.shackleborn
         - feat.ancestry.tiefling.loag.velstrac-magic
+        - feat.ancestry.tiefling.loil.asura-magic
+        - feat.ancestry.tiefling.loil.dominion-aura
+        - feat.ancestry.tiefling.loil.faultspawn
+        - feat.ancestry.tiefling.loil.idol-threat
+        - feat.ancestry.tiefling.loil.jalmeri-rakshasa-magic
+        - feat.ancestry.tiefling.loil.reveal-hidden-self
+        - feat.ancestry.tiefling.loil.towering-presence
         - feat.ancestry.warforged.brew.adamantine-tracery
         - feat.ancestry.warforged.brew.battle-readiness
         - feat.ancestry.warforged.brew.cold-iron-tracery
@@ -1173,6 +1293,10 @@
         - feat.archetype.alkenstar-agent.class.crb.reactive-pursuit
         - feat.archetype.alkenstar-agent.class.crb.running-reload
         - feat.archetype.alkenstar-agent.class.crb.snap-shot
+        - feat.archetype.alkenstar-agent.class.ooa-1.flash-your-badge
+        - feat.archetype.alkenstar-agent.class.ooa-1.loose-cannon
+        - feat.archetype.alkenstar-agent.dedication.ooa-1.alkenstar-agent-dedication
+        - feat.archetype.alkenstar-agent.skill.ooa-1.prepare-papers
         - feat.archetype.alter-ego.class.da.borrow-memories
         - feat.archetype.alter-ego.class.da.fake-it-till-you-make-it
         - feat.archetype.alter-ego.class.da.sound-mirror
@@ -1400,7 +1524,30 @@
         - feat.archetype.class.av-3.lethargy-poisoner
         - feat.archetype.class.av-3.reloading-trick
         - feat.archetype.class.av-3.repeating-hand-crossbow-training
+        - feat.archetype.class.loil.consolidated-overlay-panopticon
+        - feat.archetype.class.loil.counterclockwork-focus
+        - feat.archetype.class.loil.cross-the-final-horizon
+        - feat.archetype.class.loil.equitable-defense
+        - feat.archetype.class.loil.heavens-thunder
+        - feat.archetype.class.loil.perfect-ki-exemplar
+        - feat.archetype.class.loil.perfect-ki-expert
+        - feat.archetype.class.loil.perfect-ki-grandmaster
+        - feat.archetype.class.loil.perfect-resistance
+        - feat.archetype.class.loil.perfect-weaponry
+        - feat.archetype.class.loil.sky-and-heaven-stance
+        - feat.archetype.class.loil.skyseeker
+        - feat.archetype.class.loil.speaking-sky
+        - feat.archetype.class.loil.steal-the-sky
         - feat.archetype.class.lokl.empyreal-aura
+        - feat.archetype.class.ooa-3.advanced-reanimated-companion
+        - feat.archetype.class.ooa-3.hijack-undead
+        - feat.archetype.class.ooa-3.improved-hijack-undead
+        - feat.archetype.class.ooa-3.incredible-reanimated-companion
+        - feat.archetype.class.ooa-3.its-alive
+        - feat.archetype.class.ooa-3.paragon-reanimated-companion
+        - feat.archetype.class.ooa-3.self-destruct
+        - feat.archetype.class.ooa-3.unwind-death
+        - feat.archetype.class.ooa-3.zombie-horde
         - feat.archetype.class.sot-4.blessing-of-the-sun-gods
         - feat.archetype.class.sot-4.greater-sun-blessing
         - feat.archetype.class.sot-4.lions-fury
@@ -1453,6 +1600,9 @@
         - feat.archetype.dandy.skill.apg.fabricated-connections
         - feat.archetype.dandy.skill.apg.party-crasher
         - feat.archetype.dedication.av-3.drow-shootist-dedication
+        - feat.archetype.dedication.loil.jalmeri-heavenseeker-dedication
+        - feat.archetype.dedication.loil.shieldmarshal-dedication
+        - feat.archetype.dedication.ooa-3.clockwork-reanimator-dedication
         - feat.archetype.dedication.sot-4.bright-lion-dedication
         - feat.archetype.demolitionist.class.apg.demolition-charge
         - feat.archetype.demolitionist.class.crb.calculated-splash
@@ -1909,6 +2059,9 @@
         - feat.archetype.martial-artist.class.crb.tiger-stance
         - feat.archetype.martial-artist.class.crb.wolf-drag
         - feat.archetype.martial-artist.class.crb.wolf-stance
+        - feat.archetype.martial-artist.class.ooa-1.black-powder-flash
+        - feat.archetype.martial-artist.class.ooa-1.powder-punch-stance
+        - feat.archetype.martial-artist.class.ooa-1.thunder-clap
         - feat.archetype.martial-artist.dedication.apg.martial-artist-dedication
         - feat.archetype.mauler.class.apg.avalanche-strike
         - feat.archetype.mauler.class.apg.clear-the-way
@@ -2563,6 +2716,7 @@
         - feat.class.alchemist.lokl.retaliatory-cleansing
         - feat.class.alchemist.lol.artokuss-fire
         - feat.class.alchemist.lol.wish-alchemy
+        - feat.class.alchemist.ooa-1.inured-to-alchemy
         - feat.class.barbarian.aoa-6.invulnerable-juggernaut
         - feat.class.barbarian.apg.adrenaline-rush
         - feat.class.barbarian.apg.barreling-charge
@@ -2648,6 +2802,7 @@
         - feat.class.barbarian.lokl.corpse-killers-defiance
         - feat.class.barbarian.lokl.ghost-wrangler
         - feat.class.barbarian.lopsg.farabellus-flip
+        - feat.class.barbarian.ooa-1.pain-tolerance
         - feat.class.bard.aoa-3.silvers-refrain
         - feat.class.bard.aoa-6.song-of-the-fallen
         - feat.class.bard.apg.accompany
@@ -2719,6 +2874,9 @@
         - feat.class.bard.crb.versatile-signature
         - feat.class.bard.ec-6.ringmasters-introduction
         - feat.class.bard.frp-3.head-of-the-night-parade
+        - feat.class.bard.loil.grand-dance
+        - feat.class.bard.loil.masquerade-of-seasons-stance
+        - feat.class.bard.loil.pirouette
         - feat.class.bard.lokl.inspiring-resilience
         - feat.class.bard.lokl.reliable-squire
         - feat.class.bard.lokl.shared-sight
@@ -3131,6 +3289,14 @@
         - feat.class.gunslinger.g-g.unerring-shot
         - feat.class.gunslinger.g-g.unshakable-grit
         - feat.class.gunslinger.g-g.warning-shot
+        - feat.class.gunslinger.loil.defy-fey
+        - feat.class.gunslinger.loil.fey-tracker
+        - feat.class.gunslinger.loil.greenwatch-initiate
+        - feat.class.gunslinger.loil.greenwatch-veteran
+        - feat.class.gunslinger.loil.greenwatcher
+        - feat.class.gunslinger.loil.triggerbrand-blitz
+        - feat.class.gunslinger.loil.triggerbrand-salvo
+        - feat.class.gunslinger.loil.unseen-passage
         - feat.class.inventor.g-g.advanced-construct-companion
         - feat.class.inventor.g-g.boost-modulation
         - feat.class.inventor.g-g.built-in-tools
@@ -4058,6 +4224,7 @@
         - feat.general.apg.supertaster
         - feat.general.apg.thorough-search
         - feat.general.apg.true-perception
+        - feat.general.brew.godless-recovery
         - feat.general.crb.adopted-ancestry
         - feat.general.crb.ancestral-paragon
         - feat.general.crb.armor-proficiency
@@ -4121,6 +4288,7 @@
         - feat.skill.apg.underground-network
         - feat.skill.apg.water-sprint
         - feat.skill.botd.stitch-flesh
+        - feat.skill.brew.mortal-intervention
         - feat.skill.crb.additional-lore
         - feat.skill.crb.alchemical-crafting
         - feat.skill.crb.arcane-sense

@@ -6,16 +6,25 @@ const { convertItem, convertItems2Save } = require('./convert/item');
 const { convertSpell2Save } = require('./convert/spell');
 const { readFilesSync } = require('./util/readFiles');
 
-const workingKeys = ['spell', 'baseitem', 'item', 'action', 'feat', 'archetype', 'background'];
+const workingKeys = [
+    'spell',
+    'baseitem',
+    'item',
+    'action',
+    'feat',
+    'archetype',
+    'background',
+];
 
 const saveFile = (name, data) => {
     try {
-        if (typeof data === 'object')
-            fs.writeFile(name, JSON.stringify(data, null, 4), (err) => {
+        if (typeof data === 'object') {
+            const jsonStr = JSON.stringify(data, null, 4).replace(/[<>]/g,'');
+            fs.writeFile(name, jsonStr, (err) => {
                 if (err) return console.log(err);
                 console.log('saved ' + name);
             });
-        else if (typeof data === 'string')
+        } else if (typeof data === 'string')
             fs.writeFile(name, data, (err) => {
                 if (err) return console.log(err);
                 console.log('saved ' + name);
@@ -72,7 +81,6 @@ const packer = () => {
     convertSpell2Save(content.spell, saveFn('spell'));
 
     convertBackground2Save(content.background, saveFn('background'));
-
 
     // console.log(`found ${content.length} unique items`);
 

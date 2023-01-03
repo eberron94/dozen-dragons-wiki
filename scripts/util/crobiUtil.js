@@ -143,7 +143,7 @@ const getTextEntries = ({ entries = [] }) => {
                             break;
                         case 'ability':
                             lineArr.push('fill');
-                            let line = e.name + ' ';
+                            let line = (e.name || 'Activate') + ' ';
                             if (e.activity) line += parseActivity(e.activity);
                             if (e.components)
                                 line +=
@@ -155,13 +155,16 @@ const getTextEntries = ({ entries = [] }) => {
                                             )
                                         )
                                         .join(', ');
-                            if (e.trigger)
-                                line +=
-                                    '| *Trigger* ' +
-                                    Renderer.stripTags(e.trigger);
                             lineArr.push(
                                 `section | ` + line.replace(/ +/g, ' ')
                             );
+
+                            if (e.trigger)
+                                lineArr.push(
+                                    `property | Trigger | ${Renderer.stripTags(
+                                        e.trigger
+                                    )}`
+                                );
                             if (e.entries) {
                                 lineArr.push(getTextEntries(e));
                             }
@@ -183,7 +186,7 @@ const getTextEntries = ({ entries = [] }) => {
                     }
             });
 
-    return lineArr.flat();
+    return lineArr.flat().map(str=>str.replace(/[<>]/g,''));
 };
 
 const parseActivity = ({ number, unit, entry }) => {

@@ -778,7 +778,8 @@
             "text | Choose two ability boosts. One must be to Intelligence or Charisma, and one is a free ability boost.",
             "text | You are trained in Occultism and Curse Lore. You gain the Warding Sign reaction. You and the GM should determine the full effects of the curse, though you've staved most of them off for now. The GM determines the curse's lingering manifestations on you, which usually include at least a constant or very frequent thematic effect and occasional more dangerous effects.",
             "fill",
-            "section | Warding Sign [[reaction]] concentrate| *Trigger* You attempt a saving throw against a magical effect, but you haven't rolled yet",
+            "section | Warding Sign [[reaction]] concentrate",
+            "property | Trigger | You attempt a saving throw against a magical effect, but you haven't rolled yet",
             "text | You call on the power of a personal, eldritch sign of protection, which flares brightly before slowly fading. You gain a +2 circumstance bonus to the triggering saving throw, or a +3 circumstance bonus if the effect is a curse.",
             "rule",
             "fill"
@@ -826,7 +827,8 @@
             "text | Choose two ability boosts. One must be to Dexterity or Charisma, and one is a free ability boost.",
             "text | You are trained in Fey Lore and gain the Fey's Fortune free action. You must follow some rule or limitation as part of your pact with the fey. If you violate the rule, you lose Fey's Fortune until you receive the effects of a successful atone ritual using the Nature skill. The exact limitation is up to you and the GM, but the most common requirement is that you must fulfill a single request from any fey who knows your name.",
             "fill",
-            "section | Fey's Fortune [[free-action]] concentrate, fortune| *Trigger* You attempt a skill check and haven't yet rolled",
+            "section | Fey's Fortune [[free-action]] concentrate, fortune",
+            "property | Trigger | You attempt a skill check and haven't yet rolled",
             "text | Roll the skill check twice and use the better result.",
             "rule",
             "fill"
@@ -1448,7 +1450,8 @@
             "text | Choose two ability boosts. One must be to Dexterity or Constitution, and one is a free ability boost.",
             "text | You're trained in the Undead Lore skill. You gain the Final Spite reaction.",
             "fill",
-            "section | Final Spite [[reaction]]| *Trigger* You're reduced to 0 Hit Points",
+            "section | Final Spite [[reaction]]",
+            "property | Trigger | You're reduced to 0 Hit Points",
             "text | You make a Strike before falling unconscious.",
             "rule",
             "fill"
@@ -3885,7 +3888,8 @@
             "text | Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
             "text | You're trained in Occultism and Star Lore. You also gain the Stellar Misfortune action.",
             "fill",
-            "section | Stellar Misfortune [[free-action]]| *Trigger* A creature you can see is about to attempt a saving throw, attack roll, or skill check",
+            "section | Stellar Misfortune [[free-action]]",
+            "property | Trigger | A creature you can see is about to attempt a saving throw, attack roll, or skill check",
             "text | You call upon the power of a dooming star, exacerbating the target's bad luck. The target must roll the triggering check twice and take the worse result.",
             "rule",
             "fill"
@@ -3964,7 +3968,8 @@
             "text | Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
             "text | You're trained in Occultism and Astrology Lore. You also gain the Reclaim Destiny action.",
             "fill",
-            "section | Reclaim Destiny [[free-action]]| *Trigger* You are about to attempt a check and are affected by a fortune or misfortune effect that modifies the triggering effect",
+            "section | Reclaim Destiny [[free-action]]",
+            "property | Trigger | You are about to attempt a check and are affected by a fortune or misfortune effect that modifies the triggering effect",
             "text | You break the influence over your fortunes and claim a stable hold over your fate. You ignore the fortune or misfortune effect and can roll the triggering roll normally.",
             "rule",
             "fill"
@@ -4647,7 +4652,7 @@
         "icon_front": "notebook",
         "code": "background",
         "contents": [
-            "text | You studied magic at the prestigious Magaambya academy in Nantambu, learning magical traditions dating back to Old- Mage Jatembe and earning a pedigree respected by magical scholars almost everywhere.",
+            "text | You studied magic at the prestigious Magaambya academy in Nantambu, learning magical traditions dating back to Old-Mage Jatembe and earning a pedigree respected by magical scholars almost everywhere.",
             "text | Choose two ability boosts. One must be to Intelligence or Charisma, and one is a free ability boost.",
             "text | You're trained in your choice of either the Arcana or Nature skill, as well as the Academia Lore skill. You gain the Recognize Spell skill feat."
         ],
@@ -5645,6 +5650,133 @@
         ]
     },
     {
+        "id": "background.ooa-0.banished-brighite",
+        "color": "#826754",
+        "name": "Banished Brighite",
+        "title": "Banished Brighite",
+        "icon_front": "notebook",
+        "code": "background",
+        "contents": [
+            "text | Once, you were a dedicated and important priest of Brigh, goddess of clockwork and invention, based out of the largest church to your deity, the Temple of Brigh in Alkenstar. Here, you made important discoveries in the annals of your religion's canon and furthered the Bronze Lady's agendas of innovation and creation. Your future seemed bright, and you predicted that it was only a matter of time until you ascended to the rank of primary cog or, someday, grand cog. Then, your years of devout service were undone in an instant. A man named Ambrost Mugland came to the Temple and demanded not only access to the religious formulas you'd been uncovering, but exclusive rights to the precious knowledge. When you refused, Mugland sent word to the church's leaders that you'd been meddling in heretical doctrine. He also implicated you in the theft of church funds that had mysteriously gone missing as of late. Sure enough, you found yourself being asked to hand in your robes. Your church colleagues didn't turn you in, but they told you in no uncertain terms that you wouldn't be able to find sanctuary for your alleged crimes in the halls of the Temple of Brigh. On the run and with nowhere to turn, your faith has been thoroughly tested, though so far you've remained true to your religion and maintained your sacred skills and divine powers. It's unclear what the Bronze Lady has in store for you, but at least one thing's for certain:",
+            "text | Ambrost Mugland will pay for what he did.",
+            "text | Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
+            "text | You're trained in the Religion skill and the Brigh Lore skill. You gain the Quick Identification skill feat."
+        ],
+        "reference": [],
+        "filtering": [
+            "background",
+            "religion",
+            "lore",
+            "uncommon"
+        ]
+    },
+    {
+        "id": "background.ooa-0.framed-in-ferrous-quarter",
+        "color": "#826754",
+        "name": "Framed in Ferrous Quarter",
+        "title": "Framed in Ferrous Quarter",
+        "icon_front": "notebook",
+        "code": "background",
+        "contents": [
+            "text | Everyone knows that Ferrous Quarter isn't exactly the nicest part of Alkenstar. Hard-working laborers, gunsmiths suffering from black lung, and red-eyed tinkerers alike can toil their entire lives on these grimy streets and still wind up dead in an alley with nothing to show for it. You were once one of these humble artisans, until one day, out of nowhere, things broke bad.",
+            "text | Maybe you hung out with the wrong crowd. Maybe it was just bad luck. Whatever the case, you were framed for a crime you didn't commit—larceny, smuggling, possibly even murder. You didn't stick around long enough to find out what, exactly, the shieldmarshals banging on your door were charging you with. Now, you're on the lam, uncertain where you'll be able to get a good night's sleep, let alone your next meal.",
+            "text | At least one thing's for sure, though: before you turned heel and ran into the streets, you saw a telltale signature on the arrest warrant. It was the scrawl of a corrupt shieldmarshal who's framed countless other hardworking folks in your neighborhood on the basis of cooked-up evidence. Yes, you're sure of it—the crooked guard who took you down is none other than Deputy Anjelique Loveless, and you're determined to return the favor.",
+            "text | Choose two ability boosts. One must be to Dexterity or Constitution, and one is a free ability boost.",
+            "text | You're trained in the Crafting skill and the Engineering Lore skill. You gain the Specialty Crafting skill feat."
+        ],
+        "reference": [],
+        "filtering": [
+            "background",
+            "crafting",
+            "uncommon"
+        ]
+    },
+    {
+        "id": "background.ooa-0.inexplicably-expelled",
+        "color": "#826754",
+        "name": "Inexplicably Expelled",
+        "title": "Inexplicably Expelled",
+        "icon_front": "notebook",
+        "code": "background",
+        "contents": [
+            "text | Gaining admission to Blythir College is a difficult task, even for Alkenstar's most well-to-do families. In the magic-warped Mana Wastes, it's next to impossible to fake arcane talents or alchemical aptitude. So when you were accepted to the school, it was one of the most triumphant moments of your life.",
+            "text | Unfortunately, your victory was short-lived. Just as you were you making significant headway on a promising series of explosive experiments, you found a letter on your desk informing you that, effective immediately, you were permanently expelled from Blythir College.",
+            "text | As bogus as the punishment was, the charges leveled against you were even more puzzling: theft of property, both intellectual and physical. And just like that, you found your prestigious honors replaced with a ruined reputation, and your colleagues and mentors became bitter rivals and accusers. In an instant, you'd gone from promising scholar to wanted criminal.",
+            "text | You followed the money for answers and learned that a shady financier named Ambrost Mugland didn't want you to finish your research at Blythir. He'd learned that you were on the brink of a great discovery—one that even you weren't fully aware of—and he decided that your imminent breakthrough would be bad for business.",
+            "text | Unfortunately for Mugland, he chose the wrong student to destroy. Now, you'll do whatever's necessary to get your revenge on the villain who stole the future you had worked so hard to build for yourself.",
+            "text | Choose two ability boosts. One must be to Intelligence or Charisma, and one is a free ability boost.",
+            "text | You're trained in the Crafting skill and the Academia Lore skill. You gain the Alchemical Crafting skill feat."
+        ],
+        "reference": [],
+        "filtering": [
+            "background",
+            "crafting",
+            "uncommon"
+        ]
+    },
+    {
+        "id": "background.ooa-0.ratted-out-gun-runner",
+        "color": "#826754",
+        "name": "Ratted-Out Gun Runner",
+        "title": "Ratted-Out Gun Runner",
+        "icon_front": "notebook",
+        "code": "background",
+        "contents": [
+            "text | Sure, you've got a checkered past. Who doesn't? It's hard to make a living in the City of Smog, so you did what you could to put silvers in your pocket and food on the table. You made a good deal of money selling firearms from the Gunworks to people who perhaps shouldn't have had them. You even worked with wasteland marauders a few times, sticking up Ustradi barges plying the river between the Gunworks and Alkenstar. Of course, you never hurt any innocents or did anything truly heinous; your criminal career was always just a matter of money.",
+            "text | One day, a corrupt financier named Ambrost Mugland—a true crook if there ever was one—approached you, demanding a cut of your business. When you refused, he put in a word with the shieldmarshals that you'd be a certain somewhere at a certain time with a certain large quantity of illegally obtained firearms.",
+            "text | Even though you escaped arrest, your identity was compromised, and your old accomplices have all turned their backs on you. Your gun-running days are clearly over. Now, you're just running.",
+            "text | Choose two ability boosts. One must be to Dexterity or Wisdom, and one is a free ability boost.",
+            "text | You're trained in the Stealth skill and the Firearm Lore skill. You gain the Experienced Smuggler skill feat."
+        ],
+        "reference": [],
+        "filtering": [
+            "background",
+            "stealth",
+            "uncommon"
+        ]
+    },
+    {
+        "id": "background.ooa-0.snubbed-out-stoolie",
+        "color": "#826754",
+        "name": "Snubbed Out Stoolie",
+        "title": "Snubbed Out Stoolie",
+        "icon_front": "notebook",
+        "code": "background",
+        "contents": [
+            "text | You were once a distinguished informant for the shieldmarshals, working deep undercover to infiltrate gangs of bootleggers and assassins. Then, one day, you discovered that the records of your service had all been completely destroyed. In an instant, you were no longer an elite spy impersonating a criminal—you were just a plain criminal.",
+            "text | Now, not a trace remains of your work for the city.",
+            "text | Not only is it as though you were never a shieldmarshal at all, but you've got a rap sheet implicating you as a key member in the criminal organizations you spent your career infiltrating. Luckily, no one could take away the skills you learned from your deep-cover missions, and your new notoriety has earned you quite a reputation among Alkenstar's criminal elite. Through your underworld connections, you've identified Deputy Shieldmarshal Anjelique Loveless as the one responsible for your fall from grace. It seems you were onto something that she didn't want you to know about, but there's only one way to figure out exactly why Loveless ruined your reputation and gave you your outlaw status—find her.",
+            "text | Choose two ability boosts. One must be to Strength or Charisma, and one is a free ability boost.",
+            "text | You're trained in the Deception skill and the Underworld Lore skill. You gain the Lie to Me skill feat."
+        ],
+        "reference": [],
+        "filtering": [
+            "background",
+            "deception",
+            "uncommon"
+        ]
+    },
+    {
+        "id": "background.ooa-0.wanted-witness",
+        "color": "#826754",
+        "name": "Wanted Witness",
+        "title": "Wanted Witness",
+        "icon_front": "notebook",
+        "code": "background",
+        "contents": [
+            "text | You saw something you shouldn't have, plain and simple. The shame is that you don't even know what it is, exactly, that you saw.",
+            "text | After moving to Alkenstar, you swiftly fell in love with the City of Smog, but you found it difficult to get a foothold in the fast-paced metropolis. Luckily, a chance invitation promised good work for someone with your unique social talents. You went to an inconspicuous chamber in a humble tower somewhere in the Capital District. There, you met some clearly powerful, clearly corrupt members of the Alkenstar elite. Among the faces you recognized were the notorious mogul Ambrost Mugland and the steely-eyed shieldmarshal Anjelique Loveless. Before you were asked to leave, you made quite an impression—but not a good one.",
+            "text | Not only did you not make the cut for whatever kinds of jobs were on offer that day, but you soon discovered that you couldn't get a room at any inn in the city, and there were wanted posters with your name on them plastered all over town. Friends and families turned their backs on you, afraid to get involved. Clearly, someone at that meeting—Mugland, maybe, or perhaps Loveless— believed you were a liability, and they had you excised from Alkenstar society. All you want is to be able to walk the streets without fearing for your life, and there's only one way to make that happen: find the villains responsible for your predicament and get them to undo the curse now attached to your name. Choose two ability boosts. One must be to Constitution or Charisma, and one is a free ability boost.",
+            "text | You're trained in the Society skill and the Alkenstar Lore skill. You gain the Read Lips skill feat."
+        ],
+        "reference": [],
+        "filtering": [
+            "background",
+            "society",
+            "uncommon"
+        ]
+    },
+    {
         "id": "background.som.academy-dropout",
         "color": "#826754",
         "name": "Academy Dropout",
@@ -5719,7 +5851,8 @@
             "text | Choose two ability boosts. One must be to Strength or Charisma, and one is a free ability boost.",
             "text | Decide with your GM the basics of the prophecy in which you're meant to play a major part. You're trained in one skill related to the prophecy, and the Fortune-Telling Lore skill. You gain the Prophecy's Pawn free action.",
             "fill",
-            "section | Prophecy's Pawn [[free-action]]| *Trigger* You fail a saving throw, attack roll, or skill check",
+            "section | Prophecy's Pawn [[free-action]]",
+            "property | Trigger | You fail a saving throw, attack roll, or skill check",
             "text | You twist the prophecy in your favor, which will have consequences later. Reroll the failed check. You must use the result of the second roll.",
             "text | For 24 hours afterward, the GM can force you to reroll a successful saving throw, attack roll, or skill check as fate balances the scale.",
             "text | This is a misfortune effect. You can't use prophecy's pawn again until the GM uses this option or 24 hours pass, whichever comes first.",
@@ -5814,7 +5947,8 @@
             "text | Choose two ability boosts. One must be to Charisma, and one is a free ability boost.",
             "text | You're trained in the Diplomacy skill and the Genie Lore skill. You gain the Wish for Luck free action.",
             "fill",
-            "section | Wish for Luck [[free-action]]| *Trigger* You are about to roll an attack roll, saving throw, or skill check",
+            "section | Wish for Luck [[free-action]]",
+            "property | Trigger | You are about to roll an attack roll, saving throw, or skill check",
             "text | You wish aloud for success. Roll the check twice and take the higher result.",
             "rule",
             "fill"
@@ -6100,7 +6234,8 @@
             "text | Choose two ability boosts. One must be to Dexterity or Intelligence, and one is a free ability boost.",
             "text | You are trained in three Lore skills of your choice that represent your knowledge from your old time. You gain the Bend Time reaction.",
             "fill",
-            "section | Bend Time [[free-action]]| *Trigger* Your turn begins",
+            "section | Bend Time [[free-action]]",
+            "property | Trigger | Your turn begins",
             "text | You are quickened this turn. You can use your extra action to Stride.",
             "rule",
             "fill"

@@ -44,6 +44,7 @@ const convertItem = (item) => {
         card.code = 'equipment';
         card.filtering.push('equipment');
     } else {
+        card.filtering.push('item')
         card.code = 'item ' + (item.level || '0');
     }
 
@@ -68,6 +69,10 @@ const convertItem = (item) => {
         card.filtering.push(item.weaponData.group.split('|')[0]);
     if (item?.armorData?.group) card.filtering.push(item.armorData.group);
     card.level = item.level || 0;
+    if (item?.appliesTo)
+        item.appliesTo.forEach((app) =>
+            card.filtering.push(`apply-${app.toLowerCase()}`)
+        );
 
     card.filtering = card.filtering.filter((e) => e).map(toDashCase);
     return card;
@@ -84,6 +89,8 @@ const getContent = ({
     price,
     frequency,
     dragonmark,
+    craftReq,
+    usage,
     ...item
 }) => {
     const lineArr = [];
@@ -100,11 +107,22 @@ const getContent = ({
     if (line !== 'property') lineArr.push(line);
 
     line = 'property';
+    if (usage) {
+        line += ` | Usage | ${usage}`;
+        if (item.appliesTo) {
+            line += ` | Application | ${item.appliesTo
+                .map((app) => app.toLowerCase())
+                .join(', ')}`;
+        }
+    }
+    if (line !== 'property') lineArr.push(line);
+
+    line = 'property';
     if (price) {
         line += ` | Price | ${price.amount} ${price.coin}`;
         line += ` | Crafting | ${Math.floor(Number(price.amount) * 0.75)} ${
             price.coin
-        }`;
+        }${craftReq ? ` (${craftReq})` : ''}`;
     }
     if (line !== 'property') lineArr.push(line);
 
@@ -132,25 +150,25 @@ const getContent = ({
 
         let armorHead = 'tablehead';
         line = 'row';
-        if (armorData.ac) {
+        if (armorData.ac || armorData.ac === 0) {
             line += ` | +${armorData.ac}`;
-            armorHead += ` | AC Bonus `;
+            armorHead += ` | AC Bonus`;
         }
-        if (armorData.dexCap) {
+        if (armorData.dexCap || armorData.dexCap === 0) {
             line += ` | +${armorData.dexCap}`;
-            armorHead += ` | Dex Cap `;
+            armorHead += ` | Dex Cap`;
         }
         if (armorData.str) {
             line += ` | ${armorData.str}`;
-            armorHead += ` | Str Req. `;
+            armorHead += ` | Str Req.`;
         }
         if (armorData.checkPen) {
             line += ` | --${armorData.checkPen}`;
-            armorHead += ` | Check Pen. `;
+            armorHead += ` | Check Pen.`;
         }
         if (armorData.speedPen) {
             line += ` | --${armorData.speedPen} ft.`;
-            armorHead += ` | Spd Pen. `;
+            armorHead += ` | Spd Pen.`;
         }
         if (line !== 'row') {
             lineArr.push(armorHead);

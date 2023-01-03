@@ -1,11 +1,375 @@
 [
     {
-        "id": "equipment.weapon.martial.lokl.war-lance",
+        "id": "item.weapon.advanced.loil.chakri",
+        "color": "#43A047",
+        "name": "Chakri",
+        "title": "Chakri",
+        "icon_front": "dart",
+        "code": "item 0",
+        "contents": [
+            "pftrait | uncommon | agile | deadly d8 | thrown",
+            "property | Hands | 1",
+            "property | Price | 2 cp | Crafting | 1 cp",
+            "property | Category | Advanced Weapon | Group | Dart",
+            "property | Damage | 1d4 S",
+            "rule",
+            "text | A chakri is a small, circular throwing weapon with a sharp outer edge."
+        ],
+        "reference": [],
+        "filtering": [
+            "level-0",
+            "agile",
+            "deadlyd8",
+            "thrown",
+            "uncommon",
+            "item",
+            "weapon",
+            "advanced",
+            "dart"
+        ],
+        "level": 0
+    },
+    {
+        "id": "item.weapon.advanced.loil.zulfikar",
+        "color": "#43A047",
+        "name": "Zulfikar",
+        "title": "Zulfikar",
+        "icon_front": "broadsword",
+        "code": "item 0",
+        "contents": [
+            "pftrait | uncommon | deadly d8 | disarm | sweep | versatile P",
+            "property | Hands | 1 | Bulk | 1",
+            "property | Price | 4 gp | Crafting | 3 gp",
+            "property | Category | Advanced Weapon | Group | Sword",
+            "property | Damage | 1d6 S",
+            "rule",
+            "text | This curved blade has a bifurcated tip, creating what looks like a second blade. It's a customary practice among zulfikar users to have religious or personal inscriptions upon the blade."
+        ],
+        "reference": [],
+        "filtering": [
+            "level-0",
+            "deadlyd8",
+            "disarm",
+            "sweep",
+            "uncommon",
+            "versatilep",
+            "item",
+            "weapon",
+            "advanced",
+            "sword"
+        ],
+        "level": 0
+    },
+    {
+        "id": "item.weapon.advanced.loil.visap",
+        "color": "#43A047",
+        "name": "Visap",
+        "title": "Visap",
+        "icon_front": "daggers",
+        "code": "item 0",
+        "contents": [
+            "pftrait | uncommon | agile | finesse | injection | versatile P | vishkanya",
+            "property | Hands | 1 | Bulk | L",
+            "property | Price | 2 gp | Crafting | 1 gp",
+            "property | Category | Advanced Weapon | Group | Knife",
+            "property | Damage | 1d4 S",
+            "rule",
+            "text | Two small, curved blades extend from a single hilt. There's a hollow area inside that vishkanyas can use to store an unused dose of their blood, or other poison, for the future."
+        ],
+        "reference": [],
+        "filtering": [
+            "level-0",
+            "agile",
+            "finesse",
+            "injection",
+            "uncommon",
+            "versatilep",
+            "vishkanya",
+            "item",
+            "weapon",
+            "advanced",
+            "knife"
+        ],
+        "level": 0
+    },
+    {
+        "id": "item.weapon.advanced.loil.kalis",
+        "color": "#43A047",
+        "name": "Kalis",
+        "title": "Kalis",
+        "icon_front": "broadsword",
+        "code": "item 0",
+        "contents": [
+            "pftrait | uncommon | deadly d8 | versatile P",
+            "property | Hands | 1 | Bulk | 1",
+            "property | Price | 3 gp | Crafting | 2 gp",
+            "property | Category | Advanced Weapon | Group | Sword",
+            "property | Damage | 1d8 S",
+            "rule",
+            "text | A larger version of the asymmetrical, wavy-bladed kris, this double-edged sword is effective at creating grievous injuries."
+        ],
+        "reference": [],
+        "filtering": [
+            "level-0",
+            "deadlyd8",
+            "uncommon",
+            "versatilep",
+            "item",
+            "weapon",
+            "advanced",
+            "sword"
+        ],
+        "level": 0
+    },
+    {
+        "id": "item.weapon.advanced.loil.gada",
+        "color": "#43A047",
+        "name": "Gada",
+        "title": "Gada",
+        "icon_front": "wood-club",
+        "code": "item 0",
+        "contents": [
+            "pftrait | backswing | two-hand d12 | vanara",
+            "property | Hands | 2 | Bulk | 2",
+            "property | Price | 1 gp | Crafting | 0 gp",
+            "property | Category | Advanced Weapon | Group | Club",
+            "property | Damage | 1d8 B",
+            "rule",
+            "text | A large spherical head with a spike on top sits mounted to a long shaft."
+        ],
+        "reference": [],
+        "filtering": [
+            "level-0",
+            "backswing",
+            "two-handd12",
+            "vanara",
+            "item",
+            "common",
+            "weapon",
+            "advanced",
+            "club"
+        ],
+        "level": 0
+    },
+    {
+        "id": "item.weapon.advanced.loil.donchak",
+        "color": "#43A047",
+        "name": "Donchak",
+        "title": "Donchak",
+        "icon_front": "bo",
+        "code": "item 0",
+        "contents": [
+            "pftrait | uncommon | hampering | reach | tethered | thrown 20 ft.",
+            "property | Hands | 2 | Bulk | 2",
+            "property | Price | 4 gp | Crafting | 3 gp",
+            "property | Category | Advanced Weapon | Group | Polearm",
+            "property | Damage | 1d8 S",
+            "rule",
+            "text | This long metal pole has a large chakram attached at the end. A mechanism within the handle allows the wielder to launch and retract the chakram, which is connected with wire to the inside of the weapon. The donchak is seldom seen used outside training scenarios."
+        ],
+        "reference": [],
+        "filtering": [
+            "level-0",
+            "hampering",
+            "reach",
+            "tethered",
+            "thrown20ft.",
+            "uncommon",
+            "item",
+            "weapon",
+            "advanced",
+            "polearm"
+        ],
+        "level": 0
+    },
+    {
+        "id": "item.weapon.advanced.loil.broadspear",
+        "color": "#43A047",
+        "name": "Broadspear",
+        "title": "Broadspear",
+        "icon_front": "trident",
+        "code": "item 0",
+        "contents": [
+            "pftrait | reach | sweep | versatile S",
+            "property | Hands | 2 | Bulk | 2",
+            "property | Price | 2 gp | Crafting | 1 gp",
+            "property | Category | Advanced Weapon | Group | Spear",
+            "property | Damage | 1d10 P",
+            "rule",
+            "text | The spearhead of this weapon is in the shape of a long leaf."
+        ],
+        "reference": [],
+        "filtering": [
+            "level-0",
+            "reach",
+            "sweep",
+            "versatiles",
+            "item",
+            "common",
+            "weapon",
+            "advanced",
+            "spear"
+        ],
+        "level": 0
+    },
+    {
+        "id": "item.weapon.martial.loil.thorn-whip",
+        "color": "#43A047",
+        "name": "Thorn whip",
+        "title": "Thorn whip",
+        "icon_front": "brass-knuckles",
+        "code": "item 0",
+        "contents": [
+            "pftrait | uncommon | disarm | finesse | ghoran | reach | trip",
+            "property | Hands | 1 | Bulk | 1",
+            "property | Price | 6 sp | Crafting | 4 sp",
+            "property | Category | Martial Weapon | Group | Brawling",
+            "property | Damage | 1d4 P",
+            "rule",
+            "text | Carefully woven from plant fibers, the thorn whip sports small spikes that protrude from various locations."
+        ],
+        "reference": [],
+        "filtering": [
+            "level-0",
+            "disarm",
+            "finesse",
+            "ghoran",
+            "reach",
+            "trip",
+            "uncommon",
+            "item",
+            "weapon",
+            "martial",
+            "brawling"
+        ],
+        "level": 0
+    },
+    {
+        "id": "item.weapon.martial.loil.panabas",
+        "color": "#43A047",
+        "name": "Panabas",
+        "title": "Panabas",
+        "icon_front": "broadsword",
+        "code": "item 0",
+        "contents": [
+            "pftrait | forceful | sweep | two-hand d10",
+            "property | Hands | 1 | Bulk | 1",
+            "property | Price | 1 gp | Crafting | 0 gp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "property | Damage | 1d6 S",
+            "rule",
+            "text | This blade features multiple curves in a serpentine pattern set on a wide, asymmetrical base, its hilt and sheath often intricately decorated."
+        ],
+        "reference": [],
+        "filtering": [
+            "level-0",
+            "forceful",
+            "sweep",
+            "two-handd10",
+            "item",
+            "common",
+            "weapon",
+            "martial",
+            "sword"
+        ],
+        "level": 0
+    },
+    {
+        "id": "item.weapon.martial.loil.talwar",
+        "color": "#43A047",
+        "name": "Talwar",
+        "title": "Talwar",
+        "icon_front": "broadsword",
+        "code": "item 0",
+        "contents": [
+            "pftrait | forceful | two-hand d10 | versatile P",
+            "property | Hands | 1 | Bulk | 1",
+            "property | Price | 2 gp | Crafting | 1 gp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "property | Damage | 1d6 S",
+            "rule",
+            "text | Longer, and with less curve than a scimitar, this blade is ubiquitous in guard and mercenary groups throughout Casmaron."
+        ],
+        "reference": [],
+        "filtering": [
+            "level-0",
+            "forceful",
+            "two-handd10",
+            "versatilep",
+            "item",
+            "common",
+            "weapon",
+            "martial",
+            "sword"
+        ],
+        "level": 0
+    },
+    {
+        "id": "item.weapon.martial.loil.kris",
+        "color": "#43A047",
+        "name": "Kris",
+        "title": "Kris",
+        "icon_front": "daggers",
+        "code": "item 0",
+        "contents": [
+            "pftrait | agile | deadly d8 | finesse",
+            "property | Hands | 1 | Bulk | L",
+            "property | Price | 7 sp | Crafting | 5 sp",
+            "property | Category | Martial Weapon | Group | Knife",
+            "property | Damage | 1d4 P",
+            "rule",
+            "text | This blade features multiple curves in a serpentine pattern set on a wide, asymmetrical base, its hilt and sheath often intricately decorated."
+        ],
+        "reference": [],
+        "filtering": [
+            "level-0",
+            "agile",
+            "deadlyd8",
+            "finesse",
+            "item",
+            "common",
+            "weapon",
+            "martial",
+            "knife"
+        ],
+        "level": 0
+    },
+    {
+        "id": "item.weapon.martial.loil.dandpatta",
+        "color": "#43A047",
+        "name": "Dandpatta",
+        "title": "Dandpatta",
+        "icon_front": "broadsword",
+        "code": "item 0",
+        "contents": [
+            "pftrait | uncommon | agile | twin",
+            "property | Hands | 1 | Bulk | L",
+            "property | Price | 8 sp | Crafting | 6 sp",
+            "property | Category | Martial Weapon | Group | Sword",
+            "property | Damage | 1d6 S",
+            "rule",
+            "text | This long, narrow blade is attached to a gauntlet that also acts as a handguard."
+        ],
+        "reference": [],
+        "filtering": [
+            "level-0",
+            "agile",
+            "twin",
+            "uncommon",
+            "item",
+            "weapon",
+            "martial",
+            "sword"
+        ],
+        "level": 0
+    },
+    {
+        "id": "item.weapon.martial.lokl.war-lance",
         "color": "#43A047",
         "name": "War Lance",
         "title": "War Lance",
         "icon_front": "trident",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | deadly d8 | jousting d6 | parry | shove",
             "property | Hands | 2 | Bulk | 2",
@@ -19,11 +383,11 @@
         "filtering": [
             "level-0",
             "uncommon",
-            "deadly-d8",
-            "jousting-d6",
+            "deadlyd8",
+            "joustingd6",
             "parry",
             "shove",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "spear"
@@ -31,12 +395,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.lokl.bladed-gauntlet",
+        "id": "item.weapon.martial.lokl.bladed-gauntlet",
         "color": "#43A047",
         "name": "Bladed Gauntlet",
         "title": "Bladed Gauntlet",
         "icon_front": "brass-knuckles",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | finesse | free-hand | modular B, P, or S",
             "property | Hands | 1 | Bulk | L",
@@ -53,8 +417,8 @@
             "agile",
             "finesse",
             "free-hand",
-            "modular-b,p,or-s",
-            "equipment",
+            "modularb,p,or-s",
+            "item",
             "weapon",
             "martial",
             "brawling"
@@ -62,12 +426,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.b-1.ogre-hook",
+        "id": "item.weapon.martial.b-1.ogre-hook",
         "color": "#43A047",
         "name": "Ogre Hook",
         "title": "Ogre Hook",
         "icon_front": "war-pick",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | deadly d10 | trip",
             "property | Hands | 2 | Bulk | 2",
@@ -80,10 +444,10 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "deadly-d10",
+            "deadlyd10",
             "trip",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "pick"
@@ -91,12 +455,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.loag.adze",
+        "id": "item.weapon.martial.loag.adze",
         "color": "#43A047",
         "name": "Adze",
         "title": "Adze",
         "icon_front": "sharp-axe",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | forceful | grippli | sweep",
             "property | Hands | 2 | Bulk | 2",
@@ -112,7 +476,7 @@
             "forceful",
             "grippli",
             "sweep",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -121,12 +485,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.g-g.air-repeater",
+        "id": "item.weapon.simple.g-g.air-repeater",
         "color": "#43A047",
         "name": "Air Repeater",
         "title": "Air Repeater",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | repeating",
             "property | Hands | 1 | Bulk | L",
@@ -142,7 +506,7 @@
             "uncommon",
             "agile",
             "repeating",
-            "equipment",
+            "item",
             "weapon",
             "simple",
             "firearm"
@@ -150,12 +514,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.b-1.aklys",
+        "id": "item.weapon.advanced.b-1.aklys",
         "color": "#43A047",
         "name": "Aklys",
         "title": "Aklys",
         "icon_front": "wood-club",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | ranged trip | tethered | thrown 20 ft. | trip",
             "property | Hands | 1 | Bulk | 1",
@@ -173,7 +537,7 @@
             "tethered",
             "trip",
             "thrown20ft.",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "club"
@@ -202,6 +566,7 @@
             "level-0",
             "uncommon",
             "alchemical",
+            "item",
             "weapon",
             "simple",
             "bow"
@@ -209,12 +574,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.lowg.aldori-dueling-sword",
+        "id": "item.weapon.advanced.lowg.aldori-dueling-sword",
         "color": "#43A047",
         "name": "Aldori Dueling Sword",
         "title": "Aldori Dueling Sword",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
             "pftrait | uncommon | finesse | versatile p",
             "property | Hands | 1 | Bulk | 1",
@@ -229,8 +594,8 @@
             "level-1",
             "uncommon",
             "finesse",
-            "versatile-p",
-            "equipment",
+            "versatilep",
+            "item",
             "weapon",
             "advanced",
             "sword"
@@ -238,12 +603,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.martial.g-g.arquebus",
+        "id": "item.weapon.martial.g-g.arquebus",
         "color": "#43A047",
         "name": "Arquebus",
         "title": "Arquebus",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | concussive | fatal d12 | kickback",
             "property | Hands | 2 | Bulk | 2",
@@ -258,9 +623,9 @@
             "level-0",
             "uncommon",
             "concussive",
-            "fatal-d12",
+            "fatald12",
             "kickback",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -268,12 +633,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.lotgb.asp-coil",
+        "id": "item.weapon.martial.lotgb.asp-coil",
         "color": "#43A047",
         "name": "Asp Coil",
         "title": "Asp Coil",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | reach | versatile p",
             "property | Hands | 1 | Bulk | 1",
@@ -288,8 +653,8 @@
             "level-0",
             "uncommon",
             "reach",
-            "versatile-p",
-            "equipment",
+            "versatilep",
+            "item",
             "weapon",
             "martial",
             "sword"
@@ -297,14 +662,42 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.axe-musket",
+        "id": "item.weapon.martial.loil.triggerbrand",
+        "color": "#43A047",
+        "name": "Triggerbrand",
+        "title": "Triggerbrand",
+        "icon_front": "blunderbuss",
+        "code": "item 1",
+        "contents": [
+            "pftrait | uncommon | combination",
+            "property | Hands | 1 | Bulk | 1",
+            "property | Price | 10 gp | Crafting | 7 gp",
+            "property | Category | Martial Weapon | Group | Firearm",
+            "property | Damage | 1d4 P | Reload | 1",
+            "rule",
+            "text | This unusual combination weapon integrates features of a flintlock pistol and a shortsword. Like other combination weapons, a wielder can transform it between ranged and melee modes as an Interact action."
+        ],
+        "reference": [],
+        "filtering": [
+            "level-1",
+            "uncommon",
+            "combination",
+            "item",
+            "weapon",
+            "martial",
+            "firearm"
+        ],
+        "level": 1
+    },
+    {
+        "id": "item.weapon.martial.g-g.axe-musket",
         "color": "#43A047",
         "name": "Axe Musket",
         "title": "Axe Musket",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
-            "pftrait | uncommon",
+            "pftrait | uncommon | combination",
             "property | Hands | 2 | Bulk | 2",
             "property | Price | 10 gp | Crafting | 7 gp",
             "property | Category | Martial Weapon | Group | Firearm",
@@ -316,7 +709,8 @@
         "filtering": [
             "level-1",
             "uncommon",
-            "equipment",
+            "combination",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -343,6 +737,7 @@
         "filtering": [
             "level-1",
             "uncommon",
+            "item",
             "weapon",
             "martial",
             "bow"
@@ -370,6 +765,7 @@
             "level-1",
             "uncommon",
             "volley50ft.",
+            "item",
             "weapon",
             "advanced",
             "sling"
@@ -377,12 +773,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.martial.crb.bastard-sword",
+        "id": "item.weapon.martial.crb.bastard-sword",
         "color": "#43A047",
         "name": "Bastard Sword",
         "title": "Bastard Sword",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | two-hand d12",
             "property | Hands | 1 | Bulk | 1",
@@ -395,8 +791,8 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "two-hand-d12",
-            "equipment",
+            "two-handd12",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -405,12 +801,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.battle-axe",
+        "id": "item.weapon.martial.crb.battle-axe",
         "color": "#43A047",
         "name": "Battle Axe",
         "title": "Battle Axe",
         "icon_front": "sharp-axe",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | sweep",
             "property | Hands | 1 | Bulk | 1",
@@ -424,7 +820,7 @@
         "filtering": [
             "level-0",
             "sweep",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -433,12 +829,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.av-2.battle-lute",
+        "id": "item.weapon.simple.av-2.battle-lute",
         "color": "#43A047",
         "name": "Battle Lute",
         "title": "Battle Lute",
         "icon_front": "wood-club",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | shove | two-hand d8",
             "property | Hands | 1 | Bulk | 1",
@@ -453,8 +849,8 @@
             "level-0",
             "uncommon",
             "shove",
-            "two-hand-d8",
-            "equipment",
+            "two-handd8",
+            "item",
             "weapon",
             "simple",
             "club"
@@ -462,12 +858,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.bayonet",
+        "id": "item.weapon.martial.g-g.bayonet",
         "color": "#43A047",
         "name": "Bayonet",
         "title": "Bayonet",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | attached to crossbow or firearm | finesse",
             "property | Hands | 1 or 2* | Bulk | L",
@@ -482,9 +878,9 @@
         "filtering": [
             "level-0",
             "agile",
-            "attached-to-crossbow-or-firearm",
+            "attachedto-crossbow-or-firearm",
             "finesse",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -518,8 +914,9 @@
             "uncommon",
             "cobbled",
             "goblin",
-            "modular-b,p,or-s",
-            "fatal-d12",
+            "modularb,p,or-s",
+            "fatald12",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -527,14 +924,14 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.martial.g-g.black-powder-knuckle-dusters",
+        "id": "item.weapon.martial.g-g.black-powder-knuckle-dusters",
         "color": "#43A047",
         "name": "Black Powder Knuckle Dusters",
         "title": "Black Powder Knuckle Dusters",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
-            "pftrait | uncommon",
+            "pftrait | uncommon | combination",
             "property | Hands | 1 | Bulk | L",
             "property | Price | 8 gp | Crafting | 6 gp",
             "property | Category | Martial Weapon | Group | Firearm",
@@ -546,7 +943,8 @@
         "filtering": [
             "level-0",
             "uncommon",
-            "equipment",
+            "combination",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -554,12 +952,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.ec-1.bladed-diabolo",
+        "id": "item.weapon.advanced.ec-1.bladed-diabolo",
         "color": "#43A047",
         "name": "Bladed Diabolo",
         "title": "Bladed Diabolo",
         "icon_front": "flail",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | backswing | disarm | finesse | thrown 40 feet | trip",
             "property | Hands | 2 | Bulk | L",
@@ -578,7 +976,7 @@
             "finesse",
             "thrown40feet",
             "trip",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "flail"
@@ -586,12 +984,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.ec-1.bladed-hoop",
+        "id": "item.weapon.advanced.ec-1.bladed-hoop",
         "color": "#43A047",
         "name": "Bladed Hoop",
         "title": "Bladed Hoop",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | finesse | sweep | two-hand d8",
             "property | Hands | 0+ | Bulk | 1",
@@ -607,8 +1005,8 @@
             "uncommon",
             "finesse",
             "sweep",
-            "two-hand-d8",
-            "equipment",
+            "two-handd8",
+            "item",
             "weapon",
             "advanced",
             "knife"
@@ -616,12 +1014,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.logm.bladed-scarf",
+        "id": "item.weapon.martial.logm.bladed-scarf",
         "color": "#43A047",
         "name": "Bladed Scarf",
         "title": "Bladed Scarf",
         "icon_front": "flail",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | disarm | finesse | reach | sweep | trip",
             "property | Hands | 2 | Bulk | 1",
@@ -640,7 +1038,7 @@
             "finesse",
             "sweep",
             "trip",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "flail"
@@ -648,12 +1046,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.crb.blowgun",
+        "id": "item.weapon.simple.crb.blowgun",
         "color": "#43A047",
         "name": "Blowgun",
         "title": "Blowgun",
         "icon_front": "dart",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | nonlethal",
             "property | Hands | 1 | Bulk | L",
@@ -668,7 +1066,7 @@
             "level-0",
             "agile",
             "nonlethal",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "simple",
@@ -677,12 +1075,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.blunderbuss",
+        "id": "item.weapon.martial.g-g.blunderbuss",
         "color": "#43A047",
         "name": "Blunderbuss",
         "title": "Blunderbuss",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | concussive | scatter 10 ft.",
             "property | Hands | 2 | Bulk | 2",
@@ -698,7 +1096,7 @@
             "uncommon",
             "concussive",
             "scatter10ft.",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -706,12 +1104,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.bo-staff",
+        "id": "item.weapon.martial.crb.bo-staff",
         "color": "#43A047",
         "name": "Bo Staff",
         "title": "Bo Staff",
         "icon_front": "wood-club",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | monk | parry | reach | trip",
             "property | Hands | 2 | Bulk | 2",
@@ -728,7 +1126,7 @@
             "parry",
             "reach",
             "trip",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -737,12 +1135,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.aaws.boarding-axe",
+        "id": "item.weapon.martial.aaws.boarding-axe",
         "color": "#43A047",
         "name": "Boarding Axe",
         "title": "Boarding Axe",
         "icon_front": "sharp-axe",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | azarketi | climbing | versatile p",
             "property | Hands | 1 | Bulk | L",
@@ -759,8 +1157,8 @@
             "azarketi",
             "climbing",
             "uncommon",
-            "versatile-p",
-            "equipment",
+            "versatilep",
+            "item",
             "weapon",
             "martial",
             "axe"
@@ -768,12 +1166,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.lopsg.boarding-pike",
+        "id": "item.weapon.martial.lopsg.boarding-pike",
         "color": "#43A047",
         "name": "Boarding Pike",
         "title": "Boarding Pike",
         "icon_front": "bo",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
             "pftrait | uncommon | reach | shove",
             "property | Hands | 2 | Bulk | 2",
@@ -789,7 +1187,7 @@
             "uncommon",
             "reach",
             "shove",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "polearm"
@@ -797,12 +1195,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.martial.apg.bola",
+        "id": "item.weapon.martial.apg.bola",
         "color": "#43A047",
         "name": "Bola",
         "title": "Bola",
         "icon_front": "sling",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | nonlethal | ranged trip | thrown",
             "property | Hands | 1 | Bulk | L",
@@ -819,7 +1217,7 @@
             "nonlethal",
             "ranged-trip",
             "thrown",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "sling"
@@ -827,18 +1225,18 @@
         "level": 0
     },
     {
-        "id": "equipment.armor.light.lokl.armored-coat",
+        "id": "item.armor.light.lokl.armored-coat",
         "color": "#43A047",
         "name": "Armored Coat",
         "title": "Armored Coat",
         "icon_front": "leather-armor",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | comfort | flexible",
             "property | Bulk | 2",
             "property | Price | 20 gp | Crafting | 15 gp",
             "property | Category | Light Armor | Group | Leather",
-            "tablehead | AC Bonus  | Dex Cap  | Str Req.  | Check Pen. ",
+            "tablehead | AC Bonus | Dex Cap | Str Req. | Check Pen.",
             "row | +2 | +2 | 14 | --1",
             "rule",
             "text | A custom, lightweight mail is fitted within the lining of a coat or similar apparel, physically hiding the armor while maintaining the wearer's fashion. While not nearly as protective as heavier armors, the armored coat allows the wearer to blend in more aesthetically during civilian functions. Like other suits of armor, the armored coat is custom-fitted to an individual's body type, ensuring comfort without sacrificing its defensive capabilities."
@@ -848,7 +1246,7 @@
             "level-0",
             "comfort",
             "flexible",
-            "equipment",
+            "item",
             "common",
             "armor",
             "light",
@@ -857,17 +1255,17 @@
         "level": 0
     },
     {
-        "id": "equipment.armor.medium.crb.breastplate",
+        "id": "item.armor.medium.crb.breastplate",
         "color": "#43A047",
         "name": "Breastplate",
         "title": "Breastplate",
         "icon_front": "abdominal-armor",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "property | Bulk | 2",
             "property | Price | 8 gp | Crafting | 6 gp",
             "property | Category | Medium Armor | Group | Plate",
-            "tablehead | AC Bonus  | Dex Cap  | Str Req.  | Check Pen.  | Spd Pen. ",
+            "tablehead | AC Bonus | Dex Cap | Str Req. | Check Pen. | Spd Pen.",
             "row | +4 | +1 | 16 | --2 | --5 ft.",
             "rule",
             "text | Though referred to as a breastplate, this type of armor consists of several pieces of plate or half plate armor that protect the torso, chest, neck, and sometimes the hips and lower legs. It strategically grants some of the protection of plate while allowing greater flexibility and speed."
@@ -875,7 +1273,7 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "equipment",
+            "item",
             "common",
             "armor",
             "medium",
@@ -884,12 +1282,12 @@
         "level": 0
     },
     {
-        "id": "equipment.shield.crb.buckler",
+        "id": "item.shield.crb.buckler",
         "color": "#43A047",
         "name": "Buckler",
         "title": "Buckler",
         "icon_front": "shield",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "property | Bulk | L",
             "property | Price | 1 gp | Crafting | 0 gp",
@@ -899,19 +1297,19 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "equipment",
+            "item",
             "common",
             "shield"
         ],
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.lotgb.butchering-axe",
+        "id": "item.weapon.advanced.lotgb.butchering-axe",
         "color": "#43A047",
         "name": "Butchering Axe",
         "title": "Butchering Axe",
         "icon_front": "sharp-axe",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | orc | shove | sweep",
             "property | Hands | 2 | Bulk | 2",
@@ -928,7 +1326,7 @@
             "orc",
             "shove",
             "sweep",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "axe"
@@ -936,12 +1334,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.frp-2.butterfly-sword",
+        "id": "item.weapon.advanced.frp-2.butterfly-sword",
         "color": "#43A047",
         "name": "Butterfly Sword",
         "title": "Butterfly Sword",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | disarm | finesse | monk | parry | twin",
             "property | Hands | 1 | Bulk | L",
@@ -961,7 +1359,7 @@
             "monk",
             "parry",
             "twin",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "sword"
@@ -969,12 +1367,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.loag.buugeng",
+        "id": "item.weapon.martial.loag.buugeng",
         "color": "#43A047",
         "name": "Buugeng",
         "title": "Buugeng",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | conrasu | sweep | twin",
             "property | Hands | 1 | Bulk | 1",
@@ -992,7 +1390,7 @@
             "conrasu",
             "sweep",
             "twin",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "sword"
@@ -1000,14 +1398,14 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.cane-pistol",
+        "id": "item.weapon.martial.g-g.cane-pistol",
         "color": "#43A047",
         "name": "Cane Pistol",
         "title": "Cane Pistol",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
-            "pftrait | uncommon",
+            "pftrait | uncommon | combination",
             "property | Hands | 1 | Bulk | 1",
             "property | Price | 8 gp | Crafting | 6 gp",
             "property | Category | Martial Weapon | Group | Firearm",
@@ -1019,7 +1417,8 @@
         "filtering": [
             "level-0",
             "uncommon",
-            "equipment",
+            "combination",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -1027,18 +1426,18 @@
         "level": 0
     },
     {
-        "id": "equipment.armor.medium.crb.chain-mail",
+        "id": "item.armor.medium.crb.chain-mail",
         "color": "#43A047",
         "name": "Chain Mail",
         "title": "Chain Mail",
         "icon_front": "abdominal-armor",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | flexible | noisy",
             "property | Bulk | 2",
             "property | Price | 6 gp | Crafting | 4 gp",
             "property | Category | Medium Armor | Group | Chain",
-            "tablehead | AC Bonus  | Dex Cap  | Str Req.  | Check Pen.  | Spd Pen. ",
+            "tablehead | AC Bonus | Dex Cap | Str Req. | Check Pen. | Spd Pen.",
             "row | +4 | +1 | 16 | --2 | --5 ft.",
             "rule",
             "text | A suit of chain mail consists of several pieces of armor composed of small metal rings linked together in a protective mesh. It typically includes a chain shirt, leggings, a pair of arms, and a coif, collectively protecting most of the body."
@@ -1048,7 +1447,7 @@
             "level-0",
             "flexible",
             "noisy",
-            "equipment",
+            "item",
             "common",
             "armor",
             "medium",
@@ -1057,18 +1456,18 @@
         "level": 0
     },
     {
-        "id": "equipment.armor.light.crb.chain-shirt",
+        "id": "item.armor.light.crb.chain-shirt",
         "color": "#43A047",
         "name": "Chain Shirt",
         "title": "Chain Shirt",
         "icon_front": "leather-armor",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | flexible | noisy",
             "property | Bulk | 1",
             "property | Price | 5 gp | Crafting | 3 gp",
             "property | Category | Light Armor | Group | Chain",
-            "tablehead | AC Bonus  | Dex Cap  | Str Req.  | Check Pen. ",
+            "tablehead | AC Bonus | Dex Cap | Str Req. | Check Pen.",
             "row | +2 | +3 | 12 | --1",
             "rule",
             "text | Sometimes called a hauberk, this is a long shirt constructed of the same metal rings as chainmail. However, it is much lighter than chainmail and protects only the torso, upper arms, and upper legs of its wearer."
@@ -1078,7 +1477,7 @@
             "level-0",
             "flexible",
             "noisy",
-            "equipment",
+            "item",
             "common",
             "armor",
             "light",
@@ -1087,12 +1486,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.lotgb.chakram",
+        "id": "item.weapon.martial.lotgb.chakram",
         "color": "#43A047",
         "name": "Chakram",
         "title": "Chakram",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | thrown",
             "property | Hands | 1 | Bulk | L",
@@ -1106,7 +1505,7 @@
         "filtering": [
             "level-0",
             "thrown",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -1115,12 +1514,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.crb.clan-dagger",
+        "id": "item.weapon.simple.crb.clan-dagger",
         "color": "#43A047",
         "name": "Clan Dagger",
         "title": "Clan Dagger",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | dwarf | parry | versatile b",
             "property | Hands | 1 | Bulk | L",
@@ -1136,9 +1535,9 @@
             "agile",
             "dwarf",
             "parry",
-            "versatile-b",
+            "versatileb",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "simple",
             "knife"
@@ -1146,12 +1545,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.clan-pistol",
+        "id": "item.weapon.martial.g-g.clan-pistol",
         "color": "#43A047",
         "name": "Clan Pistol",
         "title": "Clan Pistol",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | concussive | dwarf | fatal d10",
             "property | Hands | 1 | Bulk | L",
@@ -1167,8 +1566,8 @@
             "uncommon",
             "concussive",
             "dwarf",
-            "fatal-d10",
-            "equipment",
+            "fatald10",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -1176,12 +1575,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.apg.claw-blade",
+        "id": "item.weapon.martial.apg.claw-blade",
         "color": "#43A047",
         "name": "Claw Blade",
         "title": "Claw Blade",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | catfolk | deadly d8 | disarm | finesse | versatile p",
             "property | Hands | 1 | Bulk | L",
@@ -1197,11 +1596,11 @@
             "uncommon",
             "agile",
             "catfolk",
-            "deadly-d8",
+            "deadlyd8",
             "disarm",
             "finesse",
-            "versatile-p",
-            "equipment",
+            "versatilep",
+            "item",
             "weapon",
             "martial",
             "knife"
@@ -1218,9 +1617,10 @@
         "contents": [
             "pftrait | uncommon | clockwork",
             "property | Bulk | 2",
+            "property | Usage | worn armor",
             "property | Price | 200 gp | Crafting | 150 gp",
             "property | Category | Light Armor | Group | Plate",
-            "tablehead | AC Bonus  | Dex Cap  | Str Req.  | Check Pen. ",
+            "tablehead | AC Bonus | Dex Cap | Str Req. | Check Pen.",
             "row | +2 | +3 | 12 | --1",
             "rule",
             "text | Sometimes, just disguising one's face just isn't convincing enough. Clockwork disguises were invented to supplement regular disguise kits, which are used all across Golarion. For example, if a spy wants to infiltrate a military camp, they must be wearing the same type of armor as the soldiers stationed there—or else have a very good explanation for their commander as to why they're out of proper uniform! The clockwork disguise is intended to help avoid such awkward, potentially fatal confrontations.",
@@ -1228,7 +1628,7 @@
             "text | Giving a clockwork disguise a new preset configuration requires 20 minutes of work. The clockwork disguise can have a maximum of three preset configurations at a time, and it can only mimic light and medium armor suits made of metal.",
             "text | The clockwork disguise is light armor and has the stats listed above, regardless of which type of armor it mimics.",
             "fill",
-            "section | undefined [[one-action]] Interact",
+            "section | Activate [[one-action]] Interact",
             "text | Transform the clockwork disguise into any one current preset configuration of the user's choice.",
             "rule",
             "fill"
@@ -1238,6 +1638,7 @@
             "level-6",
             "uncommon",
             "clockwork",
+            "item",
             "armor",
             "light",
             "plate"
@@ -1245,12 +1646,12 @@
         "level": 6
     },
     {
-        "id": "equipment.weapon.advanced.lotgb.clockwork-macuahuitl",
+        "id": "item.weapon.advanced.lotgb.clockwork-macuahuitl",
         "color": "#43A047",
         "name": "Clockwork Macuahuitl",
         "title": "Clockwork Macuahuitl",
         "icon_front": "wood-club",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | rare | backswing | clockwork | forceful | versatile b",
             "property | Hands | 2 | Bulk | 1",
@@ -1268,8 +1669,8 @@
             "clockwork",
             "forceful",
             "rare",
-            "versatile-b",
-            "equipment",
+            "versatileb",
+            "item",
             "weapon",
             "advanced",
             "club"
@@ -1277,12 +1678,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.crb.club",
+        "id": "item.weapon.simple.crb.club",
         "color": "#43A047",
         "name": "Club",
         "title": "Club",
         "icon_front": "wood-club",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | thrown 10 ft.",
             "property | Hands | 1 | Bulk | 1",
@@ -1296,7 +1697,7 @@
         "filtering": [
             "level-0",
             "thrown10ft.",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "simple",
@@ -1305,12 +1706,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.g-g.coat-pistol",
+        "id": "item.weapon.simple.g-g.coat-pistol",
         "color": "#43A047",
         "name": "Coat Pistol",
         "title": "Coat Pistol",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | concealable | concussive | fatal d8",
             "property | Hands | 1 | Bulk | L",
@@ -1326,8 +1727,8 @@
             "uncommon",
             "concealable",
             "concussive",
-            "fatal-d8",
-            "equipment",
+            "fatald8",
+            "item",
             "weapon",
             "simple",
             "firearm"
@@ -1335,12 +1736,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.lopsg.combat-grapnel",
+        "id": "item.weapon.martial.lopsg.combat-grapnel",
         "color": "#43A047",
         "name": "Combat Grapnel",
         "title": "Combat Grapnel",
         "icon_front": "flail",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
             "pftrait | uncommon | finesse | grapple | tethered | thrown 20 feet",
             "property | Hands | 2 | Bulk | 1",
@@ -1358,7 +1759,7 @@
             "grapple",
             "tethered",
             "thrown20feet",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "flail"
@@ -1366,12 +1767,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.martial.crb.composite-longbow",
+        "id": "item.weapon.martial.crb.composite-longbow",
         "color": "#43A047",
         "name": "Composite Longbow",
         "title": "Composite Longbow",
         "icon_front": "crossbow",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | deadly d10 | propulsive | volley 30 ft.",
             "property | Hands | 1+ | Bulk | 2",
@@ -1384,10 +1785,10 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "deadly-d10",
+            "deadlyd10",
             "propulsive",
             "volley30ft.",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -1396,12 +1797,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.composite-shortbow",
+        "id": "item.weapon.martial.crb.composite-shortbow",
         "color": "#43A047",
         "name": "Composite Shortbow",
         "title": "Composite Shortbow",
         "icon_front": "crossbow",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | deadly d10 | propulsive",
             "property | Hands | 1+ | Bulk | 1",
@@ -1414,9 +1815,9 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "deadly-d10",
+            "deadlyd10",
             "propulsive",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -1425,12 +1826,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.crb.crossbow",
+        "id": "item.weapon.simple.crb.crossbow",
         "color": "#43A047",
         "name": "Crossbow",
         "title": "Crossbow",
         "icon_front": "crossbow",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "property | Hands | 2 | Bulk | 1",
             "property | Price | 3 gp | Crafting | 2 gp",
@@ -1442,7 +1843,7 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "simple",
@@ -1451,12 +1852,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.crb.dagger",
+        "id": "item.weapon.simple.crb.dagger",
         "color": "#43A047",
         "name": "Dagger",
         "title": "Dagger",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | finesse | thrown 10 ft. | versatile s",
             "property | Hands | 1 | Bulk | L",
@@ -1472,8 +1873,8 @@
             "agile",
             "finesse",
             "thrown10ft.",
-            "versatile-s",
-            "equipment",
+            "versatiles",
+            "item",
             "common",
             "weapon",
             "simple",
@@ -1482,12 +1883,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.dagger-pistol",
+        "id": "item.weapon.martial.g-g.dagger-pistol",
         "color": "#43A047",
         "name": "Dagger Pistol",
         "title": "Dagger Pistol",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon",
             "property | Hands | 1 | Bulk | L",
@@ -1501,7 +1902,7 @@
         "filtering": [
             "level-0",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -1509,12 +1910,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.crb.dart",
+        "id": "item.weapon.simple.crb.dart",
         "color": "#43A047",
         "name": "Dart",
         "title": "Dart",
         "icon_front": "dart",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | thrown",
             "property | Hands | 1 | Bulk | L",
@@ -1529,7 +1930,7 @@
             "level-0",
             "agile",
             "thrown",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "simple",
@@ -1560,6 +1961,7 @@
             "concealable",
             "nonlethal",
             "uncommon",
+            "item",
             "weapon",
             "martial",
             "dart"
@@ -1567,12 +1969,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.dogslicer",
+        "id": "item.weapon.martial.crb.dogslicer",
         "color": "#43A047",
         "name": "Dogslicer",
         "title": "Dogslicer",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | backstabber | finesse | goblin",
             "property | Hands | 1 | Bulk | L",
@@ -1590,7 +1992,7 @@
             "finesse",
             "goblin",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "sword"
@@ -1598,12 +2000,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.double-barreled-musket",
+        "id": "item.weapon.martial.g-g.double-barreled-musket",
         "color": "#43A047",
         "name": "Double-barreled Musket",
         "title": "Double-barreled Musket",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
             "pftrait | uncommon | concussive | double barrel | fatal d10",
             "property | Hands | 2 | Bulk | 1",
@@ -1619,8 +2021,8 @@
             "uncommon",
             "concussive",
             "double-barrel",
-            "fatal-d10",
-            "equipment",
+            "fatald10",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -1628,12 +2030,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.martial.g-g.double-barreled-pistol",
+        "id": "item.weapon.martial.g-g.double-barreled-pistol",
         "color": "#43A047",
         "name": "Double-barreled Pistol",
         "title": "Double-barreled Pistol",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | concussive | double barrel | fatal d8",
             "property | Hands | 1 | Bulk | 1",
@@ -1649,8 +2051,8 @@
             "uncommon",
             "concussive",
             "double-barrel",
-            "fatal-d8",
-            "equipment",
+            "fatald8",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -1658,12 +2060,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.dragon-mouth-pistol",
+        "id": "item.weapon.martial.g-g.dragon-mouth-pistol",
         "color": "#43A047",
         "name": "Dragon Mouth Pistol",
         "title": "Dragon Mouth Pistol",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | concussive | scatter 5 ft.",
             "property | Hands | 1 | Bulk | 1",
@@ -1679,7 +2081,7 @@
             "uncommon",
             "concussive",
             "scatter5ft.",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -1687,12 +2089,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.dueling-pistol",
+        "id": "item.weapon.martial.g-g.dueling-pistol",
         "color": "#43A047",
         "name": "Dueling Pistol",
         "title": "Dueling Pistol",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
             "pftrait | uncommon | concealable | concussive | fatal d10",
             "property | Hands | 1 | Bulk | L",
@@ -1708,8 +2110,8 @@
             "uncommon",
             "concealable",
             "concussive",
-            "fatal-d10",
-            "equipment",
+            "fatald10",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -1717,12 +2119,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.martial.lotgb.dueling-spear",
+        "id": "item.weapon.martial.lotgb.dueling-spear",
         "color": "#43A047",
         "name": "Dueling Spear",
         "title": "Dueling Spear",
         "icon_front": "trident",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | disarm | finesse | versatile s",
             "property | Hands | 2 | Bulk | 2",
@@ -1738,8 +2140,8 @@
             "uncommon",
             "disarm",
             "finesse",
-            "versatile-s",
-            "equipment",
+            "versatiles",
+            "item",
             "weapon",
             "martial",
             "spear"
@@ -1747,12 +2149,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.g-g.dwarven-scattergun",
+        "id": "item.weapon.advanced.g-g.dwarven-scattergun",
         "color": "#43A047",
         "name": "Dwarven Scattergun",
         "title": "Dwarven Scattergun",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
             "pftrait | uncommon | concussive | dwarf | kickback | scatter 10 ft.",
             "property | Hands | 2 | Bulk | 2",
@@ -1770,7 +2172,7 @@
             "dwarf",
             "kickback",
             "scatter10ft.",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "firearm"
@@ -1778,12 +2180,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.advanced.crb.dwarven-war-axe",
+        "id": "item.weapon.advanced.crb.dwarven-war-axe",
         "color": "#43A047",
         "name": "Dwarven War Axe",
         "title": "Dwarven War Axe",
         "icon_front": "sharp-axe",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | dwarf | sweep | two-hand d12",
             "property | Hands | 1 | Bulk | 2",
@@ -1798,9 +2200,9 @@
             "level-0",
             "dwarf",
             "sweep",
-            "two-hand-d12",
+            "two-handd12",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "axe"
@@ -1808,12 +2210,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.lotgb.elven-branched-spear",
+        "id": "item.weapon.martial.lotgb.elven-branched-spear",
         "color": "#43A047",
         "name": "Elven Branched Spear",
         "title": "Elven Branched Spear",
         "icon_front": "trident",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | deadly d8 | elf | finesse | reach",
             "property | Hands | 2 | Bulk | 1",
@@ -1828,10 +2230,10 @@
             "level-0",
             "uncommon",
             "elf",
-            "deadly-d8",
+            "deadlyd8",
             "finesse",
             "reach",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "spear"
@@ -1839,12 +2241,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.elven-curve-blade",
+        "id": "item.weapon.martial.crb.elven-curve-blade",
         "color": "#43A047",
         "name": "Elven Curve Blade",
         "title": "Elven Curve Blade",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | elf | finesse | forceful",
             "property | Hands | 2 | Bulk | 2",
@@ -1861,7 +2263,7 @@
             "finesse",
             "forceful",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "sword"
@@ -1869,19 +2271,19 @@
         "level": 0
     },
     {
-        "id": "equipment.armor.unarmored.crb.explorers-clothing",
+        "id": "item.armor.unarmored.crb.explorers-clothing",
         "color": "#43A047",
         "name": "Explorer's Clothing",
         "title": "Explorer's Clothing",
         "icon_front": "ninja-armor",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | comfort",
             "property | Bulk | L",
             "property | Price | 1 sp | Crafting | 0 sp",
             "property | Group | Cloth",
-            "tablehead | Dex Cap ",
-            "row | +5",
+            "tablehead | AC Bonus | Dex Cap",
+            "row | +0 | +5",
             "rule",
             "text | Adventurers who don't wear armor travel in durable clothing. Though it's not armor and uses your unarmored defense proficiency, it still has a Dex Cap and can grant an item bonus to AC if etched with potency runes."
         ],
@@ -1889,7 +2291,7 @@
         "filtering": [
             "level-0",
             "comfort",
-            "equipment",
+            "item",
             "common",
             "armor",
             "unarmored",
@@ -1898,14 +2300,14 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.g-g.explosive-dogslicer",
+        "id": "item.weapon.advanced.g-g.explosive-dogslicer",
         "color": "#43A047",
         "name": "Explosive Dogslicer",
         "title": "Explosive Dogslicer",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
-            "pftrait | uncommon",
+            "pftrait | uncommon | combination",
             "property | Hands | 2 | Bulk | 2",
             "property | Price | 10 gp | Crafting | 7 gp",
             "property | Category | Advanced Weapon | Group | Firearm",
@@ -1917,7 +2319,8 @@
         "filtering": [
             "level-1",
             "uncommon",
-            "equipment",
+            "combination",
+            "item",
             "weapon",
             "advanced",
             "firearm"
@@ -1925,12 +2328,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.martial.crb.falchion",
+        "id": "item.weapon.martial.crb.falchion",
         "color": "#43A047",
         "name": "Falchion",
         "title": "Falchion",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | forceful | sweep",
             "property | Hands | 2 | Bulk | 2",
@@ -1945,7 +2348,7 @@
             "level-0",
             "forceful",
             "sweep",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -1954,12 +2357,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.loag.fangwire",
+        "id": "item.weapon.martial.loag.fangwire",
         "color": "#43A047",
         "name": "Fangwire",
         "title": "Fangwire",
         "icon_front": "brass-knuckles",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | backstabber | deadly 1d8 | finesse | grapple | kobold",
             "property | Hands | 1 | Bulk | L",
@@ -1979,7 +2382,7 @@
             "finesse",
             "grapple",
             "kobold",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "brawling"
@@ -1987,12 +2390,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.locg.fauchard",
+        "id": "item.weapon.martial.locg.fauchard",
         "color": "#43A047",
         "name": "Fauchard",
         "title": "Fauchard",
         "icon_front": "bo",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | deadly d8 | reach | sweep | trip",
             "property | Hands | 2 | Bulk | 2",
@@ -2005,11 +2408,11 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "deadly-d8",
+            "deadlyd8",
             "reach",
             "sweep",
             "trip",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -2018,12 +2421,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.logm.fighting-fan",
+        "id": "item.weapon.martial.logm.fighting-fan",
         "color": "#43A047",
         "name": "Fighting Fan",
         "title": "Fighting Fan",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | backstabber | deadly d6 | finesse | monk",
             "property | Hands | 1 | Bulk | L",
@@ -2039,10 +2442,10 @@
             "uncommon",
             "agile",
             "backstabber",
-            "deadly-d6",
+            "deadlyd6",
             "finesse",
             "monk",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "knife"
@@ -2050,12 +2453,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.filchers-fork",
+        "id": "item.weapon.martial.crb.filchers-fork",
         "color": "#43A047",
         "name": "Filcher's Fork",
         "title": "Filcher's Fork",
         "icon_front": "trident",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | backstabber | deadly d6 | finesse | halfling | thrown 20 ft.",
             "property | Hands | 1 | Bulk | L",
@@ -2070,12 +2473,12 @@
             "level-0",
             "agile",
             "backstabber",
-            "deadly-d6",
+            "deadlyd6",
             "finesse",
             "halfling",
             "thrown20ft.",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "spear"
@@ -2083,12 +2486,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.g-g.fire-lance",
+        "id": "item.weapon.simple.g-g.fire-lance",
         "color": "#43A047",
         "name": "Fire Lance",
         "title": "Fire Lance",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | fatal d10",
             "property | Hands | 2 | Bulk | 2",
@@ -2102,8 +2505,8 @@
         "filtering": [
             "level-0",
             "uncommon",
-            "fatal-d10",
-            "equipment",
+            "fatald10",
+            "item",
             "weapon",
             "simple",
             "firearm"
@@ -2111,12 +2514,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.ec-1.fire-poi",
+        "id": "item.weapon.advanced.ec-1.fire-poi",
         "color": "#43A047",
         "name": "Fire Poi",
         "title": "Fire Poi",
         "icon_front": "flail",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | backswing | finesse | twin",
             "property | Hands | 1 | Bulk | L",
@@ -2134,7 +2537,7 @@
             "backswing",
             "finesse",
             "twin",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "flail"
@@ -2142,12 +2545,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.flail",
+        "id": "item.weapon.martial.crb.flail",
         "color": "#43A047",
         "name": "Flail",
         "title": "Flail",
         "icon_front": "flail",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | disarm | sweep | trip",
             "property | Hands | 1 | Bulk | 1",
@@ -2163,7 +2566,7 @@
             "disarm",
             "sweep",
             "trip",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -2172,12 +2575,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.g-g.flingflenser",
+        "id": "item.weapon.advanced.g-g.flingflenser",
         "color": "#43A047",
         "name": "Flingflenser",
         "title": "Flingflenser",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | backstabber | fatal d10 | goblin | scatter 5 ft.",
             "property | Hands | 2 | Bulk | 1",
@@ -2192,10 +2595,10 @@
             "level-0",
             "uncommon",
             "backstabber",
-            "fatal-d10",
+            "fatald10",
             "goblin",
             "scatter5ft.",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "firearm"
@@ -2203,12 +2606,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.g-g.flintlock-musket",
+        "id": "item.weapon.simple.g-g.flintlock-musket",
         "color": "#43A047",
         "name": "Flintlock Musket",
         "title": "Flintlock Musket",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | concussive | fatal d10",
             "property | Hands | 2 | Bulk | 1",
@@ -2223,8 +2626,8 @@
             "level-0",
             "uncommon",
             "concussive",
-            "fatal-d10",
-            "equipment",
+            "fatald10",
+            "item",
             "weapon",
             "simple",
             "firearm"
@@ -2232,12 +2635,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.g-g.flintlock-pistol",
+        "id": "item.weapon.simple.g-g.flintlock-pistol",
         "color": "#43A047",
         "name": "Flintlock Pistol",
         "title": "Flintlock Pistol",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | concussive | fatal d8",
             "property | Hands | 1 | Bulk | 1",
@@ -2252,8 +2655,8 @@
             "level-0",
             "uncommon",
             "concussive",
-            "fatal-d8",
-            "equipment",
+            "fatald8",
+            "item",
             "weapon",
             "simple",
             "firearm"
@@ -2261,12 +2664,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.g-g.forked-bipod",
+        "id": "item.weapon.simple.g-g.forked-bipod",
         "color": "#43A047",
         "name": "Forked Bipod",
         "title": "Forked Bipod",
         "icon_front": "trident",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | deadly d6 | finesse",
             "property | Hands | 1 | Bulk | L",
@@ -2280,9 +2683,9 @@
         "filtering": [
             "level-0",
             "agile",
-            "deadly-d6",
+            "deadlyd6",
             "finesse",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "simple",
@@ -2291,19 +2694,19 @@
         "level": 0
     },
     {
-        "id": "equipment.armor.heavy.crb.full-plate",
+        "id": "item.armor.heavy.crb.full-plate",
         "color": "#43A047",
         "name": "Full Plate",
         "title": "Full Plate",
         "icon_front": "lamellar",
-        "code": "equipment",
+        "code": "item 2",
         "contents": [
             "pftrait | bulwark",
             "property | Bulk | 4",
             "property | Price | 30 gp | Crafting | 22 gp",
             "property | Category | Heavy Armor | Group | Plate",
-            "tablehead | AC Bonus  | Str Req.  | Check Pen.  | Spd Pen. ",
-            "row | +6 | 18 | --3 | --10 ft.",
+            "tablehead | AC Bonus | Dex Cap | Str Req. | Check Pen. | Spd Pen.",
+            "row | +6 | +0 | 18 | --3 | --10 ft.",
             "rule",
             "text | Plate mail consists of interlocking plates that encase nearly the entire body in a carapace of steel. It is costly and heavy, and the wearer often requires help to don it correctly, but it provides some of the best defense armor can supply. A suit of this armor comes with an undercoat of padded armor and a pair of gauntlets."
         ],
@@ -2311,7 +2714,7 @@
         "filtering": [
             "level-2",
             "bulwark",
-            "equipment",
+            "item",
             "common",
             "armor",
             "heavy",
@@ -2320,12 +2723,12 @@
         "level": 2
     },
     {
-        "id": "equipment.weapon.martial.bst.gaff",
+        "id": "item.weapon.martial.b-1.gaff",
         "color": "#43A047",
         "name": "Gaff",
         "title": "Gaff",
         "icon_front": "war-pick",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | deadly d10 | trip",
             "property | Hands | 2 | Bulk | 1",
@@ -2339,9 +2742,9 @@
         "filtering": [
             "level-0",
             "trip",
-            "deadly-d10",
+            "deadlyd10",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "pick"
@@ -2349,12 +2752,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.b-2.gaff",
+        "id": "item.weapon.martial.b-2.gaff",
         "color": "#43A047",
         "name": "Gaff",
         "title": "Gaff",
         "icon_front": "wood-club",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | trip | versatile",
             "property | Hands | 1 | Bulk | 1",
@@ -2369,7 +2772,7 @@
             "level-0",
             "trip",
             "versatile",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -2378,12 +2781,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.crb.gauntlet",
+        "id": "item.weapon.simple.crb.gauntlet",
         "color": "#43A047",
         "name": "Gauntlet",
         "title": "Gauntlet",
         "icon_front": "brass-knuckles",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | free-hand",
             "property | Hands | 1 | Bulk | L",
@@ -2398,7 +2801,7 @@
             "level-0",
             "agile",
             "free-hand",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "simple",
@@ -2407,12 +2810,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.aaws.gill-hook",
+        "id": "item.weapon.martial.aaws.gill-hook",
         "color": "#43A047",
         "name": "Gill Hook",
         "title": "Gill Hook",
         "icon_front": "trident",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | azarketi | grapple | reach",
             "property | Hands | 2 | Bulk | 2",
@@ -2429,7 +2832,7 @@
             "grapple",
             "reach",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "spear"
@@ -2437,12 +2840,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.glaive",
+        "id": "item.weapon.martial.crb.glaive",
         "color": "#43A047",
         "name": "Glaive",
         "title": "Glaive",
         "icon_front": "bo",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | deadly d8 | forceful | reach",
             "property | Hands | 2 | Bulk | 2",
@@ -2455,10 +2858,10 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "deadly-d8",
+            "deadlyd8",
             "forceful",
             "reach",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -2467,14 +2870,14 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.gnome-amalgam-musket",
+        "id": "item.weapon.martial.g-g.gnome-amalgam-musket",
         "color": "#43A047",
         "name": "Gnome Amalgam Musket",
         "title": "Gnome Amalgam Musket",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
-            "pftrait | uncommon",
+            "pftrait | uncommon | combination",
             "property | Hands | 2 | Bulk | 2",
             "property | Price | 10 gp | Crafting | 7 gp",
             "property | Category | Martial Weapon | Group | Firearm",
@@ -2486,7 +2889,8 @@
         "filtering": [
             "level-1",
             "uncommon",
-            "equipment",
+            "combination",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -2494,12 +2898,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.advanced.crb.gnome-flickmace",
+        "id": "item.weapon.advanced.crb.gnome-flickmace",
         "color": "#43A047",
         "name": "Gnome Flickmace",
         "title": "Gnome Flickmace",
         "icon_front": "flail",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | gnome | reach",
             "property | Hands | 1 | Bulk | 2",
@@ -2515,7 +2919,7 @@
             "gnome",
             "reach",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "flail"
@@ -2523,12 +2927,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.gnome-hooked-hammer",
+        "id": "item.weapon.martial.crb.gnome-hooked-hammer",
         "color": "#43A047",
         "name": "Gnome Hooked Hammer",
         "title": "Gnome Hooked Hammer",
         "icon_front": "warhammer",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | gnome | trip | two-hand d10 | versatile p",
             "property | Hands | 1 | Bulk | 1",
@@ -2543,10 +2947,10 @@
             "level-0",
             "gnome",
             "trip",
-            "two-hand-d10",
-            "versatile-p",
+            "two-handd10",
+            "versatilep",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "hammer"
@@ -2554,12 +2958,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.greataxe",
+        "id": "item.weapon.martial.crb.greataxe",
         "color": "#43A047",
         "name": "Greataxe",
         "title": "Greataxe",
         "icon_front": "sharp-axe",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | sweep",
             "property | Hands | 2 | Bulk | 2",
@@ -2573,7 +2977,7 @@
         "filtering": [
             "level-0",
             "sweep",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -2582,12 +2986,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.greatclub",
+        "id": "item.weapon.martial.crb.greatclub",
         "color": "#43A047",
         "name": "Greatclub",
         "title": "Greatclub",
         "icon_front": "wood-club",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | backswing | shove",
             "property | Hands | 2 | Bulk | 2",
@@ -2602,7 +3006,7 @@
             "level-0",
             "backswing",
             "shove",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -2611,12 +3015,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.greatpick",
+        "id": "item.weapon.martial.crb.greatpick",
         "color": "#43A047",
         "name": "Greatpick",
         "title": "Greatpick",
         "icon_front": "war-pick",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | fatal d12",
             "property | Hands | 2 | Bulk | 2",
@@ -2629,8 +3033,8 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "fatal-d12",
-            "equipment",
+            "fatald12",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -2639,12 +3043,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.greatsword",
+        "id": "item.weapon.martial.crb.greatsword",
         "color": "#43A047",
         "name": "Greatsword",
         "title": "Greatsword",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | versatile p",
             "property | Hands | 2 | Bulk | 2",
@@ -2657,8 +3061,8 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "versatile-p",
-            "equipment",
+            "versatilep",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -2686,7 +3090,8 @@
         "filtering": [
             "level-0",
             "backswing",
-            "two-hand-d10",
+            "two-handd10",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -2695,12 +3100,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.guisarme",
+        "id": "item.weapon.martial.crb.guisarme",
         "color": "#43A047",
         "name": "Guisarme",
         "title": "Guisarme",
         "icon_front": "bo",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | reach | trip",
             "property | Hands | 2 | Bulk | 2",
@@ -2715,7 +3120,7 @@
             "level-0",
             "reach",
             "trip",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -2724,14 +3129,14 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.gun-sword",
+        "id": "item.weapon.martial.g-g.gun-sword",
         "color": "#43A047",
         "name": "Gun Sword",
         "title": "Gun Sword",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
-            "pftrait | uncommon",
+            "pftrait | uncommon | combination",
             "property | Hands | 2 | Bulk | 2",
             "property | Price | 13 gp | Crafting | 9 gp",
             "property | Category | Martial Weapon | Group | Firearm",
@@ -2743,7 +3148,8 @@
         "filtering": [
             "level-1",
             "uncommon",
-            "equipment",
+            "combination",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -2751,12 +3157,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.martial.crb.halberd",
+        "id": "item.weapon.martial.crb.halberd",
         "color": "#43A047",
         "name": "Halberd",
         "title": "Halberd",
         "icon_front": "bo",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | reach | versatile s",
             "property | Hands | 2 | Bulk | 2",
@@ -2770,8 +3176,8 @@
         "filtering": [
             "level-0",
             "reach",
-            "versatile-s",
-            "equipment",
+            "versatiles",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -2780,17 +3186,17 @@
         "level": 0
     },
     {
-        "id": "equipment.armor.heavy.crb.half-plate",
+        "id": "item.armor.heavy.crb.half-plate",
         "color": "#43A047",
         "name": "Half Plate",
         "title": "Half Plate",
         "icon_front": "lamellar",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
             "property | Bulk | 3",
             "property | Price | 18 gp | Crafting | 13 gp",
             "property | Category | Heavy Armor | Group | Plate",
-            "tablehead | AC Bonus  | Dex Cap  | Str Req.  | Check Pen.  | Spd Pen. ",
+            "tablehead | AC Bonus | Dex Cap | Str Req. | Check Pen. | Spd Pen.",
             "row | +5 | +1 | 16 | --3 | --10 ft.",
             "rule",
             "text | Half plate consists of most of the upper body plates used in full plate, with lighter or sparser steel plate protection for the arms and legs. This provides some of the protection of full plate with greater flexibility and speed. A suit of this armor comes with an undercoat of padded armor and a pair of gauntlets."
@@ -2798,7 +3204,7 @@
         "reference": [],
         "filtering": [
             "level-1",
-            "equipment",
+            "item",
             "common",
             "armor",
             "heavy",
@@ -2807,12 +3213,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.martial.crb.halfling-sling-staff",
+        "id": "item.weapon.martial.crb.halfling-sling-staff",
         "color": "#43A047",
         "name": "Halfling Sling Staff",
         "title": "Halfling Sling Staff",
         "icon_front": "sling",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | halfling | propulsive",
             "property | Hands | 2 | Bulk | 1",
@@ -2828,7 +3234,7 @@
             "halfling",
             "propulsive",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "sling"
@@ -2836,14 +3242,14 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.hammer-gun",
+        "id": "item.weapon.martial.g-g.hammer-gun",
         "color": "#43A047",
         "name": "Hammer Gun",
         "title": "Hammer Gun",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
-            "pftrait | uncommon",
+            "pftrait | uncommon | combination",
             "property | Hands | 2 | Bulk | 2",
             "property | Price | 13 gp | Crafting | 9 gp",
             "property | Category | Martial Weapon | Group | Firearm",
@@ -2855,7 +3261,8 @@
         "filtering": [
             "level-1",
             "uncommon",
-            "equipment",
+            "combination",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -2863,12 +3270,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.martial.loag.hand-adze",
+        "id": "item.weapon.martial.loag.hand-adze",
         "color": "#43A047",
         "name": "Hand Adze",
         "title": "Hand Adze",
         "icon_front": "sharp-axe",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | forceful | grippli | sweep | thrown 10 ft.",
             "property | Hands | 1 | Bulk | L",
@@ -2886,7 +3293,7 @@
             "grippli",
             "sweep",
             "thrown10ft.",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -2895,12 +3302,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.g-g.hand-cannon",
+        "id": "item.weapon.simple.g-g.hand-cannon",
         "color": "#43A047",
         "name": "Hand Cannon",
         "title": "Hand Cannon",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | modular b, p, or s",
             "property | Hands | 1 | Bulk | 1",
@@ -2914,8 +3321,8 @@
         "filtering": [
             "level-0",
             "uncommon",
-            "modular-b,p,or-s",
-            "equipment",
+            "modularb,p,or-s",
+            "item",
             "weapon",
             "simple",
             "firearm"
@@ -2923,12 +3330,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.crb.hand-crossbow",
+        "id": "item.weapon.simple.crb.hand-crossbow",
         "color": "#43A047",
         "name": "Hand Crossbow",
         "title": "Hand Crossbow",
         "icon_front": "crossbow",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "property | Hands | 1 | Bulk | L",
             "property | Price | 3 gp | Crafting | 2 gp",
@@ -2940,7 +3347,7 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "simple",
@@ -2949,12 +3356,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.harmona-gun",
+        "id": "item.weapon.martial.g-g.harmona-gun",
         "color": "#43A047",
         "name": "Harmona Gun",
         "title": "Harmona Gun",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | kickback",
             "property | Hands | 2 | Bulk | 2",
@@ -2969,7 +3376,7 @@
             "level-0",
             "uncommon",
             "kickback",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -2977,12 +3384,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.hatchet",
+        "id": "item.weapon.martial.crb.hatchet",
         "color": "#43A047",
         "name": "Hatchet",
         "title": "Hatchet",
         "icon_front": "sharp-axe",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | sweep | thrown 10 ft.",
             "property | Hands | 1 | Bulk | L",
@@ -2998,7 +3405,7 @@
             "agile",
             "sweep",
             "thrown10ft.",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -3007,12 +3414,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.crb.heavy-crossbow",
+        "id": "item.weapon.simple.crb.heavy-crossbow",
         "color": "#43A047",
         "name": "Heavy Crossbow",
         "title": "Heavy Crossbow",
         "icon_front": "crossbow",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "property | Hands | 2 | Bulk | 2",
             "property | Price | 4 gp | Crafting | 3 gp",
@@ -3024,7 +3431,7 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "simple",
@@ -3033,17 +3440,17 @@
         "level": 0
     },
     {
-        "id": "equipment.armor.heavy.g-g.heavy-power-suit",
+        "id": "item.armor.heavy.g-g.heavy-power-suit",
         "color": "#43A047",
         "name": "Heavy Power Suit",
         "title": "Heavy Power Suit",
         "icon_front": "lamellar",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | bulwark",
             "property | Bulk | 3",
             "property | Category | Heavy Armor | Group | Composite",
-            "tablehead | AC Bonus  | Dex Cap  | Str Req.  | Check Pen.  | Spd Pen. ",
+            "tablehead | AC Bonus | Dex Cap | Str Req. | Check Pen. | Spd Pen.",
             "row | +5 | +1 | 16 | --2 | --10 ft.",
             "rule",
             "text | If your Strength score is at least 16, you remove the Speed penalty entirely instead of reducing it to –5 feet.",
@@ -3054,7 +3461,7 @@
             "level-0",
             "uncommon",
             "bulwark",
-            "equipment",
+            "item",
             "armor",
             "heavy",
             "composite"
@@ -3062,19 +3469,20 @@
         "level": 0
     },
     {
-        "id": "equipment.armor.heavy.locg.hellknight-plate",
+        "id": "item.armor.heavy.locg.hellknight-plate",
         "color": "#43A047",
         "name": "Hellknight Plate",
         "title": "Hellknight Plate",
         "icon_front": "lamellar",
-        "code": "equipment",
+        "code": "item 2",
         "contents": [
             "pftrait | uncommon | bulwark",
             "property | Bulk | 4",
+            "property | Usage | worn armor",
             "property | Price | 35 gp | Crafting | 26 gp",
             "property | Category | Heavy Armor | Group | Plate",
-            "tablehead | AC Bonus  | Str Req.  | Check Pen.  | Spd Pen. ",
-            "row | +6 | 18 | --3 | --10 ft.",
+            "tablehead | AC Bonus | Dex Cap | Str Req. | Check Pen. | Spd Pen.",
+            "row | +6 | +0 | 18 | --3 | --10 ft.",
             "rule",
             "text | Few armors in the Inner Sea region are as memorable as the iconic Hellknight plate. While each order has its own flourishes, Hellknight plate is instantly recognizable to any who know of the Hellknights.",
             "text | Hellknights go to extreme measures to punish non-Hellknights who get their hands on Hellknight plate, and the reward is not usually worth the risk, since for non-Hellknights, the armor is functionally similar to full plate."
@@ -3084,7 +3492,7 @@
             "level-2",
             "uncommon",
             "bulwark",
-            "equipment",
+            "item",
             "armor",
             "heavy",
             "plate"
@@ -3092,17 +3500,17 @@
         "level": 2
     },
     {
-        "id": "equipment.armor.medium.crb.hide",
+        "id": "item.armor.medium.crb.hide",
         "color": "#43A047",
         "name": "Hide",
         "title": "Hide",
         "icon_front": "abdominal-armor",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "property | Bulk | 2",
             "property | Price | 2 gp | Crafting | 1 gp",
             "property | Category | Medium Armor | Group | Leather",
-            "tablehead | AC Bonus  | Dex Cap  | Str Req.  | Check Pen.  | Spd Pen. ",
+            "tablehead | AC Bonus | Dex Cap | Str Req. | Check Pen. | Spd Pen.",
             "row | +3 | +2 | 14 | --2 | --5 ft.",
             "rule",
             "text | A mix of furs, sturdy hide, and sometimes molded boiled leather, this armor provides protection due to its layers of leather, though its bulkiness slows the wearer down and decreases mobility."
@@ -3110,7 +3518,7 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "equipment",
+            "item",
             "common",
             "armor",
             "medium",
@@ -3119,12 +3527,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.lotgb.hongali-hornbow",
+        "id": "item.weapon.advanced.lotgb.hongali-hornbow",
         "color": "#43A047",
         "name": "Hongali Hornbow",
         "title": "Hongali Hornbow",
         "icon_front": "crossbow",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | deadly d6 | propulsive",
             "property | Hands | 1+ | Bulk | 2",
@@ -3138,9 +3546,9 @@
         "filtering": [
             "level-0",
             "uncommon",
-            "deadly-d6",
+            "deadlyd6",
             "propulsive",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "bow"
@@ -3148,12 +3556,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.frp-2.hook-sword",
+        "id": "item.weapon.advanced.frp-2.hook-sword",
         "color": "#43A047",
         "name": "Hook Sword",
         "title": "Hook Sword",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | disarm | monk | parry | trip | twin",
             "property | Hands | 1 | Bulk | 1",
@@ -3172,7 +3580,7 @@
             "parry",
             "trip",
             "twin",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "sword"
@@ -3180,12 +3588,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.horsechopper",
+        "id": "item.weapon.martial.crb.horsechopper",
         "color": "#43A047",
         "name": "Horsechopper",
         "title": "Horsechopper",
         "icon_front": "bo",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | goblin | reach | trip | versatile p",
             "property | Hands | 2 | Bulk | 2",
@@ -3201,9 +3609,9 @@
             "goblin",
             "reach",
             "trip",
-            "versatile-p",
+            "versatilep",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "polearm"
@@ -3232,6 +3640,7 @@
             "uncommon",
             "injection",
             "reach",
+            "item",
             "weapon",
             "martial",
             "spear"
@@ -3239,12 +3648,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.crb.javelin",
+        "id": "item.weapon.simple.crb.javelin",
         "color": "#43A047",
         "name": "Javelin",
         "title": "Javelin",
         "icon_front": "dart",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | thrown",
             "property | Hands | 1 | Bulk | L",
@@ -3258,7 +3667,7 @@
         "filtering": [
             "level-0",
             "thrown",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "simple",
@@ -3267,12 +3676,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.jezail",
+        "id": "item.weapon.martial.g-g.jezail",
         "color": "#43A047",
         "name": "Jezail",
         "title": "Jezail",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
             "pftrait | uncommon | concussive | fatal aim d12",
             "property | Hands | 1 | Bulk | 1",
@@ -3287,8 +3696,8 @@
             "level-1",
             "uncommon",
             "concussive",
-            "fatal-aim-d12",
-            "equipment",
+            "fatal-aimd12",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -3296,12 +3705,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.simple.ec-1.juggling-club",
+        "id": "item.weapon.simple.ec-1.juggling-club",
         "color": "#43A047",
         "name": "Juggling Club",
         "title": "Juggling Club",
         "icon_front": "wood-club",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | nonlethal | thrown 20 feet",
             "property | Hands | 1 | Bulk | L",
@@ -3318,7 +3727,7 @@
             "agile",
             "nonlethal",
             "thrown20feet",
-            "equipment",
+            "item",
             "weapon",
             "simple",
             "club"
@@ -3326,12 +3735,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.kama",
+        "id": "item.weapon.martial.crb.kama",
         "color": "#43A047",
         "name": "Kama",
         "title": "Kama",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | monk | trip",
             "property | Hands | 1 | Bulk | L",
@@ -3348,7 +3757,7 @@
             "monk",
             "trip",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "knife"
@@ -3356,12 +3765,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.frp-2.karambit",
+        "id": "item.weapon.advanced.frp-2.karambit",
         "color": "#43A047",
         "name": "Karambit",
         "title": "Karambit",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | fatal d8 | finesse | versatile s",
             "property | Hands | 1 | Bulk | L",
@@ -3376,10 +3785,10 @@
             "level-0",
             "uncommon",
             "agile",
-            "fatal-d8",
+            "fatald8",
             "finesse",
-            "versatile-s",
-            "equipment",
+            "versatiles",
+            "item",
             "weapon",
             "advanced",
             "knife"
@@ -3387,12 +3796,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.katana",
+        "id": "item.weapon.martial.crb.katana",
         "color": "#43A047",
         "name": "Katana",
         "title": "Katana",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | deadly d8 | two-hand d10 | versatile p",
             "property | Hands | 1 | Bulk | 1",
@@ -3405,11 +3814,11 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "deadly-d8",
-            "two-hand-d10",
-            "versatile-p",
+            "deadlyd8",
+            "two-handd10",
+            "versatilep",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "sword"
@@ -3417,12 +3826,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.crb.katar",
+        "id": "item.weapon.simple.crb.katar",
         "color": "#43A047",
         "name": "Katar",
         "title": "Katar",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | deadly d6 | monk",
             "property | Hands | 1 | Bulk | L",
@@ -3436,10 +3845,10 @@
         "filtering": [
             "level-0",
             "agile",
-            "deadly-d6",
+            "deadlyd6",
             "monk",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "simple",
             "knife"
@@ -3447,12 +3856,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.apg.khakkara",
+        "id": "item.weapon.martial.apg.khakkara",
         "color": "#43A047",
         "name": "Khakkara",
         "title": "Khakkara",
         "icon_front": "wood-club",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | shove | two-hand 1d10 | versatile p",
             "property | Hands | 1 | Bulk | 1",
@@ -3468,8 +3877,8 @@
             "uncommon",
             "shove",
             "two-hand1d10",
-            "versatile-p",
-            "equipment",
+            "versatilep",
+            "item",
             "weapon",
             "martial",
             "club"
@@ -3477,12 +3886,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.logm.khopesh",
+        "id": "item.weapon.martial.logm.khopesh",
         "color": "#43A047",
         "name": "Khopesh",
         "title": "Khopesh",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | trip",
             "property | Hands | 1 | Bulk | 1",
@@ -3497,7 +3906,7 @@
             "level-0",
             "uncommon",
             "trip",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "sword"
@@ -3505,12 +3914,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.g-g.knuckle-duster",
+        "id": "item.weapon.simple.g-g.knuckle-duster",
         "color": "#43A047",
         "name": "Knuckle Duster",
         "title": "Knuckle Duster",
         "icon_front": "brass-knuckles",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | free-hand | monk",
             "property | Hands | 1 | Bulk | L",
@@ -3526,7 +3935,7 @@
             "agile",
             "free-hand",
             "monk",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "simple",
@@ -3535,12 +3944,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.kukri",
+        "id": "item.weapon.martial.crb.kukri",
         "color": "#43A047",
         "name": "Kukri",
         "title": "Kukri",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | finesse | trip",
             "property | Hands | 1 | Bulk | L",
@@ -3557,7 +3966,7 @@
             "finesse",
             "trip",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "knife"
@@ -3565,12 +3974,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.frp-2.kusarigama",
+        "id": "item.weapon.martial.frp-2.kusarigama",
         "color": "#43A047",
         "name": "Kusarigama",
         "title": "Kusarigama",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | disarm | monk | reach | trip | versatile b",
             "property | Hands | 2 | Bulk | 1",
@@ -3588,8 +3997,8 @@
             "monk",
             "reach",
             "trip",
-            "versatile-b",
-            "equipment",
+            "versatileb",
+            "item",
             "weapon",
             "martial",
             "knife"
@@ -3597,12 +4006,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.lance",
+        "id": "item.weapon.martial.crb.lance",
         "color": "#43A047",
         "name": "Lance",
         "title": "Lance",
         "icon_front": "trident",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | deadly d8 | jousting d6 | reach",
             "property | Hands | 2 | Bulk | 2",
@@ -3615,10 +4024,10 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "deadly-d8",
-            "jousting-d6",
+            "deadlyd8",
+            "joustingd6",
             "reach",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -3627,17 +4036,17 @@
         "level": 0
     },
     {
-        "id": "equipment.armor.light.crb.leather",
+        "id": "item.armor.light.crb.leather",
         "color": "#43A047",
         "name": "Leather",
         "title": "Leather",
         "icon_front": "leather-armor",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "property | Bulk | 1",
             "property | Price | 2 gp | Crafting | 1 gp",
             "property | Category | Light Armor | Group | Leather",
-            "tablehead | AC Bonus  | Dex Cap  | Str Req.  | Check Pen. ",
+            "tablehead | AC Bonus | Dex Cap | Str Req. | Check Pen.",
             "row | +1 | +4 | 10 | --1",
             "rule",
             "text | A mix of flexible and molded boiled leather, a suit of this type of armor provides some protection with maximum flexibility."
@@ -3645,7 +4054,7 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "equipment",
+            "item",
             "common",
             "armor",
             "light",
@@ -3654,12 +4063,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.frp-2.leiomano",
+        "id": "item.weapon.martial.frp-2.leiomano",
         "color": "#43A047",
         "name": "Leiomano",
         "title": "Leiomano",
         "icon_front": "wood-club",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | deadly d10 | versatile s",
             "property | Hands | 1 | Bulk | 1",
@@ -3673,9 +4082,9 @@
         "filtering": [
             "level-0",
             "uncommon",
-            "deadly-d10",
-            "versatile-s",
-            "equipment",
+            "deadlyd10",
+            "versatiles",
+            "item",
             "weapon",
             "martial",
             "club"
@@ -3683,12 +4092,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.light-hammer",
+        "id": "item.weapon.martial.crb.light-hammer",
         "color": "#43A047",
         "name": "Light Hammer",
         "title": "Light Hammer",
         "icon_front": "warhammer",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | thrown 20 ft.",
             "property | Hands | 1 | Bulk | L",
@@ -3703,7 +4112,7 @@
             "level-0",
             "agile",
             "thrown20ft.",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -3712,12 +4121,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.crb.light-mace",
+        "id": "item.weapon.simple.crb.light-mace",
         "color": "#43A047",
         "name": "Light Mace",
         "title": "Light Mace",
         "icon_front": "wood-club",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | finesse | shove",
             "property | Hands | 1 | Bulk | L",
@@ -3733,7 +4142,7 @@
             "agile",
             "finesse",
             "shove",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "simple",
@@ -3742,12 +4151,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.light-pick",
+        "id": "item.weapon.martial.crb.light-pick",
         "color": "#43A047",
         "name": "Light Pick",
         "title": "Light Pick",
         "icon_front": "war-pick",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | fatal d8",
             "property | Hands | 1 | Bulk | L",
@@ -3761,8 +4170,8 @@
         "filtering": [
             "level-0",
             "agile",
-            "fatal-d8",
-            "equipment",
+            "fatald8",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -3793,6 +4202,7 @@
             "finesse",
             "trip",
             "uncommon",
+            "item",
             "weapon",
             "martial",
             "knife"
@@ -3800,12 +4210,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.g-g.long-air-repeater",
+        "id": "item.weapon.simple.g-g.long-air-repeater",
         "color": "#43A047",
         "name": "Long Air Repeater",
         "title": "Long Air Repeater",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | repeating",
             "property | Hands | 2 | Bulk | 1",
@@ -3820,7 +4230,7 @@
             "level-0",
             "uncommon",
             "repeating",
-            "equipment",
+            "item",
             "weapon",
             "simple",
             "firearm"
@@ -3828,12 +4238,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.apg.daikyu",
+        "id": "item.weapon.advanced.apg.daikyu",
         "color": "#43A047",
         "name": "Daikyu",
         "title": "Daikyu",
         "icon_front": "crossbow",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | propulsive",
             "property | Hands | 1+ | Bulk | 2",
@@ -3848,7 +4258,7 @@
             "level-0",
             "propulsive",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "bow"
@@ -3856,12 +4266,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.longbow",
+        "id": "item.weapon.martial.crb.longbow",
         "color": "#43A047",
         "name": "Longbow",
         "title": "Longbow",
         "icon_front": "crossbow",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | deadly d10 | volley 30 ft.",
             "property | Hands | 1+ | Bulk | 2",
@@ -3874,9 +4284,9 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "deadly-d10",
+            "deadlyd10",
             "volley30ft.",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -3885,12 +4295,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.crb.longspear",
+        "id": "item.weapon.simple.crb.longspear",
         "color": "#43A047",
         "name": "Longspear",
         "title": "Longspear",
         "icon_front": "trident",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | reach",
             "property | Hands | 2 | Bulk | 2",
@@ -3904,7 +4314,7 @@
         "filtering": [
             "level-0",
             "reach",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "simple",
@@ -3913,12 +4323,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.longsword",
+        "id": "item.weapon.martial.crb.longsword",
         "color": "#43A047",
         "name": "Longsword",
         "title": "Longsword",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | versatile p",
             "property | Hands | 1 | Bulk | 1",
@@ -3931,8 +4341,8 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "versatile-p",
-            "equipment",
+            "versatilep",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -3963,9 +4373,10 @@
             "rare",
             "backstabber",
             "concussive",
-            "fatal-d12",
+            "fatald12",
             "kickback",
             "volley",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -3973,12 +4384,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.simple.crb.mace",
+        "id": "item.weapon.simple.crb.mace",
         "color": "#43A047",
         "name": "Mace",
         "title": "Mace",
         "icon_front": "wood-club",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | shove",
             "property | Hands | 1 | Bulk | 1",
@@ -3992,7 +4403,7 @@
         "filtering": [
             "level-0",
             "shove",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "simple",
@@ -4001,14 +4412,14 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.mace-multipistol",
+        "id": "item.weapon.martial.g-g.mace-multipistol",
         "color": "#43A047",
         "name": "Mace Multipistol",
         "title": "Mace Multipistol",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
-            "pftrait | uncommon",
+            "pftrait | uncommon | combination",
             "property | Hands | 1 | Bulk | 1",
             "property | Price | 13 gp | Crafting | 9 gp",
             "property | Category | Martial Weapon | Group | Firearm",
@@ -4020,7 +4431,8 @@
         "filtering": [
             "level-0",
             "uncommon",
-            "equipment",
+            "combination",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -4028,12 +4440,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.logm.machete",
+        "id": "item.weapon.martial.logm.machete",
         "color": "#43A047",
         "name": "Machete",
         "title": "Machete",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | deadly d8 | sweep",
             "property | Hands | 1 | Bulk | L",
@@ -4046,9 +4458,9 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "deadly-d8",
+            "deadlyd8",
             "sweep",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -4057,12 +4469,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.main-gauche",
+        "id": "item.weapon.martial.crb.main-gauche",
         "color": "#43A047",
         "name": "Main-gauche",
         "title": "Main-gauche",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | disarm | finesse | parry | versatile s",
             "property | Hands | 1 | Bulk | L",
@@ -4079,8 +4491,8 @@
             "disarm",
             "finesse",
             "parry",
-            "versatile-s",
-            "equipment",
+            "versatiles",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -4089,12 +4501,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.logm.mambele",
+        "id": "item.weapon.martial.logm.mambele",
         "color": "#43A047",
         "name": "Mambele",
         "title": "Mambele",
         "icon_front": "sharp-axe",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | deadly d8 | disarm | thrown 20 feet",
             "property | Hands | 1 | Bulk | 1",
@@ -4109,9 +4521,9 @@
             "level-0",
             "uncommon",
             "disarm",
-            "deadly-d8",
+            "deadlyd8",
             "thrown20feet",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "axe"
@@ -4119,12 +4531,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.maul",
+        "id": "item.weapon.martial.crb.maul",
         "color": "#43A047",
         "name": "Maul",
         "title": "Maul",
         "icon_front": "warhammer",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | shove",
             "property | Hands | 2 | Bulk | 2",
@@ -4138,7 +4550,7 @@
         "filtering": [
             "level-0",
             "shove",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -4147,12 +4559,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.logm.meteor-hammer",
+        "id": "item.weapon.martial.logm.meteor-hammer",
         "color": "#43A047",
         "name": "Meteor Hammer",
         "title": "Meteor Hammer",
         "icon_front": "flail",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | backswing | disarm | reach | trip",
             "property | Hands | 2 | Bulk | 2",
@@ -4169,7 +4581,7 @@
             "disarm",
             "reach",
             "trip",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -4178,12 +4590,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.mithral-tree",
+        "id": "item.weapon.martial.g-g.mithral-tree",
         "color": "#43A047",
         "name": "Mithral Tree",
         "title": "Mithral Tree",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | concussive | elf | fatal d10 | parry",
             "property | Hands | 2 | Bulk | 1",
@@ -4199,9 +4611,9 @@
             "uncommon",
             "concussive",
             "elf",
-            "fatal-d10",
+            "fatald10",
             "parry",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -4209,12 +4621,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.aoe-1.monkeys-fist",
+        "id": "item.weapon.martial.aoe-1.monkeys-fist",
         "color": "#43A047",
         "name": "Monkey's Fist",
         "title": "Monkey's Fist",
         "icon_front": "flail",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | finesse | monk | nonlethal",
             "property | Hands | 1",
@@ -4230,7 +4642,7 @@
             "finesse",
             "monk",
             "nonlethal",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -4239,12 +4651,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.crb.morningstar",
+        "id": "item.weapon.simple.crb.morningstar",
         "color": "#43A047",
         "name": "Morningstar",
         "title": "Morningstar",
         "icon_front": "wood-club",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | versatile p",
             "property | Hands | 1 | Bulk | 1",
@@ -4257,8 +4669,8 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "versatile-p",
-            "equipment",
+            "versatilep",
+            "item",
             "common",
             "weapon",
             "simple",
@@ -4267,12 +4679,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.logm.naginata",
+        "id": "item.weapon.martial.logm.naginata",
         "color": "#43A047",
         "name": "Naginata",
         "title": "Naginata",
         "icon_front": "bo",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | deadly d8 | reach | versatile p",
             "property | Hands | 2 | Bulk | 2",
@@ -4286,10 +4698,10 @@
         "filtering": [
             "level-0",
             "uncommon",
-            "deadly-d8",
+            "deadlyd8",
             "reach",
-            "versatile-p",
-            "equipment",
+            "versatilep",
+            "item",
             "weapon",
             "martial",
             "polearm"
@@ -4297,12 +4709,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.aoe-1.nightstick",
+        "id": "item.weapon.simple.aoe-1.nightstick",
         "color": "#43A047",
         "name": "Nightstick",
         "title": "Nightstick",
         "icon_front": "wood-club",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | finesse | nonlethal | parry",
             "property | Hands | 1 | Bulk | L",
@@ -4321,7 +4733,7 @@
             "nonlethal",
             "parry",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "simple",
             "club"
@@ -4329,12 +4741,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.logm.nine-ring-sword",
+        "id": "item.weapon.martial.logm.nine-ring-sword",
         "color": "#43A047",
         "name": "Nine-Ring Sword",
         "title": "Nine-Ring Sword",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | disarm",
             "property | Hands | 1 | Bulk | 1",
@@ -4349,7 +4761,7 @@
             "level-0",
             "uncommon",
             "disarm",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "sword"
@@ -4357,12 +4769,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.nunchaku",
+        "id": "item.weapon.martial.crb.nunchaku",
         "color": "#43A047",
         "name": "Nunchaku",
         "title": "Nunchaku",
         "icon_front": "wood-club",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | backswing | disarm | finesse | monk",
             "property | Hands | 1 | Bulk | L",
@@ -4380,7 +4792,7 @@
             "finesse",
             "monk",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "club"
@@ -4388,12 +4800,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.orc-knuckle-dagger",
+        "id": "item.weapon.martial.crb.orc-knuckle-dagger",
         "color": "#43A047",
         "name": "Orc Knuckle Dagger",
         "title": "Orc Knuckle Dagger",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | disarm | orc",
             "property | Hands | 1 | Bulk | L",
@@ -4410,7 +4822,7 @@
             "disarm",
             "orc",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "knife"
@@ -4418,12 +4830,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.crb.orc-necksplitter",
+        "id": "item.weapon.advanced.crb.orc-necksplitter",
         "color": "#43A047",
         "name": "Orc Necksplitter",
         "title": "Orc Necksplitter",
         "icon_front": "sharp-axe",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | forceful | orc | sweep",
             "property | Hands | 1 | Bulk | 1",
@@ -4440,7 +4852,7 @@
             "orc",
             "sweep",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "axe"
@@ -4448,18 +4860,18 @@
         "level": 0
     },
     {
-        "id": "equipment.armor.light.crb.padded-armor",
+        "id": "item.armor.light.crb.padded-armor",
         "color": "#43A047",
         "name": "Padded Armor",
         "title": "Padded Armor",
         "icon_front": "leather-armor",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | comfort",
             "property | Bulk | L",
             "property | Price | 2 sp | Crafting | 1 sp",
             "property | Category | Light Armor | Group | Cloth",
-            "tablehead | AC Bonus  | Dex Cap  | Str Req. ",
+            "tablehead | AC Bonus | Dex Cap | Str Req.",
             "row | +1 | +3 | 10",
             "rule",
             "text | This armor is simply a layer of heavy, quilted cloth, but it is sometimes used because it's so inexpensive. Padded armor is easier to damage and destroy than other types of armor. Heavy armor comes with a padded armor undercoat included in its Price, though it loses the comfort trait when worn under heavy armor. You can wear just that padded armor undercoat to sleep in, if your heavy armor is destroyed, or when otherwise not wearing the full heavy armor. This allows you to keep the armor invested and benefit from the power of any runes on the associated heavy armor, but no one else can wear your heavy armor without the padded undercoat."
@@ -4468,7 +4880,7 @@
         "filtering": [
             "level-0",
             "comfort",
-            "equipment",
+            "item",
             "common",
             "armor",
             "light",
@@ -4496,10 +4908,11 @@
         "filtering": [
             "level-0",
             "uncommon",
-            "deadly-d6",
+            "deadlyd6",
             "monk",
             "reach",
             "shove",
+            "item",
             "weapon",
             "martial",
             "brawling"
@@ -4507,12 +4920,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.pepperbox",
+        "id": "item.weapon.martial.g-g.pepperbox",
         "color": "#43A047",
         "name": "Pepperbox",
         "title": "Pepperbox",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | capacity 3 | concussive | fatal d8",
             "property | Hands | 1 | Bulk | 1",
@@ -4528,8 +4941,8 @@
             "uncommon",
             "capacity3",
             "concussive",
-            "fatal-d8",
-            "equipment",
+            "fatald8",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -4537,12 +4950,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.pick",
+        "id": "item.weapon.martial.crb.pick",
         "color": "#43A047",
         "name": "Pick",
         "title": "Pick",
         "icon_front": "war-pick",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | fatal d10",
             "property | Hands | 1 | Bulk | 1",
@@ -4555,8 +4968,8 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "fatal-d10",
-            "equipment",
+            "fatald10",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -4565,14 +4978,14 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.piercing-wind",
+        "id": "item.weapon.martial.g-g.piercing-wind",
         "color": "#43A047",
         "name": "Piercing Wind",
         "title": "Piercing Wind",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
-            "pftrait | uncommon",
+            "pftrait | uncommon | combination",
             "property | Hands | 1 | Bulk | 1",
             "property | Price | 15 gp | Crafting | 11 gp",
             "property | Category | Martial Weapon | Group | Firearm",
@@ -4584,7 +4997,8 @@
         "filtering": [
             "level-0",
             "uncommon",
-            "equipment",
+            "combination",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -4592,12 +5006,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.lotgb.piranha-kiss",
+        "id": "item.weapon.martial.lotgb.piranha-kiss",
         "color": "#43A047",
         "name": "Piranha Kiss",
         "title": "Piranha Kiss",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | disarm | finesse",
             "property | Hands | 1 | Bulk | L",
@@ -4614,7 +5028,7 @@
             "agile",
             "disarm",
             "finesse",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "knife"
@@ -4622,12 +5036,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.ec-1.poi",
+        "id": "item.weapon.simple.ec-1.poi",
         "color": "#43A047",
         "name": "Poi",
         "title": "Poi",
         "icon_front": "flail",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | backswing | finesse | nonlethal",
             "property | Hands | 1 | Bulk | L",
@@ -4645,7 +5059,7 @@
             "backswing",
             "finesse",
             "nonlethal",
-            "equipment",
+            "item",
             "weapon",
             "simple",
             "flail"
@@ -4653,12 +5067,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.logm.polytool",
+        "id": "item.weapon.martial.logm.polytool",
         "color": "#43A047",
         "name": "Polytool",
         "title": "Polytool",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
             "pftrait | uncommon | agile | modular b, p, or s",
             "property | Hands | 1 | Bulk | 1",
@@ -4673,8 +5087,8 @@
             "level-1",
             "uncommon",
             "agile",
-            "modular-b,p,or-s",
-            "equipment",
+            "modularb,p,or-s",
+            "item",
             "weapon",
             "martial",
             "sword"
@@ -4682,16 +5096,16 @@
         "level": 1
     },
     {
-        "id": "equipment.armor.medium.g-g.power-suit",
+        "id": "item.armor.medium.g-g.power-suit",
         "color": "#43A047",
         "name": "Power Suit",
         "title": "Power Suit",
         "icon_front": "abdominal-armor",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "property | Bulk | 2",
             "property | Category | Medium Armor | Group | Composite",
-            "tablehead | AC Bonus  | Dex Cap  | Str Req.  | Check Pen.  | Spd Pen. ",
+            "tablehead | AC Bonus | Dex Cap | Str Req. | Check Pen. | Spd Pen.",
             "row | +4 | +1 | 16 | --2 | --5 ft.",
             "rule",
             "text | This armor is exclusive to the Inventor class with the Armor innovation. While you may be able to wear this armor as a different class, everyone but the creator of the armor is untrained in it, even if they would normally be trained (or better) in medium armor."
@@ -4699,7 +5113,7 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "equipment",
+            "item",
             "common",
             "armor",
             "medium",
@@ -4730,6 +5144,7 @@
             "level-0",
             "finesse",
             "sweep",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -4738,12 +5153,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.ranseur",
+        "id": "item.weapon.martial.crb.ranseur",
         "color": "#43A047",
         "name": "Ranseur",
         "title": "Ranseur",
         "icon_front": "bo",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | disarm | reach",
             "property | Hands | 2 | Bulk | 2",
@@ -4758,7 +5173,7 @@
             "level-0",
             "disarm",
             "reach",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -4767,12 +5182,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.rapier",
+        "id": "item.weapon.martial.crb.rapier",
         "color": "#43A047",
         "name": "Rapier",
         "title": "Rapier",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | deadly d8 | disarm | finesse",
             "property | Hands | 1 | Bulk | 1",
@@ -4785,10 +5200,10 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "deadly-d8",
+            "deadlyd8",
             "disarm",
             "finesse",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -4797,14 +5212,14 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.rapier-pistol",
+        "id": "item.weapon.martial.g-g.rapier-pistol",
         "color": "#43A047",
         "name": "Rapier Pistol",
         "title": "Rapier Pistol",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
-            "pftrait | uncommon",
+            "pftrait | uncommon | combination",
             "property | Hands | 1 | Bulk | 1",
             "property | Price | 10 gp | Crafting | 7 gp",
             "property | Category | Martial Weapon | Group | Firearm",
@@ -4816,7 +5231,8 @@
         "filtering": [
             "level-0",
             "uncommon",
-            "equipment",
+            "combination",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -4824,12 +5240,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.reinforced-stock",
+        "id": "item.weapon.martial.g-g.reinforced-stock",
         "color": "#43A047",
         "name": "Reinforced Stock",
         "title": "Reinforced Stock",
         "icon_front": "wood-club",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | attached to crossbow or firearm | finesse | two-hand d6",
             "property | Hands | 1 or 2* | Bulk | L",
@@ -4843,10 +5259,10 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "attached-to-crossbow-or-firearm",
+            "attachedto-crossbow-or-firearm",
             "finesse",
-            "two-hand-d6",
-            "equipment",
+            "two-handd6",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -4855,12 +5271,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.g-g.repeating-crossbow",
+        "id": "item.weapon.advanced.g-g.repeating-crossbow",
         "color": "#43A047",
         "name": "Repeating Crossbow",
         "title": "Repeating Crossbow",
         "icon_front": "crossbow",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
             "pftrait | uncommon | repeating",
             "property | Hands | 2 | Bulk | 1",
@@ -4875,7 +5291,7 @@
             "level-1",
             "uncommon",
             "repeating",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "bow"
@@ -4883,12 +5299,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.advanced.g-g.repeating-hand-crossbow",
+        "id": "item.weapon.advanced.g-g.repeating-hand-crossbow",
         "color": "#43A047",
         "name": "Repeating Hand Crossbow",
         "title": "Repeating Hand Crossbow",
         "icon_front": "crossbow",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
             "pftrait | uncommon | repeating",
             "property | Hands | 1 | Bulk | L",
@@ -4903,7 +5319,7 @@
             "level-1",
             "uncommon",
             "repeating",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "bow"
@@ -4911,12 +5327,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.martial.g-g.repeating-heavy-crossbow",
+        "id": "item.weapon.martial.g-g.repeating-heavy-crossbow",
         "color": "#43A047",
         "name": "Repeating Heavy Crossbow",
         "title": "Repeating Heavy Crossbow",
         "icon_front": "crossbow",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
             "pftrait | uncommon | repeating",
             "property | Hands | 2 | Bulk | 2",
@@ -4931,7 +5347,7 @@
             "level-1",
             "uncommon",
             "repeating",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "bow"
@@ -4939,12 +5355,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.advanced.av-3.rhoka-sword",
+        "id": "item.weapon.advanced.av-3.rhoka-sword",
         "color": "#43A047",
         "name": "Rhoka Sword",
         "title": "Rhoka Sword",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | deadly d8 | two-hand d10",
             "property | Hands | 1 | Bulk | 2",
@@ -4957,9 +5373,9 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "deadly-d8",
-            "two-hand-d10",
-            "equipment",
+            "deadlyd8",
+            "two-handd10",
+            "item",
             "common",
             "weapon",
             "advanced",
@@ -4968,12 +5384,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.loag.rungu",
+        "id": "item.weapon.martial.loag.rungu",
         "color": "#43A047",
         "name": "Rungu",
         "title": "Rungu",
         "icon_front": "wood-club",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | grippli | shove | thrown 30 ft.",
             "property | Hands | 1 | Bulk | L",
@@ -4989,7 +5405,7 @@
             "grippli",
             "shove",
             "thrown30ft.",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -4998,12 +5414,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.sai",
+        "id": "item.weapon.martial.crb.sai",
         "color": "#43A047",
         "name": "Sai",
         "title": "Sai",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | disarm | finesse | monk | versatile b",
             "property | Hands | 1 | Bulk | L",
@@ -5020,9 +5436,9 @@
             "disarm",
             "finesse",
             "monk",
-            "versatile-b",
+            "versatileb",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "knife"
@@ -5030,12 +5446,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.sap",
+        "id": "item.weapon.martial.crb.sap",
         "color": "#43A047",
         "name": "Sap",
         "title": "Sap",
         "icon_front": "wood-club",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | nonlethal",
             "property | Hands | 1 | Bulk | L",
@@ -5050,7 +5466,7 @@
             "level-0",
             "agile",
             "nonlethal",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -5059,12 +5475,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.crb.sawtooth-saber",
+        "id": "item.weapon.advanced.crb.sawtooth-saber",
         "color": "#43A047",
         "name": "Sawtooth Saber",
         "title": "Sawtooth Saber",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | finesse | twin",
             "property | Hands | 1 | Bulk | L",
@@ -5081,7 +5497,7 @@
             "finesse",
             "twin",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "sword"
@@ -5089,17 +5505,17 @@
         "level": 0
     },
     {
-        "id": "equipment.armor.medium.crb.scale-mail",
+        "id": "item.armor.medium.crb.scale-mail",
         "color": "#43A047",
         "name": "Scale Mail",
         "title": "Scale Mail",
         "icon_front": "abdominal-armor",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "property | Bulk | 2",
             "property | Price | 4 gp | Crafting | 3 gp",
             "property | Category | Medium Armor | Group | Composite",
-            "tablehead | AC Bonus  | Dex Cap  | Str Req.  | Check Pen.  | Spd Pen. ",
+            "tablehead | AC Bonus | Dex Cap | Str Req. | Check Pen. | Spd Pen.",
             "row | +3 | +2 | 14 | --2 | --5 ft.",
             "rule",
             "text | Scale mail consists of many metal scales sewn onto a reinforced leather backing, often in the form of a long shirt that protects the torso, arms, and legs."
@@ -5107,7 +5523,7 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "equipment",
+            "item",
             "common",
             "armor",
             "medium",
@@ -5116,12 +5532,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.scimitar",
+        "id": "item.weapon.martial.crb.scimitar",
         "color": "#43A047",
         "name": "Scimitar",
         "title": "Scimitar",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | forceful | sweep",
             "property | Hands | 1 | Bulk | 1",
@@ -5136,7 +5552,7 @@
             "level-0",
             "forceful",
             "sweep",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -5145,12 +5561,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.ec-1.scorpion-whip",
+        "id": "item.weapon.martial.ec-1.scorpion-whip",
         "color": "#43A047",
         "name": "Scorpion Whip",
         "title": "Scorpion Whip",
         "icon_front": "flail",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | disarm | finesse | reach | trip",
             "property | Hands | 1 | Bulk | L",
@@ -5168,7 +5584,7 @@
             "finesse",
             "reach",
             "trip",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "flail"
@@ -5176,12 +5592,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.locg.scourge",
+        "id": "item.weapon.martial.locg.scourge",
         "color": "#43A047",
         "name": "Scourge",
         "title": "Scourge",
         "icon_front": "flail",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | disarm | finesse | nonlethal | sweep",
             "property | Hands | 1 | Bulk | 1",
@@ -5199,7 +5615,7 @@
             "finesse",
             "nonlethal",
             "sweep",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -5208,12 +5624,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.scythe",
+        "id": "item.weapon.martial.crb.scythe",
         "color": "#43A047",
         "name": "Scythe",
         "title": "Scythe",
         "icon_front": "bo",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | deadly d10 | trip",
             "property | Hands | 2 | Bulk | 2",
@@ -5226,9 +5642,9 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "deadly-d10",
+            "deadlyd10",
             "trip",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -5237,12 +5653,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.av-3.shauth-blade",
+        "id": "item.weapon.martial.av-3.shauth-blade",
         "color": "#43A047",
         "name": "Shauth Blade",
         "title": "Shauth Blade",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | deadly d8 | finesse | versatile p",
             "property | Hands | 1 | Bulk | L",
@@ -5256,10 +5672,10 @@
         "filtering": [
             "level-0",
             "agile",
-            "deadly-d8",
+            "deadlyd8",
             "finesse",
-            "versatile-p",
-            "equipment",
+            "versatilep",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -5268,12 +5684,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.av-3.shauth-lash",
+        "id": "item.weapon.advanced.av-3.shauth-lash",
         "color": "#43A047",
         "name": "Shauth Lash",
         "title": "Shauth Lash",
         "icon_front": "flail",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | deadly d10 | finesse | trip",
             "property | Hands | 2 | Bulk | 1",
@@ -5286,10 +5702,10 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "deadly-d10",
+            "deadlyd10",
             "finesse",
             "trip",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "advanced",
@@ -5298,29 +5714,28 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.b-2.shears",
+        "id": "item.weapon.simple.b-2.shears",
         "color": "#43A047",
         "name": "Shears",
         "title": "Shears",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | deadly d8 | finesse | versatile p",
             "property | Hands | 1 | Bulk | L",
             "property | Price | 5 sp | Crafting | 3 sp",
             "property | Category | Simple Weapon | Group | Knife",
             "property | Damage | 1d4 S",
-            "rule",
-            "text | No entries found."
+            "rule"
         ],
         "reference": [],
         "filtering": [
             "level-0",
             "uncommon",
-            "versatile-p",
-            "deadly-d8",
+            "versatilep",
+            "deadlyd8",
             "finesse",
-            "equipment",
+            "item",
             "weapon",
             "simple",
             "knife"
@@ -5328,12 +5743,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.shield-boss",
+        "id": "item.weapon.martial.crb.shield-boss",
         "color": "#43A047",
         "name": "Shield Boss",
         "title": "Shield Boss",
         "icon_front": "bordered-shield",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | attached to shield",
             "property | Hands | 1",
@@ -5346,8 +5761,8 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "attached-to-shield",
-            "equipment",
+            "attachedto-shield",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -5356,12 +5771,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.shield-spikes",
+        "id": "item.weapon.martial.crb.shield-spikes",
         "color": "#43A047",
         "name": "Shield Spikes",
         "title": "Shield Spikes",
         "icon_front": "bordered-shield",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | attached to shield",
             "property | Hands | 1",
@@ -5374,8 +5789,8 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "attached-to-shield",
-            "equipment",
+            "attachedto-shield",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -5384,12 +5799,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.shortbow",
+        "id": "item.weapon.martial.crb.shortbow",
         "color": "#43A047",
         "name": "Shortbow",
         "title": "Shortbow",
         "icon_front": "crossbow",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | deadly d10",
             "property | Hands | 1+ | Bulk | 1",
@@ -5402,8 +5817,8 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "deadly-d10",
-            "equipment",
+            "deadlyd10",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -5412,12 +5827,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.shortsword",
+        "id": "item.weapon.martial.crb.shortsword",
         "color": "#43A047",
         "name": "Shortsword",
         "title": "Shortsword",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | finesse | versatile s",
             "property | Hands | 1 | Bulk | L",
@@ -5432,8 +5847,8 @@
             "level-0",
             "agile",
             "finesse",
-            "versatile-s",
-            "equipment",
+            "versatiles",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -5442,12 +5857,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.shuriken",
+        "id": "item.weapon.martial.crb.shuriken",
         "color": "#43A047",
         "name": "Shuriken",
         "title": "Shuriken",
         "icon_front": "dart",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | monk | thrown",
             "property | Hands | 1",
@@ -5464,7 +5879,7 @@
             "monk",
             "thrown",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "dart"
@@ -5472,12 +5887,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.crb.sickle",
+        "id": "item.weapon.simple.crb.sickle",
         "color": "#43A047",
         "name": "Sickle",
         "title": "Sickle",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | finesse | trip",
             "property | Hands | 1 | Bulk | L",
@@ -5493,7 +5908,7 @@
             "agile",
             "finesse",
             "trip",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "simple",
@@ -5502,12 +5917,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.lotgb.sickle-saber",
+        "id": "item.weapon.advanced.lotgb.sickle-saber",
         "color": "#43A047",
         "name": "Sickle-Saber",
         "title": "Sickle-Saber",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | backswing | forceful",
             "property | Hands | 1 | Bulk | 1",
@@ -5523,7 +5938,7 @@
             "uncommon",
             "backswing",
             "forceful",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "sword"
@@ -5531,12 +5946,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.slide-pistol",
+        "id": "item.weapon.martial.g-g.slide-pistol",
         "color": "#43A047",
         "name": "Slide Pistol",
         "title": "Slide Pistol",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
             "pftrait | uncommon | capacity 5 | concussive | fatal d10",
             "property | Hands | 1 | Bulk | 2",
@@ -5552,8 +5967,8 @@
             "uncommon",
             "capacity5",
             "concussive",
-            "fatal-d10",
-            "equipment",
+            "fatald10",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -5561,12 +5976,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.simple.crb.sling",
+        "id": "item.weapon.simple.crb.sling",
         "color": "#43A047",
         "name": "Sling",
         "title": "Sling",
         "icon_front": "sling",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | propulsive",
             "property | Hands | 1 | Bulk | L",
@@ -5580,7 +5995,7 @@
         "filtering": [
             "level-0",
             "propulsive",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "simple",
@@ -5589,12 +6004,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.crb.spear",
+        "id": "item.weapon.simple.crb.spear",
         "color": "#43A047",
         "name": "Spear",
         "title": "Spear",
         "icon_front": "trident",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | thrown 20 ft.",
             "property | Hands | 1 | Bulk | 1",
@@ -5608,7 +6023,7 @@
         "filtering": [
             "level-0",
             "thrown20ft.",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "simple",
@@ -5617,12 +6032,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.spiked-chain",
+        "id": "item.weapon.martial.crb.spiked-chain",
         "color": "#43A047",
         "name": "Spiked Chain",
         "title": "Spiked Chain",
         "icon_front": "flail",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | disarm | finesse | trip",
             "property | Hands | 2 | Bulk | 1",
@@ -5639,7 +6054,7 @@
             "finesse",
             "trip",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "flail"
@@ -5647,12 +6062,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.crb.spiked-gauntlet",
+        "id": "item.weapon.simple.crb.spiked-gauntlet",
         "color": "#43A047",
         "name": "Spiked Gauntlet",
         "title": "Spiked Gauntlet",
         "icon_front": "brass-knuckles",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | free-hand",
             "property | Hands | 1 | Bulk | L",
@@ -5667,7 +6082,7 @@
             "level-0",
             "agile",
             "free-hand",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "simple",
@@ -5676,12 +6091,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.lotgb.spiral-rapier",
+        "id": "item.weapon.advanced.lotgb.spiral-rapier",
         "color": "#43A047",
         "name": "Spiral Rapier",
         "title": "Spiral Rapier",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | disarm | finesse | parry",
             "property | Hands | 1 | Bulk | 1",
@@ -5698,7 +6113,7 @@
             "disarm",
             "finesse",
             "parry",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "sword"
@@ -5706,17 +6121,17 @@
         "level": 0
     },
     {
-        "id": "equipment.armor.heavy.crb.splint-mail",
+        "id": "item.armor.heavy.crb.splint-mail",
         "color": "#43A047",
         "name": "Splint Mail",
         "title": "Splint Mail",
         "icon_front": "lamellar",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
             "property | Bulk | 3",
             "property | Price | 13 gp | Crafting | 9 gp",
             "property | Category | Heavy Armor | Group | Composite",
-            "tablehead | AC Bonus  | Dex Cap  | Str Req.  | Check Pen.  | Spd Pen. ",
+            "tablehead | AC Bonus | Dex Cap | Str Req. | Check Pen. | Spd Pen.",
             "row | +5 | +1 | 16 | --3 | --10 ft.",
             "rule",
             "text | This type of armor is chain mail reinforced with flexible, interlocking metal plates, typically located on the wearer's torso, upper arms, and legs. A suit of this armor comes with an undercoat of padded armor and a pair of gauntlets."
@@ -5724,7 +6139,7 @@
         "reference": [],
         "filtering": [
             "level-1",
-            "equipment",
+            "item",
             "common",
             "armor",
             "heavy",
@@ -5754,9 +6169,10 @@
             "level-1",
             "uncommon",
             "cobbled",
-            "modular-b,p,or-s",
+            "modularb,p,or-s",
             "goblin",
             "scatter5ft.",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -5764,12 +6180,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.simple.crb.staff",
+        "id": "item.weapon.simple.crb.staff",
         "color": "#43A047",
         "name": "Staff",
         "title": "Staff",
         "icon_front": "wood-club",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | two-hand d8",
             "property | Hands | 1 | Bulk | 1",
@@ -5782,8 +6198,8 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "two-hand-d8",
-            "equipment",
+            "two-handd8",
+            "item",
             "common",
             "weapon",
             "simple",
@@ -5792,12 +6208,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.starknife",
+        "id": "item.weapon.martial.crb.starknife",
         "color": "#43A047",
         "name": "Starknife",
         "title": "Starknife",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | deadly d6 | finesse | thrown 20 ft. | versatile s",
             "property | Hands | 1 | Bulk | L",
@@ -5811,11 +6227,11 @@
         "filtering": [
             "level-0",
             "agile",
-            "deadly-d6",
+            "deadlyd6",
             "finesse",
             "thrown20ft.",
-            "versatile-s",
-            "equipment",
+            "versatiles",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -5824,12 +6240,12 @@
         "level": 0
     },
     {
-        "id": "equipment.shield.crb.steel-shield",
+        "id": "item.shield.crb.steel-shield",
         "color": "#43A047",
         "name": "Steel Shield",
         "title": "Steel Shield",
         "icon_front": "shield",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "property | Bulk | 1",
             "property | Price | 2 gp | Crafting | 1 gp",
@@ -5839,19 +6255,19 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "equipment",
+            "item",
             "common",
             "shield"
         ],
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.lopsg.stiletto-pen",
+        "id": "item.weapon.martial.lopsg.stiletto-pen",
         "color": "#43A047",
         "name": "Stiletto Pen",
         "title": "Stiletto Pen",
         "icon_front": "dart",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
             "pftrait | uncommon | agile | concealable | finesse | thrown 10 feet",
             "property | Hands | 1 | Bulk | L",
@@ -5869,7 +6285,7 @@
             "concealable",
             "finesse",
             "thrown10feet",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "dart"
@@ -5877,17 +6293,17 @@
         "level": 1
     },
     {
-        "id": "equipment.armor.light.crb.studded-leather",
+        "id": "item.armor.light.crb.studded-leather",
         "color": "#43A047",
         "name": "Studded Leather",
         "title": "Studded Leather",
         "icon_front": "leather-armor",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "property | Bulk | 1",
             "property | Price | 3 gp | Crafting | 2 gp",
             "property | Category | Light Armor | Group | Leather",
-            "tablehead | AC Bonus  | Dex Cap  | Str Req.  | Check Pen. ",
+            "tablehead | AC Bonus | Dex Cap | Str Req. | Check Pen.",
             "row | +2 | +3 | 12 | --1",
             "rule",
             "text | This leather armor is reinforced with metal studs and sometimes small metal plates, providing most of the flexibility of leather armor with more robust protection."
@@ -5895,7 +6311,7 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "equipment",
+            "item",
             "common",
             "armor",
             "light",
@@ -5904,17 +6320,17 @@
         "level": 0
     },
     {
-        "id": "equipment.armor.medium.g-g.subterfuge-suit",
+        "id": "item.armor.medium.g-g.subterfuge-suit",
         "color": "#43A047",
         "name": "Subterfuge Suit",
         "title": "Subterfuge Suit",
         "icon_front": "abdominal-armor",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon",
             "property | Bulk | 1",
             "property | Category | Medium Armor | Group | Composite",
-            "tablehead | AC Bonus  | Dex Cap  | Str Req.  | Check Pen. ",
+            "tablehead | AC Bonus | Dex Cap | Str Req. | Check Pen.",
             "row | +1 | +4 | 10 | --1",
             "rule",
             "text | This armor is exclusive to the Inventor class with the Armor innovation. While you may be able to wear this armor as a different class, everyone but the creator of the armor is untrained in it, even if they would normally be trained (or better) in medium armor."
@@ -5923,7 +6339,7 @@
         "filtering": [
             "level-0",
             "uncommon",
-            "equipment",
+            "item",
             "armor",
             "medium",
             "composite"
@@ -5931,12 +6347,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.lotgb.switchscythe",
+        "id": "item.weapon.advanced.lotgb.switchscythe",
         "color": "#43A047",
         "name": "Switchscythe",
         "title": "Switchscythe",
         "icon_front": "war-pick",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
             "pftrait | uncommon | fatal d10 | gnome | modular (p and grapple, or s and sweep)",
             "property | Hands | 1 | Bulk | 2",
@@ -5951,9 +6367,9 @@
             "level-1",
             "uncommon",
             "gnome",
-            "fatal-d10",
+            "fatald10",
             "modular(pand-grapple,or-sand-sweep)",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "pick"
@@ -5961,12 +6377,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.martial.apg.sword-cane",
+        "id": "item.weapon.martial.apg.sword-cane",
         "color": "#43A047",
         "name": "Sword Cane",
         "title": "Sword Cane",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | concealable | finesse",
             "property | Hands | 1 | Bulk | 1",
@@ -5982,7 +6398,7 @@
             "agile",
             "finesse",
             "concealable",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -5991,12 +6407,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.av-2.tamchal-chakram",
+        "id": "item.weapon.advanced.av-2.tamchal-chakram",
         "color": "#43A047",
         "name": "Tamchal Chakram",
         "title": "Tamchal Chakram",
         "icon_front": "dart",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | deadly d6 | finesse | thrown 20 feet",
             "property | Hands | 1 | Bulk | L",
@@ -6011,10 +6427,10 @@
             "level-0",
             "uncommon",
             "agile",
-            "deadly-d6",
+            "deadlyd6",
             "finesse",
             "thrown20feet",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "dart"
@@ -6022,12 +6438,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.loag.taw-launcher",
+        "id": "item.weapon.advanced.loag.taw-launcher",
         "color": "#43A047",
         "name": "Taw Launcher",
         "title": "Taw Launcher",
         "icon_front": "crossbow",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | conrasu | deadly 1d10 | modular b, p, or s",
             "property | Hands | 2 | Bulk | 1",
@@ -6043,8 +6459,8 @@
             "uncommon",
             "conrasu",
             "deadly1d10",
-            "modular-b,p,or-s",
-            "equipment",
+            "modularb,p,or-s",
+            "item",
             "weapon",
             "advanced",
             "bow"
@@ -6052,12 +6468,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.logm.tekko-kagi",
+        "id": "item.weapon.martial.logm.tekko-kagi",
         "color": "#43A047",
         "name": "Tekko-Kagi",
         "title": "Tekko-Kagi",
         "icon_front": "brass-knuckles",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | disarm | finesse | parry | trip",
             "property | Hands | 1 | Bulk | L",
@@ -6076,7 +6492,7 @@
             "finesse",
             "parry",
             "trip",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "brawling"
@@ -6084,12 +6500,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.temple-sword",
+        "id": "item.weapon.martial.crb.temple-sword",
         "color": "#43A047",
         "name": "Temple Sword",
         "title": "Temple Sword",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | monk | trip",
             "property | Hands | 1 | Bulk | 1",
@@ -6105,7 +6521,7 @@
             "monk",
             "trip",
             "uncommon",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "sword"
@@ -6113,12 +6529,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.apg.tengu-gale-blade",
+        "id": "item.weapon.martial.apg.tengu-gale-blade",
         "color": "#43A047",
         "name": "Tengu Gale Blade",
         "title": "Tengu Gale Blade",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | disarm | finesse | tengu",
             "property | Hands | 1 | Bulk | L",
@@ -6136,7 +6552,7 @@
             "disarm",
             "finesse",
             "tengu",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "sword"
@@ -6144,14 +6560,14 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.g-g.three-peaked-tree",
+        "id": "item.weapon.martial.g-g.three-peaked-tree",
         "color": "#43A047",
         "name": "Three Peaked Tree",
         "title": "Three Peaked Tree",
         "icon_front": "blunderbuss",
-        "code": "equipment",
+        "code": "item 1",
         "contents": [
-            "pftrait | uncommon",
+            "pftrait | uncommon | combination",
             "property | Hands | 2 | Bulk | 2",
             "property | Price | 12 gp | Crafting | 9 gp",
             "property | Category | Martial Weapon | Group | Firearm",
@@ -6163,7 +6579,8 @@
         "filtering": [
             "level-1",
             "uncommon",
-            "equipment",
+            "combination",
+            "item",
             "weapon",
             "martial",
             "firearm"
@@ -6171,12 +6588,12 @@
         "level": 1
     },
     {
-        "id": "equipment.weapon.simple.ec-1.throwing-knife",
+        "id": "item.weapon.simple.ec-1.throwing-knife",
         "color": "#43A047",
         "name": "Throwing Knife",
         "title": "Throwing Knife",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | finesse | thrown 20 feet",
             "property | Hands | 1 | Bulk | L",
@@ -6193,7 +6610,7 @@
             "agile",
             "finesse",
             "thrown20feet",
-            "equipment",
+            "item",
             "weapon",
             "simple",
             "knife"
@@ -6201,12 +6618,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.loag.thunder-sling",
+        "id": "item.weapon.martial.loag.thunder-sling",
         "color": "#43A047",
         "name": "Thunder Sling",
         "title": "Thunder Sling",
         "icon_front": "sling",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | propulsive | tengu",
             "property | Hands | 1 | Bulk | L",
@@ -6223,7 +6640,7 @@
             "agile",
             "propulsive",
             "tengu",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "sling"
@@ -6231,12 +6648,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.lotgb.thundermace",
+        "id": "item.weapon.simple.lotgb.thundermace",
         "color": "#43A047",
         "name": "Thundermace",
         "title": "Thundermace",
         "icon_front": "wood-club",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | backswing",
             "property | Hands | 2 | Bulk | 2",
@@ -6251,7 +6668,7 @@
             "level-0",
             "uncommon",
             "backswing",
-            "equipment",
+            "item",
             "weapon",
             "simple",
             "club"
@@ -6259,12 +6676,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.lotgb.tonfa",
+        "id": "item.weapon.martial.lotgb.tonfa",
         "color": "#43A047",
         "name": "Tonfa",
         "title": "Tonfa",
         "icon_front": "brass-knuckles",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | finesse | monk | parry | twin",
             "property | Hands | 1 | Bulk | L",
@@ -6283,7 +6700,7 @@
             "monk",
             "parry",
             "twin",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "brawling"
@@ -6291,12 +6708,12 @@
         "level": 0
     },
     {
-        "id": "equipment.shield.crb.tower-shield",
+        "id": "item.shield.crb.tower-shield",
         "color": "#43A047",
         "name": "Tower Shield",
         "title": "Tower Shield",
         "icon_front": "shield",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "property | Bulk | 4",
             "property | Price | 10 gp | Crafting | 7 gp",
@@ -6307,19 +6724,19 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "equipment",
+            "item",
             "common",
             "shield"
         ],
         "level": 0
     },
     {
-        "id": "equipment.weapon.simple.lotgb.tri-bladed-katar",
+        "id": "item.weapon.simple.lotgb.tri-bladed-katar",
         "color": "#43A047",
         "name": "Tri-bladed Katar",
         "title": "Tri-bladed Katar",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | disarm | fatal d8 | monk",
             "property | Hands | 1 | Bulk | L",
@@ -6334,9 +6751,9 @@
             "level-0",
             "uncommon",
             "disarm",
-            "fatal-d8",
+            "fatald8",
             "monk",
-            "equipment",
+            "item",
             "weapon",
             "simple",
             "knife"
@@ -6344,12 +6761,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.loag.tricky-pick",
+        "id": "item.weapon.advanced.loag.tricky-pick",
         "color": "#43A047",
         "name": "Tricky Pick",
         "title": "Tricky Pick",
         "icon_front": "war-pick",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | backstabber | fatal d10 | kobold | modular b, p, or s",
             "property | Hands | 1 | Bulk | 1",
@@ -6364,10 +6781,10 @@
             "level-0",
             "uncommon",
             "backstabber",
-            "fatal-d10",
+            "fatald10",
             "kobold",
-            "modular-b,p,or-s",
-            "equipment",
+            "modularb,p,or-s",
+            "item",
             "weapon",
             "advanced",
             "pick"
@@ -6375,12 +6792,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.trident",
+        "id": "item.weapon.martial.crb.trident",
         "color": "#43A047",
         "name": "Trident",
         "title": "Trident",
         "icon_front": "trident",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | thrown 20 ft.",
             "property | Hands | 1 | Bulk | 1",
@@ -6394,7 +6811,7 @@
         "filtering": [
             "level-0",
             "thrown20ft.",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -6427,6 +6844,7 @@
             "finesse",
             "injection",
             "parry",
+            "item",
             "weapon",
             "martial",
             "sword"
@@ -6434,12 +6852,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.logm.urumi",
+        "id": "item.weapon.martial.logm.urumi",
         "color": "#43A047",
         "name": "Urumi",
         "title": "Urumi",
         "icon_front": "flail",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | deadly d10 | sweep",
             "property | Hands | 1 | Bulk | 2",
@@ -6453,9 +6871,9 @@
         "filtering": [
             "level-0",
             "uncommon",
-            "deadly-d10",
+            "deadlyd10",
             "sweep",
-            "equipment",
+            "item",
             "weapon",
             "martial",
             "flail"
@@ -6463,12 +6881,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.apg.wakizashi",
+        "id": "item.weapon.martial.apg.wakizashi",
         "color": "#43A047",
         "name": "Wakizashi",
         "title": "Wakizashi",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | deadly d8 | finesse | versatile p",
             "property | Hands | 1 | Bulk | L",
@@ -6483,10 +6901,10 @@
             "level-0",
             "uncommon",
             "agile",
-            "deadly-d8",
+            "deadlyd8",
             "finesse",
-            "versatile-p",
-            "equipment",
+            "versatilep",
+            "item",
             "weapon",
             "martial",
             "sword"
@@ -6494,12 +6912,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.war-flail",
+        "id": "item.weapon.martial.crb.war-flail",
         "color": "#43A047",
         "name": "War Flail",
         "title": "War Flail",
         "icon_front": "flail",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | disarm | sweep | trip",
             "property | Hands | 2 | Bulk | 2",
@@ -6515,7 +6933,7 @@
             "disarm",
             "sweep",
             "trip",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -6524,12 +6942,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.logm.war-razor",
+        "id": "item.weapon.martial.logm.war-razor",
         "color": "#43A047",
         "name": "War Razor",
         "title": "War Razor",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | agile | backstabber | deadly d8 | finesse",
             "property | Hands | 1 | Bulk | L",
@@ -6544,9 +6962,9 @@
             "level-0",
             "agile",
             "backstabber",
-            "deadly-d8",
+            "deadlyd8",
             "finesse",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -6555,12 +6973,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.warhammer",
+        "id": "item.weapon.martial.crb.warhammer",
         "color": "#43A047",
         "name": "Warhammer",
         "title": "Warhammer",
         "icon_front": "warhammer",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | shove",
             "property | Hands | 1 | Bulk | 1",
@@ -6574,7 +6992,7 @@
         "filtering": [
             "level-0",
             "shove",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -6583,12 +7001,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.crb.whip",
+        "id": "item.weapon.martial.crb.whip",
         "color": "#43A047",
         "name": "Whip",
         "title": "Whip",
         "icon_front": "flail",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | disarm | finesse | nonlethal | reach | trip",
             "property | Hands | 1 | Bulk | 1",
@@ -6606,7 +7024,7 @@
             "nonlethal",
             "reach",
             "trip",
-            "equipment",
+            "item",
             "common",
             "weapon",
             "martial",
@@ -6615,12 +7033,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.loag.whip-claw",
+        "id": "item.weapon.advanced.loag.whip-claw",
         "color": "#43A047",
         "name": "Whip Claw",
         "title": "Whip Claw",
         "icon_front": "flail",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | catfolk | finesse | hampering | reach",
             "property | Hands | 2 | Bulk | 1",
@@ -6638,7 +7056,7 @@
             "finesse",
             "hampering",
             "reach",
-            "equipment",
+            "item",
             "weapon",
             "advanced",
             "flail"
@@ -6646,12 +7064,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.advanced.frp-2.wind-and-fire-wheel",
+        "id": "item.weapon.advanced.frp-2.wind-and-fire-wheel",
         "color": "#43A047",
         "name": "Wind and Fire Wheel",
         "title": "Wind and Fire Wheel",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | disarm | finesse | monk | parry | twin | versatile p",
             "property | Hands | 1 | Bulk | L",
@@ -6671,8 +7089,8 @@
             "monk",
             "parry",
             "twin",
-            "versatile-p",
-            "equipment",
+            "versatilep",
+            "item",
             "weapon",
             "advanced",
             "knife"
@@ -6680,12 +7098,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.loag.wish-blade",
+        "id": "item.weapon.martial.loag.wish-blade",
         "color": "#43A047",
         "name": "Wish Blade",
         "title": "Wish Blade",
         "icon_front": "broadsword",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | disarm | geniekin | resonant | two-hand d10",
             "property | Hands | 1 | Bulk | 1",
@@ -6702,8 +7120,8 @@
             "disarm",
             "geniekin",
             "resonant",
-            "two-hand-d10",
-            "equipment",
+            "two-handd10",
+            "item",
             "weapon",
             "martial",
             "sword"
@@ -6711,12 +7129,12 @@
         "level": 0
     },
     {
-        "id": "equipment.weapon.martial.loag.wish-knife",
+        "id": "item.weapon.martial.loag.wish-knife",
         "color": "#43A047",
         "name": "Wish Knife",
         "title": "Wish Knife",
         "icon_front": "daggers",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "pftrait | uncommon | agile | disarm | finesse | geniekin | resonant | versatile s",
             "property | Hands | 1 | Bulk | L",
@@ -6735,8 +7153,8 @@
             "finesse",
             "geniekin",
             "resonant",
-            "versatile-s",
-            "equipment",
+            "versatiles",
+            "item",
             "weapon",
             "martial",
             "knife"
@@ -6744,12 +7162,12 @@
         "level": 0
     },
     {
-        "id": "equipment.shield.crb.wooden-shield",
+        "id": "item.shield.crb.wooden-shield",
         "color": "#43A047",
         "name": "Wooden Shield",
         "title": "Wooden Shield",
         "icon_front": "shield",
-        "code": "equipment",
+        "code": "item 0",
         "contents": [
             "property | Bulk | 1",
             "property | Price | 1 gp | Crafting | 0 gp",
@@ -6759,7 +7177,7 @@
         "reference": [],
         "filtering": [
             "level-0",
-            "equipment",
+            "item",
             "common",
             "shield"
         ],

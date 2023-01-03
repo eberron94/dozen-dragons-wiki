@@ -4,6 +4,7 @@
         - action.ancestry.conrasu.lome.call-to-axis
         - action.ancestry.dwarf.crb.call-on-ancient-blood
         - action.ancestry.dwarf.locg.energy-emanation
+        - action.ancestry.ghoran.loil.wicked-thorns
         - action.ancestry.grippli.lome.toxic-skin
         - action.ancestry.hobgoblin.locg.resist-xaos-magic
         - action.ancestry.kitsune.crb.invoke-celestial-privilege
@@ -11,9 +12,12 @@
         - action.ancestry.kitsune.loag.invigorating-fear
         - action.ancestry.kobold.apg.tail-toxin
         - action.ancestry.lizardfolk.locg.threatening-approach
+        - action.ancestry.nagaji.loil.raise-neck
         - action.ancestry.shifter.brew.brace
         - action.ancestry.shifter.brew.shifter-shape
         - action.ancestry.shisk.lome.barbed-quills
+        - action.ancestry.vishkanya.loil.envenom
+        - action.ancestry.vishkanya.loil.venom-draw
         - action.basic.crb.activate-an-item
         - action.basic.crb.affix-a-talisman
         - action.basic.crb.aid
@@ -135,6 +139,10 @@
         - action.class.gunslinger.subclass.sniper.g-g.ghost-shot
         - action.class.gunslinger.subclass.sniper.g-g.one-shot-one-kill
         - action.class.gunslinger.subclass.sniper.g-g.vital-shot
+        - action.class.gunslinger.subclass.triggerbrand.loil.break-them-down
+        - action.class.gunslinger.subclass.triggerbrand.loil.spring-the-trap
+        - action.class.gunslinger.subclass.triggerbrand.loil.touch-and-go
+        - action.class.gunslinger.subclass.triggerbrand.loil.wind-them-up
         - action.class.gunslinger.subclass.vanguard.g-g.clear-a-path
         - action.class.gunslinger.subclass.vanguard.g-g.living-fortification
         - action.class.gunslinger.subclass.vanguard.g-g.siegebreaker

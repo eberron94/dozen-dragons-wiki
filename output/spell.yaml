@@ -450,6 +450,11 @@
         - spell.focus.5th.da.over-the-coals
         - spell.focus.5th.frp-1.wronged-monks-wrath
         - spell.focus.5th.frp-3.cleansing-flames
+        - spell.focus.5th.loil.blinking-flame-aura
+        - spell.focus.5th.loil.steal-the-sky
+        - spell.focus.5th.loil.unbreaking-wave-vapor
+        - spell.focus.5th.loil.unfolding-wind-buffet
+        - spell.focus.5th.loil.untwisting-iron-roots
         - spell.focus.5th.lol.glacial-heart
         - spell.focus.5th.lol.shall-not-falter-shall-not-rout
         - spell.focus.5th.lopsg.spellmasters-ward
@@ -467,6 +472,7 @@
         - spell.focus.6th.crb.champions-sacrifice
         - spell.focus.6th.crb.primal-summons
         - spell.focus.6th.da.manifold-lives
+        - spell.focus.6th.loil.speaking-sky
         - spell.focus.6th.lokl.for-love-for-lightning
         - spell.focus.7th.apg.litany-of-depravity
         - spell.focus.7th.apg.shadows-web
@@ -484,6 +490,10 @@
         - spell.focus.7th.brew.grand-warder
         - spell.focus.7th.crb.litany-of-righteousness
         - spell.focus.7th.crb.soothing-ballad
+        - spell.focus.7th.loil.unblinking-flame-emblem
+        - spell.focus.7th.loil.unbreaking-wave-barrier
+        - spell.focus.7th.loil.unfolding-wind-blitz
+        - spell.focus.7th.loil.untwisting-iron-augmentation
         - spell.focus.7th.som.darklight
         - spell.focus.7th.som.hasted-assault
         - spell.focus.8th.apg.medusas-wrath
@@ -504,6 +514,10 @@
         - spell.focus.9th.brew.siberys-warder
         - spell.focus.9th.crb.empty-body
         - spell.focus.9th.crb.storm-lord
+        - spell.focus.9th.loil.unblinking-flame-ignition
+        - spell.focus.9th.loil.unbreaking-wave-containment
+        - spell.focus.9th.loil.unfolding-wind-crash
+        - spell.focus.9th.loil.untwisting-iron-pillar
         - spell.slot.10th.apg.indestructibility
         - spell.slot.10th.crb.alter-reality
         - spell.slot.10th.crb.avatar
@@ -892,7 +906,7 @@
         - spell.slot.4th.apg.spike-stones
         - spell.slot.4th.apg.vampiric-maiden
         - spell.slot.4th.av-2.daydreamers-curse
-        - spell.slot.4th.av-2.savants-curse
+        - spell.slot.4th.av-2.sages-curse
         - spell.slot.4th.av-3.call-the-blood
         - spell.slot.4th.crb.aerial-form
         - spell.slot.4th.crb.air-walk
@@ -1040,6 +1054,7 @@
         - spell.slot.5th.ec-5.pillars-of-sand
         - spell.slot.5th.frp-1.return-beacon
         - spell.slot.5th.logm.acid-storm
+        - spell.slot.5th.loil.summon-healing-servitor
         - spell.slot.5th.lokl.desperate-repair
         - spell.slot.5th.lokl.scouring-pulse
         - spell.slot.5th.som.aberrant-form
@@ -1228,6 +1243,7 @@
         - spell.slot.9th.da.bilocation
         - spell.slot.9th.ec-6.astral-labyrinth
         - spell.slot.9th.ec-6.upheaval
+        - spell.slot.9th.loil.summon-ancient-fleshforged
         - spell.slot.9th.som.one-with-the-land
         - spell.slot.9th.som.proliferating-eyes
         - spell.slot.9th.som.summon-draconic-legion
