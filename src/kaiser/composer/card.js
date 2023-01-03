@@ -16,14 +16,14 @@ const {
 const { toCamelCase } = require('../../util/stringHelper');
 
 const iconMap = require('../../iconMap.json');
-const ignoreList = require('../ignoreList.json');
+// const ignoreList = require('../ignoreList.json');
 const refList = require('../refList.json');
 const { round } = require('lodash');
 
 exports.composeCard = (original) => {
     const list = original
         .map(parse)
-        .filter((item) => !ignoreList.includes(item.id))
+        // .filter((item) => !ignoreList.includes(item.id))
         .filter(filterUniqueByObjectKey());
 
     // console.log(list);

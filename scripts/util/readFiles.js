@@ -37,7 +37,7 @@ exports.readFilesSync = dir => {
             const json = JSON.parse(raw);
             return json;
         })
-        .filter(x => typeof x === 'object');
+        .filter(x => typeof x === 'object' || typeof x === 'string');
 
     return content.filter(x => x && !x.hidden);
 };

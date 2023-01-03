@@ -19,7 +19,7 @@ const workingKeys = [
 const saveFile = (name, data) => {
     try {
         if (typeof data === 'object') {
-            const jsonStr = JSON.stringify(data, null, 4).replace(/[<>]/g,'');
+            const jsonStr = JSON.stringify(data, null, 4).replace(/[<>]/g, '');
             fs.writeFile(name, jsonStr, (err) => {
                 if (err) return console.log(err);
                 console.log('saved ' + name);
@@ -39,6 +39,7 @@ const packer = () => {
     const yaml = './output/';
 
     const rawContent = readFilesSync('./data-raw/');
+    const ignoreList = readFilesSync('./data-tool/ignore/');
 
     const content = {};
 
@@ -59,11 +60,12 @@ const packer = () => {
         }
     }
 
-    const saveFn = (fileName) => (file) => {
-        saveFile(dest + fileName + '.json', file);
+    const saveFn = (fileName) => (data) => {
+        const saveData = data.filter((d) => !ignoreList.includes(d.id));
+        saveFile(dest + fileName + '.json', saveData);
         saveFile(
             yaml + fileName + '.yaml',
-            file
+            saveData
                 .map((e) => e.id)
                 .sort()
                 .map((e) => '        - ' + e)
