@@ -124,18 +124,20 @@ const getTextEntries = ({ entries = [] }) => {
                             break;
                         case 'affliction':
                             lineArr.push('fill');
+                            lineArr.push('section | Affliction');
                             lineArr.push(
-                                `section | Affliction DC ${e.DC} ${
-                                    e.savingThrow
-                                }; **Onset** ${
+                                `table | Saving Throw | Onset | Max Dur.`
+                            );
+                            lineArr.push(
+                                `row | ${e.savingThrow} DC ${e.DC} | ${
                                     e.onset || 'immediate'
-                                }; **Max Dur.** ${e.maxDuration}`
+                                } | ${e.maxDuration}`
                             );
                             e.stages.forEach(({ stage, duration, entry }) =>
                                 lineArr.push(
                                     `bullet | Stage ${stage} | ${Renderer.stripTags(
                                         entry
-                                    )} (${duration})`
+                                    )} (${duration|'???'})`
                                 )
                             );
                             lineArr.push('rule');
@@ -186,7 +188,7 @@ const getTextEntries = ({ entries = [] }) => {
                     }
             });
 
-    return lineArr.flat().map(str=>str.replace(/[<>]/g,''));
+    return lineArr.flat().map((str) => str.replace(/[<>]/g, ''));
 };
 
 const parseActivity = ({ number, unit, entry }) => {

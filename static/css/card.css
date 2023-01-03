@@ -151,7 +151,7 @@ table.card-table {
 
 /******* REFERENCE PART LIST ********/
 
-.item-card .reference ul {
+.item-card .reference {
     list-style: none;
     display: flex;
     gap: 0.5rem;

@@ -44,7 +44,7 @@ const convertItem = (item) => {
         card.code = 'equipment';
         card.filtering.push('equipment');
     } else {
-        card.filtering.push('item')
+        card.filtering.push('item');
         card.code = 'item ' + (item.level || '0');
     }
 
@@ -190,7 +190,8 @@ const getContent = ({
 
     return lineArr
         .concat(getTextEntries(item))
-        .concat(handleDragonmarkHeightened(dragonmark || {}));
+        .concat(handleDragonmarkHeightened(dragonmark || {}))
+        .map(reduceDC(item.level));
 };
 
 const handleDragonmarkHeightened = ({
@@ -222,6 +223,22 @@ const handleDragonmarkHeightened = ({
     if (arr.length > 2) return arr;
     else return [];
 };
+
+const reduceDC =
+    (level = 0) =>
+    (line) => {
+        const dcReg = /(flat |flat check )?(DC|DC is) ([0-9]+)( flat| flat check)?/g;
+        return line.replace(dcReg, (match, p1, p2, p3, p4) => {
+            if (p1 || p4) return match;
+            const oldDC = Number(p3);
+            const levelBonus = Math.max(0, Math.floor((level - 4) / 3));
+
+            if (oldDC)
+                return `${p2} ${oldDC - (level || 0) + levelBonus} ^[${oldDC}]^`;
+
+            return match;
+        });
+    };
 
 const getId = ({
     generic,
