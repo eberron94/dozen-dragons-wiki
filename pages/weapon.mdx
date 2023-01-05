@@ -4,6 +4,7 @@ metaTitle: ''
 metaDescription: ''
 tocLevel: 2
 weight: 4_500
+extraOnBottom: true
 content:
     simple:
         - P::item|weapon|simple|!firearm|common
@@ -12,6 +13,8 @@ content:
     advanced:
         - P::item|weapon|advanced|!firearm|common
 ---
+
+Most characters in Pathfinder carry weapons, ranging from mighty warhammers to graceful bows to even simple clubs. Full details on how you calculate the bonuses, modifiers, and penalties for attack rolls and damage rolls are given in Chapter 9 on page 446, but they're summarized here, followed by the rules for weapons and dozens of weapon choices.
 
 # Simple Weapons
 
@@ -24,3 +27,87 @@ content:
 # Advanced Weapons
 
 {{{deck advanced}}}
+
++++
+
+### Attack Rolls
+
+When making an attack roll, determine the result by rolling 1d20 and adding your attack modifier for the weapon or unarmed attack you're using. Modifiers for melee and ranged attacks are calculated differently.
+
+**Melee attack Final Value** = Strength modifier (or optionally Dexterity for a finesse weapon) + proficiency bonus + other bonuses + penalties
+
+**Ranged attack Final Value** = Dexterity modifier + proficiency bonus + other bonuses + penalties
+
+Bonuses, and penalties apply to these rolls just like with other types of checks.
+
+### Damage Rolls
+
+When the result of your attack roll with a weapon or unarmed attack equals or exceeds your target's AC, you hit your target! Roll the weapon or unarmed attack's damage die and add the relevant modifiers, bonuses, and penalties to determine the amount of damage you deal. Calculate a damage roll as follows.
+
+**Melee damage roll** = damage die of weapon or unarmed attack + Strength modifier + bonuses + penalties
+
+**Ranged damage roll** = damage die of weapon + bonuses + penalties + Strength modifier for thrown weapons
+
+Ranged weapons don't normally add an ability modifier to the damage roll, though weapons with the propulsive trait add half your Strength modifier (or your full modifier if it is a negative number), and thrown weapons add your full Strength modifier.
+
+Once you reach level 4, Devastating Weapon will increase the the number of damage dice you roll but does not affect any other modifiers.
+
+### Weapon Statistics
+
+Weapons have the following statistics:
+
+**Damage**: This entry lists the weapon's damage die and the type of damage it deals: B for bludgeoning, P for piercing, or S for slashing.
+
+**Damage Dice**: Each weapon lists the damage die used for its damage roll. A standard weapon deals one die of damage, but a magical striking rune can increase the number of dice rolled, as can some special actions and spells. These additional dice use the same die size as the weapon or unarmed attack's normal damage die. When an effect calls on you to increase the size of your weapon damage dice, instead of using its normal weapon damage dice, use the next larger die, as listed below (so if you were using a d4, you'd use a d6, and so on). If you are already using a d12, the size is already at its maximum. You can't increase your weapon damage die size more than once. 1d4 ➞ 1d6 ➞ 1d8 ➞ 1d10 ➞ 1d12
+
+**Range**: Ranged and thrown weapons have a range increment. Attacks with these weapons work normally up to that distance. Attack rolls beyond a weapon's range increment take a –2 penalty for each additional multiple of that increment between you and the target. Attacks beyond the sixth range increment are impossible.
+
+For example, a shortbow takes no penalty against a target up to 60 feet away, a –2 penalty against a target beyond 60 feet but up to 120 feet away, and a –4 penalty against a target beyond 120 feet but up to 180 feet away, and so on, up to 360 feet.
+
+**Reload**: While all weapons need some amount of time to get into position, many ranged weapons also need to be loaded and reloaded. This entry indicates how many Interact actions it takes to reload such weapons. This can be 0 if drawing ammunition and firing the weapon are part of the same action. If an item takes 2 or more actions to reload, the GM determines whether they must be performed together as an activity, or you can spend some of those actions during one turn and the rest during your next turn.
+
+An item with an entry of "—" must be drawn to be thrown, which usually takes an Interact action just like drawing any other weapon. Reloading a ranged weapon and drawing a thrown weapon both require a free hand. Switching your grip to free a hand and then to place your hands in the grip necessary to wield the weapon are both included in the actions you spend to reload a weapon.
+
+**Bulk**: This entry gives the weapon's Bulk. A weapon's Bulk is increased or decreased if it's sized for creatures that aren't Small or Medium size, following the rules on page 295.
+
+**Hands**: Some weapons require one hand to wield, and others require two. A few items, such as a longbow, list 1+ for its Hands entry. You can hold a weapon with a 1+ entry in one hand, but the process of shooting it requires using a second to retrieve, nock, and loose an arrow. This means you can do things with your free hand while holding the bow without changing your grip, but the other hand must be free when you shoot. To properly wield a 1+ weapon, you must hold it in one hand and also have a hand free.
+
+Weapons requiring two hands typically deal more damage. Some one-handed weapons have the two-hand trait, causing them to deal a different size of weapon damage die when used in two hands. In addition, some abilities require you to wield a weapon in two hands. You meet this requirement while holding the weapon in two hands, even if it doesn't require two hands or have the two-hand trait.
+
+**Group**: A weapon or unarmed attack's group classifies it with similar weapons. Groups affect some abilities and what the weapon does on a critical hit if you have access to that weapon or unarmed attack's critical specialization effects; for full details, see further below.
+
+**Weapon Traits**: The traits a weapon or unarmed attack has are listed in this entry. Any trait that refers to a "weapon" can also apply to an unarmed attack that has that trait.
+
+### Critical Specialization Effects
+
+Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.
+
+**Axe**: Choose one creature adjacent to the initial target and within reach. If its AC is lower than your attack roll result for the critical hit, you deal damage to that creature equal to the result of the weapon damage die you rolled (including extra dice for its potency rune, if any). This amount isn't doubled, and no bonuses or other additional dice apply to this damage.
+
+**Bomb**: Increase the radius of the bomb's splash damage (if any) to 10 feet.
+
+**Bow**: If the target of the critical hit is adjacent to a surface, it gets stuck to that surface by the missile. The target is immobilized and must spend an Interact action to attempt a DC 10 Athletics check to pull the missile free; it can't move from its space until it succeeds. The creature doesn't become stuck if it is incorporeal, is liquid (like a water elemental or some oozes), or could otherwise escape without effort.
+
+**Brawling**: The target must succeed at a Fortitude save against your class DC or be slowed 1 until the end of your next turn.
+
+**Club**: You knock the target away from you up to 10 feet (you choose the distance). This is forced movement.
+
+**Dart**: The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon's item bonus to attack rolls.
+
+**Flail**: The target is knocked prone.
+
+**Hammer**: The target is knocked prone.
+
+**Knife**: The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon's item bonus to attack rolls.
+
+**Pick**: The weapon viciously pierces the target, who takes 2 additional damage per weapon damage die.
+
+**Polearm**: The target is moved 5 feet in a direction of your choice. This is forced movement.
+
+**Shield**: You knock the target back from you 5 feet. This is forced movement.
+
+**Sling**: The target must succeed at a Fortitude save against your class DC or be stunned 1.
+
+**Spear**: The weapon pierces the target, weakening its attacks. The target is clumsy 1 until the start of your next turn.
+
+**Sword**: The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.

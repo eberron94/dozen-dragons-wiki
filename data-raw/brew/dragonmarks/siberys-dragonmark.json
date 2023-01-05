@@ -5,7 +5,7 @@
             "source": "BREW",
             "page": 1,
             "level": 17,
-            "traits": ["siberys dragonmark", "dragonmark"],
+            "traits": ["unique", "siberys dragonmark", "dragonmark"],
             "entries": [
                 "Your dragonmark covers your entire body now, its dominion over magic absolute. You gain your mark's siberys dragonmark focus spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
             ],
@@ -13,8 +13,8 @@
             "variants": [
                 {
                     "variantType": "Detection",
-                    "traits": ["siberys dragonmark", "dragonmark", "mark of detection"],
-                    "prerequisites": "Grand Dragonmark (Detection)",
+                    "traits": ["unique", "siberys dragonmark", "dragonmark", "mark of detection"],
+                    "prerequisites": "GM approval or Grand Dragonmark (Detection)",
                     "_mod": {
                         "entries": [
                             {
@@ -28,8 +28,8 @@
                 },
                 {
                     "variantType": "Finding",
-                    "traits": ["siberys dragonmark", "dragonmark", "mark of finding"],
-                    "prerequisites": "Grand Dragonmark (Finding)",
+                    "traits": ["unique", "siberys dragonmark", "dragonmark", "mark of finding"],
+                    "prerequisites": "GM approval or Grand Dragonmark (Finding)",
                     "_mod": {
                         "entries": [
                             {
@@ -43,8 +43,8 @@
                 },
                 {
                     "variantType": "Handling",
-                    "traits": ["siberys dragonmark", "dragonmark", "mark of handling"],
-                    "prerequisites": "Grand Dragonmark (Handling)",
+                    "traits": ["unique", "siberys dragonmark", "dragonmark", "mark of handling"],
+                    "prerequisites": "GM approval or Grand Dragonmark (Handling)",
                     "_mod": {
                         "entries": [
                             {
@@ -58,8 +58,8 @@
                 },
                 {
                     "variantType": "Healing",
-                    "traits": ["siberys dragonmark", "dragonmark", "mark of healing"],
-                    "prerequisites": "Grand Dragonmark (Healing)",
+                    "traits": ["unique", "siberys dragonmark", "dragonmark", "mark of healing"],
+                    "prerequisites": "GM approval or Grand Dragonmark (Healing)",
                     "_mod": {
                         "entries": [
                             {
@@ -73,8 +73,8 @@
                 },
                 {
                     "variantType": "Hospitality",
-                    "traits": ["siberys dragonmark", "dragonmark", "mark of hospitality"],
-                    "prerequisites": "Grand Dragonmark (Hospitality)",
+                    "traits": ["unique", "siberys dragonmark", "dragonmark", "mark of hospitality"],
+                    "prerequisites": "GM approval or Grand Dragonmark (Hospitality)",
                     "_mod": {
                         "entries": [
                             {
@@ -88,8 +88,8 @@
                 },
                 {
                     "variantType": "Making",
-                    "traits": ["siberys dragonmark", "dragonmark", "mark of making"],
-                    "prerequisites": "Grand Dragonmark (Making)",
+                    "traits": ["unique", "siberys dragonmark", "dragonmark", "mark of making"],
+                    "prerequisites": "GM approval or Grand Dragonmark (Making)",
                     "_mod": {
                         "entries": [
                             {
@@ -103,8 +103,8 @@
                 },
                 {
                     "variantType": "Passage",
-                    "traits": ["siberys dragonmark", "dragonmark", "mark of passage"],
-                    "prerequisites": "Grand Dragonmark (Passage)",
+                    "traits": ["unique", "siberys dragonmark", "dragonmark", "mark of passage"],
+                    "prerequisites": "GM approval or Grand Dragonmark (Passage)",
                     "_mod": {
                         "entries": [
                             {
@@ -118,8 +118,8 @@
                 },
                 {
                     "variantType": "Scribing",
-                    "traits": ["siberys dragonmark", "dragonmark", "mark of scribing"],
-                    "prerequisites": "Grand Dragonmark (Scribing)",
+                    "traits": ["unique", "siberys dragonmark", "dragonmark", "mark of scribing"],
+                    "prerequisites": "GM approval or Grand Dragonmark (Scribing)",
                     "_mod": {
                         "entries": [
                             {
@@ -133,8 +133,8 @@
                 },
                 {
                     "variantType": "Sentinel",
-                    "traits": ["siberys dragonmark", "dragonmark", "mark of sentinel"],
-                    "prerequisites": "Grand Dragonmark (Sentinel)",
+                    "traits": ["unique", "siberys dragonmark", "dragonmark", "mark of sentinel"],
+                    "prerequisites": "GM approval or Grand Dragonmark (Sentinel)",
                     "_mod": {
                         "entries": [
                             {
@@ -148,8 +148,8 @@
                 },
                 {
                     "variantType": "Shadow",
-                    "traits": ["siberys dragonmark", "dragonmark", "mark of shadow"],
-                    "prerequisites": "Grand Dragonmark (Shadow)",
+                    "traits": ["unique", "siberys dragonmark", "dragonmark", "mark of shadow"],
+                    "prerequisites": "GM approval or Grand Dragonmark (Shadow)",
                     "_mod": {
                         "entries": [
                             {
@@ -163,8 +163,8 @@
                 },
                 {
                     "variantType": "Storm",
-                    "traits": ["siberys dragonmark", "dragonmark", "mark of storm"],
-                    "prerequisites": "Grand Dragonmark (Storm)",
+                    "traits": ["unique", "siberys dragonmark", "dragonmark", "mark of storm"],
+                    "prerequisites": "GM approval or Grand Dragonmark (Storm)",
                     "_mod": {
                         "entries": [
                             {
@@ -178,8 +178,8 @@
                 },
                 {
                     "variantType": "Warding",
-                    "traits": ["siberys dragonmark", "dragonmark", "mark of warding"],
-                    "prerequisites": "Grand Dragonmark (Warding)",
+                    "traits": ["unique", "siberys dragonmark", "dragonmark", "mark of warding"],
+                    "prerequisites": "GM approval or Grand Dragonmark (Warding)",
                     "_mod": {
                         "entries": [
                             {

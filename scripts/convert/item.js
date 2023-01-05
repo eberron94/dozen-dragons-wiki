@@ -234,7 +234,7 @@ const reduceDC =
             const levelBonus = Math.max(0, Math.floor((level - 4) / 3));
 
             if (oldDC)
-                return `${p2} ${oldDC - (level || 0) + levelBonus} ^[${oldDC}]^`;
+                return `${p2} ${oldDC - (level || 0) + levelBonus}^[${oldDC}]^`;
 
             return match;
         });

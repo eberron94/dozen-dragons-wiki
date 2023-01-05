@@ -70,7 +70,8 @@
 
                     <div class='title'>
                         <span>{{node.name}}</span>
-                        <img data-id="{{node.slug}}"
+                        <img
+                            data-id='{{node.slug}}'
                             src='/icons/ffffff/transparent/1x1/delapouite/round-star.svg'
                         />
                     </div>
@@ -161,11 +162,23 @@
                             }}}</div>
                     {{/if}}
                     <div class='heart'>
-                        <div class='mobile-sidebar'>
-                            {{{sidebar}}}
-                        </div>
-                        {{{html}}}
-
+                        {{#if data.frontMatter.extraOnBottom}}
+                            {{{html}}}
+                            {{#if sidebar}}
+                                <div class='mobile-sidebar'>
+                                    <img src='/img/divider-2.svg' />
+                                    {{{sidebar}}}
+                                </div>
+                            {{/if}}
+                        {{else}}
+                            {{#if sidebar}}
+                                <div class='mobile-sidebar'>
+                                    {{{sidebar}}}
+                                    <img src='/img/divider-2.svg' />
+                                </div>
+                            {{/if}}
+                            {{{html}}}
+                        {{/if}}
                     </div>
                     <div class='pager-wrapper'>
                         <a class='previousBtn' href='{{prev.slug}}.html'><div
