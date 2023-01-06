@@ -16,7 +16,7 @@ exports.colatePages = () => {
             return {
                 id: 'mdx' + toCamelCase(metadata.name),
                 frontMatter: metadata,
-                slug: filePath.substring(index + 6),
+                slug: filePath.substring(index + 6).split('/').filter(folderName=>!folderName.startsWith('_')).join('/'),
 
                 html: resultPrime
                     .replace(/\<p/g, `<div class="p"`)
