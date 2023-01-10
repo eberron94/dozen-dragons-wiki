@@ -2816,43 +2816,6 @@
         ]
     },
     {
-        "id": "background.logm.raised-by-belief",
-        "color": "#826754",
-        "name": "Raised by Belief",
-        "title": "Raised by Belief",
-        "icon_front": "notebook",
-        "code": "background",
-        "contents": [
-            "text | Whether in a monastery, a religious household, or just as part of your everyday life, your upbringing was steeped in the traditions of a faith or philosophy. You might remain committed or you may have turned from your childhood creed, but your skills are still founded in your devotion.",
-            "text | Choose two ability boosts. One boost must be to an ability specified in the Divine Ability entry for your deity, and one is a free ability boost.",
-            "text | You're trained in your deity's associated skill, and you gain Assurance with that skill. You gain a Lore skill with a subcategory associated with your deity (Abadar Lore, for instance)."
-        ],
-        "reference": [
-            "P::feat.skill.::.assurance"
-        ],
-        "filtering": [
-            "background",
-            "acrobatics",
-            "arcana",
-            "athletics",
-            "crafting",
-            "deception",
-            "diplomacy",
-            "intimidation",
-            "medicine",
-            "nature",
-            "occultism",
-            "performance",
-            "religion",
-            "society",
-            "stealth",
-            "survival",
-            "thievery",
-            "assurance",
-            "common"
-        ]
-    },
-    {
         "id": "background.lokl.relentless-dedication",
         "color": "#826754",
         "name": "Relentless Dedication",
