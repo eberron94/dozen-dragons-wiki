@@ -182,7 +182,7 @@ const getContent = ({
         lineArr.push(line);
     }
 
-    if (duration) lineArr.push(`property | Duration | ${duration.entry}`);
+    if (duration) lineArr.push(`property | Duration | ${strDuration(duration)}`);
 
     lineArr.push('rule');
 
@@ -285,6 +285,17 @@ const getId = ({ traits, source, focus, level, type, ...item }) => {
         .map((e) => kebabCase(unpackText(e)))
         .join('.');
 };
+
+const strDuration = ({entry, number, unit}) => {
+
+    if(entry) return entry;
+
+    if(number > 1) {
+        return `${number} ${unit}s`;
+    }
+
+    return `${number} ${unit}`
+}
 
 module.exports = {
     convertSpell2Save,
