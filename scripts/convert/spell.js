@@ -90,6 +90,8 @@ const convertItem = (item) => {
     // SET EXTRA
     if (notSubset(item.traits, ['unique', 'rare', 'uncommon']))
         card.filtering.push('common');
+
+        if(item.domains) item.domains.forEach(domain => card.filtering.push(`domain-${domain}`))
     card.level = item.level;
 
     return card;

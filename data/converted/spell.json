@@ -2718,7 +2718,8 @@
             "uncommon",
             "cleric",
             "divination",
-            "focus"
+            "focus",
+            "domain-toil"
         ],
         "level": 1
     },
@@ -2744,7 +2745,8 @@
             "healing",
             "necromancy",
             "focus",
-            "common"
+            "common",
+            "domain-toil"
         ],
         "level": 4
     },
@@ -3245,7 +3247,8 @@
             "uncommon",
             "enchantment",
             "mental",
-            "focus"
+            "focus",
+            "domain-naga"
         ],
         "level": 4
     },
@@ -3278,7 +3281,8 @@
             "level-1",
             "uncommon",
             "transmutation",
-            "focus"
+            "focus",
+            "domain-naga"
         ],
         "level": 1
     },
@@ -8777,7 +8781,8 @@
             "uncommon",
             "cleric",
             "transmutation",
-            "focus"
+            "focus",
+            "domain-travel"
         ],
         "level": 1
     },
@@ -9232,7 +9237,8 @@
             "uncommon",
             "cleric",
             "illusion",
-            "focus"
+            "focus",
+            "domain-wealth"
         ],
         "level": 1
     },
@@ -9289,7 +9295,8 @@
             "uncommon",
             "cleric",
             "transmutation",
-            "focus"
+            "focus",
+            "domain-creation"
         ],
         "level": 4
     },
@@ -9314,7 +9321,8 @@
             "uncommon",
             "cleric",
             "transmutation",
-            "focus"
+            "focus",
+            "domain-might"
         ],
         "level": 1
     },
@@ -9625,7 +9633,8 @@
             "cleric",
             "divination",
             "fortune",
-            "focus"
+            "focus",
+            "domain-luck"
         ],
         "level": 1
     },
@@ -9750,7 +9759,8 @@
             "emotion",
             "enchantment",
             "mental",
-            "focus"
+            "focus",
+            "domain-ambition"
         ],
         "level": 1
     },
@@ -10012,7 +10022,8 @@
             "enchantment",
             "mental",
             "visual",
-            "focus"
+            "focus",
+            "domain-passion"
         ],
         "level": 4
     },
@@ -10222,7 +10233,8 @@
             "enchantment",
             "incapacitation",
             "mental",
-            "focus"
+            "focus",
+            "domain-passion"
         ],
         "level": 1
     },
@@ -10516,7 +10528,8 @@
             "darkness",
             "evocation",
             "shadow",
-            "focus"
+            "focus",
+            "domain-darkness"
         ],
         "level": 1
     },
@@ -10689,7 +10702,8 @@
             "enchantment",
             "incapacitation",
             "mental",
-            "focus"
+            "focus",
+            "domain-tyranny"
         ],
         "level": 4
     },
@@ -10719,7 +10733,8 @@
             "emotion",
             "enchantment",
             "mental",
-            "focus"
+            "focus",
+            "domain-ambition"
         ],
         "level": 4
     },
@@ -11173,7 +11188,8 @@
             "cleric",
             "evocation",
             "sonic",
-            "focus"
+            "focus",
+            "domain-destruction"
         ],
         "level": 1
     },
@@ -11238,7 +11254,8 @@
             "cleric",
             "darkness",
             "transmutation",
-            "focus"
+            "focus",
+            "domain-darkness"
         ],
         "level": 4
     },
@@ -11379,7 +11396,8 @@
             "evocation",
             "light",
             "visual",
-            "focus"
+            "focus",
+            "domain-sun"
         ],
         "level": 1
     },
@@ -11503,7 +11521,8 @@
             "uncommon",
             "cleric",
             "necromancy",
-            "focus"
+            "focus",
+            "domain-death"
         ],
         "level": 1
     },
@@ -11538,7 +11557,8 @@
             "emotion",
             "enchantment",
             "mental",
-            "focus"
+            "focus",
+            "domain-confidence"
         ],
         "level": 4
     },
@@ -11568,7 +11588,8 @@
             "aura",
             "cleric",
             "evocation",
-            "focus"
+            "focus",
+            "domain-destruction"
         ],
         "level": 4
     },
@@ -12118,7 +12139,8 @@
             "cleric",
             "polymorph",
             "transmutation",
-            "focus"
+            "focus",
+            "domain-air"
         ],
         "level": 4
     },
@@ -12479,7 +12501,8 @@
             "cleric",
             "evocation",
             "water",
-            "focus"
+            "focus",
+            "domain-water"
         ],
         "level": 4
     },
@@ -12788,7 +12811,8 @@
             "enchantment",
             "incapacitation",
             "mental",
-            "focus"
+            "focus",
+            "domain-dreams"
         ],
         "level": 4
     },
@@ -13311,7 +13335,8 @@
             "uncommon",
             "abjuration",
             "cleric",
-            "focus"
+            "focus",
+            "domain-might"
         ],
         "level": 4
     },
@@ -13528,7 +13553,8 @@
             "cleric",
             "necromancy",
             "positive",
-            "focus"
+            "focus",
+            "domain-death"
         ],
         "level": 4
     },
@@ -13651,7 +13677,8 @@
             "cleric",
             "illusion",
             "visual",
-            "focus"
+            "focus",
+            "domain-cities"
         ],
         "level": 1
     },
@@ -14126,7 +14153,8 @@
             "cleric",
             "evocation",
             "fire",
-            "focus"
+            "focus",
+            "domain-fire"
         ],
         "level": 1
     },
@@ -14250,7 +14278,8 @@
             "uncommon",
             "abjuration",
             "cleric",
-            "focus"
+            "focus",
+            "domain-fire"
         ],
         "level": 4
     },
@@ -14526,7 +14555,8 @@
             "uncommon",
             "abjuration",
             "cleric",
-            "focus"
+            "focus",
+            "domain-secrecy"
         ],
         "level": 1
     },
@@ -14848,7 +14878,8 @@
             "cleric",
             "divination",
             "revelation",
-            "focus"
+            "focus",
+            "domain-truth"
         ],
         "level": 4
     },
@@ -15468,7 +15499,8 @@
             "uncommon",
             "cleric",
             "necromancy",
-            "focus"
+            "focus",
+            "domain-healing"
         ],
         "level": 1
     },
@@ -15795,7 +15827,8 @@
             "cleric",
             "earth",
             "evocation",
-            "focus"
+            "focus",
+            "domain-earth"
         ],
         "level": 1
     },
@@ -16648,7 +16681,8 @@
             "cleric",
             "divination",
             "fortune",
-            "focus"
+            "focus",
+            "domain-knowledge"
         ],
         "level": 4
     },
@@ -16971,7 +17005,8 @@
             "cleric",
             "earth",
             "transmutation",
-            "focus"
+            "focus",
+            "domain-earth"
         ],
         "level": 4
     },
@@ -17116,7 +17151,8 @@
             "cleric",
             "divination",
             "fortune",
-            "focus"
+            "focus",
+            "domain-luck"
         ],
         "level": 4
     },
@@ -17352,7 +17388,8 @@
             "uncommon",
             "cleric",
             "enchantment",
-            "focus"
+            "focus",
+            "domain-magic"
         ],
         "level": 1
     },
@@ -17413,7 +17450,8 @@
             "cleric",
             "necromancy",
             "negative",
-            "focus"
+            "focus",
+            "domain-undeath"
         ],
         "level": 4
     },
@@ -18104,7 +18142,8 @@
             "evocation",
             "fire",
             "light",
-            "focus"
+            "focus",
+            "domain-moon"
         ],
         "level": 1
     },
@@ -18130,7 +18169,8 @@
             "uncommon",
             "cleric",
             "evocation",
-            "focus"
+            "focus",
+            "domain-magic"
         ],
         "level": 4
     },
@@ -18194,7 +18234,8 @@
             "conjuration",
             "plant",
             "positive",
-            "focus"
+            "focus",
+            "domain-nature"
         ],
         "level": 4
     },
@@ -18442,7 +18483,8 @@
             "uncommon",
             "cleric",
             "transmutation",
-            "focus"
+            "focus",
+            "domain-indulgence"
         ],
         "level": 1
     },
@@ -18642,7 +18684,8 @@
             "abjuration",
             "cleric",
             "fortune",
-            "focus"
+            "focus",
+            "domain-perfection"
         ],
         "level": 4
     },
@@ -18666,7 +18709,8 @@
             "uncommon",
             "abjuration",
             "cleric",
-            "focus"
+            "focus",
+            "domain-perfection"
         ],
         "level": 1
     },
@@ -19010,7 +19054,8 @@
             "light",
             "necromancy",
             "positive",
-            "focus"
+            "focus",
+            "domain-sun"
         ],
         "level": 4
     },
@@ -19174,7 +19219,8 @@
             "uncommon",
             "cleric",
             "transmutation",
-            "focus"
+            "focus",
+            "domain-wealth"
         ],
         "level": 4
     },
@@ -19576,7 +19622,8 @@
             "uncommon",
             "abjuration",
             "cleric",
-            "focus"
+            "focus",
+            "domain-protection"
         ],
         "level": 1
     },
@@ -19606,7 +19653,8 @@
             "aura",
             "abjuration",
             "cleric",
-            "focus"
+            "focus",
+            "domain-protection"
         ],
         "level": 4
     },
@@ -19669,7 +19717,8 @@
             "cleric",
             "divination",
             "scrying",
-            "focus"
+            "focus",
+            "domain-cities"
         ],
         "level": 4
     },
@@ -19799,7 +19848,8 @@
             "air",
             "cleric",
             "conjuration",
-            "focus"
+            "focus",
+            "domain-air"
         ],
         "level": 1
     },
@@ -20005,7 +20055,8 @@
             "cleric",
             "divination",
             "prediction",
-            "focus"
+            "focus",
+            "domain-fate"
         ],
         "level": 1
     },
@@ -20061,7 +20112,8 @@
             "healing",
             "necromancy",
             "positive",
-            "focus"
+            "focus",
+            "domain-healing"
         ],
         "level": 4
     },
@@ -20464,7 +20516,8 @@
             "cleric",
             "mental",
             "nonlethal",
-            "focus"
+            "focus",
+            "domain-pain"
         ],
         "level": 4
     },
@@ -20646,7 +20699,8 @@
             "abjuration",
             "cleric",
             "mental",
-            "focus"
+            "focus",
+            "domain-secrecy"
         ],
         "level": 4
     },
@@ -20743,7 +20797,8 @@
             "enchantment",
             "mental",
             "nonlethal",
-            "focus"
+            "focus",
+            "domain-pain"
         ],
         "level": 1
     },
@@ -20768,7 +20823,8 @@
             "cleric",
             "divination",
             "fortune",
-            "focus"
+            "focus",
+            "domain-knowledge"
         ],
         "level": 1
     },
@@ -21173,7 +21229,8 @@
             "enchantment",
             "incapacitation",
             "mental",
-            "focus"
+            "focus",
+            "domain-nightmares"
         ],
         "level": 4
     },
@@ -21684,7 +21741,8 @@
             "emotion",
             "enchantment",
             "mental",
-            "focus"
+            "focus",
+            "domain-family"
         ],
         "level": 1
     },
@@ -22194,7 +22252,8 @@
             "cleric",
             "illusion",
             "visual",
-            "focus"
+            "focus",
+            "domain-creation"
         ],
         "level": 1
     },
@@ -22545,7 +22604,8 @@
             "abjuration",
             "cleric",
             "illusion",
-            "focus"
+            "focus",
+            "domain-trickery"
         ],
         "level": 1
     },
@@ -23041,7 +23101,8 @@
             "linguistic",
             "mental",
             "sleep",
-            "focus"
+            "focus",
+            "domain-dreams"
         ],
         "level": 1
     },
@@ -23149,7 +23210,8 @@
             "uncommon",
             "cleric",
             "necromancy",
-            "focus"
+            "focus",
+            "domain-indulgence"
         ],
         "level": 4
     },
@@ -23526,7 +23588,8 @@
             "cleric",
             "divination",
             "fortune",
-            "focus"
+            "focus",
+            "domain-fate"
         ],
         "level": 4
     },
@@ -23586,7 +23649,8 @@
             "cleric",
             "evocation",
             "water",
-            "focus"
+            "focus",
+            "domain-water"
         ],
         "level": 1
     },
@@ -23711,7 +23775,8 @@
             "cleric",
             "enchantment",
             "mental",
-            "focus"
+            "focus",
+            "domain-tyranny"
         ],
         "level": 1
     },
@@ -23742,7 +23807,8 @@
             "cleric",
             "enchantment",
             "light",
-            "focus"
+            "focus",
+            "domain-moon"
         ],
         "level": 4
     },
@@ -23778,7 +23844,8 @@
             "cleric",
             "necromancy",
             "negative",
-            "focus"
+            "focus",
+            "domain-undeath"
         ],
         "level": 1
     },
@@ -23803,7 +23870,8 @@
             "uncommon",
             "cleric",
             "evocation",
-            "focus"
+            "focus",
+            "domain-travel"
         ],
         "level": 4
     },
@@ -23897,7 +23965,8 @@
             "cleric",
             "illusion",
             "visual",
-            "focus"
+            "focus",
+            "domain-trickery"
         ],
         "level": 4
     },
@@ -24214,7 +24283,8 @@
             "uncommon",
             "cleric",
             "transmutation",
-            "focus"
+            "focus",
+            "domain-freedom"
         ],
         "level": 1
     },
@@ -24241,7 +24311,8 @@
             "abjuration",
             "cleric",
             "fortune",
-            "focus"
+            "focus",
+            "domain-family"
         ],
         "level": 4
     },
@@ -24461,7 +24532,8 @@
             "cleric",
             "enchantment",
             "mental",
-            "focus"
+            "focus",
+            "domain-confidence"
         ],
         "level": 1
     },
@@ -24560,7 +24632,8 @@
             "morph",
             "plant",
             "transmutation",
-            "focus"
+            "focus",
+            "domain-nature"
         ],
         "level": 1
     },
@@ -24760,7 +24833,8 @@
             "enchantment",
             "fear",
             "mental",
-            "focus"
+            "focus",
+            "domain-nightmares"
         ],
         "level": 1
     },
@@ -25211,7 +25285,8 @@
             "uncommon",
             "cleric",
             "evocation",
-            "focus"
+            "focus",
+            "domain-zeal"
         ],
         "level": 1
     },
@@ -25521,7 +25596,8 @@
             "cleric",
             "enchantment",
             "mental",
-            "focus"
+            "focus",
+            "domain-freedom"
         ],
         "level": 4
     },
@@ -25547,7 +25623,8 @@
             "uncommon",
             "cleric",
             "divination",
-            "focus"
+            "focus",
+            "domain-truth"
         ],
         "level": 1
     },
@@ -25614,7 +25691,8 @@
             "enchantment",
             "fortune",
             "mental",
-            "focus"
+            "focus",
+            "domain-zeal"
         ],
         "level": 4
     },
@@ -26817,7 +26895,8 @@
             "cleric",
             "divination",
             "prediction",
-            "focus"
+            "focus",
+            "domain-fire (apocryphal)"
         ],
         "level": 1
     },
@@ -27425,7 +27504,8 @@
             "rare",
             "cleric",
             "necromancy",
-            "focus"
+            "focus",
+            "domain-death (apocryphal)"
         ],
         "level": 4
     },
@@ -27457,7 +27537,8 @@
             "emotion",
             "enchantment",
             "mental",
-            "focus"
+            "focus",
+            "domain-indulgence (apocryphal)"
         ],
         "level": 1
     },
@@ -27493,7 +27574,8 @@
             "enchantment",
             "fear",
             "mental",
-            "focus"
+            "focus",
+            "domain-ambition (apocryphal)"
         ],
         "level": 1
     },
@@ -27558,7 +27640,8 @@
             "rare",
             "cleric",
             "illusion",
-            "focus"
+            "focus",
+            "domain-darkness (apocryphal)"
         ],
         "level": 4
     },
@@ -27589,7 +27672,8 @@
             "rare",
             "cleric",
             "conjuration",
-            "focus"
+            "focus",
+            "domain-travel (apocryphal)"
         ],
         "level": 4
     },
@@ -27620,7 +27704,8 @@
             "evocation",
             "good",
             "water",
-            "focus"
+            "focus",
+            "domain-water (apocryphal)"
         ],
         "level": 4
     },
@@ -27653,7 +27738,8 @@
             "enchantment",
             "mental",
             "misfortune",
-            "focus"
+            "focus",
+            "domain-confidence (apocryphal)"
         ],
         "level": 4
     },
@@ -27680,7 +27766,8 @@
             "abjuration",
             "cleric",
             "fortune",
-            "focus"
+            "focus",
+            "domain-fate (apocryphal)"
         ],
         "level": 1
     },
@@ -27710,7 +27797,8 @@
             "cleric",
             "evocation",
             "sonic",
-            "focus"
+            "focus",
+            "domain-might (apocryphal)"
         ],
         "level": 1
     },
@@ -27746,7 +27834,8 @@
             "cleric",
             "divination",
             "mental",
-            "focus"
+            "focus",
+            "domain-secrecy (apocryphal)"
         ],
         "level": 4
     },
@@ -27779,7 +27868,8 @@
             "enchantment",
             "linguistic",
             "mental",
-            "focus"
+            "focus",
+            "domain-air (apocryphal)"
         ],
         "level": 4
     },
@@ -27805,7 +27895,8 @@
             "rare",
             "cleric",
             "transmutation",
-            "focus"
+            "focus",
+            "domain-knowledge (apocryphal)"
         ],
         "level": 4
     },
@@ -29094,7 +29185,8 @@
             "morph",
             "transmutation",
             "focus",
-            "common"
+            "common",
+            "domain-change"
         ],
         "level": 1
     },
@@ -29121,7 +29213,8 @@
             "level-4",
             "abjuration",
             "focus",
-            "common"
+            "common",
+            "domain-change"
         ],
         "level": 4
     },
@@ -29259,7 +29352,8 @@
             "evocation",
             "light",
             "focus",
-            "common"
+            "common",
+            "domain-stars"
         ],
         "level": 4
     },
@@ -29323,7 +29417,8 @@
             "electricity",
             "evocation",
             "focus",
-            "common"
+            "common",
+            "domain-lightning"
         ],
         "level": 4
     },
@@ -29390,7 +29485,8 @@
             "electricity",
             "evocation",
             "focus",
-            "common"
+            "common",
+            "domain-lightning"
         ],
         "level": 1
     },
@@ -29491,7 +29587,8 @@
             "level-1",
             "abjuration",
             "focus",
-            "common"
+            "common",
+            "domain-time"
         ],
         "level": 1
     },
@@ -29523,7 +29620,8 @@
             "cold",
             "evocation",
             "focus",
-            "common"
+            "common",
+            "domain-cold"
         ],
         "level": 4
     },
@@ -29566,7 +29664,8 @@
             "disease",
             "necromancy",
             "focus",
-            "common"
+            "common",
+            "domain-plague"
         ],
         "level": 1
     },
@@ -29600,7 +29699,8 @@
             "level-4",
             "conjuration",
             "focus",
-            "common"
+            "common",
+            "domain-void"
         ],
         "level": 4
     },
@@ -29634,7 +29734,8 @@
             "level-1",
             "evocation",
             "focus",
-            "common"
+            "common",
+            "domain-wyrmkin"
         ],
         "level": 1
     },
@@ -29664,7 +29765,8 @@
             "conjuration",
             "nonlethal",
             "focus",
-            "common"
+            "common",
+            "domain-dust"
         ],
         "level": 4
     },
@@ -29692,7 +29794,8 @@
             "level-4",
             "abjuration",
             "focus",
-            "common"
+            "common",
+            "domain-duty"
         ],
         "level": 4
     },
@@ -29717,7 +29820,8 @@
             "level-4",
             "necromancy",
             "focus",
-            "common"
+            "common",
+            "domain-souls"
         ],
         "level": 4
     },
@@ -29750,7 +29854,8 @@
             "incapacitation",
             "necromancy",
             "focus",
-            "common"
+            "common",
+            "domain-souls"
         ],
         "level": 1
     },
@@ -29777,7 +29882,8 @@
             "abjuration",
             "mental",
             "focus",
-            "common"
+            "common",
+            "domain-void"
         ],
         "level": 1
     },
@@ -29845,7 +29951,8 @@
             "mental",
             "visual",
             "focus",
-            "common"
+            "common",
+            "domain-delirium"
         ],
         "level": 4
     },
@@ -29913,7 +30020,8 @@
             "necromancy",
             "negative",
             "focus",
-            "common"
+            "common",
+            "domain-decay"
         ],
         "level": 4
     },
@@ -29984,7 +30092,8 @@
             "emotion",
             "mental",
             "focus",
-            "common"
+            "common",
+            "domain-repose"
         ],
         "level": 4
     },
@@ -30017,7 +30126,8 @@
             "disease",
             "necromancy",
             "focus",
-            "common"
+            "common",
+            "domain-plague"
         ],
         "level": 4
     },
@@ -30074,7 +30184,8 @@
             "illusion",
             "visual",
             "focus",
-            "common"
+            "common",
+            "domain-glyph"
         ],
         "level": 4
     },
@@ -30145,7 +30256,8 @@
             "level-1",
             "divination",
             "focus",
-            "common"
+            "common",
+            "domain-delirium"
         ],
         "level": 1
     },
@@ -30239,7 +30351,8 @@
             "enchantment",
             "mental",
             "focus",
-            "common"
+            "common",
+            "domain-sorrow"
         ],
         "level": 1
     },
@@ -30325,7 +30438,8 @@
             "level-1",
             "conjuration",
             "focus",
-            "common"
+            "common",
+            "domain-duty"
         ],
         "level": 1
     },
@@ -30353,7 +30467,8 @@
             "level-1",
             "divination",
             "focus",
-            "common"
+            "common",
+            "domain-vigil"
         ],
         "level": 1
     },
@@ -30391,7 +30506,8 @@
             "incapacitation",
             "mental",
             "focus",
-            "common"
+            "common",
+            "domain-sorrow"
         ],
         "level": 4
     },
@@ -30426,7 +30542,8 @@
             "air",
             "evocation",
             "focus",
-            "common"
+            "common",
+            "domain-dust"
         ],
         "level": 1
     },
@@ -30488,7 +30605,8 @@
             "level-1",
             "transmutation",
             "focus",
-            "common"
+            "common",
+            "domain-glyph"
         ],
         "level": 1
     },
@@ -30547,7 +30665,8 @@
             "divination",
             "mental",
             "focus",
-            "common"
+            "common",
+            "domain-vigil"
         ],
         "level": 4
     },
@@ -30584,7 +30703,8 @@
             "enchantment",
             "mental",
             "focus",
-            "common"
+            "common",
+            "domain-wyrmkin"
         ],
         "level": 4
     },
@@ -30609,7 +30729,8 @@
             "abjuration",
             "mental",
             "focus",
-            "common"
+            "common",
+            "domain-repose"
         ],
         "level": 1
     },
@@ -30842,7 +30963,8 @@
             "incapacitation",
             "transmutation",
             "focus",
-            "common"
+            "common",
+            "domain-time"
         ],
         "level": 4
     },
@@ -30871,7 +30993,8 @@
             "transmutation",
             "polymorph",
             "focus",
-            "common"
+            "common",
+            "domain-swarm"
         ],
         "level": 4
     },
@@ -30901,7 +31024,8 @@
             "level-1",
             "divination",
             "focus",
-            "common"
+            "common",
+            "domain-swarm"
         ],
         "level": 1
     },
@@ -31052,7 +31176,8 @@
             "cold",
             "evocation",
             "focus",
-            "common"
+            "common",
+            "domain-cold"
         ],
         "level": 1
     },
@@ -31084,7 +31209,8 @@
             "necromancy",
             "negative",
             "focus",
-            "common"
+            "common",
+            "domain-decay"
         ],
         "level": 1
     },
@@ -31120,7 +31246,8 @@
             "divination",
             "light",
             "focus",
-            "common"
+            "common",
+            "domain-stars"
         ],
         "level": 1
     },
