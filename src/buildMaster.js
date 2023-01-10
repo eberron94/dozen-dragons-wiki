@@ -9,6 +9,8 @@ const { nthNumber, toDashCase } = require('./util/stringHelper');
 const { unescape } = require('lodash');
 const { PageNode } = require('./kaiser/classes');
 
+const sitePackage = require('../package.json');
+
 exports.buildSite = () => {
     registerHandlebars();
 
@@ -56,6 +58,7 @@ exports.buildSite = () => {
                 navigation: navHTML,
                 prev,
                 next,
+                site: sitePackage
             });
         ensureDirectoryExistence('./build/' + node.slug);
         fs.writeFile('./build/' + node.slug + '.html', completeHTML, (err) => {

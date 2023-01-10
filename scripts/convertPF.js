@@ -3,6 +3,7 @@ const { convertActions2Save } = require('./convert/action');
 const { convertBackground2Save } = require('./convert/background');
 const { convertFeats2Save } = require('./convert/feat');
 const { convertItem, convertItems2Save } = require('./convert/item');
+const { convertLanguage2Save } = require('./convert/language');
 const { convertSpell2Save } = require('./convert/spell');
 const { readFilesSync } = require('./util/readFiles');
 
@@ -14,6 +15,7 @@ const workingKeys = [
     'feat',
     'archetype',
     'background',
+    'language',
 ];
 
 const saveFile = (name, data) => {
@@ -83,6 +85,7 @@ const packer = () => {
     convertSpell2Save(content.spell, saveFn('spell'));
 
     convertBackground2Save(content.background, saveFn('background'));
+    convertLanguage2Save(content.language, saveFn('language'));
 
     // console.log(`found ${content.length} unique items`);
 

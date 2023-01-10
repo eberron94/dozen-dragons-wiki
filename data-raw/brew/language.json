@@ -1,0 +1,302 @@
+{
+    "language": [
+        {
+            "name": "Daglen",
+            "source": "brew",
+            "page": 1,
+            "traits": [],
+            "languageParent": "Volaar",
+            "languageScript": "Daglen",
+            "languagePractice": "citizens of Darguun, modern goblinoids",
+            "entries": [
+                "The modern language of goblins. While not having any strong ties to a single language other than Volaar, Daglen has adopted components from those used by the cultures that arose after the fall of the Dhakaani empire."
+            ]
+        },
+        {
+            "name": "Elden",
+            "source": "brew",
+            "page": 1,
+            "traits": [],
+            "languageParent": "Vvark",
+            "languageScript": "Siberian",
+            "languagePractice": "citizens of Elden Reaches and Shadow Marches, modern orcs",
+            "entries": [
+                "Elden adopted components from the other cultures that appeared on Khorvaire. But it only has a familiar root in Vvark, with most of its magical terminology unchanged."
+            ]
+        },
+        {
+            "name": "Irhashen",
+            "source": "brew",
+            "page": 1,
+            "traits": [],
+            "languageParent": "Siberian",
+            "languageScript": "Siberian",
+            "languagePractice": "kobolds, lizardfolk, and dragonborn of Khorvaire",
+            "entries": [
+                "The language used by the dragonoid people on Khorvaire. It is based on Siberian, but the dragons have no record of teaching it to any creatures on the continent."
+            ]
+        },
+        {
+            "name": "Karrnon",
+            "source": "brew",
+            "page": 1,
+            "traits": [],
+            "languageParent": "Zilsh, Old Galifar",
+            "languageScript": "Adren",
+            "languagePractice": "denizens of Khorvaire",
+            "entries": [
+                "The common tongue of the modern five nations, named after Karrn the Conqueror. The language was developed by House Sivis under contract with the Kingdom of Galifar as part of the King's economic development plan in 5 YK. House Sivis used the regional languages from the ancient Five Nations – Thalian, Wroash, Metrian, Korthan, and Dakarn, which are collectively know as Old Galifar – to form Karrnon. House Sivis also took it upon themselves to add grace and consistency, so they incorporated many of the rules from Zilsh. The contract also required House Sivis to provide, free of charge, a number of phonic books to all settlements in the kingdom every 10 years. In the first year of the Last War, this contract was broken since none of the Five Nations chose to up-hold it. While House Sivis still maintains ownership of the language, a fact they do not let many forget, they no longer provide learning material to any of the nations for free."
+            ]
+        },
+        {
+            "name": "Khoravar",
+            "source": "brew",
+            "page": 1,
+            "traits": [],
+            "languageParent": "Phiran, Karrnon",
+            "languageScript": "Adren",
+            "languagePractice": "khoravar (half-elves)",
+            "entries": [
+                "A creole language from Phiran and Karrnon which was created by the Khoravar half-elves. Being a new language with no nation to call home, it has no formal recognition from the five nations."
+            ]
+        },
+        {
+            "name": "Kordian",
+            "source": "brew",
+            "page": 1,
+            "traits": [],
+            "languageParent": "Frosh",
+            "languageScript": "Kordian",
+            "languagePractice": "citizens of Mror Holds, modern dwarves",
+            "entries": [
+                "The language of the dwarves of the Mror Hold. Scholars believe Kordian is a child language of Frosh, evolved after the centuries of isolation from the original language. But the dwarves deny this fact, stating their language has been passed down flawlessly since the first dwarf."
+            ]
+        },
+        {
+            "name": "Phiran",
+            "source": "brew",
+            "page": 1,
+            "traits": [],
+            "languageParent": "Old Galifar, Aeren",
+            "languageScript": "Reidran",
+            "languagePractice": "elves on Khorvaire",
+            "entries": [
+                "After House Phiarlan escaped Aerenal, the Aeren language was allowed to change. This lead to the long lived elves communicating with the humans, and translating their old stories into Old Galifar. In less than a generation, the newly arrived elves had created their own language from the pieces of those they feared and their new human allies. The largest change was to their script, adopting Reidran, which was used by Old Galifar. Historians have named this modern Aereni language, Phiran, after House Phiarlan, but most elves still think of it as Aeren."
+            ]
+        },
+        {
+            "name": "Zilsh",
+            "source": "brew",
+            "page": 1,
+            "traits": [],
+            "languageParent": "Adren",
+            "languageScript": "Adren",
+            "languagePractice": "citizens of Zilargo, modern gnomes",
+            "entries": [
+                "The language formed by a young House Sivis, Zilsh helped to unify the gnomes into the nation of Zilargo. Zilsh used the script of Adren, but its form was more functional for the magic that came with the Mark of Scribing. As House Sivis grew its bureaucracy, the language lost its informal articles and conjugations and became more strict with its grammar."
+            ]
+        },
+        {
+            "name": "Gayo",
+            "source": "brew",
+            "page": 1,
+            "traits": [],
+            "languageParent": "Old Gayo, Old Galifar",
+            "languageScript": "Riedran",
+            "languagePractice": "modern halflings",
+            "entries": [
+                "The modern language of the halflings started when humans first interacted with the nomadic halflings. The original Gayo language has been lost, only the parts of modern Gayo give insight into the past."
+            ]
+        },
+        {
+            "name": "Adren",
+            "source": "brew",
+            "page": 1,
+            "traits": ["uncommon"],
+            "languageParent": "Eladrin",
+            "languageScript": "Adren",
+            "languagePractice": "ancient gnomes, Zilargo academics",
+            "entries": [
+                "Arden is a descendant language of Eladrin, formed by the first gnomes to migrate to Khorvaire. It is written in its own script, which is used by Zilsh and Karrnon. The leading linguistic theory is that since the migrated gnomes no longer lived in feyspires, they were no longer connected to Thelanis and its blue language. Shortly after the gnomes of the Sivis clan began manifesting the Mark of Scribing, they evolved the language into what is now known as a Zilsh, incorporating the linguistic magic from the mark."
+            ]
+        },
+        {
+            "name": "Aeren",
+            "source": "brew",
+            "page": 1,
+            "traits": ["uncommon"],
+            "languageParent": "Brakia, Eladrin",
+            "languageScript": "Aeren",
+            "languagePractice": "citizens of Aerenal, elves from Aerenal",
+            "entries": [
+                "Aeren is the hybrid language of Brakia and Eladrin, which uses its own script. It formed when the giants enslaved the Eladrin of the feyspire known as Shae Tirias Tolai. These Eladrin became the first elves and, like the gnomes that migrated to the material plane, developed their own language. Most of the language comes from Eladrin, but the enslavement by the giants did change it over time."
+            ]
+        },
+        {
+            "name": "Old Galifar",
+            "source": "brew",
+            "page": 1,
+            "traits": ["uncommon"],
+            "languageParent": "Riedran",
+            "languageScript": "Riedran",
+            "languagePractice": "pre-Galifar humans on Khorvaire",
+            "entries": [
+                "Old Galifar is a nickname for the five regional dialects found in pre-Galifar nation-states: Thalian, Wroash, Metrian, Korthan, and Dakarn. While these dialects did not diverge from each other much in the thousand years before Karrnon was made the official language of the Five Nations, they all separated greatly from the original Riedran. The pilgrimage through Lhazaar and finally settling in Khoarvaire changed the language enough that Old Galifar cannot be understood by a Riedran speaker."
+            ]
+        },
+        {
+            "name": "Sarlen",
+            "source": "brew",
+            "page": 1,
+            "traits": ["uncommon"],
+            "languageParent": "Quor, Riedran",
+            "languageScript": "Reidran",
+            "languagePractice": "modern humans of Sarlona",
+            "entries": ["Sarlen is the official language of Sarlona."]
+        },
+        {
+            "name": "Brakia",
+            "source": "brew",
+            "page": 1,
+            "traits": ["rare"],
+            "languageParent": "Siberian, Old Brakia",
+            "languageScript": "Brakia",
+            "languagePractice": "modern giants",
+            "entries": [
+                "Brakia is the hybrid language of Old Brakia and Siberian, which uses the Brakia script. The hybrid formed when dragons made contact with the giants some 60,000 years ago and taught them magic."
+            ]
+        },
+        {
+            "name": "Eladrin",
+            "source": "brew",
+            "page": 1,
+            "traits": ["rare", "blue"],
+            "languageParent": "",
+            "languageScript": "Eberric",
+            "languagePractice": "fey of Thelanis",
+            "entries": [
+                "Eladrin is a blue language written in Eberric script. Unlike most blue languages, House Sivis already had excellent translations for Eladrin for the Planar Communication Project since Zilsh is a grandchild to it."
+            ]
+        },
+        {
+            "name": "Fah",
+            "source": "brew",
+            "page": 1,
+            "traits": ["rare", "blue"],
+            "languageParent": "",
+            "languageScript": "Eberric",
+            "languagePractice": "devils and demons",
+            "entries": ["Fah is a blue language written in Eberric script. The language was first translated by Mercantin d'Sivis as part of his Planar Communication Project. He learned the language by summoning various demons and devils from Shavarath."]
+        },
+        {
+            "name": "Siberian",
+            "source": "brew",
+            "page": 1,
+            "traits": ["rare", "blue"],
+            "languageParent": "",
+            "languageScript": "Siberian",
+            "languagePractice": "citizens of Argonnessen, dragons",
+            "entries": ["Siberian is a blue language written in Siberian script. The translation of Siberian to other languages was originally managed by the dragons, but in the modern age they have little contact with Khorvaire. As a result, most translations found today come Mercantin d'Sivis's communication with the kobolds and dragonborns on Khorvaire."]
+        },
+        {
+            "name": "Supernal",
+            "source": "brew",
+            "page": 1,
+            "traits": ["rare", "blue"],
+            "languageParent": "",
+            "languageScript": "Eberric",
+            "languagePractice": "celestials",
+            "entries": ["Supernal is a blue language written in Eberric script. The language was first translated by Mercantin d'Sivis as part of his Planar Communication Project. Mercantin learned the language by summoning various archons from Shavarath."]
+        },
+        {
+            "name": "Kythric",
+            "source": "brew",
+            "page": 1,
+            "traits": ["rare", "blue"],
+            "languageParent": "",
+            "languageScript": "Eberric",
+            "languagePractice": "elementals",
+            "entries": ["Kythric is a blue language written in Eberric script. The language is a key piece in the gnomes mastery of elemental binding. It is unknown when or where the gnomes learned Kythric, and Zilargo is reluctant to allow any outsider to learn it. Only those who receive special permission from the Triumvirate are allowed access to the tutors and secret libraries that hold the Kythric language."]
+        },
+        {
+            "name": "Nessen",
+            "source": "brew",
+            "page": 1,
+            "traits": ["rare", "green"],
+            "languageParent": "",
+            "languageScript": "",
+            "languagePractice": "isolated orcs of the Shadow Marches, ancient orcs",
+            "entries": ["Nessen is a green spoken language used by orcs. In the modern era, it is only used by small, isolated tribes in the Shadow Marches. Many of the terms and names from Nessen are used in Vvark, where a written script was established."]
+        },
+        {
+            "name": "Riedran",
+            "source": "brew",
+            "page": 1,
+            "traits": ["rare", "green"],
+            "languageParent": "",
+            "languageScript": "Riedran",
+            "languagePractice": "ancient humans from Sarlona",
+            "entries": ["Riedran is a green language used by the early humans of Sarlona. It is the parent language of Old Galifar, since those humans migrated to Khorvaire before the Inspired took hold in Sarlona."]
+        },
+        {
+            "name": "Frosh",
+            "source": "brew",
+            "page": 1,
+            "traits": ["unique","green"],
+            "languageParent": "",
+            "languageScript": "Frosh",
+            "languagePractice": "ancient dwarves",
+            "entries": ["Frosh is a green language used by the early dwarves. Its translation is incomplete since Mercantin d'Sivis disappeared shortly after finding his initial writing samples."]
+        },
+        {
+            "name": "Old Brakia",
+            "source": "brew",
+            "page": 1,
+            "traits": ["unique","green"],
+            "languageParent": "",
+            "languageScript": "Brakia",
+            "languagePractice": "ancient giants",
+            "entries": ["Old Brakia is a green language used by the giants of Xen'drik before learning magic from the dragons."]
+        },
+        {
+            "name": "Volaar",
+            "source": "brew",
+            "page": 1,
+            "traits": ["unique","green"],
+            "languageParent": "",
+            "languageScript": "Volaar",
+            "languagePractice": "goblinoids of the ancient Dhakaani empire",
+            "entries": ["Volaar is a green language used by early goblins and the Dhakaani empire. Studying it has proven difficult for modern linguists since the written form in only found in Dhakaani ruins."]
+        },
+        {
+            "name": "Vvark",
+            "source": "brew",
+            "page": 1,
+            "traits": ["unique"],
+            "languageParent": "Siberian, Nessen",
+            "languageScript": "Siberian",
+            "languagePractice": "druids",
+            "entries": ["Vvaark is the hybrid language of Nessen and Siberian, which uses the Siberian script. The original druids, taught by the rogue dragon Vvaraak, formed the language as part of their understanding of the natural forces."]
+        },
+        {
+            "name": "Deep Speech",
+            "source": "brew",
+            "page": 1,
+            "traits": ["unique","blue"],
+            "languageParent": "",
+            "languageScript": "Unknown (Volaar)",
+            "languagePractice": "Daelkyr",
+            "entries": ["Deep Speech is a spoken blue language used by the Daelkyr. All of its translations are in Volaar, found in ancient Dhakaan writings. As a result, the academic script used for Deep Speech is Volaar, but it is understood that is not what the Daelkyr used. Additionally, the spoken form has never been heard."]
+        },
+        {
+            "name": "Quor",
+            "source": "brew",
+            "page": 1,
+            "traits": ["unique","blue"],
+            "languageParent": "",
+            "languageScript": "None",
+            "languagePractice": "kalashtar and inspired",
+            "entries": ["Quor is a blue language with no known written or verbal components, instead it can only be used for telepathic communication. Coming from the natives of the plane of Dal Quor, Quor can only be \"spoken\" by Quori and the entities they have merged with, known as the Inspired and Kalashtar. Quor is significant in that it is the most efficient language, capable of sharing novels worth of information in a matter of seconds. It also has a recorded form, using dragonshards to store psionic messages."]
+        }
+    ]
+}
