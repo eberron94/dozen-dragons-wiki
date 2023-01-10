@@ -215,7 +215,7 @@ class Kaiser {
         );
 
         refableCards.forEach((rCard) => {
-            console.log('REFING', rCard.id, rCard.card.reference);
+            // console.log('REFING', rCard.id, rCard.card.reference);
             rCard.card.reference = rCard.card.reference
                 .flatMap((r) => this.data.itemCard.findWithComplexSearch(r))
                 .filter((r) => r)
@@ -224,7 +224,7 @@ class Kaiser {
 
         refableCards.map((rCard) => {
             if (rCard.block.index.includes(`<div class='reference'></div>`))
-                console.log('FOUND REFERENCE PART', rCard.id);
+                // console.log('FOUND REFERENCE PART', rCard.id);
             rCard.block.index = rCard.block.index.replace(
                 `<div class='reference'></div>`,
                 `<svg class="card-element card-ruler-line" height="1" width="100" viewBox="0 0 100 1" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">

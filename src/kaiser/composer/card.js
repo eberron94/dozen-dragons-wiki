@@ -61,7 +61,7 @@ exports.composeCard = (original) => {
     };
 
     const findWithComplexSearch = (searchStr) => {
-        console.log('COMPLEX SEARCHING', searchStr);
+        // console.log('COMPLEX SEARCHING', searchStr);
         // ATTEMPT ID BASED SEARCH
         let found = find(searchStr);
         if (found) return found;
@@ -166,7 +166,7 @@ const parse = (item) => {
 
 const matchReferences = (item) => {
     if (item?.id in refList) {
-        console.log('MATCHING REFERENCES FOR', item.id);
+        // console.log('MATCHING REFERENCES FOR', item.id);
         item.card.reference = item.card.reference.concat(refList[item.id]);
     }
     return item;
