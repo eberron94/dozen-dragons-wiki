@@ -39,7 +39,9 @@ const getItemList = () => {
     const spells = list.filter((e) => e.id.startsWith('spell')).map(toLI);
     const feats = list.filter((e) => e.id.startsWith('feat')).map(toLI);
     const actions = list.filter((e) => e.id.startsWith('action')).map(toLI);
-    const backgrounds = list.filter((e) => e.id.startsWith('background')).map(toLI);
+    const backgrounds = list
+        .filter((e) => e.id.startsWith('background'))
+        .map(toLI);
 
     return { items, feats, spells, actions, backgrounds };
 };
@@ -121,7 +123,9 @@ const handleUpdateId = () => {
         inner += `<li>Actions<ul>${itemLists.actions.join('')}</ul></li>`;
 
     if (itemLists.backgrounds?.length)
-        inner += `<li>Backgrounds<ul>${itemLists.backgrounds.join('')}</ul></li>`;
+        inner += `<li>Backgrounds<ul>${itemLists.backgrounds.join(
+            ''
+        )}</ul></li>`;
 
     dList.innerHTML = inner;
 };
@@ -149,6 +153,17 @@ const handleClickCopyId = (event) => {
     }
 
     handleUpdateId();
+};
+
+const handleRClickCopyId = (event) => {
+    event.preventDefault();
+
+    const newId = event.target.dataset.id;
+
+    if (newId) {
+        navigator.clipboard.writeText(newId);
+        toast(`Copied ID [${newId}] to clipboard`);
+    }
 };
 
 const handleClickToggleManager = (event) => {
@@ -245,6 +260,14 @@ document.addEventListener('click', (event) => {
 
     if (event.target.matches('#id-tool-menu-selected-list .delete'))
         return handleDeleteSingle(event);
+});
+
+document.addEventListener('contextmenu', (event) => {
+    if (
+        event.target.matches('.item-card-title img') ||
+        event.target.matches('.item-ref>img,.item-ref>a')
+    )
+        return handleRClickCopyId(event);
 });
 
 document
