@@ -1,0 +1,65 @@
+{
+    "feat.class.druid.crb.wild-shape": ["spell.focus.1st.crb.wild-shape"],
+    "feat.class.druid.crb.call-of-the-wild": [
+        "spell.slot.1st.crb.summon-animal",
+        "spell.slot.1st.crb.summon-plant-or-fungus"
+    ],
+    "feat.class.druid.apg.elemental-summons": [
+        "spell.slot.2nd.crb.summon-elemental"
+    ],
+    "feat.class.druid.crb.form-control": ["spell.focus.1st.crb.wild-shape"],
+    "feat.class.druid.crb.thousand-faces": ["spell.focus.1st.crb.wild-shape"],
+    "feat.class.druid.som.advanced-elemental-spell": [
+        "spell.focus.3rd.som.combustion",
+        "spell.focus.3rd.som.stone-lance",
+        "spell.focus.3rd.som.powerful-inhalation",
+        "spell.focus.3rd.som.pulverizing-cascade"
+    ],
+    "feat.class.druid.crb.insect-shape": ["spell.focus.1st.crb.wild-shape"],
+    "feat.class.druid.crb.storm-retribution": [
+        "spell.focus.1st.crb.tempest-surge"
+    ],
+    "feat.class.druid.crb.ferocious-shape": ["spell.focus.1st.crb.wild-shape"],
+    "feat.class.druid.crb.fey-caller": [
+        "spell.slot.1st.crb.illusory-disguise",
+        "spell.slot.1st.crb.illusory-object",
+        "spell.slot.5th.crb.illusory-scene",
+        "spell.slot.4th.crb.veil"
+    ],
+    "feat.class.druid.da.forgotten-presence": [
+        "spell.slot.4th.crb.modify-memory"
+    ],
+    "feat.class.druid.crb.soaring-shape": ["spell.focus.1st.crb.wild-shape"],
+    "feat.class.druid.crb.wind-caller": [
+        "spell.focus.4th.crb.stormwind-flight"
+    ],
+    "feat.class.druid.crb.elemental-shape": [
+        "spell.focus.1st.crb.wild-shape",
+        "spell.slot.5th.crb.elemental-form"
+    ],
+    "feat.class.druid.crb.plant-shape": [
+        "spell.focus.1st.crb.wild-shape",
+        "spell.slot.5th.crb.plant-form"
+    ],
+    "feat.class.druid.crb.dragon-shape": [
+        "spell.focus.1st.crb.wild-shape",
+        "spell.slot.6th.crb.dragon-form"
+    ],
+    "feat.class.druid.crb.primal-summons": [
+        "spell.focus.6th.crb.primal-summons"
+    ],
+    "feat.class.druid.da.bizarre-transformation": [
+        "spell.focus.1st.crb.wild-shape"
+    ],
+    "feat.class.druid.apg.reactive-transformation": [
+        "spell.focus.1st.crb.wild-shape"
+    ],
+    "feat.class.druid.crb.impaling-briars": [
+        "spell.focus.8th.crb.impaling-briars"
+    ],
+    "feat.class.druid.crb.monstrosity-shape": [
+        "spell.slot.8th.crb.monstrosity-form"
+    ],
+    "feat.class.druid.crb.invoke-disaster": ["spell.focus.9th.crb.storm-lord"],
+    "feat.class.druid.crb.true-shapeshifter": ["spell.focus.1st.crb.wild-shape"]
+}
