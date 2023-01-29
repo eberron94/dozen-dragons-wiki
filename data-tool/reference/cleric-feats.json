@@ -1,0 +1,67 @@
+{
+    "feat.class.cleric.crb.harming-hands": ["spell.slot.1st.crb.harm"],
+    "feat.class.cleric.crb.healing-hands": ["spell.slot.1st.crb.heal"],
+    "feat.class.cleric.crb.holy-castigation": ["spell.slot.1st.crb.heal"],
+    "feat.class.cleric.crb.communal-healing": ["spell.slot.1st.crb.heal"],
+    "feat.class.cleric.crb.sap-life": ["spell.slot.1st.crb.harm"],
+    "feat.class.cleric.crb.turn-undead": ["spell.slot.1st.crb.heal"],
+    "feat.class.cleric.crb.versatile-font": [
+        "spell.slot.1st.crb.harm",
+        "spell.slot.1st.crb.heal"
+    ],
+    "feat.class.cleric.crb.channel-smite": [
+        "spell.slot.1st.crb.harm",
+        "spell.slot.1st.crb.heal"
+    ],
+    "feat.class.cleric.crb.command-undead": ["spell.slot.1st.crb.harm"],
+    "feat.class.cleric.crb.directed-channel": [
+        "spell.slot.1st.crb.harm",
+        "spell.slot.1st.crb.heal"
+    ],
+    "feat.class.cleric.crb.necrotic-infusion": ["spell.slot.1st.crb.harm"],
+    "feat.class.cleric.apg.radiant-infusion": ["spell.slot.1st.crb.heal"],
+    "feat.class.cleric.crb.cast-down": [
+        "spell.slot.1st.crb.harm",
+        "spell.slot.1st.crb.heal"
+    ],
+    "feat.class.cleric.apg.magic-hands": ["spell.slot.1st.crb.heal"],
+    "feat.class.cleric.crb.channeled-succor": [
+        "spell.slot.4th.crb.remove-curse",
+        "spell.slot.3rd.crb.remove-disease",
+        "spell.slot.2nd.crb.remove-paralysis",
+        "spell.slot.2nd.crb.restoration"
+    ],
+    "feat.class.cleric.crb.cremate-undead": ["spell.slot.1st.crb.heal"],
+    "feat.class.cleric.apg.martyr": [
+        "spell.slot.1st.crb.harm",
+        "spell.slot.1st.crb.heal"
+    ],
+    "feat.class.cleric.crb.heroic-recovery": ["spell.slot.1st.crb.heal"],
+    "feat.class.cleric.crb.defensive-recovery": [
+        "spell.slot.1st.crb.harm",
+        "spell.slot.1st.crb.heal"
+    ],
+    "feat.class.cleric.apg.ebb-and-flow": [
+        "spell.slot.1st.crb.harm",
+        "spell.slot.1st.crb.heal"
+    ],
+    "feat.class.cleric.crb.fast-channel": [
+        "spell.slot.1st.crb.harm",
+        "spell.slot.1st.crb.heal"
+    ],
+    "feat.class.cleric.crb.swift-banishment": ["spell.slot.5th.crb.banishment"],
+    "feat.class.cleric.crb.eternal-bane": ["spell.slot.1st.crb.bane"],
+    "feat.class.cleric.crb.eternal-blessing": ["spell.slot.1st.crb.bless"],
+    "feat.class.cleric.apg.remediate": [
+        "spell.slot.1st.crb.harm",
+        "spell.slot.1st.crb.heal"
+    ],
+    "feat.class.cleric.crb.echoing-channel": [
+        "spell.slot.1st.crb.harm",
+        "spell.slot.1st.crb.heal"
+    ],
+    "feat.class.cleric.crb.metamagic-channel": [
+        "spell.slot.1st.crb.harm",
+        "spell.slot.1st.crb.heal"
+    ]
+}

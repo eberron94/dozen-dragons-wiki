@@ -42,6 +42,11 @@ const packer = () => {
 
     const rawContent = readFilesSync('./data-raw/');
     const ignoreList = readFilesSync('./data-tool/ignore/');
+    const referenceArr = readFilesSync('./data-tool/reference/');
+    const referenceMap = referenceArr.reduce(
+        (acc, curr) => ({ ...acc, ...curr }),
+        {}
+    );
 
     const content = {};
 
@@ -62,8 +67,22 @@ const packer = () => {
         }
     }
 
+    console.log(referenceMap);
+
     const saveFn = (fileName) => (data) => {
-        const saveData = data.filter((d) => !ignoreList.includes(d.id));
+        const saveData = data
+            .filter((d) => !ignoreList.includes(d.id))
+            .map((d) =>
+                referenceMap[d.id]
+                    ? {
+                          ...d,
+                          reference: (Array.isArray(d.reference)
+                              ? d.reference
+                              : []
+                          ).concat(referenceMap[d.id]),
+                      }
+                    : d
+            );
         saveFile(dest + fileName + '.json', saveData);
         saveFile(
             yaml + fileName + '.yaml',

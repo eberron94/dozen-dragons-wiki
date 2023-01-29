@@ -1,0 +1,48 @@
+{
+    "feat.class.champion.crb.ranged-reprisal": [
+        "action.class.champion.subclass.paladin.crb.retributive-strike"
+    ],
+    "feat.class.champion.crb.unimpeded-step": [
+        "action.class.champion.subclass.liberator.crb.liberating-step"
+    ],
+    "feat.class.champion.crb.weight-of-guilt": [
+        "action.class.champion.subclass.redeemer.crb.glimpse-of-redemption"
+    ],
+    "feat.class.champion.apg.accelerating-touch": [
+        "spell.focus.1st.crb.lay-on-hands"
+    ],
+    "feat.class.champion.locg.light-of-revelation": [
+        "spell.focus.2nd.locg.light-of-revelation"
+    ],
+    "feat.class.champion.crb.mercy": ["spell.focus.1st.crb.lay-on-hands"],
+    "feat.class.champion.locg.sun-blade": ["spell.focus.2nd.locg.sun-blade"],
+    "feat.class.champion.crb.litany-against-wrath": [
+        "spell.focus.3rd.crb.litany-against-wrath"
+    ],
+    "feat.class.champion.crb.heal-mount": ["spell.focus.1st.crb.lay-on-hands"],
+    "feat.class.champion.crb.litany-against-sloth": [
+        "spell.focus.5th.crb.litany-against-sloth"
+    ],
+    "feat.class.champion.crb.radiant-blade-spirit": [
+        "item.rune.crb.flaming",
+        "item.rune.crb.anarchic",
+        "item.rune.crb.axiomatic",
+        "item.rune.crb.holy"
+    ],
+    "feat.class.champion.apg.resilient-touch": ["spell.focus.1st.crb.lay-on-hands"],
+    "feat.class.champion.apg.amplifying-touch": ["spell.focus.1st.crb.lay-on-hands"],
+    "feat.class.champion.crb.champions-sacrifice":["spell.focus.6th.crb.champions-sacrifice"],
+    "feat.class.champion.crb.lasting-doubt":["action.class.champion.subclass.redeemer.crb.glimpse-of-redemption"],
+    "feat.class.champion.crb.liberating-stride": [
+        "action.class.champion.subclass.liberator.crb.liberating-step"
+    ],
+    "feat.class.champion.crb.aura-of-vengeance":["action.class.champion.subclass.paladin.crb.retributive-strike"],
+    "feat.class.champion.crb.litany-of-righteousness":["spell.focus.7th.crb.litany-of-righteousness"],
+    "feat.class.champion.da.sacral-monarch":[
+        "spell.slot.5th.crb.banishment","spell.slot.5th.som.inevitable-disaster"
+    ],
+    "feat.class.champion.apg.rejuvenating-touch": ["spell.focus.1st.crb.lay-on-hands"],
+    "feat.class.champion.crb.radiant-blade-master":[
+        "item.rune.crb.dancing", "item.rune.crb.disrupting-greater", "item.rune.crb.keen"
+    ]
+}

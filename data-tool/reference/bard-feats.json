@@ -1,0 +1,66 @@
+{
+    "feat.class.bard.apg.hymn-of-healing": [
+        "spell.focus.1st.apg.hymn-of-healing"
+    ],
+    "feat.class.bard.crb.lingering-composition": [
+        "spell.focus.1st.crb.lingering-composition"
+    ],
+    "feat.class.bard.crb.inspire-competence": [
+        "spell.focus-cantrip.1st.crb.inspire-competence"
+    ],
+    "feat.class.bard.crb.loremasters-etude": [
+        "spell.focus.1st.crb.loremasters-etude"
+    ],
+    "feat.class.bard.apg.song-of-strength": [
+        "spell.focus-cantrip.1st.apg.song-of-strength"
+    ],
+    "feat.class.bard.apg.courageous-advance": [
+        "spell.focus-cantrip.1st.crb.inspire-courage"
+    ],
+    "feat.class.bard.crb.inspire-defense": [
+        "spell.focus-cantrip.2nd.crb.inspire-defense"
+    ],
+    "feat.class.bard.crb.triple-time": [
+        "spell.focus-cantrip.2nd.crb.triple-time"
+    ],
+    "feat.class.bard.apg.defensive-coordination": [
+        "spell.focus-cantrip.2nd.crb.inspire-defense"
+    ],
+    "feat.class.bard.crb.dirge-of-doom": [
+        "spell.focus-cantrip.3rd.crb.dirge-of-doom"
+    ],
+    "feat.class.bard.apg.song-of-marching": [
+        "spell.focus-cantrip.3rd.apg.song-of-marching"
+    ],
+    "feat.class.bard.crb.inspire-heroics": [
+        "spell.focus.4th.crb.inspire-heroics"
+    ],
+    "feat.class.bard.apg.courageous-assault": [
+        "spell.focus-cantrip.1st.crb.inspire-courage"
+    ],
+    "feat.class.bard.crb.house-of-imaginary-walls": [
+        "spell.focus-cantrip.5th.crb.house-of-imaginary-walls"
+    ],
+    "feat.class.bard.apg.ode-to-ouroboros": [
+        "spell.focus.5th.apg.ode-to-ouroboros"
+    ],
+    "feat.class.bard.apg.symphony-of-the-unfettered-heart": [
+        "spell.focus.5th.apg.symphony-of-the-unfettered-heart"
+    ],
+    "feat.class.bard.aoa-3.silvers-refrain":["spell.focus-cantrip.1st.aoa-3.silvers-refrain"],
+    "feat.class.bard.crb.allegro":["spell.focus-cantrip.7th.crb.allegro"],
+    "feat.class.bard.crb.soothing-ballad":["spell.focus.7th.crb.soothing-ballad"],
+    "feat.class.bard.apg.vigorous-inspiration": [
+        "spell.focus-cantrip.1st.crb.inspire-courage"
+    ],
+    "feat.class.bard.apg.courageous-onslaught": [
+        "spell.focus-cantrip.1st.crb.inspire-courage"
+    ],
+    "feat.class.bard.apg.discordant-voice": [
+        "spell.focus-cantrip.1st.crb.inspire-courage"
+    ],
+    "feat.class.bard.crb.fatal-aria":["spell.focus.10th.crb.fatal-aria"],
+    "feat.class.bard.frp-3.head-of-the-night-parade":["spell.slot.3rd.apg.mad-monkeys"],
+    "feat.class.bard.apg.pied-piping":["spell.focus.10th.apg.pied-piping"],
+    "feat.class.bard.aoa-6.song-of-the-fallen":["spell.focus.10th.aoa-6.song-of-the-fallen"]
+}
