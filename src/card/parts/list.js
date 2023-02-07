@@ -2,8 +2,7 @@ const { markup } = require('../../helper/markup');
 const cardUtil = require('../cardUtil');
 
 exports.list = (params, decoration) => {
-    const containerElem = cardUtil.element('ul', 'card-element card-list-line');
-    const listElem = cardUtil.element('li', 'card-list-list');
+    const containerElem = cardUtil.element('div', 'card-element card-list-line');
     const nameElem = cardUtil.element('span', 'card-list-name');
     const textElem = cardUtil.element('p', 'card-list-text');
 
@@ -12,9 +11,9 @@ exports.list = (params, decoration) => {
 
     if (name) {
         return containerElem(
-            listElem(nameElem(markup(name)) + textElem(markup(text)))
+            (nameElem(markup(name)) + textElem(markup(text)))
         );
     }
 
-    return containerElem(listElem(textElem(markup(text))));
+    return containerElem((textElem(markup(text))));
 };
