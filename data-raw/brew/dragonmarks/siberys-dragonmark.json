@@ -7,7 +7,7 @@
             "level": 17,
             "traits": ["unique", "siberys dragonmark", "dragonmark"],
             "entries": [
-                "Your dragonmark covers your entire body now, its dominion over magic absolute. You gain your mark's siberys dragonmark focus spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1."
+                "Your dragonmark covers your entire body now, its dominion over magic absolute. You gain your mark's siberys dragonmark focus spell and the siberys dragonmark trait. Your proficiency in arcane spell attack rolls and spell DCs increases to master and increase the number of Focus Points in your focus pool by 1. If you have spent at least 2 Focus Points to cast dragonmark spells since the last time you Refocused, you recover 2 Focus Points when you Refocus instead of 1."
             ],
             "generic": "G",
             "variants": [
