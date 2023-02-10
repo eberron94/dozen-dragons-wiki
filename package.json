@@ -1,6 +1,6 @@
 {
     "name": "kaiser",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Static Quiz generator with json questions",
     "main": "index.js",
     "scripts": {
