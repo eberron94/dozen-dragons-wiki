@@ -156,10 +156,18 @@
         - action.class.investigator.subclass.empiricism.apg.expeditious-inspection
         - action.class.investigator.subclass.interrogation.apg.pointed-question
         - action.class.magus.som.arcane-cascade
+        - action.class.magus.som.arcane-cascade-inexorable-iron
+        - action.class.magus.som.arcane-cascade-laughing-shadow
+        - action.class.magus.som.arcane-cascade-sparkling-targe
+        - action.class.magus.som.arcane-cascade-twisting-tree
         - action.class.magus.som.spellstrike
+        - action.class.magus.som.spellstrike-starlit-span
         - action.class.monk.crb.flurry-of-blows
         - action.class.psychic.da.unleash-psyche
         - action.class.ranger.crb.hunt-prey
+        - action.class.ranger.crb.hunt-prey-flurry
+        - action.class.ranger.crb.hunt-prey-outwit
+        - action.class.ranger.crb.hunt-prey-precision
         - action.class.rogue.crb.debilitating-strike
         - action.class.rogue.crb.master-strike
         - action.class.summoner.som.act-together

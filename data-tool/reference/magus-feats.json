@@ -1,0 +1,27 @@
+{
+    "feat.class.magus.som.expansive-spellstrike":[
+        "action.class.magus.som.spellstrike"
+    ],
+    "feat.class.magus.som.force-fang":[
+        "spell.focus.1st.som.force-fang"
+    ],
+    "feat.class.magus.som.cascade-countermeasure":[
+        "spell.focus.3rd.som.cascade-countermeasure"
+    ],
+    "feat.class.magus.som.runic-impression":[
+        "spell.focus.4th.som.runic-impression"
+    ],
+    "feat.class.magus.som.dazzling-block":[
+        "feat.general.crb.shield-block"
+    ],
+    "feat.class.magus.som.dimensional-disappearance":[
+        "spell.focus.1st.som.dimensional-assault",
+        "spell.slot.2nd.crb.invisibility"
+    ],
+    "feat.class.magus.som.magic-sense":[
+        "spell.cantrip.1st.crb.detect-magic"
+    ],
+    "feat.class.magus.som.hasted-assault":[
+        "spell.focus.7th.som.hasted-assault"
+    ]
+}

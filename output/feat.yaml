@@ -3811,7 +3811,6 @@
         - feat.class.sorcerer.ec-6.tenacious-blood-magic
         - feat.class.sorcerer.frp-3.ruby-resurrection
         - feat.class.sorcerer.logm.blessed-blood
-        - feat.class.sorcerer.lokl.divine-emissary
         - feat.class.summoner.som.advanced-weaponry
         - feat.class.summoner.som.airborne-form
         - feat.class.summoner.som.alacritous-action
@@ -4005,7 +4004,6 @@
         - feat.class.witch.frp-1.syu-tak-nwas-hexed-locks
         - feat.class.witch.frp-1.syu-tak-nwas-skillful-tresses
         - feat.class.witch.frp-3.demons-hair
-        - feat.class.wizard.aoa-6.spell-mastery
         - feat.class.wizard.apg.call-bonded-item
         - feat.class.wizard.apg.convincing-illusion
         - feat.class.wizard.apg.diviner-sense
@@ -4175,6 +4173,7 @@
         - feat.dragonmark.brew.trap-warden
         - feat.dragonmark.brew.vadalis-instincts
         - feat.dragonmark.brew.visions-of-the-past
+        - feat.dragonmark.brew.weightless-iron
         - feat.general.aoa-3.different-worlds
         - feat.general.apg.a-home-in-every-port
         - feat.general.apg.caravan-leader

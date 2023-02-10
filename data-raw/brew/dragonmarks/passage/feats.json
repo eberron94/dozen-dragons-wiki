@@ -41,6 +41,19 @@
             "entries": [
                 "You are trained to navigate long distances while maintaining awareness of your surroundings. When you use the scout or defend exploration activities, you may move at your full speed. While fatigued, you may still use the scout activity."
             ]
+        },
+        {
+            "name": "Weightless Iron",
+            "source": "BREW",
+            "page": 1,
+            "level": 3,
+            "traits": ["dragonmark", "mark of passage"],
+            "prerequisites": "Least Dragonmark (Passage)",
+            "entries": [
+                "Your mark makes light your burdens. Ignore the reduction to your Speed from any armor you wear when you meet the Strength Requirement.",
+                "In addition, any time you're taking a penalty to your Speed from some other reason (such as from the encumbered condition or from a spell), deduct 5 feet from the penalty.",
+                "For example, the encumbered condition normally gives a --10-foot penalty to Speed, but it gives you only a --5-foot penalty. If your Speed is taking multiple penalties, pick only one penalty to reduce."
+            ]
         }
     ]
 }

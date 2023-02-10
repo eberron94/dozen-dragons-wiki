@@ -1,0 +1,16 @@
+{
+    "feat.class.sorcerer.crb.divine-evolution":[
+        "spell.slot.1st.crb.harm",
+        "spell.slot.1st.crb.heal"
+    ],
+    "feat.class.sorcerer.crb.primal-evolution":[
+        "spell.slot.1st.crb.summon-animal",
+        "spell.slot.1st.crb.summon-plant-or-fungus"
+    ],
+    "feat.class.sorcerer.apg.greater-spiritual-evolution":[
+        "item.rune.crb.ghost-touch"
+    ],
+    "feat.class.sorcerer.crb.magic-sense":[
+        "spell.cantrip.1st.crb.detect-magic"
+    ]
+}

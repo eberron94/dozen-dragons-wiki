@@ -46,6 +46,157 @@
         "reference": []
     },
     {
+        "id": "action.class.magus.som.arcane-cascade-inexorable-iron",
+        "color": "#B71C1C",
+        "name": "Arcane Cascade (Inexorable Iron)",
+        "title": "Arcane Cascade (Inexorable Iron) [[one-action]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | magus | stance",
+            "property | Requirements | You used your most recent action to Cast a Spell or make a Spellstrike.",
+            "rule",
+            "text | You divert a portion of the spell's magical power and keep it cycling through your body and weapon using specialized forms, breathing, or footwork. While you're in the stance, your melee Strikes deal 1 extra damage. This damage increases to 2 if you have weapon specialization and 3 if you have greater weapon specialization. Any Strike that benefits from this damage gains the arcane trait, making it magical.",
+            "text | If your most recent spell before entering the stance was one that can deal damage, the damage from the stance is the same type that spell could deal (or one type of your choice if the spell could deal multiple types of damage). If the spell couldn't deal damage, this stance's bonus damage depends on the spell's school.",
+            "bullet | **Abjuration or Evocation** force",
+            "bullet | **Conjuration or Transmutation** same type as your weapon or unarmed attack",
+            "bullet | **Divination, Enchantment, or Illusion** mental",
+            "bullet | **Necromancy** negative",
+            "text | **Inexorable Iron** When you enter Arcane Cascade stance and at the start of each of your turns while you're in that stance, if you're wielding a melee weapon in two hands, you gain temporary Hit Points equal to half your level (minimum 1 temporary HP)."
+        ],
+        "reference": []
+    },
+    {
+        "id": "action.class.magus.som.arcane-cascade-laughing-shadow",
+        "color": "#B71C1C",
+        "name": "Arcane Cascade (Laughing Shadow)",
+        "title": "Arcane Cascade (Laughing Shadow) [[one-action]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | magus | stance",
+            "property | Requirements | You used your most recent action to Cast a Spell or make a Spellstrike.",
+            "rule",
+            "text | You divert a portion of the spell's magical power and keep it cycling through your body and weapon using specialized forms, breathing, or footwork. While you're in the stance, your melee Strikes deal 1 extra damage. This damage increases to 2 if you have weapon specialization and 3 if you have greater weapon specialization. Any Strike that benefits from this damage gains the arcane trait, making it magical.",
+            "text | If your most recent spell before entering the stance was one that can deal damage, the damage from the stance is the same type that spell could deal (or one type of your choice if the spell could deal multiple types of damage). If the spell couldn't deal damage, this stance's bonus damage depends on the spell's school.",
+            "bullet | **Abjuration or Evocation** force",
+            "bullet | **Conjuration or Transmutation** same type as your weapon or unarmed attack",
+            "bullet | **Divination, Enchantment, or Illusion** mental",
+            "bullet | **Necromancy** negative",
+            "text | **Laughing Shadow** While in Arcane Cascade stance, you gain a +5-foot status bonus to your Speeds, or a +10-foot bonus if you're unarmored. If you have a free hand while in the stance and are attacking a flat-footed creature, you increase the extra damage to 3, to 5 if you have weapon specialization, or to 7 if you have greater weapon specialization. You must have your other hand completely free; the extra damage doesn't apply if you have a free-hand weapon or other item in that hand, even if you would normally be able to use the hand for other things."
+        ],
+        "reference": []
+    },
+    {
+        "id": "action.class.magus.som.arcane-cascade-sparkling-targe",
+        "color": "#B71C1C",
+        "name": "Arcane Cascade (Sparkling Targe)",
+        "title": "Arcane Cascade (Sparkling Targe) [[one-action]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | magus | stance",
+            "property | Requirements | You used your most recent action to Cast a Spell or make a Spellstrike.",
+            "rule",
+            "text | You divert a portion of the spell's magical power and keep it cycling through your body and weapon using specialized forms, breathing, or footwork. While you're in the stance, your melee Strikes deal 1 extra damage. This damage increases to 2 if you have weapon specialization and 3 if you have greater weapon specialization. Any Strike that benefits from this damage gains the arcane trait, making it magical.",
+            "text | If your most recent spell before entering the stance was one that can deal damage, the damage from the stance is the same type that spell could deal (or one type of your choice if the spell could deal multiple types of damage). If the spell couldn't deal damage, this stance's bonus damage depends on the spell's school.",
+            "bullet | **Abjuration or Evocation** force",
+            "bullet | **Conjuration or Transmutation** same type as your weapon or unarmed attack",
+            "bullet | **Divination, Enchantment, or Illusion** mental",
+            "bullet | **Necromancy** negative",
+            "text | **Sparkling Targe** When you're in Arcane Cascade stance with your shield raised, your circumstance bonus to AC from your shield also applies to your saves against spells and other magical effects. In addition, damage you take as a result of a spell or magical effect while you're in Arcane Cascade can trigger your Shield Block reaction, even if the damage isn't physical. When blocking damage in this way, increase your shield's Hardness by an amount equal to the extra damage from Arcane Cascade (typically 1, but 2 if you have weapon specialization, or 3 if you have greater weapon specialization). These benefits apply whether you're using an actual shield, the shield spell, or something else that works like a shield (such as a raised tome if you have the Raise a Tome feat)."
+        ],
+        "reference": []
+    },
+    {
+        "id": "action.class.magus.som.arcane-cascade-twisting-tree",
+        "color": "#B71C1C",
+        "name": "Arcane Cascade (Twisting Tree)",
+        "title": "Arcane Cascade (Twisting Tree) [[one-action]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | magus | stance",
+            "property | Requirements | You used your most recent action to Cast a Spell or make a Spellstrike.",
+            "rule",
+            "text | You divert a portion of the spell's magical power and keep it cycling through your body and weapon using specialized forms, breathing, or footwork. While you're in the stance, your melee Strikes deal 1 extra damage. This damage increases to 2 if you have weapon specialization and 3 if you have greater weapon specialization. Any Strike that benefits from this damage gains the arcane trait, making it magical.",
+            "text | If your most recent spell before entering the stance was one that can deal damage, the damage from the stance is the same type that spell could deal (or one type of your choice if the spell could deal multiple types of damage). If the spell couldn't deal damage, this stance's bonus damage depends on the spell's school.",
+            "bullet | **Abjuration or Evocation** force",
+            "bullet | **Conjuration or Transmutation** same type as your weapon or unarmed attack",
+            "bullet | **Divination, Enchantment, or Illusion** mental",
+            "bullet | **Necromancy** negative",
+            "text | **Twisting Tree** While you're in Arcane Cascade stance, you can Interact or Release to change your grip on the weapon as a free action when you Strike with your staff, including Strikes made in a Spellstrike. This happens before you roll your attack roll. You can also Interact to change your grip on the staff as a free action triggered at the end of your turn."
+        ],
+        "reference": []
+    },
+    {
+        "id": "action.class.magus.som.spellstrike-starlit-span",
+        "color": "#B71C1C",
+        "name": "Spellstrike (Starlit Span)",
+        "title": "Spellstrike (Starlit Span) [[two-action]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | magus",
+            "rule",
+            "text | You channel a spell into a punch or sword thrust to deliver a combined attack. You Cast a Spell that takes 1 or 2 actions to cast and requires a spell attack roll. The effects of the spell don't occur immediately but are imbued into your attack instead. Make a melee Strike with a weapon or unarmed attack. Your spell is coupled with your attack, using your attack roll result to determine the effects of both the Strike and the spell. This counts as two attacks for your multiple attack penalty, but you don't apply the penalty until after you've completed the Spellstrike. The infusion of spell energy grants your Strike the arcane trait, making it magical.",
+            "text | After you use Spellstrike, you can't do so again until you recharge your Spellstrike as a single action, which has the concentrate trait. You also recharge your Spellstrike when you cast a conflux spell that takes at least 1 action to cast; casting a focus spell of another type doesn't recharge your Spellstrike.",
+            "text | **Starlit Span** When you use Spellstrike, you can make a ranged weapon or ranged unarmed Strike, as long as the target is within the first range increment of your ranged weapon or ranged unarmed attack. You can deliver the spell even if its range is shorter than the range increment of your ranged attack."
+        ],
+        "reference": []
+    },
+    {
+        "id": "action.class.ranger.crb.hunt-prey-flurry",
+        "color": "#B71C1C",
+        "name": "Hunt Prey (Flurry)",
+        "title": "Hunt Prey (Flurry) [[one-action]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | ranger",
+            "rule",
+            "text | You designate a single creature as your prey and focus your attacks against that creature. You must be able to see or hear the prey, or you must be tracking the prey during exploration.",
+            "text | You gain a +2 circumstance bonus to Perception checks when you Seek your prey and a +2 circumstance bonus to Survival checks when you Track your prey. You also ignore the penalty for making ranged attacks within your second range increment against the prey you're hunting.",
+            "text | You can have only one creature designated as your prey at a time. If you use Hunt Prey against a creature when you already have a creature designated, the prior creature loses the designation and the new prey gains the designation. Your designation lasts until your next daily preparations.",
+            "text | **Flurry Edge** You have trained to unleash a devastating flurry of attacks upon your prey. Your multiple attack penalty for attacks against your hunted prey is -3 (-2 with an agile weapon) on your second attack of the turn instead of -5, and -6 (-4 with an agile weapon) on your third or subsequent attack of the turn, instead of -10."
+        ],
+        "reference": []
+    },
+    {
+        "id": "action.class.ranger.crb.hunt-prey-outwit",
+        "color": "#B71C1C",
+        "name": "Hunt Prey (Outwit)",
+        "title": "Hunt Prey (Outwit) [[one-action]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | ranger",
+            "rule",
+            "text | You designate a single creature as your prey and focus your attacks against that creature. You must be able to see or hear the prey, or you must be tracking the prey during exploration.",
+            "text | You gain a +2 circumstance bonus to Perception checks when you Seek your prey and a +2 circumstance bonus to Survival checks when you Track your prey. You also ignore the penalty for making ranged attacks within your second range increment against the prey you're hunting.",
+            "text | You can have only one creature designated as your prey at a time. If you use Hunt Prey against a creature when you already have a creature designated, the prior creature loses the designation and the new prey gains the designation. Your designation lasts until your next daily preparations.",
+            "text | **Outwit Edge** You gain a +2 circumstance bonus to Deception checks, Intimidation checks, Stealth checks, and any checks to Recall Knowledge about the prey, and a +1 circumstance bonus to AC against your prey's attacks."
+        ],
+        "reference": []
+    },
+    {
+        "id": "action.class.ranger.crb.hunt-prey-precision",
+        "color": "#B71C1C",
+        "name": "Hunt Prey (Precision)",
+        "title": "Hunt Prey (Precision) [[one-action]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | ranger",
+            "rule",
+            "text | You designate a single creature as your prey and focus your attacks against that creature. You must be able to see or hear the prey, or you must be tracking the prey during exploration.",
+            "text | You gain a +2 circumstance bonus to Perception checks when you Seek your prey and a +2 circumstance bonus to Survival checks when you Track your prey. You also ignore the penalty for making ranged attacks within your second range increment against the prey you're hunting.",
+            "text | You can have only one creature designated as your prey at a time. If you use Hunt Prey against a creature when you already have a creature designated, the prior creature loses the designation and the new prey gains the designation. Your designation lasts until your next daily preparations.",
+            "text | **Outwit Edge** The first time you hit your hunted prey in a round, you also deal 1d8 additional precision damage. (Precision damage increases the damage you already deal, using the same type, but is ineffective against creatures that lack vital organs or weak points.) At 11th level, the extra damage increases to 2d8 precision damage, and at 19th level, the extra damage increases to 3d8 precision damage."
+        ],
+        "reference": []
+    },
+    {
         "id": "action.ancestry.shifter.brew.shifter-shape",
         "color": "#B71C1C",
         "name": "Shifter Shape",

@@ -38,7 +38,12 @@
     "feat.class.champion.apg.instrument-of-slaughter",
     "feat.class.champion.apg.fiendish-form",
     "feat.class.champion.apg.fiendish-mount",
+
     "feat.class.cleric.aoa-4.false-faith",
     "feat.class.cleric.logm.syncretism",
-    "feat.class.druid.da.eerie-traces"
+
+    "feat.class.druid.da.eerie-traces",
+
+"feat.class.sorcerer.lokl.divine-emissary",
+"feat.class.wizard.aoa-6.spell-mastery"
 ]

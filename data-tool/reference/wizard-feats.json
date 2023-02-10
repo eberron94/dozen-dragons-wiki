@@ -1,0 +1,8 @@
+{
+    "feat.class.wizard.crb.hand-of-the-apprentice":[
+        "spell.focus.1st.crb.hand-of-the-apprentice"
+    ],
+    "feat.class.wizard.crb.magic-sense":[
+        "spell.cantrip.1st.crb.detect-magic"
+    ]
+}

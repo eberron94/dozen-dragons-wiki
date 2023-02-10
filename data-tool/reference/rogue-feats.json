@@ -1,0 +1,13 @@
+{
+    "feat.class.rogue.apg.predictive-purchase":[
+        "feat.general.apg.prescient-consumable",
+        "feat.general.apg.prescient-planner"
+    ],
+
+    "feat.class.rogue.crb.leave-an-opening":[
+        "action.class.fighter.crb.attack-of-opportunity"
+    ],
+    "feat.class.rogue.apg.implausible-purchase":[
+        "feat.general.apg.prescient-planner"
+    ]
+}
