@@ -148,12 +148,12 @@
             "prerequisites": "trained in a skill with the Recall Knowledge action",
             "requirement": "Your partner is within 60 feet.",
             "entries": [
-                "You quickly share some information with your partner to figure something out. Your partner can use their reaction to have both of you Recall Knowledge on the same target or topic but using different relevant skills. Take the best result of you and your partner; if you and your partner succeed, the result is instead a critical success.",
+                "You quickly share some information with your partner to figure something out. Your partner can use their reaction to have both of you Recall Knowledge on the same target or topic but using different relevant skills. Take the best result of you and your partner; if you and your partner both succeed, the result is instead a critical success.",
                 {
                     "type": "successDegree",
                     "entries": {
                         "Critical Success": "You and your partner learn the creature's category, creature traits, and three pieces of information about the target.",
-                        "Success": "As critical success, but You and your partner learn two piece of information.",
+                        "Success": "As critical success, but you and your partner learn two piece of information.",
                         "Failure": "You and your partner learn the creature's category and creature traits.",
                         "Critical Failure": "You and your partner learn nothing."
                     }
