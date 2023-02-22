@@ -14,6 +14,55 @@
         "reference": []
     },
     {
+        "id": "action.basic.brew.synthesize-strategy",
+        "color": "#B71C1C",
+        "name": "Synthesize Strategy",
+        "title": "Synthesize Strategy [[one-action]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate",
+            "rule",
+            "text | You combine your knowledge of a creature with basic combat strategy. You Recall Knowledge about a creature you can see, it loses the secret trait. You use the following results. You can ask specific questions for each piece of information (such as what Saving Throw is the lowest) or leave it to the GM to decide. The DC increases by 2 each time you succeed with each skill.",
+            "fill",
+            "property | Critical Success | You learn the creature's category, creature traits, and two pieces of information about the target. Choose two allies within 30 feet of you. You count as having prepared the Aid reaction to help one of them with an attack roll or skill check against the target during that time. You roll the same skill check for Aid as you did for this action and it gains the auditory and linguistic traits.",
+            "property | Success | As critical success, but you either learn one piece of information and are prepared to Aid one ally or learn two pieces of information and are not prepared to Aid.",
+            "property | Failure | You learn the creature's category and creature traits. **Dubious Knowledge** You learn one true and one false piece of information at the GM's discretion.",
+            "property | Critical Failure | You learn nothing.",
+            "fill"
+        ],
+        "reference": []
+    },
+    {
+        "id": "action.basic.brew.pool-information",
+        "color": "#B71C1C",
+        "name": "Pool Information",
+        "title": "Pool Information",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | exploration | linguistic | verbal",
+            "rule",
+            "text | You and any allies partaking in this activity Recall Knowledge on the same topic, it loses the secret trait. The highest roll is used for the check and all other rolls are made against a retroactive DC 20, as if they had taken the Aid reaction."
+        ],
+        "reference": []
+    },
+    {
+        "id": "action.brew.connect-a-topic",
+        "color": "#B71C1C",
+        "name": "Connect a Topic",
+        "title": "Connect a Topic [[two-action]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | concentrate | manipulate",
+            "property | Trigger | You have your journal in your hand.",
+            "rule",
+            "text | You reference your journal and the topics held within it. You Recall Knowledge and gain a status bonus to the roll if you expend a relevant topic. The status bonus is a +1 for broad topics and +2 for narrow topics."
+        ],
+        "reference": []
+    },
+    {
         "id": "action.brew.no-need-for-tricks",
         "color": "#B71C1C",
         "name": "No Need for Tricks",
@@ -223,6 +272,60 @@
             "property | Requirements | You are in your hybrid-form.",
             "rule",
             "text | You brace yourself to take a hit, using your thick skin and fortitude to protect yourself. You gain a +1 circumstance bonus to AC. This remains until the start of your next turn."
+        ],
+        "reference": []
+    },
+    {
+        "id": "action.brew.practice-teamwork",
+        "color": "#B71C1C",
+        "name": "Practice Teamwork",
+        "title": "Practice Teamwork",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | downtime | teamwork",
+            "rule",
+            "text | You spend time training for certain situations in combat. Choose one of the following teamwork feats for which you meet the prerequisites: Brawny Teamwork, Cunning Teamwork, Illusive Teamwork, or Nimble Teamwork. After three days of downtime, you gain the respective teamwork feat.",
+            "text | By spending additional time training, you can increase the benefit of the teamwork feat:",
+            "bullet | **5 additional days** You can use the Honed Teamwork effect.",
+            "bullet | **10 additional days** You can use the Excellent Teamwork effect.",
+            "bullet | **20 additional days** You can use the Perfect Teamwork effect."
+        ],
+        "reference": []
+    },
+    {
+        "id": "action.brew.dual-studies",
+        "color": "#B71C1C",
+        "name": "Dual Studies",
+        "title": "Dual Studies",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | downtime | teamwork",
+            "rule",
+            "text | You spend time sharing knowledge with your allies. Choose one of the following teamwork feats for which you meet the prerequisites: Remedy Lethologica or Shared Body of Knowledge",
+            "text | By spending additional time training, you can increase the benefit of the teamwork feat:",
+            "bullet | **5 additional days** You can use the Honed Teamwork effect.",
+            "bullet | **15 additional days** You can use the Excellent Teamwork effect.",
+            "bullet | **30 additional days** You can use the Perfect Teamwork effect."
+        ],
+        "reference": []
+    },
+    {
+        "id": "action.brew.certified-first-aid",
+        "color": "#B71C1C",
+        "name": "Certified First Aid",
+        "title": "Certified First Aid",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | downtime | teamwork",
+            "rule",
+            "text | You spend time sharing knowledge with your allies. Choose one of the following teamwork feats for which you meet the prerequisites: Nurse's Aid",
+            "text | By spending additional time training, you can increase the benefit of the teamwork feat:",
+            "bullet | **5 additional days** You can use the Honed Teamwork effect.",
+            "bullet | **10 additional days** You can use the Excellent Teamwork effect.",
+            "bullet | **20 additional days** You can use the Perfect Teamwork effect if you have Battle Medicine."
         ],
         "reference": []
     },

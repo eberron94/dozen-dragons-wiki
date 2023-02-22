@@ -18,6 +18,8 @@
         - action.ancestry.shisk.lome.barbed-quills
         - action.ancestry.vishkanya.loil.envenom
         - action.ancestry.vishkanya.loil.venom-draw
+        - action.basic.brew.pool-information
+        - action.basic.brew.synthesize-strategy
         - action.basic.crb.activate-an-item
         - action.basic.crb.affix-a-talisman
         - action.basic.crb.aid
@@ -112,7 +114,11 @@
         - action.basic.skill.untrained.crb.trip
         - action.basic.skill.untrained.crb.tumble-through
         - action.basic.som.affix-a-fulu
+        - action.brew.certified-first-aid
+        - action.brew.connect-a-topic
+        - action.brew.dual-studies
         - action.brew.no-need-for-tricks
+        - action.brew.practice-teamwork
         - action.class.alchemist.crb.quick-alchemy
         - action.class.alchemist.subclass.mutagenist.crb.mutagenic-flashback
         - action.class.barbarian.crb.mighty-rage

@@ -130,6 +130,13 @@
         - feat.ancestry.botd.skeleton-commander
         - feat.ancestry.botd.undead-empathy
         - feat.ancestry.botd.well-armed
+        - feat.ancestry.brew.brawny-teamwork
+        - feat.ancestry.brew.cunning-teamwork
+        - feat.ancestry.brew.illusive-teamwork
+        - feat.ancestry.brew.nimble-teamwork
+        - feat.ancestry.brew.nurses-aid
+        - feat.ancestry.brew.remedy-lethologica
+        - feat.ancestry.brew.shared-body-of-knowledge
         - feat.ancestry.bugbear.brew.bugbear-endurance
         - feat.ancestry.bugbear.brew.bugbear-fortitude
         - feat.ancestry.bugbear.brew.bugbear-juggernaut

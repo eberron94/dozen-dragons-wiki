@@ -1,0 +1,169 @@
+{
+    "feat": [
+        {
+            "name": "Brawny Teamwork",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["teamwork"],
+            "activity": {
+                "number": 1,
+                "unit": "reaction"
+            },
+            "prerequisites": "trained in Acrobatics, Athletics, or Crafting",
+            "trigger": "A partner is within 5 feet of you and is about to use an action that require a skill check vs a foe's Fortitude DC.",
+            "frequency": "Once per day",
+            "entries": [
+                "You and your partner perform a maneuver to overpower your shared enemy. Make an Acrobatics, Athletics, or Crafting check to Aid your triggering partner's skill check, you count as having prepared. The DC is the level DC of the targeted foe.",
+                "The Aid action gains the linguistic and auditory traits if your partner's triggering action has those traits."
+            ],
+            "teamwork": {
+                "honed": "You can use this action an additional time per day, but cannot Aid the same partner.",
+                "excellent": "When you roll a failure to Aid, you get a success instead.",
+                "perfect": "When you roll a success to Aid, you get a critical success instead."
+            }
+        },
+        {
+            "name": "Cunning Teamwork",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["teamwork"],
+            "activity": {
+                "number": 1,
+                "unit": "reaction"
+            },
+            "prerequisites": "trained in Deception, Diplomacy, or Intimidation",
+            "trigger": "A partner is within 5 feet of you and is about to use an action that require a skill check vs a foe's Will DC.",
+            "frequency": "Once per day",
+            "entries": [
+                "You and your partner perform a maneuver to disturb your shared enemy. Make a Deception, Diplomacy, or Intimidation check to Aid your triggering partner's skill check, you count as having prepared. The DC is the level DC of the targeted foe.",
+                "The Aid action gains the linguistic and auditory traits if your partner's triggering action has those traits."
+            ],
+            "teamwork": {
+                "honed": "You can use this action an additional time per day, but cannot Aid the same partner.",
+                "excellent": "When you roll a failure to Aid, you get a success instead.",
+                "perfect": "When you roll a success to Aid, you get a critical success instead."
+            }
+        },
+        {
+            "name": "Illusive Teamwork",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["teamwork"],
+            "activity": {
+                "number": 1,
+                "unit": "reaction"
+            },
+            "prerequisites": "trained in Performance, Stealth, or Survival",
+            "trigger": "A partner is within 5 feet of you and is about to use an action that require a skill check vs a foe's Perception DC.",
+            "frequency": "Once per day",
+            "entries": [
+                "You and your partner perform a maneuver to distract your shared enemy. Make a Performance, Stealth, or Survival check to Aid your triggering partner's skill check, you count as having prepared. The DC is the level DC of the targeted foe.",
+                "The Aid action gains the linguistic and auditory traits if your partner's triggering action has those traits."
+            ],
+            "teamwork": {
+                "honed": "You can use this action an additional time per day, but cannot Aid the same partner.",
+                "excellent": "When you roll a failure to Aid, you get a success instead.",
+                "perfect": "When you roll a success to Aid, you get a critical success instead."
+            }
+        },
+        {
+            "name": "Nimble Teamwork",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["teamwork"],
+            "activity": {
+                "number": 1,
+                "unit": "reaction"
+            },
+            "prerequisites": "trained in Acrobatics, Deception, or Thievery",
+            "trigger": "A partner is within 5 feet of you and is about to use an action that require a skill check vs a foe's Reflex DC.",
+            "frequency": "Once per day",
+            "entries": [
+                "You and your partner perform a maneuver to keep your shared enemy off balance. Make a Acrobatics, Deception, or Thievery check to Aid your triggering partner's skill check, you count as having prepared. The DC is the level DC of the targeted foe.",
+                "The Aid action gains the linguistic and auditory traits if your partner's triggering action has those traits."
+            ],
+            "teamwork": {
+                "honed": "You can use this action an additional time per day, but cannot Aid the same partner.",
+                "excellent": "When you roll a failure to Aid, you get a success instead.",
+                "perfect": "When you roll a success to Aid, you get a critical success instead."
+            }
+        },
+        {
+            "name": "Remedy Lethologica",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["teamwork", "auditory", "linguistic", "fortune"],
+            "activity": {
+                "number": 1,
+                "unit": "reaction"
+            },
+            "prerequisites": "trained in a skill with the Recall Knowledge action",
+            "trigger": "A partner is within 30 feet of you and rolls a failure to Synthesize a Strategy against a target you can both see.",
+            "frequency": "Once per day",
+            "entries": [
+                "You quickly recall a piece of knowledge you and your partner studied earlier in the day and verbally remind them of it. The triggering partner rerolls the failed check and uses the new result."
+            ],
+            "teamwork": {
+                "honed": "You can use this action an additional time per day, but cannot help the same partner.",
+                "excellent": "You can make a new roll for your partner, using your own modifier for the rolled skill.",
+                "perfect": "You can make a new roll for your partner, using your own modifier for any relevant skill."
+            }
+        },
+        {
+            "name": "Shared Body of Knowledge",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": [
+                "teamwork",
+                "auditory",
+                "linguistic",
+                "visual",
+                "fortune"
+            ],
+            "activity": {
+                "number": 2,
+                "unit": "action"
+            },
+            "prerequisites": "trained in a skill with the Recall Knowledge action",
+            "requirement": "Your partner is within 60 feet.",
+            "entries": [
+                "You quickly share some information with your partner to figure something out. Your partner can use their reaction to have both of you Recall Knowledge on the same target or topic but using different relevant skills. Take the best result of you and your partner; if you and your partner succeed, the result is instead a critical success.",
+                {
+                    "type": "successDegree",
+                    "entries": {
+                        "Critical Success": "You and your partner learn the creature's category, creature traits, and three pieces of information about the target.",
+                        "Success": "As critical success, but You and your partner learn two piece of information.",
+                        "Failure": "You and your partner learn the creature's category and creature traits.",
+                        "Critical Failure": "You and your partner learn nothing."
+                    }
+                }
+            ],
+            "teamwork": {
+                "honed": "You and your partner learn an additional piece of information on a success and critical success.",
+                "excellent": "You count as having prepared the Aid reaction to help your partner with an attack roll or skill check against the target.",
+                "perfect": "You can perform this as a one-action activity, but you do not gain the bonus piece of information from Honed Teamwork."
+            }
+        },
+        {
+            "name": "Nurse's Aid",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["teamwork"],
+            "entries": [
+                "You and your partner move as one when dealing with medical emergencies. When your partner would perform an action that requires healer's tools while you are both adjacent to the same patient and each other, you can use your reaction to Interact to draw the healer's tools from your gear or theirs. Your partner can then use a free hand to use the tools your are holding"
+            ],
+            "teamwork": {
+                "honed": "While Your partner is holding healer's tools that you are using, they can prepare to Aid you on a Medicine check with a DC 10 Medicine check as a two-action activity with the manipulate trait.",
+                "excellent": "When you Treat Wounds while your partner is holding the healer's tools, the target regains 5 additional HP at DC 20, 10 HP at DC 30, or 15 HP at DC 40. (This does not apply to Battle Medicine.)",
+                "perfect": "Once per day, your partner can use Battle Medicine on you when you are unconscious, even if they do not have the feat or you would be immune to their Battle Medicine. They can use tools you are wearing and can make the check with your using your modifier. On a success, you regain 2 Hit Points. On a Critical Success, you regain 4 Hit Points."
+            }
+        }
+    ]
+}
