@@ -1231,7 +1231,7 @@
         - feat.ancestry.tiefling.loag.velstrac-magic
         - feat.ancestry.tiefling.loil.asura-magic
         - feat.ancestry.tiefling.loil.dominion-aura
-        - feat.ancestry.tiefling.loil.faultspawn
+        - feat.ancestry.tiefling.loil.feat-faultspawn
         - feat.ancestry.tiefling.loil.idol-threat
         - feat.ancestry.tiefling.loil.jalmeri-rakshasa-magic
         - feat.ancestry.tiefling.loil.reveal-hidden-self
@@ -2138,6 +2138,12 @@
         - feat.archetype.pactbinder.class.da.pact-of-the-final-breath
         - feat.archetype.pactbinder.dedication.da.pactbinder-dedication
         - feat.archetype.pactbinder.skill.da.sociable-vow
+        - feat.archetype.pactbound-initiate.class.lomm.bound-in-ice
+        - feat.archetype.pactbound-initiate.class.lomm.crown-of-the-saumen-kar
+        - feat.archetype.pactbound-initiate.class.lomm.curse-of-the-saumen-kar
+        - feat.archetype.pactbound-initiate.class.lomm.frostbite-runes
+        - feat.archetype.pactbound-initiate.class.lomm.ice-crafter
+        - feat.archetype.pactbound-initiate.dedication.lomm.pactbound-dedication
         - feat.archetype.pathfinder-agent.class.locg.educated-assessment
         - feat.archetype.pathfinder-agent.class.locg.everyone-duck
         - feat.archetype.pathfinder-agent.class.lopsg.archaeologists-warning

@@ -6628,9 +6628,10 @@
         "contents": [
             "pftrait | uncommon | plant | ranger | transmutation",
             "property | Cast | [[two-action]] [S V]",
-            "property | Range | 100 feet| Area | all squares that contain plants in a",
+            "property | Range | 100 feet| Area | all squares that contain plants in a 5-foot burst",
+            "property | Duration | 1 minute",
             "rule",
-            "text | 5-foot burst Duration 1 minute You cause plants in the area to entangle your foes, with the effects of entangle. A creature that critically fails the save takes 2d4 persistent bleed damage in addition to being immobilized.",
+            "text | You cause plants in the area to entangle your foes, with the effects of entangle. A creature that critically fails the save takes 2d4 persistent bleed damage in addition to being immobilized.",
             "text | Escaping your bramble doesn't end the bleed damage.",
             "fill",
             "section | Heightened Spellcasting",
@@ -8920,9 +8921,9 @@
             "rule",
             "text | You use your occult lore and the power of your mind to manipulate the spiritual multiverse, resulting in any of the following effects:",
             "bullet | Duplicate any spell from the occult list of 9th level or lower to which you have access.",
-            "bullet | Duplicate any spell from another spell list of 7th level or lower to which you have access.",
+            "bullet | Duplicate any spell from another spell list of 7th level or lower. It must be common or you must have access.",
             "bullet | Produce any effect whose power is equivalent to any occult spell 9th level or lower, or non-occult spell 7th level or lower.",
-            "bullet | Reverse certain effects that refer to the wish spell",
+            "bullet | Reverse certain effects that refer to the wish spell.",
             "text | At the GM's discretion, you can try to produce greater effects, but this is dangerous and the spell may have only a partial effect."
         ],
         "reference": [],
@@ -11896,7 +11897,7 @@
             "bullet | **Deinonychus** Speed 40 feet; **Melee** 1 talon (agile), **Damage** 2d4 piercing plus 1 persistent bleed; **Melee** 1 jaws, **Damage** 1d10 piercing.",
             "bullet | **Stegosaurus** Speed 30 feet; **Melee** 1 tail (reach 10 feet), **Damage** 2d8 piercing.",
             "bullet | **Triceratops** Speed 30 feet; **Melee** 1 horn, **Damage** 2d8 piercing, plus 1d6 persistent bleed on a critical hit; **Melee** 1 foot, **Damage** 2d6 bludgeoning.",
-            "bullet | **Tyrannosaurus** Speed 30 feet; **Melee** 1 jaws (deadly, reach 10 feet), **Damage** 1d12 piercing; **Melee** 1 tail (reach 10 feet), **Damage** 1d10 bludgeoning.",
+            "bullet | **Tyrannosaurus** Speed 30 feet; **Melee** 1 jaws (deadly d12, reach 10 feet), **Damage** 1d12 piercing; **Melee** 1 tail (reach 10 feet), **Damage** 1d10 bludgeoning.",
             "fill",
             "section | Heightened Spellcasting",
             "property | Heightened (5th) | Your battle form is Huge and your attacks have 15-foot reach, or 20-foot reach if they started with 15-foot reach. You instead gain 20 temporary HP, an attack modifier of +18, a damage bonus of +6, double the damage dice, and Athletics +21.",
@@ -13474,10 +13475,10 @@
             "pftrait | plant | transmutation",
             "property | Traditions | primal",
             "property | Cast | [[two-action]] [S V]",
-            "property | Range | 120 feet| Area | all squares in a 20-foot-radius burst that contain plants",
+            "property | Range | 120 feet| Area | all squares in a 20-foot burst that contain plants or fungi",
             "property | Duration | 1 minute",
             "rule",
-            "text | Plants in the area entangle creatures. The area counts as difficult terrain. Each round that a creature starts its turn in the area, it must attempt a Reflex save. On a failure, it takes a –10-foot circumstance penalty to its Speeds until it leaves the area, and on a critical failure, it is also immobilized for 1 round. Creatures can attempt to Escape at entangle's DC to remove these effects."
+            "text | Plants or fungi in the area entangle creatures. The area counts as difficult terrain. Each round that a creature starts its turn in the area, it must attempt a Reflex save. On a failure, it takes a –10-foot circumstance penalty to its Speeds until it leaves the area, and on a critical failure, it is also immobilized for 1 round. Creatures can attempt to Escape at entangle's DC to remove these effects."
         ],
         "reference": [],
         "filtering": [
@@ -17874,9 +17875,9 @@
             "rule",
             "text | You request aid directly from your divine source. Your divine source always refuses a request out of line with its nature, and it might grant a different request (potentially more powerful or better fitting its nature) than the one you asked for. A casting of miracle can do any of the following things.",
             "bullet | Duplicate any spell from the divine list of 9th level or lower to which you have access.",
-            "bullet | Duplicate any spell from another spell list of 7th level or lower to which you have access.",
+            "bullet | Duplicate any spell from another spell list of 7th level or lower. It must be common or you must have access.",
             "bullet | Produce any effect whose power level is in line with the above effects.",
-            "bullet | Reverse certain effects that refer to the wish spell",
+            "bullet | Reverse certain effects that refer to the wish spell.",
             "text | The GM might allow you to try using miracle to produce greater effects than these, but doing so may be dangerous, or the spell may have only a partial effect."
         ],
         "reference": [],
@@ -18253,10 +18254,10 @@
             "property | Range | 120 feet | Area | 500-foot burst **Targets** up to 5 creatures",
             "property | Duration | 10 minutes",
             "rule",
-            "text | Animals and plants in the area turn against the targets. Each target suffers from the following effects as long as it remains in the area.",
+            "text | Animals and plants and fungi in the area turn against the targets. Each target suffers from the following effects as long as it remains in the area.",
             "bullet | Vegetation springs up from every surface, giving each target a –10-foot circumstance penalty to its Speed any time it's adjacent to the plants.",
             "bullet | Aggressive animals attack unpredictably. At the start of its turn, each target rolls a DC 8 flat check. On a failure, it's attacked by swarming creatures that deal 2d10 slashing damage. The target attempts a basic Reflex save, and it is flat-footed for 1 round on any outcome other than a critical success.",
-            "bullet | The target loses any connection to nature or natural creatures. The target has to succeed at a DC 5 flat check when casting any primal spell or the spell fails",
+            "bullet | The target loses any connection to nature or natural creatures. The target has to succeed at a DC 5 flat check when casting any primal spell or the spell fails.",
             "text | Furthermore, animal or plant creatures become hostile to it, even one with a strong bond to the target, such as an animal companion.",
             "text | The GM might decide that you can't subject some creatures, such as an emissary of a nature deity, to the ire of nature."
         ],
@@ -19310,9 +19311,9 @@
             "text | You request a direct intercession from the natural world.",
             "text | Nature always refuses unnatural requests and might grant a different request (potentially more powerful or better fitting its character) than the one you asked for. A primal phenomenon spell can do any of the following things.",
             "bullet | Duplicate any spell from the primal list of 9th level or lower to which you have access.",
-            "bullet | Duplicate any spell from another spell list of 7th level or lower to which you have access.",
+            "bullet | Duplicate any spell from another spell list of 7th level or lower. It must be common or you must have access.",
             "bullet | Produce any effect whose power level is in line with the above effects.",
-            "bullet | Reverse certain effects that refer to the wish spell",
+            "bullet | Reverse certain effects that refer to the wish spell.",
             "text | At the GM's discretion, you can try to use primal phenomenon to produce greater effects than these, but doing so may be dangerous, or the spell may have only a partial effect."
         ],
         "reference": [],
@@ -21525,7 +21526,7 @@
             "property | Range | touch | Targets | 1 willing creature",
             "property | Duration | 1 minute",
             "rule",
-            "text | The target makes no sound, preventing creatures from noticing it using hearing or other senses alone. The target can't use sonic attacks, nor can it use actions with the auditory trait. This prevents it from casting spells that include verbal components.",
+            "text | The target makes no sound, preventing creatures from noticing it using hearing alone. The target can't use sonic attacks, nor can it use actions with the auditory trait. This prevents it from casting spells that include verbal components.",
             "fill",
             "section | Heightened Spellcasting",
             "property | Heightened (4th) | The spell effect emanates from the touched creature, silencing all sound in or passing through a 10-foot radius and preventing any auditory and sonic effects in the affected area. While within the radius, creatures are subject to the same effects as the target. Depending upon the position of the effect, a creature might notice the lack of sound reaching it (blocking off the noise coming from a party, for example)."
@@ -21657,7 +21658,7 @@
             "pftrait | emotion | enchantment | healing | mental",
             "property | Traditions | occult",
             "property | Cast | [[two-action]] [S V]",
-            "property | Range | 30 feet | Targets | 1 willing living creature",
+            "property | Range | 30 feet | Targets | 1 willing creature",
             "property | Duration | 1 minute",
             "rule",
             "text | You grace the target's mind, boosting its mental defenses and healing its wounds. The target regains 1d10+4 Hit Points when you Cast the Spell and gains a +2 status bonus to saves against mental effects for the duration.",
@@ -21822,7 +21823,7 @@
             "property | Cast | [[two-action]] [S V]",
             "property | Duration | 10 minutes",
             "rule",
-            "text | You can ask questions of and receive answers from plants, but the spell doesn't make them more friendly or intelligent than normal. Most normal plants have a distinctive view of the world around them, so they don't recognize details about creatures or know anything about the world beyond their immediate vicinity.",
+            "text | You can ask questions of and receive answers from plants and fungi, but the spell doesn't make them more friendly or intelligent than normal. Most normal plants have a distinctive view of the world around them, so they don't recognize details about creatures or know anything about the world beyond their immediate vicinity.",
             "text | Cunning plant monsters are likely to be terse and evasive, while less intelligent ones often make inane comments."
         ],
         "reference": [],
@@ -24950,7 +24951,7 @@
             "property | Range | 120 feet",
             "rule",
             "text | You shape a wall of solid stone. You create a 1-inch-thick wall of stone up to 120 feet long, and 20 feet high. You can shape the wall's path, placing each 5 feet of the wall on the border between squares. The wall doesn't need to stand vertically, so you can use it to form a bridge or set of stairs, for example. You must conjure the wall in an unbroken open space so its edges don't pass through any creatures or objects, or the spell is lost.",
-            "text | Each 5-foot-by-5-foot section of the wall has AC 10, Hardness 14, and 50 Hit Points, and it's immune to critical hits and precision damage. A destroyed section of the wall can be moved through, but the rubble created from it is difficult terrain.",
+            "text | Each 10-foot-by-10-foot section of the wall has AC 10, Hardness 14, and 50 Hit Points, and it's immune to critical hits and precision damage. A destroyed section of the wall can be moved through, but the rubble created from it is difficult terrain.",
             "fill",
             "section | Heightened Spellcasting",
             "property | Heightened (+2) | The Hit Points of each section of the wall increase by 15."
@@ -24982,7 +24983,7 @@
             "property | Duration | 1 minute",
             "rule",
             "text | Over the course of a minute, you cause a thick wall of thorny brambles to grow from the ground. You create a 5-footthick wall of brambles and thorns in a straight line up to 60 feet long and 10 feet high. You must create the wall in an unbroken open space so its edges don't pass through any creatures or objects, or the spell is lost. The wall stands vertically. If you wish, the wall can be of a shorter length or height. Everything on each side of the wall has cover from creatures on the opposite side, and the wall's spaces are difficult terrain. For every move action a creature uses to enter at least one of the wall's spaces, that creature takes 3d4 piercing damage.",
-            "text | Each 5-foot-by-5-foot section of the wall has AC 10, Hardness 10, and 20 Hit Points. It's immune to critical hits and precision damage. A destroyed section can be moved through freely.",
+            "text | Each 10-foot-by-10-foot section of the wall has AC 10, Hardness 10, and 20 Hit Points. It's immune to critical hits and precision damage. A destroyed section can be moved through freely.",
             "fill",
             "section | Heightened Spellcasting",
             "property | Heightened (+1) | The Hit Points of each section of the wall increase by 5, and the piercing damage increases by 1d4."
@@ -25556,9 +25557,9 @@
             "rule",
             "text | You state a wish, making your greatest desire come true. A wish spell can produce any one of the following effects.",
             "bullet | Duplicate any spell from the arcane list of 9th level or lower to which you have access.",
-            "bullet | Duplicate any spell from another spell list of 7th level or lower to which you have access.",
+            "bullet | Duplicate any spell from another spell list of 7th level or lower. It must be common or you must have access.",
             "bullet | Produce any effect whose power level is in line with the above effects.",
-            "bullet | Reverse certain effects that refer to the wish spell",
+            "bullet | Reverse certain effects that refer to the wish spell.",
             "text | The GM might allow you to try using wish to produce greater effects than these, but doing so might be dangerous or the spell might have only a partial effect."
         ],
         "reference": [],
@@ -25585,7 +25586,7 @@
             "property | Duration | 1 round",
             "rule",
             "text | You utter a liberating word of power that frees a creature.",
-            "text | You suppress one of the following conditions of your choice: confused, frightened, grabbed, or paralyzed. The target isn't affected by the chosen condition, and if you suppress the grabbed condition, the target automatically breaks free from any grab affecting it when you Cast the Spell.",
+            "text | You suppress one of the following conditions of your choice: confused, frightened, grabbed, restrained, or paralyzed. The target isn't affected by the chosen condition, and if you suppress the grabbed or restrained condition, the target automatically breaks free from any grab or restraint affecting it when you Cast the Spell.",
             "text | If you don't remove the effect that provided the condition, the condition returns after the spell ends. For example, if a spell was making the target confused for 1 minute, word of freedom would let the target act normally for a round, but the confused condition would return afterward."
         ],
         "reference": [],
@@ -27450,14 +27451,14 @@
         "level": 4
     },
     {
-        "id": "spell.cantrip.1st.da.time-sense",
+        "id": "spell.slot.1st.da.time-sense",
         "color": "#0D47A1",
         "name": "Time Sense",
         "title": "Time Sense",
         "icon_front": "spell-divination",
-        "code": "cantrip 1",
+        "code": "spell 1",
         "contents": [
-            "pftrait | cantrip | divination",
+            "pftrait | divination",
             "property | Traditions | arcane, occult",
             "property | Cast | [[one-action]] [V]",
             "rule",
@@ -27471,8 +27472,6 @@
             "arcane",
             "occult",
             "divination",
-            "cantrip",
-            "cantrip",
             "common"
         ],
         "level": 1
@@ -32625,6 +32624,45 @@
             "focus"
         ],
         "level": 3
+    },
+    {
+        "id": "spell.focus-cantrip.1st.lomm.buzzing-bites",
+        "color": "#0D47A1",
+        "name": "Buzzing Bites",
+        "title": "Buzzing Bites",
+        "icon_front": "spell-evocation",
+        "code": "focus cantrip 1",
+        "contents": [
+            "pftrait | rare | cantrip | evocation | hex | witch",
+            "property | Cast | [[one-action]] [S]",
+            "property | Saving Throw | Fortitude",
+            "property | Range | 30 feet | Targets | 1 creature",
+            "property | Duration | 1 minute",
+            "rule",
+            "text | You evoke buzzing and crawling insects to climb onto a foe's body and bite, dealing 1d4 piercing damage and potentially sickening the foe, depending on its Fortitude save. You deal the piercing damage initially and then again the first time each round you Sustain the Spell, starting on the round after you cast it and rolling the damage based on the target's saving throw result each time. However, the creature only attempts the Fortitude save once, when you first Cast the Spell. Once this spell ends, the target becomes temporarily immune for 1 minute.",
+            "fill",
+            "property | Critical Success | The target is unaffected.",
+            "property | Success | The target takes half damage.",
+            "property | Failure | The target takes full damage.",
+            "property | Critical Failure | The target takes double damage and is sickened 1 by the crawling insects. The sickened value can't be reduced below 1 while the spell is active.",
+            "fill",
+            "fill",
+            "section | Heightened Spellcasting",
+            "property | Heightened (+1) | The damage increases by 1d4."
+        ],
+        "reference": [],
+        "filtering": [
+            "spell",
+            "level-1",
+            "rare",
+            "cantrip",
+            "evocation",
+            "hex",
+            "witch",
+            "cantrip",
+            "focus"
+        ],
+        "level": 1
     },
     {
         "id": "spell.focus.4th.lopsg.familiar-form",

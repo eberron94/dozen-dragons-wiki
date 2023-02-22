@@ -222,6 +222,7 @@ const getContent = ({
     frequency,
     special,
     dragonmark,
+    teamwork,
     ...item
 }) => {
     const lineArr = [];
@@ -270,7 +271,28 @@ const getContent = ({
 
     return lineArr
         .concat(getTextEntries(item))
+        .concat(handleTeamwork(teamwork || {}))
         .concat(handleDragonmarkHeightened(dragonmark || {}));
+};
+
+const handleTeamwork = ({
+    honed, excellent, perfect,
+}) => {
+    const arr = ['fill', 'section | Further Teamwork'];
+
+    if (honed)
+        arr.push(`property | Honed Teamwork | ${Renderer.stripTags(honed)}`);
+    if (excellent)
+        arr.push(
+            `property | Excellend Teamwork | ${Renderer.stripTags(excellent)}`
+        );
+    if (perfect)
+        arr.push(
+            `property | Perfect Teamwork | ${Renderer.stripTags(perfect)}`
+        );
+
+    if (arr.length > 0) return arr;
+    else return [];
 };
 
 const handleDragonmarkHeightened = ({

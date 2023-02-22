@@ -35,7 +35,6 @@
         - action.basic.crb.detect-magic
         - action.basic.crb.dismiss
         - action.basic.crb.drop-prone
-        - action.basic.crb.earn-income
         - action.basic.crb.escape
         - action.basic.crb.fly
         - action.basic.crb.follow-the-expert
@@ -47,7 +46,6 @@
         - action.basic.crb.investigate
         - action.basic.crb.leap
         - action.basic.crb.learn-a-spell
-        - action.basic.crb.long-term-rest
         - action.basic.crb.mount
         - action.basic.crb.point-out
         - action.basic.crb.raise-a-shield
@@ -56,7 +54,6 @@
         - action.basic.crb.refocus
         - action.basic.crb.release
         - action.basic.crb.repeat-a-spell
-        - action.basic.crb.retraining
         - action.basic.crb.scout
         - action.basic.crb.search
         - action.basic.crb.seek
@@ -65,14 +62,11 @@
         - action.basic.crb.step
         - action.basic.crb.stride
         - action.basic.crb.strike
-        - action.basic.crb.subsist
         - action.basic.crb.sustain-a-spell
         - action.basic.crb.sustain-an-activation
         - action.basic.crb.take-cover
         - action.basic.skill.trained.crb.borrow-an-arcane-spell
         - action.basic.skill.trained.crb.cover-tracks
-        - action.basic.skill.trained.crb.craft
-        - action.basic.skill.trained.crb.create-forgery
         - action.basic.skill.trained.crb.disable-a-device
         - action.basic.skill.trained.crb.disarm
         - action.basic.skill.trained.crb.feint
@@ -81,7 +75,6 @@
         - action.basic.skill.trained.crb.pick-a-lock
         - action.basic.skill.trained.crb.squeeze
         - action.basic.skill.trained.crb.track
-        - action.basic.skill.trained.crb.treat-disease
         - action.basic.skill.trained.crb.treat-poison
         - action.basic.skill.trained.crb.treat-wounds
         - action.basic.skill.trained.som.tap-ley-line
@@ -114,11 +107,8 @@
         - action.basic.skill.untrained.crb.trip
         - action.basic.skill.untrained.crb.tumble-through
         - action.basic.som.affix-a-fulu
-        - action.brew.certified-first-aid
         - action.brew.connect-a-topic
-        - action.brew.dual-studies
         - action.brew.no-need-for-tricks
-        - action.brew.practice-teamwork
         - action.class.alchemist.crb.quick-alchemy
         - action.class.alchemist.subclass.mutagenist.crb.mutagenic-flashback
         - action.class.barbarian.crb.mighty-rage
@@ -196,28 +186,43 @@
         - action.da.recenter
         - action.da.restore-the-mind
         - action.da.ring-bell
+        - action.downtime.basic.crb.earn-income
+        - action.downtime.basic.crb.long-term-rest
+        - action.downtime.basic.crb.retraining
+        - action.downtime.basic.crb.subsist
+        - action.downtime.basic.skill.trained.crb.craft
+        - action.downtime.basic.skill.trained.crb.create-forgery
+        - action.downtime.basic.skill.trained.crb.treat-disease
+        - action.downtime.brew.certified-first-aid
+        - action.downtime.brew.dual-studies
+        - action.downtime.brew.practice-teamwork
+        - action.downtime.gmg.bribe-contact
+        - action.downtime.gmg.forge-documents
+        - action.downtime.gmg.gain-contact
+        - action.downtime.gmg.gossip
+        - action.downtime.gmg.scout-location
+        - action.downtime.gmg.secure-disguises
+        - action.downtime.lomm.craft-disharmonic-instrument
+        - action.downtime.som.learn-name
+        - action.downtime.sot-1.cram
+        - action.downtime.sot-1.practical-research
+        - action.downtime.sot-1.study
         - action.g-g.accidental-shot
         - action.g-g.thoughtful-reload
         - action.gmg.board
-        - action.gmg.bribe-contact
         - action.gmg.bullying-press
         - action.gmg.change-tradition-focus
         - action.gmg.deceptive-sidestep
         - action.gmg.discover
         - action.gmg.drive
         - action.gmg.dueling-counter
-        - action.gmg.forge-documents
         - action.gmg.fortify-camp
-        - action.gmg.gain-contact
-        - action.gmg.gossip
         - action.gmg.influence
         - action.gmg.map-the-area
         - action.gmg.rally
         - action.gmg.reconnoiter
         - action.gmg.research
         - action.gmg.run-over
-        - action.gmg.scout-location
-        - action.gmg.secure-disguises
         - action.gmg.sense-weakness
         - action.gmg.stop
         - action.gmg.take-a-breather
@@ -225,8 +230,5 @@
         - action.gmg.travel
         - action.loag.change-shape
         - action.loag.conduct-energy
+        - action.lomm.harvest-heartsliver
         - action.som.cleanse-soul-path
-        - action.som.learn-name
-        - action.sot-1.cram
-        - action.sot-1.practical-research
-        - action.sot-1.study

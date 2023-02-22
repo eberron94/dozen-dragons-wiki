@@ -12,7 +12,10 @@
             },
             "prerequisites": "trained in Acrobatics, Athletics, or Crafting",
             "trigger": "A partner is within 5 feet of you and is about to use an action that require a skill check vs a foe's Fortitude DC.",
-            "frequency": "Once per day",
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
             "entries": [
                 "You and your partner perform a maneuver to overpower your shared enemy. Make an Acrobatics, Athletics, or Crafting check to Aid your triggering partner's skill check, you count as having prepared. The DC is the level DC of the targeted foe.",
                 "The Aid action gains the linguistic and auditory traits if your partner's triggering action has those traits."
@@ -35,7 +38,10 @@
             },
             "prerequisites": "trained in Deception, Diplomacy, or Intimidation",
             "trigger": "A partner is within 5 feet of you and is about to use an action that require a skill check vs a foe's Will DC.",
-            "frequency": "Once per day",
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
             "entries": [
                 "You and your partner perform a maneuver to disturb your shared enemy. Make a Deception, Diplomacy, or Intimidation check to Aid your triggering partner's skill check, you count as having prepared. The DC is the level DC of the targeted foe.",
                 "The Aid action gains the linguistic and auditory traits if your partner's triggering action has those traits."
@@ -58,7 +64,10 @@
             },
             "prerequisites": "trained in Performance, Stealth, or Survival",
             "trigger": "A partner is within 5 feet of you and is about to use an action that require a skill check vs a foe's Perception DC.",
-            "frequency": "Once per day",
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
             "entries": [
                 "You and your partner perform a maneuver to distract your shared enemy. Make a Performance, Stealth, or Survival check to Aid your triggering partner's skill check, you count as having prepared. The DC is the level DC of the targeted foe.",
                 "The Aid action gains the linguistic and auditory traits if your partner's triggering action has those traits."
@@ -81,7 +90,10 @@
             },
             "prerequisites": "trained in Acrobatics, Deception, or Thievery",
             "trigger": "A partner is within 5 feet of you and is about to use an action that require a skill check vs a foe's Reflex DC.",
-            "frequency": "Once per day",
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
             "entries": [
                 "You and your partner perform a maneuver to keep your shared enemy off balance. Make a Acrobatics, Deception, or Thievery check to Aid your triggering partner's skill check, you count as having prepared. The DC is the level DC of the targeted foe.",
                 "The Aid action gains the linguistic and auditory traits if your partner's triggering action has those traits."
@@ -104,12 +116,15 @@
             },
             "prerequisites": "trained in a skill with the Recall Knowledge action",
             "trigger": "A partner is within 30 feet of you and rolls a failure to Synthesize a Strategy against a target you can both see.",
-            "frequency": "Once per day",
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
             "entries": [
                 "You quickly recall a piece of knowledge you and your partner studied earlier in the day and verbally remind them of it. The triggering partner rerolls the failed check and uses the new result."
             ],
             "teamwork": {
-                "honed": "You can use this action an additional time per day, but cannot help the same partner.",
+                "honed": "You can use this action an additional time per day, but cannot trigger with the same partner.",
                 "excellent": "You can make a new roll for your partner, using your own modifier for the rolled skill.",
                 "perfect": "You can make a new roll for your partner, using your own modifier for any relevant skill."
             }

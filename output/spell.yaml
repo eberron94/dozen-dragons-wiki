@@ -31,7 +31,6 @@
         - spell.cantrip.1st.da.phase-bolt
         - spell.cantrip.1st.da.telekinetic-rend
         - spell.cantrip.1st.da.thermal-stasis
-        - spell.cantrip.1st.da.time-sense
         - spell.cantrip.1st.da.warp-step
         - spell.cantrip.1st.som.approximate
         - spell.cantrip.1st.som.bullhorn
@@ -73,6 +72,7 @@
         - spell.focus-cantrip.1st.crb.inspire-courage
         - spell.focus-cantrip.1st.da.pact-broker
         - spell.focus-cantrip.1st.lol.spirit-object
+        - spell.focus-cantrip.1st.lomm.buzzing-bites
         - spell.focus-cantrip.1st.som.boost-eidolon
         - spell.focus-cantrip.1st.som.reinforce-eidolon
         - spell.focus-cantrip.2nd.crb.inspire-defense
@@ -610,6 +610,7 @@
         - spell.slot.1st.crb.unseen-servant
         - spell.slot.1st.crb.ventriloquism
         - spell.slot.1st.da.kinetic-ram
+        - spell.slot.1st.da.time-sense
         - spell.slot.1st.ec-1.personal-rain-cloud
         - spell.slot.1st.ec-1.scouring-sand
         - spell.slot.1st.ec-1.verdant-sprout

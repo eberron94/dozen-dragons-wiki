@@ -161,7 +161,7 @@ const handleRClickCopyId = (event) => {
     const newId = event.target.dataset.id;
 
     if (newId) {
-        navigator.clipboard.writeText(newId);
+        navigator.clipboard.writeText(String(newId));
         toast(`Copied ID [${newId}] to clipboard`);
     }
 };
@@ -186,7 +186,7 @@ const handleCopyId = (event) => {
         .join(', ');
     console.log('copying', idList);
     if (idList.length) {
-        navigator.clipboard.writeText(idList);
+        navigator.clipboard.writeText(String(idList));
         toast('Copied IDs to clipboard');
     }
 };
@@ -222,7 +222,7 @@ const handleCopyName = (event) => {
     const names = idList2Names(idList);
     console.log('copying', names);
     if (names.length) {
-        navigator.clipboard.writeText(names);
+        navigator.clipboard.writeText(String(names));
         toast('You have selected the following cards:\n' + names);
     }
 };

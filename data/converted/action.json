@@ -11,7 +11,10 @@
             "rule",
             "text | Your ancestral resistance to magic protects you. You gain a +1 circumstance bonus to the triggering saving throw. If the triggering effect is occult, you gain a +2 circumstance bonus instead."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.basic.brew.synthesize-strategy",
@@ -31,7 +34,11 @@
             "property | Critical Failure | You learn nothing.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate"
+        ]
     },
     {
         "id": "action.basic.brew.pool-information",
@@ -45,7 +52,14 @@
             "rule",
             "text | You and any allies partaking in this activity Recall Knowledge on the same topic, it loses the secret trait. The highest roll is used for the check and all other rolls are made against a retroactive DC 20, as if they had taken the Aid reaction."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "verbal",
+            "linguistic",
+            "exploration"
+        ]
     },
     {
         "id": "action.brew.connect-a-topic",
@@ -60,7 +74,12 @@
             "rule",
             "text | You reference your journal and the topics held within it. You Recall Knowledge and gain a status bonus to the roll if you expend a relevant topic. The status bonus is a +1 for broad topics and +2 for narrow topics."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "manipulate"
+        ]
     },
     {
         "id": "action.brew.no-need-for-tricks",
@@ -75,7 +94,12 @@
             "rule",
             "text | You can activate the magic of an item of your level or lower that either casts a spell in your codex or is in your formula book. This counts as an automatic success on your attempt to Trick a Magic Item. You must know what activating the item does, or you can't attempt to trick it."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "manipulate",
+            "artificer"
+        ]
     },
     {
         "id": "action.ancestry.changeling.brew.changeling-shape",
@@ -92,7 +116,13 @@
             "text | If you are exposed to cold-iron, you must make a flat DC 15 check at the start of your turn. On a failure, you return to your original changeling form. On a critical failure, you cannot use this action again until your next daily preparation.",
             "text | Despite being an effect that changes appearance, this action does not have the polymorph trait since it does not prevent other attempts to change your shape. This does not counteract polymorph effects."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "occult",
+            "transmutation"
+        ]
     },
     {
         "id": "action.class.magus.som.arcane-cascade-inexorable-iron",
@@ -113,7 +143,13 @@
             "bullet | **Necromancy** negative",
             "text | **Inexorable Iron** When you enter Arcane Cascade stance and at the start of each of your turns while you're in that stance, if you're wielding a melee weapon in two hands, you gain temporary Hit Points equal to half your level (minimum 1 temporary HP)."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "magus",
+            "stance"
+        ]
     },
     {
         "id": "action.class.magus.som.arcane-cascade-laughing-shadow",
@@ -134,7 +170,13 @@
             "bullet | **Necromancy** negative",
             "text | **Laughing Shadow** While in Arcane Cascade stance, you gain a +5-foot status bonus to your Speeds, or a +10-foot bonus if you're unarmored. If you have a free hand while in the stance and are attacking a flat-footed creature, you increase the extra damage to 3, to 5 if you have weapon specialization, or to 7 if you have greater weapon specialization. You must have your other hand completely free; the extra damage doesn't apply if you have a free-hand weapon or other item in that hand, even if you would normally be able to use the hand for other things."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "magus",
+            "stance"
+        ]
     },
     {
         "id": "action.class.magus.som.arcane-cascade-sparkling-targe",
@@ -155,7 +197,13 @@
             "bullet | **Necromancy** negative",
             "text | **Sparkling Targe** When you're in Arcane Cascade stance with your shield raised, your circumstance bonus to AC from your shield also applies to your saves against spells and other magical effects. In addition, damage you take as a result of a spell or magical effect while you're in Arcane Cascade can trigger your Shield Block reaction, even if the damage isn't physical. When blocking damage in this way, increase your shield's Hardness by an amount equal to the extra damage from Arcane Cascade (typically 1, but 2 if you have weapon specialization, or 3 if you have greater weapon specialization). These benefits apply whether you're using an actual shield, the shield spell, or something else that works like a shield (such as a raised tome if you have the Raise a Tome feat)."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "magus",
+            "stance"
+        ]
     },
     {
         "id": "action.class.magus.som.arcane-cascade-twisting-tree",
@@ -176,7 +224,13 @@
             "bullet | **Necromancy** negative",
             "text | **Twisting Tree** While you're in Arcane Cascade stance, you can Interact or Release to change your grip on the weapon as a free action when you Strike with your staff, including Strikes made in a Spellstrike. This happens before you roll your attack roll. You can also Interact to change your grip on the staff as a free action triggered at the end of your turn."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "magus",
+            "stance"
+        ]
     },
     {
         "id": "action.class.magus.som.spellstrike-starlit-span",
@@ -192,7 +246,11 @@
             "text | After you use Spellstrike, you can't do so again until you recharge your Spellstrike as a single action, which has the concentrate trait. You also recharge your Spellstrike when you cast a conflux spell that takes at least 1 action to cast; casting a focus spell of another type doesn't recharge your Spellstrike.",
             "text | **Starlit Span** When you use Spellstrike, you can make a ranged weapon or ranged unarmed Strike, as long as the target is within the first range increment of your ranged weapon or ranged unarmed attack. You can deliver the spell even if its range is shorter than the range increment of your ranged attack."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "magus"
+        ]
     },
     {
         "id": "action.class.ranger.crb.hunt-prey-flurry",
@@ -209,7 +267,12 @@
             "text | You can have only one creature designated as your prey at a time. If you use Hunt Prey against a creature when you already have a creature designated, the prior creature loses the designation and the new prey gains the designation. Your designation lasts until your next daily preparations.",
             "text | **Flurry Edge** You have trained to unleash a devastating flurry of attacks upon your prey. Your multiple attack penalty for attacks against your hunted prey is -3 (-2 with an agile weapon) on your second attack of the turn instead of -5, and -6 (-4 with an agile weapon) on your third or subsequent attack of the turn, instead of -10."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "ranger"
+        ]
     },
     {
         "id": "action.class.ranger.crb.hunt-prey-outwit",
@@ -226,7 +289,12 @@
             "text | You can have only one creature designated as your prey at a time. If you use Hunt Prey against a creature when you already have a creature designated, the prior creature loses the designation and the new prey gains the designation. Your designation lasts until your next daily preparations.",
             "text | **Outwit Edge** You gain a +2 circumstance bonus to Deception checks, Intimidation checks, Stealth checks, and any checks to Recall Knowledge about the prey, and a +1 circumstance bonus to AC against your prey's attacks."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "ranger"
+        ]
     },
     {
         "id": "action.class.ranger.crb.hunt-prey-precision",
@@ -243,7 +311,12 @@
             "text | You can have only one creature designated as your prey at a time. If you use Hunt Prey against a creature when you already have a creature designated, the prior creature loses the designation and the new prey gains the designation. Your designation lasts until your next daily preparations.",
             "text | **Outwit Edge** The first time you hit your hunted prey in a round, you also deal 1d8 additional precision damage. (Precision damage increases the damage you already deal, using the same type, but is ineffective against creatures that lack vital organs or weak points.) At 11th level, the extra damage increases to 2d8 precision damage, and at 19th level, the extra damage increases to 3d8 precision damage."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "ranger"
+        ]
     },
     {
         "id": "action.ancestry.shifter.brew.shifter-shape",
@@ -258,7 +331,14 @@
             "rule",
             "text | You assume a more bestial shape. This hybrid-form shape has a specific, persistent appearance, which appears to be a half mix between a human and your beast within. This change is not similar to the change of a were-creature. While in hybrid-form, you gain the beast trait and a feature of the beast within your heritage. This transformation lasts for 10 minutes, or until you spend an action, with the concentrate trait, to dismiss it. In addition, you gain a claws or horns unarmed Strike resembling the features of your beast within (claws for felines, talons for eagles, and so on). Your claws deal 1d4 piercing damage, have the agile, finesse, and unarmed traits, and are in the brawling weapon group."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "primal",
+            "transmutation",
+            "polymorph"
+        ]
     },
     {
         "id": "action.ancestry.shifter.brew.brace",
@@ -273,10 +353,14 @@
             "rule",
             "text | You brace yourself to take a hit, using your thick skin and fortitude to protect yourself. You gain a +1 circumstance bonus to AC. This remains until the start of your next turn."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "shifter"
+        ]
     },
     {
-        "id": "action.brew.practice-teamwork",
+        "id": "action.downtime.brew.practice-teamwork",
         "color": "#B71C1C",
         "name": "Practice Teamwork",
         "title": "Practice Teamwork",
@@ -291,10 +375,15 @@
             "bullet | **10 additional days** You can use the Excellent Teamwork effect.",
             "bullet | **20 additional days** You can use the Perfect Teamwork effect."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "downtime",
+            "teamwork"
+        ]
     },
     {
-        "id": "action.brew.dual-studies",
+        "id": "action.downtime.brew.dual-studies",
         "color": "#B71C1C",
         "name": "Dual Studies",
         "title": "Dual Studies",
@@ -309,10 +398,15 @@
             "bullet | **15 additional days** You can use the Excellent Teamwork effect.",
             "bullet | **30 additional days** You can use the Perfect Teamwork effect."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "downtime",
+            "teamwork"
+        ]
     },
     {
-        "id": "action.brew.certified-first-aid",
+        "id": "action.downtime.brew.certified-first-aid",
         "color": "#B71C1C",
         "name": "Certified First Aid",
         "title": "Certified First Aid",
@@ -327,7 +421,66 @@
             "bullet | **10 additional days** You can use the Excellent Teamwork effect.",
             "bullet | **20 additional days** You can use the Perfect Teamwork effect if you have Battle Medicine."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "downtime",
+            "teamwork"
+        ]
+    },
+    {
+        "id": "action.lomm.harvest-heartsliver",
+        "color": "#B71C1C",
+        "name": "Harvest Heartsliver",
+        "title": "Harvest Heartsliver [[reaction]]",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | rare | manipulate",
+            "property | Requirements | You're inside Kothogaz's body.",
+            "rule",
+            "text | You attempt to steal a section of Kothogaz's heart. Attempt an attack roll or a DC 40 Acrobatics, Athletics, Medicine, Nature, Occultism, or Religion check.",
+            "fill",
+            "property | Critical Success | You steal a small disharmonic heartsliver, stow it on your person, and can exit Kothogaz's body.",
+            "property | Success | As critical success, but you can't exit.",
+            "property | Failure | You take Kothogaz's Swallow Whole damage.",
+            "property | Critical Failure | You take double Kothogaz's Swallow Whole damage and are deafened by its heartbeat for 1 minute.",
+            "fill"
+        ],
+        "reference": [],
+        "filtering": [
+            "action",
+            "rare",
+            "manipulate"
+        ]
+    },
+    {
+        "id": "action.downtime.lomm.craft-disharmonic-instrument",
+        "color": "#B71C1C",
+        "name": "Craft Disharmonic Instrument",
+        "title": "Craft Disharmonic Instrument",
+        "icon_front": "expander",
+        "code": "action",
+        "contents": [
+            "pftrait | rare | downtime | manipulate",
+            "property | Requirements | Legendary in Crafting",
+            "rule",
+            "text | You use legendary Vudran techniques to craft a disharmonic instrument that incorporates pieces of Kothogaz's heart. This is likely a tanpura, but legends mention other instruments and even voice enhancers. A disharmonic instrument is a virtuoso musical instrument.",
+            "text | This activity requires seven disharmonic heartslivers, the formula for a disharmonic instrument, 55,000 gp worth of rare materials, and 7 days of work. At the end of the 7 days, attempt a DC 40 Crafting check to Craft.",
+            "fill",
+            "property | Critical Success | You masterfully complete the disharmonic instrument. Holding the instrument grants immunity to Kothogaz's tympanic heartbeat and many-eyed blight.",
+            "property | Success | You complete the disharmonic instrument.",
+            "property | Failure | You don't complete the disharmonic instrument, and you contract many-eyed blight from the heartslivers.",
+            "property | Critical Failure | As failure, and whenever you're on the same plane as Kothogaz, it can immediately teleport to you with its Disharmonic Door ability.",
+            "fill"
+        ],
+        "reference": [],
+        "filtering": [
+            "action",
+            "rare",
+            "downtime",
+            "manipulate"
+        ]
     },
     {
         "id": "action.da.recenter",
@@ -342,7 +495,11 @@
             "rule",
             "text | You adopt the psychic center matching the emotion of your choice. If you were already psychically centered, you lose your old psychic center when you adopt the new one."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate"
+        ]
     },
     {
         "id": "action.da.psychic-defense",
@@ -358,7 +515,12 @@
             "rule",
             "text | You gain the benefit matching your psychic center against thet riggering manifestation. Then your psychic center is expended."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "magical"
+        ]
     },
     {
         "id": "action.da.exploit-vulnerability",
@@ -380,7 +542,13 @@
             "property | Critical Failure | You couldn't remember the right object to use and become distracted while you rummage through your esoterica. You become flat-footed until the beginning of your next turn.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "esoterica",
+            "manipulate",
+            "thaumaturge"
+        ]
     },
     {
         "id": "action.da.intensify-vulnerability",
@@ -397,7 +565,15 @@
             "rule",
             "text | You present your implement and esoterica again, intensifying their effects on the target in a way unique to your implement. You gain the intensified vulnerability benefit from one of the implements you're holding, which lasts until the beginning of your next turn."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "divination",
+            "esoterica",
+            "magical",
+            "thaumaturge"
+        ]
     },
     {
         "id": "action.da.amulets-abeyance",
@@ -413,7 +589,14 @@
             "rule",
             "text | You forcefully present your amulet to turn away harm. You or a target ally within 15 feet gain resistance to all damage against the triggering damage. The resistance is equal to 2 + your level."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "abjuration",
+            "magical",
+            "manipulate",
+            "thaumaturge"
+        ]
     },
     {
         "id": "action.da.ring-bell",
@@ -429,7 +612,17 @@
             "rule",
             "text | Your implement sings out abruptly, disrupting your foe. The piece played depends on whether the trigger was a Strike or Spell, and it applies to the triggering Strike or Spell, except where noted otherwise."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "auditory",
+            "emotion",
+            "enchantment",
+            "magical",
+            "manipulate",
+            "mental",
+            "thaumaturge"
+        ]
     },
     {
         "id": "action.da.drink-from-the-chalice",
@@ -445,7 +638,14 @@
             "rule",
             "text | You drink from the liquid that slowly collects in your chalice or administer it to an adjacent ally. The drinker chooses whether to take a small sip or to drain the contents."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "magical",
+            "manipulate",
+            "necromancy",
+            "thaumaturge"
+        ]
     },
     {
         "id": "action.da.mirrors-reflection",
@@ -462,7 +662,14 @@
             "text | Your mirror self mimics your actions exactly, but any effects you generate come from only one of your positions; you decide which each time you act. For example, if you made a melee Strike against a creature within reach of the reflection, you'd mime the actions of the Strike, but only the reflection would actually make the Strike. Anything that targets or would affect your reflection affects you and uses your statistics. Something that would target or affect both of you affects you only once. For example, a fireball that included both of you in its area would require only one save from you and damage you no more than once. When you move, you choose which square to move from, but the mirror effect ends (see below).",
             "text | Some events force you to determine which image is the real you, and then end the effect and cause your mirror self to disappear; this happens automatically at the start of your next turn. It also happens if you choose to move out of your space. Other benefits of this implement add more events that can end the reflection. The effect also ends when you fall unconscious, at which point you decide which version is truly you."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "illusion",
+            "magical",
+            "manipulate",
+            "thaumaturge"
+        ]
     },
     {
         "id": "action.da.fling-magic",
@@ -478,7 +685,15 @@
             "text | You fling magical energy at a target within 60 feet, dealing damage equal to 1d4 + your Charisma modifier to the target, with a basic Reflex save against your class DC. The damage is of the type you selected when you gained your wand implement. At 3rd level and every 2 levels thereafter, the damage increases by 1d4.",
             "text | You can expend more energy than usual to boost the effect of Fling Magic, dealing 1d6s of damage instead of d4s. After you do so, the wand takes 1d4 rounds to recharge, during which you can't boost the wand's damage but can continue to Fling Magic normally. If you critically hit with a Strike, your wand recharges immediately as it draws in power from the clash."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "evocation",
+            "magical",
+            "manipulate",
+            "thaumaturge"
+        ]
     },
     {
         "id": "action.da.implements-interruption",
@@ -494,7 +709,13 @@
             "rule",
             "text | Your weapon senses a moment of weakness and guides your hand to strike down a foe. Make a Strike against the triggering creature with your weapon implement. If your attack is a critical hit, you disrupt the triggering action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "evocation",
+            "magical",
+            "thaumaturge"
+        ]
     },
     {
         "id": "action.da.fade-into-daydreams",
@@ -508,7 +729,13 @@
             "rule",
             "text | Your flights of imagination spill into the real world, causing you to become indistinct, hazy, or cloaked in figments. You become concealed until the start of your next turn. This concealment can't be used to Hide, as normal for concealing effects that leave your location obvious."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "illusion",
+            "psyche",
+            "psychic"
+        ]
     },
     {
         "id": "action.da.calculate-threats",
@@ -522,7 +749,13 @@
             "rule",
             "text | Your subconscious automatically calculates vectors and forces when your mind is unleashed, showing you the likely path of incoming attacks to avoid. You gain a +2 circumstance bonus to AC and Reflex saves until the beginning of your next turn."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "mental",
+            "psyche",
+            "psychic"
+        ]
     },
     {
         "id": "action.da.recall-the-teachings",
@@ -536,7 +769,14 @@
             "rule",
             "text | The heightened power of your psyche lets you recall every lesson you've ever learned. You search your mind for the right teaching, which at first seems cryptic but comes into clarity when it's most relevant. Until the start of your next turn, you count as having prepared to Aid all allies within 30 feet of you. If you use the Aid reaction to help one of them during that time, you roll an Occultism check for Aid as you recall a lesson to help them. Most lessons take the form of short axioms, parables, or sayings, meaning that conveying them to your ally usually grants your Aid reaction the auditory and linguistic traits."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "divination",
+            "occult",
+            "psyche",
+            "psychic"
+        ]
     },
     {
         "id": "action.da.restore-the-mind",
@@ -552,7 +792,16 @@
             "bullet | The ally gains a +1 status bonus to saving throws against mental effects until your psyche ends.",
             "bullet | The ally regains Hit Points equal to 2 + double your level."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "emotion",
+            "enchantment",
+            "healing",
+            "mental",
+            "psyche",
+            "psychic"
+        ]
     },
     {
         "id": "action.class.psychic.da.unleash-psyche",
@@ -572,7 +821,11 @@
             "bullet | You can use actions that have the psyche trait.",
             "text | After your unleashed psyche subsides, your mind must recover from the strain of channeling its full power. You can't use Unleash Psyche again for 2 rounds, and you're stupefied 1 for 2 rounds."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "psychic"
+        ]
     },
     {
         "id": "action.g-g.accidental-shot",
@@ -587,7 +840,11 @@
             "rule",
             "text | You make a Strike with a ranged weapon, rolling the attack and damage twice and using the better results for each. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being concealed or hidden."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "fortune"
+        ]
     },
     {
         "id": "action.class.summoner.som.act-together",
@@ -604,7 +861,12 @@
             "text | For example, if you spent 2 actions to Act Together, you could cast burning hands (2 actions) and your eidolon could Strike (1 action), or your eidolon could use its Breath Weapon (2 actions) and you could Stride (1 action).",
             "text | This lets you each use separate exploration activities like Avoid Notice as you travel (Core Rulebook 496)."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "summoner",
+            "tandem"
+        ]
     },
     {
         "id": "action.basic.crb.activate-an-item",
@@ -625,7 +887,10 @@
             "bullet | Interact (manipulate)",
             "bullet | Cast a Spell"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.administer-first-aid",
@@ -646,7 +911,11 @@
             "property | Critical Failure | If you were trying to stabilize, the creature's dying value increases by 1. If you were trying to stop bleeding, it immediately takes an amount of damage equal to its persistent bleed damage.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "manipulate"
+        ]
     },
     {
         "id": "action.basic.som.affix-a-fulu",
@@ -660,7 +929,11 @@
             "rule",
             "text | You affix a fulu to an armor, weapon, shield, creature, or structure that's beside or in the same square as you. A creature can remove a fulu from itself or an unattended object in its reach with a single action."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "manipulate"
+        ]
     },
     {
         "id": "action.basic.crb.affix-a-talisman",
@@ -675,7 +948,12 @@
             "rule",
             "text | You spend 10 minutes affixing a talisman to an item, placing the item on a stable surface and using the repair kit with both hands. You can also use this activity to remove a talisman. Attaching more than one talisman to an item deactivates all the talismans. They must be removed and re-affixed before they can be used again."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "exploration",
+            "manipulate"
+        ]
     },
     {
         "id": "action.basic.crb.aid",
@@ -696,7 +974,10 @@
             "property | Critical Failure | Your ally takes a –1 circumstance penalty to the triggering check.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.ancestry.vishkanya.loil.envenom",
@@ -720,7 +1001,11 @@
             "rule",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "manipulate"
+        ]
     },
     {
         "id": "action.ancestry.vishkanya.loil.venom-draw",
@@ -734,7 +1019,10 @@
             "rule",
             "text | You quickly envenom poisonous saliva on your weapon as you draw it. Interact to draw a weapon, and then Envenom it. This uses up your daily use of Envenom."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.ancestry.nagaji.loil.raise-neck",
@@ -747,7 +1035,10 @@
             "rule",
             "text | You raise your head into a striking position. The fangs Strike granted by your nagaji ancestry gains a reach of 10 feet until the end of your turn."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.ancestry.ghoran.loil.wicked-thorns",
@@ -762,7 +1053,10 @@
             "rule",
             "text | Several of your thorns break off and hook into your attacker's body. You deal 1d8 piercing damage to the triggering creature. It attempts a basic Reflex save against the higher of your class DC or spell DC. On a critical failure, the creature also takes 1d4 persistent bleed damage as your thorns embed in its flesh. At 3rd level, and every 2 levels thereafter, this damage increases by 2d8, and the persistent piercing damage increases by 2."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.ancestry.anadi.lome.anadi-venom",
@@ -775,7 +1069,10 @@
             "rule",
             "text | You envenom your fangs. If the next fangs Strike you make before the end of your turn hits and deals damage, the Strike deals an additional 1d6 poison damage. On a critical failure, the poison is wasted as normal. At 12th level, this poison damage increases to 2d6."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.class.magus.som.arcane-cascade",
@@ -795,7 +1092,13 @@
             "bullet | **Divination, Enchantment, or Illusion** mental",
             "bullet | **Necromancy** negative"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "magus",
+            "stance"
+        ]
     },
     {
         "id": "action.basic.crb.arrest-a-fall",
@@ -813,7 +1116,10 @@
             "property | Success | You fall gently, taking no damage from the fall.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.class.fighter.crb.attack-of-opportunity",
@@ -827,7 +1133,10 @@
             "rule",
             "text | You lash out at a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.ancestry.automaton.g-g.automaton-aim",
@@ -840,7 +1149,10 @@
             "rule",
             "text | You steady your body and observe the events of the battlefield to maximize the range of your next shot. You reduce the penalty for firing into your weapon's second range increment from –2 to 0 for the next ranged attack you make this turn. You can use this action a second time in the same turn to reduce the penalty from firing into your weapon's third range increment from –4 to 0 for the next ranged attack you make this turn."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.basic.crb.avert-gaze",
@@ -853,7 +1165,10 @@
             "rule",
             "text | You avert your gaze from danger. You gain a +2 circumstance bonus to saves against visual abilities that require you to look at a creature or object, such as a medusa's petrifying gaze. Your gaze remains averted until the start of your next turn."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.basic.crb.avoid-notice",
@@ -867,7 +1182,11 @@
             "rule",
             "text | You attempt a Stealth check to avoid notice while traveling at half speed. If you have the Swift Sneak feat, you can move at full Speed rather than half, but you still can't use another exploration activity while you do so. If you have the Legendary Sneak feat, you can move at full Speed and use a second exploration activity. If you're Avoiding Notice at the start of an encounter, you usually roll a Stealth check instead of a Perception check both to determine your initiative and to see if the enemies notice you (based on their Perception DCs, as normal for Sneak, regardless of their initiative check results)."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "exploration"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.balance",
@@ -888,7 +1207,11 @@
             "property | Critical Failure | You fall and your turn ends.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "move"
+        ]
     },
     {
         "id": "action.ancestry.shisk.lome.barbed-quills",
@@ -903,7 +1226,10 @@
             "rule",
             "text | You break off quills in your attacker's flesh. You deal 1d8 piercing damage to the triggering creature (basic Reflex save using your class DC or spell DC, whichever is higher.) On a critical failure, the creature also takes 1d4 persistent bleed damage as your quills hook into its flesh. At 3rd level, and every 2 levels thereafter, this damage increases by 1d8 and the persistent piercing damage increases by 1."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.gmg.board",
@@ -918,7 +1244,11 @@
             "rule",
             "text | You board a vehicle through an open top, a door, a portal, or a hatch; if you're already on board, you can instead use this action to disembark into an empty space adjacent to the vehicle's point of entry. Using this action while the vehicle is in motion is challenging, requiring a successful Acrobatics or Athletics check with a DC equal to the vehicle's AC."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "move"
+        ]
     },
     {
         "id": "action.basic.skill.trained.crb.borrow-an-arcane-spell",
@@ -936,10 +1266,15 @@
             "property | Failure | You fail to prepare the spell, but the spell slot remains available for you to prepare a different spell. You can't try to prepare this spell until the next time you prepare spells.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "exploration"
+        ]
     },
     {
-        "id": "action.gmg.bribe-contact",
+        "id": "action.downtime.gmg.bribe-contact",
         "color": "#B71C1C",
         "name": "Bribe Contact",
         "title": "Bribe Contact",
@@ -956,7 +1291,12 @@
             "property | Critical Failure | As failure, but adding 2 AP to the infiltration.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "downtime",
+            "secret"
+        ]
     },
     {
         "id": "action.gmg.bullying-press",
@@ -972,7 +1312,11 @@
             "rule",
             "text | If you hit, your opponent becomes frightened 1. If your opponent is using Perception for initiative when this ability is used, they become frightened 2 instead."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "flourish"
+        ]
     },
     {
         "id": "action.basic.crb.burrow",
@@ -987,7 +1331,11 @@
             "rule",
             "text | You dig your way through dirt, sand, or a similar loose material at a rate up to your burrow Speed. You can't burrow through rock or other substances denser than dirt unless you have an ability that allows you to do so."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "move"
+        ]
     },
     {
         "id": "action.ancestry.dwarf.crb.call-on-ancient-blood",
@@ -1001,7 +1349,10 @@
             "rule",
             "text | Your ancestors' innate resistance to magic surges, before slowly ebbing down. You gain a +1 circumstance bonus until the end of this turn. This bonus also applies to the triggering save."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.ancestry.conrasu.lome.call-to-axis",
@@ -1017,7 +1368,11 @@
             "rule",
             "text | You call upon the knowledge of Axis to ensure the accuracy of your information. You roll a second time and use the higher result. If you roll a critical failure, you get a failure instead. If you roll a success, you get a critical success instead."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "fortune"
+        ]
     },
     {
         "id": "action.basic.crb.cast-a-spell",
@@ -1038,7 +1393,10 @@
             "bullet | Focus (manipulate)",
             "text | **Disrupted and Lost Spells** Some abilities and spells can disrupt a spell, causing it to have no effect and be lost. When you lose a spell, you've already expended the spell slot, spent the spell's costs and actions, and used the Cast a Spell activity. If a spell is disrupted during a Sustain a Spell action, the spell immediately ends. The full rules for disrupting actions appear here."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.ancestry.kitsune.loag.change-shape",
@@ -1052,7 +1410,15 @@
             "rule",
             "text | You transform into a specific alternate form determined by your heritage. If your heritage doesn't list a form, your alternate form is a tailless form, which is a common Medium humanoid ancestry prevalent where you grew up (typically human). This form is the same age and body type as your true form and has roughly analogous physical traits, such as hair color. Using Change Shape counts as creating a disguise for the Impersonate use of Deception. You lose any unarmed Strikes you gained from a kitsune heritage or ancestry feat in this form. You can remain in your alternate form indefinitely, and you can shift back to your true kitsune form by using this action again."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "divine",
+            "kitsune",
+            "polymorph",
+            "transmutation"
+        ]
     },
     {
         "id": "action.loag.change-shape",
@@ -1066,7 +1432,14 @@
             "rule",
             "text | You change into your humanoid or hybrid shape. Each shape has a specific, persistent appearance, and most beastkin remain in their hybrid shapes by default. In hybrid shape, you appear as a mix between your ancestry and your inherent animal. While in hybrid shape, you gain a jaws unarmed Strike resembling the features of your inherent animal (fangs for bats, beaks for eagles, mandibles for wasps, and so on). Your jaws deal 1d4 piercing damage, have the agile, finesse, and unarmed traits, and are in the brawling weapon group. In your humanoid shape, you retain the appearance of your original ancestry."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "polymorph",
+            "primal",
+            "transmutation"
+        ]
     },
     {
         "id": "action.gmg.change-tradition-focus",
@@ -1081,7 +1454,11 @@
             "rule",
             "text | You change your tradition focus to another magical tradition."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "magical"
+        ]
     },
     {
         "id": "action.som.cleanse-soul-path",
@@ -1095,7 +1472,11 @@
             "rule",
             "text | You meditate, pray, or otherwise try to reinforce your soul's connection to your soulforged armament. This takes 10 minutes. Attempt a counteract check against your soulforged corruption. The counteract level is half your level rounded up, and the counteract check modifier is your Religion modifier. If successful, reduce the stage of your soulforged corruption by 1 (to a minimum of Stage 1)."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "exploration"
+        ]
     },
     {
         "id": "action.class.gunslinger.subclass.vanguard.g-g.clear-a-path",
@@ -1110,7 +1491,11 @@
             "rule",
             "text | You push outward with your weapon to clear some space before quickly reloading a fresh round. You make an Athletics check to Shove an opponent within your reach using your weapon, then Interact to reload. For this Shove, you don't need a free hand, and you add the weapon's item bonus on attack rolls (if any) to the Athletics check. If your last action was a ranged Strike with the weapon, use the same multiple attack penalty as that Strike for the Shove; the Shove still counts toward your multiple attack penalty on further attacks as normal."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.climb",
@@ -1130,7 +1515,11 @@
             "property | Critical Failure | You fall. If you began the climb on stable ground, you fall and land prone.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "move"
+        ]
     },
     {
         "id": "action.class.investigator.apg.clue-in",
@@ -1142,11 +1531,16 @@
         "contents": [
             "pftrait | concentrate | investigator",
             "property | Trigger | Another creature attempts a check to investigate a lead you're pursuing.",
-            "property | Frequency | once per minute",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You share information with the triggering creature. They gain a circumstance bonus to their check equal to your circumstance bonus to checks investigating your subject from Pursue a Lead. The GM can add any relevant traits to this reaction depending on the situation, such as auditory and linguistic if you're conveying information verbally."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "investigator"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.coerce",
@@ -1166,7 +1560,16 @@
             "property | Critical Failure | The target refuses to comply, becomes hostile if they weren't already, and can't be Coerced by you for at least 1 week.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "auditory",
+            "concentrate",
+            "emotion",
+            "exploration",
+            "linguistic",
+            "mental"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.command-an-animal",
@@ -1187,7 +1590,12 @@
             "property | Critical Failure | The animal misbehaves or misunderstands, and it takes some other action determined by the GM.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "auditory",
+            "concentrate"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.conceal-an-object",
@@ -1206,7 +1614,12 @@
             "property | Failure | The searcher finds the object.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "manipulate",
+            "secret"
+        ]
     },
     {
         "id": "action.loag.conduct-energy",
@@ -1221,7 +1634,11 @@
             "rule",
             "text | You channel energy into your weapon. The weapon deals 1 additional damage per weapon damage die until the start of your next turn. This damage type matches the trait of the triggering action or spell. If your triggering action or spell had multiple eligible traits, you select one of those traits."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "energy"
+        ]
     },
     {
         "id": "action.class.swashbuckler.apg.confident-finisher",
@@ -1238,7 +1655,12 @@
             "property | Failure | You deal half your precise strike damage to the target. This damage type is that of the weapon or unarmed attack you used for the Strike.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "finisher",
+            "swashbuckler"
+        ]
     },
     {
         "id": "action.basic.skill.trained.crb.cover-tracks",
@@ -1253,7 +1675,13 @@
             "text | You cover your tracks, moving up to half your travel Speed. You don't need to attempt a Survival check to cover your tracks, but anyone tracking you must succeed at a Survival check against your Survival DC if it is higher than the normal DC to Track.",
             "text | In some cases, you might Cover Tracks in an encounter. In this case, Cover Tracks is a single action and doesn't have the exploration trait."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "exploration",
+            "move"
+        ]
     },
     {
         "id": "action.class.gunslinger.subclass.sniper.g-g.covered-reload",
@@ -1267,10 +1695,14 @@
             "rule",
             "text | You duck into a safe position or minimize your profile while reloading to make your next attack. Either Take Cover or attempt to Hide, then Interact to reload. As normal, you must meet the requirements to Take Cover or Hide; you must be prone, benefiting from cover, or near a feature that allows you to Take Cover, and you need to be benefiting from cover or concealed to a creature to Hide from that creature."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger"
+        ]
     },
     {
-        "id": "action.basic.skill.trained.crb.craft",
+        "id": "action.downtime.basic.skill.trained.crb.craft",
         "color": "#B71C1C",
         "name": "Craft",
         "title": "Craft",
@@ -1294,10 +1726,15 @@
             "property | Critical Failure | You fail to complete the item. You ruin 10% of the raw materials you supplied, but you can salvage the rest. If you want to try again, you must start over.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "downtime",
+            "manipulate"
+        ]
     },
     {
-        "id": "action.sot-1.cram",
+        "id": "action.downtime.sot-1.cram",
         "color": "#B71C1C",
         "name": "Cram",
         "title": "Cram",
@@ -1309,7 +1746,11 @@
             "rule",
             "text | Realizing that you're falling behind in your studies, you cram more than you probably should. You Study twice, each in a branch that satisfies the activity requirements. However, the extra studying comes at a price. Until the next time you take the Study downtime activity, you're particularly tired from all the extra hours cramming; at the start of each day of adventuring, you must succeed at a DC 8 flat check or be fatigued for that day."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "downtime"
+        ]
     },
     {
         "id": "action.basic.crb.crawl",
@@ -1324,7 +1765,11 @@
             "rule",
             "text | You move 5 feet by crawling and continue to stay prone."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "move"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.create-a-diversion",
@@ -1343,10 +1788,14 @@
             "property | Failure | You don't divert the attention of any creatures whose Perception DC exceeds your result, and those creatures are aware you were trying to trick them.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "mental"
+        ]
     },
     {
-        "id": "action.basic.skill.trained.crb.create-forgery",
+        "id": "action.downtime.basic.skill.trained.crb.create-forgery",
         "color": "#B71C1C",
         "name": "Create Forgery",
         "title": "Create Forgery",
@@ -1364,7 +1813,12 @@
             "property | Failure | The observer knows your document is a forgery.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "downtime",
+            "secret"
+        ]
     },
     {
         "id": "action.class.rogue.crb.debilitating-strike",
@@ -1381,7 +1835,11 @@
             "bullet | **Debilitation** the target takes a –10-foot status penalty to its Speeds.",
             "bullet | **Debilitation** The target becomes enfeebled 1."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "rogue"
+        ]
     },
     {
         "id": "action.gmg.deceptive-sidestep",
@@ -1397,7 +1855,11 @@
             "rule",
             "text | You draw your enemy in and pull away at the last moment. The triggering opponent must roll again and take the second result. If your opponent is using Intimidation for initiative when this ability is used, they also take a –2 circumstance penalty to the second attack roll."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "misfortune"
+        ]
     },
     {
         "id": "action.basic.crb.decipher-writing",
@@ -1418,7 +1880,13 @@
             "property | Critical Failure | You believe you understand the text on that page, but you have in fact misconstrued its message.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "exploration",
+            "secret"
+        ]
     },
     {
         "id": "action.basic.crb.defend",
@@ -1432,7 +1900,11 @@
             "rule",
             "text | You move at half your travel speed with your shield raised. If combat breaks out, you gain the benefits of Raising a Shield before your first turn begins."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "exploration"
+        ]
     },
     {
         "id": "action.basic.crb.delay",
@@ -1447,7 +1919,10 @@
             "text | You wait for the right moment to act. The rest of your turn doesn't happen yet. Instead, you're removed from the initiative order. You can return to the initiative order as a free action triggered by the end of any other creature's turn. This permanently changes your initiative to the new position. You can't use reactions until you return to the initiative order. If you Delay an entire round without returning to the initiative order, the actions from the Delayed turn are lost, your initiative doesn't change, and your next turn occurs at your original position in the initiative order.",
             "text | When you Delay, any persistent damage or other negative effects that normally occur at the start or end of your turn occur immediately when you use the Delay action. Any beneficial effects that would end at any point during your turn also end. The GM might determine that other effects end when you Delay as well. Essentially, you can't Delay to avoid negative consequences that would happen on your turn or to extend beneficial effects that would end on your turn."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.demoralize",
@@ -1465,7 +1940,15 @@
             "property | Success | The target becomes frightened 1.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "auditory",
+            "concentrate",
+            "emotion",
+            "fear",
+            "mental"
+        ]
     },
     {
         "id": "action.class.champion.subclass.antipaladin.apg.destructive-vengeance",
@@ -1481,7 +1964,12 @@
             "text | Bloodshed begets bloodshed as you drag your enemy toward oblivion. You increase the amount of damage you take by 1d6, and you deal 1d6 damage to the triggering enemy, choosing evil or negative damage to deal to the enemy each time you use this reaction. In addition, until the end of your next turn, your Strikes against the triggering creature deal 2 extra damage of the type you chose.",
             "text | The damage you take and deal when you use this reaction increases to 2d6 at 5th level, 3d6 at 9th level, 4d6 at 12th level, 5d6 at 16th level, and 6d6 at 19th level. The extra damage on your Strikes increases to 4 at 9th level and 6 at 16th level."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "uncommon",
+            "champion"
+        ]
     },
     {
         "id": "action.basic.crb.detect-magic",
@@ -1495,7 +1983,12 @@
             "rule",
             "text | You cast detect magic at regular intervals. You move at half your travel speed or slower. You have no chance of accidentally overlooking a magic aura at a travel speed up to 300 feet per minute, but must be traveling no more than 150 feet per minute to detect magic auras before the party moves into them."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "exploration",
+            "concentrate"
+        ]
     },
     {
         "id": "action.class.investigator.apg.devise-a-stratagem",
@@ -1512,7 +2005,13 @@
             "text | When you make this substitution, you can also add your Intelligence modifier to your attack roll instead of your Strength or Dexterity modifier, provided your Strike uses an agile or finesse melee weapon, an agile or finesse unarmed attack, a ranged weapon (which must be agile or finesse if it's a melee weapon with the thrown trait), or a sap.",
             "text | If you're aware that the creature you choose is the subject of a lead you're pursuing, you can use this ability as a free action."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "fortune",
+            "investigator"
+        ]
     },
     {
         "id": "action.basic.skill.trained.crb.disable-a-device",
@@ -1533,7 +2032,11 @@
             "property | Critical Failure | You trigger the device.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "manipulate"
+        ]
     },
     {
         "id": "action.basic.skill.trained.crb.disarm",
@@ -1553,7 +2056,11 @@
             "property | Critical Failure | You lose your balance and become flat-footed until the start of your next turn.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "attack"
+        ]
     },
     {
         "id": "action.gmg.discover",
@@ -1573,7 +2080,12 @@
             "property | Critical Failure | Choose a piece of information to learn about, as success, but the information is incorrect. For instance, you might think the NPC is susceptible to flattery when actually the NPC is resistant to flattery.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "secret"
+        ]
     },
     {
         "id": "action.basic.crb.dismiss",
@@ -1587,7 +2099,11 @@
             "rule",
             "text | You end one spell effect or magic item effect. This must be an effect you are allowed to dismiss, as defined by the spell or item. Dismissal might end the effect entirely or might end it just for a certain target or targets, depending on the spell or item."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate"
+        ]
     },
     {
         "id": "action.class.gunslinger.g-g.dispelling-bullet",
@@ -1601,7 +2117,13 @@
             "rule",
             "text | You imprint a bullet with a field of abjuration built upon your magical signature, disrupting the magic of whatever it hits. Make a firearm or crossbow Strike against a foe you can see. If you hit, you attempt to counteract a spell effect active on the target (your choice, or the highest-level effect if you don't choose). Your counteract level is equal to half your level (rounded up), and your counteract check modifier is equal to your class DC – 10."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "abjuration",
+            "magical",
+            "spellshot"
+        ]
     },
     {
         "id": "action.class.wizard.crb.drain-bonded-item",
@@ -1616,7 +2138,12 @@
             "rule",
             "text | You expend the power stored in your bonded item, as long as the item is on your person. During your turn, you gain the ability to cast one spell you prepared today and already cast, without spending a spell slot. You must still Cast the Spell and meet the spell's other requirements."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "arcane",
+            "wizard"
+        ]
     },
     {
         "id": "action.class.gunslinger.subclass.drifter.g-g.drifters-wake",
@@ -1630,7 +2157,11 @@
             "rule",
             "text | You drift across the battlefield, striking down foes as you go. You Stride, and you can Strike up to three times at any points during your movement. Each attack must target a different enemy and must be made with a one-handed firearm, crossbow, melee weapon, or unarmed attack. Each attack counts toward your multiple attack penalty, but your multiple attack penalty doesn't increase until you've made all your attacks. Your movement doesn't trigger reactions."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger"
+        ]
     },
     {
         "id": "action.gmg.drive",
@@ -1648,7 +2179,11 @@
             "text | [[two-action]] (reckless) The vehicle moves up to twice its Speed in a straight line at the vehicle's current heading.",
             "text | [[three-action]] (reckless) You take a –5 penalty on your piloting check to maintain control of the vehicle. The vehicle moves up to three times its Speed in a straight line at the vehicle's current heading."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "move"
+        ]
     },
     {
         "id": "action.basic.crb.drop-prone",
@@ -1662,7 +2197,11 @@
             "rule",
             "text | You fall prone."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "move"
+        ]
     },
     {
         "id": "action.gmg.dueling-counter",
@@ -1678,10 +2217,14 @@
             "rule",
             "text | Expend a prepared spell or spell slot. You then attempt to counteract the triggering spell with the expended spell."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "magical"
+        ]
     },
     {
-        "id": "action.basic.crb.earn-income",
+        "id": "action.downtime.basic.crb.earn-income",
         "color": "#B71C1C",
         "name": "Earn Income",
         "title": "Earn Income",
@@ -1700,7 +2243,11 @@
             "property | Critical Failure | You earn nothing for your work and are fired immediately. You can't continue at the task. Your reputation suffers, potentially making it difficult for you to find rewarding jobs in that community in the future.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "downtime"
+        ]
     },
     {
         "id": "action.ancestry.dwarf.locg.energy-emanation",
@@ -1714,7 +2261,10 @@
             "rule",
             "text | Energy bursts forth from your body. You deal 1d6 damage of your chosen type to all adjacent creatures (basic Reflex save using your class DC or spell DC, whichever is higher). At 3rd level, and every 2 levels thereafter, this damage increases by 1d6."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.class.gunslinger.g-g.energy-shot",
@@ -1729,7 +2279,13 @@
             "rule",
             "text | You unleash a small surge of magical energy into your weapon, shrouding the bullet with potential energy and granting it the ability to deal energy damage to your foes to exploit their weaknesses. You can Interact to draw a ranged weapon. On your first three Strikes of this encounter with a firearm or crossbow, you deal an additional 1 acid, cold, fire or electricity damage. You choose which damage type to deal as part of making each Strike."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "evocation",
+            "magical",
+            "spellshot"
+        ]
     },
     {
         "id": "action.basic.crb.escape",
@@ -1748,7 +2304,11 @@
             "property | Critical Failure | You don't get free, and you can't attempt to Escape again until your next turn.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "attack"
+        ]
     },
     {
         "id": "action.class.investigator.subclass.empiricism.apg.expeditious-inspection",
@@ -1759,11 +2319,15 @@
         "code": "action",
         "contents": [
             "pftrait | investigator",
-            "property | Frequency | once per minute",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You observe and assess your surroundings with great speed. You Recall Knowledge, Seek, or Sense Motive."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "investigator"
+        ]
     },
     {
         "id": "action.class.inventor.g-g.explode",
@@ -1779,7 +2343,14 @@
             "text | At 3rd level, and every level thereafter, increase your explosion's damage by 1d6.",
             "text | If you have the breakthrough innovation class feature, you can choose either a 5-foot or 10-foot emanation for the area when you use Explode; if you have the revolutionary innovation class feature, you can choose a 5-foot, 10-foot, or 15-foot emanation."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "fire",
+            "unstable",
+            "inventor",
+            "manipulate"
+        ]
     },
     {
         "id": "action.basic.skill.trained.crb.feint",
@@ -1799,7 +2370,11 @@
             "property | Critical Failure | Your feint backfires. You are flat-footed against melee attacks the target attempts against you until the end of your next turn.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "mental"
+        ]
     },
     {
         "id": "action.class.gunslinger.subclass.drifter.g-g.finish-the-job",
@@ -1814,7 +2389,11 @@
             "rule",
             "text | Your last attack failed, but it set you up for another. Make a Strike with your other hand, using a one-handed melee weapon or unarmed attack. This Strike uses the same multiple attack penalty as the Strike that failed on the last action. Afterward, increase your multiple attack penalty normally."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger"
+        ]
     },
     {
         "id": "action.class.monk.crb.flurry-of-blows",
@@ -1828,7 +2407,12 @@
             "rule",
             "text | Make two unarmed Strikes. If both hit the same creature, combine their damage for the purpose of resistances and weaknesses. Apply your multiple attack penalty to the Strikes normally. As it has the flourish trait, you can use Flurry of Blows only once per turn."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "flourish",
+            "monk"
+        ]
     },
     {
         "id": "action.basic.crb.fly",
@@ -1843,7 +2427,11 @@
             "rule",
             "text | You move through the air up to your fly Speed. Moving upward (straight up or diagonally) uses the rules for moving through difficult terrain. You can move straight down 10 feet for every 5 feet of movement you spend. If you Fly to the ground, you don't take falling damage. You can use an action to Fly 0 feet to hover in place. If you're airborne at the end of your turn and didn't use a Fly action this round, you fall."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "move"
+        ]
     },
     {
         "id": "action.basic.crb.follow-the-expert",
@@ -1857,7 +2445,14 @@
             "rule",
             "text | Choose an ally attempting a recurring skill check while exploring, such as climbing, or performing a different exploration tactic that requires a skill check (like Avoiding Notice). The ally must be at least an expert in that skill and must be willing to provide assistance. While Following the Expert, you match their tactic or attempt similar skill checks. Thanks to your ally's assistance, you can add your level as a proficiency bonus to the associated skill check, even if you're untrained. Additionally, you gain a circumstance bonus to your skill check based on your ally's proficiency (+2 for expert, +3 for master, and +4 for legendary)."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "auditory",
+            "concentrate",
+            "exploration",
+            "visual"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.force-open",
@@ -1876,10 +2471,14 @@
             "property | Critical Failure | Your attempt jams the door, window, container, or gate shut, imposing a –2 circumstance penalty on future attempts to Force it Open.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "attack"
+        ]
     },
     {
-        "id": "action.gmg.forge-documents",
+        "id": "action.downtime.gmg.forge-documents",
         "color": "#B71C1C",
         "name": "Forge Documents",
         "title": "Forge Documents",
@@ -1895,7 +2494,12 @@
             "property | Critical Failure | As a failure, but a PC who tries to use the Edge Point gets a critical failure, even if they use the Edge Point after rolling a failure.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "downtime",
+            "secret"
+        ]
     },
     {
         "id": "action.gmg.fortify-camp",
@@ -1908,10 +2512,13 @@
             "rule",
             "text | You can spend time fortifying your camp for defense with a successful Crafting check (typically at a trained or expert DC). Anyone keeping watch or defending the camp gains a +2 circumstance bonus to initiative rolls and Perception checks to Seek creatures attempting to sneak up on the camp."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
-        "id": "action.gmg.gain-contact",
+        "id": "action.downtime.gmg.gain-contact",
         "color": "#B71C1C",
         "name": "Gain Contact",
         "title": "Gain Contact",
@@ -1928,7 +2535,11 @@
             "property | Special | Multiple critical failures might cause the contact to work against the PCs in some way, likely increasing the party's Awareness Points.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "downtime"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.gather-information",
@@ -1946,7 +2557,12 @@
             "property | Critical Failure | You collect incorrect information about the individual or topic.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "exploration",
+            "secret"
+        ]
     },
     {
         "id": "action.class.gunslinger.subclass.sniper.g-g.ghost-shot",
@@ -1960,7 +2576,12 @@
             "rule",
             "text | Make a firearm or crossbow Strike. If you're hidden from or undetected by the target, the Strike adds the additional precision damage from One Shot, One Kill; if you would already receive that additional damage on the Strike, the effects aren't cumulative. If you were undetected or unnoticed by any creatures, you're now hidden from them instead, as the origin of the attack is clear."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger",
+            "flourish"
+        ]
     },
     {
         "id": "action.class.champion.subclass.redeemer.crb.glimpse-of-redemption",
@@ -1977,10 +2598,14 @@
             "bullet | The ally is unharmed by the triggering damage.",
             "bullet | The ally gains resistance to all damage against the triggering damage equal to 2 + your level. After the damaging effect is applied, the enemy becomes enfeebled 2 until the end of its next turn."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "champion"
+        ]
     },
     {
-        "id": "action.gmg.gossip",
+        "id": "action.downtime.gmg.gossip",
         "color": "#B71C1C",
         "name": "Gossip",
         "title": "Gossip",
@@ -1997,7 +2622,12 @@
             "property | Critical Failure | You hear a few mistaken rumors and take a –2 circumstance penalty to your next check for a preparation activity. Word spreads around that you're asking after that group or individual, increasing your Awareness Points by 1.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "downtime",
+            "secret"
+        ]
     },
     {
         "id": "action.basic.crb.grab-an-edge",
@@ -2017,7 +2647,10 @@
             "property | Critical Failure | You continue to fall, and if you've fallen 20 feet or more before you use this reaction, you take 10 bludgeoning damage from the impact for every 20 feet fallen.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.grapple",
@@ -2038,7 +2671,11 @@
             "property | Critical Failure | If you already had the opponent grabbed or restrained, it breaks free. Your target can either grab you, as if it succeeded at using the Grapple action against you, or force you to fall and land prone.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "attack"
+        ]
     },
     {
         "id": "action.class.gunslinger.subclass.pistolero.g-g.grim-swagger",
@@ -2058,7 +2695,16 @@
             "property | Success | The creature becomes frightened 2.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger",
+            "auditory",
+            "emotion",
+            "fear",
+            "mental",
+            "linguistic"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.hide",
@@ -2075,7 +2721,11 @@
             "property | Success | If the creature could see you, you're now {@condition hidden} from it instead of {@condition observed}. If you were {@condition hidden} from or {@condition undetected} by the creature, you retain that condition.,If you successfully become hidden to a creature but then cease to have cover or greater cover against it or be concealed from it, you become observed again. You cease being hidden if you do anything except {@action Hide|CRB}, {@action Sneak|CRB}, or {@action Step|CRB}. If you attempt to {@action Strike|CRB} a creature, the creature remains {@condition flat-footed|CRB} against that attack, and you then become {@condition observed|CRB}. If you do anything else, you become {@condition observed|CRB} just before you act unless the GM determines otherwise. The GM might allow you to perform a particularly unobtrusive action without being noticed, possibly requiring another {@skill Stealth} check.,If a creature uses Seek to make you observed by it, you must successfully Hide to become hidden from it again.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "secret"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.high-jump",
@@ -2094,7 +2744,10 @@
             "property | Critical Failure | You don't Leap at all, and instead you fall prone in your space.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.class.ranger.crb.hunt-prey",
@@ -2110,7 +2763,12 @@
             "text | You gain a +2 circumstance bonus to Perception checks when you Seek your prey and a +2 circumstance bonus to Survival checks when you Track your prey. You also ignore the penalty for making ranged attacks within your second range increment against the prey you're hunting.",
             "text | You can have only one creature designated as your prey at a time. If you use Hunt Prey against a creature when you already have a creature designated, the prior creature loses the designation and the new prey gains the designation. Your designation lasts until your next daily preparations."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "ranger"
+        ]
     },
     {
         "id": "action.basic.crb.hustle",
@@ -2124,7 +2782,12 @@
             "rule",
             "text | You strain yourself to move at double your travel speed. You can Hustle only for a number of minutes equal to your Constitution modifier × 10 (minimum 10 minutes). If you are in a group that is Hustling, use the lowest Constitution modifier among everyone to determine how fast the group can Hustle together."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "exploration",
+            "move"
+        ]
     },
     {
         "id": "action.basic.skill.trained.crb.identify-alchemy",
@@ -2144,7 +2807,13 @@
             "property | Critical Failure | You misidentify the item as another item of the GM's choice.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "exploration",
+            "secret"
+        ]
     },
     {
         "id": "action.basic.crb.identify-magic",
@@ -2164,7 +2833,13 @@
             "property | Critical Failure | You misidentify the magic as something else of the GM's choice.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "exploration",
+            "secret"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.impersonate",
@@ -2184,7 +2859,14 @@
             "property | Critical Failure | The creature can tell you're not who you claim to be, and it recognizes you if it would know you without a disguise.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "exploration",
+            "manipulate",
+            "secret"
+        ]
     },
     {
         "id": "action.gmg.influence",
@@ -2204,7 +2886,12 @@
             "property | Critical Failure | You lose 1 Influence Point with the chosen NPC.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "linguistic"
+        ]
     },
     {
         "id": "action.basic.crb.interact",
@@ -2218,7 +2905,11 @@
             "rule",
             "text | You use your hand or hands to manipulate an object or the terrain. You can grab an unattended or stored object, open a door, or produce some similar effect. You might have to attempt a skill check to determine if your Interact action was successful."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "manipulate"
+        ]
     },
     {
         "id": "action.class.gunslinger.subclass.drifter.g-g.into-the-fray",
@@ -2233,7 +2924,11 @@
             "rule",
             "text | You know trouble can lurk around every corner, and your hands never stray far from your holsters. You can Interact to draw a one-handed ranged weapon and can then Interact to draw a one-handed melee weapon. As your first action on your first turn, you can Stride as a free action toward an enemy you can perceive. If you can't perceive any enemies or can't end your movement closer to one, you can't use this Stride."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger"
+        ]
     },
     {
         "id": "action.basic.crb.invest-an-item",
@@ -2247,7 +2942,10 @@
             "text | You invest your energy in an item with the invested trait as you don it. This process requires 1 or more Interact actions, usually taking the same amount of time it takes to don the item. Once you've Invested the Item, you benefit from its constant magical abilities as long as you meet its other requirements (for most invested items, the only other requirement is that you must be wearing the item). This investiture lasts until you remove the item.",
             "text | You can invest no more than 10 items per day. If you remove an invested item, it loses its investiture. The item still counts against your daily limit after it loses its investiture. You reset the limit during your daily preparations, at which point you Invest your Items anew. If you're still wearing items you had invested the previous day, you can typically keep them invested on the new day, but they still count against your limit."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.basic.crb.investigate",
@@ -2261,7 +2959,12 @@
             "rule",
             "text | You seek out information about your surroundings while traveling at half speed. You use Recall Knowledge as a secret check to discover clues among the various things you can see and engage with as you journey along. You can use any skill that has a Recall Knowledge action while Investigating, but the GM determines whether the skill is relevant to the clues you could find."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "exploration"
+        ]
     },
     {
         "id": "action.ancestry.kitsune.loag.invigorating-fear",
@@ -2276,7 +2979,10 @@
             "rule",
             "text | You are invigorated by the shock of a prank or the thrum of terror. You gain temporary Hit Points equal to the creature's level or 3, whichever is higher."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.ancestry.kitsune.crb.invoke-celestial-privilege",
@@ -2290,7 +2996,10 @@
             "rule",
             "text | You rise above the triggering effect, refusing to be harmed by it. You gain a +1 circumstance bonus to the triggering saving throw and to any other saving throws you attempt against divine effects until the start of your next turn."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.class.champion.subclass.tyrant.apg.iron-command",
@@ -2308,7 +3017,16 @@
             "bullet | The enemy refuses, and you deal 1d6 mental damage to it. This damage increases to 2d6 at 5th level, 3d6 at 9th level, 4d6 at 12th level, 5d6 at 16th level, and 6d6 at 19th level.",
             "text | In addition, your Strikes against the triggering creature deal 1 extra damage until the end of your next turn. You choose whether the damage type is evil or negative each time you use this reaction. This extra damage increases to 2 at 9th level and 3 at 16th level."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "uncommon",
+            "champion",
+            "divine",
+            "emotion",
+            "enchantment",
+            "mental"
+        ]
     },
     {
         "id": "action.basic.crb.leap",
@@ -2323,7 +3041,10 @@
             "text | If you Leap vertically, you can move up to 3 feet vertically and 5 feet horizontally onto an elevated surface.",
             "text | Jumping a greater distance requires using the Athletics skill."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.basic.crb.learn-a-spell",
@@ -2349,10 +3070,15 @@
             "property | Critical Failure | As failure, plus you expend half the materials.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "exploration"
+        ]
     },
     {
-        "id": "action.som.learn-name",
+        "id": "action.downtime.som.learn-name",
         "color": "#B71C1C",
         "name": "Learn Name",
         "title": "Learn Name",
@@ -2369,7 +3095,13 @@
             "property | Critical Failure | If you were searching for the name of a specific individual, you find no new information and that individual becomes aware of your efforts. If you were searching for a general name of a specific type, you find a creature's name or names likely to get you in trouble, possibly the names of a different type of creature entirely",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "rare",
+            "downtime",
+            "secret"
+        ]
     },
     {
         "id": "action.class.champion.subclass.liberator.crb.liberating-step",
@@ -2384,7 +3116,11 @@
             "rule",
             "text | You free an ally from restraint. If the trigger was an ally taking damage, the ally gains resistance to all damage against the triggering damage equal to 2 + your level. The ally can attempt to break free of effects grabbing, restraining, immobilizing, or paralyzing them. They either attempt a new save against one such effect that allows a save, or attempt to Escape from one effect as a free action. If they can move, the ally can Step as a free action, even if they didn't need to escape."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "champion"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.lie",
@@ -2403,7 +3139,15 @@
             "property | Failure | The target doesn't believe your lie and gains a +4 circumstance bonus against your attempts to Lie for the duration of your conversation. The target is also more likely to be suspicious of you in the future.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "auditory",
+            "concentrate",
+            "linguistic",
+            "mental",
+            "secret"
+        ]
     },
     {
         "id": "action.class.gunslinger.subclass.vanguard.g-g.living-fortification",
@@ -2418,7 +3162,11 @@
             "rule",
             "text | You can posture defensively with firearms or crossbows, acting like a walking tower. Interact to draw a firearm or crossbow. You then position that weapon defensively, gaining a +1 circumstance bonus to AC until the start of your first turn, or a +2 circumstance bonus if the chosen weapon has the parry trait."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.long-jump",
@@ -2437,10 +3185,13 @@
             "property | Critical Failure | You Leap normally, but then fall and land prone.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
-        "id": "action.basic.crb.long-term-rest",
+        "id": "action.downtime.basic.crb.long-term-rest",
         "color": "#B71C1C",
         "name": "Long-Term Rest",
         "title": "Long-Term Rest",
@@ -2451,7 +3202,11 @@
             "rule",
             "text | You can spend an entire day and night resting during downtime to recover Hit Points equal to your Constitution modifier (minimum 1) multiplied by twice your level."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "downtime"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.make-an-impression",
@@ -2470,7 +3225,15 @@
             "property | Critical Failure | The target's attitude toward you decreases by one step.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "auditory",
+            "concentrate",
+            "exploration",
+            "linguistic",
+            "mental"
+        ]
     },
     {
         "id": "action.basic.skill.trained.crb.maneuver-in-flight",
@@ -2490,7 +3253,11 @@
             "property | Critical Failure | As failure, but the consequence is more dire.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "move"
+        ]
     },
     {
         "id": "action.class.summoner.som.manifest-eidolon",
@@ -2505,7 +3272,15 @@
             "text | Your eidolon appears in an open space adjacent to you, and can then take a single action. If your eidolon was already manifested, you unmanifest it instead.",
             "text | The conduit that allows your eidolon to manifest is also a tether between you. Your eidolon must remain within 100 feet of you at all times and can't willingly go beyond that limit. If forced beyond this distance, or if you are reduced to 0 Hit Points, your eidolon's physical form dissolves: your eidolon unmanifests, and you need to use Manifest Eidolon to manifest it again."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "conjuration",
+            "manipulate",
+            "summoner",
+            "teleportation"
+        ]
     },
     {
         "id": "action.gmg.map-the-area",
@@ -2519,7 +3294,11 @@
             "rule",
             "text | As long as your group has successfully Reconnoitered the hex, you can use this activity to create an accurate map of the hex with a successful Survival check (typically at a trained or expert DC). When you have an accurate map of the hex, the DC of any check to navigate that hex is reduced by 2."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate"
+        ]
     },
     {
         "id": "action.class.rogue.crb.master-strike",
@@ -2541,7 +3320,12 @@
             "property | Critical Failure | The target is paralyzed for 4 rounds, knocked unconscious for 2 hours, or killed (your choice).",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "incapacitation",
+            "rogue"
+        ]
     },
     {
         "id": "action.class.barbarian.crb.mighty-rage",
@@ -2556,7 +3340,11 @@
             "rule",
             "text | Use an action that has the rage trait. Alternatively, you can increase the actions of the triggering Rage to 2 to instead use a 2-action activity with the rage trait."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "barbarian"
+        ]
     },
     {
         "id": "action.basic.crb.mount",
@@ -2570,7 +3358,11 @@
             "rule",
             "text | You move onto the creature and ride it. If you're already mounted, you can instead use this action to dismount, moving off the mount into a space adjacent to it."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "move"
+        ]
     },
     {
         "id": "action.class.alchemist.subclass.mutagenist.crb.mutagenic-flashback",
@@ -2585,7 +3377,11 @@
             "rule",
             "text | You experience a brief resurgence of a mutagen. Choose one mutagen you've consumed since your last daily preparations. You gain the effects of that mutagen for 1 minute."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "alchemist"
+        ]
     },
     {
         "id": "action.class.gunslinger.subclass.sniper.g-g.one-shot-one-kill",
@@ -2600,7 +3396,11 @@
             "rule",
             "text | Your first shot is the deadliest. Interact to draw a firearm or crossbow. On your first turn, your first Strike with that weapon deals an additional 1d6 precision damage. This precision damage increases to 2d6 at 9th level and 3d6 at 15th level."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger"
+        ]
     },
     {
         "id": "action.class.swashbuckler.apg.opportune-riposte",
@@ -2615,7 +3415,11 @@
             "rule",
             "text | You take advantage of an opening from your enemy's fumbled attack. You either make a melee Strike against the triggering foe or attempt to Disarm it of the weapon it used for the Strike."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "swashbuckler"
+        ]
     },
     {
         "id": "action.class.inventor.g-g.overdrive",
@@ -2636,7 +3440,12 @@
             "property | Critical Failure | Whoops! Something explodes. You take fire damage equal to your level, and you can't use Overdrive again for 1 minute as your gizmos cool down and reset.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "inventor",
+            "manipulate"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.palm-an-object",
@@ -2654,7 +3463,11 @@
             "property | Failure | The creature notices you Palming the Object, and the GM determines the creature's response.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "manipulate"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.perform",
@@ -2674,7 +3487,11 @@
             "property | Critical Failure | You demonstrate only incompetence.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate"
+        ]
     },
     {
         "id": "action.basic.skill.trained.crb.pick-a-lock",
@@ -2694,7 +3511,11 @@
             "property | Critical Failure | You break your tools. Fixing them requires using Crafting to Repair them or else swapping in replacement picks (costing 3 sp, or 3 gp for infiltrator thieves' tools).",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "manipulate"
+        ]
     },
     {
         "id": "action.class.gunslinger.subclass.pistolero.g-g.pistoleros-retort",
@@ -2710,7 +3531,11 @@
             "rule",
             "text | You punish your foe's failure with a shot. Make a Strike against the triggering foe with a one-handed firearm or one-handed crossbow."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger"
+        ]
     },
     {
         "id": "action.basic.crb.point-out",
@@ -2725,7 +3550,13 @@
             "rule",
             "text | You indicate a creature that you can see to one or more allies, gesturing in a direction and describing the distance verbally. That creature is hidden to your allies, rather than undetected. This works only for allies who can see you and are in a position where they could potentially detect the target. If your allies can't hear or understand you, they must succeed at a Perception check against the creature's Stealth DC or they misunderstand and believe the target is in a different location."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "auditory",
+            "manipulate",
+            "visual"
+        ]
     },
     {
         "id": "action.class.investigator.subclass.interrogation.apg.pointed-question",
@@ -2736,7 +3567,7 @@
         "code": "action",
         "contents": [
             "pftrait | auditory | concentrate | investigator | linguistic | mental",
-            "property | Frequency | once per minute",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You ask a question that charms or needles someone in just the right way. Ask a question of a non-allied creature that you can see and have been conversing with. Attempt a Diplomacy check against the creature's Will DC. The creature is then temporarily immune for 1 hour.",
             "fill",
@@ -2746,10 +3577,18 @@
             "property | Critical Failure | The target can refuse to answer you as normal, and its attitude toward you decreases by one step due to your aggravating attention.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "auditory",
+            "concentrate",
+            "investigator",
+            "linguistic",
+            "mental"
+        ]
     },
     {
-        "id": "action.sot-1.practical-research",
+        "id": "action.downtime.sot-1.practical-research",
         "color": "#B71C1C",
         "name": "Practical Research",
         "title": "Practical Research",
@@ -2761,7 +3600,11 @@
             "rule",
             "text | You identify something interesting in the field and perform special research on it. This requires an appropriate check, which the GM will describe when the opportunity arises. The results of the check vary. While they typically include all the benefits of the Study activity, some opportunities for Practical Research also offer unique benefits, such as access to new character options."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "downtime"
+        ]
     },
     {
         "id": "action.class.investigator.apg.pursue-a-lead",
@@ -2772,13 +3615,19 @@
         "code": "action",
         "contents": [
             "pftrait | concentrate | exploration | investigator",
-            "property | Frequency | once per minute",
+            "property | Frequency | once per 10 minutes",
             "rule",
             "text | You spend 1 minute examining the details of one potential clue, designating the subject related to that clue as the target of your active investigation. This subject is typically a single creature, item, or small location (such as a room or corridor), but the GM might allow a different scope for your investigation. You don't need to know the identity, purpose, or nature of the subject, but you do need to be aware of its existence. For instance, finding a footprint is enough to investigate the creature that left it, and seeing a hasty sketch of an item or location can be enough to start your investigation of that subject.",
             "text | Whenever you attempt a Perception or skill check to investigate a designated subject, you gain a +1 circumstance bonus to the check. The exact checks this applies to depend on the actions you use to investigate and are determined by the GM, but checks to investigate are typically Perception checks or skill checks that use Intelligence, Wisdom, or Charisma.",
             "text | You can maintain two active investigations at a time. If you Pursue another Lead after that, the subject must be different from any of your current investigations (or rather, they must be different as far as you know), and you give up on a current subject of your choice. Once you've given up pursuit of a subject, you can't Pursue that Lead again until after the next time you make your daily preparations."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "exploration",
+            "investigator"
+        ]
     },
     {
         "id": "action.class.alchemist.crb.quick-alchemy",
@@ -2791,9 +3640,14 @@
             "pftrait | alchemist | manipulate",
             "property | Requirements | You have the formula for the alchemical item you're creating, and you're either holding or wearing alchemist's tools.",
             "rule",
-            "text | You swiftly mix up a short-lived alchemical item to use at a moment's notice. You create a single alchemical item of your advanced alchemy level or lower that's in your formula book without having to spend the normal monetary cost in alchemical reagents or needing to attempt a Crafting check. This item has the infused trait, but it remains potent only until the start of your next turn."
+            "text | You swiftly mix up a short-lived alchemical item to use at a moment's notice. You create a single alchemical consumable item of your advanced alchemy level or lower that's in your formula book without having to spend the normal monetary cost in alchemical reagents or needing to attempt a Crafting check. This item has the infused trait, but it remains potent only until the start of your next turn."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "alchemist",
+            "manipulate"
+        ]
     },
     {
         "id": "action.class.investigator.subclass.alchemical-sciences.apg.quick-tincture",
@@ -2808,7 +3662,12 @@
             "rule",
             "text | You quickly brew up a short-lived tincture. You create a single alchemical elixir or tool of your level or lower without having to spend the normal monetary cost in alchemical reagents or needing to attempt a Crafting check. This item has the infused trait, but it remains potent only until the end of the current turn."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "investigator",
+            "manipulate"
+        ]
     },
     {
         "id": "action.class.gunslinger.subclass.pistolero.g-g.raconteurs-reload",
@@ -2822,7 +3681,11 @@
             "rule",
             "text | Your rapid or forceful words draw the enemy's attention away from your hands long enough to chamber another bullet. Interact to reload and then attempt a Deception check to Create a Diversion or an Intimidation check to Demoralize."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger"
+        ]
     },
     {
         "id": "action.class.barbarian.crb.rage",
@@ -2841,7 +3704,14 @@
             "bullet | You can't use actions with the concentrate trait unless they also have the rage trait. You can Seek while raging.",
             "text | After you stop raging, you lose any remaining temporary Hit Points from Rage, and you can't Rage again for 1 minute."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "barbarian",
+            "concentrate",
+            "emotion",
+            "mental"
+        ]
     },
     {
         "id": "action.basic.crb.raise-a-shield",
@@ -2855,7 +3725,10 @@
             "rule",
             "text | You position your shield to protect yourself. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised until the start of your next turn."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.gmg.rally",
@@ -2871,7 +3744,15 @@
             "text | You spend 1 minute encouraging your ally. Though this action typically has the auditory and linguistic traits, if you're using the Performance skill, the GM might adjust the traits for this action to match the traits for your type of performance.",
             "text | Attempt a DC 15 skill check. The GM might adjust this DC based on the circumstances, such as attempting to Rally an ally who just suffered a humiliating defeat."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "auditory",
+            "emotion",
+            "exploration",
+            "linguistic",
+            "mental"
+        ]
     },
     {
         "id": "action.basic.crb.ready",
@@ -2886,7 +3767,11 @@
             "text | You prepare to use an action that will occur outside your turn. Choose a single action or free action you can use, and designate a trigger. Your turn then ends. If the trigger you designated occurs before the start of your next turn, you can use the chosen action as a reaction (provided you still meet the requirements to use it). You can't Ready a free action that already has a trigger.",
             "text | If you have a multiple attack penalty and your readied action is an attack action, your readied attack takes the multiple attack penalty you had at the time you used Ready. This is one of the few times the multiple attack penalty applies when it's not your turn."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate"
+        ]
     },
     {
         "id": "action.class.gunslinger.g-g.recall-ammunition",
@@ -2901,7 +3786,14 @@
             "rule",
             "text | You amplify the connection between bullet and firearm, calling your missed shot back into your gun. The ammunition you just fired is reloaded back into your gun and immediately ready to fire again."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "conjuration",
+            "magical",
+            "spellshot",
+            "teleportation"
+        ]
     },
     {
         "id": "action.basic.crb.recall-knowledge",
@@ -2920,7 +3812,12 @@
             "property | Critical Failure | You recall incorrect information or gain an erroneous or misleading clue.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "secret"
+        ]
     },
     {
         "id": "action.gmg.reconnoiter",
@@ -2935,7 +3832,11 @@
             "text | You spend time surveying and exploring a specific area, getting the lay of the land and looking for unusual features and specific sites. Reconnoitering a single hex takes a number of hexploration activities equal to the number of Travel activities necessary to traverse the hex—1 for open terrain, 2 for difficult terrain, and 3 for greater difficult terrain. Traveling on roads doesn't lessen the time required to Reconnoiter. Once the hex has been Reconnoitered, you can Map the Area to reduce your chance of getting lost in that hex. You automatically find any special feature that doesn't require a check to find, and you attempt the appropriate checks to find hidden special features.",
             "text | For instance, if you were looking for an obvious rock formation among some hills, you would spend 2 hexploration activities to Reconnoiter the hex, and you'd find the rock formation. But if you were looking for a hidden tengu monastery somewhere in some deep forests, after spending 2 activities to Reconnoiter the forest hex, you would have to succeed at a Perception check as part of your Reconnoiter activity to find the monastery."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate"
+        ]
     },
     {
         "id": "action.basic.crb.refocus",
@@ -2950,7 +3851,12 @@
             "rule",
             "text | You spend 10 minutes performing deeds to restore your magical connection. This restores 1 Focus Point to your focus pool. The deeds you need to perform are specified in the class or ability that gives you your focus spells. These deeds can usually overlap with other tasks that relate to the source of your focus spells. For instance, a cleric with focus spells from a good deity can usually Refocus while tending the wounds of their allies, and a wizard of the illusionist school might be able to Refocus while attempting to Identify Magic of the illusion school."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "exploration"
+        ]
     },
     {
         "id": "action.basic.crb.release",
@@ -2965,7 +3871,11 @@
             "text | You release something you're holding in your hand or hands. This might mean dropping an item, removing one hand from your weapon while continuing to hold it in another hand, releasing a rope suspending a chandelier, or performing a similar action. Unlike most manipulate actions, Release does not trigger reactions that can be triggered by actions with the manipulate trait (such as Attack of Opportunity).",
             "text | If you want to prepare to Release something outside of your turn, use the Ready activity."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "manipulate"
+        ]
     },
     {
         "id": "action.class.gunslinger.subclass.drifter.g-g.reloading-strike",
@@ -2980,7 +3890,11 @@
             "rule",
             "text | You make a melee attack and then reload your gun in one fluid movement. Strike an opponent within reach with your one-handed melee weapon (or, if your other hand is empty, with an unarmed attack), and then Interact to reload. You don't need a free hand to reload in this way."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.repair",
@@ -3000,7 +3914,12 @@
             "property | Critical Failure | You deal 2d6 damage to the item. Apply the item's Hardness to this damage.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "exploration",
+            "manipulate"
+        ]
     },
     {
         "id": "action.basic.crb.repeat-a-spell",
@@ -3015,7 +3934,12 @@
             "text | You repeatedly cast the same spell while moving at half speed. Typically, this spell is a cantrip that you want to have in effect in the event a combat breaks out, and it must be one you can cast in 2 actions or fewer. In order to prevent fatigue due to repeated casting, you'll likely use this activity only when something out of the ordinary occurs.",
             "text | You can instead use this activity to continue Sustaining a Spell or Activation with a sustained duration. Most such spells or item effects can be sustained for 10 minutes, though some specify they can be sustained for a different duration."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "exploration"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.request",
@@ -3035,7 +3959,14 @@
             "property | Critical Failure | Not only does the target refuse the request, but their attitude toward you decreases by one step due to the temerity of the request.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "auditory",
+            "concentrate",
+            "linguistic",
+            "mental"
+        ]
     },
     {
         "id": "action.gmg.research",
@@ -3054,10 +3985,16 @@
             "property | Critical Failure | You make a false discovery and lose 1 RP.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "exploration",
+            "linguistic"
+        ]
     },
     {
-        "id": "action.basic.crb.retraining",
+        "id": "action.downtime.basic.crb.retraining",
         "color": "#B71C1C",
         "name": "Retraining",
         "title": "Retraining",
@@ -3071,7 +4008,11 @@
             "text | Some abilities can be difficult or impossible to retrain (for instance, a sorcerer can retrain their bloodline only in extraordinary circumstances).",
             "text | When retraining, you generally can't make choices you couldn't make when you selected the original option. For instance, you can't exchange a 2nd-level skill feat for a 4th-level one, or for one that requires prerequisites you didn't meet at the time you took the original feat. If you don't remember whether you met the prerequisites at the time, ask your GM to make the call. If you cease to meet the prerequisites for an ability due to retraining, you can't use that ability. You might need to retrain several abilities in sequence in order to get all the abilities you want."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "downtime"
+        ]
     },
     {
         "id": "action.class.champion.subclass.paladin.crb.retributive-strike",
@@ -3086,7 +4027,11 @@
             "rule",
             "text | You protect your ally and strike your foe. The ally gains resistance to all damage against the triggering damage equal to 2 + your level. If the foe is within reach, make a melee Strike against it."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "champion"
+        ]
     },
     {
         "id": "action.gmg.run-over",
@@ -3102,7 +4047,12 @@
             "text | You try to run over creatures with your vehicle, possibly also ramming one larger creature or object. If you maintain control of your vehicle, the vehicle moves up to twice its Speed in a straight line at the vehicle's current heading. You attempt to run over any creatures in your path two sizes smaller than the vehicle or smaller, and you can attempt to ram one target creature or object in your path one size smaller than the vehicle or larger.",
             "text | Each creature in your path, including a rammed target, takes the vehicle's collision damage (basic Reflex save at vehicle's collision DC). If the rammed target is a vehicle, its pilot can attempt a piloting check in place of this Reflex save, with the same results. If the target of your ram takes damage, you and your vehicle each take collision damage (no save) and your movement ends."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "move",
+            "reckless"
+        ]
     },
     {
         "id": "action.basic.crb.scout",
@@ -3116,10 +4066,15 @@
             "rule",
             "text | You scout ahead and behind the group to watch danger, moving at half speed. At the start of the next encounter, every creature in your party gains a +1 circumstance bonus to their initiative rolls."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "exploration"
+        ]
     },
     {
-        "id": "action.gmg.scout-location",
+        "id": "action.downtime.gmg.scout-location",
         "color": "#B71C1C",
         "name": "Scout Location",
         "title": "Scout Location",
@@ -3135,7 +4090,12 @@
             "property | Critical Failure | You misjudge some aspect of what you observed, gaining 1 EP that results in a critical failure instead of a success when used, even if a PC uses the Edge Point after rolling a failure.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "downtime",
+            "secret"
+        ]
     },
     {
         "id": "action.basic.crb.search",
@@ -3149,10 +4109,15 @@
             "rule",
             "text | You Seek meticulously for hidden doors, concealed hazards, and so on. You can usually make an educated guess as to which locations are best to check and move at half speed, but if you want to be thorough and guarantee you checked everything, you need to travel at a Speed of no more than 300 feet per minute, or 150 feet per minute to ensure you check everything before you walk into it. You can always move more slowly while Searching to cover the area more thoroughly, and the Expeditious Search feat increases these maximum Speeds. If you come across a secret door, item, or hazard while Searching, the GM will attempt a free secret check to Seek to see if you notice the hidden object or hazard. In locations with many objects to search, you have to stop and spend significantly longer to search thoroughly."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "exploration"
+        ]
     },
     {
-        "id": "action.gmg.secure-disguises",
+        "id": "action.downtime.gmg.secure-disguises",
         "color": "#B71C1C",
         "name": "Secure Disguises",
         "title": "Secure Disguises",
@@ -3167,7 +4132,11 @@
             "property | Failure | Your efforts result in an unusable disguise.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "downtime"
+        ]
     },
     {
         "id": "action.basic.crb.seek",
@@ -3187,7 +4156,12 @@
             "property | Success | If you were searching for creatures, any undetected creature you succeeded against becomes hidden from you instead of undetected, and any hidden creature you succeeded against becomes observed by you. If you were searching for an object, you learn its location or get a clue to its whereabouts, as determined by the GM.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "secret"
+        ]
     },
     {
         "id": "action.class.champion.subclass.desecrator.apg.selfish-shield",
@@ -3203,7 +4177,12 @@
             "text | Your self-interest keeps you safe. You gain resistance against the triggering damage equal to 2 + half your level, regardless of damage type.",
             "text | In addition, your Strikes against the triggering creature deal 1 extra damage until the end of your next turn. You choose whether this extra damage is evil or negative each time you use this reaction. This extra damage increases to 2 at 9th level and 3 at 16th level."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "uncommon",
+            "champion"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.sense-direction",
@@ -3221,7 +4200,12 @@
             "property | Success | You gain enough orientation to avoid becoming hopelessly lost. If you are in an environment with cardinal directions, you have a sense of those directions.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "exploration",
+            "secret"
+        ]
     },
     {
         "id": "action.basic.crb.sense-motive",
@@ -3241,7 +4225,12 @@
             "property | Critical Failure | You get a false sense of the creature's intentions.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "secret"
+        ]
     },
     {
         "id": "action.gmg.sense-weakness",
@@ -3256,7 +4245,10 @@
             "rule",
             "text | You pick a precise moment to attack, giving you an edge. Your opponent is flat-footed against the attack. If your opponent is using Deception for initiative when this ability is used, they are instead flat-footed until the start of their next turn."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.class.summoner.som.share-senses",
@@ -3271,7 +4263,14 @@
             "rule",
             "text | You project your senses into your eidolon, allowing you to perceive through it. When you do, you lose all sensory information from your own body, but can sense through your eidolon's body for up to 1 minute. You can Dismiss this effect."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "divination",
+            "scrying",
+            "summoner"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.shove",
@@ -3291,7 +4290,11 @@
             "property | Critical Failure | You lose your balance, fall, and land prone.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "attack"
+        ]
     },
     {
         "id": "action.class.gunslinger.subclass.vanguard.g-g.siegebreaker",
@@ -3307,7 +4310,12 @@
             "text | With unbelievable force, you charge and smash your weapon into a target before digging in your heels and pulling the trigger. Leap or Stride, then make a Strike with the required firearm or crossbow against an adjacent target. This Strike deals an additional 3d8 bludgeoning damage and ignores 10 points of the target's Hardness (if any), or of their shield's Hardness if the target uses Shield Block.",
             "text | After the Strike, you become immobilized and position the required weapon defensively, gaining a +1 circumstance bonus to AC, or a +2 circumstance bonus if the chosen weapon has the parry trait. Both effects last until the start of your next turn. If a force would move you while you're immobilized in this way, it must succeed at an appropriate check against your class DC."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger",
+            "flourish"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.sneak",
@@ -3327,7 +4335,12 @@
             "property | Critical Failure | You're spotted! You're observed by the creature throughout your movement and remain so. If you're invisible and were hidden from the creature, instead of being observed you're hidden throughout your movement and remain so.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "move",
+            "secret"
+        ]
     },
     {
         "id": "action.class.magus.som.spellstrike",
@@ -3342,7 +4355,11 @@
             "text | You channel a spell into a punch or sword thrust to deliver a combined attack. You Cast a Spell that takes 1 or 2 actions to cast and requires a spell attack roll. The effects of the spell don't occur immediately but are imbued into your attack instead. Make a melee Strike with a weapon or unarmed attack. Your spell is coupled with your attack, using your attack roll result to determine the effects of both the Strike and the spell. This counts as two attacks for your multiple attack penalty, but you don't apply the penalty until after you've completed the Spellstrike. The infusion of spell energy grants your Strike the arcane trait, making it magical.",
             "text | After you use Spellstrike, you can't do so again until you recharge your Spellstrike as a single action, which has the concentrate trait. You also recharge your Spellstrike when you cast a conflux spell that takes at least 1 action to cast; casting a focus spell of another type doesn't recharge your Spellstrike."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "magus"
+        ]
     },
     {
         "id": "action.class.gunslinger.subclass.vanguard.g-g.spinning-crush",
@@ -3357,7 +4374,11 @@
             "rule",
             "text | You go into a vicious spin, smashing your weapon into those nearby and increasing your momentum by firing. All creatures adjacent to you take 1d6 bludgeoning damage plus your Strength modifier; this increases to 2d6 if your firearm has a striking rune, 3d6 if it has a greater striking rune, and 4d6 if it has a major striking rune. This ability does not apply other effects that increase damage with your firearm Strikes such as weapon specialization. Creatures affected by this attack must attempt a basic Reflex save. A creature that fails its save is also pushed 5 feet directly away from you."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger"
+        ]
     },
     {
         "id": "action.basic.skill.trained.crb.squeeze",
@@ -3376,7 +4397,12 @@
             "property | Critical Failure | You become stuck in the tight space. While you're stuck, you can spend 1 minute attempting another Acrobatics check at the same DC. Any result on that check other than a critical failure causes you to become unstuck.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "exploration",
+            "move"
+        ]
     },
     {
         "id": "action.basic.crb.stand",
@@ -3390,7 +4416,11 @@
             "rule",
             "text | You stand up from prone."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "move"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.steal",
@@ -3410,7 +4440,11 @@
             "property | Failure | The item's bearer notices your attempt before you can take the object, or an observer sees you take or attempt to take the item. The GM determines the response of any creature that notices your theft.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "manipulate"
+        ]
     },
     {
         "id": "action.basic.crb.step",
@@ -3426,7 +4460,11 @@
             "text | You carefully move 5 feet. Unlike most types of movement, Stepping doesn't trigger reactions, such as Attacks of Opportunity, that can be triggered by move actions or upon leaving or entering a square.",
             "text | You can't Step into difficult terrain, and you can't Step using a Speed other than your land Speed."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "move"
+        ]
     },
     {
         "id": "action.gmg.stop",
@@ -3441,7 +4479,11 @@
             "rule",
             "text | You bring the vehicle to a stop."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "manipulate"
+        ]
     },
     {
         "id": "action.basic.crb.stride",
@@ -3455,7 +4497,11 @@
             "rule",
             "text | You move up to your Speed."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "move"
+        ]
     },
     {
         "id": "action.basic.crb.strike",
@@ -3473,10 +4519,14 @@
             "property | Success | You deal damage according to the weapon or unarmed attack, including any modifiers, bonuses, and penalties you have to damage.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "attack"
+        ]
     },
     {
-        "id": "action.sot-1.study",
+        "id": "action.downtime.sot-1.study",
         "color": "#B71C1C",
         "name": "Study",
         "title": "Study",
@@ -3494,10 +4544,14 @@
             "property | Critical Failure | You make a major mistake that requires you to perform remedial studies. The next time you would get an opportunity to attempt this activity, you must skip that opportunity to catch up.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "downtime"
+        ]
     },
     {
-        "id": "action.basic.crb.subsist",
+        "id": "action.downtime.basic.crb.subsist",
         "color": "#B71C1C",
         "name": "Subsist",
         "title": "Subsist",
@@ -3514,7 +4568,11 @@
             "property | Critical Failure | You attract trouble, eat something you shouldn't, or otherwise worsen your situation. You take a –2 circumstance penalty to checks to Subsist for 1 week. You don't find any food at all; if you don't have any stored up, you're in danger of starving or dying of thirst if you continue failing.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "downtime"
+        ]
     },
     {
         "id": "action.basic.crb.sustain-a-spell",
@@ -3530,7 +4588,11 @@
             "text | Choose one spell with a sustained duration you have in effect. The duration of that spell continues until the end of your next turn. Some spells might have slightly different or expanded effects if you sustain them. Sustaining a Spell for more than 10 minutes (100 rounds) ends the spell and makes you fatigued unless the spell lists a different maximum duration (such as \"sustained up to 1 minute\" or \"sustained up to 1 hour\").",
             "text | If your Sustain a Spell action is disrupted, the spell immediately ends."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate"
+        ]
     },
     {
         "id": "action.basic.crb.sustain-an-activation",
@@ -3545,7 +4607,10 @@
             "text | Choose one magic item activation with a sustained duration you have in effect. The duration of that activation continues until the end of your next turn. Some activations may have slightly different or expanded effects if you sustain them. Sustaining an Activation for more than 10 minutes (100 rounds) ends the activation and makes you fatigued unless the item's description states a different maximum duration (such as \"up to 1 minute\" or \"up to 1 hour\").",
             "text | If your Sustain an Activation action is disrupted, the item's effect immediately ends."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.swim",
@@ -3565,7 +4630,11 @@
             "property | Critical Failure | You make no progress, and if you're holding your breath, you lose 1 round of air.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "move"
+        ]
     },
     {
         "id": "action.ancestry.kobold.apg.tail-toxin",
@@ -3581,7 +4650,12 @@
             "rule",
             "text | You apply your tail's venom to a piercing or slashing weapon. If your next Strike with that weapon before the end of your next turn hits and deals damage, you deal persistent poison damage equal to your level to the target."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "kobold",
+            "poison"
+        ]
     },
     {
         "id": "action.gmg.take-a-breather",
@@ -3595,7 +4669,11 @@
             "rule",
             "text | You rest for 10 minutes and recover your stamina. After you complete this activity, you regain all your Stamina Points."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "exploration"
+        ]
     },
     {
         "id": "action.gmg.take-control",
@@ -3610,7 +4688,11 @@
             "rule",
             "text | You grab the reins, the wheel, or some other mechanism to control the vehicle. Attempt a piloting check; on a success, you become the vehicle's pilot, or regain control of the vehicle if it was uncontrolled. Some vehicles have complicated controls that cause this action to become a multi-action activity."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "manipulate"
+        ]
     },
     {
         "id": "action.basic.crb.take-cover",
@@ -3624,7 +4706,10 @@
             "rule",
             "text | You press yourself against a wall or duck behind an obstacle to take better advantage of cover. If you would have standard cover, you instead gain greater cover, which provides a +4 circumstance bonus to AC; to Reflex saves against area effects; and to Stealth checks to Hide, Sneak, or otherwise avoid detection. Otherwise, you gain the benefits of standard cover (a +2 circumstance bonus instead). This lasts until you move from your current space, use an attack action, become unconscious, or end this effect as a free action."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.basic.skill.trained.som.tap-ley-line",
@@ -3644,7 +4729,11 @@
             "property | Critical Failure | As failure, and you're subject to the ley line's backlash effect. You can't Tap the Ley Line again for 24 hours.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate"
+        ]
     },
     {
         "id": "action.class.gunslinger.subclass.pistolero.g-g.ten-paces",
@@ -3659,7 +4748,11 @@
             "rule",
             "text | You react to trouble with lightning speed, positioning yourself just right. You gain a +2 circumstance bonus to your initiative roll, and you can Interact to draw a one-handed firearm or one-handed crossbow. As your first action on your first turn, you can Step up to 10 feet as a free action."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger"
+        ]
     },
     {
         "id": "action.g-g.thoughtful-reload",
@@ -3673,7 +4766,11 @@
             "rule",
             "text | As you sink deep into a state of analytical calm and focus on the foe before you, your hands reload a bullet instinctively. Attempt a Recall Knowledge check against an opponent you can see and then Interact to reload."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger"
+        ]
     },
     {
         "id": "action.ancestry.lizardfolk.locg.threatening-approach",
@@ -3686,7 +4783,10 @@
             "rule",
             "text | You Stride to be adjacent to a foe and Demoralize that foe. If you succeed, the foe is frightened 2 instead of frightened 1."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action"
+        ]
     },
     {
         "id": "action.ancestry.grippli.lome.toxic-skin",
@@ -3702,7 +4802,12 @@
             "rule",
             "text | You exude a deadly toxin. The triggering creature takes 1d4 poison damage (basic Fortitude save using your class DC or spell DC, whichever is higher). At 3rd level and every 2 levels thereafter, the damage increases by 1d4."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "grippli",
+            "poison"
+        ]
     },
     {
         "id": "action.basic.skill.trained.crb.track",
@@ -3722,7 +4827,13 @@
             "property | Critical Failure | You lose the trail and can't try again for 24 hours.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "concentrate",
+            "exploration",
+            "move"
+        ]
     },
     {
         "id": "action.gmg.travel",
@@ -3737,10 +4848,14 @@
             "text | You progress toward moving into an adjacent hex. In open terrain, like a plain, using 1 Travel activity allows you to move from one hex to an adjacent hex. Traversing a hex with difficult terrain (such as a typical forest or desert) requires 2 Travel activities, and hexes of greater difficult terrain (such as a steep mountain or typical swamp) require 3 Travel activities to traverse. Traveling along a road uses a terrain type one step better than the surrounding terrain. For example, if you are traveling on a road over a mountain pass, the terrain is difficult terrain instead of greater difficult terrain.",
             "text | The Travel activity assumes you are walking overland. If you are flying or traveling on water, most hexes are open terrain, though there are exceptions. Flying into storms or high winds count as difficult or greater difficult terrain. Traveling down a river is open terrain, but traveling upriver is difficult or greater difficult terrain."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "move"
+        ]
     },
     {
-        "id": "action.basic.skill.trained.crb.treat-disease",
+        "id": "action.downtime.basic.skill.trained.crb.treat-disease",
         "color": "#B71C1C",
         "name": "Treat Disease",
         "title": "Treat Disease",
@@ -3757,7 +4872,12 @@
             "property | Critical Failure | Your efforts cause the creature to take a –2 circumstance penalty to its next save against the disease.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "downtime",
+            "manipulate"
+        ]
     },
     {
         "id": "action.basic.skill.trained.crb.treat-poison",
@@ -3777,7 +4897,11 @@
             "property | Critical Failure | Your efforts cause the creature to take a –2 circumstance penalty to its next save against the poison.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "manipulate"
+        ]
     },
     {
         "id": "action.basic.skill.trained.crb.treat-wounds",
@@ -3800,7 +4924,13 @@
             "property | Critical Failure | The target takes 1d8 damage",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "exploration",
+            "healing",
+            "manipulate"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.trip",
@@ -3820,7 +4950,11 @@
             "property | Critical Failure | You lose your balance and fall and land prone.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "attack"
+        ]
     },
     {
         "id": "action.basic.skill.untrained.crb.tumble-through",
@@ -3838,7 +4972,11 @@
             "property | Failure | Your movement ends, and you trigger reactions as if you had moved out of the square you started in.",
             "fill"
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "move"
+        ]
     },
     {
         "id": "action.class.gunslinger.subclass.sniper.g-g.vital-shot",
@@ -3852,7 +4990,11 @@
             "rule",
             "text | Your careful shot against an unsuspecting opponent pierces a vital artery or organ. Make a ranged Strike. If the target is flat-footed, the Strike deals an extra die of weapon damage, and the foe takes persistent bleed damage equal to the amount of precision damage from your One Shot, One Kill."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger"
+        ]
     },
     {
         "id": "action.class.gunslinger.subclass.triggerbrand.loil.touch-and-go",
@@ -3867,7 +5009,11 @@
             "rule",
             "text | Your body's shadows mask your hands' steel. You can Step toward an enemy, you can Interact to change your weapon between melee or ranged modes, and you then Interact to reload."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger"
+        ]
     },
     {
         "id": "action.class.gunslinger.subclass.triggerbrand.loil.spring-the-trap",
@@ -3882,7 +5028,11 @@
             "rule",
             "text | You can Interact to draw a combination weapon and set it to melee or ranged mode. On your first turn, your movement and ranged attacks don't trigger reactions that are normally triggered by movement or a ranged attack (such as Attack of Opportunity)."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger"
+        ]
     },
     {
         "id": "action.class.gunslinger.subclass.triggerbrand.loil.wind-them-up",
@@ -3896,7 +5046,11 @@
             "rule",
             "text | Should foes parry your blade or dodge your bullets? Neither—they should be watching their purse. Make a melee Strike with your combination weapon, and then attempt a Thievery check with a –5 penalty to Steal from your target; you can't Steal closely guarded objects or objects that would take a long time to pilfer. You don't need a free hand to attempt to Steal something in this manner. If your Thievery check succeeds, the target is flat-footed against your ranged attacks until the start of your next turn, and you don't trigger reactions that are normally triggered by movement or a ranged attack. These effects occur even if your target has no objects to Steal."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger"
+        ]
     },
     {
         "id": "action.class.gunslinger.subclass.triggerbrand.loil.break-them-down",
@@ -3910,6 +5064,10 @@
             "rule",
             "text | Your foes are but dross from which you carve and shoot your legend. Make a melee Strike and then a ranged Strike with a combination weapon, both against the same enemy; you don't need to change modes to do so. If the melee Strike hits, you gain a +1 circumstance bonus to the attack roll with the ranged Strike. Each attack counts toward your multiple attack penalty, but your multiple attack penalty doesn't increase until you've made both attacks. If both Strikes hit, you deal an additional 2d6 persistent bleed damage to the enemy, and they're dazzled until this persistent bleed damage ends."
         ],
-        "reference": []
+        "reference": [],
+        "filtering": [
+            "action",
+            "gunslinger"
+        ]
     }
 ]

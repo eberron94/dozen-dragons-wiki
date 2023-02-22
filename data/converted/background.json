@@ -1362,12 +1362,12 @@
             "text | You're trained in the Medicine skill and the Warfare Lore skill. You gain the Battle Medicine skill feat."
         ],
         "reference": [
-            "P::feat.skill.::.battle-medic"
+            "P::feat.skill.::.battle-medicine"
         ],
         "filtering": [
             "background",
             "medicine",
-            "battle-medic",
+            "battle-medicine",
             "common"
         ]
     },

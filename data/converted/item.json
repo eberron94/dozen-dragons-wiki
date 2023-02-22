@@ -10712,10 +10712,11 @@
         "icon_front": "backpack",
         "code": "item 0",
         "contents": [
-            "property | Hands | 2 | Bulk | 1",
+            "property | Hands | 1 or 2* | Bulk | 1",
             "property | Price | 3 gp | Crafting | 2 gp",
             "rule",
-            "text | This mobile collection of vials and chemicals can be used for simple alchemical tasks. If you wear your alchemist's tools, you can draw and replace them as part of the action that uses them."
+            "text | This mobile collection of vials and chemicals can be used for simple alchemical tasks. If you wear your alchemist's tools, you can draw and replace them as part of the action that uses them.",
+            "text | *You can use the set of tools with one hand if you are wearing it."
         ],
         "reference": [],
         "filtering": [
@@ -10928,7 +10929,7 @@
         "icon_front": "round-bottom-flask",
         "code": "item 1",
         "contents": [
-            "pftrait | alchemical | consumable | elixir | healing",
+            "pftrait | alchemical | consumable | elixir",
             "property | Bulk | L",
             "property | Usage | held in 1 hand",
             "property | Price | 3 gp | Crafting | 2 gp",
@@ -10941,7 +10942,6 @@
             "alchemical",
             "consumable",
             "elixir",
-            "healing",
             "item",
             "common",
             "elixir"
@@ -10956,7 +10956,7 @@
         "icon_front": "round-bottom-flask",
         "code": "item 6",
         "contents": [
-            "pftrait | alchemical | consumable | elixir | healing",
+            "pftrait | alchemical | consumable | elixir",
             "property | Bulk | L",
             "property | Usage | held in 1 hand",
             "property | Price | 35 gp | Crafting | 26 gp",
@@ -10969,7 +10969,6 @@
             "alchemical",
             "consumable",
             "elixir",
-            "healing",
             "item",
             "common",
             "elixir"
@@ -10984,7 +10983,7 @@
         "icon_front": "round-bottom-flask",
         "code": "item 10",
         "contents": [
-            "pftrait | alchemical | consumable | elixir | healing",
+            "pftrait | alchemical | consumable | elixir",
             "property | Bulk | L",
             "property | Usage | held in 1 hand",
             "property | Price | 160 gp | Crafting | 120 gp",
@@ -10997,7 +10996,6 @@
             "alchemical",
             "consumable",
             "elixir",
-            "healing",
             "item",
             "common",
             "elixir"
@@ -11012,7 +11010,7 @@
         "icon_front": "round-bottom-flask",
         "code": "item 14",
         "contents": [
-            "pftrait | alchemical | consumable | elixir | healing",
+            "pftrait | alchemical | consumable | elixir",
             "property | Bulk | L",
             "property | Usage | held in 1 hand",
             "property | Price | 675 gp | Crafting | 506 gp",
@@ -11026,7 +11024,6 @@
             "alchemical",
             "consumable",
             "elixir",
-            "healing",
             "item",
             "common",
             "elixir"
@@ -11103,7 +11100,7 @@
         "icon_front": "round-bottom-flask",
         "code": "item 1",
         "contents": [
-            "pftrait | alchemical | consumable | elixir | healing",
+            "pftrait | alchemical | consumable | elixir",
             "property | Bulk | L",
             "property | Usage | held in 1 hand",
             "property | Price | 3 gp | Crafting | 2 gp",
@@ -11117,7 +11114,6 @@
             "alchemical",
             "consumable",
             "elixir",
-            "healing",
             "item",
             "common",
             "elixir"
@@ -11132,7 +11128,7 @@
         "icon_front": "round-bottom-flask",
         "code": "item 6",
         "contents": [
-            "pftrait | alchemical | consumable | elixir | healing",
+            "pftrait | alchemical | consumable | elixir",
             "property | Bulk | L",
             "property | Usage | held in 1 hand",
             "property | Price | 35 gp | Crafting | 26 gp",
@@ -11146,7 +11142,6 @@
             "alchemical",
             "consumable",
             "elixir",
-            "healing",
             "item",
             "common",
             "elixir"
@@ -11161,7 +11156,7 @@
         "icon_front": "round-bottom-flask",
         "code": "item 10",
         "contents": [
-            "pftrait | alchemical | consumable | elixir | healing",
+            "pftrait | alchemical | consumable | elixir",
             "property | Bulk | L",
             "property | Usage | held in 1 hand",
             "property | Price | 160 gp | Crafting | 120 gp",
@@ -11175,7 +11170,6 @@
             "alchemical",
             "consumable",
             "elixir",
-            "healing",
             "item",
             "common",
             "elixir"
@@ -11190,7 +11184,7 @@
         "icon_front": "round-bottom-flask",
         "code": "item 14",
         "contents": [
-            "pftrait | alchemical | consumable | elixir | healing",
+            "pftrait | alchemical | consumable | elixir",
             "property | Bulk | L",
             "property | Usage | held in 1 hand",
             "property | Price | 675 gp | Crafting | 506 gp",
@@ -11205,7 +11199,6 @@
             "alchemical",
             "consumable",
             "elixir",
-            "healing",
             "item",
             "common",
             "elixir"
@@ -11367,10 +11360,11 @@
         "icon_front": "backpack",
         "code": "item 0",
         "contents": [
-            "property | Hands | 2 | Bulk | 2",
+            "property | Hands | 1 or 2* | Bulk | 2",
             "property | Price | 4 gp | Crafting | 3 gp",
             "rule",
-            "text | You need these tools to create items from raw materials with the Craft skill. Different sets are needed for different work, as determined by the GM; for example, blacksmith's tools differ from woodworker's tools. If you wear your artisan's tools, you can draw and replace them as part of the action that uses them."
+            "text | You need these tools to create items from raw materials with the Craft skill. Different sets are needed for different work, as determined by the GM; for example, blacksmith's tools differ from woodworker's tools. If you wear your artisan's tools, you can draw and replace them as part of the action that uses them.",
+            "text | *You can use the set of tools with one hand if you are wearing it."
         ],
         "reference": [],
         "filtering": [
@@ -11389,10 +11383,11 @@
         "icon_front": "backpack",
         "code": "item 3",
         "contents": [
-            "property | Hands | 2 | Bulk | 2",
+            "property | Hands | 1 or 2* | Bulk | 2",
             "property | Price | 50 gp | Crafting | 37 gp",
             "rule",
             "text | You need these tools to create items from raw materials with the Craft skill. Different sets are needed for different work, as determined by the GM; for example, blacksmith's tools differ from woodworker's tools. If you wear your artisan's tools, you can draw and replace them as part of the action that uses them.",
+            "text | *You can use the set of tools with one hand if you are wearing it.",
             "text | Sterling artisan's tools give you a +1 item bonus to the check."
         ],
         "reference": [],
@@ -11642,7 +11637,7 @@
             "property | Hands | 2 | Bulk | L",
             "property | Price | 1 sp | Crafting | 0 sp",
             "rule",
-            "text | This book contains the formulas for Crafting the common items in Chapter 6: Equipment of the Core Rulebook."
+            "text | This book contains the formulas for Crafting all 0-level common items in Chapter 6: Equipment of the Core Rulebook."
         ],
         "reference": [],
         "filtering": [
@@ -13167,7 +13162,7 @@
         "code": "item 0",
         "contents": [
             "property | Hands | 1 | Bulk | L",
-            "property | Price | 3 cp | Crafting | 2 cp",
+            "property | Price | 3 sp | Crafting | 2 sp",
             "rule",
             "text | These four-pronged metal spikes can damage a creature's feet. You can scatter caltrops in an empty square adjacent to you with an Interact action. The first creature that moves into that square must succeed at a DC 14^[14]^ Acrobatics check or take 1d4 piercing damage and 1 persistent bleed damage. A creature taking persistent bleed damage from caltrops takes a –5-foot penalty to its Speed. Spending an Interact action to pluck the caltrops free reduces the DC to stop the bleeding. Once a creature takes damage from caltrops, enough are ruined that other creatures moving into the square are safe. Deployed caltrops can be salvaged and reused if no creatures took damage from them. Otherwise, enough are ruined that they can't be salvaged."
         ],
@@ -16859,7 +16854,7 @@
         "icon_front": "card-burn",
         "code": "item 9",
         "contents": [
-            "pftrait | consumable | illusion | magical",
+            "pftrait | uncommon | consumable | illusion | magical",
             "property | Usage | held in 1 hand",
             "property | Price | 135 gp | Crafting | 101 gp",
             "rule",
@@ -16869,11 +16864,11 @@
         "reference": [],
         "filtering": [
             "level-9",
+            "uncommon",
             "consumable",
             "illusion",
             "magical",
             "item",
-            "common",
             "consumable"
         ],
         "level": 9
@@ -17303,11 +17298,11 @@
         "code": "item 13",
         "contents": [
             "pftrait | uncommon",
-            "property | Bulk | 1",
+            "property | Bulk | L",
             "property | Usage | worn armor",
             "property | Price | 2500 gp | Crafting | 1875 gp (The initial raw materials must include mithral worth at least 3,125 sp.)",
             "rule",
-            "text | Elven chain is a chain shirt made of mithral that glitters in even the faintest light. It grants a +2 item bonus to AC and has no check penalty.",
+            "text | Elven chain is a chain shirt made of mithral that glitters in even the faintest light. It has no check penalty.",
             "text | Created by elven artisans employing ancient crafting techniques, elven chain is exceptionally quiet. Unlike other chain shirts—even other mithral chain shirts—elven chain does not have the noisy trait. This suit of armor can be etched with runes like any other mithral chain shirt."
         ],
         "reference": [],
@@ -17328,11 +17323,11 @@
         "code": "item 20",
         "contents": [
             "pftrait | uncommon",
-            "property | Bulk | 1",
+            "property | Bulk | L",
             "property | Usage | worn armor",
             "property | Price | 52000 gp | Crafting | 39000 gp (The initial raw materials must include mithral worth at least 26,000 gp.)",
             "rule",
-            "text | Elven chain is a chain shirt made of mithral that glitters in even the faintest light. It grants a +2 item bonus to AC and has no check penalty.",
+            "text | Elven chain is a chain shirt made of mithral that glitters in even the faintest light. It has no check penalty.",
             "text | Created by elven artisans employing ancient crafting techniques, elven chain is exceptionally quiet. Unlike other chain shirts—even other mithral chain shirts—elven chain does not have the noisy trait. This suit of armor can be etched with runes like any other mithral chain shirt."
         ],
         "reference": [],
@@ -19884,10 +19879,11 @@
         "icon_front": "backpack",
         "code": "item 0",
         "contents": [
-            "property | Hands | 2 | Bulk | 1",
+            "property | Hands | 1 or 2* | Bulk | 1",
             "property | Price | 5 gp | Crafting | 3 gp",
             "rule",
-            "text | This kit of bandages, herbs, and suturing tools is necessary for Medicine checks to Administer First Aid, Treat Disease, Treat Poison, or Treat Wounds. If you wear your healer's tools, you can draw and replace them as part of the action that uses them."
+            "text | This kit of bandages, herbs, and suturing tools is necessary for Medicine checks to Administer First Aid, Treat Disease, Treat Poison, or Treat Wounds. If you wear your healer's tools, you can draw and replace them as part of the action that uses them.",
+            "text | *You can use the set of tools with one hand if you are wearing it."
         ],
         "reference": [],
         "filtering": [
@@ -19906,10 +19902,11 @@
         "icon_front": "backpack",
         "code": "item 3",
         "contents": [
-            "property | Hands | 2 | Bulk | 1",
+            "property | Hands | 1 or 2* | Bulk | 1",
             "property | Price | 50 gp | Crafting | 37 gp",
             "rule",
             "text | This kit of bandages, herbs, and suturing tools is necessary for Medicine checks to Administer First Aid, Treat Disease, Treat Poison, or Treat Wounds. If you wear your healer's tools, you can draw and replace them as part of the action that uses them.",
+            "text | *You can use the set of tools with one hand if you are wearing it.",
             "text | Expanded healer's tools provide a +1 item bonus to such checks."
         ],
         "reference": [],
@@ -20309,7 +20306,7 @@
         "icon_front": "card-burn",
         "code": "item 1",
         "contents": [
-            "pftrait | consumable | divine | good | splash",
+            "pftrait | consumable | divine | good | necromancy | splash",
             "property | Bulk | L",
             "property | Usage | held in 1 hand",
             "property | Price | 3 gp | Crafting | 2 gp",
@@ -20320,6 +20317,7 @@
         "reference": [],
         "filtering": [
             "level-1",
+            "necromancy",
             "consumable",
             "divine",
             "good",
@@ -28643,7 +28641,7 @@
             "property | Usage | held in 1 hand",
             "property | Price | 250 gp | Crafting | 187 gp",
             "rule",
-            "text | This shield bears eldritch glyphs to guard against magic. While you have this steel shield (Hardness 6, HP 24, BT 12) raised, you gain its circumstance bonus to saving throws against spells that target you (as well as to AC)."
+            "text | This shield bears eldritch glyphs to guard against magic. While you have this steel shield (Hardness 6, HP 24, BT 12) raised, you gain its circumstance bonus to saving throws against spells that target you (as well as to AC) and you can Shield Block spells that target you if you have that action."
         ],
         "reference": [],
         "filtering": [
@@ -31031,10 +31029,11 @@
         "icon_front": "backpack",
         "code": "item 0",
         "contents": [
-            "property | Hands | 2 | Bulk | L",
+            "property | Hands | 1 or 2* | Bulk | L",
             "property | Price | 3 gp | Crafting | 2 gp",
             "rule",
-            "text | You need thieves' tools to Pick Locks or Disable Devices (of some types) using the Thievery skill. If your thieves' tools are broken, you can repair them by replacing the lock picks with replacement picks appropriate to your tools; this doesn't require using the Repair action. If you wear your thieves' tools, you can draw and replace them as part of the action that uses them."
+            "text | You need thieves' tools to Pick Locks or Disable Devices (of some types) using the Thievery skill. If your thieves' tools are broken, you can repair them by replacing the lock picks with replacement picks appropriate to your tools; this doesn't require using the Repair action. If you wear your thieves' tools, you can draw and replace them as part of the action that uses them.",
+            "text | *You can use the set of tools with one hand if you are wearing it."
         ],
         "reference": [],
         "filtering": [
@@ -31057,6 +31056,7 @@
             "property | Price | 50 gp | Crafting | 37 gp",
             "rule",
             "text | You need thieves' tools to Pick Locks or Disable Devices (of some types) using the Thievery skill. If your thieves' tools are broken, you can repair them by replacing the lock picks with replacement picks appropriate to your tools; this doesn't require using the Repair action. If you wear your thieves' tools, you can draw and replace them as part of the action that uses them.",
+            "text | *You can use the set of tools with one hand if you are wearing it.",
             "text | Infiltrator thieves' tools add a +1 item bonus to checks to Pick Locks and Disable Devices."
         ],
         "reference": [],
@@ -31077,10 +31077,11 @@
         "code": "item 4",
         "contents": [
             "pftrait | uncommon",
-            "property | Hands | 2 | Bulk | L",
+            "property | Hands | 1 or 2* | Bulk | L",
             "property | Price | 80 gp | Crafting | 60 gp",
             "rule",
             "text | You need thieves' tools to Pick Locks or Disable Devices (of some types) using the Thievery skill. If your thieves' tools are broken, you can repair them by replacing the lock picks with replacement picks appropriate to your tools; this doesn't require using the Repair action. If you wear your thieves' tools, you can draw and replace them as part of the action that uses them.",
+            "text | *You can use the set of tools with one hand if you are wearing it.",
             "text | Smaller and made of stronger materials than most sets of thieves' tools, the items in this kit are much easier to conceal. You gain a +1 item bonus to Stealth checks to Conceal these tools. They otherwise function as infiltrator thieves' tools."
         ],
         "reference": [],
@@ -31801,7 +31802,7 @@
         "icon_front": "card-burn",
         "code": "item 1",
         "contents": [
-            "pftrait | consumable | divine | evil | splash",
+            "pftrait | consumable | divine | evil | necromancy | splash",
             "property | Bulk | L",
             "property | Usage | held in 1 hand",
             "property | Price | 3 gp | Crafting | 2 gp",
@@ -31813,6 +31814,7 @@
         "reference": [],
         "filtering": [
             "level-1",
+            "necromancy",
             "consumable",
             "divine",
             "evil",
@@ -31925,7 +31927,7 @@
             "property | Usage | held in 1 hand",
             "property | Price | 225 gp | Crafting | 168 gp (Supply one casting of all listed levels of all listed spells.)",
             "rule",
-            "text | This oak branch grows leaves in spring that change color in autumn and shed in winter. While wielding it, you gain a +2 circumstance bonus to Nature checks to identify plants.",
+            "text | This oak branch grows leaves in spring that change color in autumn and shed in winter. While wielding it, you gain a +2 circumstance bonus to checks to identify plants and fungus.",
             "fill",
             "section | Activate Cast a Spell",
             "text | You expend a number of charges from the staff to cast a spell from its list.",
@@ -31960,7 +31962,7 @@
             "property | Usage | held in 1 hand",
             "property | Price | 1750 gp | Crafting | 1312 gp (Supply one casting of all listed levels of all listed spells.)",
             "rule",
-            "text | This oak branch grows leaves in spring that change color in autumn and shed in winter. While wielding it, you gain a +2 circumstance bonus to Nature checks to identify plants.",
+            "text | This oak branch grows leaves in spring that change color in autumn and shed in winter. While wielding it, you gain a +2 circumstance bonus to checks to identify plants and fungus.",
             "fill",
             "section | Activate Cast a Spell",
             "text | You expend a number of charges from the staff to cast a spell from its list.",
@@ -43409,7 +43411,7 @@
             "property | Price | 250 gp | Crafting | 187 gp",
             "property | Category | Beast Gun Weapon",
             "rule",
-            "text | A spider gun is a +1 striking weapon. It's a distinct type of martial firearm made from the fangs and spinneret of a Large spider. It deals 1d10 poison damage with a range Petrification Cannon increment of 30 feet and reload 1. On a critical hit, the venom clings to the target and they take persistent poison damage equal to 1d4 + the number of weapon damage dice.",
+            "text | A spider gun is a +1 striking weapon. It's a distinct type of martial firearm made from the fangs and spinneret of a Large spider. It deals 1d10 poison damage with a range increment of 30 feet and reload 1. On a critical hit, the venom clings to the target and they take persistent poison damage equal to 1d4 + the number of weapon damage dice.",
             "text | A spider gun does not add critical specialization effects.",
             "text | The gun can be activated to fire webbing that hampers other creatures.",
             "fill",
@@ -43444,7 +43446,7 @@
             "property | Price | 1400 gp | Crafting | 1050 gp",
             "property | Category | Beast Gun Weapon",
             "rule",
-            "text | A spider gun is a +1 striking weapon. It's a distinct type of martial firearm made from the fangs and spinneret of a Large spider. It deals 1d10 poison damage with a range Petrification Cannon increment of 30 feet and reload 1. On a critical hit, the venom clings to the target and they take persistent poison damage equal to 1d4 + the number of weapon damage dice.",
+            "text | A spider gun is a +1 striking weapon. It's a distinct type of martial firearm made from the fangs and spinneret of a Large spider. It deals 1d10 poison damage with a range increment of 30 feet and reload 1. On a critical hit, the venom clings to the target and they take persistent poison damage equal to 1d4 + the number of weapon damage dice.",
             "text | A spider gun does not add critical specialization effects.",
             "text | The gun can be activated to fire webbing that hampers other creatures.",
             "fill",
@@ -43480,7 +43482,7 @@
             "property | Price | 6500 gp | Crafting | 4875 gp (The initial raw materials for the spider gun must include the fangs and spinneret of a giant spider or other Large spider.)",
             "property | Category | Beast Gun Weapon",
             "rule",
-            "text | A spider gun is a +1 striking weapon. It's a distinct type of martial firearm made from the fangs and spinneret of a Large spider. It deals 1d10 poison damage with a range Petrification Cannon increment of 30 feet and reload 1. On a critical hit, the venom clings to the target and they take persistent poison damage equal to 1d4 + the number of weapon damage dice.",
+            "text | A spider gun is a +1 striking weapon. It's a distinct type of martial firearm made from the fangs and spinneret of a Large spider. It deals 1d10 poison damage with a range increment of 30 feet and reload 1. On a critical hit, the venom clings to the target and they take persistent poison damage equal to 1d4 + the number of weapon damage dice.",
             "text | A spider gun does not add critical specialization effects.",
             "text | The gun can be activated to fire webbing that hampers other creatures.",
             "fill",
@@ -50634,6 +50636,333 @@
         "level": 9
     },
     {
+        "id": "item.artifact.lomm.spear-of-the-destroyers-flame",
+        "color": "#43A047",
+        "name": "Spear of the Destroyer's Flame",
+        "title": "Spear of the Destroyer's Flame",
+        "code": "item 20",
+        "contents": [
+            "pftrait | unique | artifact | evocation | magical",
+            "property | Bulk | 3",
+            "property | Usage | held in 2 hands",
+            "rule",
+            "text | The tip of this speed is edged with several razor-sharp obsidian blades. The spear has the thrown 30 feet weapon trait, in addition to the normal weapon traits for a longspear.",
+            "text | While the Spear of the Destroyer's Flame is in your possession, you gain fire resistance 20. When you critically hit a creature with the spear, the creature's blood begins to boil, unleashing blasts of heat from the wound. The creature takes 2d8 persistent fire damage, in addition to the persistent fire damage from the greater flaming rune; all creatures adjacent to the creature when it takes the persistent fire damage take an equal amount of fire damage. Like the fire damage from the greater flaming rune, this fire damage ignores a creature's fire resistance, though it doesn't ignore fire immunity.",
+            "text | In addition to its deadliness as a weapon, the Spear of the Destroyer's Flame gives its wielder full control over the Army of Fire, though the orders of the Commander of Flame supersede the orders of anyone wielding the spear, as noted below. While the spear is in your possession, you're aware of the location of the Army of Fire and the army's distance from you. In addition, you can give orders to the Army of Fire, and the army's members will understand and obey you, regardless of what language you speak. If you're within 1 mile of the Army of Fire, the army and its members gain a +10 circumstance bonus to their Speeds. Any members of the Army of Fire within 100 feet of you become quickened and can use the additional action to Step, Stride, or Strike. The army remains quickened for 1 minute after moving further than 100 feet from you.",
+            "text | The Army of Fire has unwavering loyalty to the Commander of Flame, an individual who has completed a special activation that ties their soul to the spear. As long as the Army of Fire can see and hear the Commander of Flame, the army will follow the Commander's orders. The Commander of Flame can sense the presence of the Army of Fire and issue orders, regardless of language, with the same effects as for someone in possession of the spear. The Commander of Flame still needs the spear in hand to muster the Army of Fire, however.",
+            "text | If the Commander of Flame doesn't hold the Spear of the Destroyer's Flame for 1 week, it returns to Cuetzmonquali's gut, instantly teleporting to the creature's location. If Cuetzmonquali is dead at this time, the spear also resurrects the creature, using the effects of a critical success on a 10th-level resurrect ritual.",
+            "fill",
+            "section | Activate 1 minute envision, Interact",
+            "text | You attempt to tie your soul to the spear. If the current Commander of Flame still lives, you must attempt either a Will save, Diplomacy check, Intimidation check, or Warfare Lore check. The DC of this check is equal to the current Commander's Will DC, Diplomacy DC, Intimidation DC, or Warfare Lore DC, whichever is highest. On a success, you become the Commander of Flame. On a failure, the current Commander knows your name and appearance and is aware of your exact location for 24 hours.",
+            "rule",
+            "fill",
+            "fill",
+            "section | Activate 1 hour envision, Interact",
+            "text | You use the spear's power to muster the Army of Fire. You can choose to either call the Army of Fire to your location or move yourself to the army's location. When calling the army, you select an area you can see within 500 feet. The army is instantly teleported to the location you select, spreading out as necessary to arrive safely. When moving yourself, you instantly teleport yourself to a location within 500 feet of the army. The army is composed of souls given form as burning humanoids, elementals, spirits, and undead.",
+            "rule",
+            "fill"
+        ],
+        "reference": [],
+        "filtering": [
+            "level-20",
+            "unique",
+            "artifact",
+            "evocation",
+            "magical",
+            "item",
+            "artifact"
+        ],
+        "level": 20
+    },
+    {
+        "id": "item.artifact.lomm.ridill",
+        "color": "#43A047",
+        "name": "Ridill",
+        "title": "Ridill",
+        "code": "item 20",
+        "contents": [
+            "pftrait | unique | artifact | evocation | magical | transmutation",
+            "property | Bulk | 4",
+            "property | Usage | held in 2 hands",
+            "rule",
+            "text | This 12-foot sword was made by a cyclops in the ancient past. It might be the greatest dragon-killing weapon ever made, and Fafnheir justly fears it, which is why he keeps it hidden in his hoard. Runes of dragon slaying are written down its blade. Ridill is a +3 major striking dragon bane speed adamantine greatsword. While wielding Ridill, you gain a +2 circumstance bonus to saves against fear. This increases to +4 if the effect is from a dragon. If you have an ability that depends on Large weapons (such as barbarian giant instinct), it works with Ridill.",
+            "text | Ridill is always considered to have the appropriate material or damage type necessary to deactivate a dragon's regeneration or cause the dragon's weakness to apply. For example, Ridill is considered to be cold iron when attacking a linnorm, while it would be treated as having dealt cold damage when attacking a red dragon. If the dragon has more than one weakness, only the highest value applies."
+        ],
+        "reference": [],
+        "filtering": [
+            "level-20",
+            "unique",
+            "artifact",
+            "evocation",
+            "magical",
+            "transmutation",
+            "item",
+            "artifact"
+        ],
+        "level": 20
+    },
+    {
+        "id": "item.material.lomm.grisantian-pelt-standard-grade-object",
+        "color": "#43A047",
+        "name": "Grisantian Pelt (Standard-Grade  Object)",
+        "title": "Grisantian Pelt (Standard-Grade  Object)",
+        "icon_front": "gold-bar",
+        "code": "item 12",
+        "contents": [
+            "pftrait | rare | precious",
+            "property | Price | 1200 gp | Crafting | 900 gp",
+            "rule",
+            "text | This supernaturally tough animal skin is gold and shines in sunlight. It can be used to make any item usually made of cloth, leather, or hide. This material is immune to fire, and its Hardness is doubled against piercing or slashing damage. Up to 4 Bulk of grisantian pelt can be harvested from a single creature (this is usually more than enough for 4 suits of standard grade armor or 2 suit of high-grade armor).",
+            "text | See book for table"
+        ],
+        "reference": [],
+        "filtering": [
+            "level-12",
+            "rare",
+            "precious",
+            "item",
+            "material"
+        ],
+        "level": 12
+    },
+    {
+        "id": "item.material.lomm.grisantian-pelt-high-grade-object",
+        "color": "#43A047",
+        "name": "Grisantian Pelt (High-Grade  Object)",
+        "title": "Grisantian Pelt (High-Grade  Object)",
+        "icon_front": "gold-bar",
+        "code": "item 18",
+        "contents": [
+            "pftrait | rare | precious",
+            "property | Price | 12000 gp | Crafting | 9000 gp",
+            "rule",
+            "text | This supernaturally tough animal skin is gold and shines in sunlight. It can be used to make any item usually made of cloth, leather, or hide. This material is immune to fire, and its Hardness is doubled against piercing or slashing damage. Up to 4 Bulk of grisantian pelt can be harvested from a single creature (this is usually more than enough for 4 suits of standard grade armor or 2 suit of high-grade armor).",
+            "text | See book for table"
+        ],
+        "reference": [],
+        "filtering": [
+            "level-18",
+            "rare",
+            "precious",
+            "item",
+            "material"
+        ],
+        "level": 18
+    },
+    {
+        "id": "item.armor.lomm.grisantian-pelt-armor-standard-grade",
+        "color": "#43A047",
+        "name": "Grisantian Pelt Armor (Standard-Grade)",
+        "title": "Grisantian Pelt Armor (Standard-Grade)",
+        "icon_front": "chain-mail",
+        "code": "item 12",
+        "contents": [
+            "pftrait | rare",
+            "property | Bulk | varies by armor",
+            "property | Usage | worn armor",
+            "property | Price | 1800 gp | Crafting | 1350 gp (The initial raw materials must include grisantian pelt worth at least 900 gp + 90 gp per Bulk.)",
+            "rule",
+            "text | Grisantian pelt armor is immune to fire damage, and its Hardness is doubled against piercing or slashing damage. Wearing armor made from grisantian pelt also grants you a +1 circumstance bonus to your AC and saving throws against attacks and spells that deal fire damage."
+        ],
+        "reference": [],
+        "filtering": [
+            "level-12",
+            "rare",
+            "item",
+            "armor"
+        ],
+        "level": 12
+    },
+    {
+        "id": "item.armor.lomm.grisantian-pelt-armor-high-grade",
+        "color": "#43A047",
+        "name": "Grisantian Pelt Armor (High-Grade)",
+        "title": "Grisantian Pelt Armor (High-Grade)",
+        "icon_front": "chain-mail",
+        "code": "item 19",
+        "contents": [
+            "pftrait | rare",
+            "property | Bulk | varies by armor",
+            "property | Usage | worn armor",
+            "property | Price | 33000 gp | Crafting | 24750 gp (The initial raw materials must include grisantian pelt worth at least 16,500 gp + 1,650 gp per Bulk.)",
+            "rule",
+            "text | Grisantian pelt armor is immune to fire damage, and its Hardness is doubled against piercing or slashing damage. Wearing armor made from grisantian pelt also grants you a +1 circumstance bonus to your AC and saving throws against attacks and spells that deal fire damage."
+        ],
+        "reference": [],
+        "filtering": [
+            "level-19",
+            "rare",
+            "item",
+            "armor"
+        ],
+        "level": 19
+    },
+    {
+        "id": "item.worn.lomm.mantle-of-the-grogrisant",
+        "color": "#43A047",
+        "name": "Mantle of the Grogrisant",
+        "title": "Mantle of the Grogrisant",
+        "icon_front": "cloak",
+        "code": "item 18",
+        "contents": [
+            "pftrait | unique | abjuration | invested | primal",
+            "property | Bulk | L",
+            "property | Usage | worn cloak",
+            "property | Price | 22000 gp | Crafting | 16500 gp",
+            "rule",
+            "text | This long, golden cloak is among the royal regalia of the emperors of Taldor. It was fashioned from the pelt of Grogrisant itself, after being slain by Taldaris, and Grogrisant's mane was fashioned into a thick fringe that runs all along the mantle's edges. The paws of the Grogrisant cross beneath the wearer's throat, giving you an imposing appearance. The Mantle of the Grogrisant grants you fire resistance 15 and physical resistance 5 (except bludgeoning).",
+            "fill",
+            "section | Activate [[two-action]] envision, Interact",
+            "text | You pull the hood of the mantle over your face, revealing the six eyes of Grogrisant. The mantle gives off a flash of blinding light in a 60-foot emanation. All enemies within this area must attempt a DC 24^[38]^ Fortitude saving throw. On a failure, they're blinded for 1 minute. On a critical failure, they're permanently blinded.",
+            "rule",
+            "fill"
+        ],
+        "reference": [],
+        "filtering": [
+            "level-18",
+            "unique",
+            "abjuration",
+            "invested",
+            "primal",
+            "item",
+            "worn"
+        ],
+        "level": 18
+    },
+    {
+        "id": "item.weapon.lomm.devils-trident",
+        "color": "#43A047",
+        "name": "Devil's Trident",
+        "title": "Devil's Trident",
+        "icon_front": "wave-strike",
+        "code": "item 9",
+        "contents": [
+            "pftrait | unique | enchantment | magical",
+            "property | Bulk | 1",
+            "property | Usage | held in 1 hand",
+            "property | Price | 100 gp | Crafting | 75 gp",
+            "property | Category | undefined Weapon",
+            "rule",
+            "text | This returning is made of an ancient black metal that glistens unnaturally and is cold to the touch. The prongs of this trident drip with metallic lake water. Strikes with the Devil's Trident trigger the weaknesses of any creature with a weakness to water.",
+            "fill",
+            "section | Activate [[reaction]] command",
+            "property | Trigger | You critically hit a creature",
+            "text | The target must succeed at a DC 17^[25]^ Fortitude save or become infected with sewer haze",
+            "rule",
+            "fill",
+            "fill",
+            "section | Activate [[two-action]] envision, Interact",
+            "text | The trident casts 3rd-level quench with a DC of 25 and a counteract modifier of +15. You can Sustain the Spell as normal.",
+            "rule",
+            "fill",
+            "fill",
+            "section | Activate [[three-action]] envision, Interact",
+            "text | You call upon the corrupted power of the trident to stay a foe. Attempt a Strike. On a hit, the trident casts 3rd-level paralyze on the target (DC 17^[25]^). If the Strike was a critical hit, the target is stunned 1 even if it critically succeeds at the save.",
+            "rule",
+            "fill"
+        ],
+        "reference": [],
+        "filtering": [
+            "level-9",
+            "unique",
+            "enchantment",
+            "magical",
+            "item",
+            "weapon"
+        ],
+        "level": 9
+    },
+    {
+        "id": "item.worn.lomm.golden-rod-memento",
+        "color": "#43A047",
+        "name": "Golden Rod Memento",
+        "title": "Golden Rod Memento",
+        "icon_front": "anatomy",
+        "code": "item 20",
+        "contents": [
+            "pftrait | rare | abjuration | cursed | magical",
+            "property | Bulk | —",
+            "property | Usage | worn",
+            "rule",
+            "text | This coin-sized golden pin depicts a bundle of five trimmed tree branches. Once you've stolen the pin, accepted it from Krampus willingly, or carried it for at least 1 minute, its curse activates. After that happens, the pin fastens itself to your clothing, providing you an insistent empathic admonition not to be naughty and constantly informing Krampus of your location, as status. The pin reappears and reattaches itself within moments if discarded or destroyed. The pin constantly monitors your actions, judging you against a good-aligned champion's code of conduct, plus the following third tenet:",
+            "bullet | You must never knowingly steal or inflict harm with the goal of stealing the victim's wealth. This tenet doesn't prevent you from looting those you harm primarily in the defense of yourself and others.",
+            "text | Whenever you violate this code of conduct, one of the golden branches tarnishes (and utterly egregious violations might tarnish multiple branches). During the winter following the curse activating, the pin transforms based on the number of golden branches remaining."
+        ],
+        "reference": [],
+        "filtering": [
+            "level-20",
+            "rare",
+            "abjuration",
+            "cursed",
+            "magical",
+            "item",
+            "worn"
+        ],
+        "level": 20
+    },
+    {
+        "id": "item.held.lomm.gamepiece-chariot",
+        "color": "#43A047",
+        "name": "Gamepiece Chariot",
+        "title": "Gamepiece Chariot",
+        "icon_front": "usable",
+        "code": "item 11",
+        "contents": [
+            "pftrait | rare | conjuration | magical",
+            "property | Bulk | —",
+            "property | Usage | held in one hand",
+            "property | Price | 1200 gp | Crafting | 900 gp",
+            "rule",
+            "text | This stone figurine of a chariot pulled by two horses was used by Tekritanin adults during strategy game competitions. Sometimes, though, mischievous adolescents snatched pieces like this one for joyriding.",
+            "fill",
+            "section | Activate [[two-action]] Interact",
+            "text | You place the figurine on the ground and roll it forward. As the chariot begins to move, it rapidly expands to the size of a Large heavy chariot pulled by two animated stone war horses. You can board the chariot and drive it up to 80 feet in a straight line. You can move through spaces occupied by creatures of size Medium or smaller, dealing 4d8+10 bludgeoning damage to those creatures. Affected creatures must attempt a DC 19^[28]^ basic Reflex save; on a failure, a creature is knocked prone. The chariot returns to its figurine form once it stops moving.",
+            "rule",
+            "fill"
+        ],
+        "reference": [],
+        "filtering": [
+            "level-11",
+            "rare",
+            "conjuration",
+            "magical",
+            "item",
+            "held"
+        ],
+        "level": 11
+    },
+    {
+        "id": "item.held.lomm.sandstorm-top",
+        "color": "#43A047",
+        "name": "Sandstorm Top",
+        "title": "Sandstorm Top",
+        "icon_front": "usable",
+        "code": "item 13",
+        "contents": [
+            "pftrait | rare | evocation | magical",
+            "property | Bulk | L",
+            "property | Usage | held in one hand",
+            "property | Price | 3000 gp | Crafting | 2250 gp",
+            "rule",
+            "text | On Tekritanin holidays, children reenacted legendary battles of deities by playing with magical tops. Though the paint on this wooden top has long since faded, its magical runes once gleamed yellow-gold and fiery orange, evoking the color of the sky during a sandstorm. To set the top in motion, wind a string around its bottom and upward along its body, and then throw it while gripping the string.",
+            "fill",
+            "section | Activate [[one-action]] Interact",
+            "text | You throw the sandstorm top 10 feet away from you. For 1 minute, as it spins, the top generates a magical sandstorm in a 5-foot radius. Any creature that starts its turn in the area or moves into the area takes 4d6 slashing damage (DC 20^[30]^ basic Reflex save). Additionally, a creature within the sandstorm must hold its breath or begin suffocating.",
+            "rule",
+            "fill"
+        ],
+        "reference": [],
+        "filtering": [
+            "level-13",
+            "rare",
+            "evocation",
+            "magical",
+            "item",
+            "held"
+        ],
+        "level": 13
+    },
+    {
         "id": "item.bomb.lopsg.alignment-ampoule-lesser",
         "color": "#43A047",
         "name": "Alignment Ampoule (Lesser)",
@@ -57716,8 +58045,10 @@
             "rule",
             "text | These thick bull or ram horns fuse into the armrests of your legchair companion, giving it more aggressive options. Your animal companion can only invest this item if it is a legchair.",
             "fill",
-            "section | Activate [[one-action]] or [two-actions] envision",
-            "text | Frequency once per minute;",
+            "section | Activate 1 varies envision",
+            "text | You trace your finger along the base of the ram horns, with an effect depending on how many actions you spent.",
+            "bullet | [object Object]",
+            "bullet | [object Object]",
             "rule",
             "fill"
         ],
@@ -67556,9 +67887,13 @@
             "property | Usage | held in 2 hands",
             "property | Price | 75 gp | Crafting | 56 gp",
             "rule",
-            "text | This deck of 54 cards appears nearly identical to standard playing cards. Comprised of four thematic suits of 13 cards each, as well as two wildcards, the deck of mischief is a favorite of scoundrels who prefer not to leave their games to chance—or to at least nudge the odds in their favor.",
-            "text | If you know how to activate the deck, you can illusorily transform the ace and face cards into other cards in the deck.",
-            "text | The deck is true to its name and less likely to comply with your wishes if not well cared for. While surprisingly."
+            "text | This deck of 54 cards appears nearly identical to standard playing cards. Comprised of four thematic suits of 13 cards each, as well as two wildcards, the deck of mischief is a favorite of scoundrels who prefer not to leave their games to chance—or to at least nudge the odds in their favor. If you know how to activate the deck, you can illusorily transform the ace and face cards into other cards in the deck.",
+            "text | The deck is true to its name and less likely to comply with your wishes if not well cared for. While surprisingly resistant to the elements, a waterlogged, dirty, or battered deck may not function as desired, giving you incorrect information about which cards are still in the deck or failing to hold the illusion at a critical moment. If a deck becomes incomplete due to damaged or missing cards, it rapidly loses its deceptive capabilities and might even purposefully sabotage you.",
+            "fill",
+            "section | Activate [[one-action]]",
+            "text | You learn which of the ace and face cards are still in the deck. You can then swap the apparent face of an ace or face card in your hand (if you have any) with the face of one still in the deck. A creature who Seeks or touches the card can attempt to disbelieve this illusion (Perception DC 16^[20]^).",
+            "rule",
+            "fill"
         ],
         "reference": [],
         "filtering": [
