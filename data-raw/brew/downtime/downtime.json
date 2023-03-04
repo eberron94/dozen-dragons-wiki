@@ -4,76 +4,11 @@
             "name": "Practice Teamwork",
             "source": "BREW",
             "page": 1,
-            "activity": {
-                "number": 3,
-                "unit": "day",
-                "entry": "at least 3 days"
-            },
-            "traits": ["downtime", "teamwork"],
-            "requirement": "You and at least one ally are taking a teamwork downtime activity, they do not need to be for the same feat but all must meet the prerequisites.",
+            "traits": ["downtime"],
             "entries": [
-                "You spend time training for certain situations in combat. Choose one of the following teamwork feats for which you meet the prerequisites: Brawny Teamwork, Cunning Teamwork, Illusive Teamwork, or Nimble Teamwork. After three days of downtime, you gain the respective teamwork feat.",
-                "By spending additional time training, you can increase the benefit of the teamwork feat:",
-                {
-                    "type": "list",
-                    "items": [
-                        "{@b 5 additional days} You can use the Honed Teamwork effect.",
-                        "{@b 10 additional days} You can use the Excellent Teamwork effect.",
-                        "{@b 20 additional days} You can use the Perfect Teamwork effect."
-                    ]
-                }
+                "You spend time training for certain situations. By spending additional time training, you can increase the benefit of the teamwork feat."
             ],
-            "reference":[
-                
-            ]
-        },
-        {
-            "name": "Dual Studies",
-            "source": "BREW",
-            "page": 1,
-            "activity": {
-                "number": 5,
-                "unit": "day",
-                "entry": "at least 5 days"
-            },
-            "traits": ["downtime", "teamwork"],
-            "requirement": "You and at least one ally are taking a teamwork downtime activity, they do not need to be for the same feat but all must meet the prerequisites.",
-            "entries": [
-                "You spend time sharing knowledge with your allies. Choose one of the following teamwork feats for which you meet the prerequisites: Remedy Lethologica or Shared Body of Knowledge",
-                "By spending additional time training, you can increase the benefit of the teamwork feat:",
-                {
-                    "type": "list",
-                    "items": [
-                        "{@b 5 additional days} You can use the Honed Teamwork effect.",
-                        "{@b 15 additional days} You can use the Excellent Teamwork effect.",
-                        "{@b 30 additional days} You can use the Perfect Teamwork effect."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Certified First Aid",
-            "source": "BREW",
-            "page": 1,
-            "activity": {
-                "number": 5,
-                "unit": "day",
-                "entry": "at least 5 days"
-            },
-            "traits": ["downtime", "teamwork"],
-            "requirement": "You and at least one ally are taking a teamwork downtime activity, they do not need to be for the same feat but all must meet the prerequisites.",
-            "entries": [
-                "You spend time sharing knowledge with your allies. Choose one of the following teamwork feats for which you meet the prerequisites: Nurse's Aid",
-                "By spending additional time training, you can increase the benefit of the teamwork feat:",
-                {
-                    "type": "list",
-                    "items": [
-                        "{@b 5 additional days} You can use the Honed Teamwork effect.",
-                        "{@b 10 additional days} You can use the Excellent Teamwork effect.",
-                        "{@b 20 additional days} You can use the Perfect Teamwork effect if you have Battle Medicine."
-                    ]
-                }
-            ]
+            "reference": []
         }
     ]
 }

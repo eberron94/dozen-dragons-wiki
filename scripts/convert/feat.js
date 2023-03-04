@@ -237,6 +237,10 @@ const getContent = ({
                     .join(' | ')
         );
 
+    if (teamwork && teamwork.training && teamwork.training[0]) {
+        lineArr.push(`property | Learning Teamwork | ${teamwork.training[0]} days`);
+    }
+
     if (access) {
         lineArr.push('property | Access | ' + Renderer.stripTags(access));
     }
@@ -275,23 +279,25 @@ const getContent = ({
         .concat(handleDragonmarkHeightened(dragonmark || {}));
 };
 
-const handleTeamwork = ({
-    honed, excellent, perfect,
-}) => {
+const handleTeamwork = ({ honed, excellent, perfect, training }) => {
     const arr = ['fill', 'section | Further Teamwork'];
 
     if (honed)
-        arr.push(`property | Honed Teamwork | ${Renderer.stripTags(honed)}`);
+        arr.push(
+            `property | Honed Teamwork | (*${training[1]} days*) ${Renderer.stripTags(
+                honed
+            )}`
+        );
     if (excellent)
         arr.push(
-            `property | Excellend Teamwork | ${Renderer.stripTags(excellent)}`
+            `property | Excellend Teamwork  | (*${training[2]} days*) ${Renderer.stripTags(excellent)}`
         );
     if (perfect)
         arr.push(
-            `property | Perfect Teamwork | ${Renderer.stripTags(perfect)}`
+            `property | Perfect Teamwork | (*${training[3]} days*) ${Renderer.stripTags(perfect)}`
         );
 
-    if (arr.length > 0) return arr;
+    if (arr.length > 1) return arr;
     else return [];
 };
 

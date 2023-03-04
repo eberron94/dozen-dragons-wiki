@@ -32,6 +32,19 @@
 				"You grant greater healing when the gods don't interfere.",
 				"When you roll a success to {@action Treat Wounds} for a creature that hasn't regained Hit Points from divine magic in the past 24 hours, you get a critical success on your check instead and restore the corresponding amount of Hit Points."
 			]
+		},
+		{
+			"name": "Tactical Training",
+			"source": "BREW",
+			"page": 1,
+			"level": 3,
+			"traits": [
+				"general"
+			],
+			"prerequisites": "You have a teamwork feat; Intelligence 14",
+			"entries": [
+				"You have an incredible ability to work with others. Increase your limit on prepared teamwork feats from 3 to 5."
+			]
 		}
     ]
 }

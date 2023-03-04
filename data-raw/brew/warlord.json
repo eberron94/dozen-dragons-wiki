@@ -1,0 +1,44 @@
+{
+    "feat":[
+        {
+			"name": "Warlord Dedication",
+			"source": "BREW",
+			"page": 47,
+			"level": 2,
+			"featType": {
+				"archetype": [
+					"Warlord"
+				]
+			},
+			"traits": [
+				"archetype",
+				"dedication"
+			],
+			"prerequisites": "Intelligence 16",
+			"entries": [
+				"You are quick to coordinate with your allies and give them clear directions. During your daily preparations, you spend give tips to and train with one ally. Until your next daily preparation, that ally gains one of your teamwork feats. The ally still has to prepare it."
+			],
+			"special": [
+				"You can't select another dedication feat until you have gained two other feats from the Warlord archetype."
+			]
+		},
+        {
+			"name": "Evaluate",
+			"source": "BREW",
+			"page": 47,
+			"level": 2,
+			"featType": {
+				"archetype": [
+					"Warlord"
+				]
+			},
+			"traits": [
+				"archetype"
+			],
+			"prerequisites": "Intelligence 16",
+			"entries": [
+				"You are quick to coordinate with your allies and give them clear directions. During your daily preparations, you spend give tips to and train with one ally. Until your next daily preparation, that ally gains one of your teamwork feats."
+			]
+		}
+    ]
+}
