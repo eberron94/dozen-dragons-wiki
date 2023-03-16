@@ -11,6 +11,7 @@ const {
     unpackText,
     cleanContent,
     skillList,
+    parseFrequency,
 } = require('../util/crobiUtil');
 const { DataUtil, SortUtil, Renderer } = require('../util/toolUtil');
 
@@ -261,15 +262,7 @@ const getContent = ({
         lineArr.push('property | Trigger | ' + Renderer.stripTags(trigger));
     }
 
-    if (frequency?.unit) {
-        if (frequency.interval > 1)
-            lineArr.push(
-                `property | Frequency | once per ${frequency.interval} ${frequency.unit}s`
-            );
-        else lineArr.push(`property | Frequency | once per ${frequency.unit}`);
-    } else if (frequency?.entry) {
-        lineArr.push(`property | Frequency | ${frequency.entry}`);
-    }
+    if (frequency) lineArr.push(parseFrequency(frequency));
 
     lineArr.push('rule');
 
@@ -297,7 +290,7 @@ const handleTeamwork = ({ honed, excellent, perfect, training }) => {
             `property | Perfect Teamwork | (*${training[3]} days*) ${Renderer.stripTags(perfect)}`
         );
 
-    if (arr.length > 1) return arr;
+    if (arr.length > 2) return arr;
     else return [];
 };
 

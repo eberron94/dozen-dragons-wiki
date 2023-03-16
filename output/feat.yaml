@@ -1234,7 +1234,7 @@
         - feat.ancestry.tiefling.loag.velstrac-magic
         - feat.ancestry.tiefling.loil.asura-magic
         - feat.ancestry.tiefling.loil.dominion-aura
-        - feat.ancestry.tiefling.loil.feat-faultspawn
+        - feat.ancestry.tiefling.loil.faultspawn
         - feat.ancestry.tiefling.loil.idol-threat
         - feat.ancestry.tiefling.loil.jalmeri-rakshasa-magic
         - feat.ancestry.tiefling.loil.reveal-hidden-self
@@ -2054,8 +2054,6 @@
         - feat.archetype.martial-artist.class.crb.tiger-stance
         - feat.archetype.martial-artist.class.crb.wolf-drag
         - feat.archetype.martial-artist.class.crb.wolf-stance
-        - feat.archetype.martial-artist.class.ooa-1.black-powder-flash
-        - feat.archetype.martial-artist.class.ooa-1.powder-punch-stance
         - feat.archetype.martial-artist.class.ooa-1.thunder-clap
         - feat.archetype.martial-artist.dedication.apg.martial-artist-dedication
         - feat.archetype.mauler.class.apg.avalanche-strike
@@ -2596,6 +2594,15 @@
         - feat.archetype.viking.class.crb.shielded-stride
         - feat.archetype.viking.class.lokl.viking-vindicator
         - feat.archetype.viking.dedication.apg.viking-dedication
+        - feat.archetype.warlord.class.brew.assured-heroics
+        - feat.archetype.warlord.class.brew.cooperative-warfare
+        - feat.archetype.warlord.class.brew.final-gambit
+        - feat.archetype.warlord.class.brew.grand-strategy
+        - feat.archetype.warlord.class.brew.legendary-tactician
+        - feat.archetype.warlord.class.brew.master-of-tactics
+        - feat.archetype.warlord.class.brew.pawn-structure
+        - feat.archetype.warlord.class.brew.tactical-remedy
+        - feat.archetype.warlord.dedication.brew.warlord-dedication
         - feat.archetype.weapon-improviser.class.apg.improvised-critical
         - feat.archetype.weapon-improviser.class.apg.improvised-pummel
         - feat.archetype.weapon-improviser.class.apg.makeshift-strike
@@ -4205,6 +4212,7 @@
         - feat.general.apg.thorough-search
         - feat.general.apg.true-perception
         - feat.general.brew.godless-recovery
+        - feat.general.brew.tactical-training
         - feat.general.crb.adopted-ancestry
         - feat.general.crb.ancestral-paragon
         - feat.general.crb.armor-proficiency

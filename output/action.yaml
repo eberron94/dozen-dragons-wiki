@@ -190,10 +190,14 @@
         - action.downtime.basic.crb.long-term-rest
         - action.downtime.basic.crb.retraining
         - action.downtime.basic.crb.subsist
+        - action.downtime.basic.skill.trained.brew.craft-an-item
         - action.downtime.basic.skill.trained.crb.craft
         - action.downtime.basic.skill.trained.crb.create-forgery
         - action.downtime.basic.skill.trained.crb.treat-disease
+        - action.downtime.brew.learn-a-spell-with-downtime
         - action.downtime.brew.practice-teamwork
+        - action.downtime.brew.research
+        - action.downtime.brew.retrain
         - action.downtime.gmg.bribe-contact
         - action.downtime.gmg.forge-documents
         - action.downtime.gmg.gain-contact

@@ -1,44 +1,155 @@
 {
-    "feat":[
+    "feat": [
         {
-			"name": "Warlord Dedication",
-			"source": "BREW",
-			"page": 47,
-			"level": 2,
-			"featType": {
-				"archetype": [
-					"Warlord"
-				]
-			},
-			"traits": [
-				"archetype",
-				"dedication"
-			],
-			"prerequisites": "Intelligence 16",
-			"entries": [
-				"You are quick to coordinate with your allies and give them clear directions. During your daily preparations, you spend give tips to and train with one ally. Until your next daily preparation, that ally gains one of your teamwork feats. The ally still has to prepare it."
-			],
-			"special": [
-				"You can't select another dedication feat until you have gained two other feats from the Warlord archetype."
-			]
-		},
+            "name": "Warlord Dedication",
+            "source": "BREW",
+            "page": 47,
+            "level": 2,
+            "featType": {
+                "archetype": ["Warlord"]
+            },
+            "traits": ["archetype", "dedication"],
+            "prerequisites": "Intelligence 16; Honed Teamwork with any teamwork feat",
+            "entries": [
+                "You are quick to coordinate with your allies and give them clear, tactical directions. You are trained in Tactics Lore, a special Lore skill that can be used only to Recall Knowledge or Synthesize Strategy, but on any creature. You can't increase your proficiency rank in Tactics Lore, except with Warlord archetype feats.",
+                "During your daily preparations, you discuss tactics with two allies. They are your pawns until your next daily preparations. Pawns can prepare one teamwork feat from your prepared one, but at the Training degree."
+            ],
+            "special": [
+                "You can't select another dedication feat until you have gained two other feats from the Warlord archetype."
+            ]
+        },
         {
-			"name": "Evaluate",
-			"source": "BREW",
-			"page": 47,
-			"level": 2,
-			"featType": {
-				"archetype": [
-					"Warlord"
-				]
-			},
-			"traits": [
-				"archetype"
-			],
-			"prerequisites": "Intelligence 16",
-			"entries": [
-				"You are quick to coordinate with your allies and give them clear directions. During your daily preparations, you spend give tips to and train with one ally. Until your next daily preparation, that ally gains one of your teamwork feats."
-			]
-		}
+            "name": "Cooperative Warfare",
+            "source": "BREW",
+            "page": 47,
+            "level": 4,
+            "featType": {
+                "archetype": ["Warlord"]
+            },
+            "traits": ["archetype"],
+            "prerequisites": "Warlord Dedication; Cooperative Maneuver",
+            "entries": [
+                "You are an expert at evaluating your opponents and their actions. If you are not an expert with Tactics Lore, you gain expert proficiency with Tactics Lore.",
+                "You can use Tactics Lore to Aid your partners for Cooperative Maneuver. (Note: you can use Tactics Lore to Aid normally, but the usual rules apply.)"
+            ]
+        },
+        {
+            "name": "Tactical Remedy",
+            "source": "BREW",
+            "page": 47,
+            "level": 4,
+            "featType": {
+                "archetype": ["Warlord"]
+            },
+            "traits": ["archetype"],
+            "prerequisites": "Warlord Dedication; Remedy Lethologica",
+            "entries": [
+                "You are an expert at creating a workable strategy. If you are not an expert with Tactics Lore, you gain expert proficiency with Tactics Lore.",
+                "You can use Remedy Lethologica twice per day, or twice per partner if you have Honed it."
+            ]
+        },
+        {
+            "name": "Pawn Structure",
+            "source": "BREW",
+            "page": 47,
+            "level": 6,
+            "featType": {
+                "archetype": ["Warlord"]
+            },
+            "traits": ["archetype"],
+			"prerequisites":"Warlord Dedication",
+            "entries": [
+                "The number of allies that you can prepare as pawns is equal to your Intelligence modifier."
+            ]
+        },
+        {
+            "name": "Assured Heroics",
+            "source": "BREW",
+            "page": 47,
+            "level": 8,
+            "featType": {
+                "archetype": ["Warlord"]
+            },
+            "traits": ["archetype"],
+            "prerequisites": "Warlord Dedication; Assurance (Tactics Lore); Heroic Teamwork",
+            "entries": [
+                "When you spend a Hero Point on behalf of your partner to reroll a check, they can choose to use your Assurance (Tactics Lore) result for attack rolls, saving throws, or Synthesize Strategy's skill check.",
+                "Your pawns count as partners for Heroic Teamwork, even if they do not have the feat."
+            ]
+        },
+
+        {
+            "name": "Master of Tactics",
+            "source": "BREW",
+            "page": 47,
+            "level": 10,
+            "featType": {
+                "archetype": ["Warlord"]
+            },
+            "traits": ["archetype"],
+            "prerequisites": "Warlord Dedication; expert in Tactics Lore; Perfect Teamwork with any teamwork feat",
+            "entries": [
+                "You gain master proficiency with Tactics Lore. During your daily preparations, choose one of the following strategies:",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Isolated Strategy} One of your pawns can prepare any number of your prepared teamwork feats.",
+                        "{@b Shared Strategy} Choose one teamwork feat you know. All your pawns prepare that feat, but it does not count towards their limit."
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "Legendary Tactician",
+            "source": "BREW",
+            "page": 47,
+            "level": 16,
+            "featType": {
+                "archetype": ["Warlord"]
+            },
+            "traits": ["archetype"],
+            "prerequisites": "Master of Tactics",
+            "entries": [
+                "You gain legendary proficiency with Tactics Lore. By spending 5 days of downtime with an ally, you share entire playbook with them and they become a promoted pawn.",
+                "A promoted pawn can prepare one extra teamwork feat each day and prepares your teamwork feats at the Honed degree, if you have the Honed degree."
+            ]
+        },
+        {
+            "name": "Final Gambit",
+            "source": "BREW",
+            "page": 47,
+            "level": 18,
+            "featType": {
+                "archetype": ["Warlord"]
+            },
+            "traits": ["archetype"],
+            "prerequisites": "Pawn Structure",
+            "entries": [
+                "You forego all other pawns, and focus on a single one. You can only prepare one pawn during your daily preparation:",
+                {
+                    "type": "list",
+                    "items": [
+                        "All teamwork feats you prepare, your pawn prepares and it does not count towards their limit.",
+                        "All teamwork feats your pawn prepares, you prepare and it does not count towards your limit. They are prepared at the Training degree.",
+                        "If they are a promoted pawn, your shared teamwork feats are prepared at the Honed degree, if the source knows it."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Grand Strategy",
+            "source": "BREW",
+            "page": 47,
+            "level": 14,
+            "featType": {
+                "archetype": ["Warlord"]
+            },
+            "traits": ["archetype"],
+            "prerequisites": "Pawn Structure",
+            "entries": [
+                "You forego all other strategies, and focus on a single one. You choose 10 pawns and one teamwork feat you have prepared. Each pawn prepares that feat at the Honed degree, if you have it, and it does not count against their limit. But, they cannot prepare any of your other prepared teamwork feats. If they are a promoted pawn, they instead prepare the feat at the Excellent degree, if you have it."
+            ]
+        }
     ]
 }

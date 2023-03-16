@@ -44,6 +44,9 @@
 
     "feat.class.druid.da.eerie-traces",
 
-"feat.class.sorcerer.lokl.divine-emissary",
-"feat.class.wizard.aoa-6.spell-mastery"
+    "feat.class.sorcerer.lokl.divine-emissary",
+    "feat.class.wizard.aoa-6.spell-mastery",
+
+    "feat.archetype.martial-artist.class.ooa-1.powder-punch-stance",
+    "feat.archetype.martial-artist.class.ooa-1.black-powder-flash"
 ]

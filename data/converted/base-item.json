@@ -24,6 +24,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "dart"
         ],
@@ -55,6 +56,7 @@
             "versatilep",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "sword"
         ],
@@ -87,6 +89,7 @@
             "vishkanya",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "knife"
         ],
@@ -116,6 +119,7 @@
             "versatilep",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "sword"
         ],
@@ -146,6 +150,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "advanced",
             "club"
         ],
@@ -177,6 +182,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "polearm"
         ],
@@ -207,6 +213,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "advanced",
             "spear"
         ],
@@ -239,6 +246,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "brawling"
         ],
@@ -269,6 +277,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -299,6 +308,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -329,6 +339,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "knife"
         ],
@@ -358,6 +369,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -389,6 +401,7 @@
             "shove",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "spear"
         ],
@@ -420,6 +433,7 @@
             "modularb,p,or-s",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "brawling"
         ],
@@ -449,6 +463,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "pick"
         ],
@@ -479,6 +494,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "axe"
         ],
@@ -508,6 +524,7 @@
             "repeating",
             "item",
             "weapon",
+            "weapon-category",
             "simple",
             "firearm"
         ],
@@ -539,6 +556,7 @@
             "thrown20ft.",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "club"
         ],
@@ -568,6 +586,7 @@
             "alchemical",
             "item",
             "weapon",
+            "weapon-category",
             "simple",
             "bow"
         ],
@@ -597,6 +616,7 @@
             "versatilep",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "sword"
         ],
@@ -627,6 +647,7 @@
             "kickback",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -656,6 +677,7 @@
             "versatilep",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -684,6 +706,7 @@
             "combination",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -712,6 +735,7 @@
             "combination",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -739,6 +763,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "bow"
         ],
@@ -767,6 +792,7 @@
             "volley50ft.",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "sling"
         ],
@@ -795,6 +821,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -823,6 +850,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "axe"
         ],
@@ -852,6 +880,7 @@
             "two-handd8",
             "item",
             "weapon",
+            "weapon-category",
             "simple",
             "club"
         ],
@@ -883,6 +912,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "knife"
         ],
@@ -918,6 +948,7 @@
             "fatald12",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -946,6 +977,7 @@
             "combination",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -978,6 +1010,7 @@
             "trip",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "flail"
         ],
@@ -1008,6 +1041,7 @@
             "two-handd8",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "knife"
         ],
@@ -1040,6 +1074,7 @@
             "trip",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "flail"
         ],
@@ -1069,6 +1104,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "simple",
             "dart"
         ],
@@ -1098,6 +1134,7 @@
             "scatter10ft.",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -1129,6 +1166,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "club"
         ],
@@ -1160,6 +1198,7 @@
             "versatilep",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "axe"
         ],
@@ -1189,6 +1228,7 @@
             "shove",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "polearm"
         ],
@@ -1219,6 +1259,7 @@
             "thrown",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "sling"
         ],
@@ -1249,6 +1290,7 @@
             "item",
             "common",
             "armor",
+            "armor-category",
             "light",
             "leather"
         ],
@@ -1276,6 +1318,7 @@
             "item",
             "common",
             "armor",
+            "armor-category",
             "medium",
             "plate"
         ],
@@ -1291,6 +1334,8 @@
         "contents": [
             "property | Bulk | L",
             "property | Price | 1 gp | Crafting | 0 gp",
+            "tablehead | AC Bonus | Hardness | HP | BT.",
+            "row | +1 | +3 | 6 | 3",
             "rule",
             "text | This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand."
         ],
@@ -1299,7 +1344,8 @@
             "level-0",
             "item",
             "common",
-            "shield"
+            "shield",
+            "shield-category"
         ],
         "level": 0
     },
@@ -1328,6 +1374,7 @@
             "sweep",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "axe"
         ],
@@ -1361,6 +1408,7 @@
             "twin",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "sword"
         ],
@@ -1392,6 +1440,7 @@
             "twin",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -1420,6 +1469,7 @@
             "combination",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -1450,6 +1500,7 @@
             "item",
             "common",
             "armor",
+            "armor-category",
             "medium",
             "chain"
         ],
@@ -1480,6 +1531,7 @@
             "item",
             "common",
             "armor",
+            "armor-category",
             "light",
             "chain"
         ],
@@ -1508,6 +1560,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "knife"
         ],
@@ -1539,6 +1592,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "simple",
             "knife"
         ],
@@ -1569,6 +1623,7 @@
             "fatald10",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -1602,6 +1657,7 @@
             "versatilep",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "knife"
         ],
@@ -1640,6 +1696,7 @@
             "clockwork",
             "item",
             "armor",
+            "armor-category",
             "light",
             "plate"
         ],
@@ -1672,6 +1729,7 @@
             "versatileb",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "club"
         ],
@@ -1700,6 +1758,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "simple",
             "club"
         ],
@@ -1730,6 +1789,7 @@
             "fatald8",
             "item",
             "weapon",
+            "weapon-category",
             "simple",
             "firearm"
         ],
@@ -1761,6 +1821,7 @@
             "thrown20feet",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "flail"
         ],
@@ -1791,6 +1852,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "bow"
         ],
@@ -1820,6 +1882,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "bow"
         ],
@@ -1846,6 +1909,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "simple",
             "bow"
         ],
@@ -1877,6 +1941,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "simple",
             "knife"
         ],
@@ -1904,6 +1969,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -1933,6 +1999,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "simple",
             "dart"
         ],
@@ -1963,6 +2030,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "dart"
         ],
@@ -1994,6 +2062,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -2024,6 +2093,7 @@
             "fatald10",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -2054,6 +2124,7 @@
             "fatald8",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -2083,6 +2154,7 @@
             "scatter5ft.",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -2113,6 +2185,7 @@
             "fatald10",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -2143,6 +2216,7 @@
             "versatiles",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "spear"
         ],
@@ -2174,6 +2248,7 @@
             "scatter10ft.",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "firearm"
         ],
@@ -2204,6 +2279,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "axe"
         ],
@@ -2235,6 +2311,7 @@
             "reach",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "spear"
         ],
@@ -2265,6 +2342,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -2294,6 +2372,7 @@
             "item",
             "common",
             "armor",
+            "armor-category",
             "unarmored",
             "cloth"
         ],
@@ -2322,6 +2401,7 @@
             "combination",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "firearm"
         ],
@@ -2351,6 +2431,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -2384,6 +2465,7 @@
             "kobold",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "brawling"
         ],
@@ -2415,6 +2497,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "polearm"
         ],
@@ -2447,6 +2530,7 @@
             "monk",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "knife"
         ],
@@ -2480,6 +2564,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "spear"
         ],
@@ -2508,6 +2593,7 @@
             "fatald10",
             "item",
             "weapon",
+            "weapon-category",
             "simple",
             "firearm"
         ],
@@ -2539,6 +2625,7 @@
             "twin",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "flail"
         ],
@@ -2569,6 +2656,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "flail"
         ],
@@ -2600,6 +2688,7 @@
             "scatter5ft.",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "firearm"
         ],
@@ -2629,6 +2718,7 @@
             "fatald10",
             "item",
             "weapon",
+            "weapon-category",
             "simple",
             "firearm"
         ],
@@ -2658,38 +2748,9 @@
             "fatald8",
             "item",
             "weapon",
+            "weapon-category",
             "simple",
             "firearm"
-        ],
-        "level": 0
-    },
-    {
-        "id": "item.weapon.simple.g-g.forked-bipod",
-        "color": "#43A047",
-        "name": "Forked Bipod",
-        "title": "Forked Bipod",
-        "icon_front": "trident",
-        "code": "item 0",
-        "contents": [
-            "pftrait | agile | deadly d6 | finesse",
-            "property | Hands | 1 | Bulk | L",
-            "property | Price | 3 sp | Crafting | 2 sp",
-            "property | Category | Simple Weapon | Group | Spear",
-            "property | Damage | 1d4 P",
-            "rule",
-            "text | Developed by Alkenstar scouts who often don't have time to break down a tripod when beset by the chaotic mutant monsters of the Mana Wastes, this two-pronged stabbing weapon can be used as a bipod to stabilize a gun with potent kickback. A forked bipod can be deployed or retrieved for use as a melee weapon as an Interact action."
-        ],
-        "reference": [],
-        "filtering": [
-            "level-0",
-            "agile",
-            "deadlyd6",
-            "finesse",
-            "item",
-            "common",
-            "weapon",
-            "simple",
-            "spear"
         ],
         "level": 0
     },
@@ -2717,6 +2778,7 @@
             "item",
             "common",
             "armor",
+            "armor-category",
             "heavy",
             "plate"
         ],
@@ -2746,6 +2808,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "pick"
         ],
@@ -2775,6 +2838,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "club"
         ],
@@ -2804,6 +2868,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "simple",
             "brawling"
         ],
@@ -2834,6 +2899,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "spear"
         ],
@@ -2864,6 +2930,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "polearm"
         ],
@@ -2892,6 +2959,7 @@
             "combination",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -2922,6 +2990,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "flail"
         ],
@@ -2953,6 +3022,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "hammer"
         ],
@@ -2981,6 +3051,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "axe"
         ],
@@ -3010,6 +3081,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "club"
         ],
@@ -3038,6 +3110,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "pick"
         ],
@@ -3066,6 +3139,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -3095,6 +3169,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "club"
         ],
@@ -3124,6 +3199,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "polearm"
         ],
@@ -3152,6 +3228,7 @@
             "combination",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -3181,6 +3258,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "polearm"
         ],
@@ -3208,6 +3286,7 @@
             "item",
             "common",
             "armor",
+            "armor-category",
             "heavy",
             "plate"
         ],
@@ -3237,6 +3316,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "sling"
         ],
@@ -3265,6 +3345,7 @@
             "combination",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -3297,6 +3378,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "axe"
         ],
@@ -3325,6 +3407,7 @@
             "modularb,p,or-s",
             "item",
             "weapon",
+            "weapon-category",
             "simple",
             "firearm"
         ],
@@ -3351,6 +3434,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "simple",
             "bow"
         ],
@@ -3379,6 +3463,7 @@
             "kickback",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -3409,6 +3494,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "axe"
         ],
@@ -3435,6 +3521,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "simple",
             "bow"
         ],
@@ -3464,6 +3551,7 @@
             "bulwark",
             "item",
             "armor",
+            "armor-category",
             "heavy",
             "composite"
         ],
@@ -3495,6 +3583,7 @@
             "bulwark",
             "item",
             "armor",
+            "armor-category",
             "heavy",
             "plate"
         ],
@@ -3522,6 +3611,7 @@
             "item",
             "common",
             "armor",
+            "armor-category",
             "medium",
             "leather"
         ],
@@ -3551,6 +3641,7 @@
             "propulsive",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "bow"
         ],
@@ -3583,6 +3674,7 @@
             "twin",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "sword"
         ],
@@ -3614,6 +3706,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "polearm"
         ],
@@ -3643,6 +3736,7 @@
             "reach",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "spear"
         ],
@@ -3671,6 +3765,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "simple",
             "dart"
         ],
@@ -3700,6 +3795,7 @@
             "fatal-aimd12",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -3730,6 +3826,7 @@
             "thrown20feet",
             "item",
             "weapon",
+            "weapon-category",
             "simple",
             "club"
         ],
@@ -3760,6 +3857,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "knife"
         ],
@@ -3791,6 +3889,7 @@
             "versatiles",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "knife"
         ],
@@ -3821,6 +3920,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -3851,6 +3951,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "simple",
             "knife"
         ],
@@ -3881,6 +3982,7 @@
             "versatilep",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "club"
         ],
@@ -3909,6 +4011,7 @@
             "trip",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -3939,6 +4042,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "simple",
             "brawling"
         ],
@@ -3969,6 +4073,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "knife"
         ],
@@ -4001,6 +4106,7 @@
             "versatileb",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "knife"
         ],
@@ -4031,6 +4137,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "spear"
         ],
@@ -4058,6 +4165,7 @@
             "item",
             "common",
             "armor",
+            "armor-category",
             "light",
             "leather"
         ],
@@ -4087,6 +4195,7 @@
             "versatiles",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "club"
         ],
@@ -4116,6 +4225,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "hammer"
         ],
@@ -4146,6 +4256,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "simple",
             "club"
         ],
@@ -4175,6 +4286,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "pick"
         ],
@@ -4205,6 +4317,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "knife"
         ],
@@ -4233,6 +4346,7 @@
             "repeating",
             "item",
             "weapon",
+            "weapon-category",
             "simple",
             "firearm"
         ],
@@ -4261,6 +4375,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "bow"
         ],
@@ -4290,6 +4405,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "bow"
         ],
@@ -4318,6 +4434,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "simple",
             "spear"
         ],
@@ -4346,6 +4463,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -4379,6 +4497,7 @@
             "volley30feet",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -4407,6 +4526,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "simple",
             "club"
         ],
@@ -4435,6 +4555,7 @@
             "combination",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -4464,6 +4585,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -4496,6 +4618,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "knife"
         ],
@@ -4526,6 +4649,7 @@
             "thrown20feet",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "axe"
         ],
@@ -4554,6 +4678,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "hammer"
         ],
@@ -4585,6 +4710,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "flail"
         ],
@@ -4616,6 +4742,7 @@
             "parry",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -4646,6 +4773,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "flail"
         ],
@@ -4674,6 +4802,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "simple",
             "club"
         ],
@@ -4704,6 +4833,7 @@
             "versatilep",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "polearm"
         ],
@@ -4736,6 +4866,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "simple",
             "club"
         ],
@@ -4764,6 +4895,7 @@
             "disarm",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -4795,6 +4927,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "club"
         ],
@@ -4825,6 +4958,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "knife"
         ],
@@ -4855,6 +4989,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "axe"
         ],
@@ -4884,6 +5019,7 @@
             "item",
             "common",
             "armor",
+            "armor-category",
             "light",
             "cloth"
         ],
@@ -4915,6 +5051,7 @@
             "shove",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "brawling"
         ],
@@ -4945,6 +5082,7 @@
             "fatald8",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -4973,6 +5111,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "pick"
         ],
@@ -5001,6 +5140,7 @@
             "combination",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -5031,6 +5171,7 @@
             "finesse",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "knife"
         ],
@@ -5062,6 +5203,7 @@
             "nonlethal",
             "item",
             "weapon",
+            "weapon-category",
             "simple",
             "flail"
         ],
@@ -5091,6 +5233,7 @@
             "modularb,p,or-s",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -5117,6 +5260,7 @@
             "item",
             "common",
             "armor",
+            "armor-category",
             "medium",
             "composite"
         ],
@@ -5148,6 +5292,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "club"
         ],
@@ -5177,6 +5322,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "polearm"
         ],
@@ -5207,6 +5353,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -5235,6 +5382,7 @@
             "combination",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -5266,6 +5414,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "club"
         ],
@@ -5294,6 +5443,7 @@
             "repeating",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "bow"
         ],
@@ -5322,6 +5472,7 @@
             "repeating",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "bow"
         ],
@@ -5350,6 +5501,7 @@
             "repeating",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "bow"
         ],
@@ -5379,6 +5531,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "advanced",
             "sword"
         ],
@@ -5409,6 +5562,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "club"
         ],
@@ -5441,6 +5595,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "knife"
         ],
@@ -5470,6 +5625,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "club"
         ],
@@ -5500,6 +5656,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "sword"
         ],
@@ -5527,6 +5684,7 @@
             "item",
             "common",
             "armor",
+            "armor-category",
             "medium",
             "composite"
         ],
@@ -5556,6 +5714,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -5587,6 +5746,7 @@
             "trip",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "flail"
         ],
@@ -5619,6 +5779,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "flail"
         ],
@@ -5648,6 +5809,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "polearm"
         ],
@@ -5679,6 +5841,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "knife"
         ],
@@ -5709,6 +5872,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "advanced",
             "flail"
         ],
@@ -5738,6 +5902,7 @@
             "finesse",
             "item",
             "weapon",
+            "weapon-category",
             "simple",
             "knife"
         ],
@@ -5766,6 +5931,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "shield"
         ],
@@ -5794,6 +5960,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "shield"
         ],
@@ -5822,6 +5989,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "bow"
         ],
@@ -5852,6 +6020,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -5882,6 +6051,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "dart"
         ],
@@ -5912,6 +6082,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "simple",
             "knife"
         ],
@@ -5941,6 +6112,7 @@
             "forceful",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "sword"
         ],
@@ -5971,6 +6143,7 @@
             "fatald10",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -5999,6 +6172,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "simple",
             "sling"
         ],
@@ -6027,6 +6201,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "simple",
             "spear"
         ],
@@ -6057,6 +6232,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "flail"
         ],
@@ -6086,6 +6262,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "simple",
             "brawling"
         ],
@@ -6116,6 +6293,7 @@
             "parry",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "sword"
         ],
@@ -6143,6 +6321,7 @@
             "item",
             "common",
             "armor",
+            "armor-category",
             "heavy",
             "composite"
         ],
@@ -6175,6 +6354,7 @@
             "scatter5ft.",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -6203,6 +6383,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "simple",
             "club"
         ],
@@ -6235,6 +6416,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "knife"
         ],
@@ -6250,6 +6432,8 @@
         "contents": [
             "property | Bulk | 1",
             "property | Price | 2 gp | Crafting | 1 gp",
+            "tablehead | AC Bonus | Hardness | HP | BT.",
+            "row | +2 | +5 | 20 | 10",
             "rule",
             "text | Like wooden shields, steel shields come in a variety of shapes and sizes. Though more expensive than wooden shields, they are much more durable."
         ],
@@ -6258,7 +6442,8 @@
             "level-0",
             "item",
             "common",
-            "shield"
+            "shield",
+            "shield-category"
         ],
         "level": 0
     },
@@ -6288,6 +6473,7 @@
             "thrown10feet",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "dart"
         ],
@@ -6315,6 +6501,7 @@
             "item",
             "common",
             "armor",
+            "armor-category",
             "light",
             "leather"
         ],
@@ -6342,6 +6529,7 @@
             "uncommon",
             "item",
             "armor",
+            "armor-category",
             "medium",
             "composite"
         ],
@@ -6372,6 +6560,7 @@
             "modular(pand-grapple,or-sand-sweep)",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "pick"
         ],
@@ -6402,6 +6591,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -6433,6 +6623,7 @@
             "thrown20feet",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "dart"
         ],
@@ -6463,6 +6654,7 @@
             "modularb,p,or-s",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "bow"
         ],
@@ -6495,6 +6687,7 @@
             "trip",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "brawling"
         ],
@@ -6524,6 +6717,7 @@
             "uncommon",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -6555,6 +6749,7 @@
             "tengu",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -6583,6 +6778,7 @@
             "combination",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "firearm"
         ],
@@ -6613,6 +6809,7 @@
             "thrown20feet",
             "item",
             "weapon",
+            "weapon-category",
             "simple",
             "knife"
         ],
@@ -6643,6 +6840,7 @@
             "tengu",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "sling"
         ],
@@ -6671,6 +6869,7 @@
             "backswing",
             "item",
             "weapon",
+            "weapon-category",
             "simple",
             "club"
         ],
@@ -6703,6 +6902,7 @@
             "twin",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "brawling"
         ],
@@ -6718,6 +6918,8 @@
         "contents": [
             "property | Bulk | 4",
             "property | Price | 10 gp | Crafting | 7 gp",
+            "tablehead | AC Bonus | Hardness | HP | BT. | Spd Pen.",
+            "row | +2 | +5 | 20 | 10 | --5 ft.",
             "rule",
             "text | These massive shields can be used to provide cover to nearly the entire body. Due to their size, they are typically made of wood reinforced with metal.",
             "text | When you have a tower shield raised, you can use the Take Cover action to increase the circumstance bonus to AC to +4. This lasts until the shield is no longer raised. If you would normally provide lesser cover against an attack, having your tower shield raised provides standard cover against it (and other creatures can Take Cover as normal using the cover from your shield)."
@@ -6727,7 +6929,8 @@
             "level-0",
             "item",
             "common",
-            "shield"
+            "shield",
+            "shield-category"
         ],
         "level": 0
     },
@@ -6756,6 +6959,7 @@
             "monk",
             "item",
             "weapon",
+            "weapon-category",
             "simple",
             "knife"
         ],
@@ -6787,6 +6991,7 @@
             "modularb,p,or-s",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "pick"
         ],
@@ -6815,6 +7020,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "spear"
         ],
@@ -6847,6 +7053,7 @@
             "parry",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -6876,6 +7083,7 @@
             "sweep",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "flail"
         ],
@@ -6907,6 +7115,7 @@
             "versatilep",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -6937,6 +7146,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "flail"
         ],
@@ -6968,6 +7178,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "knife"
         ],
@@ -6996,6 +7207,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "hammer"
         ],
@@ -7028,6 +7240,7 @@
             "item",
             "common",
             "weapon",
+            "weapon-category",
             "martial",
             "flail"
         ],
@@ -7059,6 +7272,7 @@
             "reach",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "flail"
         ],
@@ -7093,6 +7307,7 @@
             "versatilep",
             "item",
             "weapon",
+            "weapon-category",
             "advanced",
             "knife"
         ],
@@ -7124,6 +7339,7 @@
             "two-handd10",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "sword"
         ],
@@ -7157,6 +7373,7 @@
             "versatiles",
             "item",
             "weapon",
+            "weapon-category",
             "martial",
             "knife"
         ],
@@ -7172,6 +7389,8 @@
         "contents": [
             "property | Bulk | 1",
             "property | Price | 1 gp | Crafting | 0 gp",
+            "tablehead | AC Bonus | Hardness | HP | BT.",
+            "row | +2 | +3 | 12 | 6",
             "rule",
             "text | Though they come in a variety of shapes and sizes, the protection offered by wooden shields comes from the stoutness of their materials. While wooden shields are less expensive than steel shields, they break more easily."
         ],
@@ -7180,7 +7399,8 @@
             "level-0",
             "item",
             "common",
-            "shield"
+            "shield",
+            "shield-category"
         ],
         "level": 0
     }
