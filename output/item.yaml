@@ -282,6 +282,8 @@
         - item.armor.lokl.armor-of-the-holy-warrior
         - item.armor.lol.sovereign-steel-armor-high-grade
         - item.armor.lol.sovereign-steel-armor-standard-grade
+        - item.armor.lomm.grisantian-pelt-armor-high-grade
+        - item.armor.lomm.grisantian-pelt-armor-standard-grade
         - item.armor.lotgb.abysium-armor-high-grade
         - item.armor.lotgb.abysium-armor-standard-grade
         - item.armor.lotgb.djezet-armor-high-grade
@@ -331,6 +333,8 @@
         - item.artifact.loil.cube-of-nex
         - item.artifact.loil.lesser-cube-of-nex
         - item.artifact.lome.jahan-waystone
+        - item.artifact.lomm.ridill
+        - item.artifact.lomm.spear-of-the-destroyers-flame
         - item.artifact.lowg.final-blade
         - item.artifact.sot-6.ancestral-embrace
         - item.artifact.sot-6.halcyon-heart
@@ -1129,6 +1133,8 @@
         - item.held.lol.blade-of-the-black-sovereign
         - item.held.lol.clockwork-recorder
         - item.held.lol.deepdread-claw
+        - item.held.lomm.gamepiece-chariot
+        - item.held.lomm.sandstorm-top
         - item.held.lopsg.astrolabe-mariners
         - item.held.lopsg.astrolabe-standard
         - item.held.lopsg.quill-of-passage
@@ -1313,6 +1319,8 @@
         - item.material.lol.sovereign-steel-standard-grade-object
         - item.material.lol.sovereign-steel-weapon-high-grade
         - item.material.lol.sovereign-steel-weapon-standard-grade
+        - item.material.lomm.grisantian-pelt-high-grade-object
+        - item.material.lomm.grisantian-pelt-standard-grade-object
         - item.material.lotgb.abysium-chunk
         - item.material.lotgb.abysium-high-grade-object
         - item.material.lotgb.abysium-ingot
@@ -2173,6 +2181,7 @@
         - item.weapon.crb.storm-flash
         - item.weapon.crb.storm-flash-greater
         - item.weapon.crb.twining-staff
+        - item.weapon.lomm.devils-trident
         - item.weapon.lotgb.abysium-weapon-high-grade
         - item.weapon.lotgb.abysium-weapon-standard-grade
         - item.weapon.lotgb.djezet-weapon-high-grade
@@ -2389,6 +2398,8 @@
         - item.worn.lol.palm-crossbow
         - item.worn.lol.vestige-lenses
         - item.worn.lome.genealogy-mask
+        - item.worn.lomm.golden-rod-memento
+        - item.worn.lomm.mantle-of-the-grogrisant
         - item.worn.lopsg.agate-ellipsoid-aeon-stone
         - item.worn.lopsg.azure-briolette-aeon-stone
         - item.worn.lopsg.chronicler-wayfinder

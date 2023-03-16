@@ -137,7 +137,7 @@ const getTextEntries = ({ entries = [] }) => {
                                 lineArr.push(
                                     `bullet | Stage ${stage} | ${Renderer.stripTags(
                                         entry
-                                    )} (${duration|'???'})`
+                                    )} (${duration | '???'})`
                                 )
                             );
                             lineArr.push('rule');
@@ -167,6 +167,8 @@ const getTextEntries = ({ entries = [] }) => {
                                         e.trigger
                                     )}`
                                 );
+                            if (e.frequency)
+                                lineArr.push(parseFrequency(e.frequency));
                             if (e.entries) {
                                 lineArr.push(getTextEntries(e));
                             }
@@ -238,6 +240,31 @@ const parseUp = (str) => {
     return str;
 };
 
+const parseFrequency = (frequency) => {
+    if (frequency?.unit) {
+        if (frequency.interval > 1)
+            return `property | Frequency | once per ${frequency.interval} ${frequency.unit}s`;
+        else return `property | Frequency | once per ${frequency.unit}`;
+    } else if (frequency?.entry) {
+        return `property | Frequency | ${frequency.entry}`;
+    }
+
+    return `property | Frequency | unknown`;
+};
+
+const parseDuration = ({ entry, number, unit, sustained }) => {
+    if (entry) return entry;
+
+    let str = '';
+
+    if (number) {
+        if (number > 1) str = `${number} ${unit}s`;
+        else str = `${number} ${unit}`;
+    } else str = `${unit}`;
+
+    return str + (sustained ? ' sustained' : '');
+};
+
 const nthStr = (num) => {
     switch (parseInt(num)) {
         case 1:
@@ -273,4 +300,6 @@ module.exports = {
     nthStr,
     cleanContent,
     cape,
+    parseDuration,
+    parseFrequency,
 };

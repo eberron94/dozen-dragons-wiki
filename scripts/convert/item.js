@@ -1,7 +1,12 @@
 const { kebabCase } = require('lodash');
 const { notSubset } = require('../../src/util/arrays');
 const { toDashCase } = require('../../src/util/stringHelper');
-const { initCard, getTextEntries, unpackText } = require('../util/crobiUtil');
+const {
+    initCard,
+    getTextEntries,
+    unpackText,
+    parseFrequency,
+} = require('../util/crobiUtil');
 const { DataUtil, SortUtil, Renderer } = require('../util/toolUtil');
 
 const convertItems2Save = async (items, saveFn) => {
@@ -63,7 +68,10 @@ const convertItem = (item) => {
     // SET EXTRA
     if (notSubset(item.traits || [], ['unique', 'rare', 'uncommon']))
         card.filtering.push('common');
-    if (item.category) card.filtering.push(item.category);
+    if (item.category) {
+        card.filtering.push(item.category);
+        card.filtering.push(item.category+'-category');
+    }
     if (item.subCategory) card.filtering.push(item.subCategory);
     if (item?.weaponData?.group)
         card.filtering.push(item.weaponData.group.split('|')[0]);
@@ -86,6 +94,7 @@ const getContent = ({
     subCategory,
     weaponData,
     armorData,
+    shieldData,
     price,
     frequency,
     dragonmark,
@@ -176,15 +185,37 @@ const getContent = ({
         }
     }
 
-    if (frequency?.unit) {
-        if (frequency.interval > 1)
-            lineArr.push(
-                `property | Frequency | once per ${frequency.interval} ${frequency.unit}s`
-            );
-        else lineArr.push(`property | Frequency | once per ${frequency.unit}`);
-    } else if (frequency?.entry) {
-        lineArr.push(`property | Frequency | ${frequency.entry}`);
+    if (category === 'Shield' && shieldData) {
+
+        let shieldHead = 'tablehead';
+        line = 'row';
+        if (shieldData.ac || shieldData.ac === 0) {
+            line += ` | +${shieldData.ac}`;
+            shieldHead += ` | AC Bonus`;
+        }
+        if (shieldData.hardness) {
+            line += ` | +${shieldData.hardness}`;
+            shieldHead += ` | Hardness`;
+        }
+        if (shieldData.hp) {
+            line += ` | ${shieldData.hp}`;
+            shieldHead += ` | HP`;
+        }
+        if (shieldData.bt) {
+            line += ` | ${shieldData.bt}`;
+            shieldHead += ` | BT.`;
+        }
+        if (shieldData.speedPen) {
+            line += ` | --${shieldData.speedPen} ft.`;
+            shieldHead += ` | Spd Pen.`;
+        }
+        if (line !== 'row') {
+            lineArr.push(shieldHead);
+            lineArr.push(line);
+        }
     }
+
+    if (frequency) lineArr.push(parseFrequency(frequency));
 
     lineArr.push('rule');
 
@@ -227,7 +258,8 @@ const handleDragonmarkHeightened = ({
 const reduceDC =
     (level = 0) =>
     (line) => {
-        const dcReg = /(flat |flat check )?(DC|DC is) ([0-9]+)( flat| flat check)?/g;
+        const dcReg =
+            /(flat |flat check )?(DC|DC is) ([0-9]+)( flat| flat check)?/g;
         return line.replace(dcReg, (match, p1, p2, p3, p4) => {
             if (p1 || p4) return match;
             const oldDC = Number(p3);

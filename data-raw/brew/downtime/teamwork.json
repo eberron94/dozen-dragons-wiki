@@ -1,0 +1,273 @@
+{
+    "feat": [
+        {
+            "name": "Cooperative Maneuver",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["teamwork", "auditory", "linguistic"],
+            "activity": {
+                "number": 1,
+                "unit": "reaction"
+            },
+            "trigger": "An adjacent partner rolls a skill check against a foe's Saving Throw DC or Perception DC.",
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "entries": [
+                "You and your partner perform a maneuver to surprise your shared enemy. Make a skill check to Aid the triggering skill check, you count as having prepared. The skill is determined by the Save or Perception DC the partner is challenging and the DC is the level DC of the targeted foe.",
+                {
+                    "type": "table",
+                    "rows": [
+                        ["DC", "Skills"],
+                        ["Fortitude", "Acrobatics, Athletics, or Crafting"],
+                        ["Reflex", "Acrobatics, Deception, or Performance"],
+                        ["Will", "Diplomacy, Society, or Survival"],
+                        ["Perception", "Deception, Stealth, or Thievery"]
+                    ]
+                }
+            ],
+            "teamwork": {
+                "training": [3, 5, 5, 10],
+                "honed": "You can use this action unlimited times per day, but it must be a different foe each time.",
+                "excellent": "When you succeed with Aid, you can choose to have the partner roll twice and use the better result instead of applying a circumstance bonus. The partner's action gains the fortune trait.",
+                "perfect": "When you roll a failure to Aid, you get a success instead."
+            }
+        },
+        {
+            "name": "Remedy Lethologica",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["teamwork", "auditory", "linguistic", "fortune"],
+            "activity": {
+                "number": 1,
+                "unit": "reaction"
+            },
+            "prerequisites": "trained in a skill with the Recall Knowledge action",
+            "trigger": "A partner is within 30 feet of you and rolls a failure to Synthesize a Strategy against a target you can both see.",
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "entries": [
+                "You quickly recall a piece of knowledge you and your partner studied earlier in the day and verbally remind them of it. The triggering partner rerolls the failed check and uses the new result."
+            ],
+            "teamwork": {
+                "training": [5, 5, 15, 20],
+                "honed": "You can use this action an additional time per day, but cannot trigger with the same partner.",
+                "excellent": "You can make a new roll for your partner, using your own modifier for the rolled skill.",
+                "perfect": "You can make a new roll for your partner, using your own modifier for any relevant skill."
+            }
+        },
+        {
+            "name": "Shared Body of Knowledge",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": [
+                "teamwork",
+                "auditory",
+                "linguistic",
+                "visual",
+                "fortune"
+            ],
+            "activity": {
+                "number": 2,
+                "unit": "action"
+            },
+            "prerequisites": "trained in a skill with the Recall Knowledge action",
+            "requirement": "Your partner is within 60 feet.",
+            "entries": [
+                "You quickly share some information with your partner to figure something out. Your partner can use their reaction to have both of you Recall Knowledge on the same target or topic but using different relevant skills. Take the best result; if you and your partner both succeed, the result is instead a critical success.",
+                {
+                    "type": "successDegree",
+                    "entries": {
+                        "Critical Success": "You and your partner learn the creature's category, creature traits, and three pieces of information about the target.",
+                        "Success": "As critical success, but you and your partner learn two piece of information.",
+                        "Failure": "You and your partner learn the creature's category and creature traits.",
+                        "Critical Failure": "You and your partner learn nothing."
+                    }
+                }
+            ],
+            "teamwork": {
+                "training": [5, 5, 15, 30],
+                "honed": "You and your partner learn an additional piece of information on a success and critical success.",
+                "excellent": "You count as having prepared the Aid reaction to help your partner with an attack roll or skill check against the target, use the same skill as the Recall Knowledge.",
+                "perfect": "You can perform this as a one-action activity, but you do not gain the bonus piece of information from Honed Teamwork."
+            }
+        },
+        {
+            "name": "Nurse's Aid",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["teamwork"],
+            "entries": [
+                "You and your partner move as one when dealing with medical emergencies. You can provide medical tools you are wearing or holding to your partner while you are adjacent to them. When your partner would perform an action that requires healer's tools while you are both adjacent to the same patient and each other, you can use your reaction to Interact to draw the healer's tools from your gear or theirs."
+            ],
+            "teamwork": {
+                "training": [5, 5, 10, 20],
+                "honed": "While your partner is providing the healer's tools, they can prepare to Aid you on a Medicine check with a DC 10 Medicine check of their own as a two-action activity with the manipulate trait.",
+                "excellent": "When you Treat Wounds while your partner is holding the healer's tools, the target regains 5 additional HP at DC 20, 10 HP at DC 30, or 15 HP at DC 40. (This does not apply to Battle Medicine.)",
+                "perfect": "Once per day, your partner can use Battle Medicine on you when you are unconscious, even if they do not have the feat or you would be immune to their Battle Medicine. They can use tools you are wearing and can make the check with your using your modifier. On a success, you regain 2 Hit Points. On a Critical Success, you regain 4 Hit Points. (Increasing the DC increases the amount restored.)"
+            }
+        },
+        {
+            "name": "Swap Places",
+            "source": "BREW",
+            "page": 1,
+            "level": 1,
+            "traits": ["teamwork", "move"],
+            "activity": {
+                "number": 1,
+                "unit": "reaction"
+            },
+            "trigger": "A partner, of your size or smaller, ends a Stride adjacent to you.",
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "entries": [
+                "You and your partner swap positions to take better advantage of a situation. Your partner Steps into your space while you move into their's. If this action is interrupted or either of you would move onto difficult terrain, neither of you move."
+            ],
+            "teamwork": {
+                "training": [2, 3, 10, 10],
+                "honed": "You can Swap Places with a partner one size larger than you.",
+                "excellent": "You can swap on difficult terrain, but you become Slowed 1 until the end of your next turn.",
+                "perfect": "This movement doesn't trigger reactions."
+            }
+        },
+        {
+            "name": "Extend the Bulwark",
+            "source": "BREW",
+            "page": 1,
+            "level": 3,
+            "traits": ["teamwork"],
+            "activity": {
+                "number": 1,
+                "unit": "free"
+            },
+            "trigger": "An adjacent partner rolls a Reflex save to avoid damage and you are wearing armor with Bulwark.",
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "entries": [
+                "You cover your partner with your armor. The partner adds a +1 circumstance bonus to the triggering Reflex save. Your armor loses the Bulwark trait until the start of your next turn."
+            ],
+            "teamwork": {
+                "training": [5, 10, 10, 10],
+                "honed": "The circumstance bonus increases to +2.",
+                "excellent": "You can Extend the Bulwark any number of times each day.",
+                "perfect": "Your armor does not lose the Bulwark trait."
+            }
+        },
+        {
+            "name": "Wild Flanking",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["teamwork"],
+            "activity": {
+                "number": 1,
+                "unit": "free"
+            },
+            "trigger": "You are flanking a foe with a partner and they successful Strike that foe.",
+            "frequency": {
+                "unit": "round",
+                "freq": 1
+            },
+            "entries": [
+                "Your partner deals 1 precision damage in addition to their normal damage for the Strike."
+            ],
+            "teamwork": {
+                "training": [5, 10, 5, 10],
+                "honed": "The precision damage increases to 2.",
+                "excellent": "You can choose to have your partner deal 4 precision damage, but you take 4 precision damage from them as well.",
+                "perfect": "You can choose to have your partner deal 6 precision damage, but you take 6 precision damage from them as well."
+            }
+        },
+        {
+            "name": "Elemental Commixture",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["teamwork", "commixture", "auditory", "linguistic"],
+            "activity": {
+                "number": 1,
+                "unit": "reaction"
+            },
+            "trigger": "A partner you can see Casts a Spell that targets a single creature or an area; you cannot be Slowed or Stunned.",
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "entries": [
+                "You tap into the power drawn forth by your partner to cast your own magic. You Cast a Spell that takes 1 or 2 actions to cast using a spell slot, the action gains the manipulate trait regardless of the spell being cast. Your spell must target at least one of the creatures targeted by your partner's spell or overlap in area.",
+                "The mixture of spells causes a violent overload, choose one of the following after your spell resolves, X is equal to the lowest level of commixed spell:",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Elemental Overload} Choose one creature that took elemental damage from both commixed spells. That creature gains weakness X to both damage types until the end of your partner's next turn.",
+
+                        "{@b Splashing Overload} Choose one creature that was damaged by one or both commixed spells. You deal X splash damage to all adjacent creatures, use one of the damage types that damaged the creature.",
+
+                        "{@b Mental Overload} Choose one creature that failed or critically failed a save against a mental commixed spell and one other creature within 15 feet of them. The second creature takes X mental damage.",
+
+                        "{@b Conjured Overload} Choose one creature that failed or critically failed a save against a conjuration commixed spell. That creature is teleported 5 feet in a direction of your choosing. This gains the teleportation trait and is forced movement."
+                    ]
+                },
+                "The exertion of the reactive casting causes you to become Slowed 2 until the end of your next turn."
+            ],
+            "teamwork": {
+                "training": [5, 10, 15, 15],
+                "honed": "You can use this action two times per day, but must be with a different partner each time.",
+                "excellent": "You can Cast a non-focus cantrip, but X is always equal to 1.",
+                "perfect": "Casting a Cantrip Spell does not count against the frequency."
+            }
+        },
+        {
+            "name": "High and Low",
+            "source": "BREW",
+            "page": 1,
+            "level": 5,
+            "traits": ["teamwork"],
+            "activity": {
+                "number": 1,
+                "unit": "free"
+            },
+            "trigger": "You range Strike and critically hit a foe, and they takes damage.",
+            "frequency": {
+                "unit": "day",
+                "freq": 1
+            },
+            "entries": [
+                "You and your partner mix your attacks to keep your enemies off balance. Until the start of your next turn, the next partner to melee Strike the target as part of a reaction gains a +1 circumstance bonus to the roll."
+            ],
+            "teamwork": {
+                "training": [5, 10, 15, 15],
+                "honed": "You can use this action unlimited times per day, but it must be a different foe each time.",
+                "excellent": "The circumstance bonus increases to +2.",
+                "perfect": "The circumstance bonus applies to the next melee Strike from a partner, but it does not need to be a reaction."
+            }
+        },
+        {
+            "name": "Heroic Teamwork",
+            "source": "BREW",
+            "page": 1,
+            "level": 3,
+            "traits": ["teamwork"],
+            "entries": [
+                "You lend luck to your teammates. You can spend a Hero Point on behalf of your partner to reroll a check."
+            ],
+            "teamwork": {
+                "training": [5, 10, 15, 20],
+                "honed": "You can spend all your Hero Points to avoid the death of a partner. They lose the dying condition entirely and stabilize with 0 Hit Points. They don't gain the wounded condition or increase its value from losing the dying condition in this way, but if they already had that condition, they don't lose it or decrease its value.",
+                "excellent": "When you spend a Hero Point to have a partner reroll a check, you can choose to have them roll two new dice, instead of one, and use the best result. If you do, you become doomed 1.",
+                "perfect": "When a partner takes damage that would reduce them to 0 Hit Points, you can spend a Hero Point to leave them with 1 Hit Point. You and your partner become doomed 1."
+            }
+        }
+    ]
+}

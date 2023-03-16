@@ -11,6 +11,7 @@ const {
     unpackText,
     cleanContent,
     skillList,
+    parseFrequency,
 } = require('../util/crobiUtil');
 const { DataUtil, SortUtil, Renderer } = require('../util/toolUtil');
 
@@ -222,6 +223,7 @@ const getContent = ({
     frequency,
     special,
     dragonmark,
+    teamwork,
     ...item
 }) => {
     const lineArr = [];
@@ -235,6 +237,10 @@ const getContent = ({
                     .sort(SortUtil.sortTraits)
                     .join(' | ')
         );
+
+    if (teamwork && teamwork.training && teamwork.training[0]) {
+        lineArr.push(`property | Learning Teamwork | ${teamwork.training[0]} days`);
+    }
 
     if (access) {
         lineArr.push('property | Access | ' + Renderer.stripTags(access));
@@ -256,21 +262,36 @@ const getContent = ({
         lineArr.push('property | Trigger | ' + Renderer.stripTags(trigger));
     }
 
-    if (frequency?.unit) {
-        if (frequency.interval > 1)
-            lineArr.push(
-                `property | Frequency | once per ${frequency.interval} ${frequency.unit}s`
-            );
-        else lineArr.push(`property | Frequency | once per ${frequency.unit}`);
-    } else if (frequency?.entry) {
-        lineArr.push(`property | Frequency | ${frequency.entry}`);
-    }
+    if (frequency) lineArr.push(parseFrequency(frequency));
 
     lineArr.push('rule');
 
     return lineArr
         .concat(getTextEntries(item))
+        .concat(handleTeamwork(teamwork || {}))
         .concat(handleDragonmarkHeightened(dragonmark || {}));
+};
+
+const handleTeamwork = ({ honed, excellent, perfect, training }) => {
+    const arr = ['fill', 'section | Further Teamwork'];
+
+    if (honed)
+        arr.push(
+            `property | Honed Teamwork | (*${training[1]} days*) ${Renderer.stripTags(
+                honed
+            )}`
+        );
+    if (excellent)
+        arr.push(
+            `property | Excellend Teamwork  | (*${training[2]} days*) ${Renderer.stripTags(excellent)}`
+        );
+    if (perfect)
+        arr.push(
+            `property | Perfect Teamwork | (*${training[3]} days*) ${Renderer.stripTags(perfect)}`
+        );
+
+    if (arr.length > 2) return arr;
+    else return [];
 };
 
 const handleDragonmarkHeightened = ({

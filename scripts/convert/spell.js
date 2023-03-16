@@ -9,6 +9,8 @@ const {
     parseSavingThrow,
     nthStr,
     cleanContent,
+    parseDuration,
+    parseFrequency,
 } = require('../util/crobiUtil');
 const { DataUtil, SortUtil, Renderer } = require('../util/toolUtil');
 
@@ -32,7 +34,7 @@ const convertItem = (item) => {
     const card = initCard();
     // console.log('working on', item.name);
     card.reference = item.reference || [];
-    
+
     card.filtering = ['spell', `level-${item.level}`];
     if (Array.isArray(item.traditions))
         card.filtering = card.filtering.concat(item.traditions);
@@ -91,7 +93,10 @@ const convertItem = (item) => {
     if (notSubset(item.traits, ['unique', 'rare', 'uncommon']))
         card.filtering.push('common');
 
-        if(item.domains) item.domains.forEach(domain => card.filtering.push(`domain-${domain}`))
+    if (item.domains)
+        item.domains.forEach((domain) =>
+            card.filtering.push(`domain-${domain}`)
+        );
     card.level = item.level;
 
     return card;
@@ -148,15 +153,7 @@ const getContent = ({
         line = '';
     }
 
-    if (frequency?.entry) {
-        lineArr.push(`property | Frequency | ${frequency.entry}`);
-    } else if (frequency?.unit) {
-        if (frequency.interval > 1)
-            lineArr.push(
-                `property | Frequency | once per ${frequency.interval} ${frequency.unit}s`
-            );
-        else lineArr.push(`property | Frequency | once per ${frequency.unit}`);
-    }
+    if (frequency) lineArr.push(parseFrequency(frequency));
 
     if (savingThrow)
         lineArr.push(
@@ -182,7 +179,8 @@ const getContent = ({
         lineArr.push(line);
     }
 
-    if (duration) lineArr.push(`property | Duration | ${strDuration(duration)}`);
+    if (duration)
+        lineArr.push(`property | Duration | ${parseDuration(duration)}`);
 
     lineArr.push('rule');
 
@@ -286,16 +284,15 @@ const getId = ({ traits, source, focus, level, type, ...item }) => {
         .join('.');
 };
 
-const strDuration = ({entry, number, unit}) => {
+const strDuration = ({ entry, number, unit }) => {
+    if (entry) return entry;
 
-    if(entry) return entry;
-
-    if(number > 1) {
+    if (number > 1) {
         return `${number} ${unit}s`;
     }
 
-    return `${number} ${unit}`
-}
+    return `${number} ${unit}`;
+};
 
 module.exports = {
     convertSpell2Save,

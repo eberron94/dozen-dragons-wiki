@@ -16,6 +16,61 @@
             "entries": [
                 "Your ancestral resistance to magic protects you. You gain a +1 circumstance bonus to the triggering saving throw. If the triggering effect is {@trait occult}, you gain a +2 circumstance bonus instead."
             ]
+        },
+        {
+            "name": "Synthesize Strategy",
+            "source": "BREW",
+            "page": 1,
+            "activity": {
+                "number": 1,
+                "unit": "action"
+            },
+            "traits": ["concentrate"],
+            "actionType": {
+                "basic": true
+            },
+            "entries": [
+                "You combine your knowledge of a creature with basic combat strategy. You Recall Knowledge about a creature you can see, it loses the secret trait. You use the following results. You can ask specific questions for each piece of information (such as what Saving Throw is the lowest) or leave it to the GM to decide. The DC increases by 2 each time you succeed with each skill.",
+                {
+                    "type": "successDegree",
+                    "entries": {
+                        "Critical Success": "You learn the creature's category, creature traits, and two pieces of information about the target. Choose two allies within 30 feet of you. You count as having prepared the Aid reaction to help one of them with an attack roll or skill check against the target during that time. You roll the same skill check for Aid as you did for this action and it gains the auditory and linguistic traits.",
+                        "Success": "As critical success, but you either learn one piece of information and are prepared to Aid one ally or learn two pieces of information and are not prepared to Aid.",
+                        "Failure": "You learn the creature's category and creature traits. {@b Dubious Knowledge} You learn one true and one false piece of information at the GM's discretion.",
+                        "Critical Failure": "You learn nothing."
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Pool Information",
+            "source": "BREW",
+            "page": 1,
+            "activity": {
+                "number": 10,
+                "unit": "minutes"
+            },
+            "traits": ["concentrate", "verbal", "linguistic", "exploration"],
+            "actionType": {
+                "basic": true
+            },
+            "entries": [
+                "You and any allies partaking in this activity Recall Knowledge on the same topic, it loses the secret trait. The highest roll is used for the check and all other rolls are made against a retroactive DC, as if they had taken the Aid reaction."
+            ]
+        },
+        {
+            "name": "Connect a Topic",
+            "source": "BREW",
+            "page": 1,
+            "activity": {
+                "number": 2,
+                "unit": "action"
+            },
+            "traits": ["concentrate", "manipulate"],
+            "trigger": "You have your journal in your hand.",
+            "entries": [
+                "You reference your journal and the topics held within it. You Recall Knowledge and gain a status bonus to the roll if you expend a relevant topic. The status bonus is a +1 for broad topics and +2 for narrow topics."
+            ]
         }
     ]
 }

@@ -31,6 +31,11 @@ const convertItem = (item) => {
     // card.original = item;
     card.reference = item.reference || [];
 
+    card.filtering = ['action'];
+    if (Array.isArray(item.traits))
+        card.filtering = card.filtering.concat(item.traits);
+
+
     const act = item.activity ? parseActivity(item.activity) : '';
 
     // SET NAME
@@ -63,6 +68,7 @@ const getContent = ({
     frequency,
     activity,
     trigger,
+    teamwork,
     ...item
 }) => {
     const lineArr = [];
@@ -94,7 +100,13 @@ const getContent = ({
     }
 
     if (frequency?.unit) {
-        lineArr.push('property | Frequency | once per ' + frequency.unit);
+        if (frequency.interval > 1)
+            lineArr.push(
+                `property | Frequency | once per ${frequency.interval} ${frequency.unit}s`
+            );
+        else lineArr.push(`property | Frequency | once per ${frequency.unit}`);
+    } else if (frequency?.entry) {
+        lineArr.push(`property | Frequency | ${frequency.entry}`);
     }
 
     lineArr.push('rule');
@@ -104,6 +116,10 @@ const getContent = ({
 
 const getId = ({ actionType, type, source, ...item }) => {
     const idArr = ['action'];
+
+    if(item?.traits?.includes('downtime')) {
+        idArr.push('downtime')
+    }
 
     if (actionType) {
         Object.keys(actionType).forEach((key) => {
