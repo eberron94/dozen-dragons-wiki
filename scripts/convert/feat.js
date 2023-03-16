@@ -283,7 +283,7 @@ const handleTeamwork = ({ honed, excellent, perfect, training }) => {
         );
     if (excellent)
         arr.push(
-            `property | Excellend Teamwork  | (*${training[2]} days*) ${Renderer.stripTags(excellent)}`
+            `property | Excellent Teamwork  | (*${training[2]} days*) ${Renderer.stripTags(excellent)}`
         );
     if (perfect)
         arr.push(
