@@ -18,6 +18,7 @@
         - action.ancestry.shisk.lome.barbed-quills
         - action.ancestry.vishkanya.loil.envenom
         - action.ancestry.vishkanya.loil.venom-draw
+        - action.basic.brew.connect-a-topic
         - action.basic.brew.pool-information
         - action.basic.brew.synthesize-strategy
         - action.basic.crb.activate-an-item
@@ -107,7 +108,6 @@
         - action.basic.skill.untrained.crb.trip
         - action.basic.skill.untrained.crb.tumble-through
         - action.basic.som.affix-a-fulu
-        - action.brew.connect-a-topic
         - action.brew.no-need-for-tricks
         - action.class.alchemist.crb.quick-alchemy
         - action.class.alchemist.subclass.mutagenist.crb.mutagenic-flashback

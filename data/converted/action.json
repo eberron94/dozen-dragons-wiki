@@ -62,7 +62,7 @@
         ]
     },
     {
-        "id": "action.brew.connect-a-topic",
+        "id": "action.basic.brew.connect-a-topic",
         "color": "#B71C1C",
         "name": "Connect a Topic",
         "title": "Connect a Topic [[two-action]]",
@@ -70,7 +70,6 @@
         "code": "action",
         "contents": [
             "pftrait | concentrate | manipulate",
-            "property | Trigger | You have your journal in your hand.",
             "rule",
             "text | You reference your journal and the topics held within it. You Recall Knowledge and gain a status bonus to the roll if you expend a relevant topic. The status bonus is a +1 for broad topics and +2 for narrow topics."
         ],

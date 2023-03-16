@@ -3,20 +3,28 @@ const { toCamelCase, escapeStr } = require('../util/stringHelper');
 const { readMarkdownFilesSync, readJsonFilesSync } = require('./importData');
 const md = require('markdown-it')().use(require('markdown-it-anchor'), {});
 
-exports.colatePages = () => {
-    const mdxFiles = readMarkdownFilesSync('pages');
+exports.colatePages = (target) => {
+    const mdxFiles = {
+        ...readMarkdownFilesSync('pages'),
+        ...readMarkdownFilesSync('pages_' + target),
+    };
     const mdxPages = Object.entries(mdxFiles).map(
         ([filePath, { content, metadata }]) => {
             const [contentPrime, sidebarContent] = extractSidebar(content);
             // console.log(typeof contentPrime, typeof sidebarContent);
             var resultPrime = md.render(contentPrime);
             var resultSidebar = md.render(sidebarContent);
-            const index = filePath.indexOf('/pages/');
+            let index = filePath.indexOf('/pages/');
+            if(index === -1) index = filePath.indexOf(`/pages_${target}/`);
 
             return {
                 id: 'mdx' + toCamelCase(metadata.name),
                 frontMatter: metadata,
-                slug: filePath.substring(index + 6).split('/').filter(folderName=>!folderName.startsWith('_')).join('/'),
+                slug: filePath
+                    .substring(index + 6)
+                    .split('/')
+                    .filter((folderName) => !folderName.startsWith('_'))
+                    .join('/'),
 
                 html: resultPrime
                     .replace(/\<p/g, `<div class="p"`)

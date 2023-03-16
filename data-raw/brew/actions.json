@@ -67,7 +67,9 @@
                 "unit": "action"
             },
             "traits": ["concentrate", "manipulate"],
-            "trigger": "You have your journal in your hand.",
+            "actionType": {
+                "basic": true
+            },
             "entries": [
                 "You reference your journal and the topics held within it. You Recall Knowledge and gain a status bonus to the roll if you expend a relevant topic. The status bonus is a +1 for broad topics and +2 for narrow topics."
             ]

@@ -44,7 +44,7 @@ exports.readMarkdownFilesSync = (dir) => {
     files
         .filter((f) => f.ext === '.md' || f.ext === '.mdx')
         .forEach(({ filepath, ...other }) => {
-            // console.log('found', filepath);
+            if (dir !== 'pages') console.log('found', filepath);
 
             const raw = fs.readFileSync(filepath, 'utf8');
             const md = markdownMetaParser(raw);
@@ -59,4 +59,3 @@ exports.readMarkdownFilesSync = (dir) => {
 
     return content;
 };
-

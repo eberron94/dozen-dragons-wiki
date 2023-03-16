@@ -62,8 +62,9 @@ const navigationDividers = [
 
 class Kaiser {
     constructor() {
+        const target = process.argv[2] || 'dd';
         console.time('kaiser-constructor');
-        const coreData = colatePages();
+        const coreData = colatePages(target);
 
         console.log('Parsing', Object.keys(coreData));
 
@@ -211,7 +212,8 @@ class Kaiser {
 
     applyReferences2Cards() {
         const refableCards = this.data.itemCard.list.filter(
-            (e) => Array.isArray(e.card.reference) && e.card.reference.length > 0
+            (e) =>
+                Array.isArray(e.card.reference) && e.card.reference.length > 0
         );
 
         refableCards.forEach((rCard) => {
@@ -225,15 +227,15 @@ class Kaiser {
         refableCards.map((rCard) => {
             if (rCard.block.index.includes(`<div class='reference'></div>`))
                 // console.log('FOUND REFERENCE PART', rCard.id);
-            rCard.block.index = rCard.block.index.replace(
-                `<div class='reference'></div>`,
-                `<svg class="card-element card-ruler-line" height="1" width="100" viewBox="0 0 100 1" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                rCard.block.index = rCard.block.index.replace(
+                    `<div class='reference'></div>`,
+                    `<svg class="card-element card-ruler-line" height="1" width="100" viewBox="0 0 100 1" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
                 <polyline points="0,0 100,0.5 0,1" fill="{color}"></polyline>
                 </svg>
                 <div class='reference'>
                     ${rCard.card.reference.join('\n')}
                 </div>`
-            );
+                );
         });
     }
 

@@ -25,6 +25,7 @@
     },
     "homepage": "https://github.com/z00md/quiz#readme",
     "dependencies": {
+        "child_process": "^1.0.2",
         "fs-extra": "^10.0.0",
         "handlebars": "^4.7.7",
         "json-stable-stringify": "^1.0.1",
