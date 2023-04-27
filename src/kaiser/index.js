@@ -62,9 +62,9 @@ const navigationDividers = [
 
 class Kaiser {
     constructor() {
-        const target = process.argv[2] || 'dd';
+        this.target = process.argv[2] || 'dd';
         console.time('kaiser-constructor');
-        const coreData = colatePages(target);
+        const coreData = colatePages(this.target);
 
         console.log('Parsing', Object.keys(coreData));
 

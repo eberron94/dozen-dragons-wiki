@@ -1,0 +1,4 @@
+.game-dd .fr,
+.game-fr .dd {
+    display: none;
+}

@@ -35,22 +35,36 @@
 
         <link rel='stylesheet' type='text/css' href='/css/mobile.css' />
         <link rel='stylesheet' type='text/css' href='/css/tooltip.css' />
+        <link rel='stylesheet' type='text/css' href='/css/game.css' />
 
     </head>
 
-    <body>
+    <body class="game-{{{target}}}">
 
         <nav class='nav deco-bar'>
             <div class='deco-bar-header'>
                 <a class='deco-bar-icon' href='/'>
-                    <img src='/img/badge.png' alt='logo' />
+                    <img src='/img/badge-{{{target}}}.png' alt='logo' />
                 </a>
             </div>
-            <div class='deco-bar-title'>Dozen Dragons</div>
+            <div class='deco-bar-title dd'>Dozen Dragons</div>
+            <div class='deco-bar-title fr'>Flame Rondo</div>
 
             <ul class='breadcrumb'>
                 {{{breadcrumb this.node isYoungest=true}}}
             </ul>
+
+            <div class='join-game fr'>
+                <a
+                    class='join-icon tooltip'
+                    href='https://vtt.grand-dragonmark.com'
+                >
+                    <img src='/img/join.png' alt='logo' />
+                    <span class='tool-tip-content'>
+                        Join Foundry VTT Game
+                    </span>
+                </a>
+            </div>
 
             <div class='toggle-nav-menu'><input
                     id='toggle-nav'

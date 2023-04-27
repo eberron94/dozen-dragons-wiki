@@ -58,7 +58,8 @@ exports.buildSite = () => {
                 navigation: navHTML,
                 prev,
                 next,
-                site: sitePackage
+                site: sitePackage,
+                target: kaiser.target,
             });
         ensureDirectoryExistence('./build/' + node.slug);
         fs.writeFile('./build/' + node.slug + '.html', completeHTML, (err) => {
@@ -281,7 +282,10 @@ const registerHandlebars = () => {
     Handlebars.registerHelper('deck', (context, options) => {
         const buildDeck = compileHandlebarTemplate('templates/page/deck.hbs');
 
-        if(typeof context === 'string') context = kaiser.data.itemCard.findPartials(context).sort(kaiser.data.itemCard.sort)
+        if (typeof context === 'string')
+            context = kaiser.data.itemCard
+                .findPartials(context)
+                .sort(kaiser.data.itemCard.sort);
 
         if (options.hash.levelHeading && Array.isArray(context)) {
             const hl = Number(options.hash.levelHeading) || 2;
