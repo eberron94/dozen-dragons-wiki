@@ -132,6 +132,7 @@ const parse = (item) => {
 
     return {
         id: toCamelCase('page' + node.slug.replace(/\//g, ' ')),
+        refid: item.id,
         slug: node.slug,
         type: 'mdx',
         node,

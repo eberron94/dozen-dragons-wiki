@@ -38,24 +38,29 @@ exports.readJsonFilesSync = (dir) => {
 };
 
 exports.readMarkdownFilesSync = (dir) => {
-    const files = getFilePaths(dir);
+    try {
+        const files = getFilePaths(dir);
 
-    const content = {};
-    files
-        .filter((f) => f.ext === '.md' || f.ext === '.mdx')
-        .forEach(({ filepath, ...other }) => {
-            if (dir !== 'pages') console.log('found', filepath);
+        const content = {};
+        files
+            .filter((f) => f.ext === '.md' || f.ext === '.mdx')
+            .forEach(({ filepath, ...other }) => {
+                if (dir !== 'pages') console.log('found', filepath);
 
-            const raw = fs.readFileSync(filepath, 'utf8');
-            const md = markdownMetaParser(raw);
-            const startIndex = filepath.lastIndexOf('content');
-            const key = filepath
-                .slice(startIndex - filepath.length + 8)
-                .replace('.mdx', '')
-                .replace('.md', '');
+                const raw = fs.readFileSync(filepath, 'utf8');
+                const md = markdownMetaParser(raw);
+                const startIndex = filepath.lastIndexOf('content');
+                const key = filepath
+                    .slice(startIndex - filepath.length + 8)
+                    .replace('.mdx', '')
+                    .replace('.md', '');
 
-            content[key] = { ...md, type: 'markdown' };
-        });
+                content[key] = { ...md, type: 'markdown' };
+            });
 
-    return content;
+        return content;
+    } catch (e) {
+        console.log(e);
+        return {};
+    }
 };

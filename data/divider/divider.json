@@ -1,0 +1,35 @@
+{
+    "type": "divider",
+    "dividers": [
+        {
+            "id": "character-options",
+            "name": "Character Options",
+            "weight": 1000
+        },
+        {
+            "id": "magic",
+            "name": "Magic",
+            "weight": 2000
+        },
+        {
+            "id": "alchemy",
+            "name": "Alchemy",
+            "weight": 3000
+        },
+        {
+            "id": "gear",
+            "name": "Adventuring Gear",
+            "weight": 4000
+        },
+        {
+            "id": "wonderous-items",
+            "name": "Magical Equipment",
+            "weight": 5000
+        },
+        {
+            "id": "eberron",
+            "name": "Eberron",
+            "weight": 10000
+        }
+    ]
+}

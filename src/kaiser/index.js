@@ -8,61 +8,12 @@ const { composeAsset } = require('./composer/asset');
 const { composeCard } = require('./composer/card');
 const { composeDefinition } = require('./composer/definition');
 const { composeMDX } = require('./composer/mdx');
-
-const navigationDividers = [
-    {
-        id: 'character-options',
-        name: 'Character Options',
-        slug: '',
-        depth: 1,
-        weight: 1_000,
-        children: [],
-    },
-    {
-        id: 'magic',
-        name: 'Magic',
-        slug: '',
-        depth: 1,
-        weight: 2_000,
-        children: [],
-    },
-    {
-        id: 'alchemy',
-        name: 'Alchemy',
-        slug: '',
-        depth: 1,
-        weight: 3_000,
-        children: [],
-    },
-    {
-        id: 'gear',
-        name: 'Adventuring Gear',
-        slug: '',
-        depth: 1,
-        weight: 4_000,
-        children: [],
-    },
-    {
-        id: 'wonderous-items',
-        name: 'Magical Equipment',
-        slug: '',
-        depth: 1,
-        weight: 5_000,
-        children: [],
-    },
-    {
-        id: 'eberron',
-        name: 'Eberron',
-        slug: '',
-        depth: 1,
-        weight: 10_000,
-        children: [],
-    },
-];
+const { camelCase } = require('lodash');
+const { toCamelCase, toDashCase } = require('../util/stringHelper');
 
 class Kaiser {
     constructor() {
-        this.target = process.argv[2] || 'dd';
+        this.target = process.argv[2] ;
         console.time('kaiser-constructor');
         const coreData = colatePages(this.target);
 
@@ -96,12 +47,25 @@ class Kaiser {
             );
         }
 
+        // Prepare Navigation Dividers
+        const dividers = coreData.divider
+            .flatMap((e) => e.dividers)
+            .map((d) => ({
+                id: d.id || toDashCase(d.name),
+                name: d.name,
+                slug: '',
+                depth: 1,
+                weight: d.weight,
+                children: [],
+            }));
+
+
         //Build navigation template-usable array
         this.navigationTree = nodeArr
             .filter((e) => e.path.length === 1)
             .sort(PageNode.sort)
             .map(makeChildNode)
-            .concat(navigationDividers)
+            .concat(dividers)
             .sort(PageNode.sort);
 
         //Flatten nav tree for paging
